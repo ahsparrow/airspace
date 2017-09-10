@@ -15,8 +15,11 @@
 # FAA/EUROCONTROL's Aeronautical Information Exchange Model (AIXM). More
 # details (including a data schema) can be found in the YAXIM project on
 # GitHub at https://github.com/ahsparrow/yaixm.
-#
+
 airspace:
+#----------------------------------------------------------------------
+# ENR 2.1 FIR, UIR, TMA
+
 - name: CLACTON
   type: CTA
   class: A
@@ -82,6 +85,7 @@ airspace:
       - 512130N 0012140E
       - 512247N 0011549E
       - 513905N 0012500E
+
 - name: COTSWOLD
   type: CTA
   class: A
@@ -242,6 +246,7 @@ airspace:
       - 514028N 0020214W
       - 513039N 0020510W
       - 513135N 0021321W
+
 - name: DAVENTRY
   type: CTA
   class: A
@@ -468,6 +473,7 @@ airspace:
       - 530626N 0024349W
       - 530443N 0024001W
       - 521856N 0014705W
+
 - name: PORTSMOUTH
   type: CTA
   class: A
@@ -655,6 +661,7 @@ airspace:
       - 505512N 0013047W
       - 505334N 0014051W
       - 510045N 0013053W
+
 - name: SEVERN
   type: CTA
   class: C
@@ -678,6 +685,7 @@ airspace:
       - 512448N 0025147W
       - 511505N 0025335W
       - 511010N 0031341W
+
 - name: SOLENT
   type: CTA
   class: D
@@ -785,6 +793,7 @@ airspace:
       - 504035N 0012350W
       - 502754N 0013240W
       - 503156N 0014700W
+
 - name: STRUMBLE
   type: CTA
   class: A
@@ -830,6 +839,7 @@ airspace:
       - 514355N 0032348W
       - 513946N 0032432W
       - 514224N 0034108W
+
 - name: WORTHING
   type: CTA
   class: A
@@ -861,6 +871,7 @@ airspace:
       - 504012N 0002904W
       - 503606N 0003840W
       - 503700N 0003938W
+
 - name: NORTH SEA
   type: CTA
   class: A
@@ -875,6 +886,7 @@ airspace:
       - 531222N 0000027E
       - 530848N 0003358E
       - 531835N 0003659E
+
 - name: LONDON
   type: TMA
   class: A
@@ -1184,6 +1196,7 @@ airspace:
       - 510652N 0004829W
       - 505728N 0004224W
       - 505616N 0005119W
+
 - name: MANCESTER
   type: TMA
   class: A
@@ -1216,6 +1229,7 @@ airspace:
       - 533630N 0030136W
       - 533222N 0030059W
       - 533223N 0025907W
+
 - name: SCOTTISH
   type: TMA
   class: D
@@ -1298,6 +1312,7 @@ airspace:
       - 560700N 0040910W
       - 555500N 0045200W
       - 560000N 0044400W
+
 - name: BRIZE NORTON
   type: CTR
   class: D
@@ -1325,6 +1340,10 @@ airspace:
         to: 514218N 0014427W
     - line:
       - 514120N 0015001W
+
+#----------------------------------------------------------------------
+# ENR 2.2 Other regulated airspace
+
 - name: BARKSTONE HEATH
   type: ATZ
   geometry:
@@ -1334,6 +1353,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 525747N 0003337W
+
 - name: BENSON
   type: ATZ
   geometry:
@@ -1343,6 +1363,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 513654N 0010545W
+
 - name: BOSCOME DOWN
   type: ATZ
   geometry:
@@ -1352,6 +1373,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 510911N 0014504W
+
 - name: COLERNE
   type: ATZ
   geometry:
@@ -1361,6 +1383,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 512630N 0021646W
+
 - name: CONINGSBY
   type: ATZ
   geometry:
@@ -1370,6 +1393,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 530535N 0000958W
+
 - name: COSFORD
   type: ATZ
   geometry:
@@ -1379,6 +1403,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 523824N 0021820W
+
 - name: CRANWELL
   type: ATZ
   geometry:
@@ -1388,6 +1413,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 530147N 0002934W
+
 - name: CULDROSE
   type: ATZ
   geometry:
@@ -1397,6 +1423,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 500507N 0051515W
+
 - name: FAIRFORD
   type: ATZ
   geometry:
@@ -1406,6 +1433,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 514101N 0014725W
+
 - name: HALTON
   type: ATZ
   geometry:
@@ -1415,6 +1443,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 514733N 0004416W
+
 - name: HONINGTION
   type: ATZ
   geometry:
@@ -1424,6 +1453,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 522036N 0004648E
+
 - name: KINLOSS
   type: ATZ
   geometry:
@@ -1433,6 +1463,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 573858N 0033338W
+
 - name: LAKENHEATH
   type: ATZ
   geometry:
@@ -1442,6 +1473,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 522434N 0003340E
+
 - name: LEEMING
   type: ATZ
   geometry:
@@ -1451,6 +1483,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 541733N 0013207W
+
 - name: LEUCHARS
   type: ATZ
   geometry:
@@ -1460,6 +1493,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 562230N 0025129W
+
 - name: LINTON-ON-OUSE
   type: ATZ
   geometry:
@@ -1469,6 +1503,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 540258N 0011511W
+
 - name: LOSSIEMOUTH
   type: ATZ
   geometry:
@@ -1478,6 +1513,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 574218N 0032021W
+
 - name: LYNEHAM
   type: ATZ
   geometry:
@@ -1487,6 +1523,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 513019N 0015936W
+
 - name: MARHAM
   type: ATZ
   geometry:
@@ -1496,6 +1533,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 523854N 0003302E
+
 - name: MERRYFIELD
   type: ATZ
   geometry:
@@ -1505,6 +1543,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 505745N 0025608W
+
 - name: MIDDLE WALLOP
   type: ATZ
   geometry:
@@ -1514,6 +1553,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 510822N 0013407W
+
 - name: MILDENHALL
   type: ATZ
   geometry:
@@ -1523,6 +1563,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 522143N 0002911E
+
 - name: MONA
   type: ATZ
   geometry:
@@ -1532,6 +1573,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 531533N 0042226W
+
 - name: NETHERAVON
   type: ATZ
   geometry:
@@ -1541,6 +1583,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 511450N 0014515W
+
 - name: ODIHAM
   type: ATZ
   geometry:
@@ -1550,6 +1593,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 511403N 0005634W
+
 - name: PORTSMOUTH/FLEETLANDS
   type: ATZ
   geometry:
@@ -1575,6 +1619,7 @@ airspace:
         radius: 2 nm
         centre: 504857N 0011224W
         to: 504810N 0010929W
+
 - name: PREDANNACK
   type: ATZ
   geometry:
@@ -1584,6 +1629,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 500007N 0051354W
+
 - name: SAINT ATHAN
   type: ATZ
   geometry:
@@ -1598,6 +1644,7 @@ airspace:
         radius: 2 nm
         centre: 512419N 0032600W
         to: 512532N 0032328W
+
 - name: SCAMPTON
   type: ATZ
   geometry:
@@ -1607,6 +1654,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 531828N 0003303W
+
 - name: SHAWBURY
   type: ATZ
   geometry:
@@ -1616,6 +1664,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 524737N 0024004W
+
 - name: SYERSTON
   type: ATZ
   geometry:
@@ -1625,6 +1674,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 530124N 0005442W
+
 - name: TERNHILL
   type: ATZ
   geometry:
@@ -1634,6 +1684,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 525225N 0023155W
+
 - name: TOPCLIFFE
   type: ATZ
   geometry:
@@ -1643,6 +1694,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 541220N 0012254W
+
 - name: VALLEY
   type: ATZ
   geometry:
@@ -1652,6 +1704,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 531453N 0043207W
+
 - name: WADDINGTON
   type: ATZ
   geometry:
@@ -1661,6 +1714,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 530958N 0003126W
+
 - name: WATTISHAM
   type: ATZ
   geometry:
@@ -1670,6 +1724,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 520738N 0005723E
+
 - name: WITTERING
   type: ATZ
   geometry:
@@ -1679,6 +1734,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 523647N 0002833W
+
 - name: WOODVALE
   type: ATZ
   geometry:
@@ -1688,6 +1744,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 533456N 0030324W
+
 - name: YEOVILTON
   type: ATZ
   geometry:
@@ -1697,6 +1754,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 510029N 0023845W
+
 - name: BARKSTON/CRANWELL
   type: OTHER
   localtype: MATZ
@@ -1729,6 +1787,7 @@ airspace:
     - line:
       - 525323N 0003857W
       - 525646N 0004228W
+
 - name: BENSON
   type: OTHER
   localtype: MATZ
@@ -1765,6 +1824,7 @@ airspace:
         radius: 5 nm
         centre: 513654N 0010545W
         to: 514143N 0010755W
+
 - name: BOSCOMBE DOWN/MIDDLE WALLOP
   type: OTHER
   localtype: MATZ
@@ -1787,6 +1847,7 @@ airspace:
         radius: 5 nm
         centre: 510822N 0013407W
         to: 510513N 0014017W
+
 - name: BOSCOMBE
   type: OTHER
   localtype: MATZ
@@ -1823,6 +1884,7 @@ airspace:
         radius: 5 nm
         centre: 510822N 0013407W
         to: 511313N 0013228W
+
 - name: CONINGSBY
   type: OTHER
   localtype: MATZ
@@ -1846,6 +1908,7 @@ airspace:
         radius: 5 nm
         centre: 530535N 0000958W
         to: 530506N 0000143W
+
 - name: CRANWELL
   type: OTHER
   localtype: MATZ
@@ -1868,6 +1931,7 @@ airspace:
         radius: 5 nm
         centre: 530535N 0000958W
         to: 530439N 0001805W
+
 - name: CULDROSE
   type: OTHER
   localtype: MATZ
@@ -1909,6 +1973,7 @@ airspace:
         radius: 5 nm
         centre: 500007N 0051354W
         to: 500036N 0050610W
+
 - name: KINLOSS/LOSSIEMOUTH
   type: OTHER
   localtype: MATZ
@@ -1929,6 +1994,7 @@ airspace:
         radius: 5 nm
         centre: 574218N 0032021W
         to: 573750N 0032432W
+
 - name: LAKENHEATH/MILDENHALL
   type: OTHER
   localtype: MATZ
@@ -1960,6 +2026,7 @@ airspace:
         radius: 5 nm
         centre: 522143N 0002911E
         to: 522618N 0002559E
+
 - name: LEEMING/TOPCLIFFE
   type: OTHER
   localtype: MATZ
@@ -1982,6 +2049,7 @@ airspace:
         radius: 5 nm
         centre: 541220N 0012255W
         to: 541237N 0013124W
+
 - name: LEEMING
   type: OTHER
   localtype: MATZ
@@ -1999,6 +2067,7 @@ airspace:
         radius: 5 nm
         centre: 541733N 0013207W
         to: 542233N 0013211W
+
 - name: LEUCHARS
   type: OTHER
   localtype: MATZ
@@ -2034,6 +2103,7 @@ airspace:
         radius: 5 nm
         centre: 562230N 0025129W
         to: 562350N 0030009W
+
 - name: LINTON
   type: OTHER
   localtype: MATZ
@@ -2057,6 +2127,7 @@ airspace:
         radius: 5 nm
         centre: 540258N 0011513W
         to: 540551N 0010818W
+
 - name: LOSSIEMOUTH
   type: OTHER
   localtype: MATZ
@@ -2074,6 +2145,7 @@ airspace:
         radius: 5 nm
         centre: 574218N 0032021W
         to: 574412N 0031142W
+
 - name: MARHAM
   type: OTHER
   localtype: MATZ
@@ -2109,6 +2181,7 @@ airspace:
         radius: 5 nm
         centre: 523854N 0003302E
         to: 523805N 0002456E
+
 - name: MERRYFIELD
   type: OTHER
   localtype: MATZ
@@ -2120,6 +2193,7 @@ airspace:
     - circle:
         radius: 3 nm
         centre: 505745N 0025608W
+
 - name: MIDDLE WALLOP
   type: OTHER
   localtype: MATZ
@@ -2137,6 +2211,7 @@ airspace:
         radius: 5 nm
         centre: 510822N 0013407W
         to: 510732N 0012617W
+
 - name: MILDENHALL
   type: OTHER
   localtype: MATZ
@@ -2164,6 +2239,7 @@ airspace:
     - line:
       - 522553N 0001400E
       - 521904N 0001128E
+
 - name: MONA VALLEY
   type: OTHER
   localtype: MATZ
@@ -2186,6 +2262,7 @@ airspace:
         radius: 5 nm
         centre: 531453N 0043207W
         to: 531913N 0042804W
+
 - name: ODIHAM
   type: OTHER
   localtype: MATZ
@@ -2209,6 +2286,7 @@ airspace:
         radius: 5 nm
         centre: 511403N 0005634W
         to: 511617N 0010341W
+
 - name: SCAMPTON/WADDINGTON
   type: OTHER
   localtype: MATZ
@@ -2231,6 +2309,7 @@ airspace:
         radius: 5 nm
         centre: 530958N 0003126W
         to: 531355N 0003628W
+
 - name: SCAMPTON
   type: OTHER
   localtype: MATZ
@@ -2255,6 +2334,7 @@ airspace:
         radius: 5 nm
         centre: 531828N 0003303W
         to: 531619N 0004034W
+
 - name: SHAWBURY/TERNHILL
   type: OTHER
   localtype: MATZ
@@ -2277,6 +2357,7 @@ airspace:
         radius: 5 nm
         centre: 525225N 0023155W
         to: 524727N 0023151W
+
 - name: SHAWBURY
   type: OTHER
   localtype: MATZ
@@ -2311,6 +2392,7 @@ airspace:
         radius: 5 nm
         centre: 524737N 0024004W
         to: 524302N 0024321W
+
 - name: TOPCLIFFE
   type: OTHER
   localtype: MATZ
@@ -2328,6 +2410,7 @@ airspace:
         radius: 5 nm
         centre: 541220N 0012255W
         to: 541553N 0011656W
+
 - name: VALLEY
   type: OTHER
   localtype: MATZ
@@ -2345,6 +2428,7 @@ airspace:
         radius: 5 nm
         centre: 531453N 0043207W
         to: 531921N 0043550W
+
 - name: WADDINGTON
   type: OTHER
   localtype: MATZ
@@ -2366,6 +2450,7 @@ airspace:
         radius: 5 nm
         centre: 530958N 0003126W
         to: 531328N 0002529W
+
 - name: WARTON
   type: OTHER
   localtype: MATZ
@@ -2413,6 +2498,7 @@ airspace:
         radius: 5 nm
         centre: 534442N 0025302W
         to: 534506N 0030126W
+
 - name: WATTISHAM
   type: OTHER
   localtype: MATZ
@@ -2448,6 +2534,7 @@ airspace:
         radius: 5 nm
         centre: 520738N 0005723E
         to: 520603N 0004942E
+
 - name: WITTERING
   type: OTHER
   localtype: MATZ
@@ -2483,6 +2570,7 @@ airspace:
         radius: 5 nm
         centre: 523647N 0002833W
         to: 523719N 0003645W
+
 - name: YEOVILTON
   type: OTHER
   localtype: MATZ
@@ -2524,6 +2612,10 @@ airspace:
         radius: 5 nm
         centre: 510029N 0023845W
         to: 510154N 0024621W
+
+#----------------------------------------------------------------------
+# ENR 3.1 Lower ATS Routes
+
 - name: L15
   type: AWY
   class: A
@@ -2536,6 +2628,7 @@ airspace:
       - 531956N 0033953W
       - 531855N 0031647W
       - 530812N 0031736W
+
 - name: L60/L603/M868
   type: AWY
   class: A
@@ -2554,6 +2647,7 @@ airspace:
       - 530517N 0013152W
       - 531145N 0013558W
       - 531137N 0013631W
+
 - name: L70
   type: AWY
   class: A
@@ -2565,6 +2659,7 @@ airspace:
       - 533908N 0024023W
       - 533630N 0030136W
       - 534017N 0030211W
+
 - name: L612
   type: AWY
   class: A
@@ -2593,6 +2688,7 @@ airspace:
       - 543330N 0031837W
       - 540234N 0023858W
       - 535858N 0025310W
+
 - name: L612/N57
   type: AWY
   class: A
@@ -2608,6 +2704,7 @@ airspace:
       - 545853N 0033559W
       - 545410N 0035231W
       - 550603N 0041419W
+
 - name: L612/N57/P17/P18
   type: AWY
   class: A
@@ -2627,6 +2724,7 @@ airspace:
       - 550045N 0032924W
       - 550533N 0031219W
       - 550858N 0030000W
+
 - name: L975
   type: AWY
   class: A
@@ -2694,6 +2792,7 @@ airspace:
       - 532045N 0035838W
       - 532134N 0042033W
       - 533336N 0041914W
+
 - name: N57
   type: AWY
   class: A
@@ -2730,6 +2829,7 @@ airspace:
       - 540828N 0022519W
       - 540234N 0023858W
       - 541038N 0024914W
+
 - name: N560
   type: AWY
   class: E
@@ -2766,6 +2866,7 @@ airspace:
       - 585838N 0030306W
       - 583006N 0031442W
       - 575447N 0043205W
+
 - name: N560/Y906
   type: AWY
   class: E
@@ -2785,6 +2886,7 @@ airspace:
       - 574941N 0051452W
       - 572958N 0041232W
       - 571326N 0041636W
+
 - name: N601
   type: AWY
   class: A
@@ -2834,6 +2936,7 @@ airspace:
       - 522630N 0002732W
       - 524757N 0004834W
       - 524523N 0005538W
+
 - name: N601/P17/P18
   type: AWY
   class: A
@@ -2846,6 +2949,7 @@ airspace:
       - 535540N 0020919W
       - 540828N 0022519W
       - 541113N 0021858W
+
 - name: N862
   type: AWY
   class: A
@@ -2869,6 +2973,7 @@ airspace:
       - 524814N 0024519W
       - 524248N 0024502W
       - 524254N 0030303W
+
 - name: N862/N90
   type: AWY
   class: A
@@ -2881,6 +2986,7 @@ airspace:
       - 512610N 0031050W
       - 502443N 0032127W
       - 502603N 0030135W
+
 - name: N862/N864
   type: AWY
   class: A
@@ -2900,6 +3006,7 @@ airspace:
       - 515715N 0030638W
       - 520748N 0030547W
       - 520817N 0032200W
+
 - name: N864
   type: AWY
   class: A
@@ -3009,6 +3116,7 @@ airspace:
       - 562230N 0025909W
       - 562341N 0031445W
       - 563947N 0025439W
+
 - name: P16/P17/P18/Y70/Y250
   type: AWY
   class: A
@@ -3028,6 +3136,7 @@ airspace:
       - 541113N 0021858W
       - 541530N 0020852W
       - 550332N 0015351W
+
 - name: P18
   type: AWY
   class: D
@@ -3163,6 +3272,7 @@ airspace:
       - 561343N 0014153W
       - 561143N 0015929W
       - 562848N 0020557W
+
 - name: P18/Y250/Y70
   type: AWY
   class: A
@@ -3178,6 +3288,7 @@ airspace:
       - 533713N 0014830W
       - 534726N 0015913W
       - 535539N 0020919W
+
 - name: P600
   type: AWY
   class: A
@@ -3254,6 +3365,7 @@ airspace:
       - 571545N 0020831W
       - 565433N 0023557W
       - 570015N 0025056W
+
 - name: P620
   type: AWY
   class: D
@@ -3267,6 +3379,7 @@ airspace:
       - 545011N 0050216W
       - 543351N 0052706W
       - 543038N 0052816W
+
 - name: T256
   type: AWY
   class: A
@@ -3279,6 +3392,7 @@ airspace:
       - 543306N 0033033W
       - 543637N 0032230W
       - 544000N 0032654W
+
 - name: Y904
   type: AWY
   class: E
@@ -3294,6 +3408,7 @@ airspace:
       - 582451N 0025720W
       - 581904N 0031000W
       - 573241N 0023556W
+
 - name: Y904/Y905/P600
   type: AWY
   class: E
@@ -3324,6 +3439,7 @@ airspace:
       - 573706N 0015739W
       - 573615N 0021832W
       - 573241N 0023555W
+
 - name: Y905
   type: AWY
   class: E
@@ -3338,6 +3454,7 @@ airspace:
       - 585237N 0012145W
       - 585348N 0014056W
       - 573706N 0015740W
+
 - name: Y906
   type: AWY
   class: E
@@ -3352,6 +3469,10 @@ airspace:
       - 581646N 0060620W
       - 580803N 0061537W
       - 574941N 0051452W
+
+#----------------------------------------------------------------------
+# ENR 3.3 Area navigation routes
+
 - name: L602
   type: AWY
   class: E
@@ -3367,6 +3488,7 @@ airspace:
       - 560938N 0055412W
       - 555349N 0045342W
       - 560000N 0044400W
+
 - name: L602/Y958
   type: AWY
   class: E
@@ -3385,6 +3507,7 @@ airspace:
       - 563410N 0064854W
       - 562501N 0065610W
       - 560938N 0055412W
+
 - name: N562
   type: AWY
   class: E
@@ -3399,6 +3522,7 @@ airspace:
       - 553040N 0053703W
       - 552056N 0054100W
       - 551528N 0050002W
+
 - name: Y70
   type: AWY
   class: A
@@ -3445,6 +3569,7 @@ airspace:
       - 531231N 0000104W
       - 530617N 0000430W
       - 531343N 0004327W
+
 - name: Y96
   type: AWY
   class: A
@@ -3467,6 +3592,10 @@ airspace:
       - 552109N 0022141W
       - 551229N 0023018W
       - 551724N 0024532W
+
+#----------------------------------------------------------------------
+# ENR 5.1 Prohibited, restricted and danger areas
+
 - name: D009 WEMBURY
   type: D
   geometry:
@@ -3483,6 +3612,7 @@ airspace:
         to: 501735N 0040325W
     - line:
       - 501904N 0040633W
+
 - name: D011A OKEHAMPTON
   type: D
   rules:
@@ -3499,6 +3629,7 @@ airspace:
       - 503744N 0035801W
       - 503729N 0040101W
       - 504019N 0040341W
+
 - name: D011A OCNL OKEHAMPTON
   type: D
   rules:
@@ -3515,6 +3646,7 @@ airspace:
       - 503744N 0035801W
       - 503729N 0040101W
       - 504019N 0040341W
+
 - name: D011B WILLSWORTHY
   type: D
   rules:
@@ -3529,6 +3661,7 @@ airspace:
       - 503726N 0040136W
       - 503550N 0040444W
       - 503747N 0040558W
+
 - name: D011B OCNL WILLSWORTHY
   type: D
   rules:
@@ -3543,6 +3676,7 @@ airspace:
       - 503726N 0040136W
       - 503550N 0040444W
       - 503747N 0040558W
+
 - name: D011C MERRIVALE
   type: D
   rules:
@@ -3559,6 +3693,7 @@ airspace:
       - 503426N 0035832W
       - 503402N 0040336W
       - 503550N 0040444W
+
 - name: D011C OCNL MERRIVALE
   type: D
   rules:
@@ -3575,6 +3710,7 @@ airspace:
       - 503426N 0035832W
       - 503402N 0040336W
       - 503550N 0040444W
+
 - name: D015 BOVINGTON
   type: D
   geometry:
@@ -3584,6 +3720,7 @@ airspace:
     - circle:
         radius: 0.27 nm
         centre: 504324N 0021424W
+
 - name: D026 LULWORTH
   type: D
   rules:
@@ -3610,6 +3747,7 @@ airspace:
       - 503800N 0021430W
       - 503825N 0021137W
       - 504028N 0021137W
+
 - name: D026 OCNL LULWORTH
   type: D
   rules:
@@ -3636,6 +3774,7 @@ airspace:
       - 503800N 0021430W
       - 503825N 0021137W
       - 504028N 0021137W
+
 - name: D031 PORTLAND
   type: D
   geometry:
@@ -3654,6 +3793,7 @@ airspace:
       - 503550N 0020019W
       - 503546N 0015815W
       - 503602N 0015722W
+
 - name: D044 LYDD RANGES
   type: D
   rules:
@@ -3670,6 +3810,7 @@ airspace:
       - 505420N 0004748E
       - 505554N 0005009E
       - 505650N 0005348E
+
 - name: D061 WOODBURY COMMON
   type: D
   geometry:
@@ -3679,6 +3820,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 504049N 0032051W
+
 - name: D110 BRAUNTON BURROWS
   type: D
   geometry:
@@ -3692,6 +3834,7 @@ airspace:
       - 510458N 0041315W
       - 510516N 0041344W
       - 510514N 0041527W
+
 - name: D113B CASTLEMARTIN
   type: D
   rules:
@@ -3713,6 +3856,7 @@ airspace:
       - 512900N 0045432W
       - 512900N 0050330W
       - 513130N 0050530W
+
 - name: D115A MANORBIER
   type: D
   geometry:
@@ -3726,6 +3870,7 @@ airspace:
         radius: 2 nm
         centre: 513815N 0044700W
         to: 513815N 0044348W
+
 - name: D117 PENDINE
   type: D
   rules:
@@ -3741,6 +3886,7 @@ airspace:
       - 514515N 0043300W
       - 514524N 0042517W
       - 514445N 0042400W
+
 - name: D117 OCNL PENDINE
   type: D
   geometry:
@@ -3754,6 +3900,7 @@ airspace:
       - 514515N 0043300W
       - 514524N 0042517W
       - 514445N 0042400W
+
 - name: D118 PEMBREY
   type: D
   geometry:
@@ -3767,6 +3914,7 @@ airspace:
         radius: 3.5 nm
         centre: 514313N 0042144W
         to: 514001N 0042400W
+
 - name: D118 OCNL PEMBREY
   type: D
   geometry:
@@ -3780,6 +3928,7 @@ airspace:
         radius: 3.5 nm
         centre: 514313N 0042144W
         to: 514001N 0042400W
+
 - name: D119 BRIDGEWATER BAY
   type: D
   geometry:
@@ -3789,6 +3938,7 @@ airspace:
     - circle:
         radius: 4 nm
         centre: 511224N 0031353W
+
 - name: D120 BOSCOMBE DOWN
   type: D
   geometry:
@@ -3815,6 +3965,7 @@ airspace:
         radius: 2.5 nm
         centre: 510912N 0014504W
         to: 511052N 0014802W
+
 - name: D122A WESSEX WEST
   type: D
   geometry:
@@ -3828,6 +3979,7 @@ airspace:
       - 510125N 0015702W
       - 505938N 0020714W
       - 510120N 0021149W
+
 - name: D122B WESSEX CENTRAL
   type: D
   geometry:
@@ -3840,6 +3992,7 @@ airspace:
       - 510357N 0014230W
       - 510125N 0015702W
       - 511006N 0015702W
+
 - name: D122C WESSEX EAST
   type: D
   geometry:
@@ -3854,6 +4007,7 @@ airspace:
       - 511044N 0014308W
       - 511233N 0013942W
       - 511247N 0013759W
+
 - name: D123 IMBER
   type: D
   rules:
@@ -3872,6 +4026,7 @@ airspace:
       - 511329N 0021149W
       - 511516N 0020939W
       - 511705N 0020312W
+
 - name: D124 LAVINGTON
   type: D
   geometry:
@@ -3881,6 +4036,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 511527N 0015812W
+
 - name: D125 LARKHILL
   type: D
   rules:
@@ -3897,6 +4053,7 @@ airspace:
       - 511339N 0015746W
       - 511724N 0020107W
       - 511807N 0015635W
+
 - name: D126 BULFORD
   type: D
   rules:
@@ -3918,6 +4075,7 @@ airspace:
         radius: 5 nm
         centre: 510912N 0014504W
         to: 511354N 0014225W
+
 - name: D126 OCNL BULFORD
   type: D
   rules:
@@ -3939,6 +4097,7 @@ airspace:
         radius: 5 nm
         centre: 510912N 0014504W
         to: 511354N 0014225W
+
 - name: D127 PORTON
   type: D
   geometry:
@@ -3953,6 +4112,7 @@ airspace:
       - 511012N 0013750W
       - 510752N 0013650W
       - 510703N 0013843W
+
 - name: D128 EVERLEIGH
   type: D
   geometry:
@@ -3970,6 +4130,7 @@ airspace:
         to: 511351N 0014759W
     - line:
       - 511828N 0015004W
+
 - name: D128 OCNL EVERLEIGH
   type: D
   geometry:
@@ -3987,6 +4148,7 @@ airspace:
         to: 511351N 0014759W
     - line:
       - 511828N 0015004W
+
 - name: D129 WESTON ON THE GREEN
   type: D
   geometry:
@@ -3996,6 +4158,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 515246N 0011320W
+
 - name: D130 LONGMOOR
   type: D
   rules:
@@ -4009,6 +4172,7 @@ airspace:
       - 510541N 0004938W
       - 510446N 0004940W
       - 510426N 0005301W
+
 - name: D132 ASH RANGES
   type: D
   rules:
@@ -4025,6 +4189,7 @@ airspace:
       - 511606N 0004309W
       - 511638N 0004259W
       - 511732N 0004116W
+
 - name: D133 PIRBRIGHT
   type: D
   geometry:
@@ -4038,6 +4203,7 @@ airspace:
       - 511830N 0004118W
       - 511915N 0004146W
       - 512019N 0004158W
+
 - name: D133 OCNL PIRBRIGHT
   type: D
   geometry:
@@ -4051,6 +4217,7 @@ airspace:
       - 511830N 0004118W
       - 511915N 0004146W
       - 512019N 0004158W
+
 - name: D133A PIRBRIGHT
   type: D
   geometry:
@@ -4064,6 +4231,7 @@ airspace:
       - 511816N 0004028W
       - 511815N 0004103W
       - 511830N 0004118W
+
 - name: D136 SHOEBURYNESS
   type: D
   geometry:
@@ -4074,6 +4242,7 @@ airspace:
       - 513217N 0004804E
       - 513017N 0005104E
       - 513030N 0004700E
+
 - name: D138 SHOEBURYNESS
   type: D
   geometry:
@@ -4087,6 +4256,7 @@ airspace:
       - 513009N 0005115E
       - 513217N 0004804E
       - 513714N 0005000E
+
 - name: D138 OCNL SHOEBURYNESS
   type: D
   geometry:
@@ -4100,6 +4270,7 @@ airspace:
       - 513009N 0005115E
       - 513217N 0004804E
       - 513714N 0005000E
+
 - name: D139 FINGERNHOE
   type: D
   rules:
@@ -4113,6 +4284,7 @@ airspace:
       - 514954N 0005852E
       - 514833N 0005848E
       - 514839N 0005452E
+
 - name: D139 OCNL FINGRNHOE
   type: D
   geometry:
@@ -4124,6 +4296,7 @@ airspace:
       - 514954N 0005852E
       - 514833N 0005848E
       - 514839N 0005452E
+
 - name: D141 HYTHE RANGES
   type: D
   rules:
@@ -4138,6 +4311,7 @@ airspace:
       - 510120N 0010148E
       - 510158N 0010111E
       - 510323N 0010214E
+
 - name: D147 PONTRILAS
   type: D
   geometry:
@@ -4147,6 +4321,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 515800N 0025300W
+
 - name: D201 ABERPORTH
   type: D
   rules:
@@ -4165,6 +4340,7 @@ airspace:
       - 520830N 0043355W
       - 520903N 0050057W
       - 524417N 0053000W
+
 - name: D201E ABERPORTH
   type: D
   rules:
@@ -4182,6 +4358,7 @@ airspace:
         radius: 3 nm
         centre: 520830N 0043355W
         to: 520840N 0043847W
+
 - name: D201E OCNL ABERPORTH
   type: D
   rules:
@@ -4199,6 +4376,7 @@ airspace:
         radius: 3 nm
         centre: 520830N 0043355W
         to: 520840N 0043847W
+
 - name: D202 WEST WALES
   type: D
   geometry:
@@ -4223,6 +4401,7 @@ airspace:
         radius: 3 nm
         centre: 520830N 0043355W
         to: 521000N 0042942W
+
 - name: D202A WEST WALES
   type: D
   geometry:
@@ -4235,6 +4414,7 @@ airspace:
       - 521545N 0040958W
       - 520135N 0041430W
       - 520019N 0042519W
+
 - name: D202B WEST WALES
   type: D
   geometry:
@@ -4247,6 +4427,7 @@ airspace:
       - 521433N 0040004W
       - 520320N 0040343W
       - 520545N 0042336W
+
 - name: D202C WEST WALES
   type: D
   geometry:
@@ -4261,6 +4442,7 @@ airspace:
       - 520211N 0034019W
       - 520030N 0034053W
       - 520320N 0040343W
+
 - name: D203 SENNYBRIDGE
   type: D
   rules:
@@ -4281,6 +4463,7 @@ airspace:
       - 515947N 0034105W
       - 520211N 0034019W
       - 520501N 0033532W
+
 - name: D206 CARDINGTON
   type: D
   geometry:
@@ -4290,6 +4473,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 520621N 0002521W
+
 - name: D207 HOLBEACH
   type: D
   geometry:
@@ -4306,6 +4490,7 @@ airspace:
         to: 525300N 0002430E
     - line:
       - 524830N 0002000E
+
 - name: D208 STANFORD
   type: D
   rules:
@@ -4324,6 +4509,7 @@ airspace:
       - 522800N 0004500E
       - 522900N 0003900E
       - 523100N 0004000E
+
 - name: D208 OCNL STANFORD
   type: D
   rules:
@@ -4342,6 +4528,7 @@ airspace:
       - 522800N 0004500E
       - 522900N 0003900E
       - 523100N 0004000E
+
 - name: D211 SWYNNERTON
   type: D
   geometry:
@@ -4351,6 +4538,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 525352N 0021312W
+
 - name: D213 KINETON
   type: D
   geometry:
@@ -4360,6 +4548,7 @@ airspace:
     - circle:
         radius: 0.4 nm
         centre: 520902N 0012656W
+
 - name: D215 NORTH LUFFENHAM
   type: D
   geometry:
@@ -4369,6 +4558,7 @@ airspace:
     - circle:
         radius: 0.34 nm
         centre: 523754N 0003557W
+
 - name: D216 CREDENHILL
   type: D
   geometry:
@@ -4378,6 +4568,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 520453N 0024806W
+
 - name: D216 OCNL CREDENHILL
   type: D
   geometry:
@@ -4387,6 +4578,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 520453N 0024806W
+
 - name: D304 UPPER HULME
   type: D
   geometry:
@@ -4396,6 +4588,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 530951N 0015730W
+
 - name: D305 BECKINGHAM
   type: D
   geometry:
@@ -4408,6 +4601,7 @@ airspace:
       - 530427N 0004044W
       - 530428N 0004205W
       - 530534N 0004217W
+
 - name: D307 DONNA NOOK
   type: D
   geometry:
@@ -4422,6 +4616,7 @@ airspace:
         radius: 5 nm
         centre: 532830N 0001315E
         to: 532331N 0001354E
+
 - name: D307 OCNL DONNA NOOK
   type: D
   geometry:
@@ -4436,6 +4631,7 @@ airspace:
         radius: 5 nm
         centre: 532830N 0001315E
         to: 532331N 0001354E
+
 - name: D314 HARPUR HILL
   type: D
   geometry:
@@ -4445,6 +4641,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 531343N 0015528W
+
 - name: D402A LUCE BAY (N)
   type: D
   geometry:
@@ -4468,6 +4665,7 @@ airspace:
       - 543815N 0045352W
       - 545812N 0051210W
       - 550218N 0050909W
+
 - name: D402A OCNL LUCE BAY (N)
   type: D
   geometry:
@@ -4491,6 +4689,7 @@ airspace:
       - 543815N 0045352W
       - 545812N 0051210W
       - 550218N 0050909W
+
 - name: D402B LUCE BAY (N)
   type: D
   geometry:
@@ -4502,6 +4701,7 @@ airspace:
       - 550254N 0045410W
       - 545600N 0044744W
       - 545600N 0045800W
+
 - name: D402B OCNL LUCE BAY (N)
   type: D
   geometry:
@@ -4513,6 +4713,7 @@ airspace:
       - 550254N 0045410W
       - 545600N 0044744W
       - 545600N 0045800W
+
 - name: D402C LUCE BAY (N)
   type: D
   geometry:
@@ -4522,6 +4723,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 545659N 0045752W
+
 - name: D405 KIRKCUDBRIGHT
   type: D
   geometry:
@@ -4538,6 +4740,7 @@ airspace:
       - 543302N 0035720W
       - 543315N 0041341W
       - 543537N 0041514W
+
 - name: D405 OCNL KIRKCUDBRIGHT
   type: D
   geometry:
@@ -4554,6 +4757,7 @@ airspace:
       - 543302N 0035720W
       - 543315N 0041341W
       - 543537N 0041514W
+
 - name: D407 WARCOP
   type: D
   rules:
@@ -4571,6 +4775,7 @@ airspace:
       - 543202N 0022209W
       - 543343N 0022536W
       - 543526N 0022419W
+
 - name: D407 OCNL WARCOP
   type: D
   rules:
@@ -4588,6 +4793,7 @@ airspace:
       - 543202N 0022209W
       - 543343N 0022536W
       - 543526N 0022419W
+
 - name: D408 FELDOM
   type: D
   rules:
@@ -4604,6 +4810,7 @@ airspace:
       - 542447N 0015004W
       - 542505N 0015159W
       - 542720N 0015350W
+
 - name: D408 OCNL FELDOM
   type: D
   rules:
@@ -4620,6 +4827,7 @@ airspace:
       - 542447N 0015004W
       - 542505N 0015159W
       - 542720N 0015350W
+
 - name: D410 STRENSALL
   type: D
   rules:
@@ -4631,6 +4839,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 540136N 0010101W
+
 - name: D442 BELLERBY
   type: D
   rules:
@@ -4642,6 +4851,7 @@ airspace:
     - circle:
         radius: 1.25 nm
         centre: 542039N 0015125W
+
 - name: D508 RIDSDALE
   type: D
   geometry:
@@ -4651,6 +4861,7 @@ airspace:
     - circle:
         radius: 0.65 nm
         centre: 550845N 0021007W
+
 - name: D510 SPADEADAM
   type: D
   geometry:
@@ -4666,6 +4877,7 @@ airspace:
       - 550000N 0022752W
       - 550000N 0024235W
       - 550112N 0024453W
+
 - name: D510 OCNL SPADEADAM
   type: D
   geometry:
@@ -4681,6 +4893,7 @@ airspace:
       - 550000N 0022752W
       - 550000N 0024235W
       - 550112N 0024453W
+
 - name: D510A SPADEADAM
   type: D
   geometry:
@@ -4692,6 +4905,7 @@ airspace:
       - 550112N 0024453W
       - 550900N 0030000W
       - 551500N 0025400W
+
 - name: D510A OCNL SPADEADAM
   type: D
   geometry:
@@ -4703,6 +4917,7 @@ airspace:
       - 550112N 0024453W
       - 550900N 0030000W
       - 551500N 0025400W
+
 - name: D512 OTTERBURN
   type: D
   rules:
@@ -4718,6 +4933,7 @@ airspace:
       - 551525N 0021352W
       - 551857N 0022315W
       - 552212N 0022009W
+
 - name: D512 OCNL OTTERBURN
   type: D
   rules:
@@ -4733,6 +4949,7 @@ airspace:
       - 551525N 0021352W
       - 551857N 0022315W
       - 552212N 0022009W
+
 - name: D512A OTTERBURN
   type: D
   rules:
@@ -4747,6 +4964,7 @@ airspace:
       - 551615N 0022552W
       - 551857N 0022315W
       - 551525N 0021352W
+
 - name: D601 GARELOCHHEAD
   type: D
   geometry:
@@ -4759,6 +4977,7 @@ airspace:
       - 560440N 0044740W
       - 560547N 0044912W
       - 560706N 0044912W
+
 - name: D604 BARRY BUDDON
   type: D
   rules:
@@ -4772,6 +4991,7 @@ airspace:
       - 562957N 0024010W
       - 562735N 0023943W
       - 562738N 0024829W
+
 - name: D604 OCNL BARRY BUDDN
   type: D
   rules:
@@ -4785,6 +5005,7 @@ airspace:
       - 562957N 0024010W
       - 562735N 0023943W
       - 562738N 0024829W
+
 - name: D702 FORT GEORGE
   type: D
   rules:
@@ -4799,6 +5020,7 @@ airspace:
       - 573440N 0040257W
       - 573456N 0040438W
       - 573534N 0040338W
+
 - name: D703 TAIN
   type: D
   rules:
@@ -4817,6 +5039,7 @@ airspace:
       - 574500N 0040254W
       - 574500N 0035500W
       - 575054N 0034630W
+
 - name: D703 OCNL TAIN
   type: D
   rules:
@@ -4835,6 +5058,7 @@ airspace:
       - 574500N 0040254W
       - 574500N 0035500W
       - 575054N 0034630W
+
 - name: P611 COULPORT/FASLANE
   type: P
   geometry:
@@ -4844,6 +5068,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 560331N 0045159W
+
 - name: P813 DOUNREAY
   type: P
   geometry:
@@ -4853,6 +5078,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 583435N 0034434W
+
 - name: R002 DEVONPORT
   type: R
   geometry:
@@ -4862,6 +5088,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 502317N 0041114W
+
 - name: R063 DUNGENESS
   type: R
   geometry:
@@ -4871,6 +5098,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 505449N 0005717E
+
 - name: R101 ALDERMASTON
   type: R
   geometry:
@@ -4880,6 +5108,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 512203N 0010847W
+
 - name: R104 BURGHFIELD
   type: R
   geometry:
@@ -4889,6 +5118,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 512424N 0010125W
+
 - name: R153 HINKLEY POINT
   type: R
   geometry:
@@ -4898,6 +5128,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 511233N 0030749W
+
 - name: R154 OLDBURY
   type: R
   geometry:
@@ -4907,6 +5138,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 513852N 0023415W
+
 - name: R155 BERKELEY
   type: R
   geometry:
@@ -4916,6 +5148,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 514134N 0022936W
+
 - name: R217 SIZEWELL
   type: R
   geometry:
@@ -4925,6 +5158,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 521250N 0013707E
+
 - name: R219 SANDRINGHAM HOUSE
   type: R
   geometry:
@@ -4945,6 +5179,7 @@ airspace:
         radius: 1.5 nm
         centre: 525003N 0003447E
         to: 524834N 0003510E
+
 - name: R220 ANMER HALL
   type: R
   geometry:
@@ -4954,6 +5189,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 525003N 0003447E
+
 - name: R311 CAPENHURST
   type: R
   geometry:
@@ -4963,6 +5199,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 531550N 0025708W
+
 - name: R312 SPRINGFIELDS
   type: R
   geometry:
@@ -4972,6 +5209,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 534634N 0024815W
+
 - name: R313 SCAMPTON
   type: R
   geometry:
@@ -4981,6 +5219,7 @@ airspace:
     - circle:
         radius: 5 nm
         centre: 531828N 0003303W
+
 - name: R322 WYLFA
   type: R
   geometry:
@@ -4990,6 +5229,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 532458N 0042852W
+
 - name: R413 SELLAFIELD
   type: R
   geometry:
@@ -4999,6 +5239,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 542505N 0032944W
+
 - name: R444 HEYSHAM
   type: R
   geometry:
@@ -5008,6 +5249,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 540147N 0025452W
+
 - name: R445 BARROW IN FURNESS
   type: R
   geometry:
@@ -5017,6 +5259,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 540635N 0031410W
+
 - name: R446 HARTLEPOOL
   type: R
   geometry:
@@ -5026,6 +5269,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 543807N 0011049W
+
 - name: R515 HUNTERSTON
   type: R
   geometry:
@@ -5035,6 +5279,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 554317N 0045338W
+
 - name: R516 TORNESS
   type: R
   geometry:
@@ -5044,6 +5289,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 555806N 0022431W
+
 - name: R603 ROSYTH
   type: R
   geometry:
@@ -5053,6 +5299,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 560147N 0032703W
+
 - name: R610A HIGHLANDS
   type: R
   geometry:
@@ -5083,6 +5330,7 @@ airspace:
       - 583000N 0043000W
       - 582500N 0043000W
       - 583000N 0042000W
+
 - name: R610B HIGHLANDS
   type: R
   geometry:
@@ -5096,6 +5344,7 @@ airspace:
       - 570000N 0055644W
       - 570000N 0061504W
       - 574715N 0061637W
+
 - name: R610C HIGHLANDS
   type: R
   geometry:
@@ -5107,6 +5356,7 @@ airspace:
       - 581434N 0031929W
       - 581121N 0032654W
       - 581900N 0033940W
+
 - name: R610D HIGHLANDS
   type: R
   geometry:
@@ -5119,6 +5369,7 @@ airspace:
       - 574234N 0041056W
       - 573900N 0043000W
       - 574700N 0042500W
+
 - name: R612 ARBROATH
   type: R
   geometry:
@@ -5128,6 +5379,12 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 563449N 0023645W
+
+#----------------------------------------------------------------------
+# ENR 5.3 Other activities of a dangerous nature
+#
+# ENR 5.3 (cont) Gas venting stations
+
 - name: ST FERGUS
   type: D_OTHER
   localtype: GVS
@@ -5141,6 +5398,7 @@ airspace:
       - 573339N 0014921W
       - 573317N 0015100W
       - 573509N 0015234W
+
 - name: GARLOGIE
   type: D_OTHER
   localtype: GVS
@@ -5151,6 +5409,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 570814N 0022256W
+
 - name: KIRRIEMUIR
   type: D_OTHER
   localtype: GVS
@@ -5161,6 +5420,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 564054N 0025555W
+
 - name: AVONBRIDGE
   type: D_OTHER
   localtype: GVS
@@ -5171,6 +5431,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 555509N 0034443W
+
 - name: GLENMAVIS
   type: D_OTHER
   localtype: GVS
@@ -5181,6 +5442,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 555336N 0040030W
+
 - name: WOOLER
   type: D_OTHER
   localtype: GVS
@@ -5191,6 +5453,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 553447N 0020520W
+
 - name: MOFFAT
   type: D_OTHER
   localtype: GVS
@@ -5201,6 +5464,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 551646N 0032625W
+
 - name: ELLINGTON
   type: D_OTHER
   localtype: GVS
@@ -5211,6 +5475,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 551320N 0013153W
+
 - name: BISHOP AUCKLAND
   type: D_OTHER
   localtype: GVS
@@ -5221,6 +5486,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 544011N 0013403W
+
 - name: NETHER KELLET
   type: D_OTHER
   localtype: GVS
@@ -5231,6 +5497,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 540607N 0024416W
+
 - name: BARROW
   type: D_OTHER
   localtype: GVS
@@ -5241,6 +5508,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 540535N 0031049W
+
 - name: ATWICK
   type: D_OTHER
   localtype: GVS
@@ -5251,6 +5519,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 535645N 0001225W
+
 - name: STILLINGFLEET
   type: D_OTHER
   localtype: GVS
@@ -5261,6 +5530,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 535128N 0010458W
+
 - name: RICCALL
   type: D_OTHER
   localtype: GVS
@@ -5271,6 +5541,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 534931N 0010157W
+
 - name: ALDBROUGH
   type: D_OTHER
   localtype: GVS
@@ -5281,6 +5552,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 534850N 0000515W
+
 - name: WILSTOW
   type: D_OTHER
   localtype: GVS
@@ -5291,6 +5563,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 534847N 0010744W
+
 - name: GASCOIGNE WOOD
   type: D_OTHER
   localtype: GVS
@@ -5301,6 +5574,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 534650N 0011225W
+
 - name: KELLINGTON
   type: D_OTHER
   localtype: GVS
@@ -5311,6 +5585,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 534225N 0011216W
+
 - name: EASINGTON
   type: D_OTHER
   localtype: GVS
@@ -5321,6 +5596,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 533916N 0000710E
+
 - name: ROSSINGTON
   type: D_OTHER
   localtype: GVS
@@ -5331,6 +5607,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 532842N 0010544W
+
 - name: MALTBY
   type: D_OTHER
   localtype: GVS
@@ -5341,6 +5618,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 532535N 0011018W
+
 - name: HARWORTH
   type: D_OTHER
   localtype: GVS
@@ -5351,6 +5629,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 532451N 0010338W
+
 - name: WARRINGTON
   type: D_OTHER
   localtype: GVS
@@ -5361,6 +5640,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 532431N 0022847W
+
 - name: THEDDLETHORPE
   type: D_OTHER
   localtype: GVS
@@ -5371,6 +5651,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 532126N 0001358E
+
 - name: HATTON
   type: D_OTHER
   localtype: GVS
@@ -5381,6 +5662,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 531611N 0001439W
+
 - name: WELBECK
   type: D_OTHER
   localtype: GVS
@@ -5391,6 +5673,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 531335N 0010752W
+
 - name: THORESBY
   type: D_OTHER
   localtype: GVS
@@ -5401,6 +5684,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 531206N 0010302W
+
 - name: HOLE HOUSE
   type: D_OTHER
   localtype: GVS
@@ -5411,6 +5695,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 530822N 0022720W
+
 - name: BACTON
   type: D_OTHER
   localtype: GVS
@@ -5421,6 +5706,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 525121N 0012734E
+
 - name: ALREWAS
   type: D_OTHER
   localtype: GVS
@@ -5431,6 +5717,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 524425N 0014629W
+
 - name: KINGS LYNN B
   type: D_OTHER
   localtype: GVS
@@ -5441,6 +5728,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 524343N 0002248E
+
 - name: WISBECH
   type: D_OTHER
   localtype: GVS
@@ -5451,6 +5739,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 524325N 0000948E
+
 - name: KINGS LYNN A
   type: D_OTHER
   localtype: GVS
@@ -5461,6 +5750,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 524258N 0003247E
+
 - name: PETERBOROUGH
   type: D_OTHER
   localtype: GVS
@@ -5471,6 +5761,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 523737N 0001755W
+
 - name: DAW MILL
   type: D_OTHER
   localtype: GVS
@@ -5481,6 +5772,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 523022N 0013703W
+
 - name: CHURCHOVER
   type: D_OTHER
   localtype: GVS
@@ -5491,6 +5783,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 522447N 0011615W
+
 - name: KIDDERMINSTER
   type: D_OTHER
   localtype: GVS
@@ -5501,6 +5794,7 @@ airspace:
     - circle:
         radius: 0.75 nm
         centre: 522133N 0021433W
+
 - name: DISS
   type: D_OTHER
   localtype: GVS
@@ -5511,6 +5805,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 521954N 0010755E
+
 - name: HUNTINGDON
   type: D_OTHER
   localtype: GVS
@@ -5521,6 +5816,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 521828N 0002142W
+
 - name: CAMBRIDGE
   type: D_OTHER
   localtype: GVS
@@ -5531,6 +5827,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 520451N 0000951E
+
 - name: WORMINGTON
   type: D_OTHER
   localtype: GVS
@@ -5541,6 +5838,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 520147N 0015537W
+
 - name: AYLESBURY
   type: D_OTHER
   localtype: GVS
@@ -5551,6 +5849,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 515137N 0005742W
+
 - name: CHELMSFORD
   type: D_OTHER
   localtype: GVS
@@ -5561,6 +5860,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 514502N 0002412E
+
 - name: FELINDRE
   type: D_OTHER
   localtype: GVS
@@ -5571,6 +5871,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 514129N 0035716W
+
 - name: AVONMOUTH
   type: D_OTHER
   localtype: GVS
@@ -5581,6 +5882,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 513150N 0023916W
+
 - name: CITIGEN
   type: D_OTHER
   localtype: GVS
@@ -5591,6 +5893,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 513108N 0000617W
+
 - name: ISLE OF GRAIN
   type: D_OTHER
   localtype: GVS
@@ -5601,6 +5904,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 512652N 0004100E
+
 - name: I OF G JETTY
   type: D_OTHER
   localtype: GVS
@@ -5611,6 +5915,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 512601N 0004222E
+
 - name: LOCKERLEY
   type: D_OTHER
   localtype: GVS
@@ -5621,6 +5926,10 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 510128N 0013420W
+
+#----------------------------------------------------------------------
+# ENR 5.3 (cont) HIRTAs
+
 - name: BARFORD ST JOHN
   type: D_OTHER
   localtype: HIRTA
@@ -5631,6 +5940,7 @@ airspace:
     - circle:
         radius: 0.05 nm
         centre: 520001N 0012105W
+
 - name: BLANDFORD CAMP
   type: D_OTHER
   localtype: HIRTA
@@ -5641,6 +5951,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 505258N 0020643W
+
 - name: BOULMER
   type: D_OTHER
   localtype: HIRTA
@@ -5651,6 +5962,7 @@ airspace:
     - circle:
         radius: 0.9 nm
         centre: 552400N 0013706W
+
 - name: BUCHAN
   type: D_OTHER
   localtype: HIRTA
@@ -5661,6 +5973,7 @@ airspace:
     - circle:
         radius: 0.65 nm
         centre: 572759N 0014706W
+
 - name: CALDBECK
   type: D_OTHER
   localtype: HIRTA
@@ -5671,6 +5984,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 544630N 0030535W
+
 - name: COWES
   type: D_OTHER
   localtype: HIRTA
@@ -5681,6 +5995,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 504502N 0011805W
+
 - name: CROUGHTON
   type: D_OTHER
   localtype: HIRTA
@@ -5691,6 +6006,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 515921N 0011049W
+
 - name: EMLEY MOOR
   type: D_OTHER
   localtype: HIRTA
@@ -5701,6 +6017,7 @@ airspace:
     - circle:
         radius: 0.08 nm
         centre: 533641N 0014002W
+
 - name: FAREHAM
   type: D_OTHER
   localtype: HIRTA
@@ -5711,6 +6028,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 505002N 0011105W
+
 - name: FYLINGDALES
   type: D_OTHER
   localtype: HIRTA
@@ -5721,6 +6039,7 @@ airspace:
     - circle:
         radius: 5 nm
         centre: 542147N 0004012W
+
 - name: GOONHILLY
   type: D_OTHER
   localtype: HIRTA
@@ -5731,6 +6050,7 @@ airspace:
     - circle:
         radius: 1.9 nm
         centre: 500302N 0051104W
+
 - name: MORMOND HILL
   type: D_OTHER
   localtype: HIRTA
@@ -5741,6 +6061,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 573559N 0020306W
+
 - name: NEATISHEAD
   type: D_OTHER
   localtype: HIRTA
@@ -5751,6 +6072,7 @@ airspace:
     - circle:
         radius: 0.9 nm
         centre: 524301N 0012754E
+
 - name: OAKHANGER
   type: D_OTHER
   localtype: HIRTA
@@ -5761,6 +6083,7 @@ airspace:
     - circle:
         radius: 2.4 nm
         centre: 510656N 0005337W
+
 - name: OXENHOPE
   type: D_OTHER
   localtype: HIRTA
@@ -5771,6 +6094,7 @@ airspace:
     - circle:
         radius: 0.4 nm
         centre: 534731N 0015905W
+
 - name: PERSHORE
   type: D_OTHER
   localtype: HIRTA
@@ -5781,6 +6105,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 520813N 0020205W
+
 - name: PORTREATH
   type: D_OTHER
   localtype: HIRTA
@@ -5791,6 +6116,7 @@ airspace:
     - circle:
         radius: 0.2 nm
         centre: 501621N 0051552W
+
 - name: PORTSDOWN
   type: D_OTHER
   localtype: HIRTA
@@ -5801,6 +6127,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 505124N 0010522W
+
 - name: RAMPISHAM
   type: D_OTHER
   localtype: HIRTA
@@ -5811,6 +6138,7 @@ airspace:
     - circle:
         radius: 0.7 nm
         centre: 504832N 0023905W
+
 - name: SANDALE
   type: D_OTHER
   localtype: HIRTA
@@ -5821,6 +6149,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 544454N 0030805W
+
 - name: SKELTON
   type: D_OTHER
   localtype: HIRTA
@@ -5831,6 +6160,7 @@ airspace:
     - circle:
         radius: 0.7 nm
         centre: 544400N 0025320W
+
 - name: SPADEADAM-1
   type: D_OTHER
   localtype: HIRTA
@@ -5841,6 +6171,7 @@ airspace:
     - circle:
         radius: 0.2 nm
         centre: 550300N 0023305W
+
 - name: SPADEADAM-2
   type: D_OTHER
   localtype: HIRTA
@@ -5851,6 +6182,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 550307N 0023311W
+
 - name: STAXTON WOLD
   type: D_OTHER
   localtype: HIRTA
@@ -5861,6 +6193,7 @@ airspace:
     - circle:
         radius: 0.9 nm
         centre: 541101N 0002506W
+
 - name: SWINGATE
   type: D_OTHER
   localtype: HIRTA
@@ -5871,6 +6204,7 @@ airspace:
     - circle:
         radius: 0.75 nm
         centre: 510812N 0012011E
+
 - name: TACOLNESTON
   type: D_OTHER
   localtype: HIRTA
@@ -5881,6 +6215,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 523101N 0010824E
+
 - name: WOODHAM FERRERS
   type: D_OTHER
   localtype: HIRTA
@@ -5891,6 +6226,7 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 513932N 0003654E
+
 - name: WOOFFERTON
   type: D_OTHER
   localtype: HIRTA
@@ -5901,6 +6237,10 @@ airspace:
     - circle:
         radius: 0.7 nm
         centre: 521901N 0024305W
+
+#----------------------------------------------------------------------
+# ENR 5.3 (cont) LASERs
+
 - name: CAMBRIDGE UNIVERSITY
   type: D_OTHER
   localtype: LASER
@@ -5911,6 +6251,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 521218N 0000712E
+
 - name: PORTON DOWN
   type: D_OTHER
   localtype: LASER
@@ -5926,6 +6267,7 @@ airspace:
       - 511012N 0013750W
       - 510752N 0013650W
       - 510703N 0013843W
+
 - name: HERSTMONCEUX
   type: D_OTHER
   localtype: LASER
@@ -5936,6 +6278,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 505205N 0002016E
+
 - name: PERSHORE
   type: D_OTHER
   localtype: LASER
@@ -5946,6 +6289,12 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 520837N 0020217W
+
+#----------------------------------------------------------------------
+# ENR 5.5 Aerial sporting and recreational activities
+#
+# ENR 5.5 (cont) Parachute jumping
+
 - name: BECCLES
   type: D_OTHER
   localtype: DZ
@@ -5956,6 +6305,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 522612N 0013710E
+
 - name: BODMIN
   type: D_OTHER
   localtype: DZ
@@ -5966,6 +6316,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 502959N 0043957W
+
 - name: BOSCOMBE DOWN
   type: D_OTHER
   localtype: DZ
@@ -5976,6 +6327,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 510900N 0014500W
+
 - name: BRIDLINGTON
   type: D_OTHER
   localtype: DZ
@@ -5986,6 +6338,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 540713N 0001411W
+
 - name: CARK
   type: D_OTHER
   localtype: DZ
@@ -5996,6 +6349,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 540946N 0025737W
+
 - name: CARLISLE
   type: D_OTHER
   localtype: DZ
@@ -6006,6 +6360,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 545615N 0024833W
+
 - name: CHALGROVE
   type: D_OTHER
   localtype: DZ
@@ -6016,6 +6371,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 514032N 0010459W
+
 - name: CHATTERIS
   type: D_OTHER
   localtype: DZ
@@ -6026,6 +6382,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 522919N 0000512E
+
 - name: CHILTERN PARK
   type: D_OTHER
   localtype: DZ
@@ -6036,6 +6393,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 513330N 0010638W
+
 - name: COCKERHAM
   type: D_OTHER
   localtype: DZ
@@ -6046,6 +6404,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 535744N 0025007W
+
 - name: DUNKESWELL
   type: D_OTHER
   localtype: DZ
@@ -6056,6 +6415,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 505138N 0031406W
+
 - name: DURHAM TEES VALLEY
   type: D_OTHER
   localtype: DZ
@@ -6066,6 +6426,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 543033N 0012546W
+
 - name: ERROL
   type: D_OTHER
   localtype: DZ
@@ -6076,6 +6437,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 562418N 0031055W
+
 - name: FIFE AIRPORT
   type: D_OTHER
   localtype: DZ
@@ -6086,6 +6448,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 561100N 0031313W
+
 - name: HIBALDSTOW
   type: D_OTHER
   localtype: DZ
@@ -6096,6 +6459,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 532956N 0003048W
+
 - name: HIBALDSTOW OCNL
   type: D_OTHER
   localtype: DZ
@@ -6106,6 +6470,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 532956N 0003048W
+
 - name: HINTON-IN-THE-HEDGES
   type: D_OTHER
   localtype: DZ
@@ -6116,6 +6481,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 520136N 0011216W
+
 - name: HINTON-IN-THE-HEDGES OCNL
   type: D_OTHER
   localtype: DZ
@@ -6126,6 +6492,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 520136N 0011216W
+
 - name: KEEVIL
   type: D_OTHER
   localtype: DZ
@@ -6136,6 +6503,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 511851N 0020637W
+
 - name: LANGAR
   type: D_OTHER
   localtype: DZ
@@ -6146,6 +6514,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 525338N 0005416W
+
 - name: LASHENDEN/HEADCORN
   type: D_OTHER
   localtype: DZ
@@ -6156,6 +6525,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 510925N 0003902E
+
 - name: LASHENDEN/HEADCORN OCNL
   type: D_OTHER
   localtype: DZ
@@ -6166,6 +6536,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 510925N 0003902E
+
 - name: MIDDLE WALLOP
   type: D_OTHER
   localtype: DZ
@@ -6176,6 +6547,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 510902N 0013405W
+
 - name: NETHERAVON
   type: D_OTHER
   localtype: DZ
@@ -6186,6 +6558,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 511423N 0014615W
+
 - name: OLD SARUM
   type: D_OTHER
   localtype: DZ
@@ -6196,6 +6569,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 510556N 0014703W
+
 - name: PERRANPORTH
   type: D_OTHER
   localtype: DZ
@@ -6206,6 +6580,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 501954N 0051039W
+
 - name: PETERBOROUGH/SIBSON
   type: D_OTHER
   localtype: DZ
@@ -6216,6 +6591,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 523329N 0002349W
+
 - name: PETERLEE
   type: D_OTHER
   localtype: DZ
@@ -6226,6 +6602,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 544556N 0012243W
+
 - name: REDLANDS
   type: D_OTHER
   localtype: DZ
@@ -6236,6 +6613,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 513352N 0014205W
+
 - name: SOUTH CERNEY
   type: D_OTHER
   localtype: DZ
@@ -6246,6 +6624,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 514114N 0015519W
+
 - name: STRATHALLAN
   type: D_OTHER
   localtype: DZ
@@ -6256,6 +6635,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 561930N 0034455W
+
 - name: STRATHALLAN OCNL
   type: D_OTHER
   localtype: DZ
@@ -6266,6 +6646,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 561930N 0034455W
+
 - name: SWANSEA
   type: D_OTHER
   localtype: DZ
@@ -6276,6 +6657,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 513618N 0040405W
+
 - name: TILSTOCK
   type: D_OTHER
   localtype: DZ
@@ -6286,6 +6668,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 525551N 0023905W
+
 - name: TILSTOCK OCNL
   type: D_OTHER
   localtype: DZ
@@ -6296,6 +6679,7 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 525551N 0023905W
+
 - name: WESTON-ON-THE-GREEN
   type: D_OTHER
   localtype: DZ
@@ -6306,6 +6690,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 515246N 0011320W
+
 - name: WESTON-ON-THE-GREEN OCNL
   type: D_OTHER
   localtype: DZ
@@ -6316,6 +6701,10 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 515246N 0011320W
+
+#----------------------------------------------------------------------
+# ENR 5.5 (cont) Aerial sporting (gliding clubs)
+
 - name: ABOYNE
   type: OTHER
   localtype: GLIDER
@@ -6326,6 +6715,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 570430N 0025005W
+
 - name: ASTON DOWN
   type: OTHER
   localtype: GLIDER
@@ -6336,6 +6726,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 514228N 0020750W
+
 - name: AYLESBURY/THAME
   type: OTHER
   localtype: GLIDER
@@ -6346,6 +6737,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 514633N 0005625W
+
 - name: BARROW/WALNEY ISLAND
   type: OTHER
   localtype: GLIDER
@@ -6356,6 +6748,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 540752N 0031549W
+
 - name: BEMBRIDGE
   type: OTHER
   localtype: GLIDER
@@ -6366,6 +6759,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 504041N 0010633W
+
 - name: BICESTER
   type: OTHER
   localtype: GLIDER
@@ -6376,6 +6770,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 515458N 0010756W
+
 - name: BIDFORD
   type: OTHER
   localtype: GLIDER
@@ -6386,6 +6781,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 520803N 0015103W
+
 - name: BOGNOR REGIS
   type: OTHER
   localtype: GLIDER
@@ -6396,6 +6792,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 504804N 0003934W
+
 - name: BRENT TOR
   type: OTHER
   localtype: GLIDER
@@ -6406,6 +6803,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 503517N 0040850W
+
 - name: BURN
   type: OTHER
   localtype: GLIDER
@@ -6416,6 +6814,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 534445N 0010504W
+
 - name: CAMPHILL
   type: OTHER
   localtype: GLIDER
@@ -6426,6 +6825,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 531818N 0014353W
+
 - name: CHALLOCK
   type: OTHER
   localtype: GLIDER
@@ -6436,6 +6836,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 511230N 0004945E
+
 - name: CHIPPING
   type: OTHER
   localtype: GLIDER
@@ -6446,6 +6847,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 535301N 0023714W
+
 - name: CRANWELL
   type: OTHER
   localtype: GLIDER
@@ -6456,6 +6858,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 530231N 0002936W
+
 - name: CROWLAND
   type: OTHER
   localtype: GLIDER
@@ -6466,6 +6869,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 524233N 0000834W
+
 - name: CULDROSE
   type: OTHER
   localtype: GLIDER
@@ -6476,6 +6880,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 500510N 0051521W
+
 - name: CURROCK HILL
   type: OTHER
   localtype: GLIDER
@@ -6486,6 +6891,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 545602N 0015043W
+
 - name: DARLTON
   type: OTHER
   localtype: GLIDER
@@ -6496,6 +6902,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 531444N 0005132W
+
 - name: DUNSTABLE
   type: OTHER
   localtype: GLIDER
@@ -6506,6 +6913,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 515200N 0003254W
+
 - name: EAGLESCOTT
   type: OTHER
   localtype: GLIDER
@@ -6516,6 +6924,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 505542N 0035922W
+
 - name: EASTERTON
   type: OTHER
   localtype: GLIDER
@@ -6526,6 +6935,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 573508N 0031841W
+
 - name: EDGE HILL
   type: OTHER
   localtype: GLIDER
@@ -6536,6 +6946,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 520507N 0012828W
+
 - name: EYRES FIELD
   type: OTHER
   localtype: GLIDER
@@ -6546,6 +6957,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 504233N 0021310W
+
 - name: FALGUNZEON
   type: OTHER
   localtype: GLIDER
@@ -6556,6 +6968,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 545638N 0034424W
+
 - name: FESHIEBRIDGE
   type: OTHER
   localtype: GLIDER
@@ -6566,6 +6979,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 570613N 0035330W
+
 - name: GRANSDEN LODGE
   type: OTHER
   localtype: GLIDER
@@ -6576,6 +6990,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 521041N 0000653W
+
 - name: HALESLAND
   type: OTHER
   localtype: GLIDER
@@ -6586,6 +7001,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 511544N 0024356W
+
 - name: HINTON-IN-THE-HEDGES
   type: OTHER
   localtype: GLIDER
@@ -6596,6 +7012,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 520145N 0011229W
+
 - name: HUSBANDS BOSWORTH
   type: OTHER
   localtype: GLIDER
@@ -6606,6 +7023,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 522626N 0010238W
+
 - name: KEEVIL
   type: OTHER
   localtype: GLIDER
@@ -6616,6 +7034,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 511850N 0020643W
+
 - name: KIRTON-IN-LINDSEY
   type: OTHER
   localtype: GLIDER
@@ -6626,6 +7045,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 532745N 0003436W
+
 - name: LASHAM
   type: OTHER
   localtype: GLIDER
@@ -6636,6 +7056,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 511112N 0010155W
+
 - name: LEE-ON-SOLENT
   type: OTHER
   localtype: GLIDER
@@ -6646,6 +7067,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 504855N 0011225W
+
 - name: LLANTISILIO
   type: OTHER
   localtype: GLIDER
@@ -6656,6 +7078,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 530239N 0031315W
+
 - name: LLEWENI PARC
   type: OTHER
   localtype: GLIDER
@@ -6666,6 +7089,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 531239N 0032312W
+
 - name: LONG MARSTON
   type: OTHER
   localtype: GLIDER
@@ -6676,6 +7100,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 520825N 0014456W
+
 - name: LONG MYND
   type: OTHER
   localtype: GLIDER
@@ -6686,6 +7111,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 523108N 0025233W
+
 - name: LYVEDEN
   type: OTHER
   localtype: GLIDER
@@ -6696,6 +7122,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 522758N 0003430W
+
 - name: MARHAM
   type: OTHER
   localtype: GLIDER
@@ -6706,6 +7133,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 523854N 0003302E
+
 - name: MERRYFIELD
   type: OTHER
   localtype: GLIDER
@@ -6716,6 +7144,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 505729N 0025614W
+
 - name: MILFIELD
   type: OTHER
   localtype: GLIDER
@@ -6726,6 +7155,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 553514N 0020510W
+
 - name: NORTH HILL
   type: OTHER
   localtype: GLIDER
@@ -6736,6 +7166,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 505107N 0031639W
+
 - name: NYMPSFIELD
   type: OTHER
   localtype: GLIDER
@@ -6746,6 +7177,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 514251N 0021701W
+
 - name: OBAN
   type: OTHER
   localtype: GLIDER
@@ -6756,6 +7188,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 562740N 0052410W
+
 - name: PARHAM
   type: OTHER
   localtype: GLIDER
@@ -6766,6 +7199,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 505532N 0002828W
+
 - name: PERRANPORTH
   type: OTHER
   localtype: GLIDER
@@ -6776,6 +7210,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 501947N 0051039W
+
 - name: POCKLINGTON
   type: OTHER
   localtype: GLIDER
@@ -6786,6 +7221,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 535541N 0004751W
+
 - name: PORTMOAK
   type: OTHER
   localtype: GLIDER
@@ -6796,6 +7232,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 561121N 0031945W
+
 - name: RATTLESDEN
   type: OTHER
   localtype: GLIDER
@@ -6806,6 +7243,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 521001N 0005216E
+
 - name: RHIGOS
   type: OTHER
   localtype: GLIDER
@@ -6816,6 +7254,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 514434N 0033505W
+
 - name: RIDGEWELL
   type: OTHER
   localtype: GLIDER
@@ -6826,6 +7265,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 520253N 0003330E
+
 - name: RINGMER
   type: OTHER
   localtype: GLIDER
@@ -6836,6 +7276,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 505423N 0000618E
+
 - name: RIVAR HILL
   type: OTHER
   localtype: GLIDER
@@ -6846,6 +7287,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 512038N 0013235W
+
 - name: SACKVILLE LODGE
   type: OTHER
   localtype: GLIDER
@@ -6856,6 +7298,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 521551N 0002905W
+
 - name: SALTBY
   type: OTHER
   localtype: GLIDER
@@ -6866,6 +7309,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 524947N 0004245W
+
 - name: SANDHILL FARM
   type: OTHER
   localtype: GLIDER
@@ -6876,6 +7320,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 513614N 0014030W
+
 - name: SEIGHFORD
   type: OTHER
   localtype: GLIDER
@@ -6886,6 +7331,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 524940N 0021212W
+
 - name: SHOBDON
   type: OTHER
   localtype: GLIDER
@@ -6896,6 +7342,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 521430N 0025252W
+
 - name: SKELLING FARM
   type: OTHER
   localtype: GLIDER
@@ -6906,6 +7353,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 544152N 0023506W
+
 - name: SLEAP
   type: OTHER
   localtype: GLIDER
@@ -6916,6 +7364,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 525002N 0024618W
+
 - name: SNITTERFIELD
   type: OTHER
   localtype: GLIDER
@@ -6926,6 +7375,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 521406N 0014310W
+
 - name: SPILSTED FARM
   type: OTHER
   localtype: GLIDER
@@ -6936,6 +7386,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 505613N 0003109E
+
 - name: STRUBBY
   type: OTHER
   localtype: GLIDER
@@ -6946,6 +7397,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 531836N 0001034E
+
 - name: SUTTON BANK
   type: OTHER
   localtype: GLIDER
@@ -6956,6 +7408,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 541338N 0011249W
+
 - name: TALGARTH
   type: OTHER
   localtype: GLIDER
@@ -6966,6 +7419,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 515848N 0031215W
+
 - name: THE PARK
   type: OTHER
   localtype: GLIDER
@@ -6976,6 +7430,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 510742N 0021445W
+
 - name: TIBENHAM
   type: OTHER
   localtype: GLIDER
@@ -6986,6 +7441,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 522724N 0010915E
+
 - name: UPWOOD
   type: OTHER
   localtype: GLIDER
@@ -6996,6 +7452,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 522612N 0000836W
+
 - name: USK
   type: OTHER
   localtype: GLIDER
@@ -7006,6 +7463,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 514306N 0025101W
+
 - name: WALDERSHARE PARK
   type: OTHER
   localtype: GLIDER
@@ -7016,6 +7474,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 511020N 0011636E
+
 - name: WATTISHAM
   type: OTHER
   localtype: GLIDER
@@ -7026,6 +7485,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 520739N 0005722E
+
 - name: WESTON-ON-THE-GREEN
   type: OTHER
   localtype: GLIDER
@@ -7036,6 +7496,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 515249N 0011311W
+
 - name: WORMINGFORD
   type: OTHER
   localtype: GLIDER
@@ -7046,6 +7507,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 515630N 0004723E
+
 - name: WYCOMBE AIR PARK
   type: OTHER
   localtype: GLIDER
@@ -7056,6 +7518,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 513642N 0004830W
+
 - name: YEOVILTON
   type: OTHER
   localtype: GLIDER
@@ -7066,6 +7529,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 510034N 0023820W
+
 - name: YORK/RUFFORTH
   type: OTHER
   localtype: GLIDER
@@ -7076,6 +7540,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 535651N 0011116W
+
 - name: COSFORD
   type: OTHER
   localtype: GLIDER
@@ -7087,6 +7552,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 523824N 0021820W
+
 - name: HALTON
   type: OTHER
   localtype: GLIDER
@@ -7098,6 +7564,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 514733N 0004416W
+
 - name: KENLEY
   type: OTHER
   localtype: GLIDER
@@ -7109,6 +7576,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 511820N 0000537W
+
 - name: KIRKNEWTON
   type: OTHER
   localtype: GLIDER
@@ -7120,6 +7588,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 555234N 0032400W
+
 - name: LITTLE RISSINGTON
   type: OTHER
   localtype: GLIDER
@@ -7131,6 +7600,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 515200N 0014136W
+
 - name: ODIHAM
   type: OTHER
   localtype: GLIDER
@@ -7142,6 +7612,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 511405N 0005657W
+
 - name: PREDANNACK
   type: OTHER
   localtype: GLIDER
@@ -7153,6 +7624,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 500007N 0051351W
+
 - name: SYERSTON
   type: OTHER
   localtype: GLIDER
@@ -7164,6 +7636,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 530124N 0005442W
+
 - name: TERNHILL
   type: OTHER
   localtype: GLIDER
@@ -7175,6 +7648,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 525227N 0023201W
+
 - name: TOPCLIFFE
   type: OTHER
   localtype: GLIDER
@@ -7186,6 +7660,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 541220N 0012254W
+
 - name: UPAVON
   type: OTHER
   localtype: GLIDER
@@ -7197,6 +7672,7 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 511710N 0014652W
+
 - name: WETHERSFIELD
   type: OTHER
   localtype: GLIDER
@@ -7208,6 +7684,10 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 515824N 0003036E
+
+#----------------------------------------------------------------------
+# ENR 5.5 (cont) Training aerodrome
+
 - name: BAGBY
   type: OTHER
   localtype: NOATZ
@@ -7218,6 +7698,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 541230N 0011736W
+
 - name: BENTWATERS PARK
   type: OTHER
   localtype: NOATZ
@@ -7228,6 +7709,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 520740N 0012610E
+
 - name: BEVERLEY/LINLEY HILL
   type: OTHER
   localtype: NOATZ
@@ -7238,6 +7720,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 535354N 0002141W
+
 - name: BOURN
   type: OTHER
   localtype: NOATZ
@@ -7248,6 +7731,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 521238N 0000233W
+
 - name: BREIGHTON
   type: OTHER
   localtype: NOATZ
@@ -7258,6 +7742,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 534807N 0005451W
+
 - name: BRIMPTON
   type: OTHER
   localtype: NOATZ
@@ -7268,6 +7753,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 512300N 0011021W
+
 - name: DUNSFOLD
   type: OTHER
   localtype: NOATZ
@@ -7278,6 +7764,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 510700N 0003209W
+
 - name: EAGLESCOTT
   type: OTHER
   localtype: NOATZ
@@ -7288,6 +7775,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 505543N 0035922W
+
 - name: EASTER
   type: OTHER
   localtype: NOATZ
@@ -7298,6 +7786,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 574507N 0035620W
+
 - name: ENSTONE
   type: OTHER
   localtype: NOATZ
@@ -7308,6 +7797,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 515541N 0012542W
+
 - name: FOWLMERE
   type: OTHER
   localtype: NOATZ
@@ -7318,6 +7808,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 520439N 0000342E
+
 - name: GREAT MASSINGHAM
   type: OTHER
   localtype: NOATZ
@@ -7328,6 +7819,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 524644N 0004021E
+
 - name: GREAT OAKLEY
   type: OTHER
   localtype: NOATZ
@@ -7338,6 +7830,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 515400N 0011018E
+
 - name: HENSTRIDGE
   type: OTHER
   localtype: NOATZ
@@ -7348,6 +7841,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 505930N 0022130W
+
 - name: LLANBEDR
   type: OTHER
   localtype: NOATZ
@@ -7358,6 +7852,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 524817N 0040738W
+
 - name: MEMBURY
   type: OTHER
   localtype: NOATZ
@@ -7368,6 +7863,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 512830N 0013330W
+
 - name: NORTH WEALD
   type: OTHER
   localtype: NOATZ
@@ -7378,6 +7874,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 514318N 0000915E
+
 - name: OAKSEY PARK
   type: OTHER
   localtype: NOATZ
@@ -7388,6 +7885,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 513757N 0020055W
+
 - name: POPHAM
   type: OTHER
   localtype: NOATZ
@@ -7398,6 +7896,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 511140N 0011410W
+
 - name: ROUGHAM
   type: OTHER
   localtype: NOATZ
@@ -7408,6 +7907,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 521447N 0004610E
+
 - name: SANDOWN
   type: OTHER
   localtype: NOATZ
@@ -7418,6 +7918,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 503910N 0011055W
+
 - name: SEETHING
   type: OTHER
   localtype: NOATZ
@@ -7428,6 +7929,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 523040N 0012501E
+
 - name: SHACKLEWELL LODGE
   type: OTHER
   localtype: NOATZ
@@ -7438,6 +7940,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 523900N 0003400W
+
 - name: SKEGNESS
   type: OTHER
   localtype: NOATZ
@@ -7448,6 +7951,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 531024N 0002000E
+
 - name: SPANHOE
   type: OTHER
   localtype: NOATZ
@@ -7458,6 +7962,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 523330N 0003711W
+
 - name: STURGATE
   type: OTHER
   localtype: NOATZ
@@ -7468,6 +7973,10 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 532252N 0004107W
+
+#----------------------------------------------------------------------
+# ENR 5.5 (cont) Ultralight flights
+
 - name: ARCLID
   type: OTHER
   localtype: UL
@@ -7478,6 +7987,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 530828N 0021900W
+
 - name: BAGBY
   type: OTHER
   localtype: UL
@@ -7488,6 +7998,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 541240N 0011724W
+
 - name: BALADO PARK
   type: OTHER
   localtype: UL
@@ -7498,6 +8009,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 561300N 0032737W
+
 - name: BEDLANDS GATE
   type: OTHER
   localtype: UL
@@ -7508,6 +8020,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 543414N 0024015W
+
 - name: BELLE VUE
   type: OTHER
   localtype: UL
@@ -7518,6 +8031,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 505829N 0040524W
+
 - name: BONNINGTON
   type: OTHER
   localtype: UL
@@ -7528,6 +8042,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 510332N 0005653E
+
 - name: BUCKNALL
   type: OTHER
   localtype: UL
@@ -7538,6 +8053,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 531159N 0001516W
+
 - name: CAE MAWR TYDDYN HEN
   type: OTHER
   localtype: UL
@@ -7548,6 +8064,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 530927N 0041404W
+
 - name: CALTON MOOR
   type: OTHER
   localtype: UL
@@ -7558,6 +8075,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 530201N 0014959W
+
 - name: CATTON
   type: OTHER
   localtype: UL
@@ -7568,6 +8086,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 524340N 0014006W
+
 - name: CAUNTON
   type: OTHER
   localtype: UL
@@ -7578,6 +8097,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 530713N 0005318W
+
 - name: CHATTERIS
   type: OTHER
   localtype: UL
@@ -7588,6 +8108,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 522910N 0000523E
+
 - name: CHILTERN PARK
   type: OTHER
   localtype: UL
@@ -7598,6 +8119,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 513302N 0010605W
+
 - name: CHIRK
   type: OTHER
   localtype: UL
@@ -7608,6 +8130,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 525649N 0030243W
+
 - name: CLENCH COMMON
   type: OTHER
   localtype: UL
@@ -7618,6 +8141,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 512314N 0014411W
+
 - name: COLDHARBOUR FARM
   type: OTHER
   localtype: UL
@@ -7628,6 +8152,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 505925N 0005149E
+
 - name: COLEMORE COMMON
   type: OTHER
   localtype: UL
@@ -7638,6 +8163,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 510338N 0010035W
+
 - name: CROMER
   type: OTHER
   localtype: UL
@@ -7648,6 +8174,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 525410N 0011943E
+
 - name: DARLEY MOOR
   type: OTHER
   localtype: UL
@@ -7658,6 +8185,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 525814N 0014454W
+
 - name: DAVIDSTOW MOOR
   type: OTHER
   localtype: UL
@@ -7668,6 +8196,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 503815N 0043708W
+
 - name: EAST FORTUNE
   type: OTHER
   localtype: UL
@@ -7678,6 +8207,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 560003N 0024404W
+
 - name: EGERTON
   type: OTHER
   localtype: UL
@@ -7688,6 +8218,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 511149N 0004132E
+
 - name: FINMERE
   type: OTHER
   localtype: UL
@@ -7698,6 +8229,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 515907N 0010323W
+
 - name: GALSSONBY
   type: OTHER
   localtype: UL
@@ -7708,6 +8240,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 544418N 0023905W
+
 - name: GLIDDEN FARM
   type: OTHER
   localtype: UL
@@ -7718,6 +8251,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 505603N 0010318W
+
 - name: GRAVELEY
   type: OTHER
   localtype: UL
@@ -7728,6 +8262,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 515628N 0001212W
+
 - name: HALWELL
   type: OTHER
   localtype: UL
@@ -7738,6 +8273,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 502155N 0034235W
+
 - name: HARRINGE COURT FARM
   type: OTHER
   localtype: UL
@@ -7748,6 +8284,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 510531N 0005918E
+
 - name: HOGHTON (HIGHER BARN FARM)
   type: OTHER
   localtype: UL
@@ -7758,6 +8295,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 534425N 0023505W
+
 - name: HOUGHAM (GLEBE FARM)
   type: OTHER
   localtype: UL
@@ -7768,6 +8306,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 530022N 0004114W
+
 - name: HUNSDON
   type: OTHER
   localtype: UL
@@ -7778,6 +8317,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 514811N 0000339E
+
 - name: HUSTHWAITE
   type: OTHER
   localtype: UL
@@ -7788,6 +8328,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 540925N 0011354W
+
 - name: INCE
   type: OTHER
   localtype: UL
@@ -7798,6 +8339,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 533158N 0030139W
+
 - name: KIRKBRIDE
   type: OTHER
   localtype: UL
@@ -7808,6 +8350,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 545256N 0031220W
+
 - name: LINTON
   type: OTHER
   localtype: UL
@@ -7818,6 +8361,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 511217N 0003042E
+
 - name: LONDON COLNEY
   type: OTHER
   localtype: UL
@@ -7828,6 +8372,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 514220N 0001629W
+
 - name: LONG MARSTON
   type: OTHER
   localtype: UL
@@ -7838,6 +8383,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 520825N 0014513W
+
 - name: MANTON
   type: OTHER
   localtype: UL
@@ -7848,6 +8394,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 512543N 0014627W
+
 - name: MEIKLE ENDOVIE
   type: OTHER
   localtype: UL
@@ -7858,6 +8405,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 571349N 0024003W
+
 - name: MIDDLETON SANDS
   type: OTHER
   localtype: UL
@@ -7868,6 +8416,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 535952N 0025346W
+
 - name: MILSON
   type: OTHER
   localtype: UL
@@ -7878,6 +8427,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 522141N 0023245W
+
 - name: MISK HILL
   type: OTHER
   localtype: UL
@@ -7888,6 +8438,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 530311N 0011455W
+
 - name: MONTROSE
   type: OTHER
   localtype: UL
@@ -7898,6 +8449,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 564351N 0022704W
+
 - name: NEWTON PEVERIL
   type: OTHER
   localtype: UL
@@ -7908,6 +8460,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 504738N 0020603W
+
 - name: NORTHIAM
   type: OTHER
   localtype: UL
@@ -7918,6 +8471,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 510016N 0003718E
+
 - name: OAKLEY
   type: OTHER
   localtype: UL
@@ -7928,6 +8482,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 514705N 0010428W
+
 - name: OTHERTON
   type: OTHER
   localtype: UL
@@ -7938,6 +8493,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 524231N 0020541W
+
 - name: OXTON
   type: OTHER
   localtype: UL
@@ -7948,6 +8504,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 530241N 0010006W
+
 - name: PACKINGTON
   type: OTHER
   localtype: UL
@@ -7958,6 +8515,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 524258N 0012817W
+
 - name: PARK HALL
   type: OTHER
   localtype: UL
@@ -7968,6 +8526,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 525859N 0012215W
+
 - name: PILLING SANDS
   type: OTHER
   localtype: UL
@@ -7978,6 +8537,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 535631N 0025608W
+
 - name: PLAISTOWS (CHISWELL GREEN)
   type: OTHER
   localtype: UL
@@ -7988,6 +8548,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 514341N 0002247W
+
 - name: POUND GREEN
   type: OTHER
   localtype: UL
@@ -7998,6 +8559,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 522414N 0022115W
+
 - name: REDLANDS
   type: OTHER
   localtype: UL
@@ -8008,6 +8570,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 513320N 0014125W
+
 - name: RODDIGE
   type: OTHER
   localtype: UL
@@ -8018,6 +8581,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 524241N 0014435W
+
 - name: ROGART (ROVIE FARM)
   type: OTHER
   localtype: UL
@@ -8028,6 +8592,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 575926N 0041019W
+
 - name: ROSSALL FIELD (COCKERHAM)
   type: OTHER
   localtype: UL
@@ -8038,6 +8603,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 535603N 0025038W
+
 - name: SADDINGTON
   type: OTHER
   localtype: UL
@@ -8048,6 +8614,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 523039N 0010102W
+
 - name: SANDY
   type: OTHER
   localtype: UL
@@ -8058,6 +8625,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 520744N 0001835W
+
 - name: ST MICHAELS
   type: OTHER
   localtype: UL
@@ -8068,6 +8636,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 535106N 0024735W
+
 - name: STOKE (ISLE OF GRAIN)
   type: OTHER
   localtype: UL
@@ -8078,6 +8647,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 512702N 0003814E
+
 - name: STRATHAVEN
   type: OTHER
   localtype: UL
@@ -8088,6 +8658,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 554049N 0040654W
+
 - name: SUTTON MEDOWS
   type: OTHER
   localtype: UL
@@ -8098,6 +8669,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 522306N 0000336E
+
 - name: SWANTON MORLEY
   type: OTHER
   localtype: UL
@@ -8108,6 +8680,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 524405N 0005743E
+
 - name: THORNHILL
   type: OTHER
   localtype: UL
@@ -8118,6 +8691,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 560856N 0041109W
+
 - name: WATER EATON
   type: OTHER
   localtype: UL
@@ -8128,6 +8702,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 513826N 0014705W
+
 - name: WAVERTON
   type: OTHER
   localtype: UL
@@ -8138,6 +8713,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 531004N 0024718W
+
 - name: WESTONZOYLAND
   type: OTHER
   localtype: UL
@@ -8148,6 +8724,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 510628N 0025453W
+
 - name: WINGLAND
   type: OTHER
   localtype: UL
@@ -8158,6 +8735,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 524851N 0000647E
+
 - name: WOMBLETON
   type: OTHER
   localtype: UL
@@ -8168,6 +8746,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 541401N 0005808W
+
 - name: WYTON
   type: OTHER
   localtype: UL
@@ -8178,6 +8757,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 522120N 0000706W
+
 - name: YATESBURY
   type: OTHER
   localtype: UL
@@ -8188,6 +8768,10 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 512602N 0015405W
+
+#----------------------------------------------------------------------
+# AD2 Aerodromes
+
 - name: ABERDEEN
   type: CTR
   class: D
@@ -8211,6 +8795,7 @@ airspace:
         radius: 10 nm
         centre: 571834N 0021602W
         to: 572100N 0023356W
+
 - name: ABERDEEN
   type: CTA
   class: D
@@ -8268,6 +8853,7 @@ airspace:
         radius: 10 nm
         centre: 571834N 0021602W
         to: 572100N 0023356W
+
 - name: ANDREWSFIELD
   type: ATZ
   geometry:
@@ -8277,6 +8863,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 515342N 0002657E
+
 - name: BARROW
   type: ATZ
   geometry:
@@ -8286,6 +8873,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 540752N 0031548W
+
 - name: BECCLES
   type: ATZ
   geometry:
@@ -8295,6 +8883,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 522607N 0013706E
+
 - name: BEDFORD
   type: OTHER
   localtype: NOATZ
@@ -8305,6 +8894,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 521357N 0002644W
+
 - name: BIGGIN HILL
   type: ATZ
   geometry:
@@ -8314,6 +8904,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 511951N 0000157E
+
 - name: BIGGIN HILL
   type: OTHER
   localtype: ILS
@@ -8326,6 +8917,7 @@ airspace:
       - 512712N 0000657E
       - 512650N 0000809E
       - 512202N 0000353E
+
 - name: BIRMINGHAM
   type: CTR
   class: D
@@ -8348,6 +8940,7 @@ airspace:
         radius: 8 nm
         centre: 522722N 0014502W
         to: 523507N 0014154W
+
 - name: BIRMINGHAM
   type: CTA
   class: D
@@ -8499,6 +9092,7 @@ airspace:
       - 523708N 0020748W
       - 523442N 0020900W
       - 523847N 0021444W
+
 - name: BLACKBUSH
   type: ATZ
   geometry:
@@ -8514,6 +9108,7 @@ airspace:
         to: 511805N 0004830W
     - line:
       - 511757N 0004955W
+
 - name: BLACKPOOL
   type: ATZ
   geometry:
@@ -8523,6 +9118,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 534618N 0030143W
+
 - name: BOURNEMOUTH
   type: CTR
   class: D
@@ -8544,6 +9140,7 @@ airspace:
         radius: 8 nm
         centre: 504648N 0015033W
         to: 505003N 0020205W
+
 - name: BRISTOL
   type: CTR
   class: D
@@ -8554,6 +9151,7 @@ airspace:
     - circle:
         radius: 5 nm
         centre: 512258N 0024309W
+
 - name: BRISTOL
   type: CTA
   class: D
@@ -8684,6 +9282,7 @@ airspace:
         to: 512847N 0022104W
     - line:
       - 512842N 0022338W
+
 - name: CAERNARFON
   type: ATZ
   geometry:
@@ -8693,6 +9292,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 530607N 0042015W
+
 - name: CAMBRIDGE
   type: ATZ
   geometry:
@@ -8702,6 +9302,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 521218N 0001030E
+
 - name: CAMBRIDGE
   type: OTHER
   localtype: ILS
@@ -8722,6 +9323,7 @@ airspace:
       - 521745N 0002001E
       - 521707N 0002054E
       - 521348N 0001345E
+
 - name: CAMPBELTOWN
   type: ATZ
   geometry:
@@ -8731,6 +9333,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 552615N 0054117W
+
 - name: CARDIFF
   type: CTR
   class: D
@@ -8754,6 +9357,7 @@ airspace:
         radius: 8 nm
         centre: 512348N 0032036W
         to: 513021N 0032755W
+
 - name: CARDIFF
   type: CTA
   class: D
@@ -8872,6 +9476,7 @@ airspace:
       - 513947N 0024858W
       - 513450N 0024206W
       - 513743N 0030845W
+
 - name: CARLISLE
   type: ATZ
   geometry:
@@ -8881,6 +9486,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 545615N 0024833W
+
 - name: CARLISLE
   type: OTHER
   localtype: ILS
@@ -8901,6 +9507,7 @@ airspace:
       - 545149N 0030007W
       - 545232N 0030052W
       - 545519N 0025138W
+
 - name: CHALGROVE
   type: OTHER
   localtype: NOATZ
@@ -8911,6 +9518,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 514028N 0010507W
+
 - name: CHICHESTER
   type: ATZ
   geometry:
@@ -8920,6 +9528,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 505134N 0004533W
+
 - name: COLL
   type: OTHER
   localtype: NOATZ
@@ -8930,6 +9539,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 563607N 0063704W
+
 - name: COLONSAY
   type: OTHER
   localtype: NOATZ
@@ -8940,6 +9550,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 560327N 0061435W
+
 - name: COMPTON ABBAS
   type: ATZ
   geometry:
@@ -8949,6 +9560,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 505802N 0020913W
+
 - name: COVENTRY
   type: ATZ
   geometry:
@@ -8958,6 +9570,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 522211N 0012847W
+
 - name: COVENTRY
   type: OTHER
   localtype: ILS
@@ -8970,6 +9583,7 @@ airspace:
       - 522755N 0011941W
       - 522719N 0011845W
       - 522347N 0012539W
+
 - name: CRANFIELD
   type: ATZ
   geometry:
@@ -8979,6 +9593,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 520420N 0003700W
+
 - name: CRANFIELD
   type: OTHER
   localtype: ILS
@@ -8999,6 +9614,7 @@ airspace:
       - 521121N 0003047W
       - 521054N 0002937W
       - 520559N 0003509W
+
 - name: CUMBERNAULD
   type: ATZ
   geometry:
@@ -9008,6 +9624,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 555829N 0035832W
+
 - name: DENHAM
   type: ATZ
   geometry:
@@ -9017,6 +9634,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 513518N 0003047W
+
 - name: DERBY
   type: ATZ
   geometry:
@@ -9026,6 +9644,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 525135N 0013703W
+
 - name: DONCASTER SHEFFIELD
   type: CTR
   class: D
@@ -9059,6 +9678,7 @@ airspace:
         radius: 6.5 nm
         centre: 532751N 0010036W
         to: 532535N 0011047W
+
 - name: DONCASTER SHEFFIELD
   type: CTA
   class: D
@@ -9211,6 +9831,7 @@ airspace:
       - 532527N 0011228W
       - 531858N 0011152W
       - 531938N 0011532W
+
 - name: DUNDEE
   type: ATZ
   geometry:
@@ -9220,6 +9841,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 562709N 0030133W
+
 - name: DUNDEE
   type: OTHER
   localtype: ILS
@@ -9232,6 +9854,7 @@ airspace:
       - 562645N 0031559W
       - 562735N 0031559W
       - 562716N 0030509W
+
 - name: DUNKESWELL
   type: ATZ
   geometry:
@@ -9241,6 +9864,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 505136N 0031405W
+
 - name: DURHAM
   type: CTR
   class: D
@@ -9262,6 +9886,7 @@ airspace:
         radius: 5.3 nm
         centre: 543033N 0012546W
         to: 543303N 0013347W
+
 - name: DURHAM
   type: CTA
   class: D
@@ -9320,6 +9945,7 @@ airspace:
         radius: 11 nm
         centre: 543033N 0012546W
         to: 544050N 0011909W
+
 - name: DUXFORD
   type: ATZ
   geometry:
@@ -9329,6 +9955,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 520527N 0000755E
+
 - name: EARLS COLNE
   type: ATZ
   geometry:
@@ -9338,6 +9965,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 515452N 0004057E
+
 - name: EAST MIDLANDS
   type: CTR
   class: D
@@ -9362,6 +9990,7 @@ airspace:
       - 524536N 0011932W
       - 524535N 0012816W
       - 525233N 0013241W
+
 - name: EAST MIDLANDS
   type: CTA
   class: D
@@ -9568,6 +10197,7 @@ airspace:
       - 531143N 0013142W
       - 530900N 0013146W
       - 530901N 0013414W
+
 - name: EDINBURGH
   type: CTR
   class: D
@@ -9578,6 +10208,7 @@ airspace:
     - circle:
         radius: 10 nm
         centre: 555700N 0032221W
+
 - name: EDINBURGH
   type: CTA
   class: D
@@ -9641,6 +10272,7 @@ airspace:
         radius: 10 nm
         centre: 555700N 0032221W
         to: 555442N 0030503W
+
 - name: GLASGOW
   type: CTA
   class: D
@@ -9669,6 +10301,7 @@ airspace:
       - 553700N 0042847W
       - 554125N 0041017W
       - 554125N 0034324W
+
 - name: ELSTREE
   type: ATZ
   geometry:
@@ -9678,6 +10311,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 513921N 0001933W
+
 - name: EXETER
   type: ATZ
   geometry:
@@ -9687,6 +10321,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 504403N 0032450W
+
 - name: EXETER
   type: OTHER
   localtype: ILS
@@ -9707,6 +10342,7 @@ airspace:
       - 504623N 0031246W
       - 504535N 0031227W
       - 504432N 0032058W
+
 - name: FAIROAKS
   type: ATZ
   geometry:
@@ -9716,6 +10352,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 512053N 0003331W
+
 - name: FARNBOROUGH
   type: ATZ
   geometry:
@@ -9732,6 +10369,7 @@ airspace:
     - line:
       - 511805N 0004830W
       - 511812N 0004715W
+
 - name: FARNBOROUGH
   type: OTHER
   localtype: ILS
@@ -9752,6 +10390,7 @@ airspace:
       - 512038N 0003543W
       - 511954N 0003505W
       - 511734N 0004302W
+
 - name: FENLAND
   type: ATZ
   geometry:
@@ -9761,6 +10400,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 524422N 0000148W
+
 - name: GLASGOW
   type: CTR
   class: D
@@ -9777,6 +10417,7 @@ airspace:
       - 554428N 0045035W
       - 554600N 0044951W
       - 555500N 0045200W
+
 - name: GLOUCESTER
   type: ATZ
   geometry:
@@ -9786,6 +10427,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 515339N 0021002W
+
 - name: GLOUCESTER
   type: OTHER
   localtype: ILS
@@ -9806,6 +10448,7 @@ airspace:
       - 515453N 0015715W
       - 515403N 0015707W
       - 515345N 0020648W
+
 - name: HAVERFORDWEST
   type: ATZ
   geometry:
@@ -9815,6 +10458,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 514959N 0045740W
+
 - name: HAWARDEN
   type: ATZ
   geometry:
@@ -9824,6 +10468,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 531041N 0025840W
+
 - name: HAWARDEN
   type: OTHER
   localtype: ILS
@@ -9836,6 +10481,7 @@ airspace:
       - 530411N 0030625W
       - 530442N 0030730W
       - 530849N 0030126W
+
 - name: HAWARDEN
   type: OTHER
   localtype: RMZ
@@ -9871,6 +10517,7 @@ airspace:
       - 530000N 0030711W
       - 530321N 0031150W
       - 530845N 0031227W
+
 - name: HUMBERSDE
   type: ATZ
   geometry:
@@ -9880,6 +10527,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 533424N 0002105W
+
 - name: HUMBERSDE
   type: OTHER
   localtype: ILS
@@ -9900,6 +10548,7 @@ airspace:
       - 532652N 0002531W
       - 532711N 0002650W
       - 533209N 0002253W
+
 - name: INVERNESS
   type: ATZ
   geometry:
@@ -9909,6 +10558,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 573233N 0040251W
+
 - name: INVERNESS
   type: OTHER
   localtype: ILS
@@ -9929,6 +10579,7 @@ airspace:
       - 573802N 0035202W
       - 573723N 0035101W
       - 573404N 0035909W
+
 - name: ISLAY
   type: ATZ
   geometry:
@@ -9938,6 +10589,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 554100N 0061535W
+
 - name: KEMBLE
   type: ATZ
   geometry:
@@ -9947,6 +10599,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 514005N 0020325W
+
 - name: LANDS END
   type: ATZ
   geometry:
@@ -9956,6 +10609,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 500610N 0054014W
+
 - name: LASHENDEN
   type: ATZ
   geometry:
@@ -9965,6 +10619,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 510923N 0003840E
+
 - name: LEEDS BRADFORD
   type: CTR
   class: D
@@ -9988,6 +10643,7 @@ airspace:
         radius: 8 nm
         centre: 535157N 0013938W
         to: 535955N 0014027W
+
 - name: LEEDS BRADFORD
   type: CTA
   class: D
@@ -10046,6 +10702,7 @@ airspace:
       - 533713N 0014830W
       - 534726N 0015913W
       - 535539N 0020919W
+
 - name: LEEDS EAST
   type: ATZ
   geometry:
@@ -10064,6 +10721,7 @@ airspace:
         radius: 2 nm
         centre: 534703N 0011304W
         to: 534823N 0011032W
+
 - name: LEE-ON-SOLENT
   type: ATZ
   geometry:
@@ -10084,6 +10742,7 @@ airspace:
         radius: 2 nm
         centre: 504857N 0011224W
         to: 504810N 0010929W
+
 - name: LEICESTER
   type: ATZ
   geometry:
@@ -10093,6 +10752,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 523628N 0010155W
+
 - name: LIVERPOOL
   type: CTR
   class: D
@@ -10108,6 +10768,7 @@ airspace:
       - 531924N 0030735W
       - 532331N 0030804W
       - 532817N 0025719W
+
 - name: LIVERPOOL
   type: CTA
   class: D
@@ -10155,6 +10816,7 @@ airspace:
       - 531427N 0030140W
       - 531855N 0031647W
       - 532345N 0031625W
+
 - name: LONDON CITY
   type: CTR
   class: D
@@ -10177,6 +10839,7 @@ airspace:
         radius: 12 nm
         centre: 512812N 0002713W
         to: 513445N 0001108W
+
 - name: LONDON CITY
   type: CTA
   class: D
@@ -10213,6 +10876,7 @@ airspace:
         radius: 12 nm
         centre: 512812N 0002713W
         to: 513547N 0001221W
+
 - name: LONDON GATWICK
   type: CTR
   class: D
@@ -10235,6 +10899,7 @@ airspace:
         radius: 8 nm
         centre: 510853N 0001125W
         to: 511118N 0002332W
+
 - name: LONDON GATWICK
   type: CTA
   class: D
@@ -10257,6 +10922,7 @@ airspace:
         radius: 13 nm
         centre: 510853N 0001125W
         to: 510100N 0000458E
+
 - name: LONDON HEATHROW
   type: CTR
   class: D
@@ -10280,6 +10946,7 @@ airspace:
         radius: 12 nm
         centre: 512812N 0002713W
         to: 513611N 0004133W
+
 - name: LONDON LUTON
   type: CTR
   class: D
@@ -10300,6 +10967,7 @@ airspace:
     - line:
       - 514830N 0001506W
       - 514503N 0003457W
+
 - name: LONDON LUTON
   type: CTA
   class: D
@@ -10395,6 +11063,7 @@ airspace:
       - 515749N 0004048W
       - 515356N 0005006W
       - 515048N 0004926W
+
 - name: LONDON STANSTED
   type: CTR
   class: D
@@ -10417,6 +11086,7 @@ airspace:
         radius: 8 nm
         centre: 515306N 0001406E
         to: 515416N 0002653E
+
 - name: LONDON STANSTED
   type: CTA
   class: D
@@ -10483,6 +11153,7 @@ airspace:
       - 515155N 0000120E
       - 515146N 0000006W
       - 520127N 0000000W
+
 - name: LONDON STANSTED
   type: OTHER
   localtype: TMZ
@@ -10527,6 +11198,7 @@ airspace:
         radius: 8 nm
         centre: 515306N 0001406E
         to: 514508N 0001309E
+
 - name: LYDD
   type: ATZ
   geometry:
@@ -10536,6 +11208,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 505722N 0005621E
+
 - name: LYDD
   type: OTHER
   localtype: ILS
@@ -10556,6 +11229,7 @@ airspace:
       - 510439N 0010133E
       - 510416N 0010244E
       - 505906N 0005757E
+
 - name: MANCHESTER
   type: CTR
   class: D
@@ -10575,6 +11249,7 @@ airspace:
       - 531050N 0023224W
       - 531130N 0023744W
       - 532708N 0023744W
+
 - name: MANCHESTER
   type: CTA
   class: D
@@ -10630,6 +11305,7 @@ airspace:
       - 532056N 0023103W
       - 532638N 0022258W
       - 533430N 0020400W
+
 - name: MACHESTER/BARTON
   type: ATZ
   geometry:
@@ -10639,6 +11315,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 532818N 0022323W
+
 - name: NETHERTHORPE
   type: ATZ
   geometry:
@@ -10648,6 +11325,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 531901N 0011147W
+
 - name: NEWCASTLE
   type: CTR
   class: D
@@ -10670,6 +11348,7 @@ airspace:
         radius: 8 nm
         centre: 550217N 0014123W
         to: 550525N 0015411W
+
 - name: NEWCASTLE
   type: CTA
   class: D
@@ -10776,6 +11455,7 @@ airspace:
       - 544219N 0014448W
       - 543724N 0014622W
       - 543901N 0020136W
+
 - name: NEWQUAY
   type: ATZ
   geometry:
@@ -10785,6 +11465,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 502627N 0045943W
+
 - name: NEWQUAY
   type: OTHER
   localtype: ILS
@@ -10805,6 +11486,7 @@ airspace:
       - 502247N 0044835W
       - 502204N 0044915W
       - 502505N 0045627W
+
 - name: NORTHAMPTON
   type: ATZ
   geometry:
@@ -10814,6 +11496,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 521817N 0004732W
+
 - name: NORWICH
   type: CTR
   class: D
@@ -10836,6 +11519,7 @@ airspace:
         radius: 6 nm
         centre: 524033N 0011609E
         to: 524530N 0011035E
+
 - name: NORWICH
   type: CTA
   class: D
@@ -10891,6 +11575,7 @@ airspace:
       - 523815N 0005559E
       - 523531N 0011049E
       - 523527N 0010311E
+
 - name: NOTTINGHAM
   type: ATZ
   geometry:
@@ -10900,6 +11585,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 525515N 0010448W
+
 - name: OBAN
   type: ATZ
   geometry:
@@ -10909,6 +11595,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 562749N 0052400W
+
 - name: OLD BUCKINGHAM
   type: ATZ
   geometry:
@@ -10918,6 +11605,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 522951N 0010307E
+
 - name: OLD SARUM
   type: ATZ
   geometry:
@@ -10927,6 +11615,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 510556N 0014703W
+
 - name: OXFORD
   type: ATZ
   geometry:
@@ -10936,6 +11625,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 515013N 0011912W
+
 - name: OXFORD
   type: OTHER
   localtype: ILS
@@ -10956,6 +11646,7 @@ airspace:
       - 514217N 0012040W
       - 514225N 0012200W
       - 514816N 0011954W
+
 - name: PEMBREY
   type: ATZ
   geometry:
@@ -10965,6 +11656,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 514250N 0041844W
+
 - name: PERTH
   type: ATZ
   geometry:
@@ -10974,6 +11666,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 562628N 0032226W
+
 - name: PETERBOROUGH/CONINGTON
   type: ATZ
   geometry:
@@ -10983,6 +11676,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 522805N 0001503W
+
 - name: PRESTWICK
   type: CTR
   class: D
@@ -11005,6 +11699,7 @@ airspace:
         radius: 8 nm
         centre: 553034N 0043540W
         to: 553734N 0044227W
+
 - name: PRESTWICK
   type: CTA
   class: D
@@ -11109,6 +11804,7 @@ airspace:
         radius: 14 nm
         centre: 553034N 0043540W
         to: 552658N 0041154W
+
 - name: REDHILL
   type: ATZ
   geometry:
@@ -11122,6 +11818,7 @@ airspace:
         radius: 2 nm
         centre: 511249N 0000819W
         to: 511230N 0000511W
+
 - name: RETFORD
   type: ATZ
   geometry:
@@ -11131,6 +11828,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 531650N 0005705W
+
 - name: ROCHESTER
   type: ATZ
   geometry:
@@ -11140,6 +11838,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 512107N 0003010E
+
 - name: SANDTOFT
   type: ATZ
   geometry:
@@ -11149,6 +11848,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 533335N 0005130W
+
 - name: SHERBURN
   type: ATZ
   geometry:
@@ -11162,6 +11862,7 @@ airspace:
         radius: 2 nm
         centre: 534703N 0011304W
         to: 534823N 0011032W
+
 - name: SHOBDON
   type: ATZ
   geometry:
@@ -11171,6 +11872,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 521430N 0025252W
+
 - name: SHOREHAM
   type: ATZ
   geometry:
@@ -11180,6 +11882,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 505008N 0001750W
+
 - name: SHOREHAM
   type: OTHER
   localtype: ILS
@@ -11192,6 +11895,7 @@ airspace:
       - 505741N 0001343W
       - 505722N 0001229W
       - 505157N 0001630W
+
 - name: SLEAP
   type: ATZ
   geometry:
@@ -11201,6 +11905,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 525002N 0024618W
+
 - name: SOUTHAMPTON
   type: CTR
   class: D
@@ -11225,6 +11930,7 @@ airspace:
     - line:
       - 505512N 0013047W
       - 510123N 0012722W
+
 - name: SOUTHEND
   type: CTR
   class: D
@@ -11271,6 +11977,7 @@ airspace:
       - 513151N 0005000E
       - 513417N 0005000E
       - 513618N 0005532E
+
 - name: SOUTHEND
   type: CTA
   class: D
@@ -11421,6 +12128,7 @@ airspace:
         to: 514551N 0005510E
     - line:
       - 514530N 0005026E
+
 - name: STAPLEFORD
   type: ATZ
   geometry:
@@ -11430,6 +12138,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 513909N 0000922E
+
 - name: SWANSEA
   type: ATZ
   geometry:
@@ -11439,6 +12148,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 513619N 0040404W
+
 - name: TATENHILL
   type: ATZ
   geometry:
@@ -11448,6 +12158,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 524851N 0014553W
+
 - name: THRUXTON
   type: ATZ
   geometry:
@@ -11457,6 +12168,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 511240N 0013549W
+
 - name: WARTON
   type: ATZ
   geometry:
@@ -11466,6 +12178,7 @@ airspace:
     - circle:
         radius: 2.5 nm
         centre: 534442N 0025302W
+
 - name: WARTON
   type: OTHER
   localtype: ILS
@@ -11478,6 +12191,7 @@ airspace:
       - 534741N 0024031W
       - 534653N 0024003W
       - 534523N 0024859W
+
 - name: WELLESBOURNE MOUNTFORD
   type: ATZ
   geometry:
@@ -11487,6 +12201,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 521132N 0013652W
+
 - name: WELSHPOOL
   type: ATZ
   geometry:
@@ -11496,6 +12211,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 523743N 0030912W
+
 - name: WEST WALES/ABERPORTH
   type: ATZ
   geometry:
@@ -11505,6 +12221,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 520653N 0043334W
+
 - name: WHITE WALTHAM
   type: ATZ
   geometry:
@@ -11514,6 +12231,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 513002N 0004629W
+
 - name: WICK
   type: ATZ
   geometry:
@@ -11523,6 +12241,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 582732N 0030535W
+
 - name: WICKENBY
   type: ATZ
   geometry:
@@ -11532,6 +12251,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 531901N 0002056W
+
 - name: WOLVERHAMPTON
   type: ATZ
   geometry:
@@ -11541,6 +12261,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 523103N 0021534W
+
 - name: WYCOMBE
   type: ATZ
   geometry:
@@ -11550,6 +12271,7 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 513642N 0004830W
+
 - name: YEOVIL
   type: ATZ
   geometry:
@@ -11563,6 +12285,7 @@ airspace:
         radius: 2 nm
         centre: 505624N 0023932W
         to: 505804N 0023744W
+
 - name: YEOVIL
   type: OTHER
   localtype: ILS
@@ -11583,6 +12306,12 @@ airspace:
       - 505629N 0022652W
       - 505539N 0022655W
       - 505613N 0023623W
+
+#----------------------------------------------------------------------
+# Non AIP airfields. These have an EGxx location indicator in section
+# GEN 2.4 of the AIP, but don't have anyother information. Coordinates
+# and elevations are not verified.
+
 - name: ASHCROFT
   type: OTHER
   localtype: NOATZ
@@ -11593,6 +12322,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 530950N 0023415W
+
 - name: AYLESBURY
   type: OTHER
   localtype: NOATZ
@@ -11603,6 +12333,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 514636N 0005617W
+
 - name: BEMBRIDGE
   type: OTHER
   localtype: NOATZ
@@ -11613,6 +12344,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 504041N 0010633W
+
 - name: BODMIN
   type: OTHER
   localtype: NOATZ
@@ -11623,6 +12355,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 502959N 0043957W
+
 - name: CLACTON
   type: OTHER
   localtype: NOATZ
@@ -11633,6 +12366,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 514706N 0010748E
+
 - name: CROWFIELD
   type: OTHER
   localtype: NOATZ
@@ -11643,6 +12377,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 521016N 0010640E
+
 - name: DAMYNS HALL
   type: OTHER
   localtype: NOATZ
@@ -11653,6 +12388,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 513143N 0001444E
+
 - name: DEANLAND
   type: OTHER
   localtype: NOATZ
@@ -11663,6 +12399,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 505254N 0000921E
+
 - name: ELMSETT
   type: OTHER
   localtype: NOATZ
@@ -11673,6 +12410,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 520432N 0005840E
+
 - name: FARTHING CORNER
   type: OTHER
   localtype: NOATZ
@@ -11683,6 +12421,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 511956N 0003600E
+
 - name: FIFE
   type: OTHER
   localtype: NOATZ
@@ -11693,6 +12432,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 561100N 0031313W
+
 - name: FULL SUTTON
   type: OTHER
   localtype: NOATZ
@@ -11703,6 +12443,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 535850N 0005153W
+
 - name: HENLOW
   type: OTHER
   localtype: NOATZ
@@ -11713,6 +12454,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 520110N 0001806W
+
 - name: LASHAM
   type: OTHER
   localtype: NOATZ
@@ -11723,6 +12465,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 511110N 0010150W
+
 - name: LITTLE GRANSDEN
   type: OTHER
   localtype: NOATZ
@@ -11733,6 +12476,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 521000N 0000914W
+
 - name: LONG MARSTON
   type: OTHER
   localtype: NOATZ
@@ -11743,6 +12487,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 520821N 0014513W
+
 - name: MARSHLAND
   type: OTHER
   localtype: NOATZ
@@ -11753,6 +12498,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 523837N 0001742E
+
 - name: MAYPOLE
   type: OTHER
   localtype: NOATZ
@@ -11763,6 +12509,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 512017N 0010920E
+
 - name: NEWMARKET
   type: OTHER
   localtype: NOATZ
@@ -11773,6 +12520,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 521407N 0002256E
+
 - name: PERRANPORTH
   type: OTHER
   localtype: NOATZ
@@ -11783,6 +12531,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 501950N 0051046W
+
 - name: SIBSON
   type: OTHER
   localtype: NOATZ
@@ -11793,6 +12542,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 523321N 0002311W
+
 - name: SHIPDHAM
   type: OTHER
   localtype: NOATZ
@@ -11803,6 +12553,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 523746N 0005541E
+
 - name: THURROCK
   type: OTHER
   localtype: NOATZ
@@ -11813,6 +12564,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 513215N 0002203E
+
 - name: TILSTOCK
   type: OTHER
   localtype: NOATZ
@@ -11823,6 +12575,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 525555N 0023848W
+
 - name: TRURO
   type: OTHER
   localtype: NOATZ
@@ -11833,6 +12586,7 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 501643N 0050833W
+
 - name: TURWESTON
   type: OTHER
   localtype: NOATZ
