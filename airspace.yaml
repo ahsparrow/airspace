@@ -5905,7 +5905,7 @@ airspace:
         radius: 1 nm
         centre: 512652N 0004100E
 
-- name: I OF G JETTY
+- name: ISLE OF GRAIN JETTY
   type: D_OTHER
   localtype: GVS
   geometry:
