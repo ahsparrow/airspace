@@ -5763,7 +5763,6 @@ airspace:
       - 531546N 0040000W
       - 530000N 0040000W
       - 530000N 0043000W
-  geometry:
   - name: TRAG WELSH LOWER B
     upper: FL240
     lower: FL195
