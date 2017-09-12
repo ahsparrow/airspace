@@ -5381,6 +5381,457 @@ airspace:
         centre: 563449N 0023645W
 
 #----------------------------------------------------------------------
+# ENR 5.2 Military exercise and training areas
+
+- name: NSGA SCOTLAND
+  type: D_OTHER
+  localtype: GLIDER
+  rules:
+  - NOSSR
+  geometry:
+  - upper: FL195
+    lower: FL100
+    boundary:
+    - line:
+      - 550000N 0050000W
+      - 560000N 0070000W
+      - 590000N 0070000W
+      - 590000N 0020000W
+      - 560000N 0020000W
+      - 560000N 0030000W
+      - 550000N 0030000W
+
+- name: NSGA BORDERS
+  type: D_OTHER
+  localtype: GLIDER
+  rules:
+  - NOSSR
+  geometry:
+  - upper: FL195
+    lower: FL100
+    boundary:
+    - line:
+      - 550000N 0030000W
+      - 560000N 0030000W
+      - 560000N 0020000W
+      - 550000N 0013000W
+
+- name: NSGA YORKSHIRE
+  type: D_OTHER
+  localtype: GLIDER
+  rules:
+  - NOSSR
+  geometry:
+  - upper: FL195
+    lower: FL100
+    boundary:
+    - line:
+      - 550000N 0030555W
+      - 550000N 0020010W
+      - 545604N 0015027W
+      - 534637N 0003203W
+      - 534145N 0011604W
+      - 535309N 0023714W
+      - 540726N 0031558W
+      - 543049N 0033812W
+
+- name: NSGA DERBYSHIRE
+  type: D_OTHER
+  localtype: GLIDER
+  rules:
+  - NOSSR
+  geometry:
+  - upper: FL195
+    lower: FL100
+    boundary:
+    - line:
+      - 532541N 0014441W
+      - 533440N 0011244W
+      - 531854N 0011656W
+      - 531456N 0005121W
+      - 524539N 0005258W
+      - 530604N 0011927W
+      - 530818N 0013320W
+
+- name: NSGA WALES
+  type: D_OTHER
+  localtype: GLIDER
+  rules:
+  - NOSSR
+  geometry:
+  - upper: FL195
+    lower: FL100
+    boundary:
+    - line:
+      - 531655N 0043000W
+      - 532117N 0041155W
+      - 531854N 0031644W
+      - 525749N 0024744W
+      - 524143N 0021912W
+      - 521226N 0015238W
+      - 514441N 0021125W
+      - 513815N 0022708W
+      - 513709N 0030425W
+      - 515105N 0041855W
+      - 524356N 0043000W
+
+- name: NSGA DARTMOOR
+  type: D_OTHER
+  localtype: GLIDER
+  rules:
+  - NOSSR
+  geometry:
+  - upper: FL195
+    lower: FL100
+    boundary:
+    - line:
+      - 504907N 0040425W
+      - 503741N 0035343W
+      - 502314N 0035343W
+      - 502700N 0042714W
+      - 503747N 0042102W
+
+- name: TRAG SCOTLAND UPPER
+  type: D_OTHER
+  localtype: GLIDER
+  rules:
+  - TRA
+  geometry:
+  - name: TRAG SCOTTISH UPPER NORTH
+    upper: FL270
+    lower: FL240
+    boundary:
+    - line:
+      - 574000N 0034148W
+      - 574000N 0025518W
+      - 572852N 0022517W
+      - 571151N 0024717W
+      - 571801N 0034732W
+  - name: TRAG SCOTTISH UPPER SOUTH
+    upper: FL660
+    lower: FL240
+    boundary:
+    - line:
+      - 571801N 0034732W
+      - 571151N 0024717W
+      - 565119N 0031318W
+      - 570514N 0035049W
+
+- name: TRAG SCOTLAND LOWER
+  type: D_OTHER
+  localtype: GLIDER
+  rules:
+  - TRA
+  geometry:
+  - name: TRAG SCOTTISH LOWER NORTH
+    upper: FL240
+    lower: FL195
+    boundary:
+    - line:
+      - 574000N 0034148W
+      - 574000N 0025518W
+      - 572852N 0022517W
+      - 565119N 0031318W
+      - 570514N 0035049W
+  - name: TRAG SCOTTISH LOWER SOUTH
+    upper: FL240
+    lower: FL195
+    boundary:
+    - line:
+      - 570514N 0035049W
+      - 565119N 0031318W
+      - 563302N 0033557W
+      - 562408N 0035258W
+      - 562144N 0040142W
+
+- name: TRAG PORTMOAK
+  type: D_OTHER
+  localtype: GLIDER
+  rules:
+  - TRA
+  geometry:
+  - upper: FL240
+    lower: FL195
+    boundary:
+    - line:
+      - 562926N 0034253W
+      - 562223N 0032624W
+      - 561200N 0032855W
+      - 561200N 0040404W
+      - 562144N 0040142W
+      - 562408N 0035258W
+
+- name: TRAG ABOYNE
+  type: D_OTHER
+  localtype: GLIDER
+  rules:
+  - TRA
+  geometry:
+  - upper: FL240
+    lower: FL195
+    boundary:
+    - line:
+      - 571700N 0025300W
+      - 571216N 0023532W
+      - 565301N 0030005W
+      - 565730N 0031500W
+
+- name: TRAG NORTHUMBRIA
+  type: D_OTHER
+  localtype: GLIDER
+  rules:
+  - TRA
+  geometry:
+  - name: TRAG NORTHUMBRIA NORTH
+    upper: FL240
+    lower: FL195
+    boundary:
+    - line:
+      - 560600N 0023914W
+      - 555500N 0020216W
+      - 554600N 0015854W
+      - 554600N 0024128W
+  - name: TRAG NORTHUMBRIA SOUTH
+    upper: FL240
+    lower: FL195
+    boundary:
+    - line:
+      - 554600N 0024128W
+      - 554600N 0015854W
+      - 552644N 0015147W
+      - 551803N 0015434W
+      - 552951N 0023046W
+      - 553928N 0024211W
+
+- name: TRAG SPADEADAM UPPER
+  type: D_OTHER
+  localtype: GLIDER
+  rules:
+  - TRA
+  geometry:
+  - upper: FL660
+    lower: FL240
+    boundary:
+    - line:
+      - 550642N 0023639W
+      - 545902N 0020925W
+      - 544416N 0021359W
+
+- name: TRAG SPADEADAM LOWER
+  type: D_OTHER
+  localtype: GLIDER
+  rules:
+  - TRA
+  geometry:
+  - upper: FL240
+    lower: FL195
+    boundary:
+    - line:
+      - 550251N 0021822W
+      - 545815N 0020423W
+      - 543952N 0021005W
+
+- name: TRAG YORKSHIRE UPPER
+  type: D_OTHER
+  localtype: GLIDER
+  rules:
+  - TRA
+  geometry:
+  - name: TRAG YORKSHIRE UPPER NORTH
+    upper: FL660
+    lower: FL240
+    boundary:
+    - line:
+      - 543223N 0012622W
+      - 541026N 0010000W
+      - 540000N 0010000W
+      - 540000N 0012332W
+      - 541207N 0013559W
+
+- name: TRAG YORKSHIRE LOWER
+  type: D_OTHER
+  localtype: GLIDER
+  rules:
+  - TRA
+  geometry:
+  - name: TRAG YORKSHIRE LOWER NORTH
+    upper: FL240
+    lower: FL195
+    boundary:
+    - line:
+      - 543223N 0012622W
+      - 541026N 0010000W
+      - 540000N 0010000W
+      - 540000N 0012332W
+      - 541207N 0013559W
+  - name: TRAG YORKSHIRE LOWER SOUTH
+    upper: FL240
+    lower: FL195
+    boundary:
+    - line:
+      - 541026N 0010000W
+      - 534637N 0003203W
+      - 535158N 0011521W
+      - 540000N 0012332W
+      - 540000N 0010000W
+
+- name: TRAG WALES UPPER
+  type: D_OTHER
+  localtype: GLIDER
+  rules:
+  - TRA
+  geometry:
+  - name: TRAG WELSH UPPER A
+    upper: FL660
+    lower: FL240
+    boundary:
+    - line:
+      - 531655N 0043000W
+      - 531546N 0040000W
+      - 530000N 0040000W
+      - 530000N 0043000W
+  - name: TRAG WELSH UPPER B
+    upper: FL660
+    lower: FL240
+    boundary:
+    - line:
+      - 531546N 0040000W
+      - 531505N 0034316W
+      - 530603N 0032604W
+      - 530000N 0032630W
+      - 530000N 0040000W
+  - name: TRAG WELSH UPPER C
+    upper: FL660
+    lower: FL240
+    boundary:
+    - line:
+      - 531505N 0034316W
+      - 531429N 0032929W
+      - 531227N 0032536W
+      - 530603N 0032604W
+  - name: TRAG WELSH UPPER D
+    upper: FL660
+    lower: FL240
+    boundary:
+    - line:
+      - 530000N 0043000W
+      - 530000N 0040000W
+      - 522642N 0040000W
+      - 524356N 0043000W
+  - name: TRAG WELSH UPPER E
+    upper: FL660
+    lower: FL240
+    boundary:
+    - line:
+      - 530000N 0040000W
+      - 530000N 0032630W
+      - 525007N 0032713W
+      - 524220N 0033916W
+      - 523000N 0034007W
+      - 523000N 0040000W
+  - name: TRAG WELSH UPPER F
+    upper: FL270
+    lower: FL240
+    boundary:
+    - line:
+      - 525007N 0032713W
+      - 523000N 0032839W
+      - 523000N 0034007W
+      - 524220N 0033916W
+  - name: TRAG WELSH UPPER G
+    upper: FL270
+    lower: FL240
+    boundary:
+    - line:
+      - 523000N 0040000W
+      - 523000N 0032839W
+      - 520911N 0033007W
+      - 522642N 0040000W
+
+- name: TRAG WALES LOWER
+  type: D_OTHER
+  localtype: GLIDER
+  rules:
+  - TRA
+  geometry:
+  - name: TRAG WELSH LOWER A
+    upper: FL240
+    lower: FL195
+    boundary:
+    - line:
+      - 531655N 0043000W
+      - 531546N 0040000W
+      - 530000N 0040000W
+      - 530000N 0043000W
+  geometry:
+  - name: TRAG WELSH LOWER B
+    upper: FL240
+    lower: FL195
+    boundary:
+    - line:
+      - 531546N 0040000W
+      - 531505N 0034316W
+      - 530603N 0032604W
+      - 530000N 0032630W
+      - 530000N 0040000W
+  - name: TRAG WELSH LOWER C
+    upper: FL240
+    lower: FL195
+    boundary:
+    - line:
+      - 531505N 0034316W
+      - 531429N 0032929W
+      - 531227N 0032536W
+      - 530603N 0032604W
+  - name: TRAG WELSH LOWER D
+    upper: FL240
+    lower: FL195
+    boundary:
+    - line:
+      - 530000N 0043000W
+      - 530000N 0040000W
+      - 522642N 0040000W
+      - 524356N 0043000W
+  - name: TRAG WELSH LOWER E
+    upper: FL240
+    lower: FL195
+    boundary:
+    - line:
+      - 530000N 0040000W
+      - 530000N 0032630W
+      - 525007N 0032713W
+      - 524220N 0033916W
+      - 523000N 0034007W
+      - 523000N 0040000W
+  - name: TRAG WELSH LOWER F
+    upper: FL240
+    lower: FL195
+    boundary:
+    - line:
+      - 525007N 0032713W
+      - 523000N 0032839W
+      - 523000N 0034007W
+      - 524220N 0033916W
+  - name: TRAG WELSH LOWER G
+    upper: FL240
+    lower: FL195
+    boundary:
+    - line:
+      - 523000N 0040000W
+      - 523000N 0032839W
+      - 520911N 0033007W
+      - 522642N 0040000W
+  - name: TRAG WELSH LOWER H
+    upper: FL240
+    lower: FL195
+    boundary:
+    - line:
+      - 522642N 0040000W
+      - 520911N 0033007W
+      - 520149N 0033037W
+      - 520530N 0040000W
+
+#----------------------------------------------------------------------
 # ENR 5.3 Other activities of a dangerous nature
 #
 # ENR 5.3 (cont) Gas venting stations
