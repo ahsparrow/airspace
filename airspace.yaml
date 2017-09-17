@@ -1319,7 +1319,7 @@ airspace:
   geometry:
   - id: brize
     upper: 3500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 514556N 0015202W
@@ -1348,7 +1348,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2367 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -1358,7 +1358,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2203 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -1368,7 +1368,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2407 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -1378,7 +1378,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2593 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -1388,7 +1388,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2025 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -1398,7 +1398,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2272 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -1408,7 +1408,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2222 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -1418,7 +1418,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2268 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -1428,7 +1428,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2286 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -1438,7 +1438,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2366 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -1448,7 +1448,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2174 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -1458,7 +1458,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2022 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -1468,7 +1468,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2031 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -1478,7 +1478,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2132 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -1488,7 +1488,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2038 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -1498,7 +1498,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2052 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -1508,7 +1508,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2042 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -1518,7 +1518,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2513 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -1528,7 +1528,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2075 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -1538,7 +1538,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2144 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -1548,7 +1548,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2297 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -1558,7 +1558,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2032 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -1568,7 +1568,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2202 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -1578,7 +1578,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2454 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -1588,7 +1588,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2405 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -1598,7 +1598,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2027 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 504810N 0010929W
@@ -1624,7 +1624,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2299 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -1634,7 +1634,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2163 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 512532N 0032328W
@@ -1649,7 +1649,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2202 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -1659,7 +1659,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2249 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -1669,7 +1669,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2231 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -1679,7 +1679,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2285 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -1689,7 +1689,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2091 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -1699,7 +1699,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2036 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -1709,7 +1709,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2231 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -1719,7 +1719,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2284 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -1729,7 +1729,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2273 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -1739,7 +1739,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2037 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -1749,7 +1749,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2075 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -1761,7 +1761,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 3367 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 525814N 0003835W
@@ -1794,7 +1794,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 3203 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 5 nm
@@ -1831,7 +1831,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 3407 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 510513N 0014017W
@@ -1891,7 +1891,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 3024 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 5 nm
@@ -1938,7 +1938,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 3299 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 500153N 0052110W
@@ -1980,7 +1980,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 3042 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 573750N 0032432W
@@ -2001,7 +2001,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 3032 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 522618N 0002559E
@@ -2033,7 +2033,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 3132 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 541237N 0013124W
@@ -2074,7 +2074,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 3038 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 5 nm
@@ -2110,7 +2110,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 3053 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 5 nm
@@ -2152,7 +2152,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 3077 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 5 nm
@@ -2188,7 +2188,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 3144 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 3 nm
@@ -2246,7 +2246,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 3202 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 531913N 0042804W
@@ -2269,7 +2269,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 3405 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 5 nm
@@ -2293,7 +2293,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 3231 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 531355N 0003628W
@@ -2341,7 +2341,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 3285 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 524727N 0023151W
@@ -2457,7 +2457,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 3054 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 534506N 0030126W
@@ -2505,7 +2505,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 3284 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 5 nm
@@ -2541,7 +2541,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 3273 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 5 nm
@@ -2577,7 +2577,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 3075 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 5 nm
@@ -3600,7 +3600,7 @@ airspace:
   type: D
   geometry:
   - upper: 22000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 501342N 0042309W
@@ -3619,7 +3619,7 @@ airspace:
   - SI
   geometry:
   - upper: 10000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 504226N 0040146W
@@ -3653,7 +3653,7 @@ airspace:
   - SI
   geometry:
   - upper: 4500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 504019N 0040341W
@@ -3683,7 +3683,7 @@ airspace:
   - SI
   geometry:
   - upper: 10000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 503726N 0040136W
@@ -3715,7 +3715,7 @@ airspace:
   type: D
   geometry:
   - upper: 3600 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.27 nm
@@ -3727,7 +3727,7 @@ airspace:
   - SI
   geometry:
   - upper: 15000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 504020N 0020755W
@@ -3779,7 +3779,7 @@ airspace:
   type: D
   geometry:
   - upper: 15000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 503626N 0015635W
@@ -3800,7 +3800,7 @@ airspace:
   - SI
   geometry:
   - upper: 4000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 505525N 0005534E
@@ -3815,7 +3815,7 @@ airspace:
   type: D
   geometry:
   - upper: 1500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -3825,7 +3825,7 @@ airspace:
   type: D
   geometry:
   - upper: 2000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 510602N 0041529W
@@ -3841,7 +3841,7 @@ airspace:
   - SI
   geometry:
   - upper: 45000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 513906N 0050320W
@@ -3861,7 +3861,7 @@ airspace:
   type: D
   geometry:
   - upper: 27000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 513815N 0045012W
@@ -3877,7 +3877,7 @@ airspace:
   - SI
   geometry:
   - upper: 23000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 513510N 0042400W
@@ -3905,7 +3905,7 @@ airspace:
   type: D
   geometry:
   - upper: 12000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 514625N 0042400W
@@ -3933,7 +3933,7 @@ airspace:
   type: D
   geometry:
   - upper: 5000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 4 nm
@@ -3943,7 +3943,7 @@ airspace:
   type: D
   geometry:
   - upper: 2407 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 511052N 0014802W
@@ -4014,7 +4014,7 @@ airspace:
   - SI
   geometry:
   - upper: 50000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 511724N 0020107W
@@ -4031,7 +4031,7 @@ airspace:
   type: D
   geometry:
   - upper: FL660
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -4043,7 +4043,7 @@ airspace:
   - SI
   geometry:
   - upper: 50000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 511828N 0015004W
@@ -4060,7 +4060,7 @@ airspace:
   - SI
   geometry:
   - upper: 1400 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 511621N 0013746W
@@ -4102,7 +4102,7 @@ airspace:
   type: D
   geometry:
   - upper: 12000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 510552N 0014315W
@@ -4117,7 +4117,7 @@ airspace:
   type: D
   geometry:
   - upper: 1400 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 511852N 0014215W
@@ -4153,7 +4153,7 @@ airspace:
   type: D
   geometry:
   - upper: FL120
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -4165,7 +4165,7 @@ airspace:
   - SI
   geometry:
   - upper: 2300 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 510559N 0005213W
@@ -4179,7 +4179,7 @@ airspace:
   - SI
   geometry:
   - upper: 2500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 511745N 0003956W
@@ -4194,7 +4194,7 @@ airspace:
   type: D
   geometry:
   - upper: 1200 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 512040N 0004029W
@@ -4222,7 +4222,7 @@ airspace:
   type: D
   geometry:
   - upper: 1200 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 511922N 0003907W
@@ -4236,7 +4236,7 @@ airspace:
   type: D
   geometry:
   - upper: 13000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 513217N 0004804E
@@ -4247,7 +4247,7 @@ airspace:
   type: D
   geometry:
   - upper: 13000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 513714N 0005536E
@@ -4277,7 +4277,7 @@ airspace:
   - SI
   geometry:
   - upper: 1500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 515000N 0005458E
@@ -4303,7 +4303,7 @@ airspace:
   - SI
   geometry:
   - upper: 3200 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 510419N 0010426E
@@ -4316,7 +4316,7 @@ airspace:
   type: D
   geometry:
   - upper: 10000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -4328,7 +4328,7 @@ airspace:
   - SI
   geometry:
   - upper: 99000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 530300N 0053000W
@@ -4347,7 +4347,7 @@ airspace:
   - SI
   geometry:
   - upper: FL125
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 520840N 0043847W
@@ -4381,7 +4381,7 @@ airspace:
   type: D
   geometry:
   - upper: FL125
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 521000N 0042942W
@@ -4449,7 +4449,7 @@ airspace:
   - SI
   geometry:
   - upper: 23000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 520743N 0032924W
@@ -4468,7 +4468,7 @@ airspace:
   type: D
   geometry:
   - upper: 6000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -4478,7 +4478,7 @@ airspace:
   type: D
   geometry:
   - upper: 23000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 524830N 0001200E
@@ -4497,7 +4497,7 @@ airspace:
   - SI
   geometry:
   - upper: 2500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 523315N 0004050E
@@ -4533,7 +4533,7 @@ airspace:
   type: D
   geometry:
   - upper: 2400 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -4543,7 +4543,7 @@ airspace:
   type: D
   geometry:
   - upper: 2400 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.4 nm
@@ -4553,7 +4553,7 @@ airspace:
   type: D
   geometry:
   - upper: 2400 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.34 nm
@@ -4563,7 +4563,7 @@ airspace:
   type: D
   geometry:
   - upper: 2300 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -4583,7 +4583,7 @@ airspace:
   type: D
   geometry:
   - upper: 3500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -4593,7 +4593,7 @@ airspace:
   type: D
   geometry:
   - upper: 1500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 530554N 0004134W
@@ -4606,7 +4606,7 @@ airspace:
   type: D
   geometry:
   - upper: 20000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 532331N 0001354E
@@ -4636,7 +4636,7 @@ airspace:
   type: D
   geometry:
   - upper: 2900 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -4646,7 +4646,7 @@ airspace:
   type: D
   geometry:
   - upper: 3000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 550332N 0050509W
@@ -4694,7 +4694,7 @@ airspace:
   type: D
   geometry:
   - upper: 3000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 550332N 0050509W
@@ -4718,7 +4718,7 @@ airspace:
   type: D
   geometry:
   - upper: 4000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -4728,7 +4728,7 @@ airspace:
   type: D
   geometry:
   - upper: 15000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 544647N 0040349W
@@ -4764,7 +4764,7 @@ airspace:
   - SI
   geometry:
   - upper: 10000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 543812N 0022047W
@@ -4800,7 +4800,7 @@ airspace:
   - SI
   geometry:
   - upper: 3000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 542826N 0015159W
@@ -4834,7 +4834,7 @@ airspace:
   - SI
   geometry:
   - upper: 1000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -4846,7 +4846,7 @@ airspace:
   - SI
   geometry:
   - upper: 3000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.25 nm
@@ -4856,7 +4856,7 @@ airspace:
   type: D
   geometry:
   - upper: 4100 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.65 nm
@@ -4866,7 +4866,7 @@ airspace:
   type: D
   geometry:
   - upper: 5500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 551500N 0025256W
@@ -4898,7 +4898,7 @@ airspace:
   type: D
   geometry:
   - upper: 5500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 551500N 0025256W
@@ -4924,7 +4924,7 @@ airspace:
   - SI
   geometry:
   - upper: 18000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 552426N 0021355W
@@ -4956,7 +4956,7 @@ airspace:
   - SI
   geometry:
   - upper: 22000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 551418N 0020239W
@@ -4969,7 +4969,7 @@ airspace:
   type: D
   geometry:
   - upper: 4000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 560805N 0044636W
@@ -4984,7 +4984,7 @@ airspace:
   - SI
   geometry:
   - upper: 1500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 562849N 0024849W
@@ -5012,7 +5012,7 @@ airspace:
   - SI
   geometry:
   - upper: 2100 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 573617N 0040047W
@@ -5027,7 +5027,7 @@ airspace:
   - SI
   geometry:
   - upper: 15000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 575224N 0033030W
@@ -5063,7 +5063,7 @@ airspace:
   type: P
   geometry:
   - upper: 2200 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -5073,7 +5073,7 @@ airspace:
   type: P
   geometry:
   - upper: 2100 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -5083,7 +5083,7 @@ airspace:
   type: R
   geometry:
   - upper: 2000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -5093,7 +5093,7 @@ airspace:
   type: R
   geometry:
   - upper: 2000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -5103,7 +5103,7 @@ airspace:
   type: R
   geometry:
   - upper: 2400 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -5113,7 +5113,7 @@ airspace:
   type: R
   geometry:
   - upper: 2400 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -5123,7 +5123,7 @@ airspace:
   type: R
   geometry:
   - upper: 2000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -5133,7 +5133,7 @@ airspace:
   type: R
   geometry:
   - upper: 2000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -5143,7 +5143,7 @@ airspace:
   type: R
   geometry:
   - upper: 2000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -5153,7 +5153,7 @@ airspace:
   type: R
   geometry:
   - upper: 2000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -5163,7 +5163,7 @@ airspace:
   type: R
   geometry:
   - upper: 2150 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 524819N 0003104E
@@ -5184,7 +5184,7 @@ airspace:
   type: R
   geometry:
   - upper: 2150 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -5194,7 +5194,7 @@ airspace:
   type: R
   geometry:
   - upper: 2200 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -5204,7 +5204,7 @@ airspace:
   type: R
   geometry:
   - upper: 2100 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -5214,7 +5214,7 @@ airspace:
   type: R
   geometry:
   - upper: 9500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 5 nm
@@ -5224,7 +5224,7 @@ airspace:
   type: R
   geometry:
   - upper: 2100 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -5234,7 +5234,7 @@ airspace:
   type: R
   geometry:
   - upper: 2000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -5244,7 +5244,7 @@ airspace:
   type: R
   geometry:
   - upper: 2000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -5254,7 +5254,7 @@ airspace:
   type: R
   geometry:
   - upper: 2000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -5264,7 +5264,7 @@ airspace:
   type: R
   geometry:
   - upper: 2000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -5274,7 +5274,7 @@ airspace:
   type: R
   geometry:
   - upper: 2000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -5284,7 +5284,7 @@ airspace:
   type: R
   geometry:
   - upper: 2100 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -5294,7 +5294,7 @@ airspace:
   type: R
   geometry:
   - upper: 2000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -5304,7 +5304,7 @@ airspace:
   type: R
   geometry:
   - upper: 5000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 583000N 0033902W
@@ -5349,7 +5349,7 @@ airspace:
   type: R
   geometry:
   - upper: 2000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 582218N 0033224W
@@ -5361,7 +5361,7 @@ airspace:
   type: R
   geometry:
   - upper: 2000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 574900N 0040606W
@@ -5374,7 +5374,7 @@ airspace:
   type: R
   geometry:
   - upper: 6000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -5840,7 +5840,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 3600 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 573548N 0014947W
@@ -5854,7 +5854,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 2900 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -5865,7 +5865,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 2900 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -5876,7 +5876,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 3200 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -5887,7 +5887,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 2500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -5898,7 +5898,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 2700 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -5909,7 +5909,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 3000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -5920,7 +5920,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 1100 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -5931,7 +5931,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 3000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -5942,7 +5942,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 2800 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -5953,7 +5953,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 3600 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -5964,7 +5964,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 3200 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -5975,7 +5975,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 1100 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -5986,7 +5986,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 1100 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -5997,7 +5997,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 3200 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6008,7 +6008,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 1100 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6019,7 +6019,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 1100 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6030,7 +6030,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 1100 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6041,7 +6041,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 3600 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -6052,7 +6052,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 1100 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6063,7 +6063,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 1300 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6074,7 +6074,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 1200 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6085,7 +6085,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 2600 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6096,7 +6096,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 3600 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -6107,7 +6107,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 2700 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6118,7 +6118,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 1300 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6129,7 +6129,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 1300 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6140,7 +6140,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 2100 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -6151,7 +6151,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 3600 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -6162,7 +6162,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 2700 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6173,7 +6173,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 2600 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -6184,7 +6184,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 2600 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6195,7 +6195,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 2600 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6206,7 +6206,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 2600 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6217,7 +6217,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 1300 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6228,7 +6228,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 2900 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6239,7 +6239,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 2200 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.75 nm
@@ -6250,7 +6250,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 2700 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6261,7 +6261,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 2800 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6272,7 +6272,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 2700 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6283,7 +6283,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 2600 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -6294,7 +6294,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 2800 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6305,7 +6305,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 2700 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6316,7 +6316,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 2800 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6327,7 +6327,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 3500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -6338,7 +6338,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 1100 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6349,7 +6349,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 3500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -6360,7 +6360,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 3500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -6371,7 +6371,7 @@ airspace:
   localtype: GVS
   geometry:
   - upper: 2700 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6385,7 +6385,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 850 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.05 nm
@@ -6396,7 +6396,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 820 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6407,7 +6407,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 1600 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.9 nm
@@ -6418,7 +6418,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 4000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.65 nm
@@ -6429,7 +6429,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 3500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6440,7 +6440,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 920 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6451,7 +6451,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 6400 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -6462,7 +6462,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 1925 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.08 nm
@@ -6473,7 +6473,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 1600 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6484,7 +6484,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 40000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 5 nm
@@ -6495,7 +6495,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 11800 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.9 nm
@@ -6506,7 +6506,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 1550 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -6517,7 +6517,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 1550 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.9 nm
@@ -6528,7 +6528,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 10500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.4 nm
@@ -6539,7 +6539,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 2500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.4 nm
@@ -6550,7 +6550,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 6000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -6561,7 +6561,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 1500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.2 nm
@@ -6572,7 +6572,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 6600 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -6583,7 +6583,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 2500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.7 nm
@@ -6594,7 +6594,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 3500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6605,7 +6605,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 2400 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.7 nm
@@ -6616,7 +6616,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 2000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.2 nm
@@ -6627,7 +6627,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 2000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6638,7 +6638,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 2000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.9 nm
@@ -6649,7 +6649,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 1000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.75 nm
@@ -6660,7 +6660,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 3300 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -6671,7 +6671,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 1250 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
@@ -6682,7 +6682,7 @@ airspace:
   localtype: HIRTA
   geometry:
   - upper: 2100 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.7 nm
@@ -6696,7 +6696,7 @@ airspace:
   localtype: LASER
   geometry:
   - upper: FL660
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -6707,7 +6707,7 @@ airspace:
   localtype: LASER
   geometry:
   - upper: FL660
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 510552N 0014315W
@@ -6723,7 +6723,7 @@ airspace:
   localtype: LASER
   geometry:
   - upper: FL660
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -6734,7 +6734,7 @@ airspace:
   localtype: LASER
   geometry:
   - upper: FL660
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -6750,7 +6750,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL130
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -6761,7 +6761,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL120
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -6772,7 +6772,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL150
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -6783,7 +6783,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL150
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -6794,7 +6794,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL145
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -6805,7 +6805,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL95
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -6816,7 +6816,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: 5500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -6827,7 +6827,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL150
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -6838,7 +6838,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL150
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -6849,7 +6849,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL150
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -6860,7 +6860,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL150
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -6871,7 +6871,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL150
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -6882,7 +6882,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL104
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -6893,7 +6893,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL130
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -6904,7 +6904,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL120
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -6926,7 +6926,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL65
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -6948,7 +6948,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL150
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -6959,7 +6959,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL150
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -6970,7 +6970,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: 3500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -6992,7 +6992,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL150
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -7003,7 +7003,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL150
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -7014,7 +7014,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL150
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -7025,7 +7025,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL150
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -7036,7 +7036,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL150
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -7047,7 +7047,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL150
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -7058,7 +7058,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL65
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -7069,7 +7069,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL150
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -7080,7 +7080,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: 5000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -7102,7 +7102,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL150
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -7113,7 +7113,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL85
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
@@ -7135,7 +7135,7 @@ airspace:
   localtype: DZ
   geometry:
   - upper: FL85
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -7160,7 +7160,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2460 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7171,7 +7171,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 3600 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7182,7 +7182,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2289 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7193,7 +7193,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2044 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7204,7 +7204,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2055 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7215,7 +7215,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 3267 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7226,7 +7226,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2135 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7237,7 +7237,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2510 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7248,7 +7248,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2820 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7259,7 +7259,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 3020 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7270,7 +7270,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 3350 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7281,7 +7281,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2600 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7292,7 +7292,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 3600 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7303,7 +7303,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 3220 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7314,7 +7314,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2010 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7325,7 +7325,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2267 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7336,7 +7336,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2800 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7347,7 +7347,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2155 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7358,7 +7358,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7369,7 +7369,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2655 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7380,7 +7380,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2361 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7391,7 +7391,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 3142 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7402,7 +7402,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2205 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7413,7 +7413,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2600 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7424,7 +7424,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2860 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7435,7 +7435,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 3254 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7446,7 +7446,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2870 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7457,7 +7457,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7468,7 +7468,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 3505 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7479,7 +7479,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 3200 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7490,7 +7490,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2203 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7501,7 +7501,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 3618 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7512,7 +7512,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2032 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7523,7 +7523,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 3120 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7534,7 +7534,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 3200 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7545,7 +7545,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 3154 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7556,7 +7556,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 4411 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7567,7 +7567,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2279 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7578,7 +7578,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 3075 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7589,7 +7589,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2146 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7600,7 +7600,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2150 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7611,7 +7611,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2921 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7622,7 +7622,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 3700 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7633,7 +7633,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2020 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7644,7 +7644,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2110 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7655,7 +7655,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2330 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7666,7 +7666,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2087 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7677,7 +7677,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2360 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7688,7 +7688,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2305 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7699,7 +7699,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2780 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7710,7 +7710,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2273 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7721,7 +7721,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2572 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7732,7 +7732,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 3730 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7743,7 +7743,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2250 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7754,7 +7754,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 3480 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7765,7 +7765,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2350 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7776,7 +7776,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2321 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7787,7 +7787,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2328 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7798,7 +7798,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2610 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7809,7 +7809,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2275 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7820,7 +7820,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2375 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7831,7 +7831,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2160 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7842,7 +7842,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 3047 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7853,7 +7853,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2920 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7864,7 +7864,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2970 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7875,7 +7875,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 3697 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7886,7 +7886,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 3186 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7897,7 +7897,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2075 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7908,7 +7908,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2080 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7919,7 +7919,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2375 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7930,7 +7930,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 3284 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7941,7 +7941,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 3282 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7952,7 +7952,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 3236 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7963,7 +7963,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2520 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7974,7 +7974,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2075 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7985,7 +7985,7 @@ airspace:
   localtype: GLIDER
   geometry:
   - upper: 2065 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -7997,7 +7997,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 3272 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -8009,7 +8009,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 2370 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -8021,7 +8021,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 2256 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -8033,7 +8033,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 3652 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -8045,7 +8045,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 2722 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -8057,7 +8057,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 2905 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -8069,7 +8069,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 3295 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -8081,7 +8081,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 3228 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -8093,7 +8093,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 2272 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -8105,7 +8105,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 2092 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -8117,7 +8117,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 3575 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -8129,7 +8129,7 @@ airspace:
   controltype: MILITARY
   geometry:
   - upper: 2321 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 1 nm
@@ -8143,7 +8143,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2160 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8154,7 +8154,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2103 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8165,7 +8165,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2003 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8176,7 +8176,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2226 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8187,7 +8187,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2020 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8198,7 +8198,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2210 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8209,7 +8209,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2172 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8220,7 +8220,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2655 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8231,7 +8231,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2022 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8242,7 +8242,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2550 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8253,7 +8253,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2117 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8264,7 +8264,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2295 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8275,7 +8275,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2060 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8286,7 +8286,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2184 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8297,7 +8297,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2030 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8308,7 +8308,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2667 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8319,7 +8319,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2321 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8330,7 +8330,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2250 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8341,7 +8341,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2550 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8352,7 +8352,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2200 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8363,7 +8363,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2055 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8374,7 +8374,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2130 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8385,7 +8385,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2300 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8396,7 +8396,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2010 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8407,7 +8407,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2335 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8418,7 +8418,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2058 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8432,7 +8432,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2262 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8443,7 +8443,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2160 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8454,7 +8454,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2423 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8465,7 +8465,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2850 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8476,7 +8476,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2675 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8487,7 +8487,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2003 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8498,7 +8498,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2050 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8509,7 +8509,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2200 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8520,7 +8520,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2990 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8531,7 +8531,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2230 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8542,7 +8542,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2160 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8553,7 +8553,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2005 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8564,7 +8564,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2180 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8575,7 +8575,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2430 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8586,7 +8586,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2623 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8597,7 +8597,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2004 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8608,7 +8608,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2610 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8619,7 +8619,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2165 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8630,7 +8630,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2580 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8641,7 +8641,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2969 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8652,7 +8652,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2120 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8663,7 +8663,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2165 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8674,7 +8674,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2395 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8685,7 +8685,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2600 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8696,7 +8696,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2450 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8707,7 +8707,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2395 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8718,7 +8718,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2623 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8729,7 +8729,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2279 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8740,7 +8740,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2329 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8751,7 +8751,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2080 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8762,7 +8762,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2254 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8773,7 +8773,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2132 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8784,7 +8784,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2010 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8795,7 +8795,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2038 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8806,7 +8806,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2070 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8817,7 +8817,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2295 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8828,7 +8828,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2154 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8839,7 +8839,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2610 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8850,7 +8850,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2475 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8861,7 +8861,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2017 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8872,7 +8872,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8883,7 +8883,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2581 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8894,7 +8894,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2025 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8905,7 +8905,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2009 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8916,7 +8916,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2060 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8927,7 +8927,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2249 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8938,7 +8938,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2340 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8949,7 +8949,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2273 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8960,7 +8960,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2320 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8971,7 +8971,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2377 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8982,7 +8982,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2017 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -8993,7 +8993,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2395 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -9004,7 +9004,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2360 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -9015,7 +9015,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2320 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -9026,7 +9026,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2171 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -9037,7 +9037,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2033 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -9048,7 +9048,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2015 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -9059,7 +9059,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2460 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -9070,7 +9070,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2080 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -9081,7 +9081,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2030 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -9092,7 +9092,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2010 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -9103,7 +9103,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2847 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -9114,7 +9114,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2003 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -9125,7 +9125,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2118 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -9136,7 +9136,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2045 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -9147,7 +9147,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2270 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -9158,7 +9158,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2115 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -9169,7 +9169,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2030 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -9180,7 +9180,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2010 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -9191,7 +9191,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2120 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -9202,7 +9202,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2128 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -9213,7 +9213,7 @@ airspace:
   localtype: UL
   geometry:
   - upper: 2525 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -9227,7 +9227,7 @@ airspace:
   class: D
   geometry:
   - upper: FL115
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 572100N 0023356W
@@ -9308,7 +9308,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2286 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -9318,7 +9318,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2044 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -9328,7 +9328,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2080 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -9339,7 +9339,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2273 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -9349,7 +9349,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2599 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -9360,7 +9360,7 @@ airspace:
   localtype: ILS
   geometry:
   - upper: 2599 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 512209N 0000331E
@@ -9373,7 +9373,7 @@ airspace:
   class: D
   geometry:
   - upper: 4500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 523507N 0014154W
@@ -9547,7 +9547,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2325 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 511737N 0005211W
@@ -9563,7 +9563,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2034 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -9574,7 +9574,7 @@ airspace:
   class: D
   geometry:
   - upper: 2038 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 505312N 0014301W
@@ -9596,7 +9596,7 @@ airspace:
   class: D
   geometry:
   - upper: FL105
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 5 nm
@@ -9737,7 +9737,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2014 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -9747,7 +9747,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2047 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -9758,7 +9758,7 @@ airspace:
   localtype: ILS
   geometry:
   - upper: 2047 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 521036N 0000732E
@@ -9766,7 +9766,7 @@ airspace:
       - 520729N 0000007E
       - 521048N 0000715E
   - upper: 2047 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 521400N 0001329E
@@ -9778,7 +9778,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2042 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -9789,7 +9789,7 @@ airspace:
   class: D
   geometry:
   - upper: FL105
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 513021N 0032755W
@@ -9931,7 +9931,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2190 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -9942,7 +9942,7 @@ airspace:
   localtype: ILS
   geometry:
   - upper: 2190 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 545707N 0024525W
@@ -9950,7 +9950,7 @@ airspace:
       - 545855N 0023527W
       - 545655N 0024516W
   - upper: 2190 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 545509N 0025127W
@@ -9963,7 +9963,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2240 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -9973,7 +9973,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2109 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -9984,7 +9984,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2021 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -9995,7 +9995,7 @@ airspace:
   localtype: NOATZ
   geometry:
   - upper: 2044 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
@@ -10005,7 +10005,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2811 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -10015,7 +10015,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2267 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -10026,7 +10026,7 @@ airspace:
   localtype: ILS
   geometry:
   - upper: 2267 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 522359N 0012557W
@@ -10038,7 +10038,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2358 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -10049,7 +10049,7 @@ airspace:
   localtype: ILS
   geometry:
   - upper: 2358 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 520235N 0003834W
@@ -10057,7 +10057,7 @@ airspace:
       - 515746N 0004423W
       - 520242N 0003851W
   - upper: 2358 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 520605N 0003527W
@@ -10069,7 +10069,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2350 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -10079,7 +10079,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2249 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -10089,7 +10089,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2175 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -10101,7 +10101,7 @@ airspace:
   geometry:
   - seqno: 1
     upper: FL85
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 533432N 0010603W
@@ -10116,7 +10116,7 @@ airspace:
       - 533109N 0010751W
   - seqno: 2
     upper: FL105
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 533109N 0010751W
@@ -10286,7 +10286,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2017 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -10297,7 +10297,7 @@ airspace:
   localtype: ILS
   geometry:
   - upper: 2017 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 562703N 0030509W
@@ -10309,7 +10309,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2839 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -10320,7 +10320,7 @@ airspace:
   class: D
   geometry:
   - upper: 6000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 544050N 0011909W
@@ -10400,7 +10400,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2125 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -10410,7 +10410,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2227 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -10422,7 +10422,7 @@ airspace:
   geometry:
   - seqno: 1
     upper: FL105
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 525510N 0012530W
@@ -10433,7 +10433,7 @@ airspace:
       - 524536N 0011932W
   - seqno: 2
     upper: 5500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 525510N 0012530W
@@ -10653,7 +10653,7 @@ airspace:
   class: D
   geometry:
   - upper: 6000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 10 nm
@@ -10756,7 +10756,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2332 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -10766,7 +10766,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2102 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -10777,7 +10777,7 @@ airspace:
   localtype: ILS
   geometry:
   - upper: 2102 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 504318N 0032836W
@@ -10785,7 +10785,7 @@ airspace:
       - 504228N 0033712W
       - 504333N 0032842W
   - upper: 2102 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 504447N 0032104W
@@ -10797,7 +10797,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2080 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -10807,7 +10807,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2238 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 511855N 0004535W
@@ -10825,7 +10825,7 @@ airspace:
   localtype: ILS
   geometry:
   - upper: 2238 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 511514N 0005004W
@@ -10833,7 +10833,7 @@ airspace:
       - 511307N 0005812W
       - 511527N 0005016W
   - upper: 2238 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 511748N 0004314W
@@ -10845,7 +10845,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2006 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -10856,7 +10856,7 @@ airspace:
   class: D
   geometry:
   - upper: 6000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 560400N 0042000W
@@ -10872,7 +10872,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2101 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -10883,7 +10883,7 @@ airspace:
   localtype: ILS
   geometry:
   - upper: 2101 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 515320N 0021314W
@@ -10891,7 +10891,7 @@ airspace:
       - 515313N 0022257W
       - 515333N 0021316W
   - upper: 2101 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 515358N 0020650W
@@ -10903,7 +10903,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2159 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -10913,7 +10913,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2045 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -10924,7 +10924,7 @@ airspace:
   localtype: ILS
   geometry:
   - upper: 2045 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 530839N 0030105W
@@ -10940,7 +10940,7 @@ airspace:
   geometry:
   - seqno: 1
     upper: 2500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 531309N 0025059W
@@ -10948,7 +10948,7 @@ airspace:
       - 531427N 0030140W
   - seqno: 2
     upper: 3000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 530940N 0025059W
@@ -10959,7 +10959,7 @@ airspace:
       - 531427N 0030140W
   - seqno: 3
     upper: 4500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 530400N 0025720W
@@ -10972,7 +10972,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2121 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -10983,7 +10983,7 @@ airspace:
   localtype: ILS
   geometry:
   - upper: 2121 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 533645N 0001942W
@@ -10991,7 +10991,7 @@ airspace:
       - 534137N 0001520W
       - 533639N 0001917W
   - upper: 2121 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 533203N 0002228W
@@ -11003,7 +11003,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2131 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -11014,7 +11014,7 @@ airspace:
   localtype: ILS
   geometry:
   - upper: 2131 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 573050N 0040614W
@@ -11022,7 +11022,7 @@ airspace:
       - 572741N 0041440W
       - 573102N 0040632W
   - upper: 2131 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 573416N 0035928W
@@ -11034,7 +11034,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2056 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -11044,7 +11044,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2436 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -11054,7 +11054,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2398 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -11064,7 +11064,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2070 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -11075,7 +11075,7 @@ airspace:
   class: D
   geometry:
   - upper: FL85
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 535955N 0014027W
@@ -11157,7 +11157,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2029 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 534837N 0011510W
@@ -11176,7 +11176,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2033 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 504810N 0010929W
@@ -11197,7 +11197,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2469 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -11208,7 +11208,7 @@ airspace:
   class: D
   geometry:
   - upper: 2500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 533011N 0024123W
@@ -11272,7 +11272,7 @@ airspace:
   class: D
   geometry:
   - upper: 2500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 513445N 0001108W
@@ -11332,7 +11332,7 @@ airspace:
   class: D
   geometry:
   - upper: 2500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 511258N 0001129W
@@ -11378,7 +11378,7 @@ airspace:
   class: D
   geometry:
   - upper: 2500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 513611N 0004133W
@@ -11402,7 +11402,7 @@ airspace:
   class: D
   geometry:
   - upper: 3500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 515244N 0003828W
@@ -11519,7 +11519,7 @@ airspace:
   class: D
   geometry:
   - upper: 3500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 515416N 0002653E
@@ -11612,7 +11612,7 @@ airspace:
   geometry:
   - seqno: 1
     upper: 1500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 515416N 0002653E
@@ -11630,7 +11630,7 @@ airspace:
         to: 515828N 0003314E
   - seqno: 2
     upper: 1500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 514508N 0001309E
@@ -11653,7 +11653,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2013 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -11664,7 +11664,7 @@ airspace:
   localtype: ILS
   geometry:
   - upper: 2013 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 505543N 0005434E
@@ -11672,7 +11672,7 @@ airspace:
       - 505116N 0004810E
       - 505550N 0005418E
   - upper: 2013 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 505911N 0005739E
@@ -11685,7 +11685,7 @@ airspace:
   class: D
   geometry:
   - upper: 3500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 533011N 0024123W
@@ -11760,7 +11760,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2073 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -11770,7 +11770,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2248 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -11781,7 +11781,7 @@ airspace:
   class: D
   geometry:
   - upper: FL105
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 550525N 0015411W
@@ -11910,7 +11910,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2390 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -11921,7 +11921,7 @@ airspace:
   localtype: ILS
   geometry:
   - upper: 2390 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 502735N 0050312W
@@ -11929,7 +11929,7 @@ airspace:
       - 503049N 0051013W
       - 502749N 0050300W
   - upper: 2390 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 502519N 0045615W
@@ -11941,7 +11941,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2424 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -11952,7 +11952,7 @@ airspace:
   class: D
   geometry:
   - upper: 4000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 524530N 0011035E
@@ -12030,7 +12030,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2138 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -12040,7 +12040,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2024 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -12050,7 +12050,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2194 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -12060,7 +12060,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2285 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -12070,7 +12070,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2270 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -12081,7 +12081,7 @@ airspace:
   localtype: ILS
   geometry:
   - upper: 2270 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 515212N 0011847W
@@ -12089,7 +12089,7 @@ airspace:
       - 515759N 0011611W
       - 515209N 0011827W
   - upper: 2270 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 514814N 0011934W
@@ -12101,7 +12101,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2015 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -12111,7 +12111,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2397 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -12121,7 +12121,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2026 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -12132,7 +12132,7 @@ airspace:
   class: D
   geometry:
   - upper: 5500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 553734N 0044227W
@@ -12259,7 +12259,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2222 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 511134N 0001048W
@@ -12273,7 +12273,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2087 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -12283,7 +12283,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2426 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -12293,7 +12293,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2013 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -12303,7 +12303,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2026 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 534837N 0011510W
@@ -12317,7 +12317,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2317 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -12327,7 +12327,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2007 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -12338,7 +12338,7 @@ airspace:
   localtype: ILS
   geometry:
   - upper: 2007 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 505201N 0001648W
@@ -12350,7 +12350,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2275 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -12361,7 +12361,7 @@ airspace:
   class: D
   geometry:
   - upper: 2000 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 510459N 0012017W
@@ -12387,7 +12387,7 @@ airspace:
   geometry:
   - seqno: 1
     upper: 3500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 513445N 0002903E
@@ -12403,7 +12403,7 @@ airspace:
         to: 513445N 0002903E
   - seqno: 2
     upper: 4500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 514206N 0004521E
@@ -12413,7 +12413,7 @@ airspace:
       - 513417N 0005000E
   - seqno: 3
     upper: 5500 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 514138N 0005222E
@@ -12583,7 +12583,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2185 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -12593,7 +12593,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2299 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -12603,7 +12603,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2439 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -12613,7 +12613,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2319 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -12623,7 +12623,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2055 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
@@ -12634,7 +12634,7 @@ airspace:
   localtype: ILS
   geometry:
   - upper: 2055 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 534538N 0024907W
@@ -12646,7 +12646,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2159 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -12656,7 +12656,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2233 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -12666,7 +12666,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2428 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -12676,7 +12676,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2133 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -12686,7 +12686,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2126 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -12696,7 +12696,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2084 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -12706,7 +12706,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2283 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -12716,7 +12716,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2520 ft
-    lower: GND
+    lower: SFC
     boundary:
     - circle:
         radius: 2 nm
@@ -12726,7 +12726,7 @@ airspace:
   type: ATZ
   geometry:
   - upper: 2200 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 505817N 0024037W
@@ -12741,7 +12741,7 @@ airspace:
   localtype: ILS
   geometry:
   - upper: 2200 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 505612N 0024241W
@@ -12749,7 +12749,7 @@ airspace:
       - 505626N 0025212W
       - 505625N 0024242W
   - upper: 2200 ft
-    lower: GND
+    lower: SFC
     boundary:
     - line:
       - 505625N 0023622W
