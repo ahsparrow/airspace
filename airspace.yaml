@@ -1317,8 +1317,7 @@ airspace:
   type: CTR
   class: D
   geometry:
-  - id: brize
-    upper: 3500 ft
+  - upper: 3500 ft
     lower: SFC
     boundary:
     - line:
