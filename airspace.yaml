@@ -9689,7 +9689,8 @@ airspace:
       - 511538N 0025120W
       - 511247N 0030302W
       - 511709N 0030302W
-  - seqno: 6
+  - id: bristol-6
+    seqno: 6
     upper: FL105
     lower: 3500 ft
     boundary:
@@ -9716,7 +9717,8 @@ airspace:
       - 513235N 0022204W
       - 512842N 0022338W
       - 512715N 0030058W
-  - seqno: 8
+  - id: bristol-8
+    seqno: 8
     upper: FL105
     lower: 4500 ft
     boundary:
