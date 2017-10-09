@@ -2843,7 +2843,8 @@ airspace:
       - 564120N 0040559W
       - 564239N 0042400W
       - 562827N 0042722W
-  - upper: FL195
+  - id: n560-gussi
+    upper: FL195
     lower: FL105
     rules:
     - TMZ
