@@ -2663,7 +2663,8 @@ airspace:
   type: AWY
   class: A
   geometry:
-  - upper: FL195
+  - id: l612-chipping1
+    upper: FL195
     lower: FL65
     boundary:
     - line:
@@ -2671,7 +2672,8 @@ airspace:
       - 534127N 0023240W
       - 533918N 0023900W
       - 535330N 0024911W
-  - upper: FL195
+  - id: l612-chipping2
+    upper: FL195
     lower: FL95
     boundary:
     - line:
@@ -3149,7 +3151,8 @@ airspace:
       - 550601N 0013149W
       - 550750N 0014859W
       - 550312N 0015029W
-  - upper: FL125
+  - id: p18-castle
+    upper: FL125
     lower: FL105
     boundary:
     - line:
@@ -3157,7 +3160,8 @@ airspace:
       - 543135N 0013929W
       - 542344N 0014159W
       - 542615N 0020534W
-  - upper: FL125
+  - id: p18-castlederwent
+    upper: FL125
     lower: FL75
     boundary:
     - line:
@@ -3165,7 +3169,8 @@ airspace:
       - 543133N 0013930W
       - 543405N 0020303W
       - 544358N 0020002W
-  - upper: FL125
+  - id: p18-derwent
+    upper: FL125
     lower: FL55
     boundary:
     - line:
@@ -11864,6 +11869,7 @@ airspace:
         centre: 550217N 0014123W
         to: 551134N 0013108W
   - seqno: 4
+    id: newcastle-cta4
     upper: FL105
     lower: 3000 ft
     boundary:
@@ -11877,6 +11883,7 @@ airspace:
     - line:
       - 544356N 0020004W
   - seqno: 5
+    id: newcastle-cta5
     upper: FL55
     lower: 3000 ft
     boundary:
@@ -11891,6 +11898,7 @@ airspace:
         centre: 550217N 0014123W
         to: 545336N 0015304W
   - seqno: 6
+    id: newcastle-cta6
     upper: FL55
     lower: 4500 ft
     boundary:
@@ -11899,6 +11907,7 @@ airspace:
       - 544124N 0013620W
       - 544356N 0020004W
   - seqno: 7
+    id: newcastle-cta7
     upper: FL75
     lower: 6000 ft
     boundary:
