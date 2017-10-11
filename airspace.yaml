@@ -1256,6 +1256,7 @@ airspace:
       - 551214N 0050234W
       - 551511N 0050000W
   - seqno: 3
+    id: scottish-tma3
     upper: FL195
     lower: 6000 ft
     boundary:
