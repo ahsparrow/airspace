@@ -2632,7 +2632,8 @@ airspace:
   type: AWY
   class: A
   geometry:
-  - upper: FL195
+  - id: l60-camphill
+    upper: FL195
     lower: FL85
     boundary:
     - line:
@@ -2738,7 +2739,8 @@ airspace:
       - 532844N 0013215W
       - 532719N 0014617W
       - 533650N 0015216W
-  - upper: FL195
+  - id: l975-camphill1
+    upper: FL195
     lower: FL55
     boundary:
     - line:
@@ -2746,7 +2748,8 @@ airspace:
       - 532844N 0013215W
       - 533038N 0011307W
       - 534030N 0011551W
-  - upper: FL195
+  - id: l975-camphill2
+    upper: FL195
     lower: FL65
     boundary:
     - line:
@@ -2893,7 +2896,8 @@ airspace:
   type: AWY
   class: A
   geometry:
-  - upper: FL195
+  - id: n601-camphill
+    upper: FL195
     lower: FL105
     boundary:
     - line:
@@ -3123,7 +3127,8 @@ airspace:
   type: AWY
   class: A
   geometry:
-  - upper: FL195
+  - id: y70-camphill
+    upper: FL195
     lower: FL125
     boundary:
     - line:
