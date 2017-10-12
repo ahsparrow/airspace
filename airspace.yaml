@@ -1234,7 +1234,8 @@ airspace:
   type: TMA
   class: D
   geometry:
-  - seqno: 1
+  - id: scottish-tma1
+    seqno: 1
     upper: FL195
     lower: 4500 ft
     boundary:
@@ -10691,7 +10692,8 @@ airspace:
   type: CTA
   class: D
   geometry:
-  - seqno: 1
+  - id: edinburgh-cta1
+    seqno: 1
     upper: 6000 ft
     lower: 2500 ft
     boundary:
@@ -10720,7 +10722,8 @@ airspace:
         radius: 10 nm
         centre: 555700N 0032221W
         to: 560700N 0032221W
-  - seqno: 3
+  - id: edinburgh-cta3
+    seqno: 3
     upper: 6000 ft
     lower: 3500 ft
     boundary:
@@ -10735,7 +10738,8 @@ airspace:
     - line:
       - 555417N 0035413W
       - 555724N 0035417W
-  - seqno: 4
+  - id: edinburgh-cta4
+    seqno: 4
     upper: 6000 ft
     lower: 3500 ft
     boundary:
@@ -10755,7 +10759,8 @@ airspace:
   type: CTA
   class: D
   geometry:
-  - seqno: 1
+  - id: glasgow-cta1
+    seqno: 1
     upper: 6000 ft
     lower: 3000 ft
     boundary:
@@ -10768,7 +10773,8 @@ airspace:
       - 554349N 0034715W
       - 554806N 0035411W
       - 555724N 0035417W
-  - seqno: 2
+  - id: glasgow-cta2
+    seqno: 2
     upper: 6000 ft
     lower: 3500 ft
     boundary:
