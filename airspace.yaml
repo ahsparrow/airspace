@@ -3097,7 +3097,8 @@ airspace:
       - 531729N 0031655W
       - 530350N 0031758W
       - 530541N 0032348W
-  - upper: FL195
+  - id: n864-x
+    upper: FL195
     lower: FL65
     boundary:
     - line:
@@ -3105,7 +3106,8 @@ airspace:
       - 561118N 0030159W
       - 560700N 0030304W
       - 560700N 0032107W
-  - upper: FL195
+  - id: n864-y
+    upper: FL195
     lower: FL85
     boundary:
     - line:
@@ -3116,7 +3118,8 @@ airspace:
       - 561242N 0031943W
       - 561750N 0031827W
       - 562219N 0031719W
-  - upper: FL195
+  - id: n864-z
+    upper: FL195
     lower: FL105
     boundary:
     - line:
@@ -3323,7 +3326,8 @@ airspace:
       - 550250N 0045120W
       - 551002N 0044501W
       - 550806N 0043002W
-  - upper: FL195
+  - id: p600-a
+    upper: FL195
     lower: FL55
     boundary:
     - line:
@@ -3332,7 +3336,8 @@ airspace:
       - 561400N 0033259W
       - 561400N 0040926W
       - 562000N 0034746W
-  - upper: FL195
+  - id: p600-b
+    upper: FL195
     lower: FL85
     boundary:
     - line:
@@ -3341,7 +3346,8 @@ airspace:
       - 562341N 0031445W
       - 561554N 0032925W
       - 562149N 0034418W
-  - upper: FL195
+  - id: p600-cd
+    upper: FL195
     lower: FL105
     boundary:
     - line:
@@ -3352,7 +3358,8 @@ airspace:
       - 562633N 0032207W
       - 562948N 0032900W
       - 563900N 0031738W
-  - upper: FL195
+  - id: p600-e
+    upper: FL195
     lower: FL85
     boundary:
     - line:
@@ -3360,7 +3367,8 @@ airspace:
       - 565109N 0024017W
       - 564257N 0025040W
       - 564838N 0030536W
-  - upper: FL195
+  - id: p600-f
+    upper: FL195
     lower: FL55
     boundary:
     - line:
@@ -3368,7 +3376,8 @@ airspace:
       - 565433N 0023557W
       - 565109N 0024017W
       - 565651N 0025515W
-  - upper: FL195
+  - id: p600-g
+    upper: FL195
     lower: FL115
     boundary:
     - line:
