@@ -10192,7 +10192,8 @@ airspace:
         radius: 8 nm
         centre: 532751N 0010036W
         to: 532401N 0011220W
-  - seqno: 3
+  - id: rhads-3
+    seqno: 3
     upper: FL60
     lower: 2000 ft
     boundary:
@@ -10205,7 +10206,8 @@ airspace:
         radius: 13 nm
         centre: 532751N 0010036W
         to: 531641N 0011139W
-  - seqno: 4
+  - id: rhads-4
+    seqno: 4
     upper: FL65
     lower: 2000 ft
     boundary:
@@ -10214,7 +10216,8 @@ airspace:
       - 534149N 0010209W
       - 533109N 0010751W
       - 533059N 0010932W
-  - seqno: 5
+  - id: rhads-5
+    seqno: 5
     upper: FL85
     lower: 2000 ft
     boundary:
@@ -10234,7 +10237,8 @@ airspace:
         radius: 8 nm
         centre: 532911N 0005954W
         to: 533635N 0010457W
-  - seqno: 6
+  - id: rhads-6
+    seqno: 6
     upper: FL105
     lower: 2000 ft
     boundary:
@@ -10259,7 +10263,8 @@ airspace:
       - 533109N 0010751W
       - 532535N 0011047W
       - 532527N 0011228W
-  - seqno: 8
+  - id: rhads-8
+    seqno: 8
     upper: FL65
     lower: 4000 ft
     boundary:
@@ -10268,7 +10273,8 @@ airspace:
       - 534139N 0010352W
       - 533059N 0010932W
       - 533038N 0011307W
-  - seqno: 9
+  - id: rhads-9
+    seqno: 9
     upper: FL85
     lower: 4000 ft
     boundary:
