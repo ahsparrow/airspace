@@ -318,6 +318,7 @@ loa:
     add:
     - name: CAMBRIDGE RAZ
       type: OTHER
+      localtype: RMZ
       geometry:
       - upper: FL100
         lower: SFC
