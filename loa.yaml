@@ -1,0 +1,1744 @@
+loa:
+- name: AMPIT TRIANGLE
+  areas:
+  - name: AMPIT TRIANGLE
+    add:
+    - name: AMPIT TRIANGLE
+      type: AWY
+      class: A
+      geometry:
+      - upper: FL185
+        lower: FL145
+        boundary:
+        - line:
+          - 531956N 0033953W
+          - 531855N 0031647W
+          - 530812N 0031736W
+    replace:
+    - id: l15
+      geometry:
+      - upper: FL195
+        lower: FL185
+        boundary:
+        - line:
+          - 531956N 0033953W
+          - 531855N 0031647W
+          - 530812N 0031736W
+- name: BATH GAP
+  areas:
+  - name: BATH GAP
+    add:
+    - name: BATH GAP
+      type: CTA
+      class: D
+      geometry:
+      - upper: 4500 ft
+        lower: 3500 ft
+        boundary:
+        - line:
+          - 512847N 0022104W
+        - arc:
+            dir: cw
+            radius: 15 nm
+            centre: 512258N 0024309W
+            to: 511849N 0022009W
+        - line:
+          - 511838N 0022518W
+        - arc:
+            dir: ccw
+            radius: 12 nm
+            centre: 512258N 0024309W
+            to: 512605N 0022440W
+        - line:
+          - 512842N 0022338W
+    - name: BATH GAP B
+      type: CTA
+      class: D
+      geometry:
+      - upper: 5000 ft
+        lower: 4500 ft
+        boundary:
+        - line:
+          - 513235N 0022204W
+          - 513039N 0020510W
+          - 512320N 0021913W
+        - arc:
+            dir: cw
+            radius: 15 nm
+            centre: 512258N 0024309W
+            to: 511849N 0022009W
+        - line:
+          - 511838N 0022518W
+        - arc:
+            dir: ccw
+            radius: 12 nm
+            centre: 512258N 0024309W
+            to: 512605N 0022440W
+    replace:
+    - id: bristol-6
+      geometry:
+      - upper: FL105
+        lower: 3500 ft
+        boundary:
+        - line:
+          - 512605N 0022440W
+        - arc:
+            dir: ccw
+            radius: 12 nm
+            centre: 512258N 0024309W
+            to: 512836N 0022614W
+        - line:
+          - 512842N 0022338W
+      - upper: FL105
+        lower: 5000 ft
+        boundary:
+        - line:
+          - 512847N 0022104W
+        - arc:
+            dir: cw
+            radius: 15 nm
+            centre: 512258N 0024309W
+            to: 511849N 0022009W
+        - line:
+          - 511838N 0022518W
+        - arc:
+            dir: ccw
+            radius: 12 nm
+            centre: 512258N 0024309W
+            to: 512605N 0022440W
+        - line:
+          - 512842N 0022338W
+    - id: bristol-8
+      geometry:
+      - upper: FL105
+        lower: 5000 ft
+        boundary:
+        - line:
+          - 513235N 0022204W
+          - 513039N 0020510W
+          - 512320N 0021913W
+        - arc:
+            dir: ccw
+            radius: 15 nm
+            centre: 512258N 0024309W
+            to: 512847N 0022104W
+        - line:
+          - 512842N 0022338W
+- name: BOOKER COMPS
+  areas:
+  - name: BOOKER COMPS
+    add:
+    - name: BOOKER-A
+      type: CTA
+      class: A
+      geometry:
+      - upper: 4500 ft
+        lower: 3500 ft
+        boundary:
+        - line:
+          - 514542N 0005550W
+          - 514647N 0004936W
+          - 514021N 0004916W
+    - name: BOOKER-B
+      type: CTA
+      class: A
+      geometry:
+      - upper: 4500 ft
+        lower: 3500 ft
+        boundary:
+        - line:
+          - 513433N 0010000W
+          - 513451N 0005516W
+          - 513238N 0005516W
+          - 513233N 0010000W
+    - name: BOOKER-C
+      type: CTA
+      class: A
+      geometry:
+      - upper: 4500 ft
+        lower: 2500 ft
+        boundary:
+        - line:
+          - 513451N 0005516W
+          - 513238N 0005516W
+          - 513512N 0004942W
+    replace:
+    - id: ltma-3
+      geometry:
+      - upper: FL195
+        lower: 4500 ft
+        boundary:
+        - line:
+          - 514542N 0005550W
+          - 514647N 0004936W
+          - 514021N 0004916W
+      - upper: FL195
+        lower: 3500 ft
+        boundary:
+        - line:
+          - 514021N 0004916W
+          - 514647N 0004936W
+          - 515021N 0002931W
+          - 515743N 0002145W
+          - 520300N 0000907E
+          - 520608N 0001350E
+          - 520606N 0002550E
+          - 520226N 0004040E
+          - 514401N 0004412E
+          - 513417N 0005000E
+          - 512120N 0005000E
+          - 510906N 0004618E
+          - 510051N 0002141E
+          - 510426N 0001721E
+          - 511217N 0002018E
+          - 511621N 0003054E
+          - 512046N 0003338E
+          - 513430N 0002136E
+          - 513908N 0001416E
+          - 514556N 0002309E
+          - 514659N 0003629E
+          - 515349N 0003503E
+          - 514556N 0002309E
+          - 514508N 0001309E
+        - arc:
+            dir: cw
+            radius: 8 nm
+            centre: 515306N 0001406E
+            to: 515155N 0000120E
+        - line:
+          - 515146N 0000006W
+          - 515102N 0000030W
+          - 514830N 0001506W
+          - 514409N 0004005W
+          - 514226N 0004110W
+          - 513632N 0004606W
+          - 513515N 0004901W
+    - id: ltma-4
+      geometry:
+      - upper: FL195
+        lower: 4500 ft
+        boundary:
+        - line:
+          - 513433N 0010000W
+          - 513451N 0005516W
+          - 513238N 0005516W
+          - 513233N 0010000W
+      - upper: FL195
+        lower: 3500 ft
+        boundary:
+        - line:
+          - 512430N 0010000W
+          - 513233N 0010000W
+          - 513238N 0005516W
+          - 512335N 0005516W
+          - 512104N 0004242W
+          - 512033N 0003958W
+          - 511014N 0003325W
+          - 510832N 0004055W
+          - 505832N 0003428W
+          - 505728N 0004224W
+    - id: ltma-1
+      geometry:
+      - upper: FL195
+        lower: 4500 ft
+        boundary:
+        - line:
+          - 513451N 0005516W
+          - 513238N 0005516W
+          - 513512N 0004942W
+      - upper: FL195
+        lower: 2500 ft
+        boundary:
+        - line:
+          - 513238N 0005516W
+          - 513512N 0004942W
+          - 513515N 0004901W
+          - 513632N 0004606W
+          - 514226N 0004110W
+          - 514409N 0004005W
+          - 514830N 0001506W
+          - 515102N 0000030W
+          - 515146N 0000006W
+          - 515155N 0000120E
+        - arc:
+            dir: ccw
+            radius: 8 nm
+            centre: 515306N 0001406E
+            to: 514508N 0001309E
+        - line:
+          - 514556N 0002309E
+          - 513908N 0001416E
+          - 513430N 0002136E
+          - 512046N 0003338E
+          - 511621N 0003054E
+          - 511217N 0002018E
+          - 510002N 0001541E
+          - 505900N 0001333E
+          - 505541N 0001007W
+          - 505832N 0003428W
+          - 510832N 0004055W
+          - 511014N 0003325W
+          - 512033N 0003958W
+          - 512104N 0004242W
+          - 512335N 0005516W
+- name: CAMBRIDGE RAZ
+  areas:
+  - name: CAMBRIDGE RAZ
+    add:
+    - name: CAMBRIDGE RAZ
+      type: OTHER
+      geometry:
+      - upper: FL100
+        lower: SFC
+        boundary:
+        - line:
+          - 521557N 0001606E
+          - 521937N 0002139E
+        - arc:
+            dir: cw
+            radius: 10 nm
+            centre: 521218N 0001030E
+            to: 521351N 0002635E
+        - line:
+          - 521304N 0001834E
+        - arc:
+            dir: cw
+            radius: 5 nm
+            centre: 521218N 0001030E
+            to: 520827N 0000521E
+        - line:
+          - 520434N 0000011E
+        - arc:
+            dir: cw
+            radius: 10 nm
+            centre: 521218N 0001030E
+            to: 520717N 0000337W
+        - line:
+          - 520948N 0000327E
+        - arc:
+            dir: cw
+            radius: 5 nm
+            centre: 521218N 0001030E
+            to: 521557N 0001606E
+- name: CAMPHILL
+  areas:
+  - name: CAMPHILL BOX
+    add:
+    - name: CAMPHILL BOX
+      type: AWY
+      class: A
+      geometry:
+      - upper: FL100
+        lower: FL85
+        boundary:
+        - line:
+          - 532719N 0014617W
+          - 533017N 0011641W
+          - 531938N 0011532W
+          - 532012N 0011840W
+          - 532110N 0012901W
+          - 531930N 0013131W
+          - 531244N 0013141W
+          - 531137N 0013631W
+      - upper: FL150
+        lower: FL100
+        boundary:
+        - line:
+          - 532719N 0014617W
+          - 533017N 0011641W
+          - 531938N 0011532W
+          - 532012N 0011840W
+          - 532110N 0012901W
+          - 532003N 0013042W
+          - 531418N 0012449W
+          - 531137N 0013631W
+      - upper: FL190
+        lower: FL150
+        boundary:
+        - line:
+          - 532719N 0014617W
+          - 533017N 0011641W
+          - 531938N 0011532W
+          - 532012N 0011840W
+          - 532110N 0012901W
+          - 532003N 0013042W
+          - 531418N 0012449W
+          - 531137N 0013631W
+    replace:
+    - id: l60-camphill
+      geometry:
+      - upper: FL195
+        lower: FL190
+        boundary:
+        - line:
+          - 532719N 0014617W
+          - 533017N 0011641W
+          - 531938N 0011532W
+          - 532012N 0011840W
+          - 532110N 0012901W
+          - 531930N 0013131W
+          - 531244N 0013141W
+          - 531137N 0013631W
+      - upper: FL195
+        lower: FL85
+        boundary:
+        - line:
+          - 530517N 0013152W
+          - 531244N 0013141W
+          - 531145N 0013558W
+      - upper: FL195
+        lower: FL85
+        boundary:
+        - line:
+          - 533059N 0010929W
+          - 531938N 0011532W
+          - 533017N 0011641W
+    - id: n601-camphill
+      geometry:
+      - upper: FL195
+        lower: FL190
+        boundary:
+        - line:
+          - 531930N 0013131W
+          - 531244N 0013141W
+          - 531418N 0012449W
+          - 532003N 0013042W
+      - upper: FL195
+        lower: FL105
+        boundary:
+        - line:
+          - 531139N 0012206W
+          - 531418N 0012449W
+          - 531244N 0013141W
+          - 531143N 0013142W
+  - name: L975 CROSSING AREA
+    add:
+    - name: L975 CROSSING AREA
+      type: AWY
+      class: A
+      geometry:
+      - upper: FL120
+        lower: FL55
+        boundary:
+        - line:
+          - 533835N 0013503W
+          - 534007N 0011937W
+          - 534030N 0011551W
+          - 533038N 0011307W
+          - 532845N 0013215W
+      - upper: FL190
+        lower: FL120
+        boundary:
+        - line:
+          - 533835N 0013503W
+          - 534007N 0011937W
+          - 534030N 0011551W
+          - 533038N 0011307W
+          - 532845N 0013215W
+      - upper: FL120
+        lower: FL65
+        boundary:
+        - line:
+          - 534139N 0010352W
+          - 533059N 0010932W
+          - 533038N 0011307W
+          - 534030N 0011551W
+      - upper: FL190
+        lower: FL120
+        boundary:
+        - line:
+          - 534139N 0010352W
+          - 533059N 0010932W
+          - 533038N 0011307W
+          - 534030N 0011551W
+      - upper: FL190
+        lower: FL125
+        boundary:
+        - line:
+          - 534007N 0011937W
+          - 534627N 0011937W
+          - 534308N 0011615W
+          - 534139N 0010352W
+    replace:
+    - id: l975-camphill1
+      geometry:
+      - upper: FL195
+        lower: FL190
+        boundary:
+        - line:
+          - 533835N 0013503W
+          - 534007N 0011937W
+          - 534030N 0011551W
+          - 533038N 0011307W
+          - 532845N 0013215W
+    - id: l975-camphill2
+      geometry:
+      - upper: FL195
+        lower: FL190
+        boundary:
+        - line:
+          - 534139N 0010352W
+          - 533059N 0010932W
+          - 533038N 0011307W
+          - 534030N 0011551W
+      - upper: FL195
+        lower: FL65
+        boundary:
+        - line:
+          - 534139N 0010352W
+          - 534118N 0010226W
+          - 533109N 0010751W
+          - 533059N 0010932W
+    - id: y70-camphill
+      geometry:
+      - upper: FL195
+        lower: FL190
+        boundary:
+        - line:
+          - 534007N 0011937W
+          - 534627N 0011937W
+          - 534308N 0011615W
+          - 534139N 0010352W
+      - upper: FL195
+        lower: FL125
+        boundary:
+        - line:
+          - 550059N 0012954W
+          - 541152N 0014543W
+          - 534627N 0011937W
+          - 534007N 0011937W
+          - 535348N 0013100W
+          - 535955N 0014027W
+          - 540236N 0014900W
+          - 541113N 0021858W
+          - 541530N 0020852W
+          - 550332N 0015351W
+- name: CHIPPING BOX
+  areas:
+  - name: CHIPPING BOX
+    add:
+    - name: CHIPPING BOX LOWER
+      type: AWY
+      class: A
+      geometry:
+      - upper: FL100
+        lower: FL65
+        boundary:
+        - line:
+          - 535734N 0023258W
+          - 535023N 0023250W
+          - 534741N 0024459W
+          - 535330N 0024911W
+      - upper: FL100
+        lower: FL95
+        boundary:
+        - line:
+          - 540234N 0023858W
+          - 535747N 0023258W
+          - 535734N 0023258W
+          - 535330N 0024911W
+          - 535858N 0025310W
+    - name: CHIPPING BOX UPPER
+      type: AWY
+      class: A
+      geometry:
+      - upper: FL140
+        lower: FL100
+        boundary:
+        - line:
+          - 535734N 0023258W
+          - 535023N 0023250W
+          - 534741N 0024459W
+          - 535330N 0024911W
+      - upper: FL140
+        lower: FL100
+        boundary:
+        - line:
+          - 540234N 0023858W
+          - 535747N 0023258W
+          - 535734N 0023258W
+          - 535330N 0024911W
+          - 535858N 0025310W
+    replace:
+    - id: l612-chipping1
+      geometry:
+      - upper: FL140
+        lower: FL65
+        boundary:
+        - line:
+          - 535023N 0023250W
+          - 534741N 0024459W
+          - 533918N 0023900W
+          - 534127N 0023240W
+      - upper: FL195
+        lower: FL140
+        boundary:
+        - line:
+          - 535734N 0023258W
+          - 534127N 0023240W
+          - 533918N 0023900W
+          - 535330N 0024911W
+    - id: l612-chipping2
+      geometry:
+      - upper: FL195
+        lower: FL140
+        boundary:
+        - line:
+          - 540234N 0023858W
+          - 535747N 0023258W
+          - 535734N 0023258W
+          - 535330N 0024911W
+          - 535858N 0025310W
+- name: DONCASTER
+  areas:
+  - name: DARLTON BOX
+    add:
+    - name: DARLTON BOX
+      type: CTA
+      class: D
+      geometry:
+      - upper: 4500 ft
+        lower: 2000 ft
+        boundary:
+        - line:
+          - 531858N 0011152W
+          - 531600N 0005542W
+          - 531509N 0005610W
+        - arc:
+            dir: cw
+            radius: 13 nm
+            centre: 532751N 0010036W
+            to: 531641N 0011139W
+      - upper: 4500 ft
+        lower: 2000 ft
+        boundary:
+        - line:
+          - 532401N 0011220W
+        - arc:
+            dir: ccw
+            radius: 8 nm
+            centre: 532751N 0010036W
+            to: 532024N 0005549W
+        - line:
+          - 532720N 0005206W
+          - 532643N 0004958W
+          - 531600N 0005542W
+          - 531858N 0011152W
+    replace:
+    - id: rhads-3
+      geometry:
+      - upper: FL60
+        lower: 4500 ft
+        boundary:
+        - line:
+          - 531858N 0011152W
+          - 531600N 0005542W
+          - 531509N 0005610W
+        - arc:
+            dir: cw
+            radius: 13 nm
+            centre: 532751N 0010036W
+            to: 531641N 0011139W
+    - id: rhads-6
+      geometry:
+      - upper: FL105
+        lower: 4500 ft
+        boundary:
+        - line:
+          - 532401N 0011220W
+        - arc:
+            dir: ccw
+            radius: 8 nm
+            centre: 532751N 0010036W
+            to: 532024N 0005549W
+        - line:
+          - 532720N 0005206W
+          - 532643N 0004958W
+          - 531600N 0005542W
+          - 531858N 0011152W
+  - name: GOOLE BOX
+    add:
+    - name: GOOLE BOX
+      type: CTA
+      class: D
+      geometry:
+      - upper: 4500 ft
+        lower: 2000 ft
+        boundary:
+        - line:
+          - 534139N 0010352W
+          - 534149N 0010209W
+          - 533109N 0010751W
+          - 533059N 0010932W
+      - upper: 4500 ft
+        lower: 2000 ft
+        boundary:
+        - line:
+          - 534149N 0010209W
+        - arc:
+            dir: cw
+            radius: 12.7 nm
+            centre: 532911N 0005954W
+            to: 533741N 0004403W
+        - line:
+          - 532643N 0004958W
+          - 532720N 0005206W
+          - 533336N 0004844W
+        - arc:
+            dir: ccw
+            radius: 8 nm
+            centre: 532911N 0005954W
+            to: 533635N 0010457W
+    replace:
+    - id: rhads-4
+      geometry:
+      - upper: FL65
+        lower: 4500 ft
+        boundary:
+        - line:
+          - 534139N 0010352W
+          - 534149N 0010209W
+          - 533109N 0010751W
+          - 533059N 0010932W
+    - id: rhads-5
+      geometry:
+      - upper: FL85
+        lower: 4500 ft
+        boundary:
+        - line:
+          - 534149N 0010209W
+        - arc:
+            dir: cw
+            radius: 12.7 nm
+            centre: 532911N 0005954W
+            to: 533741N 0004403W
+        - line:
+          - 532643N 0004958W
+          - 532720N 0005206W
+          - 533336N 0004844W
+        - arc:
+            dir: ccw
+            radius: 8 nm
+            centre: 532911N 0005954W
+            to: 533635N 0010457W
+  - name: UPTON CORRIDOR
+    add:
+    - name: UPTON CORRIDOR
+      type: CTA
+      class: D
+      geometry:
+      - upper: 4500 ft
+        lower: 4000 ft
+        boundary:
+        - line:
+          - 534030N 0011550W
+          - 534139N 0010352W
+          - 533059N 0010932W
+          - 533038N 0011307W
+      - upper: 4500 ft
+        lower: 4000 ft
+        boundary:
+        - line:
+          - 532950N 0012120W
+          - 533059N 0010932W
+          - 532527N 0011228W
+          - 532449N 0011957W
+    replace:
+    - id: rhads-8
+      geometry:
+      - upper: FL65
+        lower: 4500 ft
+        boundary:
+        - line:
+          - 534030N 0011550W
+          - 534139N 0010352W
+          - 533059N 0010932W
+          - 533038N 0011307W
+    - id: rhads-9
+      geometry:
+      - upper: FL85
+        lower: 4500 ft
+        boundary:
+        - line:
+          - 532950N 0012120W
+          - 533059N 0010932W
+          - 532527N 0011228W
+          - 532449N 0011957W
+- name: EDINBURGH
+  areas:
+  - name: STGC CORRIDOR
+    add:
+    - name: STGC CORRIDOR AB
+      type: CTA
+      class: D
+      geometry:
+      - upper: 4000 ft
+        lower: 3500 ft
+        boundary:
+        - line:
+          - 560700N 0034855W
+          - 560700N 0034120W
+          - 555647N 0034709W
+          - 555724N 0035417W
+      - upper: 4000 ft
+        lower: 3000 ft
+        boundary:
+        - line:
+          - 560700N 0035042W
+          - 560700N 0034855W
+          - 555724N 0035417W
+          - 555733N 0035603W
+    - name: STGC CORRIDOR BC
+      type: CTA
+      class: D
+      geometry:
+      - upper: 4000 ft
+        lower: 3500 ft
+        boundary:
+        - line:
+          - 555724N 0035417W
+          - 555647N 0034709W
+          - 555417N 0035413W
+      - upper: 4000 ft
+        lower: 2500 ft
+        boundary:
+        - line:
+          - 555417N 0035413W
+          - 555647N 0034709W
+          - 554939N 0034706W
+          - 554806N 0035411W
+    - name: STGC CORRIDOR CD
+      type: CTA
+      class: D
+      geometry:
+      - upper: 4000 ft
+        lower: 3000 ft
+        boundary:
+        - line:
+          - 555733N 0035603W
+          - 555724N 0035417W
+          - 554806N 0035411W
+          - 554742N 0035557W
+      - upper: 5000 ft
+        lower: 2500 ft
+        boundary:
+        - line:
+          - 554806N 0035411W
+          - 554939N 0034706W
+          - 554555N 0034107W
+          - 554349N 0034715W
+      - upper: 5000 ft
+        lower: 3500 ft
+        boundary:
+        - line:
+          - 554349N 0034715W
+          - 554555N 0034107W
+          - 554125N 0033353W
+          - 554125N 0034324W
+      - upper: 5000 ft
+        lower: 3000 ft
+        boundary:
+        - line:
+          - 554742N 0035557W
+          - 554806N 0035411W
+          - 554349N 0034715W
+          - 554354N 0034950W
+      - upper: 5000 ft
+        lower: 3500 ft
+        boundary:
+        - line:
+          - 554125N 0034549W
+          - 554125N 0034324W
+          - 554349N 0034715W
+          - 554354N 0034950W
+    - name: STGC CORRIDOR CD
+      type: TMA
+      class: D
+      geometry:
+      - upper: 5000 ft
+        lower: 4500 ft
+        boundary:
+        - line:
+          - 554125N 0033353W
+          - 553824N 0032902W
+          - 553728N 0033928W
+          - 554125N 0034549W
+    replace:
+    - id: glasgow-cta1
+      geometry:
+      - upper: 6000 ft
+        lower: 3000 ft
+        boundary:
+        - line:
+          - 560700N 0035042W
+          - 560700N 0040910W
+          - 560400N 0042000W
+          - 560130N 0040435W
+          - 554434N 0040924W
+          - 554354N 0034950W
+          - 554742N 0035557W
+          - 555733N 0035603W
+      - upper: 6000 ft
+        lower: 4000 ft
+        boundary:
+        - line:
+          - 555733N 0035603W
+          - 554742N 0035557W
+          - 554806N 0035411W
+          - 555724N 0035417W
+          - 560700N 0034855W
+          - 560700N 0035042W
+      - upper: 6000 ft
+        lower: 5000 ft
+        boundary:
+        - line:
+          - 554742N 0035557W
+          - 554806N 0035411W
+          - 554349N 0034715W
+          - 554354N 0034950W
+    - id: glasgow-cta2
+      geometry:
+      - upper: 6000 ft
+        lower: 3500 ft
+        boundary:
+        - line:
+          - 554354N 0034950W
+          - 554434N 0040924W
+          - 554132N 0042405W
+          - 553700N 0042847W
+          - 554125N 0041017W
+          - 554125N 0034549W
+      - upper: 6000 ft
+        lower: 5000 ft
+        boundary:
+        - line:
+          - 554349N 0034715W
+          - 554354N 0034950W
+          - 554125N 0034549W
+          - 554125N 0034324W
+    - id: edinburgh-cta3
+      geometry:
+      - upper: 6000 ft
+        lower: 3500 ft
+        boundary:
+        - line:
+          - 560700N 0034120W
+          - 560700N 0032221W
+        - arc:
+            dir: ccw
+            radius: 10 nm
+            centre: 555700N 0032221W
+            to: 555916N 0033941W
+        - line:
+          - 555647N 0034709W
+      - upper: 6000 ft
+        lower: 4000 ft
+        boundary:
+        - line:
+          - 560700N 0034855W
+          - 560700N 0034120W
+          - 555647N 0034709W
+          - 555417N 0035413W
+          - 555724N 0035417W
+    - id: edinburgh-cta1
+      geometry:
+      - upper: 6000 ft
+        lower: 2500 ft
+        boundary:
+        - line:
+          - 555916N 0033941W
+        - arc:
+            dir: ccw
+            radius: 10 nm
+            centre: 555700N 0032221W
+            to: 554851N 0033235W
+        - line:
+          - 554555N 0034107W
+          - 554939N 0034706W
+          - 555647N 0034709W
+      - upper: 6000 ft
+        lower: 5000 ft
+        boundary:
+        - line:
+          - 554555N 0034107W
+          - 554349N 0034715W
+          - 554806N 0035411W
+          - 554939N 0034706W
+      - upper: 6000 ft
+        lower: 4000 ft
+        boundary:
+        - line:
+          - 554806N 0035411W
+          - 555417N 0035413W
+          - 555647N 0034709W
+          - 554939N 0034706W
+    - id: edinburgh-cta4
+      geometry:
+      - upper: 6000 ft
+        lower: 3500 ft
+        boundary:
+        - line:
+          - 560008N 0024849W
+          - 554125N 0025510W
+          - 554125N 0033353W
+          - 554555N 0034107W
+          - 554851N 0033235W
+        - arc:
+            dir: ccw
+            radius: 10 nm
+            centre: 555700N 0032221W
+            to: 555442N 0030503W
+      - upper: 6000 ft
+        lower: 5000 ft
+        boundary:
+        - line:
+          - 554555N 0034107W
+          - 554125N 0033353W
+          - 554125N 0034324W
+          - 554349N 0034715W
+    - id: scottish-tma1
+      geometry:
+      - upper: FL195
+        lower: 5000 ft
+        boundary:
+        - line:
+          - 554125N 0033353W
+          - 553824N 0032902W
+          - 553728N 0033928W
+          - 554125N 0034549W
+      - upper: FL195
+        lower: 4500 ft
+        boundary:
+        - line:
+          - 553700N 0042847W
+          - 554125N 0041017W
+          - 554125N 0034549W
+          - 553728N 0033928W
+          - 553302N 0042918W
+      - upper: FL195
+        lower: 4500 ft
+        boundary:
+        - line:
+          - 553824N 0032902W
+          - 554125N 0033353W
+          - 554125N 0025510W
+- name: GUSSI BOX
+  areas:
+  - name: GUSSI BOX
+    add:
+    - name: GUSSI BOX
+      type: AWY
+      class: E
+      geometry:
+      - upper: FL190
+        lower: FL105
+        boundary:
+        - line:
+          - 571230N 0040348W
+          - 571206N 0035820W
+          - 565717N 0040203W
+          - 565741N 0040728W
+    replace:
+    - id: n560-gussi
+      geometry:
+      - upper: FL195
+        lower: FL190
+        boundary:
+        - line:
+          - 571230N 0040348W
+          - 571206N 0035820W
+          - 565717N 0040203W
+          - 565741N 0040728W
+      - upper: FL195
+        lower: FL105
+        boundary:
+        - line:
+          - 564120N 0040559W
+          - 565717N 0040203W
+          - 565741N 0040728W
+          - 571230N 0040348W
+          - 571326N 0041635W
+          - 564239N 0042400W
+- name: HUS BOS COMPS
+  areas:
+  - name: DAVENTRY BOX
+    add:
+    - name: DAVENTRY BOX
+      type: CTA
+      class: A
+      geometry:
+      - upper: 5500 ft
+        lower: 4500 ft
+        boundary:
+        - line:
+          - 520835N 0011700W
+          - 522048N 0010740W
+          - 521355N 0010026W
+          - 521049N 0010650W
+    replace:
+    - id: daventry-9
+      geometry:
+      - upper: FL195
+        lower: 5500 ft
+        boundary:
+        - line:
+          - 520835N 0011700W
+          - 522048N 0010740W
+          - 521355N 0010026W
+          - 521049N 0010650W
+      - upper: FL195
+        lower: 4500 ft
+        boundary:
+        - line:
+          - 525833N 0014948W
+          - 524702N 0013541W
+          - 522048N 0010740W
+          - 520835N 0011700W
+          - 520633N 0012617W
+          - 521135N 0013450W
+        - arc:
+            dir: cw
+            radius: 17 nm
+            centre: 522722N 0014502W
+            to: 521039N 0014012W
+        - line:
+          - 521431N 0014159W
+          - 524216N 0021343W
+          - 524800N 0015216W
+- name: LASHAM COMPS
+  areas:
+  - name: COMPTON BOX
+    add:
+    - name: COMPTON BOX
+      type: AWY
+      class: A
+      geometry:
+      - upper: 5500 ft
+        lower: 4500 ft
+        boundary:
+        - line:
+          - 512435N 0011444W
+          - 513423N 0011138W
+          - 513350N 0010654W
+          - 512400N 0011001W
+    replace:
+    - id: ltma-11
+      geometry:
+      - upper: FL195
+        lower: 5500 ft
+        boundary:
+        - line:
+          - 513302N 0010000W
+          - 512430N 0010000W
+          - 512500N 0010805W
+          - 512348N 0010822W
+          - 512435N 0011444W
+          - 513423N 0011138W
+      - upper: 5500 ft
+        lower: 4500 ft
+        boundary:
+        - line:
+          - 513302N 0010000W
+          - 512430N 0010000W
+          - 512500N 0010805W
+          - 512348N 0010822W
+          - 512400N 0011001W
+          - 513350N 0010654W
+- name: NUCLEAR EXEMPTIONS
+  areas:
+  - name: NUCLEAR EXEMPTIONS
+    add:
+    - name: ALDERMASTON FENCE
+      type: R
+      geometry:
+      - upper: 2400 ft
+        lower: SFC
+        boundary:
+        - line:
+          - 512135N 0010902W
+          - 512156N 0010744W
+          - 512212N 0010719W
+          - 512217N 0010722W
+          - 512223N 0010744W
+          - 512240N 0010802W
+          - 512234N 0010841W
+          - 512138N 0010941W
+    - name: BURGHFIELD FENCE
+      type: R
+      geometry:
+      - upper: 2400 ft
+        lower: SFC
+        boundary:
+        - line:
+          - 512413N 0010149W
+          - 512412N 0010142W
+          - 512410N 0010143W
+          - 512408N 0010137W
+          - 512406N 0010124W
+          - 512407N 0010123W
+          - 512408N 0010119W
+          - 512416N 0010112W
+          - 512426N 0010055W
+          - 512434N 0010045W
+          - 512437N 0010044W
+          - 512439N 0010047W
+          - 512441N 0010105W
+          - 512440N 0010123W
+          - 512443N 0010129W
+          - 512443N 0010135W
+          - 512441N 0010140W
+          - 512438N 0010139W
+          - 512435N 0010142W
+          - 512433N 0010140W
+          - 512426N 0010144W
+          - 512415N 0010149W
+- name: P18 CROSSING
+  areas:
+  - name: CASTLE
+    add:
+    - name: CASTLE
+      type: AWY
+      class: D
+      geometry:
+      - upper: FL120
+        lower: FL105
+        boundary:
+        - line:
+          - 543406N 0020308W
+          - 543135N 0013929W
+          - 542344N 0014159W
+          - 542615N 0020534W
+      - upper: FL120
+        lower: FL75
+        boundary:
+        - line:
+          - 544358N 0020002W
+          - 543133N 0013930W
+          - 543405N 0020303W
+    - name: CASTLE
+      type: CTA
+      class: D
+      geometry:
+      - upper: FL75
+        lower: 6000 ft
+        boundary:
+        - line:
+          - 544356N 0020004W
+          - 543746N 0014946W
+          - 543901N 0020136W
+    replace:
+    - id: p18-castle
+      geometry:
+      - upper: FL125
+        lower: FL120
+        boundary:
+        - line:
+          - 543406N 0020308W
+          - 543135N 0013929W
+          - 542344N 0014159W
+          - 542615N 0020534W
+  - name: DERWENT
+    add:
+    - name: DERWENT
+      type: AWY
+      class: D
+      geometry:
+      - upper: FL120
+        lower: FL75
+        boundary:
+        - line:
+          - 543133N 0013930W
+          - 544240N 0014812W
+          - 544358N 0020002W
+      - upper: FL120
+        lower: FL55
+        boundary:
+        - line:
+          - 544358N 0020002W
+          - 544240N 0014812W
+          - 545349N 0015655W
+    - name: DERWENT
+      type: CTA
+      class: D
+      geometry:
+      - upper: FL105
+        lower: 3000 ft
+        boundary:
+        - line:
+          - 545352N 0015659W
+          - 545821N 0020025W
+          - 544356N 0020004W
+      - upper: FL55
+        lower: 3000 ft
+        boundary:
+        - line:
+          - 544605N 0015053W
+          - 545352N 0015659W
+          - 544356N 0020004W
+      - upper: FL55
+        lower: 4500 ft
+        boundary:
+        - line:
+          - 544605N 0015053W
+          - 544240N 0014812W
+          - 544356N 0020004W
+      - upper: FL75
+        lower: 6000 ft
+        boundary:
+        - line:
+          - 544356N 0020004W
+          - 544240N 0014812W
+          - 543929N 0014542W
+          - 543724N 0014622W
+          - 543746N 0014946W
+    replace:
+    - id: newcastle-cta4
+      geometry:
+      - upper: FL105
+        lower: 3000 ft
+        boundary:
+        - line:
+          - 550209N 0020030W
+        - arc:
+            dir: ccw
+            radius: 11 nm
+            centre: 550217N 0014123W
+            to: 545531N 0015626W
+        - line:
+          - 545352N 0015659W
+          - 545821N 0020025W
+    - id: p18-castlederwent
+      geometry:
+      - upper: FL125
+        lower: FL120
+        boundary:
+        - line:
+          - 544123N 0013618W
+          - 543133N 0013930W
+          - 543405N 0020303W
+          - 544358N 0020002W
+      - upper: FL120
+        lower: FL75
+        boundary:
+        - line:
+          - 543133N 0013930W
+          - 544240N 0014812W
+          - 544123N 0013618W
+    - id: p18-derwent
+      geometry:
+      - upper: FL125
+        lower: FL120
+        boundary:
+        - line:
+          - 544123N 0013618W
+          - 544358N 0020002W
+          - 550332N 0015351W
+          - 550059N 0012954W
+      - upper: FL120
+        lower: FL55
+        boundary:
+        - line:
+          - 544123N 0013618W
+          - 544240N 0014812W
+          - 545349N 0015655W
+          - 550332N 0015351W
+          - 550059N 0012954W
+    - id: newcastle-cta5
+      geometry:
+      - upper: FL55
+        lower: 3000 ft
+        boundary:
+        - line:
+          - 545849N 0013040W
+          - 545010N 0013330W
+          - 544605N 0015053W
+          - 545352N 0015659W
+          - 545531N 0015626W
+        - arc:
+            dir: ccw
+            radius: 11 nm
+            centre: 550217N 0014123W
+            to: 545336N 0015304W
+    - id: newcastle-cta6
+      geometry:
+      - upper: FL55
+        lower: 4500 ft
+        boundary:
+        - line:
+          - 545010N 0013330W
+          - 544124N 0013620W
+          - 544240N 0014812W
+          - 544605N 0015053W
+    - id: newcastle-cta7
+      geometry:
+      - upper: FL75
+        lower: 6000 ft
+        boundary:
+        - line:
+          - 544219N 0014448W
+          - 543929N 0014542W
+          - 544240N 0014812W
+- name: P600/N864 CROSSING
+  areas:
+  - name: P600 CROSSING
+    add:
+    - name: P600/N864 CROSSING
+      type: D
+      class: A
+      geometry:
+      - upper: FL150
+        lower: FL55
+        boundary:
+        - line:
+          - 562130N 0034455W
+        - arc:
+            dir: cw
+            radius: 2 nm
+            centre: 561930N 0034455W
+            to: 561949N 0034829W
+        - line:
+          - 562000N 0034746W
+    - name: P600 AREA A
+      type: AWY
+      class: A
+      geometry:
+      - upper: FL190
+        lower: FL55
+        boundary:
+        - line:
+          - 562149N 0034418W
+          - 561554N 0032925W
+          - 561400N 0033259W
+          - 561400N 0040926W
+          - 562000N 0034746W
+    - name: P600 AREA B
+      type: AWY
+      class: A
+      geometry:
+      - upper: FL190
+        lower: FL85
+        boundary:
+        - line:
+          - 562948N 0032900W
+          - 562633N 0032207W
+          - 562341N 0031445W
+          - 561554N 0032925W
+          - 562149N 0034418W
+    - name: P600 AREA C
+      type: AWY
+      class: A
+      geometry:
+      - upper: FL190
+        lower: FL105
+        boundary:
+        - line:
+          - 563900N 0031738W
+          - 563321N 0030244W
+          - 562341N 0031445W
+          - 562633N 0032207W
+          - 562948N 0032900W
+    - name: P600 AREA D
+      type: AWY
+      class: A
+      geometry:
+      - upper: FL190
+        lower: FL105
+        boundary:
+        - line:
+          - 564838N 0030536W
+          - 564257N 0025040W
+          - 563321N 0030244W
+          - 563900N 0031738W
+    - name: P600 AREA E
+      type: AWY
+      class: A
+      geometry:
+      - upper: FL190
+        lower: FL85
+        boundary:
+        - line:
+          - 565651N 0025515W
+          - 565109N 0024017W
+          - 564257N 0025040W
+          - 564838N 0030536W
+    - name: P600 AREA F
+      type: AWY
+      class: A
+      geometry:
+      - upper: FL190
+        lower: FL55
+        boundary:
+        - line:
+          - 570015N 0025056W
+          - 565433N 0023557W
+          - 565109N 0024017W
+          - 565651N 0025515W
+    - name: P600 AREA G
+      type: AWY
+      class: A
+      geometry:
+      - upper: FL190
+        lower: FL115
+        boundary:
+        - line:
+          - 572130N 0022334W
+          - 571545N 0020831W
+          - 565433N 0023557W
+          - 570015N 0025056W
+    replace:
+    - id: p600-a
+      geometry:
+      - upper: FL195
+        lower: FL190
+        boundary:
+        - line:
+          - 562149N 0034418W
+          - 561554N 0032925W
+          - 561400N 0033259W
+          - 561400N 0040926W
+          - 562000N 0034746W
+    - id: p600-b
+      geometry:
+      - upper: FL195
+        lower: FL190
+        boundary:
+        - line:
+          - 562948N 0032900W
+          - 562633N 0032207W
+          - 562341N 0031445W
+          - 561554N 0032925W
+          - 562149N 0034418W
+    - id: p600-cd
+      geometry:
+      - upper: FL195
+        lower: FL190
+        boundary:
+        - line:
+          - 564838N 0030536W
+          - 564257N 0025040W
+          - 563321N 0030244W
+          - 562341N 0031445W
+          - 562633N 0032207W
+          - 562948N 0032900W
+          - 563900N 0031738W
+    - id: p600-e
+      geometry:
+      - upper: FL195
+        lower: FL190
+        boundary:
+        - line:
+          - 565651N 0025515W
+          - 565109N 0024017W
+          - 564257N 0025040W
+          - 564838N 0030536W
+    - id: p600-f
+      geometry:
+      - upper: FL195
+        lower: FL190
+        boundary:
+        - line:
+          - 570015N 0025056W
+          - 565433N 0023557W
+          - 565109N 0024017W
+          - 565651N 0025515W
+    - id: p600-g
+      geometry:
+      - upper: FL195
+        lower: FL190
+        boundary:
+        - line:
+          - 572130N 0022334W
+          - 571545N 0020831W
+          - 565433N 0023557W
+          - 570015N 0025056W
+  - name: N864 CROSSING
+    add:
+    - name: N864 AREA X
+      type: AWY
+      class: A
+      geometry:
+      - upper: FL190
+        lower: FL65
+        boundary:
+        - line:
+          - 561242N 0031943W
+          - 561118N 0030159W
+          - 560700N 0030304W
+          - 560700N 0032107W
+      - upper: FL190
+        lower: FL85
+        boundary:
+        - line:
+          - 561750N 0031827W
+          - 561627N 0030040W
+          - 561118N 0030159W
+          - 561242N 0031943W
+    - name: N864 AREA Y
+      type: AWY
+      class: A
+      geometry:
+      - upper: FL190
+        lower: FL85
+        boundary:
+        - line:
+          - 562341N 0031445W
+          - 562230N 0025909W
+          - 561627N 0030040W
+          - 561750N 0031827W
+          - 562219N 0031719W
+      - upper: FL190
+        lower: FL105
+        boundary:
+        - line:
+          - 562230N 0025909W
+          - 562341N 0031445W
+          - 563947N 0025439W
+    replace:
+    - id: n864-x
+      geometry:
+      - upper: FL195
+        lower: FL190
+        boundary:
+        - line:
+          - 561242N 0031943W
+          - 561118N 0030159W
+          - 560700N 0030304W
+          - 560700N 0032107W
+    - id: n864-y
+      geometry:
+      - upper: FL195
+        lower: FL190
+        boundary:
+        - line:
+          - 562341N 0031445W
+          - 562230N 0025909W
+          - 561627N 0030040W
+          - 561118N 0030159W
+          - 561242N 0031943W
+          - 561750N 0031827W
+          - 562219N 0031719W
+    - id: n864-z
+      geometry:
+      - upper: FL195
+        lower: FL190
+        boundary:
+        - line:
+          - 562230N 0025909W
+          - 562341N 0031445W
+          - 563947N 0025439W
+- name: P600/SCOTTISH TMA
+  areas:
+  - name: P600/TMA ACCESS
+    add:
+    - name: P600/TMA ACCESS
+      type: CTA
+      class: D
+      geometry:
+      - upper: FL190
+        lower: 6000 ft
+        boundary:
+        - line:
+          - 561400N 0040926W
+          - 561400N 0033259W
+          - 560700N 0032938W
+          - 560700N 0040000W
+    replace:
+    - id: scottish-tma3
+      geometry:
+      - upper: FL195
+        lower: FL190
+        boundary:
+        - line:
+          - 561400N 0040926W
+          - 561400N 0033259W
+          - 560700N 0032938W
+          - 560700N 0040000W
+      - upper: FL195
+        lower: 6000 ft
+        boundary:
+        - line:
+          - 561400N 0040926W
+          - 560700N 0040000W
+          - 560700N 0032938W
+          - 560700N 0025608W
+          - 560008N 0024849W
+          - 554125N 0025510W
+          - 554125N 0041017W
+          - 553700N 0042847W
+          - 554428N 0045035W
+          - 554336N 0050000W
+          - 555000N 0050000W
+          - 560000N 0044400W
+- name: RILES GLIDING AREA
+  areas:
+  - name: MADLEY BOX
+    add:
+    - name: MADLEY BOX
+      type: AWY
+      class: A
+      geometry:
+      - upper: FL195
+        lower: FL145
+        boundary:
+        - line:
+          - 520734N 0025744W
+          - 520712N 0024624W
+          - 515640N 0024718W
+          - 515701N 0025836W
+    replace:
+    - id: n862/n864
+      geometry:
+      - upper: FL195
+        lower: FL145
+        boundary:
+        - line:
+          - 524323N 0031926W
+          - 524254N 0030303W
+          - 524248N 0024502W
+          - 523047N 0024418W
+          - 520712N 0024624W
+          - 520734N 0025744W
+          - 515701N 0025836W
+          - 515715N 0030638W
+          - 520748N 0030547W
+          - 520817N 0032200W
+  - name: RAGLAN BOX
+    add:
+    - name: RAGLAN BOX LOWER
+      type: CTA
+      class: A
+      geometry:
+      - upper: FL145
+        lower: FL105
+        boundary:
+        - line:
+          - 515701N 0025836W
+          - 515640N 0024718W
+          - 515040N 0024748W
+          - 515153N 0025901W
+    - name: RAGLAN BOX UPPER
+      type: CTA
+      class: A
+      geometry:
+      - upper: FL195
+        lower: FL145
+        boundary:
+        - line:
+          - 515701N 0025836W
+          - 515640N 0024718W
+          - 515040N 0024748W
+          - 515153N 0025901W
+    replace:
+    - id: cotswold-11
+      geometry:
+      - upper: FL195
+        lower: FL105
+        boundary:
+        - line:
+          - 515716N 0030640W
+          - 515701N 0025836W
+          - 515153N 0025901W
+          - 515040N 0024748W
+          - 514539N 0024814W
+          - 514743N 0030725W
+          - 515316N 0030658W
