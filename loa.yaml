@@ -1,3 +1,18 @@
+#
+# UK Airspace, British Gliding Association Letters of Agreement
+# Alan Sparrow (airspace@freeflight.org.uk)
+#
+# To the extent possible under law, Alan Sparrow has waived all copyright
+# and related or neighboring rights to this file. The data in this file
+# is based on the work of others including: George Knight and Geoff Brown.
+# The data is originally sourced from the letters of agreement (LoA)
+# published on the BGA's website.
+#
+# The format of this file is base on the FAA/EUROCONTROL's Aeronautical
+# Information Exchange Model (AIXM). More details (including a data schema
+# and a validator) can be found in the YAXIM project on GitHub at
+# https://github.com/ahsparrow/yaixm.
+
 loa:
 - name: AMPIT TRIANGLE
   areas:
@@ -14,6 +29,7 @@ loa:
           - 531956N 0033953W
           - 531855N 0031647W
           - 530812N 0031736W
+
     replace:
     - id: l15
       geometry:
@@ -24,6 +40,7 @@ loa:
           - 531956N 0033953W
           - 531855N 0031647W
           - 530812N 0031736W
+
 - name: BATH GAP
   areas:
   - name: BATH GAP
@@ -51,6 +68,7 @@ loa:
             to: 512605N 0022440W
         - line:
           - 512842N 0022338W
+
     - name: BATH GAP B
       type: CTA
       class: D
@@ -74,6 +92,7 @@ loa:
             radius: 12 nm
             centre: 512258N 0024309W
             to: 512605N 0022440W
+
     replace:
     - id: bristol-6
       geometry:
@@ -108,6 +127,7 @@ loa:
             to: 512605N 0022440W
         - line:
           - 512842N 0022338W
+
     - id: bristol-8
       geometry:
       - upper: FL105
@@ -124,6 +144,7 @@ loa:
             to: 512847N 0022104W
         - line:
           - 512842N 0022338W
+
 - name: BOOKER COMPS
   areas:
   - name: BOOKER COMPS
@@ -139,6 +160,7 @@ loa:
           - 514542N 0005550W
           - 514647N 0004936W
           - 514021N 0004916W
+
     - name: BOOKER-B
       type: CTA
       class: A
@@ -151,6 +173,7 @@ loa:
           - 513451N 0005516W
           - 513238N 0005516W
           - 513233N 0010000W
+
     - name: BOOKER-C
       type: CTA
       class: A
@@ -162,6 +185,7 @@ loa:
           - 513451N 0005516W
           - 513238N 0005516W
           - 513512N 0004942W
+
     replace:
     - id: ltma-3
       geometry:
@@ -213,6 +237,7 @@ loa:
           - 514226N 0004110W
           - 513632N 0004606W
           - 513515N 0004901W
+
     - id: ltma-4
       geometry:
       - upper: FL195
@@ -237,6 +262,7 @@ loa:
           - 510832N 0004055W
           - 505832N 0003428W
           - 505728N 0004224W
+
     - id: ltma-1
       geometry:
       - upper: FL195
@@ -281,6 +307,7 @@ loa:
           - 512033N 0003958W
           - 512104N 0004242W
           - 512335N 0005516W
+
 - name: CAMBRIDGE RAZ
   areas:
   - name: CAMBRIDGE RAZ
@@ -320,6 +347,7 @@ loa:
             radius: 5 nm
             centre: 521218N 0001030E
             to: 521557N 0001606E
+
 - name: CAMPHILL
   areas:
   - name: CAMPHILL BOX
@@ -364,6 +392,7 @@ loa:
           - 532003N 0013042W
           - 531418N 0012449W
           - 531137N 0013631W
+
     replace:
     - id: l60-camphill
       geometry:
@@ -393,6 +422,7 @@ loa:
           - 533059N 0010929W
           - 531938N 0011532W
           - 533017N 0011641W
+
     - id: n601-camphill
       geometry:
       - upper: FL195
@@ -411,6 +441,7 @@ loa:
           - 531418N 0012449W
           - 531244N 0013141W
           - 531143N 0013142W
+
   - name: L975 CROSSING AREA
     add:
     - name: L975 CROSSING AREA
@@ -459,6 +490,7 @@ loa:
           - 534627N 0011937W
           - 534308N 0011615W
           - 534139N 0010352W
+
     replace:
     - id: l975-camphill1
       geometry:
@@ -471,6 +503,7 @@ loa:
           - 534030N 0011551W
           - 533038N 0011307W
           - 532845N 0013215W
+
     - id: l975-camphill2
       geometry:
       - upper: FL195
@@ -489,6 +522,7 @@ loa:
           - 534118N 0010226W
           - 533109N 0010751W
           - 533059N 0010932W
+
     - id: y70-camphill
       geometry:
       - upper: FL195
@@ -513,6 +547,7 @@ loa:
           - 541113N 0021858W
           - 541530N 0020852W
           - 550332N 0015351W
+
 - name: CHIPPING BOX
   areas:
   - name: CHIPPING BOX
@@ -538,6 +573,7 @@ loa:
           - 535734N 0023258W
           - 535330N 0024911W
           - 535858N 0025310W
+
     - name: CHIPPING BOX UPPER
       type: AWY
       class: A
@@ -559,6 +595,7 @@ loa:
           - 535734N 0023258W
           - 535330N 0024911W
           - 535858N 0025310W
+
     replace:
     - id: l612-chipping1
       geometry:
@@ -578,6 +615,7 @@ loa:
           - 534127N 0023240W
           - 533918N 0023900W
           - 535330N 0024911W
+
     - id: l612-chipping2
       geometry:
       - upper: FL195
@@ -589,6 +627,7 @@ loa:
           - 535734N 0023258W
           - 535330N 0024911W
           - 535858N 0025310W
+
 - name: DONCASTER
   areas:
   - name: DARLTON BOX
@@ -624,6 +663,7 @@ loa:
           - 532643N 0004958W
           - 531600N 0005542W
           - 531858N 0011152W
+
     replace:
     - id: rhads-3
       geometry:
@@ -639,6 +679,7 @@ loa:
             radius: 13 nm
             centre: 532751N 0010036W
             to: 531641N 0011139W
+
     - id: rhads-6
       geometry:
       - upper: FL105
@@ -656,6 +697,7 @@ loa:
           - 532643N 0004958W
           - 531600N 0005542W
           - 531858N 0011152W
+
   - name: GOOLE BOX
     add:
     - name: GOOLE BOX
@@ -689,6 +731,7 @@ loa:
             radius: 8 nm
             centre: 532911N 0005954W
             to: 533635N 0010457W
+
     replace:
     - id: rhads-4
       geometry:
@@ -700,6 +743,7 @@ loa:
           - 534149N 0010209W
           - 533109N 0010751W
           - 533059N 0010932W
+
     - id: rhads-5
       geometry:
       - upper: FL85
@@ -721,6 +765,7 @@ loa:
             radius: 8 nm
             centre: 532911N 0005954W
             to: 533635N 0010457W
+
   - name: UPTON CORRIDOR
     add:
     - name: UPTON CORRIDOR
@@ -743,6 +788,7 @@ loa:
           - 533059N 0010932W
           - 532527N 0011228W
           - 532449N 0011957W
+
     replace:
     - id: rhads-8
       geometry:
@@ -754,6 +800,7 @@ loa:
           - 534139N 0010352W
           - 533059N 0010932W
           - 533038N 0011307W
+
     - id: rhads-9
       geometry:
       - upper: FL85
@@ -764,6 +811,7 @@ loa:
           - 533059N 0010932W
           - 532527N 0011228W
           - 532449N 0011957W
+
 - name: EDINBURGH
   areas:
   - name: STGC CORRIDOR
@@ -788,6 +836,7 @@ loa:
           - 560700N 0034855W
           - 555724N 0035417W
           - 555733N 0035603W
+
     - name: STGC CORRIDOR BC
       type: CTA
       class: D
@@ -807,6 +856,7 @@ loa:
           - 555647N 0034709W
           - 554939N 0034706W
           - 554806N 0035411W
+
     - name: STGC CORRIDOR CD
       type: CTA
       class: D
@@ -851,6 +901,7 @@ loa:
           - 554125N 0034324W
           - 554349N 0034715W
           - 554354N 0034950W
+
     - name: STGC CORRIDOR CD
       type: TMA
       class: D
@@ -863,6 +914,7 @@ loa:
           - 553824N 0032902W
           - 553728N 0033928W
           - 554125N 0034549W
+
     replace:
     - id: glasgow-cta1
       geometry:
@@ -896,6 +948,7 @@ loa:
           - 554806N 0035411W
           - 554349N 0034715W
           - 554354N 0034950W
+
     - id: glasgow-cta2
       geometry:
       - upper: 6000 ft
@@ -916,6 +969,7 @@ loa:
           - 554354N 0034950W
           - 554125N 0034549W
           - 554125N 0034324W
+
     - id: edinburgh-cta3
       geometry:
       - upper: 6000 ft
@@ -940,6 +994,7 @@ loa:
           - 555647N 0034709W
           - 555417N 0035413W
           - 555724N 0035417W
+
     - id: edinburgh-cta1
       geometry:
       - upper: 6000 ft
@@ -972,6 +1027,7 @@ loa:
           - 555417N 0035413W
           - 555647N 0034709W
           - 554939N 0034706W
+
     - id: edinburgh-cta4
       geometry:
       - upper: 6000 ft
@@ -996,6 +1052,7 @@ loa:
           - 554125N 0033353W
           - 554125N 0034324W
           - 554349N 0034715W
+
     - id: scottish-tma1
       geometry:
       - upper: FL195
@@ -1022,6 +1079,7 @@ loa:
           - 553824N 0032902W
           - 554125N 0033353W
           - 554125N 0025510W
+
 - name: GUSSI BOX
   areas:
   - name: GUSSI BOX
@@ -1038,6 +1096,7 @@ loa:
           - 571206N 0035820W
           - 565717N 0040203W
           - 565741N 0040728W
+
     replace:
     - id: n560-gussi
       geometry:
@@ -1059,6 +1118,7 @@ loa:
           - 571230N 0040348W
           - 571326N 0041635W
           - 564239N 0042400W
+
 - name: HUS BOS COMPS
   areas:
   - name: DAVENTRY BOX
@@ -1075,6 +1135,7 @@ loa:
           - 522048N 0010740W
           - 521355N 0010026W
           - 521049N 0010650W
+
     replace:
     - id: daventry-9
       geometry:
@@ -1105,6 +1166,7 @@ loa:
           - 521431N 0014159W
           - 524216N 0021343W
           - 524800N 0015216W
+
 - name: LASHAM COMPS
   areas:
   - name: COMPTON BOX
@@ -1121,6 +1183,7 @@ loa:
           - 513423N 0011138W
           - 513350N 0010654W
           - 512400N 0011001W
+
     replace:
     - id: ltma-11
       geometry:
@@ -1144,6 +1207,7 @@ loa:
           - 512348N 0010822W
           - 512400N 0011001W
           - 513350N 0010654W
+
 - name: NUCLEAR EXEMPTIONS
   areas:
   - name: NUCLEAR EXEMPTIONS
@@ -1163,6 +1227,7 @@ loa:
           - 512240N 0010802W
           - 512234N 0010841W
           - 512138N 0010941W
+
     - name: BURGHFIELD FENCE
       type: R
       geometry:
@@ -1192,6 +1257,7 @@ loa:
           - 512433N 0010140W
           - 512426N 0010144W
           - 512415N 0010149W
+
 - name: P18 CROSSING
   areas:
   - name: CASTLE
@@ -1215,6 +1281,7 @@ loa:
           - 544358N 0020002W
           - 543133N 0013930W
           - 543405N 0020303W
+
     - name: CASTLE
       type: CTA
       class: D
@@ -1226,6 +1293,7 @@ loa:
           - 544356N 0020004W
           - 543746N 0014946W
           - 543901N 0020136W
+
     replace:
     - id: p18-castle
       geometry:
@@ -1237,6 +1305,7 @@ loa:
           - 543135N 0013929W
           - 542344N 0014159W
           - 542615N 0020534W
+
   - name: DERWENT
     add:
     - name: DERWENT
@@ -1257,6 +1326,7 @@ loa:
           - 544358N 0020002W
           - 544240N 0014812W
           - 545349N 0015655W
+
     - name: DERWENT
       type: CTA
       class: D
@@ -1291,6 +1361,7 @@ loa:
           - 543929N 0014542W
           - 543724N 0014622W
           - 543746N 0014946W
+
     replace:
     - id: newcastle-cta4
       geometry:
@@ -1307,6 +1378,7 @@ loa:
         - line:
           - 545352N 0015659W
           - 545821N 0020025W
+
     - id: p18-castlederwent
       geometry:
       - upper: FL125
@@ -1324,6 +1396,7 @@ loa:
           - 543133N 0013930W
           - 544240N 0014812W
           - 544123N 0013618W
+
     - id: p18-derwent
       geometry:
       - upper: FL125
@@ -1343,6 +1416,7 @@ loa:
           - 545349N 0015655W
           - 550332N 0015351W
           - 550059N 0012954W
+
     - id: newcastle-cta5
       geometry:
       - upper: FL55
@@ -1359,6 +1433,7 @@ loa:
             radius: 11 nm
             centre: 550217N 0014123W
             to: 545336N 0015304W
+
     - id: newcastle-cta6
       geometry:
       - upper: FL55
@@ -1369,6 +1444,7 @@ loa:
           - 544124N 0013620W
           - 544240N 0014812W
           - 544605N 0015053W
+
     - id: newcastle-cta7
       geometry:
       - upper: FL75
@@ -1378,6 +1454,7 @@ loa:
           - 544219N 0014448W
           - 543929N 0014542W
           - 544240N 0014812W
+
 - name: P600/N864 CROSSING
   areas:
   - name: P600 CROSSING
@@ -1398,6 +1475,7 @@ loa:
             to: 561949N 0034829W
         - line:
           - 562000N 0034746W
+
     - name: P600 AREA A
       type: AWY
       class: A
@@ -1411,6 +1489,7 @@ loa:
           - 561400N 0033259W
           - 561400N 0040926W
           - 562000N 0034746W
+
     - name: P600 AREA B
       type: AWY
       class: A
@@ -1424,6 +1503,7 @@ loa:
           - 562341N 0031445W
           - 561554N 0032925W
           - 562149N 0034418W
+
     - name: P600 AREA C
       type: AWY
       class: A
@@ -1437,6 +1517,7 @@ loa:
           - 562341N 0031445W
           - 562633N 0032207W
           - 562948N 0032900W
+
     - name: P600 AREA D
       type: AWY
       class: A
@@ -1449,6 +1530,7 @@ loa:
           - 564257N 0025040W
           - 563321N 0030244W
           - 563900N 0031738W
+
     - name: P600 AREA E
       type: AWY
       class: A
@@ -1461,6 +1543,7 @@ loa:
           - 565109N 0024017W
           - 564257N 0025040W
           - 564838N 0030536W
+
     - name: P600 AREA F
       type: AWY
       class: A
@@ -1473,6 +1556,7 @@ loa:
           - 565433N 0023557W
           - 565109N 0024017W
           - 565651N 0025515W
+
     - name: P600 AREA G
       type: AWY
       class: A
@@ -1485,6 +1569,7 @@ loa:
           - 571545N 0020831W
           - 565433N 0023557W
           - 570015N 0025056W
+
     replace:
     - id: p600-a
       geometry:
@@ -1497,6 +1582,7 @@ loa:
           - 561400N 0033259W
           - 561400N 0040926W
           - 562000N 0034746W
+
     - id: p600-b
       geometry:
       - upper: FL195
@@ -1508,6 +1594,7 @@ loa:
           - 562341N 0031445W
           - 561554N 0032925W
           - 562149N 0034418W
+
     - id: p600-cd
       geometry:
       - upper: FL195
@@ -1521,6 +1608,7 @@ loa:
           - 562633N 0032207W
           - 562948N 0032900W
           - 563900N 0031738W
+
     - id: p600-e
       geometry:
       - upper: FL195
@@ -1531,6 +1619,7 @@ loa:
           - 565109N 0024017W
           - 564257N 0025040W
           - 564838N 0030536W
+
     - id: p600-f
       geometry:
       - upper: FL195
@@ -1541,6 +1630,7 @@ loa:
           - 565433N 0023557W
           - 565109N 0024017W
           - 565651N 0025515W
+
     - id: p600-g
       geometry:
       - upper: FL195
@@ -1551,6 +1641,7 @@ loa:
           - 571545N 0020831W
           - 565433N 0023557W
           - 570015N 0025056W
+
   - name: N864 CROSSING
     add:
     - name: N864 AREA X
@@ -1573,6 +1664,7 @@ loa:
           - 561627N 0030040W
           - 561118N 0030159W
           - 561242N 0031943W
+
     - name: N864 AREA Y
       type: AWY
       class: A
@@ -1593,6 +1685,7 @@ loa:
           - 562230N 0025909W
           - 562341N 0031445W
           - 563947N 0025439W
+
     replace:
     - id: n864-x
       geometry:
@@ -1604,6 +1697,7 @@ loa:
           - 561118N 0030159W
           - 560700N 0030304W
           - 560700N 0032107W
+
     - id: n864-y
       geometry:
       - upper: FL195
@@ -1617,6 +1711,7 @@ loa:
           - 561242N 0031943W
           - 561750N 0031827W
           - 562219N 0031719W
+
     - id: n864-z
       geometry:
       - upper: FL195
@@ -1626,6 +1721,7 @@ loa:
           - 562230N 0025909W
           - 562341N 0031445W
           - 563947N 0025439W
+
 - name: P600/SCOTTISH TMA
   areas:
   - name: P600/TMA ACCESS
@@ -1642,6 +1738,7 @@ loa:
           - 561400N 0033259W
           - 560700N 0032938W
           - 560700N 0040000W
+
     replace:
     - id: scottish-tma3
       geometry:
@@ -1669,6 +1766,7 @@ loa:
           - 554336N 0050000W
           - 555000N 0050000W
           - 560000N 0044400W
+
 - name: RILES GLIDING AREA
   areas:
   - name: MADLEY BOX
@@ -1685,6 +1783,7 @@ loa:
           - 520712N 0024624W
           - 515640N 0024718W
           - 515701N 0025836W
+
     replace:
     - id: n862/n864
       geometry:
@@ -1702,6 +1801,7 @@ loa:
           - 515715N 0030638W
           - 520748N 0030547W
           - 520817N 0032200W
+
   - name: RAGLAN BOX
     add:
     - name: RAGLAN BOX LOWER
@@ -1716,6 +1816,7 @@ loa:
           - 515640N 0024718W
           - 515040N 0024748W
           - 515153N 0025901W
+
     - name: RAGLAN BOX UPPER
       type: CTA
       class: A
@@ -1728,6 +1829,7 @@ loa:
           - 515640N 0024718W
           - 515040N 0024748W
           - 515153N 0025901W
+
     replace:
     - id: cotswold-11
       geometry:
