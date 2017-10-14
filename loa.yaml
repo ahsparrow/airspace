@@ -362,7 +362,8 @@ loa:
       type: AWY
       class: A
       geometry:
-      - upper: FL100
+      - name: CAMPHILL BOX FL100
+        upper: FL100
         lower: FL85
         boundary:
         - line:
@@ -374,7 +375,8 @@ loa:
           - 531930N 0013131W
           - 531244N 0013141W
           - 531137N 0013631W
-      - upper: FL190
+      - name: CAMPHILL BOX FL190
+        upper: FL190
         lower: FL100
         boundary:
         - line:
@@ -442,7 +444,8 @@ loa:
       type: AWY
       class: A
       geometry:
-      - upper: FL120
+      - name: L975 CROSSING FL120
+        upper: FL120
         lower: FL55
         boundary:
         - line:
@@ -451,7 +454,8 @@ loa:
           - 534030N 0011551W
           - 533038N 0011307W
           - 532845N 0013215W
-      - upper: FL120
+      - name: L975 CROSSING FL120
+        upper: FL120
         lower: FL65
         boundary:
         - line:
@@ -459,7 +463,8 @@ loa:
           - 533059N 0010932W
           - 533038N 0011307W
           - 534030N 0011551W
-      - upper: FL190
+      - name: L975 CROSSING FL190
+        upper: FL190
         lower: FL120
         boundary:
         - line:
@@ -467,7 +472,8 @@ loa:
           - 533059N 0010932W
           - 532845N 0013215W
           - 533835N 0013503W
-      - upper: FL190
+      - name: L975 CROSSING FL190
+        upper: FL190
         lower: FL125
         boundary:
         - line:
