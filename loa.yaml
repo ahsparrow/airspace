@@ -152,23 +152,20 @@ loa:
   areas:
   - name: BOOKER COMPS
     add:
-    - name: BOOKER-A
-      type: CTA
+    - name: BOOKER COMPS
+      type: TMA
       class: A
       geometry:
-      - upper: 4500 ft
+      - name: BOOKER-A
+        upper: 4500 ft
         lower: 3500 ft
         boundary:
         - line:
           - 514542N 0005550W
           - 514647N 0004936W
           - 514021N 0004916W
-
-    - name: BOOKER-B
-      type: CTA
-      class: A
-      geometry:
-      - upper: 4500 ft
+      - name: BOOKER-B
+        upper: 4500 ft
         lower: 3500 ft
         boundary:
         - line:
@@ -176,12 +173,8 @@ loa:
           - 513451N 0005516W
           - 513238N 0005516W
           - 513233N 0010000W
-
-    - name: BOOKER-C
-      type: CTA
-      class: A
-      geometry:
-      - upper: 4500 ft
+      - name: BOOKER-C
+        upper: 4500 ft
         lower: 2500 ft
         boundary:
         - line:
