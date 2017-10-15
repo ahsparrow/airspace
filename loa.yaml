@@ -537,11 +537,12 @@ loa:
   areas:
   - name: CHIPPING BOX
     add:
-    - name: CHIPPING BOX LOWER
+    - name: CHIPPING BOX
       type: AWY
       class: A
       geometry:
-      - upper: FL100
+      - name: CHIPPING BOX FL100
+        upper: FL100
         lower: FL65
         boundary:
         - line:
@@ -549,7 +550,8 @@ loa:
           - 535023N 0023250W
           - 534741N 0024459W
           - 535330N 0024911W
-      - upper: FL100
+      - name: CHIPPING BOX FL100
+        upper: FL100
         lower: FL95
         boundary:
         - line:
@@ -558,33 +560,22 @@ loa:
           - 535734N 0023258W
           - 535330N 0024911W
           - 535858N 0025310W
-
-    - name: CHIPPING BOX UPPER
-      type: AWY
-      class: A
-      geometry:
-      - upper: FL140
-        lower: FL100
-        boundary:
-        - line:
-          - 535734N 0023258W
-          - 535023N 0023250W
-          - 534741N 0024459W
-          - 535330N 0024911W
-      - upper: FL140
+      - name: CHIPPING BOX FL140
+        upper: FL140
         lower: FL100
         boundary:
         - line:
           - 540234N 0023858W
           - 535747N 0023258W
           - 535734N 0023258W
-          - 535330N 0024911W
+          - 535023N 0023250W
+          - 534741N 0024459W
           - 535858N 0025310W
 
     replace:
     - id: l612-chipping1
       geometry:
-      - upper: FL140
+      - upper: FL195
         lower: FL65
         boundary:
         - line:
@@ -597,8 +588,8 @@ loa:
         boundary:
         - line:
           - 535734N 0023258W
-          - 534127N 0023240W
-          - 533918N 0023900W
+          - 535023N 0023250W
+          - 534741N 0024459W
           - 535330N 0024911W
 
     - id: l612-chipping2
