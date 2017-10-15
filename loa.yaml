@@ -1054,6 +1054,8 @@ loa:
     - name: GUSSI BOX
       type: AWY
       class: E
+      rules:
+        - TMZ
       geometry:
       - upper: FL190
         lower: FL105
