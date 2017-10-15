@@ -623,17 +623,14 @@ loa:
         lower: 2000 ft
         boundary:
         - line:
-          - 531858N 0011152W
-          - 531600N 0005542W
+          - 532720N 0005206W
+          - 532643N 0004958W
           - 531509N 0005610W
         - arc:
             dir: cw
             radius: 13 nm
             centre: 532751N 0010036W
             to: 531641N 0011139W
-      - upper: 4500 ft
-        lower: 2000 ft
-        boundary:
         - line:
           - 532401N 0011220W
         - arc:
@@ -641,11 +638,6 @@ loa:
             radius: 8 nm
             centre: 532751N 0010036W
             to: 532024N 0005549W
-        - line:
-          - 532720N 0005206W
-          - 532643N 0004958W
-          - 531600N 0005542W
-          - 531858N 0011152W
 
     replace:
     - id: rhads-3
@@ -691,14 +683,6 @@ loa:
         lower: 2000 ft
         boundary:
         - line:
-          - 534139N 0010352W
-          - 534149N 0010209W
-          - 533109N 0010751W
-          - 533059N 0010932W
-      - upper: 4500 ft
-        lower: 2000 ft
-        boundary:
-        - line:
           - 534149N 0010209W
         - arc:
             dir: cw
@@ -714,6 +698,10 @@ loa:
             radius: 8 nm
             centre: 532911N 0005954W
             to: 533635N 0010457W
+        - line:
+          - 533109N 0010751W
+          - 533059N 0010932W
+          - 534139N 0010352W
 
     replace:
     - id: rhads-4
@@ -759,18 +747,12 @@ loa:
         lower: 4000 ft
         boundary:
         - line:
-          - 534030N 0011550W
           - 534139N 0010352W
-          - 533059N 0010932W
-          - 533038N 0011307W
-      - upper: 4500 ft
-        lower: 4000 ft
-        boundary:
-        - line:
-          - 532950N 0012120W
-          - 533059N 0010932W
           - 532527N 0011228W
           - 532449N 0011957W
+          - 532950N 0012120W
+          - 533038N 0011307W
+          - 534030N 0011550W
 
     replace:
     - id: rhads-8
