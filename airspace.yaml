@@ -2720,7 +2720,7 @@ airspace:
 
 - name: L70
   type: AWY
-  class: A
+  class: C
   geometry:
   - upper: FL195
     lower: FL145
