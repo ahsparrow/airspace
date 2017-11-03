@@ -1365,7 +1365,7 @@ airspace:
         radius: 2 nm
         centre: 513654N 0010545W
 
-- name: BOSCOME DOWN
+- name: BOSCOMBE DOWN
   type: ATZ
   geometry:
   - upper: 2407 ft
