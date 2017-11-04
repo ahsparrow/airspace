@@ -474,6 +474,87 @@ airspace:
       - 530443N 0024001W
       - 521856N 0014705W
 
+- name: HOLYHEAD
+  type: CTA
+  geometry:
+  - seqno: 1
+    upper: FL195
+    lower: FL145
+    boundary:
+    - line:
+      - 531957N 0033954W
+      - 531855N 0031647W
+      - 530813N 0031736W
+  - seqno: 2
+    upper: FL195
+    lower: FL45
+    boundary:
+    - line:
+      - 533944N 0033153W
+      - 533213N 0031406W
+      - 532621N 0032107W
+      - 531909N 0032201W
+      - 532006N 0034339W
+      - 533054N 0034222W
+  - seqno: 3
+    upper: FL195
+    lower: FL75
+    boundary:
+    - line:
+      - 535106N 0035909W
+      - 533944N 0033153W
+      - 533054N 0034222W
+      - 532006N 0034339W
+      - 532043N 0035838W
+      - 533754N 0035641W
+      - 534254N 0040847W
+  - seqno: 4
+    upper: FL195
+    lower: FL115
+    boundary:
+    - line:
+      - 534329N 0041807W
+      - 534309N 0040924W
+      - 533754N 0035641W
+      - 532043N 0035838W
+      - 532134N 0042031W
+  - seqno: 5
+    upper: FL195
+    lower: FL145
+    boundary:
+    - line:
+      - 540405N 0050040W
+      - 534309N 0040924W
+      - 534329N 0041807W
+      - 532134N 0042031W
+      - 532240N 0045156W
+      - 534735N 0044937W
+      - 534718N 0044057W
+      - 540356N 0051933W
+      - 540202N 0050543W
+  - seqno: 17
+    upper: FL195
+    lower: 3500 ft
+    boundary:
+    - line:
+      - 533213N 0031406W
+      - 532734N 0030310W
+      - 532336N 0031110W
+      - 532345N 0031625W
+      - 531855N 0031647W
+      - 531909N 0032201W
+      - 532621N 0032107W
+  - seqno: 18
+    upper: FL195
+    lower: FL85
+    boundary:
+    - line:
+      - 534150N 0033653W
+      - 533918N 0023900W
+      - 533630N 0030136W
+      - 533222N 0030059W
+      - 533213N 0031406W
+
 - name: PORTSMOUTH
   type: CTA
   class: A
@@ -2617,19 +2698,6 @@ airspace:
 #----------------------------------------------------------------------
 # ENR 3.1 Lower ATS Routes
 
-- name: L15
-  type: AWY
-  class: A
-  geometry:
-  - id: l15
-    upper: FL195
-    lower: FL145
-    boundary:
-    - line:
-      - 531956N 0033953W
-      - 531855N 0031647W
-      - 530812N 0031736W
-
 - name: L60/L603/M868
   type: AWY
   class: A
@@ -2652,15 +2720,16 @@ airspace:
 
 - name: L70
   type: AWY
-  class: A
+  class: C
   geometry:
   - upper: FL195
-    lower: FL85
+    lower: FL145
     boundary:
     - line:
-      - 533908N 0024023W
+      - 533918N 0023900W
       - 533630N 0030136W
-      - 534017N 0030211W
+      - 533222N 0030059W
+      - 533223N 0025907W
 
 - name: L612
   type: AWY
@@ -2760,44 +2829,6 @@ airspace:
       - 534141N 0010349W
       - 534118N 0010226W
       - 533109N 0010751W
-  - upper: FL195
-    lower: 3500 ft
-    boundary:
-    - line:
-      - 532734N 0030310W
-      - 532336N 0031110W
-      - 532345N 0031625W
-      - 531855N 0031647W
-      - 531909N 0032201W
-      - 532621N 0032107W
-      - 533213N 0031406W
-  - upper: FL195
-    lower: FL45
-    boundary:
-    - line:
-      - 533053N 0031542W
-      - 532621N 0032107W
-      - 531909N 0032201W
-      - 532007N 0034341W
-      - 533053N 0034222W
-      - 533200N 0034106W
-  - upper: FL195
-    lower: FL75
-    boundary:
-    - line:
-      - 533200N 0034106W
-      - 533053N 0034222W
-      - 532007N 0034341W
-      - 532045N 0035838W
-      - 533240N 0035718W
-  - upper: FL195
-    lower: FL115
-    boundary:
-    - line:
-      - 533240N 0035718W
-      - 532045N 0035838W
-      - 532134N 0042033W
-      - 533336N 0041914W
 
 - name: N57
   type: AWY
@@ -3087,9 +3118,8 @@ airspace:
       - 543637N 0032230W
       - 543356N 0031901W
       - 541910N 0030803W
-      - 533223N 0030101W
-      - 533214N 0031403W
-      - 533354N 0031806W
+      - 534022N 0030211W
+      - 534107N 0031914W
       - 543420N 0032743W
   - upper: FL105
     lower: FL55
@@ -3314,11 +3344,10 @@ airspace:
     boundary:
     - line:
       - 551214N 0050234W
-      - 545548N 0051649W
-      - 543858N 0054223W
-      - 543224N 0052924W
-      - 545011N 0050216W
       - 550959N 0044501W
+      - 545011N 0050216W
+      - 543910N 0051904W
+      - 544449N 0052608W
   - upper: FL195
     lower: FL125
     class: D
@@ -3395,11 +3424,10 @@ airspace:
     lower: FL95
     boundary:
     - line:
-      - 542809N 0050805W
-      - 545438N 0045822W
       - 545011N 0050216W
-      - 543351N 0052706W
-      - 543038N 0052816W
+      - 543101N 0050703W
+      - 543230N 0051046W
+      - 543910N 0051904W
 
 - name: T256
   type: AWY
