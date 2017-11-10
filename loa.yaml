@@ -1231,7 +1231,7 @@ loa:
 #----------------------------------------------------------------------
 - name: P18 CROSSING
   areas:
-  - name: CASTLE
+  - name: P18 CROSSING
     add:
     - name: CASTLE
       type: AWY
@@ -1265,20 +1265,6 @@ loa:
           - 543746N 0014946W
           - 543901N 0020136W
 
-    replace:
-    - id: p18-castle
-      geometry:
-      - upper: FL125
-        lower: FL120
-        boundary:
-        - line:
-          - 543406N 0020308W
-          - 543135N 0013929W
-          - 542344N 0014159W
-          - 542615N 0020534W
-
-  - name: DERWENT
-    add:
     - name: DERWENT
       type: AWY
       class: D
@@ -1334,21 +1320,16 @@ loa:
           - 543746N 0014946W
 
     replace:
-    - id: newcastle-cta4
+    - id: p18-castle
       geometry:
-      - upper: FL105
-        lower: 3000 ft
+      - upper: FL125
+        lower: FL120
         boundary:
         - line:
-          - 550209N 0020030W
-        - arc:
-            dir: ccw
-            radius: 11 nm
-            centre: 550217N 0014123W
-            to: 545531N 0015626W
-        - line:
-          - 545352N 0015659W
-          - 545821N 0020025W
+          - 543406N 0020308W
+          - 543135N 0013929W
+          - 542344N 0014159W
+          - 542615N 0020534W
 
     - id: p18-castlederwent
       geometry:
@@ -1387,6 +1368,22 @@ loa:
           - 545349N 0015655W
           - 550332N 0015351W
           - 550059N 0012954W
+
+    - id: newcastle-cta4
+      geometry:
+      - upper: FL105
+        lower: 3000 ft
+        boundary:
+        - line:
+          - 550209N 0020030W
+        - arc:
+            dir: ccw
+            radius: 11 nm
+            centre: 550217N 0014123W
+            to: 545531N 0015626W
+        - line:
+          - 545352N 0015659W
+          - 545821N 0020025W
 
     - id: newcastle-cta5
       geometry:
