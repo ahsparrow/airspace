@@ -1916,3 +1916,68 @@ loa:
           - 514539N 0024814W
           - 514743N 0030725W
           - 515316N 0030658W
+
+#----------------------------------------------------------------------
+# The Southend Crossing LOA is not well defined. The LoA shows
+# hand drawn lines on map (rather than a coordinate list). The 3-D
+# structure of the CTA is very complicated, so to simplify the LoA
+# airspace the levels are "nominal" rather than following the structure
+# of the Southend CTR/CTA and London TMA.
+
+- name: SOUTHEND CROSSING
+  areas:
+  - name: SOUTHEND CROSSING
+    add:
+    - name: EASTERN CORRIDOR
+      type: CTR
+      class: D
+      geometry:
+      - upper: 3500 ft
+        lower: SFC
+        boundary:
+        - line:
+          - 514940N 0005655E
+          - 513343N 0005818E
+          - 513000N 0005000E
+          - 512829N 0005000E
+          - 512555N 0005625E
+          - 512124N 0005144E
+          - 512120N 0005000E
+          - 512108N 0004406E
+          - 514435N 0004406E
+          - 514506N 0004514E
+          - 514716N 0005005E
+
+    - name: GATEWAY CORRIDOR
+      type: CTR
+      class: D
+      geometry:
+      - upper: 3500 ft
+        lower: 1500 ft
+        boundary:
+        - line:
+          - 514115N 0002917E
+          - 513445N 0002903E
+        - arc:
+            dir: ccw
+            radius: 7.5 nm
+            centre: 513357N 0004100E
+            to: 512701N 0003630E
+        - line:
+          - 512104N 0004218E
+          - 512046N 0003338E
+          - 513146N 0002401E
+          - 513943N 0002551E
+
+    - name: WESTERN CORRIDOR
+      type: CTR
+      class: D
+      geometry:
+      - upper: 3500 ft
+        lower: SFC
+        boundary:
+        - line:
+          - 514353N 0003508E
+          - 512104N 0004218E
+          - 512046N 0003338E
+          - 513943N 0002551E
