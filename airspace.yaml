@@ -20,7 +20,7 @@ airspace:
 #----------------------------------------------------------------------
 # ENR 2.1 FIR, UIR, TMA
 
-- name: CLACTON
+- name: CLACTON CTA
   type: CTA
   class: A
   geometry:
@@ -86,7 +86,7 @@ airspace:
       - 512247N 0011549E
       - 513905N 0012500E
 
-- name: COTSWOLD
+- name: COTSWOLD CTA
   type: CTA
   class: A
   geometry:
@@ -247,7 +247,7 @@ airspace:
       - 513039N 0020510W
       - 513135N 0021321W
 
-- name: DAVENTRY
+- name: DAVENTRY CTA
   type: CTA
   class: A
   geometry:
@@ -474,7 +474,7 @@ airspace:
       - 530443N 0024001W
       - 521856N 0014705W
 
-- name: HOLYHEAD
+- name: HOLYHEAD CTA
   type: CTA
   geometry:
   - seqno: 1
@@ -555,7 +555,7 @@ airspace:
       - 533222N 0030059W
       - 533213N 0031406W
 
-- name: PORTSMOUTH
+- name: PORTSMOUTH CTA
   type: CTA
   class: A
   geometry:
@@ -743,7 +743,7 @@ airspace:
       - 505334N 0014051W
       - 510045N 0013053W
 
-- name: SEVERN
+- name: SEVERN CTA
   type: CTA
   class: C
   geometry:
@@ -767,7 +767,7 @@ airspace:
       - 511505N 0025335W
       - 511010N 0031341W
 
-- name: SOLENT
+- name: SOLENT CTA
   type: CTA
   class: D
   geometry:
@@ -875,7 +875,7 @@ airspace:
       - 502754N 0013240W
       - 503156N 0014700W
 
-- name: STRUMBLE
+- name: STRUMBLE CTA
   type: CTA
   class: A
   geometry:
@@ -921,7 +921,7 @@ airspace:
       - 513946N 0032432W
       - 514224N 0034108W
 
-- name: WORTHING
+- name: WORTHING CTA
   type: CTA
   class: A
   geometry:
@@ -953,7 +953,7 @@ airspace:
       - 503606N 0003840W
       - 503700N 0003938W
 
-- name: NORTH SEA
+- name: NORTH SEA CTA
   type: CTA
   class: A
   geometry:
@@ -968,7 +968,7 @@ airspace:
       - 530848N 0003358E
       - 531835N 0003659E
 
-- name: LONDON
+- name: LONDON TMA
   type: TMA
   class: A
   geometry:
@@ -1278,7 +1278,7 @@ airspace:
       - 505728N 0004224W
       - 505616N 0005119W
 
-- name: MANCESTER
+- name: MANCESTER TMA
   type: TMA
   class: A
   geometry:
@@ -1311,7 +1311,7 @@ airspace:
       - 533222N 0030059W
       - 533223N 0025907W
 
-- name: SCOTTISH
+- name: SCOTTISH TMA
   type: TMA
   class: D
   geometry:
@@ -1396,7 +1396,7 @@ airspace:
       - 555500N 0045200W
       - 560000N 0044400W
 
-- name: BRIZE NORTON
+- name: BRIZE NORTON CTR
   type: CTR
   class: D
   geometry:
@@ -9271,7 +9271,7 @@ airspace:
 #----------------------------------------------------------------------
 # AD2 Aerodromes
 
-- name: ABERDEEN
+- name: ABERDEEN CTR
   type: CTR
   class: D
   geometry:
@@ -9295,7 +9295,7 @@ airspace:
         centre: 571834N 0021602W
         to: 572100N 0023356W
 
-- name: ABERDEEN
+- name: ABERDEEN CTA
   type: CTA
   class: D
   geometry:
@@ -9417,7 +9417,7 @@ airspace:
       - 512650N 0000809E
       - 512202N 0000353E
 
-- name: BIRMINGHAM
+- name: BIRMINGHAM CTR
   type: CTR
   class: D
   geometry:
@@ -9440,7 +9440,7 @@ airspace:
         centre: 522722N 0014502W
         to: 523507N 0014154W
 
-- name: BIRMINGHAM
+- name: BIRMINGHAM CTA
   type: CTA
   class: D
   geometry:
@@ -9618,7 +9618,7 @@ airspace:
         radius: 2.5 nm
         centre: 534618N 0030143W
 
-- name: BOURNEMOUTH
+- name: BOURNEMOUTH CTR
   type: CTR
   class: D
   geometry:
@@ -9640,7 +9640,7 @@ airspace:
         centre: 504648N 0015033W
         to: 505003N 0020205W
 
-- name: BRISTOL
+- name: BRISTOL CTR
   type: CTR
   class: D
   geometry:
@@ -9651,7 +9651,7 @@ airspace:
         radius: 5 nm
         centre: 512258N 0024309W
 
-- name: BRISTOL
+- name: BRISTOL CTA
   type: CTA
   class: D
   geometry:
@@ -9835,7 +9835,7 @@ airspace:
         radius: 2 nm
         centre: 552615N 0054117W
 
-- name: CARDIFF
+- name: CARDIFF CTR
   type: CTR
   class: D
   geometry:
@@ -9859,7 +9859,7 @@ airspace:
         centre: 512348N 0032036W
         to: 513021N 0032755W
 
-- name: CARDIFF
+- name: CARDIFF CTA
   type: CTA
   class: D
   geometry:
@@ -10146,7 +10146,7 @@ airspace:
         radius: 2 nm
         centre: 525135N 0013703W
 
-- name: DONCASTER SHEFFIELD
+- name: DONCASTER SHEFFIELD CTR
   type: CTR
   class: D
   geometry:
@@ -10180,7 +10180,7 @@ airspace:
         centre: 532751N 0010036W
         to: 532535N 0011047W
 
-- name: DONCASTER SHEFFIELD
+- name: DONCASTER SHEFFIELD CTA
   type: CTA
   class: D
   geometry:
@@ -10372,7 +10372,7 @@ airspace:
         radius: 2 nm
         centre: 505136N 0031405W
 
-- name: DURHAM
+- name: DURHAM CTR
   type: CTR
   class: D
   geometry:
@@ -10394,7 +10394,7 @@ airspace:
         centre: 543033N 0012546W
         to: 543303N 0013347W
 
-- name: DURHAM
+- name: DURHAM CTA
   type: CTA
   class: D
   geometry:
@@ -10473,7 +10473,7 @@ airspace:
         radius: 2 nm
         centre: 515452N 0004057E
 
-- name: EAST MIDLANDS
+- name: EAST MIDLANDS CTR
   type: CTR
   class: D
   geometry:
@@ -10498,7 +10498,7 @@ airspace:
       - 524535N 0012816W
       - 525233N 0013241W
 
-- name: EAST MIDLANDS
+- name: EAST MIDLANDS CTA
   type: CTA
   class: D
   geometry:
@@ -10705,7 +10705,7 @@ airspace:
       - 530900N 0013146W
       - 530901N 0013414W
 
-- name: EDINBURGH
+- name: EDINBURGH CTR
   type: CTR
   class: D
   geometry:
@@ -10716,7 +10716,7 @@ airspace:
         radius: 10 nm
         centre: 555700N 0032221W
 
-- name: EDINBURGH
+- name: EDINBURGH CTA
   type: CTA
   class: D
   geometry:
@@ -10783,7 +10783,7 @@ airspace:
         centre: 555700N 0032221W
         to: 555442N 0030503W
 
-- name: GLASGOW
+- name: GLASGOW CTA
   type: CTA
   class: D
   geometry:
@@ -10913,7 +10913,7 @@ airspace:
         radius: 2 nm
         centre: 524422N 0000148W
 
-- name: GLASGOW
+- name: GLASGOW CTR
   type: CTR
   class: D
   geometry:
@@ -10994,7 +10994,7 @@ airspace:
       - 530442N 0030730W
       - 530849N 0030126W
 
-- name: HAWARDEN
+- name: HAWARDEN RMZ
   type: OTHER
   localtype: RMZ
   rules:
@@ -11132,7 +11132,7 @@ airspace:
         radius: 2 nm
         centre: 510923N 0003840E
 
-- name: LEEDS BRADFORD
+- name: LEEDS BRADFORD CTR
   type: CTR
   class: D
   geometry:
@@ -11156,7 +11156,7 @@ airspace:
         centre: 535157N 0013938W
         to: 535955N 0014027W
 
-- name: LEEDS BRADFORD
+- name: LEEDS BRADFORD CTA
   type: CTA
   class: D
   geometry:
@@ -11265,7 +11265,7 @@ airspace:
         radius: 2 nm
         centre: 523628N 0010155W
 
-- name: LIVERPOOL
+- name: LIVERPOOL CTR
   type: CTR
   class: D
   geometry:
@@ -11281,7 +11281,7 @@ airspace:
       - 532331N 0030804W
       - 532817N 0025719W
 
-- name: LIVERPOOL
+- name: LIVERPOOL CTA
   type: CTA
   class: D
   geometry:
@@ -11329,7 +11329,7 @@ airspace:
       - 531855N 0031647W
       - 532345N 0031625W
 
-- name: LONDON CITY
+- name: LONDON CITY CTR
   type: CTR
   class: D
   geometry:
@@ -11352,7 +11352,7 @@ airspace:
         centre: 512812N 0002713W
         to: 513445N 0001108W
 
-- name: LONDON CITY
+- name: LONDON CITY CTA
   type: CTA
   class: D
   geometry:
@@ -11389,7 +11389,7 @@ airspace:
         centre: 512812N 0002713W
         to: 513547N 0001221W
 
-- name: LONDON GATWICK
+- name: LONDON GATWICK CTR
   type: CTR
   class: D
   geometry:
@@ -11412,7 +11412,7 @@ airspace:
         centre: 510853N 0001125W
         to: 511118N 0002332W
 
-- name: LONDON GATWICK
+- name: LONDON GATWICK CTA
   type: CTA
   class: D
   geometry:
@@ -11435,7 +11435,7 @@ airspace:
         centre: 510853N 0001125W
         to: 510100N 0000458E
 
-- name: LONDON HEATHROW
+- name: LONDON HEATHROW CTR
   type: CTR
   class: D
   geometry:
@@ -11459,7 +11459,7 @@ airspace:
         centre: 512812N 0002713W
         to: 513611N 0004133W
 
-- name: LONDON LUTON
+- name: LONDON LUTON CTR
   type: CTR
   class: D
   geometry:
@@ -11480,7 +11480,7 @@ airspace:
       - 514830N 0001506W
       - 514503N 0003457W
 
-- name: LONDON LUTON
+- name: LONDON LUTON CTA
   type: CTA
   class: D
   geometry:
@@ -11576,7 +11576,7 @@ airspace:
       - 515356N 0005006W
       - 515048N 0004926W
 
-- name: LONDON STANSTED
+- name: LONDON STANSTED CTR
   type: CTR
   class: D
   geometry:
@@ -11599,7 +11599,7 @@ airspace:
         centre: 515306N 0001406E
         to: 515416N 0002653E
 
-- name: LONDON STANSTED
+- name: LONDON STANSTED CTA
   type: CTA
   class: D
   geometry:
@@ -11666,7 +11666,7 @@ airspace:
       - 515146N 0000006W
       - 520127N 0000000W
 
-- name: LONDON STANSTED
+- name: LONDON STANSTED TMZ
   type: OTHER
   localtype: TMZ
   rules:
@@ -11742,7 +11742,7 @@ airspace:
       - 510416N 0010244E
       - 505906N 0005757E
 
-- name: MANCHESTER
+- name: MANCHESTER CTR
   type: CTR
   class: D
   geometry:
@@ -11762,7 +11762,7 @@ airspace:
       - 531130N 0023744W
       - 532708N 0023744W
 
-- name: MANCHESTER
+- name: MANCHESTER CTA
   type: CTA
   class: D
   geometry:
@@ -11838,7 +11838,7 @@ airspace:
         radius: 2 nm
         centre: 531901N 0011147W
 
-- name: NEWCASTLE
+- name: NEWCASTLE CTR
   type: CTR
   class: D
   geometry:
@@ -11861,7 +11861,7 @@ airspace:
         centre: 550217N 0014123W
         to: 550525N 0015411W
 
-- name: NEWCASTLE
+- name: NEWCASTLE CTA
   type: CTA
   class: D
   geometry:
@@ -12013,7 +12013,7 @@ airspace:
         radius: 2 nm
         centre: 521817N 0004732W
 
-- name: NORWICH
+- name: NORWICH CTR
   type: CTR
   class: D
   geometry:
@@ -12036,7 +12036,7 @@ airspace:
         centre: 524033N 0011609E
         to: 524530N 0011035E
 
-- name: NORWICH
+- name: NORWICH CTA
   type: CTA
   class: D
   geometry:
@@ -12193,7 +12193,7 @@ airspace:
         radius: 2 nm
         centre: 522805N 0001503W
 
-- name: PRESTWICK
+- name: PRESTWICK CTR
   type: CTR
   class: D
   geometry:
@@ -12216,7 +12216,7 @@ airspace:
         centre: 553034N 0043540W
         to: 553734N 0044227W
 
-- name: PRESTWICK
+- name: PRESTWICK CTA
   type: CTA
   class: D
   geometry:
@@ -12422,7 +12422,7 @@ airspace:
         radius: 2 nm
         centre: 525002N 0024618W
 
-- name: SOUTHAMPTON
+- name: SOUTHAMPTON CTR
   type: CTR
   class: D
   geometry:
@@ -12447,7 +12447,7 @@ airspace:
       - 505512N 0013047W
       - 510123N 0012722W
 
-- name: SOUTHEND
+- name: SOUTHEND CTR
   type: CTR
   class: D
   geometry:
@@ -12494,7 +12494,7 @@ airspace:
       - 513417N 0005000E
       - 513618N 0005532E
 
-- name: SOUTHEND
+- name: SOUTHEND CTA
   type: CTA
   class: D
   geometry:
