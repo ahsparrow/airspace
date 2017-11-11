@@ -1427,7 +1427,7 @@ loa:
   areas:
   - name: P600 CROSSING
     add:
-    - name: P600/N864 CROSSING
+    - name: STRATHALLAN
       type: D
       class: A
       geometry:
@@ -1539,6 +1539,24 @@ loa:
           - 570015N 0025056W
 
     replace:
+    - id: p600-access-area-a
+      geometry: []
+
+    - id: p600-access-area-b
+      geometry: []
+
+    - id: p600-access-strathallan
+      geometry: []
+
+    - id: p600-access-p600-a
+      geometry: []
+
+    - id: p600-access-p600-b1
+      geometry: []
+
+    - id: p600-access-p600-b2
+      geometry: []
+
     - id: p600-a
       geometry:
       - upper: FL195
@@ -1708,6 +1726,55 @@ loa:
           - 560700N 0032938W
           - 560700N 0040000W
 
+    - name: P600 AREA A
+      type: AWY
+      class: A
+      geometry:
+      - id: p600-access-area-a
+        upper: FL190
+        lower: FL55
+        boundary:
+        - line:
+          - 562149N 0034418W
+          - 561554N 0032925W
+          - 561400N 0033259W
+          - 561400N 0040926W
+          - 562000N 0034746W
+
+    - name: P600 AREA B
+      type: AWY
+      class: A
+      geometry:
+      - id: p600-access-area-b
+        upper: FL190
+        lower: FL85
+        boundary:
+        - line:
+          - 562948N 0032900W
+          - 562633N 0032207W
+          - 562429N 0031648W
+          - 562219N 0031719W
+          - 561554N 0032925W
+          - 562149N 0034418W
+
+    - name: STRATHALLAN
+      type: D
+      class: A
+      geometry:
+      - id: p600-access-strathallan
+        upper: FL150
+        lower: FL55
+        boundary:
+        - line:
+          - 562130N 0034455W
+        - arc:
+            dir: cw
+            radius: 2 nm
+            centre: 561930N 0034455W
+            to: 561949N 0034829W
+        - line:
+          - 562000N 0034746W
+
     replace:
     - id: scottish-tma3
       geometry:
@@ -1735,6 +1802,41 @@ loa:
           - 554336N 0050000W
           - 555000N 0050000W
           - 560000N 0044400W
+
+    - id: p600-a
+      geometry:
+      - id: p600-access-p600-a
+        upper: FL195
+        lower: FL190
+        boundary:
+        - line:
+          - 562149N 0034418W
+          - 561554N 0032925W
+          - 561400N 0033259W
+          - 561400N 0040926W
+          - 562000N 0034746W
+
+    - id: p600-b
+      geometry:
+      - id: p600-access-p600-b1
+        upper: FL195
+        lower: FL190
+        boundary:
+        - line:
+          - 562948N 0032900W
+          - 562633N 0032207W
+          - 562429N 0031648W
+          - 562219N 0031719W
+          - 561554N 0032925W
+          - 562149N 0034418W
+      - id: p600-access-600-b2
+        upper: FL195
+        lower: FL85
+        boundary:
+        - line:
+          - 562429N 0031648W
+          - 562341N 0031445W
+          - 562219N 0031719W
 
 #----------------------------------------------------------------------
 - name: RILES GLIDING AREA
