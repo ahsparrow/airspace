@@ -1,0 +1,325 @@
+obstacle:
+- type: RTM
+  id: UK0150A059F
+  position: 581941N 0032217W
+  elevation: 1508 ft
+- type: RTM
+  id: UK0150B620F
+  position: 573703N 0015315W
+  elevation: 935 ft
+- type: RTM
+  id: UK0150B621F
+  position: 573644N 0015337W
+  elevation: 633 ft
+- type: RTM
+  id: UK0150A095F
+  position: 573624N 0015250W
+  elevation: 646 ft
+- type: RTM
+  id: UK0150A046F
+  position: 573530N 0041636W
+  elevation: 1495 ft
+- type: RTM
+  id: UK0150A033F
+  position: 570000N 0022324W
+  elevation: 2122 ft
+- type: RTM
+  id: UK0150A026F
+  position: 563318N 0025910W
+  elevation: 1814 ft
+- type: PYL
+  id: UK0150F532F
+  position: 560511N 0045203W
+  elevation: 611 ft
+- type: PLT
+  id: UK0150A006F
+  position: 560255N 0034057W
+  elevation: 603 ft
+- type: BRDG
+  id: UK0150M812F
+  position: 560037N 0032432W
+  elevation: 663 ft
+- type: BRDG
+  id: UK0150M813F
+  position: 560017N 0032445W
+  elevation: 690 ft
+- type: BRDG
+  id: UK18613562F
+  position: 555958N 0032458W
+  elevation: 663 ft
+- type: RTM
+  id: UK0171A385F
+  position: 555143N 0035221W
+  elevation: 1938 ft
+- type: RTM
+  id: UK0171T707F
+  position: 555137N 0035208W
+  elevation: 1935 ft
+- type: RTM
+  id: UK0171A384F
+  position: 555110N 0034934W
+  elevation: 1555 ft
+- type: TURB-ON
+  id: UK18610709F
+  position: 554402N 0045306W
+  elevation: 642 ft
+- type: RTM
+  id: UK0171A373F
+  position: 553321N 0024736W
+  elevation: 1721 ft
+- type: RTM
+  id: UK0171A371F
+  position: 553038N 0025027W
+  elevation: 1748 ft
+- type: RTM
+  id: UK0171Q339F
+  position: 545503N 0031646W
+  elevation: 778 ft
+- type: RTM
+  id: UK0171Q341F
+  position: 545454N 0031612W
+  elevation: 776 ft
+- type: RTM
+  id: UK0171Q340F
+  position: 545453N 0031633W
+  elevation: 775 ft
+- type: RTM
+  id: UK0171Q336F
+  position: 545452N 0031655W
+  elevation: 771 ft
+- type: RTM
+  id: UK0171Q334F
+  position: 545451N 0031716W
+  elevation: 781 ft
+- type: RTM
+  id: UK0171Q342F
+  position: 545443N 0031620W
+  elevation: 777 ft
+- type: RTM
+  id: UK0171A353F
+  position: 545442N 0031643W
+  elevation: 771 ft
+- type: RTM
+  id: UK0171Q335F
+  position: 545441N 0031704W
+  elevation: 771 ft
+- type: RTM
+  id: UK0171Q344F
+  position: 545433N 0031609W
+  elevation: 778 ft
+- type: RTM
+  id: UK0171Q343F
+  position: 545432N 0031630W
+  elevation: 767 ft
+- type: RTM
+  id: UK0171Q338F
+  position: 545431N 0031652W
+  elevation: 765 ft
+- type: RTM
+  id: UK0171Q337F
+  position: 545430N 0031713W
+  elevation: 766 ft
+- type: RTM
+  id: UK0171Q345F
+  position: 545421N 0031639W
+  elevation: 752 ft
+- type: RTM
+  id: UK0171A344F
+  position: 544919N 0014253W
+  elevation: 1542 ft
+- type: RTM
+  id: UK0171T708F
+  position: 544624N 0030527W
+  elevation: 2054 ft
+- type: RTM
+  id: UK0171E680F
+  position: 544354N 0025259W
+  elevation: 1811 ft
+- type: RTM
+  id: UK0171A310F
+  position: 542131N 0010901W
+  elevation: 2298 ft
+- type: OBST
+  id: UK18637040F
+  position: 540300N 0034200W
+  elevation: 900 ft
+- type: RTM
+  id: UK0171F960F
+  position: 534954N 0025015W
+  elevation: 643 ft
+- type: RTM
+  id: UK0171F961F
+  position: 534948N 0025003W
+  elevation: 647 ft
+- type: RTM
+  id: UK0171F962F
+  position: 534947N 0024949W
+  elevation: 654 ft
+- type: RTM
+  id: UK0171F959F
+  position: 534945N 0025018W
+  elevation: 646 ft
+- type: CHIM
+  id: UK0171P750F
+  position: 534414N 0005957W
+  elevation: 870 ft
+- type: CHIM
+  id: UK18612915F
+  position: 534257N 0011648W
+  elevation: 695 ft
+- type: CHIM
+  id: UK18612914F
+  position: 534255N 0011653W
+  elevation: 695 ft
+- type: CHIM
+  id: UK0171U698F
+  position: 534243N 0010731W
+  elevation: 677 ft
+- type: RTM
+  id: UK0171A245F
+  position: 533732N 0023054W
+  elevation: 2453 ft
+- type: RTM
+  id: UK0171A239F
+  position: 533644N 0013952W
+  elevation: 1925 ft
+- type: RTM
+  id: UK0171E898F
+  position: 533200N 0015130W
+  elevation: 2502 ft
+- type: CRN
+  id: UK18636593F
+  position: 532244N 0012821W
+  elevation: 885 ft
+- type: CHIM
+  id: UK0171A176F
+  position: 532223N 0024109W
+  elevation: 654 ft
+- type: CHIM
+  id: UK0171A172F
+  position: 532147N 0004839W
+  elevation: 689 ft
+- type: CHIM
+  id: UK18610703F
+  position: 532144N 0004847W
+  elevation: 689 ft
+- type: RTM
+  id: UK0171A168F
+  position: 532009N 0001019W
+  elevation: 1554 ft
+- type: PLT
+  id: UK0171A209F
+  position: 531817N 0004654W
+  elevation: 669 ft
+- type: RTM
+  id: UK0171A146F
+  position: 531316N 0031852W
+  elevation: 1893 ft
+- type: RTM
+  id: UK0171A125F
+  position: 530112N 0041625W
+  elevation: 2079 ft
+- type: RTM
+  id: UK0171U424F
+  position: 524805N 0004803W
+  elevation: 1489 ft
+- type: CHIM
+  id: UK0171S230F
+  position: 524527N 0015512W
+  elevation: 820 ft
+- type: RTM
+  id: UK0171A083F
+  position: 523812N 0014533W
+  elevation: 1487 ft
+- type: PLT
+  id: UK0171A486F
+  position: 523748N 0023048W
+  elevation: 891 ft
+- type: RTM
+  id: UK0171A071F
+  position: 523602N 0015002W
+  elevation: 1358 ft
+- type: RTM
+  id: UK0171W457F
+  position: 523108N 0010819E
+  elevation: 888 ft
+- type: RTM
+  id: UK0171A034F
+  position: 521747N 0020624W
+  elevation: 880 ft
+- type: RTM
+  id: UK0171A028F
+  position: 521404N 0010626E
+  elevation: 1234 ft
+- type: RTM
+  id: UK0171E832F
+  position: 520749N 0001429W
+  elevation: 979 ft
+- type: RTM
+  id: UK0229A071F
+  position: 515639N 0043939W
+  elevation: 1858 ft
+- type: CHIM
+  id: UK0230A091F
+  position: 513720N 0011538W
+  elevation: 828 ft
+- type: PYL
+  id: UK0230A058F
+  position: 512804N 0001716E
+  elevation: 660 ft
+- type: CHIM
+  id: UK0230A055F
+  position: 512801N 0001431E
+  elevation: 697 ft
+- type: PYL
+  id: UK0230I251F
+  position: 512754N 0001748E
+  elevation: 668 ft
+- type: PYL
+  id: UK0230A054F
+  position: 512744N 0001819E
+  elevation: 668 ft
+- type: RTM
+  id: UK0229A035F
+  position: 512734N 0031654W
+  elevation: 1297 ft
+- type: RTM
+  id: UK0229A034F
+  position: 512727N 0032411W
+  elevation: 1161 ft
+- type: CHIM
+  id: UK0230A047F
+  position: 512506N 0003614E
+  elevation: 633 ft
+- type: RTM
+  id: UK0229A024F
+  position: 511413N 0023731W
+  elevation: 2003 ft
+- type: RTM
+  id: UK0230A027F
+  position: 510642N 0011451E
+  elevation: 1240 ft
+- type: CHIM
+  id: UK0230D709F
+  position: 504903N 0011945W
+  elevation: 648 ft
+- type: BLDG
+  id: UK0229A015F
+  position: 504826N 0030618W
+  elevation: 1527 ft
+- type: RTM
+  id: UK0230N156F
+  position: 504036N 0012213W
+  elevation: 1082 ft
+- type: RTM
+  id: UK0230A002F
+  position: 503857N 0011944W
+  elevation: 1291 ft
+- type: RTM
+  id: UK0229A011F
+  position: 503301N 0040030W
+  elevation: 2317 ft
+- type: RTM
+  id: UK0229A009F
+  position: 503041N 0042612W
+  elevation: 1995 ft
