@@ -148,6 +148,24 @@ loa:
           - 512842N 0022338W
 
 #----------------------------------------------------------------------
+# British Model Flying Assocation facility, near Saltby. 1 km radius
+# circle to 1500 ft above ground level
+
+- name: BMFA SALTBY
+  areas:
+  - name: BMFA SALTBY
+    add:
+    - name: BMFA SALTBY
+      type: D_OTHER
+      geometry:
+      - upper: 1936 ft
+        lower: SFC
+        boundary:
+        - circle:
+            centre: 524651N 0004223W
+            radius: 0.54 nm
+
+#----------------------------------------------------------------------
 - name: BOOKER COMPS
   areas:
   - name: BOOKER COMPS
