@@ -3,7 +3,7 @@ Airspace data for the United Kingdom
 
 Airspace data in YAIXM format (see https://github.com/ahsparrow/yaixm).
 
-The data is split into three files:
+The data is split into four files:
 
 1. airspace.yaml - Airspace data from the UK Aeronautical Information Package
 
@@ -11,3 +11,5 @@ The data is split into three files:
 
 3. obstacle.yaml - Obstacle data from the data file listed in section ENR 5.4
    of the UK AIP.
+
+4. rat.yaml - RA(T) data from mauve AICs
