@@ -12688,12 +12688,12 @@ airspace:
 - name: WARTON
   type: ATZ
   geometry:
-  - upper: 2055 ft
+  - upper: 2054 ft
     lower: SFC
     boundary:
     - circle:
         radius: 2.5 nm
-        centre: 534442N 0025302W
+        centre: 534442N 0025300W
 
 - name: WARTON
   type: OTHER
