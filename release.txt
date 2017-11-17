@@ -1,0 +1,7 @@
+AIRAC: 2017/12/07
+  WARTON ATZ - Minor change to coordinates and elevation
+
+AIRAC: 2017/11/09
+  HOLYHEAD CTA - Replace parts of L15, L70, L975 and N864
+  L70 - Change parts to class C
+  STRANGFORD CTA - Replace parts of L600 and L620
