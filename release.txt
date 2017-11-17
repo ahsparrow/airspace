@@ -5,3 +5,30 @@ AIRAC: 2017/11/09
   HOLYHEAD CTA - Replace parts of L15, L70, L975 and N864
   L70 - Change parts to class C
   STRANGFORD CTA - Replace parts of L600 and L620
+
+AIRAC: 2017/10/12
+  No changes
+
+AIRAC: 2017/09/14
+  BOGNOR REGIS - Change elevation
+  STRUMBLE CTA - Extend and embed L9 airway
+
+AIRAC: 2017/08/17
+  SWANTON MORLEY - Change coordinates
+  NORTH LUFFENHAM - Delete (hang gliding site)
+
+AIRAC: 2017/07/20
+  BOGNOR REGIS - Change to gliding site
+
+AIRAC: 2017/06/22
+  D113B CSTLMARTN - Raise upper limit
+  D115A MANORBIER - Raise upper limit
+  D145 HULLAVNGTN - Delete
+  D146 YANTLET - Delete
+  D409 CATTERICK - Delete
+  NSGA AREA 1 - Split into NSGA AREA 1 (Scotland) and NSGA AREA 1A (Borders)
+  NORTH LUFFENHAM - Gliding site added
+
+AIRAC: 2017/05/25
+  CRANWELL - Change elevation
+  LEEDS EAST - Convert to licensed aerodrome
