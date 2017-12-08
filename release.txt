@@ -1,3 +1,7 @@
+AIRAC: 2018/01/04
+  N864 - Delete segement over Morecambe Bay (missed from AIRAC 2017/12/07)
+  HENLOW - Add new training aerodrome
+
 AIRAC: 2017/12/07
   WARTON ATZ - Minor change to coordinates and elevation
 
