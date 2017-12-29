@@ -11670,6 +11670,7 @@ airspace:
       - 520127N 0000000W
 
 - name: LONDON STANSTED TMZ
+  class: G
   type: OTHER
   localtype: TMZ
   rules:
