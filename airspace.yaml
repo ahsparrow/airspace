@@ -10997,6 +10997,7 @@ airspace:
       - 530849N 0030126W
 
 - name: HAWARDEN RMZ
+  class: G
   type: OTHER
   localtype: RMZ
   rules:
