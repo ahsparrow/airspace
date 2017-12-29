@@ -476,6 +476,7 @@ airspace:
 
 - name: HOLYHEAD CTA
   type: CTA
+  class: C
   geometry:
   - seqno: 1
     upper: FL195
