@@ -1107,7 +1107,7 @@ loa:
           - 564239N 0042400W
 
 #----------------------------------------------------------------------
-- name: HUS BOS COMPS
+- name: DAVENTRY BOX
   areas:
   - name: DAVENTRY BOX
     add:
