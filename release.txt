@@ -1,4 +1,5 @@
 Non-AIRAC:
+  BOSCOMBE DOWN - Correct name of MATZ stub
   DAVENTRY BOX LOA - Renamed
   HOLYHEAD CTA - Add missing class C
   LONDON STANSTED TMZ - Add missing class G

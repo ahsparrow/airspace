@@ -1931,7 +1931,7 @@ airspace:
         centre: 510822N 0013407W
         to: 510513N 0014017W
 
-- name: BOSCOMBE
+- name: BOSCOMBE DOWN
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
