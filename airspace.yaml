@@ -8186,7 +8186,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 541230N 0011736W
 
 - name: BENTWATERS PARK
@@ -8197,7 +8197,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 520740N 0012610E
 
 - name: BEVERLEY/LINLEY HILL
@@ -8208,7 +8208,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 535354N 0002141W
 
 - name: BOURN
@@ -8219,7 +8219,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 521238N 0000233W
 
 - name: BREIGHTON
@@ -8230,7 +8230,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 534807N 0005451W
 
 - name: BRIMPTON
@@ -8241,7 +8241,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 512300N 0011021W
 
 - name: DUNSFOLD
@@ -8252,7 +8252,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 510700N 0003209W
 
 - name: EAGLESCOTT
@@ -8263,7 +8263,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 505543N 0035922W
 
 - name: EASTER
@@ -8274,7 +8274,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 574507N 0035620W
 
 - name: ENSTONE
@@ -8285,7 +8285,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 515541N 0012542W
 
 - name: FOWLMERE
@@ -8296,7 +8296,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 520439N 0000342E
 
 - name: GREAT MASSINGHAM
@@ -8307,7 +8307,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 524644N 0004021E
 
 - name: GREAT OAKLEY
@@ -8318,7 +8318,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 515400N 0011018E
 
 - name: HENLOW
@@ -8329,7 +8329,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 520110N 0001806W
 
 - name: HENSTRIDGE
@@ -8340,7 +8340,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 505930N 0022130W
 
 - name: LLANBEDR
@@ -8351,7 +8351,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 524817N 0040738W
 
 - name: MEMBURY
@@ -8362,7 +8362,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 512830N 0013330W
 
 - name: NORTH WEALD
@@ -8373,7 +8373,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 514318N 0000915E
 
 - name: OAKSEY PARK
@@ -8384,7 +8384,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 513757N 0020055W
 
 - name: POPHAM
@@ -8395,7 +8395,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 511140N 0011410W
 
 - name: ROUGHAM
@@ -8406,7 +8406,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 521447N 0004610E
 
 - name: SANDOWN
@@ -8417,7 +8417,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 503910N 0011055W
 
 - name: SEETHING
@@ -8428,7 +8428,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 523040N 0012501E
 
 - name: SHACKLEWELL LODGE
@@ -8439,7 +8439,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 523900N 0003400W
 
 - name: SKEGNESS
@@ -8450,7 +8450,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 531024N 0002000E
 
 - name: SPANHOE
@@ -8461,7 +8461,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 523330N 0003711W
 
 - name: STURGATE
@@ -8472,7 +8472,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 532252N 0004107W
 
 #----------------------------------------------------------------------
