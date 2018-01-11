@@ -9393,7 +9393,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 521357N 0002644W
 
 - name: BIGGIN HILL
@@ -10019,7 +10019,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 514028N 0010507W
 
 - name: CHICHESTER
@@ -10040,7 +10040,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 563607N 0063704W
 
 - name: COLONSAY
@@ -10051,7 +10051,7 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
+        radius: 1.5 nm
         centre: 560327N 0061435W
 
 - name: COMPTON ABBAS
