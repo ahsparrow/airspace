@@ -4053,7 +4053,8 @@ airspace:
   rules:
   - SI
   geometry:
-  - upper: 50000 ft
+  - id: imber
+    upper: 50000 ft
     lower: SFC
     boundary:
     - line:
