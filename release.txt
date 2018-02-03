@@ -1,3 +1,7 @@
+AIRAC: 2018/02/01
+  PORTSMOUTH CTA 3/5 - Remove offshore parts of CTA
+  ATHEY'S MOOR - Add new microlight site
+
 Non-AIRAC:
   WESTBURY CONCESSIONS - Add HG/PG concession for Imber Danger Area
   NON-ATZ AIRFIELDS - Increase radius to 1.5 nm
