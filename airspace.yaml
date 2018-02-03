@@ -579,16 +579,6 @@ airspace:
       - 504139N 0010236W
       - 503700N 0003938W
       - 503700N 0012620W
-  - seqno: 3
-    upper: FL195
-    lower: FL125
-    boundary:
-    - line:
-      - 503700N 0010211W
-      - 503700N 0005010W
-      - 500000N 0005527W
-      - 500000N 0014700W
-      - 500440N 0014420W
   - seqno: 4
     upper: FL195
     lower: FL105
@@ -599,17 +589,6 @@ airspace:
       - 500440N 0014420W
       - 500000N 0014700W
       - 500000N 0015149W
-  - seqno: 5
-    upper: FL195
-    lower: FL55
-    boundary:
-    - line:
-      - 503156N 0014700W
-      - 502754N 0013240W
-      - 500000N 0015149W
-      - 500000N 0020000W
-      - 500000N 0021015W
-      - 500235N 0020659W
   - seqno: 6
     upper: FL195
     lower: 5500 ft
