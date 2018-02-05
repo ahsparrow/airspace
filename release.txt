@@ -4,6 +4,7 @@ Non-AIRAC:
 AIRAC: 2018/02/01
   PORTSMOUTH CTA 3/5 - Remove offshore parts of CTA
   ATHEY'S MOOR - Add new microlight site
+  COVENTRY - Remove ILS (missed from a previous AIRAC)
 
 Non-AIRAC:
   WESTBURY CONCESSIONS - Add HG/PG concession for Imber Danger Area

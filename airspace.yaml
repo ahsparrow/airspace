@@ -10065,19 +10065,6 @@ airspace:
         radius: 2.5 nm
         centre: 522211N 0012847W
 
-- name: COVENTRY
-  type: OTHER
-  localtype: ILS
-  geometry:
-  - upper: 2267 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 522359N 0012557W
-      - 522755N 0011941W
-      - 522719N 0011845W
-      - 522347N 0012539W
-
 - name: CRANFIELD
   type: ATZ
   geometry:
