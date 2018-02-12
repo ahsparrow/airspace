@@ -1,5 +1,6 @@
 Non-AIRAC:
   ASHCROFT, AYLESBURY and 25 others - Add non-AIP airfields from old ASSelect
+  Add obstacle names
 
 AIRAC: 2018/02/01
   PORTSMOUTH CTA 3/5 - Remove offshore parts of CTA
