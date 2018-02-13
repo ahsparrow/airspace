@@ -6760,6 +6760,17 @@ airspace:
         radius: 1 nm
         centre: 520837N 0020217W
 
+- name: UNIVERSITY OF HERTFORDSHIRE
+  type: D_OTHER
+  localtype: LASER
+  geometry:
+  - upper: FL660
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 1 nm
+        centre: 514512N 0001428W
+
 #----------------------------------------------------------------------
 # ENR 5.5 Aerial sporting and recreational activities
 #
