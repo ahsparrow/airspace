@@ -2522,44 +2522,44 @@ airspace:
     lower: SFC
     boundary:
     - line:
-      - 534506N 0030126W
-      - 534804N 0024649W
+      - 534508N 0030123W
+      - 534806N 0024651W
     - arc:
         dir: cw
         radius: 5 nm
-        centre: 534442N 0025302W
-        to: 534154N 0024604W
+        centre: 534442N 0025300W
+        to: 534158N 0024558W
     - line:
-      - 533957N 0025537W
+      - 533958N 0025540W
     - arc:
         dir: cw
         radius: 5 nm
-        centre: 534442N 0025302W
-        to: 534506N 0030126W
+        centre: 534442N 0025300W
+        to: 534508N 0030123W
   - upper: 3054 ft
     lower: 1054 ft
     boundary:
     - line:
-      - 534409N 0023455W
-      - 534949N 0023810W
-      - 534804N 0024649W
+      - 534406N 0023526W
+      - 534946N 0023841W
+      - 534806N 0024651W
     - arc:
         dir: cw
         radius: 5 nm
-        centre: 534442N 0025302W
-        to: 534154N 0024604W
+        centre: 534442N 0025300W
+        to: 534158N 0024558W
   - upper: 3054 ft
     lower: 1054 ft
     boundary:
     - line:
-      - 534319N 0031003W
-      - 533740N 0030644W
-      - 533957N 0025537W
+      - 534316N 0031034W
+      - 533736N 0030714W
+      - 533958N 0025540W
     - arc:
         dir: cw
         radius: 5 nm
-        centre: 534442N 0025302W
-        to: 534506N 0030126W
+        centre: 534442N 0025300W
+        to: 534508N 0030123W
 
 - name: WATTISHAM
   type: OTHER
