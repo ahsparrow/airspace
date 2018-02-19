@@ -1,3 +1,6 @@
+Non-AIRAC:
+  CHELTENHAM FESTIVAL RA(T)
+
 AIRAC: 2018/03/01
   WARTON MATZ - Update postition of centre point
   UNIVERSITY OF HERTFORDSHIRE - Add laser
