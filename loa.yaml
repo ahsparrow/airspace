@@ -414,17 +414,7 @@ loa:
           - 533017N 0011641W
           - 531938N 0011532W
           - 532012N 0011840W
-          - 532110N 0012901W
-          - 531930N 0013131W
-          - 531244N 0013141W
-          - 531137N 0013631W
-      - upper: FL195
-        lower: FL85
-        boundary:
-        - line:
-          - 530517N 0013152W
-          - 531244N 0013141W
-          - 531145N 0013558W
+          - 532227N 0014315W
       - upper: FL195
         lower: FL85
         boundary:
@@ -433,24 +423,49 @@ loa:
           - 531938N 0011532W
           - 533017N 0011641W
 
-    - id: n601-camphill
+    - id: daventry11-camphill
       geometry:
       - upper: FL195
         lower: FL190
         boundary:
         - line:
+          - 532110N 0012901W
           - 531930N 0013131W
           - 531244N 0013141W
-          - 531418N 0012449W
+          - 531137N 0013631W
+          - 532227N 0014315W
+      - upper: FL195
+        lower: FL85
+        boundary:
+        - line:
+          - 531244N 0013141W
+          - 530517N 0013152W
+          - 531145N 0013558W
+
+    - id: daventry12-camphill
+      geometry:
+      - upper: FL195
+        lower: FL190
+        boundary:
+        - line:
           - 532003N 0013042W
+          - 531418N 0012449W
+          - 531244N 0013141W
+          - 531930N 0013131W
+
       - upper: FL195
         lower: FL105
         boundary:
         - line:
-          - 531139N 0012206W
           - 531418N 0012449W
-          - 531244N 0013141W
+          - 531139N 0012206W
+          - 521126N 0002220W
+          - 521002N 0002427W
+          - 521118N 0003323W
+          - 523406N 0011224W
+          - 530517N 0013152W
           - 531143N 0013142W
+          - 531244N 0013141W
 
   - name: L975 CROSSING AREA
     add:
