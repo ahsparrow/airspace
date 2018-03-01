@@ -8785,6 +8785,17 @@ airspace:
         radius: 0.5 nm
         centre: 515628N 0001212W
 
+- name: GROVE FARM
+  type: OTHER
+  localtype: UL
+  geometry:
+  - upper: 2102 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.5 nm
+        centre: 522950N 0013222E
+
 - name: HALWELL
   type: OTHER
   localtype: UL
