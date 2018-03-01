@@ -422,21 +422,29 @@ airspace:
     lower: FL85
     boundary:
     - line:
-      - 531145N 0013558W
+      - 532227N 0014315W
+      - 532109N 0012904W
+      - 532003N 0013042W
+      - 531930N 0013131W
       - 531143N 0013142W
       - 530517N 0013152W
+      - 531145N 0013558W
+      - 531137N 0013631W
+      - 532227N 0014315W
   - seqno: 12
     upper: FL195
     lower: FL105
     boundary:
     - line:
-      - 531143N 0013142W
+      - 532003N 0013042W
       - 531139N 0012206W
       - 521126N 0002220W
       - 521002N 0002427W
       - 521118N 0003323W
       - 523406N 0011224W
       - 530517N 0013152W
+      - 531143N 0013142W
+      - 531930N 0013131W
   - seqno: 13
     upper: FL195
     lower: FL75
@@ -525,6 +533,26 @@ airspace:
       - 530626N 0024349W
       - 530443N 0024001W
       - 521856N 0014705W
+  - seqno: 21
+    class: C
+    upper: FL155
+    lower: FL115
+    boundary:
+    - line:
+      - 522632N 0003702W
+      - 522630N 0002732W
+      - 522106N 0002214W
+      - 521104N 0002159W
+  - seqno: 22
+    class: C
+    upper: FL195
+    lower: FL145
+    boundary:
+    - line:
+      - 524757N 0004834W
+      - 522630N 0002732W
+      - 522632N 0003702W
+      - 524523N 0005538W
 
 - name: HOLYHEAD CTA
   type: CTA
@@ -2730,7 +2758,7 @@ airspace:
 #----------------------------------------------------------------------
 # ENR 3.1 Lower ATS Routes
 
-- name: L60/L603/M868
+- name: L60/L603
   type: AWY
   class: A
   geometry:
@@ -2743,12 +2771,8 @@ airspace:
       - 533059N 0010929W
       - 531938N 0011532W
       - 532012N 0011841W
-      - 532109N 0012900W
-      - 531954N 0013053W
-      - 531929N 0013131W
-      - 530517N 0013152W
-      - 531145N 0013558W
-      - 531137N 0013631W
+      - 532109N 0012904W
+      - 532227N 0014315W
 
 - name: L70
   type: AWY
@@ -2961,15 +2985,6 @@ airspace:
   type: AWY
   class: A
   geometry:
-  - id: n601-camphill
-    upper: FL195
-    lower: FL105
-    boundary:
-    - line:
-      - 531143N 0013142W
-      - 531139N 0012206W
-      - 532003N 0013042W
-      - 531929N 0013131W
   - upper: FL195
     lower: FL165
     class: D
@@ -2989,24 +3004,6 @@ airspace:
       - 545610N 0024159W
       - 545442N 0024940W
       - 550858N 0030000W
-  - upper: FL155
-    lower: FL115
-    class: C
-    boundary:
-    - line:
-      - 522632N 0003702W
-      - 522630N 0002732W
-      - 522106N 0002214W
-      - 521126N 0002220W
-  - upper: FL195
-    lower: FL145
-    class: C
-    boundary:
-    - line:
-      - 522632N 0003702W
-      - 522630N 0002732W
-      - 524757N 0004834W
-      - 524523N 0005538W
 
 - name: N601/P17/P18
   type: AWY
