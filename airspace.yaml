@@ -8697,17 +8697,6 @@ airspace:
         radius: 0.5 nm
         centre: 510338N 0010035W
 
-- name: CROMER
-  type: OTHER
-  localtype: UL
-  geometry:
-  - upper: 2165 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.5 nm
-        centre: 525410N 0011943E
-
 - name: DARLEY MOOR
   type: OTHER
   localtype: UL
