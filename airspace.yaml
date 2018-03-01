@@ -20,6 +20,58 @@ airspace:
 #----------------------------------------------------------------------
 # ENR 2.1 FIR, UIR, TMA
 
+- name: BERRY HEAD CTA
+  type: CTA
+  class: A
+  geometry:
+  - seqno: 1
+    upper: FL195
+    lower: FL65
+    boundary:
+    - line:
+      - 511115N 0032929W
+      - 511010N 0031341W
+      - 504336N 0031822W
+      - 504441N 0033401W
+  - seqno: 2
+    upper: FL195
+    lower: FL105
+    boundary:
+    - line:
+      - 511505N 0025335W
+      - 504216N 0025936W
+      - 504336N 0031822W
+      - 511010N 0031341W
+  - seqno: 3
+    upper: FL195
+    lower: FL65
+    boundary:
+    - line:
+      - 504441N 0033401W
+      - 504336N 0031822W
+      - 502452N 0032136W
+      - 502257N 0033739W
+  - seqno: 4
+    upper: FL195
+    lower: FL105
+    boundary:
+    - line:
+      - 504336N 0031822W
+      - 504216N 0025936W
+      - 502708N 0030219W
+      - 500000N 0024049W
+      - 500000N 0030141W
+      - 502452N 0032136W
+  - seqno: 5
+    upper: FL195
+    lower: FL85
+    boundary:
+    - line:
+      - 502452N 0032136W
+      - 500000N 0030141W
+      - 500000N 0031907W
+      - 502257N 0033739W
+
 - name: CLACTON CTA
   type: CTA
   class: A
@@ -2993,19 +3045,6 @@ airspace:
       - 524248N 0024502W
       - 524254N 0030303W
 
-- name: N862/N90
-  type: AWY
-  class: A
-  geometry:
-  - upper: FL195
-    lower: FL105
-    boundary:
-    - line:
-      - 512441N 0025144W
-      - 512610N 0031050W
-      - 502443N 0032127W
-      - 502603N 0030135W
-
 - name: N862/N864
   type: AWY
   class: A
@@ -3030,14 +3069,6 @@ airspace:
   type: AWY
   class: A
   geometry:
-  - upper: FL195
-    lower: FL65
-    boundary:
-    - line:
-      - 502443N 0032127W
-      - 502302N 0033739W
-      - 511116N 0032928W
-      - 511010N 0031339W
   - upper: FL195
     lower: FL125
     boundary:
