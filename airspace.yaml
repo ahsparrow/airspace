@@ -8258,12 +8258,12 @@ airspace:
   type: OTHER
   localtype: NOATZ
   geometry:
-  - upper: 2210 ft
+  - upper: 2190 ft
     lower: SFC
     boundary:
     - circle:
         radius: 1.5 nm
-        centre: 512300N 0011021W
+        centre: 512302N 0011012W
 
 - name: DUNSFOLD
   type: OTHER
