@@ -36,3 +36,14 @@ rat:
         radius: 2 nm
         centre: 515339N 0021002W
         to: 515515N 0020805W
+
+- name: ABINGDON AIRSHOW (5-6 MAY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 5000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 5 nm
+        centre: 514128N 0011900W
