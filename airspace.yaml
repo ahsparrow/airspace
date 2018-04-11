@@ -2776,19 +2776,6 @@ airspace:
       - 532109N 0012904W
       - 532227N 0014315W
 
-- name: L70
-  type: AWY
-  class: C
-  geometry:
-  - upper: FL195
-    lower: FL145
-    boundary:
-    - line:
-      - 533918N 0023900W
-      - 533630N 0030136W
-      - 533222N 0030059W
-      - 533223N 0025907W
-
 - name: L612
   type: AWY
   class: A
@@ -3521,6 +3508,19 @@ airspace:
 
 #----------------------------------------------------------------------
 # ENR 3.3 Area navigation routes
+
+- name: L70
+  type: AWY
+  class: C
+  geometry:
+  - upper: FL195
+    lower: FL145
+    boundary:
+    - line:
+      - 533918N 0023900W
+      - 533630N 0030136W
+      - 533222N 0030059W
+      - 533223N 0025907W
 
 - name: L602
   type: AWY
