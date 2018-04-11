@@ -1,3 +1,6 @@
+AIRAC: 2018/04/26
+  L70 - Move to Area Navigation routes
+
 Non-AIRAC:
   ABINGDON AIRSHOW RA(T)
   CHELTENHAM FESTIVAL RA(T) - Delete
