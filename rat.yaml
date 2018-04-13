@@ -27,3 +27,195 @@ rat:
     - circle:
         radius: 5 nm
         centre: 514128N 0011900W
+
+- name: RAGLEY HALL (19-20 MAY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 5300 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.5 nm
+        centre: 521142N 0015402W
+
+- name: DUXFORD (24-27 MAY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 4500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.2 nm
+        centre: 520539N 0000753E
+  - upper: 6500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 521012N 0001412E
+    - arc:
+        dir: cw
+        radius: 6 nm
+        centre: 520539N 0000753E
+        to: 520409N 0000132W
+
+- name: BIRTHDAY REHEARSAL (5-7 JUNE)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 10000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 525209N 0022026E
+      - 523249N 0025026E
+      - 522558N 0024447E
+      - 520814N 0020909E
+      - 520436N 0015041E
+      - 522200N 0012000E
+  - upper: 7000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 524111N 0003539E
+      - 522608N 0012734E
+      - 522237N 0012033E
+      - 523636N 0003222E
+  - upper: 3000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 531514N 0002624W
+      - 530114N 0002114W
+      - 524111N 0003539E
+      - 523636N 0003222E
+      - 530332N 0004246W
+      - 531459N 0004230W
+      - 531619N 0004034W
+    - arc:
+        dir: ccw
+        radius: 5 nm
+        centre: 531828N 0003303W
+        to: 531514N 0002624W
+
+- name: COSFORD (7-10 JUNE)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 5000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 523824N 0021819W
+
+- name: BIRTHDAY FLYPAST (9 JUNE)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 10000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 525209N 0022026E
+      - 523249N 0025026E
+      - 522558N 0024447E
+      - 520814N 0020909E
+      - 520436N 0015041E
+      - 522200N 0012000E
+  - upper: 7000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 521650N 0012910E
+      - 521325N 0013513E
+      - 515710N 0010319E
+      - 520058N 0005809E
+  - upper: 4000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 515551N 0004820E
+      - 520058N 0005809E
+      - 515710N 0010319E
+      - 515205N 0005331E
+  - upper: 3000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 515039N 0003538E
+      - 515500N 0004643E
+      - 515551N 0004820E
+      - 515205N 0005331E
+      - 515048N 0005103E
+      - 514628N 0003949E
+  - upper: 2500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 513433N 0000433W
+      - 515039N 0003538E
+      - 514628N 0003949E
+      - 513409N 0000826E
+  - upper: 2500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 513611N 0004133W
+      - 512700N 0004133W
+      - 512700N 0000826E
+      - 513409N 0000826E
+      - 513445N 0001108W
+    - arc:
+        dir: ccw
+        radius: 12 nm
+        centre: 512812N 0002713W
+        to: 513611N 0001253W
+  - upper: 2500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 515008N 0004230W
+      - 513611N 0002353W
+      - 513611N 0004133W
+      - 514458N 0004602W
+  - upper: 2500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 514834N 0011958W
+      - 515008N 0004230W
+      - 514458N 0004602W
+      - 514349N 0011753W
+
+- name: STONEHENGE (20-21 JUNE)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 3000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 3 nm
+        centre: 511044N 0014934W
+
+- name: WESTON-S-MERE (23-24 JUNE)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 2000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 511936N 0025629W
+    - arc:
+        dir: cw
+        radius: 2 nm
+        centre: 512021N 0025927W
+        to: 512152N 0025726W
+    - arc:
+        dir: ccw
+        radius: 9 nm
+        centre: 512258N 0024309W
+        to: 511936N 0025629W
