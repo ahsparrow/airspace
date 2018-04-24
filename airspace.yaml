@@ -1660,6 +1660,8 @@ airspace:
 
 - name: LYNEHAM
   type: ATZ
+  rules:
+  - NOTAM
   geometry:
   - upper: 2513 ft
     lower: SFC
