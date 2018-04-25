@@ -1746,7 +1746,7 @@ loa:
   areas:
   - name: P600/TMA ACCESS
     add:
-    - name: P600/TMA ACCESS
+    - name: SCOTTISH TMA ACCESS
       type: CTA
       class: D
       geometry:
@@ -1759,7 +1759,7 @@ loa:
           - 560700N 0032938W
           - 560700N 0040000W
 
-    - name: P600 AREA A
+    - name: P600 ACCESS
       type: AWY
       class: A
       geometry:
@@ -1774,10 +1774,6 @@ loa:
           - 561400N 0040926W
           - 562000N 0034746W
 
-    - name: P600 AREA B
-      type: AWY
-      class: A
-      geometry:
       - id: p600-access-area-b
         upper: FL190
         lower: FL85

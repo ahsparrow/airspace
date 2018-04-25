@@ -1,4 +1,5 @@
 Non-AIRAC
+  P600/SCOTTISH TMA - Areas renamed
   LYNEHAM ATZ - Activated by NOTAM
   RAGLEY HALL RA(T)
   DUXFORD RA(T)
