@@ -12422,19 +12422,6 @@ airspace:
         radius: 2 nm
         centre: 505008N 0001750W
 
-- name: SHOREHAM
-  type: OTHER
-  localtype: ILS
-  geometry:
-  - upper: 2007 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 505201N 0001648W
-      - 505741N 0001343W
-      - 505722N 0001229W
-      - 505157N 0001630W
-
 - name: SLEAP
   type: ATZ
   geometry:

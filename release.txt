@@ -1,3 +1,6 @@
+AIRAC: 2018/05/24
+  SHOREHAM ILS - Remove
+
 Non-AIRAC
   P600/SCOTTISH TMA - Areas renamed
   LYNEHAM ATZ - Activated by NOTAM
