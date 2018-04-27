@@ -213,12 +213,12 @@ obstacle:
   type: CHIM
   id: UK18612915F
   position: 534257N 0011648W
-  elevation: 695 ft
+  elevation: 706 ft
 - name: FERRYBRIDGE CMN
   type: CHIM
   id: UK18612914F
   position: 534255N 0011653W
-  elevation: 695 ft
+  elevation: 709 ft
 - name: EGGBOROUGH CMN
   type: CHIM
   id: UK0171U698F
@@ -369,11 +369,6 @@ obstacle:
   id: UK0229A034F
   position: 512727N 0032411W
   elevation: 1161 ft
-- name: KINGSNORTH CMN
-  type: CHIM
-  id: UK0230A047F
-  position: 512506N 0003614E
-  elevation: 633 ft
 - name: WOKING CRANE
   type: CRN
   id: UK18638196F
@@ -393,7 +388,7 @@ obstacle:
   type: OBST
   id: UK18638181F
   position: 505208N 0005243W
-  elevation: 1500 ft
+  elevation: 1618 ft
 - name: FAWLEY CMN
   type: CHIM
   id: UK0230D709F
