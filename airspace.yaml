@@ -10111,7 +10111,7 @@ airspace:
 - name: CRANFIELD
   type: ATZ
   geometry:
-  - upper: 2358 ft
+  - upper: 2360 ft
     lower: SFC
     boundary:
     - circle:

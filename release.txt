@@ -1,4 +1,5 @@
 AIRAC: 2018/05/24
+  CRANFIELD - Minor change to elevation
   SHOREHAM ILS - Remove
 
 Non-AIRAC
