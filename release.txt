@@ -87,7 +87,3 @@ AIRAC: 2017/06/22
   D409 CATTERICK - Delete
   NSGA AREA 1 - Split into NSGA AREA 1 (Scotland) and NSGA AREA 1A (Borders)
   NORTH LUFFENHAM - Gliding site added
-
-AIRAC: 2017/05/25
-  CRANWELL - Change elevation
-  LEEDS EAST - Convert to licensed aerodrome
