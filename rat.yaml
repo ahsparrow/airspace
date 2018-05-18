@@ -17,28 +17,6 @@
 # YAXIM project on GitHub at https://github.com/ahsparrow/yaixm.
 
 rat:
-- name: ABINGDON AIRSHOW (5-6 MAY)
-  type: OTHER
-  localtype: RAT
-  geometry:
-  - upper: 5000 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 5 nm
-        centre: 514128N 0011900W
-
-- name: RAGLEY HALL (19-20 MAY)
-  type: OTHER
-  localtype: RAT
-  geometry:
-  - upper: 5300 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 2.5 nm
-        centre: 521142N 0015402W
-
 - name: DUXFORD (24-27 MAY)
   type: OTHER
   localtype: RAT
