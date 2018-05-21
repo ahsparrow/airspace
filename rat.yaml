@@ -87,6 +87,12 @@ rat:
     - circle:
         radius: 6 nm
         centre: 523824N 0021819W
+  - upper: 8300 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 523831N 0021805W
 
 - name: BIRTHDAY FLYPAST (9 JUNE)
   type: OTHER
@@ -197,3 +203,131 @@ rat:
         radius: 9 nm
         centre: 512258N 0024309W
         to: 511936N 0025629W
+
+  - upper: 8100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 512025N 0025933W
+
+- name: CLEETHORPES (1 JULY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 8100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 533328N 0000119W
+
+- name: SILVERSTONE (8 JULY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 8500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 520419N 0010022W
+
+- name: GOODWOOD (14-15 JULY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 8200 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 505220N 0004344W
+
+- name: HASTINGS (21 JULY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 5500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 505110N 0003507E
+
+- name: FOLKESTONE (22 JULY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 8000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 510428N 0011029E
+
+- name: PETERHEAD (25 JULY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 8000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 572952N 0014622W
+
+- name: RAF MARHAM (26 JULY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 8100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 523909N 0003321E
+
+- name: RAF HONINGTON (26 JULY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 8200 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 522032N 0004611E
+
+- name: RAF CONINGSBY (27 JULY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 8100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 530535N 0001037W
+
+- name: SUNDERLAND (27-28 JULY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 8000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 545556N 0012127W
+
+- name: EAST FORTUNE (28 JULY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 8200 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 555950N 0024257W
