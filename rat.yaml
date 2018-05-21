@@ -173,6 +173,28 @@ rat:
       - 514458N 0004602W
       - 514349N 0011753W
 
+- name: BOOKER (14-16 JUNE)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 3500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 513841N 0005740W
+    - arc:
+        dir: cw
+        radius: 2 nm
+        centre: 514021N 0005552W
+        to: 514153N 0005349W
+    - line:
+      - 513822N 0004643W
+    - arc:
+        dir: cw
+        radius: 2 nm
+        centre: 513642N 0004830W
+        to: 513514N 0005040W
+
 - name: STONEHENGE (20-21 JUNE)
   type: OTHER
   localtype: RAT
