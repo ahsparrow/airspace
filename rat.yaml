@@ -211,6 +211,17 @@ rat:
         radius: 6 nm
         centre: 512025N 0025933W
 
+- name: LASHENDEN (30 JUNE-1 JULY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 3500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 3 nm
+        centre: 510923N 0003840E
+
 - name: CLEETHORPES (1 JULY)
   type: OTHER
   localtype: RAT
