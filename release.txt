@@ -2,6 +2,8 @@ Non-AIRAC
   JET DISPLAY RA(T)s
   LASHENDEN RA(T)
   BOOKER RA(T)
+  HENLOW - remove duplicate
+  OLD WARDEN - add NOTAM activated ATZ
 
 AIRAC: 2018/05/24
   CRANFIELD - Minor change to elevation
