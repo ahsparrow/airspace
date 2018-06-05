@@ -1,3 +1,6 @@
+AIRAC: 2018/06/21
+  WETHERSFIELD - Remove obsolete gliding site
+
 Non-AIRAC
   JET DISPLAY RA(T)s
   LASHENDEN RA(T)

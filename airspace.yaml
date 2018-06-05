@@ -8186,18 +8186,6 @@ airspace:
         radius: 1 nm
         centre: 511710N 0014652W
 
-- name: WETHERSFIELD
-  type: OTHER
-  localtype: GLIDER
-  controltype: MILITARY
-  geometry:
-  - upper: 2321 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1 nm
-        centre: 515824N 0003036E
-
 #----------------------------------------------------------------------
 # ENR 5.5 (cont) Training aerodrome
 
