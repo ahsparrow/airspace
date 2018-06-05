@@ -12155,6 +12155,17 @@ airspace:
         radius: 2 nm
         centre: 510556N 0014703W
 
+# NOTAM activated - include by request from Stephen Haley
+- name: OLD WARDEN
+  type: ATZ
+  geometry:
+  - upper: 2120 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2 nm
+        centre: 520512N 0001907W
+
 - name: OXFORD
   type: ATZ
   geometry:
