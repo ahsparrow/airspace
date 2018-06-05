@@ -12980,17 +12980,6 @@ airspace:
         radius: 1.5 nm
         centre: 535850N 0005153W
 
-- name: HENLOW
-  type: OTHER
-  localtype: NOATZ
-  geometry:
-  - upper: 2170 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1.5 nm
-        centre: 520110N 0001806W
-
 - name: LASHAM
   type: OTHER
   localtype: NOATZ
