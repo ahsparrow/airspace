@@ -88,12 +88,3 @@ AIRAC: 2017/08/17
 
 AIRAC: 2017/07/20
   BOGNOR REGIS - Change to gliding site
-
-AIRAC: 2017/06/22
-  D113B CSTLMARTN - Raise upper limit
-  D115A MANORBIER - Raise upper limit
-  D145 HULLAVNGTN - Delete
-  D146 YANTLET - Delete
-  D409 CATTERICK - Delete
-  NSGA AREA 1 - Split into NSGA AREA 1 (Scotland) and NSGA AREA 1A (Borders)
-  NORTH LUFFENHAM - Gliding site added
