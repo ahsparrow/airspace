@@ -228,6 +228,153 @@ rat:
       - 520623N 0010520W
       - 520815N 0005940W
 
+- name: FARNBOURGH ANNEX A (9-22 JULY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: FL195
+    lower: SFC
+    boundary:
+    - line:
+      - 512431N 0004525W
+    - arc:
+        dir: ccw
+        radius: 12 nm
+        centre: 512812N 0002713W
+        to: 512104N 0004242W
+    - line:
+      - 512013N 0003800W
+      - 512013N 0003515W
+    - arc:
+        dir: cw
+        radius: 8 nm
+        centre: 511633N 0004635W
+        to: 512431N 0004525W
+  - upper: FL195
+    lower: 1500 ft
+    boundary:
+    - line:
+      - 512013N 0003515W
+      - 512013N 0003106W
+      - 511656N 0002821W
+      - 511503N 0003404W
+    - arc:
+        dir: ccw
+        radius: 8 nm
+        centre: 511633N 0004635W
+        to: 512013N 0003515W
+  - upper: FL195
+    lower: 2500 ft
+    boundary:
+    - line:
+      - 511250N 0005751W
+    - arc:
+        dir: ccw
+        radius: 8 nm
+        centre: 511633N 0004635W
+        to: 510929N 0004037W
+    - line:
+      - 510929N 0004037W
+      - 510652N 0004829W
+      - 510905N 0005856W
+  - upper: FL195
+    lower: 3500 ft
+    boundary:
+    - line:
+      - 510518N 0010000W
+      - 510905N 0005856W
+      - 510652N 0004829W
+  - upper: FL195
+    lower: 2500 ft
+    boundary:
+    - line:
+      - 512430N 0010000W
+      - 512314N 0005333W
+    - arc:
+        dir: ccw
+        radius: 8 nm
+        centre: 511633N 0004635W
+        to: 511250N 0005751W
+    - line:
+      - 511250N 0005751W
+      - 511836N 0010241W
+  - upper: FL195
+    lower: 3500 ft
+    boundary:
+    - line:
+      - 512500N 0010805W
+      - 512430N 0010000W
+      - 511836N 0010241W
+  - upper: FL195
+    lower: 4500 ft
+    boundary:
+    - line:
+      - 512500N 0010805W
+      - 511250N 0005751W
+      - 510518N 0010000W
+
+- name: FARNBOROUGH ANNEX B (15-23 JULY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: FL195
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 5 nm
+        centre: 511633N 0004635W
+  - upper: FL195
+    lower: 1500 ft
+    boundary:
+    - line:
+      - 512104N 0004242W
+      - 512013N 0003800W
+      - 512013N 0003106W
+      - 511656N 0002821W
+      - 511208N 0004251W
+    - arc:
+        dir: ccw
+        radius: 5 nm
+        centre: 511633N 0004635W
+        to: 512057N 0004248W
+  - upper: FL195
+    lower: 1500 ft
+    boundary:
+    - line:
+      - 511801N 0005906W
+      - 512058N 0005019W
+    - arc:
+        dir: ccw
+        radius: 5 nm
+        centre: 511633N 0004635W
+        to: 511208N 0004251W
+    - line:
+      - 510913N 0005137W
+    - arc:
+        dir: cw
+        radius: 8 nm
+        centre: 511633N 0004635W
+        to: 511801N 0005906W
+  - upper: FL195
+    lower: 1500 ft
+    boundary:
+    - line:
+      - 512058N 0005019W
+      - 512255N 0004426W
+    - arc:
+        dir: ccw
+        radius: 12 nm
+        centre: 512812N 0002713W
+        to: 512104N 0004242W
+    - line:
+      - 512104N 0004242W
+      - 512057N 0004248W
+    - arc:
+        dir: ccw
+        radius: 5 nm
+        centre: 511633N 0004635W
+        to: 512058N 0005019W
+
 - name: GOODWOOD (14-15 JULY)
   type: OTHER
   localtype: RAT
