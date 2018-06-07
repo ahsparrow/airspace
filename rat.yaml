@@ -397,6 +397,19 @@ rat:
         radius: 6 nm
         centre: 505220N 0004344W
 
+- name: CARNOUSTIE (15-23 JULY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 2500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 563214N 0023927W
+      - 562940N 0024910W
+      - 562630N 0024615W
+      - 562910N 0023655W
+
 - name: HASTINGS (21 JULY)
   type: OTHER
   localtype: RAT
