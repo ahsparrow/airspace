@@ -386,6 +386,17 @@ rat:
         centre: 511633N 0004635W
         to: 512058N 0005019W
 
+- name: DUXFORD (14-15 JULY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 4500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.2 nm
+        centre: 520539N 0000753E
+
 - name: GOODWOOD (14-15 JULY)
   type: OTHER
   localtype: RAT
