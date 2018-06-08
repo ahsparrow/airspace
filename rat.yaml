@@ -490,7 +490,7 @@ rat:
         to:  521424N 0014440W
     - line:
       - 515820N 0013615W
-      - 515815N 0020000W
+      - 515800N 0024000W
   - upper: 4000 ft
     lower: SFC
     boundary:
