@@ -103,7 +103,7 @@ rat:
   type: OTHER
   localtype: RAT
   geometry:
-  - upper: 8000 ft
+  - upper: 7000 ft
     lower: SFC
     boundary:
     - line:
