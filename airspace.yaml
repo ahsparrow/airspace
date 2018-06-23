@@ -9646,7 +9646,7 @@ airspace:
   type: CTR
   class: D
   geometry:
-  - upper: 2038 ft
+  - upper: 2000 ft
     lower: SFC
     boundary:
     - line:
