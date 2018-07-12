@@ -456,3 +456,14 @@ rat:
       - 504619N 0002508E
       - 505038N 0001835E
       - 504506N 0000930E
+
+- name: RIZE FESTIVAL (16-19 AUG)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 3500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 1.5 nm
+        centre: 514246N 0002557E
