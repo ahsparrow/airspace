@@ -234,11 +234,11 @@ obstacle:
   id: UK0171A239F
   position: 533644N 0013952W
   elevation: 1925 ft
-- name EMLEY MOOR TMP RTM
+- name: EMLEY MOOR TMP RTM
   type: RTM
   id: UK18639141F
-  position: 533640N 00139564W
-  elevation 1904 ft
+  position: 533640N 0013956W
+  elevation: 1904 ft
 - name: HOLME MOSS RTM
   type: RTM
   id: UK0171E898F
