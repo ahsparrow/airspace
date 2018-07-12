@@ -1,3 +1,6 @@
+AIRAC: 2018/07/19
+  NITON CTA - New CTA replaces parts of N862 and N864
+
 Non-AIRAC:
   RAF FLYPAST RIAT RA(T)
   FAIRFORD RA(T)s
@@ -96,6 +99,3 @@ AIRAC: 2017/09/14
 AIRAC: 2017/08/17
   SWANTON MORLEY - Change coordinates
   NORTH LUFFENHAM - Delete (hang gliding site)
-
-AIRAC: 2017/07/20
-  BOGNOR REGIS - Change to gliding site
