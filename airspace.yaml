@@ -638,6 +638,137 @@ airspace:
       - 533222N 0030059W
       - 533213N 0031406W
 
+- name: NITON CTA
+  type: CTA
+  class: A
+  geometry:
+  - seqno: 1
+    upper: FL195
+    lower: 3000 ft
+    boundary:
+    - line:
+      - 532345N 0031625W
+      - 532336N 0031110W
+      - 532309N 0031205W
+      - 531427N 0030140W
+      - 530626N 0024349W
+      - 530314N 0024935W
+      - 530209N 0025131W
+      - 531018N 0031726W
+      - 531733N 0031654W
+  - seqno: 2
+    upper: FL105
+    lower: FL55
+    boundary:
+    - line:
+      - 531733N 0031654W
+      - 531018N 0031726W
+      - 530348N 0031757W
+      - 530540N 0032345W
+  - seqno: 3
+    upper: FL195
+    lower: 4500 ft
+    boundary:
+    - line:
+      - 531018N 0031726W
+      - 530209N 0025131W
+      - 525618N 0030157W
+      - 525846N 0030145W
+      - 525914N 0031817W
+      - 530348N 0031757W
+  - seqno: 4
+    upper: FL195
+    lower: FL65
+    boundary:
+    - line:
+      - 525914N 0031817W
+      - 525846N 0030145W
+      - 525618N 0030157W
+      - 525320N 0030212W
+      - 525348N 0031841W
+  - seqno: 5
+    upper: FL195
+    lower: FL85
+    boundary:
+    - line:
+      - 525348N 0031841W
+      - 525320N 0030212W
+      - 524821N 0030236W
+      - 524849N 0031904W
+  - seqno: 6
+    upper: FL195
+    lower: FL95
+    boundary:
+    - line:
+      - 530314N 0024935W
+      - 530006N 0024504W
+      - 525334N 0024539W
+      - 525046N 0024529W
+      - 524748N 0024519W
+      - 524821N 0030236W
+      - 525320N 0030212W
+      - 525618N 0030157W
+      - 530209N 0025131W
+  - seqno: 7
+    upper: FL195
+    lower: FL105
+    boundary:
+    - line:
+      - 524849N 0031904W
+      - 524821N 0030236W
+      - 524256N 0030302W
+      - 524324N 0031928W
+      - 524849N 0031904W
+  - seqno: 8
+    upper: FL195
+    lower: FL125
+    boundary:
+    - line:
+      - 524821N 0030236W
+      - 524748N 0024519W
+      - 524223N 0024500W
+      - 524256N 0030302W
+  - seqno: 9
+    upper: FL195
+    lower: FL145
+    boundary:
+    - line:
+      - 524324N 0031928W
+      - 524256N 0030302W
+      - 524223N 0024500W
+      - 523040N 0024421W
+      - 520139N 0024652W
+      - 520215N 0030617W
+      - 520749N 0030551W
+      - 520817N 0032203W
+  - seqno: 10
+    upper: FL195
+    lower: FL145
+    boundary:
+    - line:
+      - 520817N 0032203W
+      - 520749N 0030551W
+      - 520215N 0030617W
+      - 520242N 0032227W
+  - seqno: 11
+    upper: FL195
+    lower: FL125
+    boundary:
+    - line:
+      - 520242N 0032227W
+      - 520215N 0030617W
+      - 515716N 0030640W
+      - 515743N 0032249W
+  - seqno: 12
+    upper: FL195
+    lower: FL145
+    boundary:
+    - line:
+      - 520215N 0030617W
+      - 520139N 0024652W
+      - 515640N 0024718W
+      - 515716N 0030640W
+
 - name: PORTSMOUTH CTA
   type: CTA
   class: A
@@ -3009,114 +3140,10 @@ airspace:
       - 540828N 0022519W
       - 541113N 0021858W
 
-- name: N862
-  type: AWY
-  class: A
-  geometry:
-  - upper: FL195
-    lower: FL95
-    boundary:
-    - line:
-      - 525614N 0030156W
-      - 530314N 0024935W
-      - 530006N 0024504W
-      - 525334N 0024539W
-      - 525046N 0024529W
-      - 524814N 0024519W
-      - 524819N 0030234W
-  - upper: FL195
-    lower: FL125
-    boundary:
-    - line:
-      - 524819N 0030234W
-      - 524814N 0024519W
-      - 524248N 0024502W
-      - 524254N 0030303W
-
-- name: N862/N864
-  type: AWY
-  class: A
-  geometry:
-  - id: n862/n864
-    upper: FL195
-    lower: FL145
-    boundary:
-    - line:
-      - 524323N 0031926W
-      - 524254N 0030303W
-      - 524248N 0024502W
-      - 523047N 0024418W
-      - 520712N 0024624W
-      - 515640N 0024718W
-      - 515701N 0025836W
-      - 515715N 0030638W
-      - 520748N 0030547W
-      - 520817N 0032200W
-
 - name: N864
   type: AWY
   class: A
   geometry:
-  - upper: FL195
-    lower: FL125
-    boundary:
-    - line:
-      - 520817N 0032200W
-      - 520748N 0030547W
-      - 515715N 0030638W
-      - 515746N 0032247W
-  - upper: FL195
-    lower: FL105
-    boundary:
-    - line:
-      - 524848N 0031900W
-      - 524819N 0030234W
-      - 524254N 0030301W
-      - 524323N 0031926W
-  - upper: FL195
-    lower: FL85
-    boundary:
-    - line:
-      - 524819N 0030234W
-      - 524848N 0031900W
-      - 525347N 0031842W
-      - 525319N 0030210W
-  - upper: FL195
-    lower: FL65
-    boundary:
-    - line:
-      - 525319N 0030210W
-      - 525347N 0031842W
-      - 525914N 0031817W
-      - 525846N 0030142W
-  - upper: FL195
-    lower: 4500 ft
-    boundary:
-    - line:
-      - 525846N 0030142W
-      - 525914N 0031817W
-      - 531036N 0031725W
-      - 530221N 0025103W
-      - 525614N 0030157W
-  - upper: FL195
-    lower: 3000 ft
-    boundary:
-    - line:
-      - 530221N 0025103W
-      - 531036N 0031725W
-      - 531855N 0031647W
-      - 532345N 0031625W
-      - 532336N 0031110W
-      - 532309N 0031205W
-      - 531427N 0030140W
-      - 530626N 0024349W
-  - upper: FL105
-    lower: FL55
-    boundary:
-    - line:
-      - 531729N 0031655W
-      - 530350N 0031758W
-      - 530541N 0032348W
   - id: n864-x
     upper: FL195
     lower: FL65
