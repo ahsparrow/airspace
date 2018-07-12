@@ -728,7 +728,8 @@ airspace:
       - 524748N 0024519W
       - 524223N 0024500W
       - 524256N 0030302W
-  - seqno: 9
+  - id: niton-9
+    seqno: 9
     upper: FL195
     lower: FL145
     boundary:
@@ -759,7 +760,8 @@ airspace:
       - 520215N 0030617W
       - 515716N 0030640W
       - 515743N 0032249W
-  - seqno: 12
+  - id: niton-12
+    seqno: 12
     upper: FL195
     lower: FL145
     boundary:
