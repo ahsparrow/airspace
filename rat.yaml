@@ -432,3 +432,14 @@ rat:
     - circle:
         radius: 6 nm
         centre: 555950N 0024257W
+
+- name: EAST KIRKBY (4 AUG)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 3000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 1.5 nm
+        centre: 530811N 0000019E
