@@ -489,3 +489,16 @@ rat:
     - circle:
         radius: 1.5 nm
         centre: 511325N 0011500W
+
+- name: RHYL AIRSHOW (25-26 AUG)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 3000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 532349N 0032837W
+      - 532041N 0032430W
+      - 531659N 0033225W
+      - 532008N 0033630W
