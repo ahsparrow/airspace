@@ -468,6 +468,17 @@ rat:
         radius: 1.5 nm
         centre: 514246N 0002557E
 
+- name: BIGGIN HILL (18-19 AUG)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 2500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 4 nm
+        centre: 511953N 0000142E
+
 - name: LASHENDEN/HEADCORN (18-19 AUG)
   type: OTHER
   localtype: RAT
