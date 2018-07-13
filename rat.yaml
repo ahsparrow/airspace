@@ -478,3 +478,14 @@ rat:
     - circle:
         radius: 3 nm
         centre: 510923N 0003840E
+
+- name: CARFEST SOUTH (24-26 AUG)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 3000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 1.5 nm
+        centre: 511325N 0011500W
