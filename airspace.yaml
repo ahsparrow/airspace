@@ -12172,9 +12172,10 @@ airspace:
         radius: 2 nm
         centre: 510556N 0014703W
 
-# NOTAM activated - include by request from Stephen Haley
 - name: OLD WARDEN
   type: ATZ
+  rules:
+  - NOTAM
   geometry:
   - upper: 2120 ft
     lower: SFC
