@@ -744,7 +744,7 @@ airspace:
       - 520817N 0032203W
   - seqno: 10
     upper: FL195
-    lower: FL145
+    lower: FL125
     boundary:
     - line:
       - 520817N 0032203W
