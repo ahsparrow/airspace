@@ -1,3 +1,6 @@
+AIRAC: 2018/08/16
+  No changes
+
 Non-AIRAC
   OLD WARDEN ATZ - Mark as NOTAM activated
   JET DISPLAY RA(T)
