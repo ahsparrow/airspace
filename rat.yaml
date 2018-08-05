@@ -246,3 +246,14 @@ rat:
         to: 522121N 0005513W
     - line:
       - 522121N 0005513W
+
+- name: TOPCLIFFE (3-14 SEP)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 6000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2 nm
+        centre: 541219N 0012329W
