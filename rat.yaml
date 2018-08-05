@@ -209,3 +209,16 @@ rat:
     - circle:
         radius: 6 nm
         centre: 520521N 0000729E
+
+- name: BOURNEMOUTH (29 AUG-2 SEP)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 5500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 504304N 0015636W
+      - 504405N 0014703W
+      - 504016N 0014604W
+      - 503914N 0015537W
