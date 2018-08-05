@@ -222,3 +222,27 @@ rat:
       - 504405N 0014703W
       - 504016N 0014604W
       - 503914N 0015537W
+
+- name: LAA RALLY SYWELL (31 AUG-2 SEP)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 3500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 522121N 0004311W
+    - arc:
+        dir: cw
+        radius: 4 nm
+        centre: 521822N 0004732W
+        to: 521521N 0004316W
+    - line:
+      - 521521N 0005508W
+    - arc:
+        dir: cw
+        radius: 4 nm
+        centre: 521822N 0005052W
+        to: 522121N 0005513W
+    - line:
+      - 522121N 0005513W
