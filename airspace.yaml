@@ -4452,13 +4452,16 @@ airspace:
       - 523000N 0051806W
       - 524417N 0053000W
 
-- name: D202 WEST WALES
+- name: D202D WEST WALES
   type: D
   geometry:
   - upper: FL125
     lower: SFC
     boundary:
     - line:
+      - 520840N 0043847W
+      - 520702N 0043810W
+      - 520848N 0042904W
       - 521000N 0042942W
       - 521250N 0042121W
       - 520019N 0042519W
@@ -4469,13 +4472,6 @@ airspace:
         radius: 5 nm
         centre: 520653N 0043334W
         to: 520801N 0044128W
-    - line:
-      - 520840N 0043847W
-    - arc:
-        dir: ccw
-        radius: 3 nm
-        centre: 520830N 0043355W
-        to: 521000N 0042942W
 
 - name: D202A WEST WALES
   type: D
