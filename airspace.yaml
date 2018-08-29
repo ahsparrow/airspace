@@ -4403,6 +4403,24 @@ airspace:
         radius: 2 nm
         centre: 515800N 0025300W
 
+- name: D201H ABERPORTH
+  type: D
+  rules:
+  - SI
+  geometry:
+  - upper: FL660
+    lower: SFC
+    boundary:
+    - line:
+      - 523000N 0051806W
+      - 523000N 0041200W
+      - 521600N 0041200W
+      - 521000N 0042942W
+      - 520848N 0042904W
+      - 520702N 0043810W
+      - 520840N 0043847W
+      - 520903N 0050057W
+
 - name: D202 WEST WALES
   type: D
   geometry:
