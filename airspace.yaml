@@ -4421,6 +4421,24 @@ airspace:
       - 520840N 0043847W
       - 520903N 0050057W
 
+- name: D201J ABERPORTH
+  type: D
+  rules:
+  - SI
+  geometry:
+  - upper: FL660
+    lower: SFC
+    boundary:
+    - line:
+      - 530300N 0053000W
+      - 530300N 0045319W
+      - 524500N 0045319W
+      - 524500N 0044018W
+      - 523316N 0041200W
+      - 523000N 0041200W
+      - 523000N 0051806W
+      - 524417N 0053000W
+
 - name: D202 WEST WALES
   type: D
   geometry:
