@@ -1,3 +1,8 @@
+AIRAC: 2018/09/13
+  D201 ABERPORTH - Minor change to names/boundaries
+  D202 WEST WALES - Minor change to name/boundary
+  D510 SPADEADAM - Minor name change and new D510C
+
 Non-AIRAC
   LAA SYWELL RA(T)
   TOPCLIFFE RA(T)
