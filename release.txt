@@ -116,11 +116,3 @@ AIRAC: 2017/11/09
 
 AIRAC: 2017/10/12
   No changes
-
-AIRAC: 2017/09/14
-  BOGNOR REGIS - Change elevation
-  STRUMBLE CTA - Extend and embed L9 airway
-
-AIRAC: 2017/08/17
-  SWANTON MORLEY - Change coordinates
-  NORTH LUFFENHAM - Delete (hang gliding site)
