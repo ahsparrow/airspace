@@ -4933,7 +4933,7 @@ airspace:
         radius: 0.65 nm
         centre: 550845N 0021007W
 
-- name: D510 SPADEADAM
+- name: D510B SPADEADAM
   type: D
   geometry:
   - upper: 5500 ft
@@ -4949,7 +4949,7 @@ airspace:
       - 550000N 0024235W
       - 550112N 0024453W
 
-- name: D510 OCNL SPADEADAM
+- name: D510B OCNL SPADEADAM
   type: D
   geometry:
   - upper: 18000 ft
