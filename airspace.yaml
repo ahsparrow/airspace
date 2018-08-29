@@ -4989,6 +4989,16 @@ airspace:
       - 550900N 0030000W
       - 551500N 0025400W
 
+- name: D510C SPADEADAM
+  type: D
+  geometry:
+  - upper: 5500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 1.5 nm
+        centre: 550243N 0023526W
+
 - name: D512 OTTERBURN
   type: D
   rules:
