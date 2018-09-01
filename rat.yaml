@@ -80,3 +80,56 @@ rat:
     - circle:
         radius: 6 nm
         centre: 520521N 0000729E
+
+- name: WALES RALLY (5-7 OCT)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 2500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 1 nm
+        centre: 531348N 0030118W
+  - upper: 3000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 3 nm
+        centre: 530424N 0032500W
+  - upper: 4000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 530230N 0034930W
+  - upper: 4500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 522630N 0034130W
+  - upper: 5000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 5 nm
+        centre: 524030N 0034636W
+  - upper: 4000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.5 nm
+        centre: 524354N 0032954W
+  - upper: 5000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 5 nm
+        centre: 530512N 0034936W
+  - upper: 3000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.5 nm
+        centre: 531924N 0035118W

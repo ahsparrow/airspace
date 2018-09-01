@@ -1,5 +1,6 @@
 Non-AIRAC:
   HIGHCLERE RA(T) - Change of date
+  WALES RALLY RA(T)
 
 AIRAC: 2018/09/13
   D201 ABERPORTH - Minor change to names/boundaries
