@@ -1876,7 +1876,7 @@ loa:
     replace:
     - id: r105
       geometry:
-      - upper: 500 ft
+      - upper: 860 ft
         lower: SFC
         boundary:
         - circle:
