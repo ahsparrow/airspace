@@ -5200,6 +5200,17 @@ airspace:
         radius: 1 nm
         centre: 512424N 0010125W
 
+- name: R105 HIGHGROVE HOUSE
+  type: R
+  geometry:
+  - id: r105
+    upper: 2000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 1.5 nm
+        centre: 513720N 0021050W
+
 - name: R153 HINKLEY POINT
   type: R
   geometry:

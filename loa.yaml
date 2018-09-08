@@ -1868,6 +1868,22 @@ loa:
           - 562219N 0031719W
 
 #----------------------------------------------------------------------
+- name: R105 HIGHGROVE (HG/PG ONLY)
+  areas:
+  - name: R105 HIGHGROVE HOUSE
+    add: []
+
+    replace:
+    - id: r105
+      geometry:
+      - upper: 500 ft
+        lower: SFC
+        boundary:
+        - circle:
+            radius: 0.6 km
+            centre: 513724N 0021048W
+
+#----------------------------------------------------------------------
 - name: RILES GLIDING AREA
   areas:
   - name: MADLEY BOX
