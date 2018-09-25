@@ -6912,7 +6912,7 @@ airspace:
     boundary:
     - circle:
         radius: 1.5 nm
-        centre: 545615N 0024833W
+        centre: 545615N 0024832W
 
 - name: CHALGROVE
   type: D_OTHER
