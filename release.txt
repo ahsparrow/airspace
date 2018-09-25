@@ -1,3 +1,6 @@
+AIRAC: 2018/10/11
+  CARLISLE ATZ - Modify centre coordinates
+
 Non-AIRAC:
   R105 HIGHGROVE HOUSE - Plus HG/PG LoA
   HIGHCLERE RA(T) - Change of date
@@ -118,6 +121,3 @@ AIRAC: 2017/11/09
   HOLYHEAD CTA - Replace parts of L15, L70, L975 and N864
   L70 - Change parts to class C
   STRANGFORD CTA - Replace parts of L600 and L620
-
-AIRAC: 2017/10/12
-  No changes
