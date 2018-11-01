@@ -47,23 +47,23 @@ obstacle:
 - name: FORTH BRIDGE
   type: BRDG
   id: UK0150M812F
-  position: 560037N 0032432W
-  elevation: 663 ft
+  position: 560037N 0032433W
+  elevation: 691 ft
 - name: FORTH BRIDGE
   type: OBST
   id: UK0150F424F
-  position: 560022N 0032413W
+  position: 560022N 0032414W
   elevation: 518 ft
 - name: FORTH BRIDGE
   type: BRDG
   id: UK0150M813F
-  position: 560017N 0032445W
-  elevation: 690 ft
+  position: 560018N 0032445W
+  elevation: 717 ft
 - name: FORTH BRIDGE
   type: BRDG
   id: UK18613562F
-  position: 555958N 0032457W
-  elevation: 663 ft
+  position: 555958N 0032458W
+  elevation: 691 ft
 - name: FORTH BRIDGE
   type: OBST
   id: UK0171O101F
