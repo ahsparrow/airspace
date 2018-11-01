@@ -8240,6 +8240,17 @@ airspace:
         radius: 1.5 nm
         centre: 541230N 0011736W
 
+- name: BECCLES
+  type: OTHER
+  localtype: NOATZ
+  geometry:
+  - upper: 2080 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 1.5 nm
+        centre: 522607N 0013706E
+
 - name: BENTWATERS PARK
   type: OTHER
   localtype: NOATZ
@@ -9447,16 +9458,6 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 540752N 0031548W
-
-- name: BECCLES
-  type: ATZ
-  geometry:
-  - upper: 2080 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 2 nm
-        centre: 522607N 0013706E
 
 - name: BEDFORD
   type: OTHER
