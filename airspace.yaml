@@ -9156,17 +9156,6 @@ airspace:
         radius: 0.5 nm
         centre: 513320N 0014125W
 
-- name: RODDIGE
-  type: OTHER
-  localtype: UL
-  geometry:
-  - upper: 2171 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.5 nm
-        centre: 524241N 0014435W
-
 - name: ROGART (ROVIE FARM)
   type: OTHER
   localtype: UL
