@@ -8969,6 +8969,17 @@ airspace:
         radius: 0.5 nm
         centre: 520825N 0014513W
 
+- name: LONG SUTTON
+  type: OTHER
+  localtype: UL
+  geometry:
+  - upper: 2010 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.5 nm
+        centre: 524642N 0000536E
+
 - name: MANTON
   type: OTHER
   localtype: UL

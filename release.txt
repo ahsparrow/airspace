@@ -1,3 +1,6 @@
+AIRAC: 2018/12/06
+  LONG SUTTON - New UL site
+
 AIRAC: 2018/11/08
   BECCLES - Change ATZ to training AD
   FISHERWICK - New UL site
