@@ -10524,7 +10524,7 @@ airspace:
     boundary:
     - circle:
         radius: 2 nm
-        centre: 520527N 0000755E
+        centre: 520526N 0000753E
 
 - name: EARLS COLNE
   type: ATZ
