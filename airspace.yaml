@@ -6670,17 +6670,6 @@ airspace:
         radius: 1 nm
         centre: 505124N 0010522W
 
-- name: RAMPISHAM
-  type: D_OTHER
-  localtype: HIRTA
-  geometry:
-  - upper: 2500 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.7 nm
-        centre: 504832N 0023905W
-
 - name: SANDALE
   type: D_OTHER
   localtype: HIRTA

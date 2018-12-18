@@ -1,3 +1,6 @@
+AIRAC: 2019/01/03
+  RAMPISHAM HIRTA - Delete
+
 AIRAC: 2018/12/06
   DUXFORD ATZ - Update coordinates
   LONG SUTTON - New UL site
@@ -118,10 +121,3 @@ Non-AIRAC:
   HOLYHEAD CTA - Add missing class C
   LONDON STANSTED TMZ - Add missing class G
   HAWARDEN RMZ - Add missing class G
-
-AIRAC: 2018/01/04
-  N864 - Delete segement over Morecambe Bay (missed from AIRAC 2017/12/07)
-  HENLOW - Add new training aerodrome
-
-AIRAC: 2017/12/07
-  WARTON ATZ - Minor change to coordinates and elevation
