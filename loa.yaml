@@ -1868,7 +1868,7 @@ loa:
           - 562219N 0031719W
 
 #----------------------------------------------------------------------
-- name: R105 HIGHGROVE (HG/PG ONLY)
+- name: R105 HIGHGROVE HOUSE
   areas:
   - name: R105 HIGHGROVE HOUSE
     add: []
