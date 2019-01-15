@@ -1,3 +1,6 @@
+AIRAC: 2019/01/31
+  No changes
+
 AIRAC: 2019/01/03
   RAMPISHAM HIRTA - Delete
 
@@ -103,21 +106,3 @@ Non-AIRAC:
 AIRAC: 2018/03/01
   WARTON MATZ - Update postition of centre point
   UNIVERSITY OF HERTFORDSHIRE - Add laser
-
-Non-AIRAC:
-  ASHCROFT, AYLESBURY and 25 others - Add non-AIP airfields from old ASSelect
-  Add obstacle names
-
-AIRAC: 2018/02/01
-  PORTSMOUTH CTA 3/5 - Remove offshore parts of CTA
-  ATHEY'S MOOR - Add new microlight site
-  COVENTRY - Remove ILS (missed from a previous AIRAC)
-
-Non-AIRAC:
-  WESTBURY CONCESSIONS - Add HG/PG concession for Imber Danger Area
-  NON-ATZ AIRFIELDS - Increase radius to 1.5 nm
-  BOSCOMBE DOWN - Correct name of MATZ stub
-  DAVENTRY BOX LOA - Renamed
-  HOLYHEAD CTA - Add missing class C
-  LONDON STANSTED TMZ - Add missing class G
-  HAWARDEN RMZ - Add missing class G
