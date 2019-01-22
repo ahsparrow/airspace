@@ -6951,7 +6951,8 @@ airspace:
   type: D_OTHER
   localtype: DZ
   geometry:
-  - upper: FL150
+  - id: dunkeswell-dz
+    upper: FL150
     lower: SFC
     boundary:
     - circle:
@@ -10417,7 +10418,8 @@ airspace:
 - name: DUNKESWELL
   type: ATZ
   geometry:
-  - upper: 2839 ft
+  - id: dunkeswell-atz
+    upper: 2839 ft
     lower: SFC
     boundary:
     - circle:

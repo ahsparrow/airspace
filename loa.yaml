@@ -811,6 +811,40 @@ loa:
           - 532449N 0011957W
 
 #----------------------------------------------------------------------
+- name: DUNKESWELL
+  areas:
+  - name: DUNKESWELL
+    add: []
+
+    replace:
+    - id: dunkeswell-atz
+      geometry:
+      - upper: 2839 ft
+        lower: SFC
+        boundary:
+        - line:
+          - 505057N 0031501W
+          - 505331N 0031501W
+        - arc:
+            dir: cw
+            radius: 2 nm
+            centre: 505136N 0031405W
+            to: 505007N 0031612W
+
+    - id: dunkeswell-dz
+      geometry:
+      - upper: FL150
+        lower: 2839 ft
+        boundary:
+        - line:
+          - 505232N 0031559W
+        - arc:
+            dir: cw
+            radius: 1.5 nm
+            centre: 505138N 0031406W
+            to: 505042N 0031556W
+
+#----------------------------------------------------------------------
 - name: EDINBURGH
   areas:
   - name: STGC CORRIDOR
