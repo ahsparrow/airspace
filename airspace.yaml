@@ -963,6 +963,7 @@ airspace:
       - 511010N 0031341W
 
 - name: SOLENT CTA
+  id: solent-cta
   type: CTA
   class: D
   geometry:
@@ -1592,6 +1593,7 @@ airspace:
       - 560000N 0044400W
 
 - name: BRIZE NORTON CTR
+  id: brize-ctr
   type: CTR
   class: D
   geometry:
@@ -1622,6 +1624,7 @@ airspace:
 # ENR 2.2 Other regulated airspace
 
 - name: BARKSTONE HEATH
+  id: barkston-heath-atz
   type: ATZ
   geometry:
   - upper: 2367 ft
@@ -1632,6 +1635,7 @@ airspace:
         centre: 525747N 0003337W
 
 - name: BENSON
+  id: benson-atz
   type: ATZ
   geometry:
   - upper: 2203 ft
@@ -1642,6 +1646,7 @@ airspace:
         centre: 513654N 0010545W
 
 - name: BOSCOMBE DOWN
+  id: boscombe-down-atz
   type: ATZ
   geometry:
   - upper: 2407 ft
@@ -1652,6 +1657,7 @@ airspace:
         centre: 510911N 0014504W
 
 - name: COLERNE
+  id: colerne-atz
   type: ATZ
   geometry:
   - upper: 2593 ft
@@ -1662,6 +1668,7 @@ airspace:
         centre: 512630N 0021646W
 
 - name: CONINGSBY
+  id: coningsby-atz
   type: ATZ
   geometry:
   - upper: 2025 ft
@@ -1672,6 +1679,7 @@ airspace:
         centre: 530535N 0000958W
 
 - name: COSFORD
+  id: cosford-atz
   type: ATZ
   geometry:
   - upper: 2272 ft
@@ -1682,6 +1690,7 @@ airspace:
         centre: 523824N 0021820W
 
 - name: CRANWELL
+  id: cranwell-atz
   type: ATZ
   geometry:
   - upper: 2222 ft
@@ -1692,6 +1701,7 @@ airspace:
         centre: 530147N 0002934W
 
 - name: CULDROSE
+  id: culdrose-atz
   type: ATZ
   geometry:
   - upper: 2268 ft
@@ -1702,6 +1712,7 @@ airspace:
         centre: 500507N 0051515W
 
 - name: FAIRFORD
+  id: fairford-atz
   type: ATZ
   geometry:
   - upper: 2286 ft
@@ -1712,6 +1723,7 @@ airspace:
         centre: 514101N 0014725W
 
 - name: HALTON
+  id: halton-atz
   type: ATZ
   geometry:
   - upper: 2366 ft
@@ -1722,6 +1734,7 @@ airspace:
         centre: 514733N 0004416W
 
 - name: HONINGTION
+  id: honington-atz
   type: ATZ
   geometry:
   - upper: 2174 ft
@@ -1732,6 +1745,7 @@ airspace:
         centre: 522036N 0004648E
 
 - name: KINLOSS
+  id: kinloss-atz
   type: ATZ
   geometry:
   - upper: 2022 ft
@@ -1742,6 +1756,7 @@ airspace:
         centre: 573858N 0033338W
 
 - name: LAKENHEATH
+  id: lakenheath-atz
   type: ATZ
   geometry:
   - upper: 2031 ft
@@ -1752,6 +1767,7 @@ airspace:
         centre: 522434N 0003340E
 
 - name: LEEMING
+  id: leeming-atz
   type: ATZ
   geometry:
   - upper: 2132 ft
@@ -1762,6 +1778,7 @@ airspace:
         centre: 541733N 0013207W
 
 - name: LEUCHARS
+  id: leuchars-atz
   type: ATZ
   geometry:
   - upper: 2038 ft
@@ -1772,6 +1789,7 @@ airspace:
         centre: 562230N 0025129W
 
 - name: LINTON-ON-OUSE
+  id: linton-atz
   type: ATZ
   geometry:
   - upper: 2052 ft
@@ -1782,6 +1800,7 @@ airspace:
         centre: 540258N 0011511W
 
 - name: LOSSIEMOUTH
+  id: lossiemouth-atz
   type: ATZ
   geometry:
   - upper: 2042 ft
@@ -1804,6 +1823,7 @@ airspace:
         centre: 513019N 0015936W
 
 - name: MARHAM
+  id: marham-atz
   type: ATZ
   geometry:
   - upper: 2075 ft
@@ -1814,6 +1834,7 @@ airspace:
         centre: 523854N 0003302E
 
 - name: MERRYFIELD
+  id: merryfield-atz
   type: ATZ
   geometry:
   - upper: 2144 ft
@@ -1824,6 +1845,7 @@ airspace:
         centre: 505745N 0025608W
 
 - name: MIDDLE WALLOP
+  id: middle-wallop-atz
   type: ATZ
   geometry:
   - upper: 2297 ft
@@ -1834,6 +1856,7 @@ airspace:
         centre: 510822N 0013407W
 
 - name: MILDENHALL
+  id: mildenhall-atz
   type: ATZ
   geometry:
   - upper: 2032 ft
@@ -1844,6 +1867,7 @@ airspace:
         centre: 522143N 0002911E
 
 - name: MONA
+  id: mona-atz
   type: ATZ
   geometry:
   - upper: 2202 ft
@@ -1854,6 +1878,7 @@ airspace:
         centre: 531533N 0042226W
 
 - name: NETHERAVON
+  id: netheravon-atz
   type: ATZ
   geometry:
   - upper: 2454 ft
@@ -1864,6 +1889,7 @@ airspace:
         centre: 511450N 0014515W
 
 - name: ODIHAM
+  id: odiham-atz
   type: ATZ
   geometry:
   - upper: 2405 ft
@@ -1874,6 +1900,7 @@ airspace:
         centre: 511403N 0005634W
 
 - name: PORTSMOUTH/FLEETLANDS
+  id: fleetlands-atz
   type: ATZ
   geometry:
   - upper: 2027 ft
@@ -1900,6 +1927,7 @@ airspace:
         to: 504810N 0010929W
 
 - name: PREDANNACK
+  id: predannack-atz
   type: ATZ
   geometry:
   - upper: 2299 ft
@@ -1910,6 +1938,7 @@ airspace:
         centre: 500007N 0051354W
 
 - name: SAINT ATHAN
+  id: saint-athan-atz
   type: ATZ
   geometry:
   - upper: 2163 ft
@@ -1925,6 +1954,7 @@ airspace:
         to: 512532N 0032328W
 
 - name: SCAMPTON
+  id: scampton-atz
   type: ATZ
   geometry:
   - upper: 2202 ft
@@ -1935,6 +1965,7 @@ airspace:
         centre: 531828N 0003303W
 
 - name: SHAWBURY
+  id: shawbury-atz
   type: ATZ
   geometry:
   - upper: 2249 ft
@@ -1945,6 +1976,7 @@ airspace:
         centre: 524737N 0024004W
 
 - name: SYERSTON
+  id: syerston-atz
   type: ATZ
   geometry:
   - upper: 2231 ft
@@ -1955,6 +1987,7 @@ airspace:
         centre: 530124N 0005442W
 
 - name: TERNHILL
+  id: ternhill-atz
   type: ATZ
   geometry:
   - upper: 2285 ft
@@ -1965,6 +1998,7 @@ airspace:
         centre: 525225N 0023155W
 
 - name: TOPCLIFFE
+  id: topcliffe-atz
   type: ATZ
   geometry:
   - upper: 2091 ft
@@ -1975,6 +2009,7 @@ airspace:
         centre: 541220N 0012254W
 
 - name: VALLEY
+  id: valley-atz
   type: ATZ
   geometry:
   - upper: 2036 ft
@@ -1985,6 +2020,7 @@ airspace:
         centre: 531453N 0043207W
 
 - name: WADDINGTON
+  id: waddington-atz
   type: ATZ
   geometry:
   - upper: 2231 ft
@@ -1995,6 +2031,7 @@ airspace:
         centre: 530958N 0003126W
 
 - name: WATTISHAM
+  id: wattisham-atz
   type: ATZ
   geometry:
   - upper: 2284 ft
@@ -2005,6 +2042,7 @@ airspace:
         centre: 520738N 0005723E
 
 - name: WITTERING
+  id: wittering-atz
   type: ATZ
   geometry:
   - upper: 2273 ft
@@ -2015,6 +2053,7 @@ airspace:
         centre: 523647N 0002833W
 
 - name: WOODVALE
+  id: woodvale-atz
   type: ATZ
   geometry:
   - upper: 2037 ft
@@ -2025,6 +2064,7 @@ airspace:
         centre: 533456N 0030324W
 
 - name: YEOVILTON
+  id: yeovilton-atz
   type: ATZ
   geometry:
   - upper: 2075 ft
@@ -2035,6 +2075,7 @@ airspace:
         centre: 510029N 0023845W
 
 - name: BARKSTON/CRANWELL
+  id: barkston-heath-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2068,6 +2109,7 @@ airspace:
       - 525646N 0004228W
 
 - name: BENSON
+  id: benson-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2105,6 +2147,7 @@ airspace:
         to: 514143N 0010755W
 
 - name: BOSCOMBE DOWN/MIDDLE WALLOP
+  id: boscombe-wallop-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2128,6 +2171,7 @@ airspace:
         to: 510513N 0014017W
 
 - name: BOSCOMBE DOWN
+  id: boscome-down-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2165,6 +2209,7 @@ airspace:
         to: 511313N 0013228W
 
 - name: CONINGSBY
+  id: coningsby-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2189,6 +2234,7 @@ airspace:
         to: 530506N 0000143W
 
 - name: CRANWELL
+  id: cranwell-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2212,6 +2258,7 @@ airspace:
         to: 530439N 0001805W
 
 - name: CULDROSE
+  id: culdrose-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2254,6 +2301,7 @@ airspace:
         to: 500036N 0050610W
 
 - name: KINLOSS/LOSSIEMOUTH
+  id: kinloss-lossiemouth-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2275,6 +2323,7 @@ airspace:
         to: 573750N 0032432W
 
 - name: LAKENHEATH/MILDENHALL
+  id: lakenheath-mildenhall-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2307,6 +2356,7 @@ airspace:
         to: 522618N 0002559E
 
 - name: LEEMING/TOPCLIFFE
+  id: leeming-topcliffe-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2330,6 +2380,7 @@ airspace:
         to: 541237N 0013124W
 
 - name: LEEMING
+  id: leeming-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2348,6 +2399,7 @@ airspace:
         to: 542233N 0013211W
 
 - name: LEUCHARS
+  id: leuchars-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2384,6 +2436,7 @@ airspace:
         to: 562350N 0030009W
 
 - name: LINTON
+  id: linton-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2408,6 +2461,7 @@ airspace:
         to: 540551N 0010818W
 
 - name: LOSSIEMOUTH
+  id: lossiemouth-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2426,6 +2480,7 @@ airspace:
         to: 574412N 0031142W
 
 - name: MARHAM
+  id: marham-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2462,6 +2517,7 @@ airspace:
         to: 523805N 0002456E
 
 - name: MERRYFIELD
+  id: merryfield-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2474,6 +2530,7 @@ airspace:
         centre: 505745N 0025608W
 
 - name: MIDDLE WALLOP
+  id: middle-wallop-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2492,6 +2549,7 @@ airspace:
         to: 510732N 0012617W
 
 - name: MILDENHALL
+  id: mildenhall-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2520,6 +2578,7 @@ airspace:
       - 521904N 0001128E
 
 - name: MONA VALLEY
+  id: mona-valley-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2543,6 +2602,7 @@ airspace:
         to: 531913N 0042804W
 
 - name: ODIHAM
+  id: odiham-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2567,6 +2627,7 @@ airspace:
         to: 511617N 0010341W
 
 - name: SCAMPTON/WADDINGTON
+  id: scampton-waddington-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2590,6 +2651,7 @@ airspace:
         to: 531355N 0003628W
 
 - name: SCAMPTON
+  id: scampton-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2615,6 +2677,7 @@ airspace:
         to: 531619N 0004034W
 
 - name: SHAWBURY/TERNHILL
+  id: shawbury-ternhill-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2638,6 +2701,7 @@ airspace:
         to: 524727N 0023151W
 
 - name: SHAWBURY
+  id: shawbury-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2673,6 +2737,7 @@ airspace:
         to: 524302N 0024321W
 
 - name: TOPCLIFFE
+  id: topcliffe-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2691,6 +2756,7 @@ airspace:
         to: 541553N 0011656W
 
 - name: VALLEY
+  id: valley-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2709,6 +2775,7 @@ airspace:
         to: 531921N 0043550W
 
 - name: WADDINGTON
+  id: waddington-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2731,6 +2798,7 @@ airspace:
         to: 531328N 0002529W
 
 - name: WARTON
+  id: warton-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2779,6 +2847,7 @@ airspace:
         to: 534508N 0030123W
 
 - name: WATTISHAM
+  id: wattisham-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2815,6 +2884,7 @@ airspace:
         to: 520603N 0004942E
 
 - name: WITTERING
+  id: wittering-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -2851,6 +2921,7 @@ airspace:
         to: 523719N 0003645W
 
 - name: YEOVILTON
+  id: yeovilton-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -6926,6 +6997,7 @@ airspace:
         centre: 522919N 0000512E
 
 - name: CHILTERN PARK
+  id: chiltern-dz
   type: D_OTHER
   localtype: DZ
   geometry:
@@ -7447,6 +7519,7 @@ airspace:
         centre: 531444N 0005132W
 
 - name: DUNSTABLE
+  id: dunstable-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -7524,6 +7597,7 @@ airspace:
         centre: 570613N 0035330W
 
 - name: GRANSDEN LODGE
+  id: gransden-lodge-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -7546,6 +7620,7 @@ airspace:
         centre: 511544N 0024356W
 
 - name: HINTON-IN-THE-HEDGES
+  id: hinton-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -7557,6 +7632,7 @@ airspace:
         centre: 520145N 0011229W
 
 - name: HUSBANDS BOSWORTH
+  id: hosbos-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -7590,6 +7666,7 @@ airspace:
         centre: 532745N 0003436W
 
 - name: LASHAM
+  id: lasham-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -8220,6 +8297,7 @@ airspace:
 # ENR 5.5 (cont) Training aerodrome
 
 - name: BAGBY
+  id: bagby-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -8231,6 +8309,7 @@ airspace:
         centre: 541230N 0011736W
 
 - name: BECCLES
+  id: beccles-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -8253,6 +8332,7 @@ airspace:
         centre: 520740N 0012610E
 
 - name: BEVERLEY/LINLEY HILL
+  id: beverley-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -8264,6 +8344,7 @@ airspace:
         centre: 535354N 0002141W
 
 - name: BOURN
+  id: bourn-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -8275,6 +8356,7 @@ airspace:
         centre: 521238N 0000233W
 
 - name: BREIGHTON
+  id: breighton-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -8286,6 +8368,7 @@ airspace:
         centre: 534807N 0005451W
 
 - name: BRIMPTON
+  id: brimpton-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -8297,6 +8380,7 @@ airspace:
         centre: 512302N 0011012W
 
 - name: DUNSFOLD
+  id: dunsfold-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -8330,6 +8414,7 @@ airspace:
         centre: 574507N 0035620W
 
 - name: ENSTONE
+  id: enstone-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -8341,6 +8426,7 @@ airspace:
         centre: 515541N 0012542W
 
 - name: FOWLMERE
+  id: fowlmere-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -8363,6 +8449,7 @@ airspace:
         centre: 524644N 0004021E
 
 - name: GREAT OAKLEY
+  id: great-oakley-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -8385,6 +8472,7 @@ airspace:
         centre: 520110N 0001806W
 
 - name: HENSTRIDGE
+  id: henstridge-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -8396,6 +8484,7 @@ airspace:
         centre: 505930N 0022130W
 
 - name: LLANBEDR
+  id: llanbedr-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -8418,6 +8507,7 @@ airspace:
         centre: 512830N 0013330W
 
 - name: NORTH WEALD
+  id: north-weald-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -8429,6 +8519,7 @@ airspace:
         centre: 514318N 0000915E
 
 - name: OAKSEY PARK
+  id: oaksey-park-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -8440,6 +8531,7 @@ airspace:
         centre: 513757N 0020055W
 
 - name: POPHAM
+  id: popham-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -8451,6 +8543,7 @@ airspace:
         centre: 511140N 0011410W
 
 - name: ROUGHAM
+  id: rougham-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -8473,6 +8566,7 @@ airspace:
         centre: 503910N 0011055W
 
 - name: SEETHING
+  id: seething-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -8484,6 +8578,7 @@ airspace:
         centre: 523040N 0012501E
 
 - name: SHACKLEWELL LODGE
+  id: shacklewell-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -8495,6 +8590,7 @@ airspace:
         centre: 523900N 0003400W
 
 - name: SKEGNESS
+  id: skegness-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -8517,6 +8613,7 @@ airspace:
         centre: 523330N 0003711W
 
 - name: STURGATE
+  id: sturgate-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -8696,6 +8793,7 @@ airspace:
         centre: 525649N 0030243W
 
 - name: CLENCH COMMON
+  id: clench-ul
   type: OTHER
   localtype: UL
   geometry:
@@ -8751,6 +8849,7 @@ airspace:
         centre: 503815N 0043708W
 
 - name: EAST FORTUNE
+  id: east-fortune-ul
   type: OTHER
   localtype: UL
   geometry:
@@ -8828,6 +8927,7 @@ airspace:
         centre: 515628N 0001212W
 
 - name: GROVE FARM
+  id: grove-farm-ul
   type: OTHER
   localtype: UL
   geometry:
@@ -8905,6 +9005,7 @@ airspace:
         centre: 540925N 0011354W
 
 - name: INCE
+  id: ince-ul
   type: OTHER
   localtype: UL
   geometry:
@@ -8916,6 +9017,7 @@ airspace:
         centre: 533158N 0030139W
 
 - name: KIRKBRIDE
+  id: kirkbride-ul
   type: OTHER
   localtype: UL
   geometry:
@@ -9372,6 +9474,7 @@ airspace:
         to: 572100N 0023356W
 
 - name: ABERDEEN CTA
+  id: aberdeen-cta
   type: CTA
   class: D
   geometry:
@@ -9430,6 +9533,7 @@ airspace:
         to: 572100N 0023356W
 
 - name: ANDREWSFIELD
+  id: andrewsfield-atz
   type: ATZ
   geometry:
   - upper: 2286 ft
@@ -9440,6 +9544,7 @@ airspace:
         centre: 515342N 0002657E
 
 - name: BARROW
+  id: barrow-atz
   type: ATZ
   geometry:
   - upper: 2044 ft
@@ -9450,6 +9555,7 @@ airspace:
         centre: 540752N 0031548W
 
 - name: BEDFORD
+  id: bedford-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -9461,6 +9567,7 @@ airspace:
         centre: 521357N 0002644W
 
 - name: BIGGIN HILL
+  id: biggin-atz
   type: ATZ
   geometry:
   - upper: 2599 ft
@@ -9484,6 +9591,7 @@ airspace:
       - 512202N 0000353E
 
 - name: BIRMINGHAM CTR
+  id: birmingham-ctr
   type: CTR
   class: D
   geometry:
@@ -9507,6 +9615,7 @@ airspace:
         to: 523507N 0014154W
 
 - name: BIRMINGHAM CTA
+  id: birmingham-cta
   type: CTA
   class: D
   geometry:
@@ -9659,6 +9768,7 @@ airspace:
       - 523847N 0021444W
 
 - name: BLACKBUSH
+  id: blackbush-atz
   type: ATZ
   geometry:
   - upper: 2325 ft
@@ -9675,6 +9785,7 @@ airspace:
       - 511757N 0004955W
 
 - name: BLACKPOOL
+  id: blackpool-atz
   type: ATZ
   geometry:
   - upper: 2034 ft
@@ -9707,6 +9818,7 @@ airspace:
         to: 505003N 0020205W
 
 - name: BRISTOL CTR
+  id: bristol-ctr
   type: CTR
   class: D
   geometry:
@@ -9718,6 +9830,7 @@ airspace:
         centre: 512258N 0024309W
 
 - name: BRISTOL CTA
+  id: bristol-cta
   type: CTA
   class: D
   geometry:
@@ -9851,6 +9964,7 @@ airspace:
       - 512842N 0022338W
 
 - name: CAERNARFON
+  id: caernarfon-atz
   type: ATZ
   geometry:
   - upper: 2014 ft
@@ -9861,6 +9975,7 @@ airspace:
         centre: 530607N 0042015W
 
 - name: CAMBRIDGE
+  id: cambridge-atz
   type: ATZ
   geometry:
   - upper: 2047 ft
@@ -9926,6 +10041,7 @@ airspace:
         to: 513021N 0032755W
 
 - name: CARDIFF CTA
+  id: cardiff-cta
   type: CTA
   class: D
   geometry:
@@ -10045,6 +10161,7 @@ airspace:
       - 513743N 0030845W
 
 - name: CARLISLE
+  id: carlisle-atz
   type: ATZ
   geometry:
   - upper: 2190 ft
@@ -10076,6 +10193,7 @@ airspace:
       - 545519N 0025138W
 
 - name: CHALGROVE
+  id: chalgrove-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -10087,6 +10205,7 @@ airspace:
         centre: 514028N 0010507W
 
 - name: CHICHESTER
+  id: goodwood-atz
   type: ATZ
   geometry:
   - upper: 2109 ft
@@ -10097,6 +10216,7 @@ airspace:
         centre: 505134N 0004533W
 
 - name: COLL
+  id: coll-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -10108,6 +10228,7 @@ airspace:
         centre: 563607N 0063704W
 
 - name: COLONSAY
+  id: colonsay-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -10119,6 +10240,7 @@ airspace:
         centre: 560327N 0061435W
 
 - name: COMPTON ABBAS
+  id: compton-atz
   type: ATZ
   geometry:
   - upper: 2811 ft
@@ -10139,6 +10261,7 @@ airspace:
         centre: 522211N 0012847W
 
 - name: CRANFIELD
+  id: cranfield-atz
   type: ATZ
   geometry:
   - upper: 2360 ft
@@ -10170,6 +10293,7 @@ airspace:
       - 520559N 0003509W
 
 - name: CUMBERNAULD
+  id: cumernauld-atz
   type: ATZ
   geometry:
   - upper: 2350 ft
@@ -10200,6 +10324,7 @@ airspace:
         centre: 525135N 0013703W
 
 - name: DONCASTER SHEFFIELD CTR
+  id: doncaster-ctr
   type: CTR
   class: D
   geometry:
@@ -10234,6 +10359,7 @@ airspace:
         to: 532535N 0011047W
 
 - name: DONCASTER SHEFFIELD CTA
+  id: doncaster-cta
   type: CTA
   class: D
   geometry:
@@ -10393,6 +10519,7 @@ airspace:
       - 531938N 0011532W
 
 - name: DUNDEE
+  id: dundee-atz
   type: ATZ
   geometry:
   - upper: 2017 ft
@@ -10416,6 +10543,7 @@ airspace:
       - 562716N 0030509W
 
 - name: DUNKESWELL
+  id: dunkeswell-atz
   type: ATZ
   geometry:
   - id: dunkeswell-atz
@@ -10427,6 +10555,7 @@ airspace:
         centre: 505136N 0031405W
 
 - name: DURHAM CTR
+  id: durham-ctr
   type: CTR
   class: D
   geometry:
@@ -10449,6 +10578,7 @@ airspace:
         to: 543303N 0013347W
 
 - name: DURHAM CTA
+  id: durham-cta
   type: CTA
   class: D
   geometry:
@@ -10508,6 +10638,7 @@ airspace:
         to: 544050N 0011909W
 
 - name: DUXFORD
+  id: duxford-atz
   type: ATZ
   geometry:
   - upper: 2125 ft
@@ -10518,6 +10649,7 @@ airspace:
         centre: 520526N 0000753E
 
 - name: EARLS COLNE
+  id: earls-colne-atz
   type: ATZ
   geometry:
   - upper: 2227 ft
@@ -10528,6 +10660,7 @@ airspace:
         centre: 515452N 0004057E
 
 - name: EAST MIDLANDS CTR
+  id: east-midlands-ctr
   type: CTR
   class: D
   geometry:
@@ -10553,6 +10686,7 @@ airspace:
       - 525233N 0013241W
 
 - name: EAST MIDLANDS CTA
+  id: east-midlands-cta
   type: CTA
   class: D
   geometry:
@@ -10760,6 +10894,7 @@ airspace:
       - 530901N 0013414W
 
 - name: EDINBURGH CTR
+  id: edinburgh-ctr
   type: CTR
   class: D
   geometry:
@@ -10771,6 +10906,7 @@ airspace:
         centre: 555700N 0032221W
 
 - name: EDINBURGH CTA
+  id: edinburgh-cta
   type: CTA
   class: D
   geometry:
@@ -10838,6 +10974,7 @@ airspace:
         to: 555442N 0030503W
 
 - name: GLASGOW CTA
+  id: glasgow-cta
   type: CTA
   class: D
   geometry:
@@ -10869,6 +11006,7 @@ airspace:
       - 554125N 0034324W
 
 - name: ELSTREE
+  id: elstree-atz
   type: ATZ
   geometry:
   - upper: 2332 ft
@@ -10910,6 +11048,7 @@ airspace:
       - 504432N 0032058W
 
 - name: FAIROAKS
+  id: fairoaks-atz
   type: ATZ
   geometry:
   - upper: 2080 ft
@@ -10920,6 +11059,7 @@ airspace:
         centre: 512053N 0003331W
 
 - name: FARNBOROUGH
+  id: farnborough-atz
   type: ATZ
   geometry:
   - upper: 2238 ft
@@ -10958,6 +11098,7 @@ airspace:
       - 511734N 0004302W
 
 - name: FENLAND
+  id: fenland-atz
   type: ATZ
   geometry:
   - upper: 2006 ft
@@ -10968,6 +11109,7 @@ airspace:
         centre: 524422N 0000148W
 
 - name: GLASGOW CTR
+  id: glasgow-ctr
   type: CTR
   class: D
   geometry:
@@ -10985,6 +11127,7 @@ airspace:
       - 555500N 0045200W
 
 - name: GLOUCESTER
+  id: gloucester-atz
   type: ATZ
   geometry:
   - upper: 2101 ft
@@ -11016,6 +11159,7 @@ airspace:
       - 515345N 0020648W
 
 - name: HAVERFORDWEST
+  id: haverfordwest-atz
   type: ATZ
   geometry:
   - upper: 2159 ft
@@ -11049,6 +11193,7 @@ airspace:
       - 530849N 0030126W
 
 - name: HAWARDEN RMZ
+  id: harwarden-rmz
   type: OTHER
   localtype: RMZ
   rules:
@@ -11085,6 +11230,7 @@ airspace:
       - 530845N 0031227W
 
 - name: HUMBERSDE
+  id: humbersize-atz
   type: ATZ
   geometry:
   - upper: 2121 ft
@@ -11116,6 +11262,7 @@ airspace:
       - 533209N 0002253W
 
 - name: INVERNESS
+  id: inverness-atz
   type: ATZ
   geometry:
   - upper: 2131 ft
@@ -11147,6 +11294,7 @@ airspace:
       - 573404N 0035909W
 
 - name: ISLAY
+  id: islay-atz
   type: ATZ
   geometry:
   - upper: 2056 ft
@@ -11157,6 +11305,7 @@ airspace:
         centre: 554100N 0061535W
 
 - name: KEMBLE
+  id: kemble-atz
   type: ATZ
   geometry:
   - upper: 2436 ft
@@ -11187,6 +11336,7 @@ airspace:
         centre: 510923N 0003840E
 
 - name: LEEDS BRADFORD CTR
+  id: leeds-bradford-ctr
   type: CTR
   class: D
   geometry:
@@ -11211,6 +11361,7 @@ airspace:
         to: 535955N 0014027W
 
 - name: LEEDS BRADFORD CTA
+  id: leeds-bradford-cta
   type: CTA
   class: D
   geometry:
@@ -11270,6 +11421,7 @@ airspace:
       - 535539N 0020919W
 
 - name: LEEDS EAST
+  id: fenton-atz
   type: ATZ
   geometry:
   - upper: 2029 ft
@@ -11310,6 +11462,7 @@ airspace:
         to: 504810N 0010929W
 
 - name: LEICESTER
+  id: leicester-atz
   type: ATZ
   geometry:
   - upper: 2469 ft
@@ -11320,6 +11473,7 @@ airspace:
         centre: 523628N 0010155W
 
 - name: LIVERPOOL CTR
+  id: liverpool-cta
   type: CTR
   class: D
   geometry:
@@ -11336,6 +11490,7 @@ airspace:
       - 532817N 0025719W
 
 - name: LIVERPOOL CTA
+  id: liverpool-cta
   type: CTA
   class: D
   geometry:
@@ -11766,6 +11921,7 @@ airspace:
         to: 514508N 0001309E
 
 - name: LYDD
+  id: lydd-atz
   type: ATZ
   geometry:
   - upper: 2013 ft
@@ -11797,6 +11953,7 @@ airspace:
       - 505906N 0005757E
 
 - name: MANCHESTER CTR
+  id: manchester-ctr
   type: CTR
   class: D
   geometry:
@@ -11817,6 +11974,7 @@ airspace:
       - 532708N 0023744W
 
 - name: MANCHESTER CTA
+  id: manchester-cta
   type: CTA
   class: D
   geometry:
@@ -11873,6 +12031,7 @@ airspace:
       - 533430N 0020400W
 
 - name: MACHESTER/BARTON
+  id: barton-atz
   type: ATZ
   geometry:
   - upper: 2073 ft
@@ -11883,6 +12042,7 @@ airspace:
         centre: 532818N 0022323W
 
 - name: NETHERTHORPE
+  id: netherthorpe-atz
   type: ATZ
   geometry:
   - upper: 2248 ft
@@ -11893,6 +12053,7 @@ airspace:
         centre: 531901N 0011147W
 
 - name: NEWCASTLE CTR
+  id: newcastle-ctr
   type: CTR
   class: D
   geometry:
@@ -11916,6 +12077,7 @@ airspace:
         to: 550525N 0015411W
 
 - name: NEWCASTLE CTA
+  id: newcastle-cta
   type: CTA
   class: D
   geometry:
@@ -12027,6 +12189,7 @@ airspace:
       - 543901N 0020136W
 
 - name: NEWQUAY
+  id: newquay-atz
   type: ATZ
   geometry:
   - upper: 2390 ft
@@ -12058,6 +12221,7 @@ airspace:
       - 502505N 0045627W
 
 - name: NORTHAMPTON
+  id: sywell-atz
   type: ATZ
   geometry:
   - upper: 2424 ft
@@ -12068,6 +12232,7 @@ airspace:
         centre: 521817N 0004732W
 
 - name: NORWICH CTR
+  id: norwich-ctr
   type: CTR
   class: D
   geometry:
@@ -12091,6 +12256,7 @@ airspace:
         to: 524530N 0011035E
 
 - name: NORWICH CTA
+  id: norwitch-cta
   type: CTA
   class: D
   geometry:
@@ -12157,6 +12323,7 @@ airspace:
         centre: 525515N 0010448W
 
 - name: OBAN
+  id: oban-atz
   type: ATZ
   geometry:
   - upper: 2024 ft
@@ -12167,6 +12334,7 @@ airspace:
         centre: 562749N 0052400W
 
 - name: OLD BUCKINGHAM
+  id: old-buckingham-atz
   type: ATZ
   geometry:
   - upper: 2194 ft
@@ -12177,6 +12345,7 @@ airspace:
         centre: 522951N 0010307E
 
 - name: OLD SARUM
+  id: old-sarum-atz
   type: ATZ
   geometry:
   - upper: 2285 ft
@@ -12187,6 +12356,7 @@ airspace:
         centre: 510556N 0014703W
 
 - name: OLD WARDEN
+  id: old-warden-atz
   type: ATZ
   rules:
   - NOTAM
@@ -12199,6 +12369,7 @@ airspace:
         centre: 520512N 0001907W
 
 - name: OXFORD
+  id: oxford-atz
   type: ATZ
   geometry:
   - upper: 2270 ft
@@ -12240,6 +12411,7 @@ airspace:
         centre: 514250N 0041844W
 
 - name: PERTH
+  id: perth-atz
   type: ATZ
   geometry:
   - upper: 2397 ft
@@ -12260,6 +12432,7 @@ airspace:
         centre: 522805N 0001503W
 
 - name: PRESTWICK CTR
+  id: prestwick-ctr
   type: CTR
   class: D
   geometry:
@@ -12283,6 +12456,7 @@ airspace:
         to: 553734N 0044227W
 
 - name: PRESTWICK CTA
+  id: prestwick-cta
   type: CTA
   class: D
   geometry:
@@ -12388,6 +12562,7 @@ airspace:
         to: 552658N 0041154W
 
 - name: REDHILL
+  id: redhill-atz
   type: ATZ
   geometry:
   - upper: 2222 ft
@@ -12402,6 +12577,7 @@ airspace:
         to: 511230N 0000511W
 
 - name: RETFORD
+  id: gamston-atz
   type: ATZ
   geometry:
   - upper: 2087 ft
@@ -12412,6 +12588,7 @@ airspace:
         centre: 531650N 0005705W
 
 - name: ROCHESTER
+  id: rochester-atz
   type: ATZ
   geometry:
   - upper: 2426 ft
@@ -12422,6 +12599,7 @@ airspace:
         centre: 512107N 0003010E
 
 - name: SANDTOFT
+  id: sandtoft-atz
   type: ATZ
   geometry:
   - upper: 2013 ft
@@ -12432,6 +12610,7 @@ airspace:
         centre: 533335N 0005130W
 
 - name: SHERBURN
+  id: serburn-atz
   type: ATZ
   geometry:
   - upper: 2026 ft
@@ -12446,6 +12625,7 @@ airspace:
         to: 534823N 0011032W
 
 - name: SHOBDON
+  id: shobdon-atz
   type: ATZ
   geometry:
   - upper: 2317 ft
@@ -12456,6 +12636,7 @@ airspace:
         centre: 521430N 0025252W
 
 - name: SHOREHAM
+  id: shoreham-atz
   type: ATZ
   geometry:
   - upper: 2007 ft
@@ -12466,6 +12647,7 @@ airspace:
         centre: 505008N 0001750W
 
 - name: SLEAP
+  id: sleap-atz
   type: ATZ
   geometry:
   - upper: 2275 ft
@@ -12476,6 +12658,7 @@ airspace:
         centre: 525002N 0024618W
 
 - name: SOUTHAMPTON CTR
+  id: southampton-ctr
   type: CTR
   class: D
   geometry:
@@ -12501,6 +12684,7 @@ airspace:
       - 510123N 0012722W
 
 - name: SOUTHEND CTR
+  id: southend-ctr
   type: CTR
   class: D
   geometry:
@@ -12548,6 +12732,7 @@ airspace:
       - 513618N 0005532E
 
 - name: SOUTHEND CTA
+  id: southend-cta
   type: CTA
   class: D
   geometry:
@@ -12699,6 +12884,7 @@ airspace:
       - 514530N 0005026E
 
 - name: STAPLEFORD
+  id: stapleford-atz
   type: ATZ
   geometry:
   - upper: 2185 ft
@@ -12709,6 +12895,7 @@ airspace:
         centre: 513909N 0000922E
 
 - name: SWANSEA
+  id: swansea-atz
   type: ATZ
   geometry:
   - upper: 2299 ft
@@ -12719,6 +12906,7 @@ airspace:
         centre: 513619N 0040404W
 
 - name: TATENHILL
+  id: tatenhill-atz
   type: ATZ
   geometry:
   - upper: 2439 ft
@@ -12729,6 +12917,7 @@ airspace:
         centre: 524851N 0014553W
 
 - name: THRUXTON
+  id: thruxton-atz
   type: ATZ
   geometry:
   - upper: 2319 ft
@@ -12739,6 +12928,7 @@ airspace:
         centre: 511240N 0013549W
 
 - name: WARTON
+  id: warton-atz
   type: ATZ
   geometry:
   - upper: 2054 ft
@@ -12762,6 +12952,7 @@ airspace:
       - 534523N 0024859W
 
 - name: WELLESBOURNE MOUNTFORD
+  id: wellesbourne-atz
   type: ATZ
   geometry:
   - upper: 2159 ft
@@ -12772,6 +12963,7 @@ airspace:
         centre: 521132N 0013652W
 
 - name: WELSHPOOL
+  id: welshpool-atz
   type: ATZ
   geometry:
   - upper: 2233 ft
@@ -12782,6 +12974,7 @@ airspace:
         centre: 523743N 0030912W
 
 - name: WEST WALES/ABERPORTH
+  id: west-wales-atz
   type: ATZ
   geometry:
   - upper: 2428 ft
@@ -12792,6 +12985,7 @@ airspace:
         centre: 520653N 0043334W
 
 - name: WHITE WALTHAM
+  id: white-waltham-atz
   type: ATZ
   geometry:
   - upper: 2133 ft
@@ -12802,6 +12996,7 @@ airspace:
         centre: 513002N 0004629W
 
 - name: WICK
+  id: wick-atz
   type: ATZ
   geometry:
   - upper: 2126 ft
@@ -12812,6 +13007,7 @@ airspace:
         centre: 582732N 0030535W
 
 - name: WICKENBY
+  id: wickenby-atz
   type: ATZ
   geometry:
   - upper: 2084 ft
@@ -12822,6 +13018,7 @@ airspace:
         centre: 531901N 0002056W
 
 - name: WOLVERHAMPTON
+  id: halfpenny-green-atz
   type: ATZ
   geometry:
   - upper: 2283 ft
@@ -12832,6 +13029,7 @@ airspace:
         centre: 523103N 0021534W
 
 - name: WYCOMBE
+  id: wycombe-atz
   type: ATZ
   geometry:
   - upper: 2520 ft
@@ -12842,6 +13040,7 @@ airspace:
         centre: 513642N 0004830W
 
 - name: YEOVIL
+  id: yeovil-atz
   type: ATZ
   geometry:
   - upper: 2200 ft
@@ -12903,6 +13102,7 @@ airspace:
         centre: 514636N 0005617W
 
 - name: BEMBRIDGE
+  id: bembridge-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -12914,6 +13114,7 @@ airspace:
         centre: 504041N 0010633W
 
 - name: BODMIN
+  id: bodmin-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -12925,6 +13126,7 @@ airspace:
         centre: 502959N 0043957W
 
 - name: CLACTON
+  id: clacton-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -12958,6 +13160,7 @@ airspace:
         centre: 521016N 0010640E
 
 - name: DAMYNS HALL
+  id: damyns-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -12969,6 +13172,7 @@ airspace:
         centre: 513143N 0001444E
 
 - name: DEANLAND
+  id: deanland-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -13013,6 +13217,7 @@ airspace:
         centre: 561100N 0031313W
 
 - name: FULL SUTTON
+  id: full-sutton-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -13024,6 +13229,7 @@ airspace:
         centre: 535850N 0005153W
 
 - name: LASHAM
+  id: lasham-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -13090,6 +13296,7 @@ airspace:
         centre: 521407N 0002256E
 
 - name: PERRANPORTH
+  id: perranporth-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -13101,6 +13308,7 @@ airspace:
         centre: 501950N 0051046W
 
 - name: SIBSON
+  id: sibson-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -13112,6 +13320,7 @@ airspace:
         centre: 523321N 0002311W
 
 - name: SHIPDHAM
+  id: shipdham-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -13134,6 +13343,7 @@ airspace:
         centre: 513215N 0002203E
 
 - name: TILSTOCK
+  id: tilstock-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -13156,6 +13366,7 @@ airspace:
         centre: 501643N 0050833W
 
 - name: TURWESTON
+  id: turweston-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
