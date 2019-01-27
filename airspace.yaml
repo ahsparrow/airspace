@@ -6997,7 +6997,7 @@ airspace:
         centre: 522919N 0000512E
 
 - name: CHILTERN PARK
-  id: chiltern-dz
+  id: chiltern-park-dz
   type: D_OTHER
   localtype: DZ
   geometry:
@@ -8392,6 +8392,7 @@ airspace:
         centre: 510700N 0003209W
 
 - name: EAGLESCOTT
+  id: eaglescott-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -8461,6 +8462,7 @@ airspace:
         centre: 515400N 0011018E
 
 - name: HENLOW
+  id: henlow-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -8650,6 +8652,7 @@ airspace:
          centre: 551859N 0014712W
 
 - name: BAGBY
+  id: bagby-ul
   type: OTHER
   localtype: UL
   geometry:
@@ -8771,6 +8774,7 @@ airspace:
         centre: 522910N 0000523E
 
 - name: CHILTERN PARK
+  id: chiltern-park-ul
   type: OTHER
   localtype: UL
   geometry:
@@ -9051,6 +9055,7 @@ airspace:
         centre: 514220N 0001629W
 
 - name: LONG MARSTON
+  id: long-maston-ul
   type: OTHER
   localtype: UL
   geometry:
@@ -9450,6 +9455,7 @@ airspace:
 # AD2 Aerodromes
 
 - name: ABERDEEN CTR
+  id: aberdeen-ctr
   type: CTR
   class: D
   geometry:
@@ -9796,6 +9802,7 @@ airspace:
         centre: 534618N 0030143W
 
 - name: BOURNEMOUTH CTR
+  id: bournemouth-ctr
   type: CTR
   class: D
   geometry:
@@ -10007,6 +10014,7 @@ airspace:
       - 521348N 0001345E
 
 - name: CAMPBELTOWN
+  id: campbeltown-atz
   type: ATZ
   geometry:
   - upper: 2042 ft
@@ -10017,6 +10025,7 @@ airspace:
         centre: 552615N 0054117W
 
 - name: CARDIFF CTR
+  id: cardiff-ctr
   type: CTR
   class: D
   geometry:
@@ -10251,6 +10260,7 @@ airspace:
         centre: 505802N 0020913W
 
 - name: COVENTRY
+  id: conventry-atz
   type: ATZ
   geometry:
   - upper: 2267 ft
@@ -10304,6 +10314,7 @@ airspace:
         centre: 555829N 0035832W
 
 - name: DENHAM
+  id: denham-atz
   type: ATZ
   geometry:
   - upper: 2249 ft
@@ -10314,6 +10325,7 @@ airspace:
         centre: 513518N 0003047W
 
 - name: DERBY
+  id: derby-atz
   type: ATZ
   geometry:
   - upper: 2175 ft
@@ -11017,6 +11029,7 @@ airspace:
         centre: 513921N 0001933W
 
 - name: EXETER
+  id: exeter-atz
   type: ATZ
   geometry:
   - upper: 2102 ft
@@ -11170,6 +11183,7 @@ airspace:
         centre: 514959N 0045740W
 
 - name: HAWARDEN
+  id: hawarden-atz
   type: ATZ
   geometry:
   - upper: 2045 ft
@@ -11316,6 +11330,7 @@ airspace:
         centre: 514005N 0020325W
 
 - name: LANDS END
+  id: lands-end-atz
   type: ATZ
   geometry:
   - upper: 2398 ft
@@ -11326,6 +11341,7 @@ airspace:
         centre: 500610N 0054014W
 
 - name: LASHENDEN
+  id: headcorn-atz
   type: ATZ
   geometry:
   - upper: 2070 ft
@@ -11441,6 +11457,7 @@ airspace:
         to: 534823N 0011032W
 
 - name: LEE-ON-SOLENT
+  id: lee-on-solent-atz
   type: ATZ
   geometry:
   - upper: 2033 ft
@@ -12313,6 +12330,7 @@ airspace:
       - 523527N 0010311E
 
 - name: NOTTINGHAM
+  id: nottingham-atz
   type: ATZ
   geometry:
   - upper: 2138 ft
@@ -12401,6 +12419,7 @@ airspace:
       - 514816N 0011954W
 
 - name: PEMBREY
+  id: pembrey-atz
   type: ATZ
   geometry:
   - upper: 2015 ft
@@ -12422,6 +12441,7 @@ airspace:
         centre: 562628N 0032226W
 
 - name: PETERBOROUGH/CONINGTON
+  id: conington-atz
   type: ATZ
   geometry:
   - upper: 2026 ft
@@ -13252,6 +13272,7 @@ airspace:
         centre: 521000N 0000914W
 
 - name: LONG MARSTON
+  id: long-marston-noatz
   type: OTHER
   localtype: NOATZ
   geometry:
@@ -13355,6 +13376,7 @@ airspace:
         centre: 525555N 0023848W
 
 - name: TRURO
+  id: truro-noatz
   type: OTHER
   localtype: NOATZ
   geometry:

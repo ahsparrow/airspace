@@ -26,6 +26,7 @@ service:
 - callsign: BAGBY RADIO
   controls:
   - bagby-noatz
+  - bagby-ul
   frequency: 123.255
 
 - callsign: WALNEY INFORMATION
@@ -104,6 +105,11 @@ service:
   - bourn-noatz
   frequency: 124.355
 
+- callsign: BOURNEMOUTH APPROACH
+  controls:
+  - bournemouth-ctr
+  frequency: 119.475
+
 - callsign: BREIGHTON RADIO
   controls:
   - breighton-noatz
@@ -131,6 +137,11 @@ service:
   - caernarfon-atz
   frequency: 122.255
 
+- callsign: CAMPBELTOWN INFORMATION
+  controls:
+  - campbeltown-atz
+  frequency: 125.905
+
 - callsign: CAMBRIDGE APPROACH
   controls:
   - cambridge-atz
@@ -139,7 +150,8 @@ service:
 
 - callsign: CARDIFF APPROACH
   controls:
-  - cardif-cta
+  - cardiff-cta
+  - cardiff-ctr
   frequency: 119.150
 
 - callsign: CARLISLE APPROACH
@@ -152,6 +164,11 @@ service:
   - chalgrove-noatz
   frequency: 125.410
 
+- callsign: CONINGTON RADIO
+  controls:
+  - conington-atz
+  frequency: 129.725
+
 - callsign: GOODWOOD INFORMATION
   controls:
   - goodwood-atz
@@ -159,7 +176,8 @@ service:
 
 - callsign: CHILTERN RADIO
   controls:
-  - chiltern-dz
+  - chiltern-park-dz
+  - chiltern-park-ul
   frequency: 134.030
 
 - callsign: FENTON RADIO
@@ -208,6 +226,11 @@ service:
   - consford-atz
   frequency: 135.875
 
+- callsign: COVENTRY INFORMATION
+  controls:
+  - coventry-atz
+  frequency: 123.825
+
 - callsign: CRANFIELD APPROACH
   controls:
   - cranfield-atz
@@ -242,6 +265,16 @@ service:
   controls:
   - deanland-noatz
   frequency: 129.730
+
+- callsign: DENHAM RADIO
+  controls:
+  - denham-atz
+  frequency: 130.730
+
+- callsign: DERBY RADIO
+  controls:
+  - derby-atz
+  frequency: 118.355
 
 - callsign: DONCASTER APPROACH
   controls:
@@ -280,6 +313,11 @@ service:
   - duxford-atz
   frequency: 121.080
 
+- callsign: EAGLESCOTT RADIO
+  controls:
+  - eaglescott-noatz
+  frequency: 123.000
+
 - callsign: EARLS COLNE RADIO
   controls:
   - earles-colne-atz
@@ -311,6 +349,11 @@ service:
   controls:
   - enstone-noatz
   frequency: 129.880
+
+- callsign: EXETER APPROACH
+  controls:
+  - exeter-atz
+  frequency: 128.975
 
 - callsign: FAIROAKS INFORMATION
   controls:
@@ -379,6 +422,16 @@ service:
   - hawarden-tmz
   frequency: 120.055
 
+- callsign: HEADCORN RADIO
+  controls:
+  - headcorn-atz
+  frequency: 122.210
+
+- callsign: HENLOW RADIO
+  controls:
+  - henlow-noatz
+  frequency: 121.000
+
 - callsign: HENSTRIDGE RADIO
   controls:
   - henstridge-noatz
@@ -428,11 +481,21 @@ service:
   - mildenhall-matz
   frequency: 128.900
 
+- callsign: LANDS END TOWER
+  controls:
+  - lands-end-atz
+  frequency: 120.250
+
 - callsign: LASHAM RADIO
   controls:
   - lasham-glider
   - lasham-noatz
   frequency: 131.030
+
+- callsign: LEE RADIO
+  controls:
+  - lee-on-solent-atz
+  frequency: 118.925
 
 - callsign: LEEDS APPROACH
   controls:
@@ -474,6 +537,12 @@ service:
   controls:
   - llanbedr-noatz
   frequency: 118.930
+
+- callsign: LONG MARSTON RADIO
+  controls:
+  - long-marston-noatz
+  - long-marston-ul
+  frequency: 129.825
 
 - callsign: LOSSIE RADAR
   controls:
@@ -542,6 +611,16 @@ service:
   - norwich-cta
   - norwich-ctr
   frequency: 119.355
+
+- callsign: NOTTINGHAM RADIO
+  controls:
+  - nottingham-atz
+  frequency: 134.880
+
+- callsign: PEMBURY RADIO
+  controls:
+  - pembury-atz
+  frequency: 124.400
 
 - callsign: OAKSEY PARK RADIO
   controls:
@@ -735,6 +814,11 @@ service:
   - topcliffe-atz
   - topcliffe-matz
   frequency: 125.000
+
+- callsign: TRURO RADIO
+  controls:
+  - truro-noatz
+  frequency: 129.800
 
 - callsign: TURWESTON RADIO
   controls:
