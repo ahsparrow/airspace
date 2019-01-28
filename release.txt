@@ -1,5 +1,6 @@
 Non-AIRAC:
   DUNKESWELL LOA - Added
+  Add radio frequencies
 
 AIRAC: 2019/01/31
   No changes
