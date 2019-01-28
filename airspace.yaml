@@ -2172,7 +2172,7 @@ airspace:
         to: 510513N 0014017W
 
 - name: BOSCOMBE DOWN
-  id: boscome-down-matz
+  id: boscombe-down-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -9061,7 +9061,7 @@ airspace:
         centre: 514220N 0001629W
 
 - name: LONG MARSTON
-  id: long-maston-ul
+  id: long-marston-ul
   type: OTHER
   localtype: UL
   geometry:
@@ -10267,7 +10267,7 @@ airspace:
         centre: 505802N 0020913W
 
 - name: COVENTRY
-  id: conventry-atz
+  id: coventry-atz
   type: ATZ
   geometry:
   - upper: 2267 ft
@@ -10310,7 +10310,7 @@ airspace:
       - 520559N 0003509W
 
 - name: CUMBERNAULD
-  id: cumernauld-atz
+  id: cumbernauld-atz
   type: ATZ
   geometry:
   - upper: 2350 ft
@@ -11214,7 +11214,7 @@ airspace:
       - 530849N 0030126W
 
 - name: HAWARDEN RMZ
-  id: harwarden-rmz
+  id: hawarden-rmz
   type: OTHER
   localtype: RMZ
   rules:
@@ -11498,7 +11498,7 @@ airspace:
         centre: 523628N 0010155W
 
 - name: LIVERPOOL CTR
-  id: liverpool-cta
+  id: liverpool-ctr
   type: CTR
   class: D
   geometry:
@@ -12283,7 +12283,7 @@ airspace:
         to: 524530N 0011035E
 
 - name: NORWICH CTA
-  id: norwitch-cta
+  id: norwich-cta
   type: CTA
   class: D
   geometry:
@@ -12642,7 +12642,7 @@ airspace:
         centre: 533335N 0005130W
 
 - name: SHERBURN
-  id: serburn-atz
+  id: sherburn-atz
   type: ATZ
   geometry:
   - upper: 2026 ft

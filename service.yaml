@@ -15,12 +15,12 @@ service:
 - callsign: ABERDEEN APPROACH
   controls:
   - aberdeen-cta
-  - aberedeen-ctr
+  - aberdeen-ctr
   frequency: 119.055
 
-- callsign: ANDREWFIELD RADIO
+- callsign: ANDREWSFIELD RADIO
   controls:
-  - andrewfield-noatz
+  - andrewsfield-atz
   frequency: 130.555
 
 - callsign: BAGBY RADIO
@@ -68,7 +68,7 @@ service:
 - callsign: BIRMINGHAM APPROACH
   controls:
   - birmingham-cta
-  - birminham-ctr
+  - birmingham-ctr
   frequency: 123.980
 
 - callsign: BLACKBUSH INFORMATION
@@ -218,7 +218,7 @@ service:
 
 - callsign: COSFORD APPROACH
   controls:
-  - consford-atz
+  - cosford-atz
   frequency: 135.875
 
 - callsign: COVENTRY INFORMATION
@@ -248,7 +248,7 @@ service:
 
 - callsign: CUMBERNAULD RADIO
   controls:
-  - cumberbnauld-atz
+  - cumbernauld-atz
   frequency: 120.605
 
 - callsign: DAMYNS RADIO
@@ -315,7 +315,7 @@ service:
 
 - callsign: EARLS COLNE RADIO
   controls:
-  - earles-colne-atz
+  - earls-colne-atz
   frequency: 122.430
 
 - callsign: EAST FORTUNE RADIO
@@ -393,7 +393,7 @@ service:
 
 - callsign: GRANSDEN LODGE RADIO
   controls:
-  - grandsden-lodge-glider
+  - gransden-lodge-glider
   frequency: 131.280
 
 - callsign: GREAT OAKLEY RADIO
@@ -418,13 +418,13 @@ service:
 
 - callsign: HAVERFORDWEST RADIO
   controls:
-  - haverfordwest-noatz
+  - haverfordwest-atz
   frequency: 122.205
 
 - callsign: HAWARDEN RADAR
   controls:
   - hawarden-atz
-  - hawarden-tmz
+  - hawarden-rmz
   frequency: 120.055
 
 - callsign: HEADCORN RADIO
@@ -479,7 +479,7 @@ service:
 
 - callsign: LAKENHEATH RADAR
   controls:
-  - honnington-atz
+  - honington-atz
   - lakenheath-atz
   - lakenheath-mildenhall-matz
   - mildenhall-atz
@@ -520,10 +520,10 @@ service:
   - leicester-atz
   frequency: 122.130
 
-- callsign: LEUCARS RADAR
+- callsign: LEUCHARS RADAR
   controls:
-  - leucars-atz
-  - leucars-matz
+  - leuchars-atz
+  - leuchars-matz
   frequency: 126.600
 
 - callsign: LINTON ZONE
@@ -534,7 +534,7 @@ service:
 
 - callsign: LIVERPOOL APPROACH
   controls:
-  - liverpoot-cta
+  - liverpool-cta
   - liverpool-ctr
   frequency: 119.855
 
@@ -617,9 +617,9 @@ service:
   - nottingham-atz
   frequency: 134.880
 
-- callsign: PEMBURY RADIO
+- callsign: PEMBREY RADIO
   controls:
-  - pembury-atz
+  - pembrey-atz
   frequency: 124.400
 
 - callsign: OAKSEY PARK RADIO
@@ -744,7 +744,7 @@ service:
 
 - callsign: SHOREHAM APPROACH
   controls:
-  - shorham-atz
+  - shoreham-atz
   frequency: 123.155
 
 - callsign: SKEGNESS RADIO
