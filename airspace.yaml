@@ -3782,10 +3782,11 @@ airspace:
       - 503729N 0040101W
       - 504019N 0040341W
 
-- name: D011A OCNL OKEHAMPTON
+- name: D011A OKEHAMPTON
   type: D
   rules:
   - SI
+  - NOTAM
   geometry:
   - upper: 24100 ft
     lower: 10000 ft
@@ -3814,10 +3815,11 @@ airspace:
       - 503550N 0040444W
       - 503747N 0040558W
 
-- name: D011B OCNL WILLSWORTHY
+- name: D011B WILLSWORTHY
   type: D
   rules:
   - SI
+  - NOTAM
   geometry:
   - upper: 24100 ft
     lower: 4500 ft
@@ -3846,10 +3848,11 @@ airspace:
       - 503402N 0040336W
       - 503550N 0040444W
 
-- name: D011C OCNL MERRIVALE
+- name: D011C MERRIVALE
   type: D
   rules:
   - SI
+  - NOTAM
   geometry:
   - upper: 24100 ft
     lower: 10000 ft
@@ -3900,10 +3903,11 @@ airspace:
       - 503825N 0021137W
       - 504028N 0021137W
 
-- name: D026 OCNL LULWORTH
+- name: D026 LULWORTH
   type: D
   rules:
   - SI
+  - NOTAM
   geometry:
   - upper: 20000 ft
     lower: 15000 ft
@@ -4039,8 +4043,11 @@ airspace:
       - 514524N 0042517W
       - 514445N 0042400W
 
-- name: D117 OCNL PENDINE
+- name: D117 PENDINE
   type: D
+  rules:
+  - SI
+  - NOTAM
   geometry:
   - upper: 27000 ft
     lower: 23000 ft
@@ -4067,8 +4074,10 @@ airspace:
         centre: 514313N 0042144W
         to: 514001N 0042400W
 
-- name: D118 OCNL PEMBREY
+- name: D118 PEMBREY
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: 23000 ft
     lower: 12001 ft
@@ -4229,10 +4238,11 @@ airspace:
         centre: 510912N 0014504W
         to: 511354N 0014225W
 
-- name: D126 OCNL BULFORD
+- name: D126 BULFORD
   type: D
   rules:
   - SI
+  - NOTAM
   geometry:
   - upper: FL090
     lower: 1400 ft
@@ -4284,8 +4294,10 @@ airspace:
     - line:
       - 511828N 0015004W
 
-- name: D128 OCNL EVERLEIGH
+- name: D128 EVERLEIGH
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: 50000 ft
     lower: 1400 ft
@@ -4357,8 +4369,10 @@ airspace:
       - 511915N 0004146W
       - 512019N 0004158W
 
-- name: D133 OCNL PIRBRIGHT
+- name: D133 PIRBRIGHT
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: 2400 ft
     lower: 1200 ft
@@ -4410,8 +4424,10 @@ airspace:
       - 513217N 0004804E
       - 513714N 0005000E
 
-- name: D138 OCNL SHOEBURYNESS
+- name: D138 SHOEBURYNESS
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: 60000 ft
     lower: 13000 ft
@@ -4438,8 +4454,10 @@ airspace:
       - 514833N 0005848E
       - 514839N 0005452E
 
-- name: D139 OCNL FINGRNHOE
+- name: D139 FINGRNHOE
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: 2000 ft
     lower: 1500 ft
@@ -4653,10 +4671,11 @@ airspace:
       - 522900N 0003900E
       - 523100N 0004000E
 
-- name: D208 OCNL STANFORD
+- name: D208 STANFORD
   type: D
   rules:
   - SI
+  - NOTAM
   geometry:
   - upper: 7500 ft
     lower: 2500 ft
@@ -4712,8 +4731,10 @@ airspace:
         radius: 2 nm
         centre: 520453N 0024806W
 
-- name: D216 OCNL CREDENHILL
+- name: D216 CREDENHILL
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: 10000 ft
     lower: 2300 ft
@@ -4760,8 +4781,10 @@ airspace:
         centre: 532830N 0001315E
         to: 532331N 0001354E
 
-- name: D307 OCNL DONNA NOOK
+- name: D307 DONNA NOOK
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: 23000 ft
     lower: 20000 ft
@@ -4809,8 +4832,10 @@ airspace:
       - 545812N 0051210W
       - 550218N 0050909W
 
-- name: D402A OCNL LUCE BAY (N)
+- name: D402A LUCE BAY (N)
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: 23000 ft
     lower: 3000 ft
@@ -4845,8 +4870,10 @@ airspace:
       - 545600N 0044744W
       - 545600N 0045800W
 
-- name: D402B OCNL LUCE BAY (N)
+- name: D402B LUCE BAY (N)
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: 23000 ft
     lower: 3000 ft
@@ -4884,8 +4911,10 @@ airspace:
       - 543315N 0041341W
       - 543537N 0041514W
 
-- name: D405 OCNL KIRKCUDBRIGHT
+- name: D405 KIRKCUDBRIGHT
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: 50000 ft
     lower: 15000 ft
@@ -4919,10 +4948,11 @@ airspace:
       - 543343N 0022536W
       - 543526N 0022419W
 
-- name: D407 OCNL WARCOP
+- name: D407 WARCOP
   type: D
   rules:
   - SI
+  - NOTAM
   geometry:
   - upper: 13500 ft
     lower: 10000 ft
@@ -4954,10 +4984,11 @@ airspace:
       - 542505N 0015159W
       - 542720N 0015350W
 
-- name: D408 OCNL FELDOM
+- name: D408 FELDOM
   type: D
   rules:
   - SI
+  - NOTAM
   geometry:
   - upper: 5600 ft
     lower: 3000 ft
@@ -5021,8 +5052,10 @@ airspace:
       - 550000N 0024235W
       - 550112N 0024453W
 
-- name: D510B OCNL SPADEADAM
+- name: D510B SPADEADAM
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: 18000 ft
     lower: 5500 ft
@@ -5049,8 +5082,10 @@ airspace:
       - 550900N 0030000W
       - 551500N 0025400W
 
-- name: D510A OCNL SPADEADAM
+- name: D510A SPADEADAM
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: 15000 ft
     lower: 5500 ft
@@ -5087,10 +5122,11 @@ airspace:
       - 551857N 0022315W
       - 552212N 0022009W
 
-- name: D512 OCNL OTTERBURN
+- name: D512 OTTERBURN
   type: D
   rules:
   - SI
+  - NOTAM
   geometry:
   - upper: 25000 ft
     lower: 18000 ft
@@ -5145,10 +5181,11 @@ airspace:
       - 562735N 0023943W
       - 562738N 0024829W
 
-- name: D604 OCNL BARRY BUDDN
+- name: D604 BARRY BUDDN
   type: D
   rules:
   - SI
+  - NOTAM
   geometry:
   - upper: 9000 ft
     lower: 1500 ft
@@ -5193,10 +5230,11 @@ airspace:
       - 574500N 0035500W
       - 575054N 0034630W
 
-- name: D703 OCNL TAIN
+- name: D703 TAIN
   type: D
   rules:
   - SI
+  - NOTAM
   geometry:
   - upper: 22000 ft
     lower: 15000 ft
@@ -7076,9 +7114,11 @@ airspace:
         radius: 1.5 nm
         centre: 532956N 0003048W
 
-- name: HIBALDSTOW OCNL
+- name: HIBALDSTOW
   type: D_OTHER
   localtype: DZ
+  rules:
+  - NOTAM
   geometry:
   - upper: FL150
     lower: FL120
@@ -7098,9 +7138,11 @@ airspace:
         radius: 1.5 nm
         centre: 520136N 0011216W
 
-- name: HINTON-IN-THE-HEDGES OCNL
+- name: HINTON-IN-THE-HEDGES
   type: D_OTHER
   localtype: DZ
+  rules:
+  - NOTAM
   geometry:
   - upper: FL150
     lower: FL65
@@ -7144,9 +7186,11 @@ airspace:
         centre: 510925N 0003902E
 
 # Lashenden/Headcorn
-- name: HEADCORN OCNL
+- name: HEADCORN
   type: D_OTHER
   localtype: DZ
+  rules:
+  - NOTAM
   geometry:
   - upper: FL150
     lower: 3500 ft
@@ -7255,9 +7299,11 @@ airspace:
         radius: 1.5 nm
         centre: 561930N 0034455W
 
-- name: STRATHALLAN OCNL
+- name: STRATHALLAN
   type: D_OTHER
   localtype: DZ
+  rules:
+  - NOTAM
   geometry:
   - upper: FL660
     lower: 5000 ft
@@ -7288,9 +7334,11 @@ airspace:
         radius: 1.5 nm
         centre: 525551N 0023905W
 
-- name: TILSTOCK OCNL
+- name: TILSTOCK
   type: D_OTHER
   localtype: DZ
+  rules:
+  - NOTAM
   geometry:
   - upper: FL150
     lower: FL85
@@ -7310,9 +7358,11 @@ airspace:
         radius: 2 nm
         centre: 515246N 0011320W
 
-- name: WESTON-ON-THE-GREEN OCNL
+- name: WESTON-ON-THE-GREEN
   type: D_OTHER
   localtype: DZ
+  rules:
+  - NOTAM
   geometry:
   - upper: FL150
     lower: FL85
