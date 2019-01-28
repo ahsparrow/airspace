@@ -29,11 +29,6 @@ service:
   - bagby-ul
   frequency: 123.255
 
-- callsign: WALNEY INFORMATION
-  controls:
-  - barrow-atz
-  frequency: 123.205
-
 - callsign: BARTON INFORMATION
   controls:
   - barton-atz
@@ -239,7 +234,7 @@ service:
 - callsign: CRANWELL APPROACH
   controls:
   - barkston-heath-atz
-  - barkston-heath-matz
+  - barkston-cranwell-matz
   - cranwell-atz
   - cranwell-matz
   frequency: 124.450
@@ -380,6 +375,11 @@ service:
   - full-sutton-noatz
   frequency: 120.105
 
+- callsign: GAMSTON RADIO
+  controls:
+  - gamston-atz
+  frequency: 130.480
+
 - callsign: GLASGOW APPROACH
   controls:
   - glasgow-cta
@@ -405,6 +405,11 @@ service:
   controls:
   - grove-farm-ul
   frequency: 130.430
+
+- callsign: HALFPENNY GREEN INFORMATION
+  controls:
+  - halfpenny-green-atz
+  frequency: 123.005
 
 - callsign: HALTON RADIO
   controls:
@@ -601,11 +606,6 @@ service:
   - north-weald-noatz
   frequency: 123.530
 
-- callsign: SYWELL RADIO
-  controls:
-  - sywell-atz
-  frequency: 122.705
-
 - callsign: NORWICH APPROACH
   controls:
   - norwich-cta
@@ -670,7 +670,7 @@ service:
 
 - callsign: SAINT ATHAN TOWER
   controls:
-  - saint-athan-tower
+  - saint-athan-atz
   frequency: 118.125
 
 - callsign: SIBSON RADIO
@@ -693,11 +693,6 @@ service:
   controls:
   - redhill-atz
   frequency: 119.605
-
-- callsign: GAMSTON RADIO
-  controls:
-  - gamston-atz
-  frequency: 130.480
 
 - callsign: ROCHESTER INFORMATION
   controls:
@@ -794,6 +789,11 @@ service:
   - syerston-atz
   frequency: 128.525
 
+- callsign: SYWELL RADIO
+  controls:
+  - sywell-atz
+  frequency: 122.705
+
 - callsign: TATENHILL RADIO
   controls:
   - tatenhill-atz
@@ -842,6 +842,11 @@ service:
   - waddington-matz
   frequency: 119.500
 
+- callsign: WALNEY INFORMATION
+  controls:
+  - walney-atz
+  frequency: 123.205
+
 - callsign: WARTON RADAR
   controls:
   - warton-atz
@@ -889,11 +894,6 @@ service:
   - wittering-atz
   - wittering-matz
   frequency: 119.500
-
-- callsign: HALFPENNY GREEN INFORMATION
-  controls:
-  - halfpenny-green-atz
-  frequency: 123.005
 
 - callsign: WOODVALE APPROACH
   controls:

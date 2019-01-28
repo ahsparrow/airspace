@@ -1899,7 +1899,8 @@ airspace:
         radius: 2 nm
         centre: 511403N 0005634W
 
-- name: PORTSMOUTH/FLEETLANDS
+# Portsmouth/Fleetlands
+- name: FLEETLANDS
   id: fleetlands-atz
   type: ATZ
   geometry:
@@ -2075,7 +2076,7 @@ airspace:
         centre: 510029N 0023845W
 
 - name: BARKSTON/CRANWELL
-  id: barkston-heath-matz
+  id: barkston-cranwell-matz
   type: OTHER
   localtype: MATZ
   controltype: MILITARY
@@ -7130,7 +7131,8 @@ airspace:
         radius: 1.5 nm
         centre: 525338N 0005416W
 
-- name: LASHENDEN/HEADCORN
+# Lashenden/Headcorn
+- name: HEADCORN
   type: D_OTHER
   localtype: DZ
   geometry:
@@ -7141,7 +7143,8 @@ airspace:
         radius: 1.5 nm
         centre: 510925N 0003902E
 
-- name: LASHENDEN/HEADCORN OCNL
+# Lashenden/Headcorn
+- name: HEADCORN OCNL
   type: D_OTHER
   localtype: DZ
   geometry:
@@ -7196,7 +7199,8 @@ airspace:
         radius: 1.5 nm
         centre: 501954N 0051039W
 
-- name: PETERBOROUGH/SIBSON
+# Peterborough/Sibson
+- name: SIBSON
   type: D_OTHER
   localtype: DZ
   geometry:
@@ -7342,7 +7346,8 @@ airspace:
         radius: 1 nm
         centre: 514228N 0020750W
 
-- name: AYLESBURY/THAME
+# Aylesbury/Thame
+- name: THAME
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -7352,17 +7357,6 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 514633N 0005625W
-
-- name: BARROW/WALNEY ISLAND
-  type: OTHER
-  localtype: GLIDER
-  geometry:
-  - upper: 2044 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1 nm
-        centre: 540752N 0031549W
 
 - name: BEMBRIDGE
   type: OTHER
@@ -8095,6 +8089,17 @@ airspace:
         radius: 1 nm
         centre: 511020N 0011636E
 
+- name: WALNEY ISLAND
+  type: OTHER
+  localtype: GLIDER
+  geometry:
+  - upper: 2044 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 1 nm
+        centre: 540752N 0031549W
+
 - name: WATTISHAM
   type: OTHER
   localtype: GLIDER
@@ -8150,7 +8155,8 @@ airspace:
         radius: 1 nm
         centre: 510034N 0023820W
 
-- name: YORK/RUFFORTH
+# York/Rufforth
+- name: RUFFORTH
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -8331,7 +8337,7 @@ airspace:
         radius: 1.5 nm
         centre: 520740N 0012610E
 
-- name: BEVERLEY/LINLEY HILL
+- name: BEVERLEY
   id: beverley-noatz
   type: OTHER
   localtype: NOATZ
@@ -9549,8 +9555,9 @@ airspace:
         radius: 2 nm
         centre: 515342N 0002657E
 
-- name: BARROW
-  id: barrow-atz
+# Barrow/Walney Island
+- name: WALNEY
+  id: walney-atz
   type: ATZ
   geometry:
   - upper: 2044 ft
@@ -11340,7 +11347,8 @@ airspace:
         radius: 2 nm
         centre: 500610N 0054014W
 
-- name: LASHENDEN
+# Lashenden/Headcorn
+- name: HEADCORN
   id: headcorn-atz
   type: ATZ
   geometry:
@@ -12047,7 +12055,8 @@ airspace:
       - 532638N 0022258W
       - 533430N 0020400W
 
-- name: MACHESTER/BARTON
+# Mancester/Barton
+- name: BARTON
   id: barton-atz
   type: ATZ
   geometry:
@@ -12237,7 +12246,8 @@ airspace:
       - 502204N 0044915W
       - 502505N 0045627W
 
-- name: NORTHAMPTON
+# Northampton/Sywell
+- name: SYWELL
   id: sywell-atz
   type: ATZ
   geometry:
@@ -12440,7 +12450,8 @@ airspace:
         radius: 2 nm
         centre: 562628N 0032226W
 
-- name: PETERBOROUGH/CONINGTON
+# Peterborough/Conington
+- name: CONINGTON
   id: conington-atz
   type: ATZ
   geometry:
@@ -12596,7 +12607,8 @@ airspace:
         centre: 511249N 0000819W
         to: 511230N 0000511W
 
-- name: RETFORD
+# Retford/Gamston
+- name: GAMSTON
   id: gamston-atz
   type: ATZ
   geometry:
@@ -12993,7 +13005,7 @@ airspace:
         radius: 2 nm
         centre: 523743N 0030912W
 
-- name: WEST WALES/ABERPORTH
+- name: WEST WALES
   id: west-wales-atz
   type: ATZ
   geometry:
@@ -13037,7 +13049,8 @@ airspace:
         radius: 2 nm
         centre: 531901N 0002056W
 
-- name: WOLVERHAMPTON
+# Wolverhampton
+- name: HALFPENNY GREEN
   id: halfpenny-green-atz
   type: ATZ
   geometry:
@@ -13328,6 +13341,7 @@ airspace:
         radius: 1.5 nm
         centre: 501950N 0051046W
 
+# Peterborough/Sibson
 - name: SIBSON
   id: sibson-noatz
   type: OTHER
