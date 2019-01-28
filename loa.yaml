@@ -1206,6 +1206,22 @@ loa:
           - 524800N 0015216W
 
 #----------------------------------------------------------------------
+- name: HIGHGROVE HOUSE
+  areas:
+  - name: HIGHGROVE HOUSE
+    add: []
+
+    replace:
+    - id: r105
+      geometry:
+      - upper: 860 ft
+        lower: SFC
+        boundary:
+        - circle:
+            radius: 0.6 km
+            centre: 513724N 0021048W
+
+#----------------------------------------------------------------------
 - name: LASHAM COMPS
   areas:
   - name: COMPTON BOX
@@ -1901,22 +1917,6 @@ loa:
           - 562429N 0031648W
           - 562341N 0031445W
           - 562219N 0031719W
-
-#----------------------------------------------------------------------
-- name: R105 HIGHGROVE HOUSE
-  areas:
-  - name: R105 HIGHGROVE HOUSE
-    add: []
-
-    replace:
-    - id: r105
-      geometry:
-      - upper: 860 ft
-        lower: SFC
-        boundary:
-        - circle:
-            radius: 0.6 km
-            centre: 513724N 0021048W
 
 #----------------------------------------------------------------------
 - name: RILES GLIDING AREA
