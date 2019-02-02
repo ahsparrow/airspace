@@ -7396,18 +7396,6 @@ airspace:
         radius: 1 nm
         centre: 514228N 0020750W
 
-# Aylesbury/Thame
-- name: THAME
-  type: OTHER
-  localtype: GLIDER
-  geometry:
-  - upper: 2289 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1 nm
-        centre: 514633N 0005625W
-
 - name: BEMBRIDGE
   type: OTHER
   localtype: GLIDER
