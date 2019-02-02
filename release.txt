@@ -1,3 +1,6 @@
+AIRAC: 2019/02/28
+  No changes
+
 Non-AIRAC:
   DUNKESWELL LOA - Added
   Add radio frequencies
@@ -104,10 +107,3 @@ AIRAC: 2018/03/29
   BRIMPTON - Update coordinates and elevation
   CROMER - Delete UL site
   GROVE FARM - Add UL site
-
-Non-AIRAC:
-  CHELTENHAM FESTIVAL RA(T)
-
-AIRAC: 2018/03/01
-  WARTON MATZ - Update postition of centre point
-  UNIVERSITY OF HERTFORDSHIRE - Add laser
