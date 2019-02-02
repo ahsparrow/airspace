@@ -355,6 +355,11 @@ service:
   - fairoaks-atz
   frequency: 123.430
 
+- callsign: FARNBOROUGH RADAR
+  controls:
+  - farnborough-atz
+  frequency: 125.250
+
 - callsign: FENLAND RADIO
   controls:
   - fenland-atz
