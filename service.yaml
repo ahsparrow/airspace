@@ -44,16 +44,16 @@ service:
   - bedford-noatz
   frequency: 119.030
 
+- callsign: BEMBRIDGE RADIO
+  controls:
+  - bembridge-noatz
+  frequency: 123.255
+
 - callsign: BENSON ZONE
   controls:
   - benson-atz
   - benson-matz
   frequency: 120.900
-
-- callsign: BEMBRIDGE RADIO
-  controls:
-  - bembridge-noatz
-  frequency: 123.255
 
 - callsign: BEVERLEY RADIO
   controls:
@@ -132,16 +132,16 @@ service:
   - caernarfon-atz
   frequency: 122.255
 
-- callsign: CAMPBELTOWN INFORMATION
-  controls:
-  - campbeltown-atz
-  frequency: 125.905
-
 - callsign: CAMBRIDGE APPROACH
   controls:
   - cambridge-atz
   - cambridge-raz
   frequency: 123.605
+
+- callsign: CAMPBELTOWN INFORMATION
+  controls:
+  - campbeltown-atz
+  frequency: 125.905
 
 - callsign: CARDIFF APPROACH
   controls:
@@ -159,26 +159,11 @@ service:
   - chalgrove-noatz
   frequency: 125.410
 
-- callsign: CONINGTON RADIO
-  controls:
-  - conington-atz
-  frequency: 129.725
-
-- callsign: GOODWOOD INFORMATION
-  controls:
-  - goodwood-atz
-  frequency: 122.455
-
 - callsign: CHILTERN RADIO
   controls:
   - chiltern-park-dz
   - chiltern-park-ul
   frequency: 134.030
-
-- callsign: FENTON RADIO
-  controls:
-  - fenton-atz
-  frequency: 126.505
 
 - callsign: CLACTON RADIO
   controls:
@@ -215,6 +200,11 @@ service:
   - coningsby-atz
   - coningsby-matz
   frequency: 119.200
+
+- callsign: CONINGTON RADIO
+  controls:
+  - conington-atz
+  frequency: 129.725
 
 - callsign: COSFORD APPROACH
   controls:
@@ -365,6 +355,11 @@ service:
   - fenland-atz
   frequency: 122.930
 
+- callsign: FENTON RADIO
+  controls:
+  - fenton-atz
+  frequency: 126.505
+
 - callsign: FLEETLANDS INFORMATION
   controls:
   - fleetlands-atz
@@ -395,6 +390,11 @@ service:
   controls:
   - gloucester-atz
   frequency: 128.555
+
+- callsign: GOODWOOD INFORMATION
+  controls:
+  - goodwood-atz
+  frequency: 122.455
 
 - callsign: GRANSDEN LODGE RADIO
   controls:
@@ -622,11 +622,6 @@ service:
   - nottingham-atz
   frequency: 134.880
 
-- callsign: PEMBREY RADIO
-  controls:
-  - pembrey-atz
-  frequency: 124.400
-
 - callsign: OAKSEY PARK RADIO
   controls:
   - oaksey-park-noatz
@@ -663,6 +658,11 @@ service:
   - oxford-atz
   frequency: 125.090
 
+- callsign: PEMBREY RADIO
+  controls:
+  - pembrey-atz
+  frequency: 124.400
+
 - callsign: PERRANPORTH RADIO
   controls:
   - perranporth-noatz
@@ -672,16 +672,6 @@ service:
   controls:
   - perth-atz
   frequency: 121.080
-
-- callsign: SAINT ATHAN TOWER
-  controls:
-  - saint-athan-atz
-  frequency: 118.125
-
-- callsign: SIBSON RADIO
-  controls:
-  - sibson-noatz
-  frequency: 120.330
 
 - callsign: POPHAM RADIO
   controls:
@@ -708,6 +698,11 @@ service:
   controls:
   - rougham-noatz
   frequency: 123.165
+
+- callsign: SAINT ATHAN TOWER
+  controls:
+  - saint-athan-atz
+  frequency: 118.125
 
 - callsign: SANDTOFT RADIO
   controls:
@@ -751,6 +746,11 @@ service:
   controls:
   - shoreham-atz
   frequency: 123.155
+
+- callsign: SIBSON RADIO
+  controls:
+  - sibson-noatz
+  frequency: 120.330
 
 - callsign: SKEGNESS RADIO
   controls:
@@ -852,6 +852,11 @@ service:
   - walney-atz
   frequency: 123.205
 
+- callsign: WALTHAM RADIO
+  controls:
+  - white-waltham-atz
+  frequency: 122.605
+
 - callsign: WARTON RADAR
   controls:
   - warton-atz
@@ -878,11 +883,6 @@ service:
   controls:
   - west-wales-atz
   frequency: 122.150
-
-- callsign: WALTHAM RADIO
-  controls:
-  - white-waltham-atz
-  frequency: 122.605
 
 - callsign: WICK APPROACH
   controls:

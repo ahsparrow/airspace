@@ -10258,7 +10258,8 @@ airspace:
         radius: 1.5 nm
         centre: 514028N 0010507W
 
-- name: CHICHESTER
+# Chichester/Goodwood
+- name: GOODWOOD
   id: goodwood-atz
   type: ATZ
   geometry:
@@ -11482,7 +11483,8 @@ airspace:
       - 534726N 0015913W
       - 535539N 0020919W
 
-- name: LEEDS EAST
+# Leeds East
+- name: CHURCH FENTON
   id: fenton-atz
   type: ATZ
   geometry:
