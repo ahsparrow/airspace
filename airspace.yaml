@@ -8670,6 +8670,18 @@ airspace:
         radius: 1.5 nm
         centre: 532252N 0004107W
 
+- name: TURWESTON
+  id: turweston-noatz
+  type: OTHER
+  localtype: NOATZ
+  geometry:
+  - upper: 2438 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 1.5 nm
+        centre: 520227N 0010551W
+
 #----------------------------------------------------------------------
 # ENR 5.5 (cont) Ultralight flights
 
@@ -13440,15 +13452,3 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 501643N 0050833W
-
-- name: TURWESTON
-  id: turweston-noatz
-  type: OTHER
-  localtype: NOATZ
-  geometry:
-  - upper: 2438 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1.5 nm
-        centre: 520227N 0010551W
