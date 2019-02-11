@@ -13175,17 +13175,6 @@ airspace:
         radius: 1.5 nm
         centre: 530950N 0023415W
 
-- name: AYLESBURY
-  type: OTHER
-  localtype: NOATZ
-  geometry:
-  - upper: 2276 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1.5 nm
-        centre: 514636N 0005617W
-
 - name: BEMBRIDGE
   id: bembridge-noatz
   type: OTHER
