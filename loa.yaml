@@ -371,8 +371,8 @@ loa:
   - name: CAMPHILL BOX
     add:
     - name: CAMPHILL BOX FL100
-      type: AWY
-      class: A
+      type: D_OTHER
+      localtype: GLIDER
       geometry:
       - upper: FL100
         lower: FL85
@@ -388,8 +388,8 @@ loa:
           - 531137N 0013631W
 
     - name: CAMPHILL BOX FL190
-      type: AWY
-      class: A
+      type: D_OTHER
+      localtype: GLIDER
       geometry:
       - upper: FL190
         lower: FL100
@@ -471,8 +471,8 @@ loa:
   - name: L975 CROSSING AREA
     add:
     - name: L975 CROSSING FL120
-      type: AWY
-      class: A
+      type: D_OTHER
+      localtype: GLIDER
       geometry:
       - upper: FL120
         lower: FL55
@@ -493,8 +493,8 @@ loa:
           - 534030N 0011551W
 
     - name: L975 CROSSING FL190
-      type: AWY
-      class: A
+      type: D_OTHER
+      localtype: GLIDER
       geometry:
       - upper: FL190
         lower: FL120
