@@ -1,5 +1,6 @@
 AIRAC: 2019/03/28
   Update government aerodrome elevation data
+  EAST MIDLANDS frequency - Update
 
 Non-AIRAC
   CHELTENHAM FESTIVAL RA(T)
