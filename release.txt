@@ -103,15 +103,3 @@ Non-AIRAC
 
 AIRAC: 2018/04/26
   L70 - Move to Area Navigation routes
-
-Non-AIRAC:
-  ABINGDON AIRSHOW RA(T)
-  CHELTENHAM FESTIVAL RA(T) - Delete
-  CAMPHILL BOX - Update for new DAVENTRY CTA
-
-AIRAC: 2018/03/29
-  BERRY HEAD CTA - Replace parts of N90, N862 & N864
-  DAVENTRY CTA - Extend to include parts of N601
-  BRIMPTON - Update coordinates and elevation
-  CROMER - Delete UL site
-  GROVE FARM - Add UL site
