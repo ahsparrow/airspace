@@ -1671,7 +1671,7 @@ airspace:
   id: coningsby-atz
   type: ATZ
   geometry:
-  - upper: 2025 ft
+  - upper: 2024 ft
     lower: SFC
     boundary:
     - circle:
@@ -1826,7 +1826,7 @@ airspace:
   id: marham-atz
   type: ATZ
   geometry:
-  - upper: 2075 ft
+  - upper: 2077 ft
     lower: SFC
     boundary:
     - circle:
@@ -2240,8 +2240,8 @@ airspace:
   localtype: MATZ
   controltype: MILITARY
   geometry:
-  - upper: 3218 ft
-    lower: 1218 ft
+  - upper: 3222 ft
+    lower: 1222 ft
     boundary:
     - line:
       - 530420N 0002226W
@@ -2743,8 +2743,8 @@ airspace:
   localtype: MATZ
   controltype: MILITARY
   geometry:
-  - upper: 3092 ft
-    lower: 1092 ft
+  - upper: 3091 ft
+    lower: 1091 ft
     boundary:
     - line:
       - 542056N 0011336W
@@ -7499,7 +7499,7 @@ airspace:
   type: OTHER
   localtype: GLIDER
   geometry:
-  - upper: 3220 ft
+  - upper: 3222 ft
     lower: SFC
     boundary:
     - circle:
@@ -8318,7 +8318,7 @@ airspace:
   localtype: GLIDER
   controltype: MILITARY
   geometry:
-  - upper: 2092 ft
+  - upper: 2091 ft
     lower: SFC
     boundary:
     - circle:
