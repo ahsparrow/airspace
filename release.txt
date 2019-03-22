@@ -1,5 +1,6 @@
 Non-AIRAC
   SANDOWN A/F - Add radio
+  AMPIT TRIANGLE LOA - Correct replacement volume
 
 AIRAC: 2019/03/28
   Update government aerodrome elevation data

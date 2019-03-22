@@ -560,7 +560,8 @@ airspace:
   type: CTA
   class: C
   geometry:
-  - seqno: 1
+  - id: holyhead-cta1
+    seqno: 1
     upper: FL195
     lower: FL145
     boundary:
