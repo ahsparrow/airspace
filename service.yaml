@@ -704,6 +704,11 @@ service:
   - saint-athan-atz
   frequency: 118.125
 
+- callsign: SANDOWN RADIO
+  controls:
+  - sandown-noatz
+  frequency: 119.280
+
 - callsign: SANDTOFT RADIO
   controls:
   - sandtoft-atz
