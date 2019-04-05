@@ -1,6 +1,7 @@
 Non-AIRAC
   SANDOWN A/F - Add radio
   AMPIT TRIANGLE LOA - Correct replacement volume
+  R105 HIGHGROVE HOUSE LOA - Add without replacing restricted area
 
 AIRAC: 2019/03/28
   Update government aerodrome elevation data

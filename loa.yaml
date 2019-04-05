@@ -1209,10 +1209,9 @@ loa:
 - name: HIGHGROVE HOUSE
   areas:
   - name: HIGHGROVE HOUSE
-    add: []
-
-    replace:
-    - id: r105
+    add:
+    - name: HIGHGROVE HOUSE
+      type: R
       geometry:
       - upper: 860 ft
         lower: SFC
@@ -1220,6 +1219,8 @@ loa:
         - circle:
             radius: 0.6 km
             centre: 513724N 0021048W
+
+    replace: []
 
 #----------------------------------------------------------------------
 - name: LASHAM COMPS
