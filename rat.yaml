@@ -49,3 +49,14 @@ rat:
         radius: 2 nm
         centre: 513642N 0004830W
         to: 513514N 0005040W
+
+- name: YEOVILTON (12-13 JULY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 8500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 510033N 0023820W
