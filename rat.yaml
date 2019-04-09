@@ -17,26 +17,6 @@
 # YAXIM project on GitLab at https://gitlab.com/ahsparrow/yaixm.
 
 rat:
-- name: CHELTENHAM FESTIVAL (12-15 MAR)
-  type: OTHER
-  localtype: RAT
-  geometry:
-  - upper: 3000 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 515515N 0020805W
-    - arc:
-        dir: cw
-        radius: 3 nm
-        centre: 515533N 0020316W
-        to: 515331N 0020649W
-    - arc:
-        dir: ccw
-        radius: 2 nm
-        centre: 515339N 0021002W
-        to: 515515N 0020805W
-
 - name: ABINGDON AIRSHOW (4-5 MAY)
   type: OTHER
   localtype: RAT
