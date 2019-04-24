@@ -43,6 +43,17 @@ rat:
         centre: 520512N 0001907W
         to: 520258N 0001553W
 
+- name: MIDLANDS AIR FESTIVAL (17-19 MAY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 4500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.5 nm
+        centre: 522951N 0013019W
+
 - name: DUXFORD FESTIVAL (25-26 MAY)
   type: OTHER
   localtype: RAT
