@@ -178,7 +178,7 @@ obstacle:
   type: RTM
   id: UK0171E680F
   position: 544355N 0025259W
-  elevation: 1811 ft
+  elevation: 1789 ft
 - name: BILSDALE RTM
   type: RTM
   id: UK0171A310F
@@ -244,11 +244,6 @@ obstacle:
   id: UK0171E898F
   position: 533200N 0015130W
   elevation: 2502 ft
-- name: SHEFFIELD CRANE
-  type: CRN
-  id: UK18636593F
-  position: 532244N 0012821W
-  elevation: 885 ft
 - name: FIDDLERS CMN
   type: CHIM
   id: UK0171A176F
@@ -342,18 +337,18 @@ obstacle:
 - name: DIDCOT CMN
   type: CHIM
   id: UK0230A091F
-  position: 513720N 0011539W
+  position: 513720N 0011538W
   elevation: 828 ft
 - name: DARTFORD PYL
   type: PYL
   id: UK0230A058F
   position: 512804N 0001716E
-  elevation: 660 ft
+  elevation: 640 ft
 - name: LITTLEBROOK CMN
   type: CHIM
   id: UK0230A055F
   position: 512801N 0001431E
-  elevation: 697 ft
+  elevation: 703 ft
 - name: DARTFORD PYL
   type: PYL
   id: UK0230I251F
@@ -373,7 +368,7 @@ obstacle:
   type: RTM
   id: UK0229A034F
   position: 512727N 0032411W
-  elevation: 1161 ft
+  elevation: 1163 ft
 - name: WOKING CRANE
   type: CRN
   id: UK18638196F
@@ -383,7 +378,7 @@ obstacle:
   type: RTM
   id: UK0229A024F
   position: 511413N 0023731W
-  elevation: 2003 ft
+  elevation: 1955 ft
 - name: DOVER RTM
   type: RTM
   id: UK0230A027F
@@ -393,7 +388,7 @@ obstacle:
   type: OBST
   id: UK18638181F
   position: 505208N 0005243W
-  elevation: 1618 ft
+  elevation: 1118 ft
 - name: FAWLEY CMN
   type: CHIM
   id: UK0230D709F
@@ -403,7 +398,12 @@ obstacle:
   type: BLDG
   id: UK0229A015F
   position: 504826N 0030618W
-  elevation: 1527 ft
+  elevation: 1542 ft
+- name: RAMPISHAM RTM
+  type: RTM
+  id: UK27999326F
+  elevation: 1343 ft
+  position: 504818N 0023852W
 - name: ROWRIDGE RTM
   type: RTM
   id: UK0230N156F
