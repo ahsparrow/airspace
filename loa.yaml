@@ -1223,6 +1223,22 @@ loa:
     replace: []
 
 #----------------------------------------------------------------------
+- name: HIGHGROVE HOUSE (HG/PG)
+  areas:
+  - name: HIGHGROVE HOUSE
+    add: []
+
+    replace:
+    - id: r105
+      geometry:
+      - upper: 860 ft
+        lower: SFC
+        boundary:
+        - circle:
+            radius: 0.6 km
+            centre: 513724N 0021048W
+
+#----------------------------------------------------------------------
 - name: LASHAM COMPS
   areas:
   - name: COMPTON BOX
@@ -2079,7 +2095,7 @@ loa:
 # Westbury Danger Area Concessions
 # Data from Nev Almond (n_almond@hotmail.com)
 
-- name: WESTBURY CONCESSIONS
+- name: WESTBURY CONCESSIONS (HG/PG)
   areas:
   - name: WESTBURY CONCESSIONS
     add:
