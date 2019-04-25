@@ -4441,7 +4441,7 @@ airspace:
       - 513217N 0004804E
       - 513714N 0005000E
 
-- name: D139 FINGERNHOE
+- name: D139 FINGRINGHOE
   type: D
   rules:
   - SI
@@ -4455,7 +4455,7 @@ airspace:
       - 514833N 0005848E
       - 514839N 0005452E
 
-- name: D139 FINGRNHOE
+- name: D139 FINGRINGHOE
   type: D
   rules:
   - NOTAM
@@ -5182,7 +5182,7 @@ airspace:
       - 562735N 0023943W
       - 562738N 0024829W
 
-- name: D604 BARRY BUDDN
+- name: D604 BARRY BUDDON
   type: D
   rules:
   - SI
