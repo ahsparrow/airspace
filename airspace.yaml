@@ -8821,6 +8821,7 @@ airspace:
         centre: 530713N 0005318W
 
 - name: CHATTERIS
+  id: chatteris-ul
   type: OTHER
   localtype: UL
   geometry:

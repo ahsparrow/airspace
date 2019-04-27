@@ -159,6 +159,11 @@ service:
   - chalgrove-noatz
   frequency: 125.410
 
+- callsign: CHATTERIS RADIO
+  controls:
+  - chatteris-ul
+  frequency: 129.905
+
 - callsign: CHILTERN RADIO
   controls:
   - chiltern-park-dz
@@ -552,7 +557,7 @@ service:
   controls:
   - long-marston-noatz
   - long-marston-ul
-  frequency: 129.825
+  frequency: 129.830
 
 - callsign: LOSSIE RADAR
   controls:
