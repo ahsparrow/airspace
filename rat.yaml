@@ -271,7 +271,7 @@ rat:
       - 514458N 0004602W
       - 514349N 0011753W
 
-- name: TAUNTON (8-17 JUNE
+- name: TAUNTON (8-17 JUNE)
   type: OTHER
   localtype: RAT
   geometry:
@@ -303,6 +303,17 @@ rat:
         radius: 2 nm
         centre: 513642N 0004830W
         to: 513514N 0005040W
+
+- name: STONEHENGE (20-21 JUNE)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 3000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 3 nm
+        centre: 511044N 0014934W
 
 - name: FOLKESTONE (30 JUNE)
   type: OTHER
