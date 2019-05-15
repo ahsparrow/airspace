@@ -54,6 +54,50 @@ rat:
         radius: 2.2 nm
         centre: 520539N 0000753E
 
+- name: DUXFORD DAKOTAS (5 JUNE)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 4500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.2 nm
+        centre: 520539N 0000753E
+
+  - upper: 3500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 520751N 0000800E
+    - arc:
+        dir: cw
+        radius: 2.2 nm
+        centre: 520539N 0000753E
+        to: 520329N 0000721E
+    - line:
+      - 520329N 0000721E
+      - 520031N 0004123E
+      - 515219N 0005018E
+      - 515350N 0010013E
+      - 520514N 0004757E
+  - upper: 3500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 515219N 0005018E
+      - 511721N 0002729E
+      - 511539N 0003644E
+      - 515350N 0010013E
+  - upper: 3500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 511721N 0002729E
+      - 504644N 0001228E
+      - 504555N 0002148E
+      - 511539N 0003644E
+
 - name: COSFORD (7-9 JUNE)
   type: OTHER
   localtype: RAT
