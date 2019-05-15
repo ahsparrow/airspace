@@ -152,6 +152,45 @@ rat:
         radius: 6 nm
         centre: 523831N 0021805W
 
+- name: QUEEN'S BIRTHDAY REHERSAL (3-5 JUNE)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 10000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 525209N 0022026E
+      - 523249N 0025026E
+      - 522558N 0024447E
+      - 520814N 0020909E
+      - 520436N 0015041E
+      - 522200N 0012000E
+  - upper: 7000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 524111N 0003539E
+      - 522620N 0012700E
+      - 522252N 0012010E
+      - 523636N 0003222E
+  - upper: 3000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 531514N 0002624W
+      - 530114N 0002114W
+      - 524111N 0003539E
+      - 523636N 0003222E
+      - 530332N 0004246W
+      - 531459N 0004230W
+      - 531619N 0004034W
+    - arc:
+        dir: ccw
+        radius: 5 nm
+        centre: 531828N 0003303W
+        to: 531514N 0002624W
+
 - name: QUEEN'S BIRTHDAY (8 JUNE)
   type: OTHER
   localtype: RAT
