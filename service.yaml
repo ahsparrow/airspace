@@ -270,7 +270,7 @@ service:
   controls:
   - doncaster-cta
   - doncaster-ctr
-  frequency: 126.230
+  frequency: 126.225
 
 - callsign: DUNDEE APPROACH
   controls:
