@@ -54,6 +54,17 @@ rat:
         radius: 2.2 nm
         centre: 520539N 0000753E
 
+- name: OLD WARDEN (2 JUNE)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 3500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 520517N 0001904W
+
 - name: DUXFORD DAKOTAS (5 JUNE)
   type: OTHER
   localtype: RAT
@@ -97,6 +108,32 @@ rat:
       - 504644N 0001228E
       - 504555N 0002148E
       - 511539N 0003644E
+
+- name: PORTSMOUTH (5 JUNE)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 5500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 8 nm
+        centre: 504650N 0010521W
+  - upper: 8000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 8 nm
+        centre: 504640N 0010538W
+  - upper: FL65
+    lower: SFC
+    boundary:
+    - line:
+      - 504845N 0005306W
+      - 504847N 0003137W
+      - 504132N 0002357W
+      - 503700N 0003938W
+      - 503700N 0010211W
 
 - name: COSFORD (7-9 JUNE)
   type: OTHER
