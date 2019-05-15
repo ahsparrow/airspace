@@ -4809,6 +4809,67 @@ airspace:
         radius: 0.5 nm
         centre: 531343N 0015528W
 
+- name: D323F SOUTHERN MDA
+  type: D
+  geometry:
+  - upper: FL660
+    lower: FL150
+    boundary:
+    - line:
+      - 545744N 0005457W
+      - 544841N 0005456W
+      - 542402N 0005518W
+      - 544229N 0011251W
+      - 545210N 0010815W
+      - 545513N 0010343W
+
+- name: D323G SOUTHERN MDA
+  type: D
+  geometry:
+  - upper: FL660
+    lower: FL150
+    boundary:
+    - line:
+      - 544841N 0005456W
+      - 543102N 0003132W
+      - 542402N 0005518W
+
+- name: D323H SOUTHERN MDA
+  type: D
+  geometry:
+  - upper: FL660
+    lower: FL150
+    boundary:
+    - line:
+      - 543102N 0003132W
+      - 541451N 0001028W
+      - 540726N 0003547W
+      - 542402N 0005518W
+
+- name: D323J SOUTHERN MDA
+  type: D
+  geometry:
+  - upper: FL660
+    lower: FL150
+    boundary:
+    - line:
+      - 541451N 0001028W
+      - 540644N 0000002W
+      - 535908N 0002606W
+      - 540726N 0003547W
+
+- name: D323K SOUTHERN MDA
+  type: D
+  geometry:
+  - upper: FL660
+    lower: FL150
+    boundary:
+    - line:
+      - 540644N 0000002W
+      - 533813N 0003557E
+      - 534331N 0000805W
+      - 535908N 0002606W
+
 - name: D402A LUCE BAY (N)
   type: D
   geometry:
