@@ -17,17 +17,6 @@
 # YAXIM project on GitLab at https://gitlab.com/ahsparrow/yaixm.
 
 rat:
-- name: ABINGDON AIRSHOW (4-5 MAY)
-  type: OTHER
-  localtype: RAT
-  geometry:
-  - upper: 5000 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 5 nm
-        centre: 514128N 0011900W
-
 - name: OLD WARDEN (VARIOUS DATES)
   type: OTHER
   localtype: RAT
