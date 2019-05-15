@@ -185,6 +185,17 @@ rat:
         radius: 6 nm
         centre: 510425N 0011030E
 
+- name: GOODWOOD (5-7 JULY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 8200 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 505220N 0004346W
+
 - name: YEOVILTON (12-13 JULY)
   type: OTHER
   localtype: RAT
