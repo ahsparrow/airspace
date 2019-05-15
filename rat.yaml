@@ -206,3 +206,14 @@ rat:
     - circle:
         radius: 6 nm
         centre: 510033N 0023820W
+
+- name: DUXFORD (13 JULY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 8000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 520532N 0000750E
