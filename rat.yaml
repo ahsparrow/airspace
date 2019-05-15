@@ -152,6 +152,86 @@ rat:
         radius: 6 nm
         centre: 523831N 0021805W
 
+- name: QUEEN'S BIRTHDAY (8 JUNE)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 10000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 525209N 0022026E
+      - 523249N 0025026E
+      - 522558N 0024447E
+      - 520814N 0020909E
+      - 520436N 0015041E
+      - 522200N 0012000E
+  - upper: 7000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 521650N 0012910E
+      - 521325N 0013513E
+      - 515710N 0010319E
+      - 520058N 0005809E
+  - upper: 4000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 515551N 0004820E
+      - 520058N 0005809E
+      - 515710N 0010319E
+      - 515205N 0005331E
+  - upper: 3000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 515039N 0003538E
+      - 515500N 0004643E
+      - 515551N 0004820E
+      - 515205N 0005331E
+      - 515048N 0005103E
+      - 514628N 0003949E
+  - upper: 2500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 513433N 0000433W
+      - 515039N 0003538E
+      - 514628N 0003949E
+      - 513409N 0000826E
+  - upper: 2500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 513611N 0001253W
+      - 513611N 0004133W
+      - 512700N 0004133W
+      - 512700N 0000826E
+      - 513409N 0000826E
+      - 513445N 0001108W
+    - arc:
+        dir: ccw
+        radius: 12 nm
+        centre: 512812N 0002713W
+        to: 513611N 0001253W
+  - upper: 2500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 515008N 0004230W
+      - 513611N 0002353W
+      - 513611N 0004133W
+      - 514458N 0004602W
+  - upper: 2500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 514834N 0011958W
+      - 515008N 0004230W
+      - 514458N 0004602W
+      - 514349N 0011753W
+
 - name: BOOKER (13-15 JUNE)
   type: OTHER
   localtype: RAT
