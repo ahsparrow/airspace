@@ -217,3 +217,14 @@ rat:
     - circle:
         radius: 6 nm
         centre: 520532N 0000750E
+
+- name: SILVERSTONE (14 JULY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 8500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 520418N 0010022W
