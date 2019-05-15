@@ -271,6 +271,17 @@ rat:
       - 514458N 0004602W
       - 514349N 0011753W
 
+- name: TAUNTON (8-17 JUNE
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 2500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.75 nm
+        centre: 510108N 0030603W
+
 - name: BOOKER (13-15 JUNE)
   type: OTHER
   localtype: RAT
