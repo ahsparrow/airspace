@@ -239,3 +239,14 @@ rat:
     - circle:
         radius: 0.75 nm
         centre: 522013N 0013549E
+
+- name: BESTIVAL (25-29 JULY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 2500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.75 nm
+        centre: 503823N 0021225W
