@@ -54,6 +54,17 @@ rat:
         radius: 2.2 nm
         centre: 520539N 0000753E
 
+- name: COSFORD (7-9 JUNE)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 5000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 523824N 0021819W
+
 - name: BOOKER (13-15 JUNE)
   type: OTHER
   localtype: RAT
