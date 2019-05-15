@@ -229,7 +229,7 @@ rat:
         radius: 6 nm
         centre: 520418N 0010022W
 
-- name: LATITUDE (18-22 JULY)
+- name: LATITUDE FESTIVAL (18-22 JULY)
   type: OTHER
   localtype: RAT
   geometry:
@@ -250,3 +250,25 @@ rat:
     - circle:
         radius: 0.75 nm
         centre: 503823N 0021225W
+
+- name: READING FESTIVAL (21-26 AUG)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 2500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 1.25 nm
+        centre: 512758N 0005953W
+
+- name: LEEDS FESTIVAL (21-26 AUG)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 2500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 1.25 nm
+        centre: 535202N 0012255W
