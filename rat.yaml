@@ -130,3 +130,58 @@ rat:
     - circle:
         radius: 6 nm
         centre: 520418N 0010022W
+
+- name: RIAT (17-21 JULY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: FL85
+    lower: SFC
+    boundary:
+    - line:
+      - 514433N 0020502W
+      - 514733N 0014405W
+      - 515006N 0012925W
+    - arc:
+        dir: cw
+        radius: 5.5 nm
+        centre: 514513N 0013334W
+        to: 514737N 0012537W
+    - line:
+      - 514737N 0012537W
+      - 514834N 0011958W
+      - 514349N 0011753W
+      - 513621N 0012737W
+      - 514124N 0021027W
+    - arc:
+        dir: cw
+        radius: 4.6 nm
+        centre: 514005N 0020322W
+        to: 514433N 0020502W
+  - upper: FL65
+    lower: SFC
+    boundary:
+    - line:
+      - 514124N 0021027W
+      - 513621N 0012737W
+      - 513600N 0012800W
+      - 513500N 0014600W
+      - 513530N 0020341W
+    - arc:
+        dir: cw
+        radius: 4.6 nm
+        centre: 514005N 0020322W
+        to: 514124N 0021027W
+
+- name: RIAT (22 JULY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: FL65
+    lower: SFC
+    boundary:
+    - line:
+      - 514343N 0015711W
+      - 514410N 0013753W
+      - 513732N 0013728W
+      - 513747N 0015652W
