@@ -76,6 +76,17 @@ rat:
         radius: 3 nm
         centre: 511044N 0014934W
 
+- name: GLASTONBURY (23 JUNE-1 JULY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 3100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.5 nm
+        centre: 510921N 0023510W
+
 - name: FOLKESTONE (30 JUNE)
   type: OTHER
   localtype: RAT
