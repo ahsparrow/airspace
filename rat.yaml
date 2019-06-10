@@ -109,6 +109,17 @@ rat:
         radius: 6 nm
         centre: 505220N 0004346W
 
+- name: LASHENDEN (6-7 JULY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 3500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 3 nm
+        centre: 510927N 0003827E
+
 - name: YEOVILTON (12-13 JULY)
   type: OTHER
   localtype: RAT
