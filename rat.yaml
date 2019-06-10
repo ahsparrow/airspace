@@ -87,6 +87,17 @@ rat:
         radius: 2.5 nm
         centre: 510921N 0023510W
 
+- name: SALISBURY (29 JUNE)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 4000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.5 nm
+        centre: 510500N 0014800W
+
 - name: FOLKESTONE (30 JUNE)
   type: OTHER
   localtype: RAT
