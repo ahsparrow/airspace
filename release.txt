@@ -3,6 +3,7 @@ Non-AIRAC:
   GLASTONBURY RA(T)
   LASHENDEN RA(T)
   SALISBURY RA(T)
+  LYDD ILS - Straighten up feathers
 
 AIRAC: 2019/06/20
   No changes
