@@ -8316,6 +8316,7 @@ airspace:
         centre: 555234N 0032400W
 
 - name: LITTLE RISSINGTON
+  id: little-rissington-glider
   type: OTHER
   localtype: GLIDER
   controltype: MILITARY

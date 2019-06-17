@@ -542,6 +542,11 @@ service:
   - linton-matz
   frequency: 118.550
 
+- callsign: LITTLE RISSINGTON RADIO
+  controls:
+  - litte-rissington-glider
+  frequency: 124.100
+
 - callsign: LIVERPOOL APPROACH
   controls:
   - liverpool-cta
