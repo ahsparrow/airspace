@@ -157,6 +157,40 @@ rat:
         centre: 514005N 0020322W
         to: 514124N 0021027W
 
+- name: FAIRFORD RIAT FLYPAST (19-20 JULY)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 10000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 521900N 0024500W
+      - 521900N 0021830W
+      - 521813N 0021130W
+      - 521544N 0020755W
+      - 521610N 0020000W
+      - 515600N 0020000W
+      - 515600N 0024700W
+  - upper: 6000 ft
+    lower : SFC
+    boundary:
+    - line:
+      - 515006N 0012925W
+      - 514733N 0014405W
+      - 514630N 0015200W
+      - 515600N 0020000W
+      - 520500N 0020000W
+      - 515600N 0015000W
+      - 515557N 0012220W
+      - 514809N 0012228W
+      - 514737N 0012537W
+    - arc:
+        dir: ccw
+        radius: 5.5 nm
+        centre: 514513N 0013334W
+        to: 515006N 0012925W
+
 - name: FAIRFORD RIAT (22 JULY)
   type: OTHER
   localtype: RAT
