@@ -4,6 +4,9 @@ Non-AIRAC:
   LASHENDEN RA(T)
   SALISBURY RA(T)
   LYDD ILS - Straighten up feathers
+  LASHENDEN RA(T)
+  FAIRFORD RIAT FLYPAST RA(T)
+  EASTBOURNE RA(T)
 
 AIRAC: 2019/06/20
   No changes
