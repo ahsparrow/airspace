@@ -1,3 +1,6 @@
+AIRAC: 2019/07/18
+  BUCHAN HIRTA - Updated coordinates
+
 Non-AIRAC:
   FAIRFORD RIAT RA(T)
   GLASTONBURY RA(T)

@@ -6686,7 +6686,7 @@ airspace:
     boundary:
     - circle:
         radius: 0.65 nm
-        centre: 572759N 0014706W
+        centre: 572728N 0014852W
 
 - name: CALDBECK
   type: D_OTHER
