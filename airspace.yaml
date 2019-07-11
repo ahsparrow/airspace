@@ -4264,6 +4264,8 @@ airspace:
 
 - name: D127 PORTON
   type: D
+  rules:
+  - SI
   geometry:
   - upper: 12000 ft
     lower: SFC
