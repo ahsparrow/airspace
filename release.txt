@@ -1,6 +1,11 @@
 AIRAC: 2019/08/15
   SAINT ATHAN ATZ - Remove
 
+Non-AIRAC:
+  TOPCLIFFE RA(T)
+  RHYL RA(T)
+  DUXFORD RA(T)
+
 AIRAC: 2019/07/18
   BUCHAN HIRTA - Updated coordinates
 

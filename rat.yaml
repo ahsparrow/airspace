@@ -79,3 +79,14 @@ rat:
       - 532041N 0032430W
       - 531659N 0033225W
       - 532008N 0033630W
+
+- name: DUXFORD (21-22 SEP)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 4599 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.2 nm
+        centre: 520539N 0000753E
