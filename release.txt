@@ -1,3 +1,6 @@
+AIRAC: 2019/08/15
+  SAINT ATHAN ATZ - Remove
+
 AIRAC: 2019/07/18
   BUCHAN HIRTA - Updated coordinates
 

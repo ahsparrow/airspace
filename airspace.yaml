@@ -1939,22 +1939,6 @@ airspace:
         radius: 2 nm
         centre: 500007N 0051354W
 
-- name: SAINT ATHAN
-  id: saint-athan-atz
-  type: ATZ
-  geometry:
-  - upper: 2163 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 512532N 0032328W
-      - 512241N 0032410W
-    - arc:
-        dir: cw
-        radius: 2 nm
-        centre: 512419N 0032600W
-        to: 512532N 0032328W
-
 - name: SCAMPTON
   id: scampton-atz
   type: ATZ

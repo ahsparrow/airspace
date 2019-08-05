@@ -709,11 +709,6 @@ service:
   - rougham-noatz
   frequency: 123.165
 
-- callsign: SAINT ATHAN TOWER
-  controls:
-  - saint-athan-atz
-  frequency: 118.125
-
 - callsign: SANDOWN RADIO
   controls:
   - sandown-noatz
