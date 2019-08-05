@@ -56,16 +56,16 @@ rat:
       - 505038N 0001835E
       - 504506N 0000930E
 
-- name: TOPCLIFFE (31 AUG-14 SEP)
+- name: BENSON (15 AUG)
   type: OTHER
   localtype: RAT
   geometry:
-  - upper: 6000 ft
+  - upper: 3000 ft
     lower: SFC
     boundary:
     - circle:
-        radius: 2 nm
-        centre: 541219N 0012329W
+        radius: 3 nm
+        centre: 513704N 0010543W
 
 - name: RHYL (24-25 AUG)
   type: OTHER
@@ -79,6 +79,17 @@ rat:
       - 532041N 0032430W
       - 531659N 0033225W
       - 532008N 0033630W
+
+- name: TOPCLIFFE (31 AUG-14 SEP)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 6000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2 nm
+        centre: 541219N 0012329W
 
 - name: DUXFORD (21-22 SEP)
   type: OTHER
