@@ -66,3 +66,16 @@ rat:
     - circle:
         radius: 2 nm
         centre: 541219N 0012329W
+
+- name: RHYL (24-25 AUG)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 3000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 532349N 0032837W
+      - 532041N 0032430W
+      - 531659N 0033225W
+      - 532008N 0033630W
