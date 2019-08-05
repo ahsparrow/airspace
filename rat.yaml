@@ -80,6 +80,28 @@ rat:
       - 531659N 0033225W
       - 532008N 0033630W
 
+- name: SYWELL (29 AUG-1 SEP)
+  type: OTHER
+  localtype: RAT
+  geometry:
+  - upper: 3500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 522121N 0004311W
+    - arc:
+        dir: cw
+        radius: 4 nm
+        centre: 521822N 0004732W
+        to: 521521N 0004316W
+    - line:
+      - 521521N 0005508W
+    - arc:
+        dir: cw
+        radius: 4 nm
+        centre: 521822N 0005052W
+        to: 522121N 0005513W
+
 - name: TOPCLIFFE (31 AUG-14 SEP)
   type: OTHER
   localtype: RAT

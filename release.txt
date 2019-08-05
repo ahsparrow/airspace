@@ -6,6 +6,7 @@ Non-AIRAC:
   RHYL RA(T)
   DUXFORD RA(T)
   BENSON RA(T)
+  SYWELL RA(T)
 
 AIRAC: 2019/07/18
   BUCHAN HIRTA - Updated coordinates
