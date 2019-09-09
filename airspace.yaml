@@ -5084,6 +5084,21 @@ airspace:
         radius: 0.65 nm
         centre: 550845N 0021007W
 
+- name: D509 CAMPBELTOWN
+  type: D
+  geometry:
+  - upper: 55000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 551230N 0053900W
+      - 551230N 0050636W
+      - 550706N 0050700W
+      - 545930N 0051542W
+      - 545548N 0052800W
+      - 550630N 0054300W
+      - 551230N 0053900W
+
 - name: D510B SPADEADAM
   type: D
   geometry:
