@@ -1,10 +1,13 @@
 AIRAC: 2019/09/12
+  COVENTRY - Frequency change
   HAVERFORDWEST DZ - Add
+  LITTLE RISSINGTON - Frequency change
 
 Non-AIRAC:
   HARROGATE RA(T)
   WALES RALLY RA(T)
   WOKING CRANE - Remove
+  D509 CAMPBELTOWN - Add (offshore)
 
 AIRAC: 2019/08/15
   SAINT ATHAN ATZ - Remove

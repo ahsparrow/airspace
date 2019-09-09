@@ -219,7 +219,7 @@ service:
 - callsign: COVENTRY INFORMATION
   controls:
   - coventry-atz
-  frequency: 123.825
+  frequency: 123.830
 
 - callsign: CRANFIELD APPROACH
   controls:
@@ -545,7 +545,7 @@ service:
 - callsign: LITTLE RISSINGTON RADIO
   controls:
   - litte-rissington-glider
-  frequency: 124.100
+  frequency: 120.775
 
 - callsign: LIVERPOOL APPROACH
   controls:
