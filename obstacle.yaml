@@ -369,11 +369,6 @@ obstacle:
   id: UK0229A034F
   position: 512727N 0032411W
   elevation: 1163 ft
-- name: WOKING CRANE
-  type: CRN
-  id: UK18638196F
-  position: 511906N 0003339W
-  elevation: 758 ft
 - name: MENDIP RTM
   type: RTM
   id: UK0229A024F
