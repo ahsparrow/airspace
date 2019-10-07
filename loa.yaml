@@ -2110,6 +2110,38 @@ loa:
           - 513943N 0002551E
 
 #----------------------------------------------------------------------
+- name: UBLEY (HG/PG)
+  areas:
+  - name: UBLEY
+    add:
+    - name: UBLEY
+      type: CTR
+      class: D
+      geometry:
+      - lower: SFC
+        upper: 2500 ft
+        boundary:
+        - line:
+          - 511940N 0024247W
+          - 511758N 0024259W
+        - arc:
+            dir: ccw
+            radius: 5 nm
+            centre: 512258N 0024309W
+            to: 511836N 0023915W
+      - lower: 1500 ft
+        upper: 2500 ft
+        boundary:
+        - line: 
+          - 511807N 0023915W
+          - 511758N 0024259W
+        - arc:
+            dir: ccw
+            radius: 5 nm
+            centre: 512258N 0024309W
+            to: 511836N 0023915W
+
+#----------------------------------------------------------------------
 # Westbury Danger Area Concessions
 # Data from Nev Almond (n_almond@hotmail.com)
 
