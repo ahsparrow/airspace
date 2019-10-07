@@ -3759,6 +3759,7 @@ airspace:
   type: D
   rules:
   - SI
+  - NOTAM
   geometry:
   - upper: 10000 ft
     lower: SFC
@@ -3794,6 +3795,7 @@ airspace:
   type: D
   rules:
   - SI
+  - NOTAM
   geometry:
   - upper: 4500 ft
     lower: SFC
@@ -3825,6 +3827,7 @@ airspace:
   type: D
   rules:
   - SI
+  - NOTAM
   geometry:
   - upper: 10000 ft
     lower: SFC
