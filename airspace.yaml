@@ -10054,6 +10054,7 @@ airspace:
       - 512349N 0030302W
       - 512715N 0030058W
   - seqno: 5
+    id: bristol-cta-5
     upper: FL105
     lower: 3000 ft
     boundary:

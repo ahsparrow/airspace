@@ -1206,9 +1206,9 @@ loa:
           - 524800N 0015216W
 
 #----------------------------------------------------------------------
-- name: HALESLAND A
+- name: HALESLAND
   areas:
-  - name: HALESLAND A
+  - name: HALESLAND
     add:
     - name: HALESLAND A
       class: D
@@ -1222,6 +1222,46 @@ loa:
           - 511541N 0025003W
           - 511607N 0023850W
           - 511807N 0023850W
+    - name: HALESLAND B
+      class: D
+      type: CTA
+      geometry:
+      - upper: 4000 ft
+        lower: 3000 ft
+        boundary:
+        - line:
+          - 511607N 0023850W
+          - 511807N 0023850W
+          - 511826N 0023045W
+        - arc:
+            dir: cw
+            radius: 9 nm
+            centre: 512258N 0024309W
+            to: 511620N 0023328W
+    replace:
+      - id: bristol-cta-5
+        geometry:
+        - upper: FL105
+          lower: 3000 ft
+          boundary:
+          - line:
+            - 511247N 0030302W
+            - 511709N 0030302W
+            - 511740N 0025003W
+            - 511541N 0025003W
+            - 511538N 0025120W
+        - upper: FL105
+          lower: 4000 ft
+          boundary:
+          - line:
+            - 511541N 0025003W
+            - 511740N 0025003W
+            - 511826N 0023045W
+          - arc:
+              dir: cw
+              radius: 9 nm
+              centre: 512258N 0024309W
+              to: 511620N 0023328W
 
 #----------------------------------------------------------------------
 - name: HIGHGROVE HOUSE
