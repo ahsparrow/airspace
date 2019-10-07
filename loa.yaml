@@ -1206,6 +1206,24 @@ loa:
           - 524800N 0015216W
 
 #----------------------------------------------------------------------
+- name: HALESLAND A
+  areas:
+  - name: HALESLAND A
+    add:
+    - name: HALESLAND A
+      class: D
+      type: CTA
+      geometry:
+      - upper: 4000 ft
+        lower: 3000 ft
+        boundary:
+        - line:
+          - 511740N 0025003W
+          - 511541N 0025003W
+          - 511607N 0023850W
+          - 511807N 0023850W
+
+#----------------------------------------------------------------------
 - name: HIGHGROVE HOUSE
   areas:
   - name: HIGHGROVE HOUSE

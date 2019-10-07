@@ -2,6 +2,9 @@ AIRAC: 2019/10/10
   HAVERFORDWEST ATZ - Update coordinates
   YEOVILTON ATZ - Remove overlap with YEOVIL ATZ
 
+Non-AIRAC:
+  HALESLAND A - Add LoA
+
 AIRAC: 2019/09/12
   COVENTRY - Frequency change
   HAVERFORDWEST DZ - Add
