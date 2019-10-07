@@ -9972,7 +9972,8 @@ airspace:
   type: CTR
   class: D
   geometry:
-  - upper: FL105
+  - id: bristol-ctr
+    upper: FL105
     lower: SFC
     boundary:
     - circle:
@@ -9985,6 +9986,7 @@ airspace:
   class: D
   geometry:
   - seqno: 1
+    id: bristol-cta-1
     upper: FL105
     lower: 1500 ft
     boundary:

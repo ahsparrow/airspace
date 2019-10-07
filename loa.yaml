@@ -2172,7 +2172,7 @@ loa:
       - lower: 1500 ft
         upper: 2500 ft
         boundary:
-        - line: 
+        - line:
           - 511807N 0023915W
           - 511758N 0024259W
         - arc:
@@ -2180,6 +2180,62 @@ loa:
             radius: 5 nm
             centre: 512258N 0024309W
             to: 511836N 0023915W
+    replace:
+      - id: bristol-ctr
+        geometry:
+        - upper: FL105
+          lower: SFC
+          boundary:
+          - line:
+            - 511940N 0024247W
+            - 511758N 0024259W
+          - arc:
+              dir: cw
+              radius: 5 nm
+              centre: 512258N 0024309W
+              to: 511836N 0023915W
+        - lower: 2500 ft
+          upper: FL105
+          boundary:
+          - line:
+            - 511940N 0024247W
+            - 511758N 0024259W
+          - arc:
+              dir: ccw
+              radius: 5 nm
+              centre: 512258N 0024309W
+              to: 511836N 0023915W
+      - id: bristol-cta-1
+        geometry:
+        - upper: FL105
+          lower: 2500 ft
+          boundary:
+          - line:
+            - 511807N 0023915W
+            - 511758N 0024259W
+          - arc:
+              dir: ccw
+              radius: 5 nm
+              centre: 512258N 0024309W
+              to: 511836N 0023915W
+        - upper: FL105
+          lower: 1500 ft
+          boundary:
+          - line:
+            - 512824N 0023142W
+          - arc:
+              dir: cw
+              radius: 9 nm
+              centre: 512258N 0024309W
+              to: 511826N 0023045W
+          - line:
+            - 511807N 0023915W
+            - 511836N 0023915W
+          - arc:
+              dir: ccw
+              radius: 5 nm
+              centre: 512258N 0024309W
+              to: 512757N 0024339W
 
 #----------------------------------------------------------------------
 # Westbury Danger Area Concessions
