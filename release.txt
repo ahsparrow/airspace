@@ -6,6 +6,7 @@ Non-AIRAC:
   HALESLAND A - Add LoA
   UBLEY - Add LoA
   D011A/B/C - Should be NOTAM activated
+  USK - Added radio frequency
 
 AIRAC: 2019/09/12
   COVENTRY - Frequency change

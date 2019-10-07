@@ -840,6 +840,11 @@ service:
   - turweston-noatz
   frequency: 122.180
 
+- callsign: USK RADIO
+  controls:
+  - usk-glider
+  frequency: 129.980
+
 - callsign: VALLEY RADAR
   controls:
   - mona-atz

@@ -8188,6 +8188,7 @@ airspace:
         centre: 522612N 0000836W
 
 - name: USK
+  id: usk-glider
   type: OTHER
   localtype: GLIDER
   geometry:
