@@ -11320,7 +11320,7 @@ airspace:
     boundary:
     - circle:
         radius: 2 nm
-        centre: 514959N 0045740W
+        centre: 5150000N 0045739W
 
 - name: HAWARDEN
   id: hawarden-atz
