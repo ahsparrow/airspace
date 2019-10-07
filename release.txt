@@ -1,3 +1,6 @@
+AIRAC: 2019/10/10
+  YEOVILTON ATZ - Remove overlap with YEOVIL ATZ
+
 AIRAC: 2019/09/12
   COVENTRY - Frequency change
   HAVERFORDWEST DZ - Add
