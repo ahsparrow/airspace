@@ -110,16 +110,3 @@ AIRAC: 2018/11/08
   BECCLES - Change ATZ to training AD
   FISHERWICK - New UL site
   RODDIGE - Delete UL site
-
-AIRAC: 2018/10/11
-  CARLISLE ATZ - Modify centre coordinates
-
-Non-AIRAC:
-  R105 HIGHGROVE HOUSE - Plus HG/PG LoA
-  HIGHCLERE RA(T) - Change of date
-  WALES RALLY RA(T)
-
-AIRAC: 2018/09/13
-  D201 ABERPORTH - Minor change to names/boundaries
-  D202 WEST WALES - Minor change to name/boundary
-  D510 SPADEADAM - Minor name change and new D510C
