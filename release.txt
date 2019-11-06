@@ -1,3 +1,6 @@
+AIRAC: 2019/11/07
+  BIRMINGHAM CTA-10 - Add
+
 Non-AIRAC:
   R704 BALMORAL/R705 BIRKHALL - Add airspace and LOA's
 

@@ -9937,6 +9937,24 @@ airspace:
       - 523708N 0020748W
       - 523442N 0020900W
       - 523847N 0021444W
+  - seqno: 10
+    upper: FL105
+    lower: FL65
+    boundary:
+    - line:
+      - 521803N 0021116W
+      - 521544N 0020755W
+      - 521634N 0015214W
+      - 521447N 0015012W
+    - arc:
+        dir: ccw
+        radius: 13 nm
+        centre: 522722N 0014502W
+        to: 521423N 0014442W
+    - line:
+      - 520711N 0014056W
+      - 520648N 0020148W
+      - 521702N 0021251W
 
 - name: BLACKBUSH
   id: blackbush-atz
