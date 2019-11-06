@@ -5653,6 +5653,28 @@ airspace:
         radius: 1.5 nm
         centre: 563449N 0023645W
 
+- name: R704 BALMORAL
+  type: R
+  geometry:
+  - id: r704
+    upper: 3500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 1 nm
+        centre: 570227N 0031349W
+
+- name: R705 BIRKHALL
+  type: R
+  geometry:
+  - id: r705
+    upper: 3500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 1 nm
+        centre: 570144N 0030427W
+
 #----------------------------------------------------------------------
 # ENR 5.2 Military exercise and training areas
 

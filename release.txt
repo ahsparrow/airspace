@@ -1,3 +1,6 @@
+Non-AIRAC:
+  R704 BALMORAL/R705 BIRKHALL - Add airspace and LOA's
+
 AIRAC: 2019/10/10
   HAVERFORDWEST ATZ - Update coordinates
   YEOVILTON ATZ - Remove overlap with YEOVIL ATZ

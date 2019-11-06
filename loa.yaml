@@ -645,6 +645,51 @@ loa:
           - 535858N 0025310W
 
 #----------------------------------------------------------------------
+- name: DEESIDE ROYAL ESTATES
+  areas:
+  - name: BALMORAL CASTLE
+    add:
+    - name: BALMORAL CASTLE
+      type: R
+      geometry:
+      - upper: 1500 ft
+        lower: SFC
+        boundary:
+        - circle:
+            radius: 0.6 km
+            centre: 570227N 0031349W
+
+    - name: CRAIGOWAN HOUSE
+      type: R
+      geometry:
+      - upper: 2000 ft
+        lower: SFC
+        boundary:
+        - circle:
+            radius: 0.6 km
+            centre: 570152N 0031303W
+
+    replace:
+    - id: r704
+      geometry: []
+
+  - name: BIRKHALL
+    add:
+    - name: BIRKHALL
+      type: R
+      geometry:
+      - upper: 1500 ft
+        lower: SFC
+        boundary:
+        - circle:
+            radius: 0.6 km
+            centre: 570144N 0030427W
+
+    replace:
+    - id: r705
+      geometry: []
+
+#----------------------------------------------------------------------
 - name: DONCASTER
   areas:
   - name: DARLTON BOX
