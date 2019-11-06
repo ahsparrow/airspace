@@ -662,7 +662,7 @@ loa:
     - name: CRAIGOWAN HOUSE
       type: R
       geometry:
-      - upper: 2000 ft
+      - upper: 1500 ft
         lower: SFC
         boundary:
         - circle:
@@ -678,7 +678,7 @@ loa:
     - name: BIRKHALL
       type: R
       geometry:
-      - upper: 1500 ft
+      - upper: 1300 ft
         lower: SFC
         boundary:
         - circle:
