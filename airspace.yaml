@@ -298,6 +298,53 @@ airspace:
       - 514028N 0020214W
       - 513039N 0020510W
       - 513135N 0021321W
+  - seqno: 15
+    class: C
+    upper: FL195
+    lower: FL125
+    boundary:
+    - line:
+      - 520526N 0023050W
+      - 515703N 0021633W
+      - 515208N 0022350W
+      - 515351N 0023017W
+      - 514413N 0023517W
+      - 514539N 0024814W
+      - 515643N 0024718W
+  - seqno: 16
+    class: C
+    upper: FL155
+    lower: FL125
+    boundary:
+    - line:
+      - 515351N 0023017W
+      - 515208N 0022350W
+      - 514413N 0023517W
+  - seqno: 17
+    class: C
+    upper: FL195
+    lower: FL175
+    boundary:
+    - line:
+      - 525046N 0024529W
+      - 523253N 0023011W
+      - 521702N 0021251W
+      - 520526N 0023050W
+      - 515643N 0024718W
+      - 520139N 0024652W
+      - 523040N 0024421W
+      - 524223N 0024500W
+      - 524748N 0024519W
+  - seqno: 18
+    class: C
+    upper: FL195
+    lower: FL75
+    boundary:
+    - line:
+      - 521702N 0021251W
+      - 520648N 0020148W
+      - 515703N 0021633W
+      - 520526N 0023050W
 
 - name: DAVENTRY CTA
   type: CTA
