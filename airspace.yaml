@@ -602,6 +602,35 @@ airspace:
       - 522630N 0002732W
       - 522632N 0003702W
       - 524523N 0005538W
+  - seqno: 23
+    class: C
+    upper: FL145
+    lower: FL105
+    boundary:
+    - line:
+      - 521803N 0021116W
+      - 521544N 0020755W
+      - 521634N 0015214W
+      - 521447N 0015012W
+    - arc:
+        dir: ccw
+        radius: 13 nm
+        centre: 522722N 0014502W
+        to: 521423N 0014442W
+    - line:
+      - 520711N 0014056W
+      - 520648N 0020148W
+      - 521702N 0021251W
+  - seqno: 24
+    class: C
+    upper: FL145
+    lower: FL105
+    boundary:
+    - line:
+      - 520648N 0020148W
+      - 520711N 0014056W
+      - 520429N 0013932W
+      - 515853N 0015319W
 
 - name: HOLYHEAD CTA
   type: CTA
