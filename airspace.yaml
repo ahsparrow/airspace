@@ -7446,17 +7446,6 @@ airspace:
         radius: 1.5 nm
         centre: 544556N 0012243W
 
-- name: REDLANDS
-  type: D_OTHER
-  localtype: DZ
-  geometry:
-  - upper: FL65
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1.5 nm
-        centre: 513352N 0014205W
-
 - name: SOUTH CERNEY
   type: D_OTHER
   localtype: DZ
@@ -9492,17 +9481,6 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 522414N 0022115W
-
-- name: REDLANDS
-  type: OTHER
-  localtype: UL
-  geometry:
-  - upper: 2320 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.5 nm
-        centre: 513320N 0014125W
 
 - name: ROGART (ROVIE FARM)
   type: OTHER
