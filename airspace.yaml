@@ -11470,27 +11470,6 @@ airspace:
       - 511805N 0004830W
       - 511812N 0004715W
 
-- name: FARNBOROUGH
-  type: OTHER
-  localtype: ILS
-  geometry:
-  - upper: 2238 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 511514N 0005004W
-      - 511223N 0005735W
-      - 511307N 0005812W
-      - 511527N 0005016W
-  - upper: 2238 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 511748N 0004314W
-      - 512038N 0003543W
-      - 511954N 0003505W
-      - 511734N 0004302W
-
 - name: FENLAND
   id: fenland-atz
   type: ATZ
