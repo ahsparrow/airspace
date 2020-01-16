@@ -1600,27 +1600,24 @@ airspace:
       - 513433N 0010000W
       - 513302N 0010000W
       - 513423N 0011138W
-  - id: ltma-11
-    seqno: 11
+  - seqno: 11
     upper: FL195
     lower: 4500 ft
     boundary:
     - line:
+      - 513423N 0011138W
       - 513302N 0010000W
       - 512430N 0010000W
-      - 512500N 0010805W
+      - 511705N 0005508W
+    - arc:
+        dir: ccw
+        radius: 4.7168 nm
+        centre: 511256N 0005136W
+        to: 511535N 0005748W
+    - line:
+      - 511956N 0010918W
       - 512348N 0010822W
       - 512435N 0011444W
-      - 513423N 0011138W
-  - seqno: 12
-    upper: FL195
-    lower: 5000 ft
-    boundary:
-    - line:
-      - 512430N 0010000W
-      - 511517N 0005357W
-      - 512100N 0010902W
-      - 512500N 0010805W
   - seqno: 13
     upper: FL195
     lower: 5500 ft
