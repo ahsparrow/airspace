@@ -1,3 +1,9 @@
+AIRAC: 2020/01/02
+  ARCLID UL - Delete
+  CAMBRIDGE APPROACH - Change frequency
+  CARLISLE APPROACH - Change frequency
+  LITTLE RISSINGTON - Change coordinates
+
 Non-AIRAC:
   REDLANDS - No longer active remove DZ and UL
 
@@ -112,6 +118,3 @@ Non-AIRAC:
 
 AIRAC: 2019/01/31
   No changes
-
-AIRAC: 2019/01/03
-  RAMPISHAM HIRTA - Delete
