@@ -11452,24 +11452,6 @@ airspace:
         radius: 2 nm
         centre: 512053N 0003331W
 
-- name: FARNBOROUGH
-  id: farnborough-atz
-  type: ATZ
-  geometry:
-  - upper: 2238 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 511855N 0004535W
-    - arc:
-        dir: cw
-        radius: 2.5 nm
-        centre: 511631N 0004639W
-        to: 511757N 0004955W
-    - line:
-      - 511805N 0004830W
-      - 511812N 0004715W
-
 - name: FENLAND
   id: fenland-atz
   type: ATZ
