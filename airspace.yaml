@@ -8434,7 +8434,7 @@ airspace:
     boundary:
     - circle:
         radius: 1 nm
-        centre: 515200N 0014136W
+        centre: 515200N 0014139W
 
 - name: ODIHAM
   type: OTHER
