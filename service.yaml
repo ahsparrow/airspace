@@ -152,7 +152,7 @@ service:
 - callsign: CARLISLE APPROACH
   controls:
   - carlisle-atz
-  frequency: 123.600
+  frequency: 123.605
 
 - callsign: CHALGROVE RADIO
   controls:
