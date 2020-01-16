@@ -10759,6 +10759,18 @@ airspace:
       - 532527N 0011228W
       - 531858N 0011152W
       - 531938N 0011532W
+  - seqno: 13
+    class: E
+    rules:
+      - TMZ
+    upper: FL105
+    lower: FL85
+    boundary:
+    - line:
+      - 532531N 0005037W
+      - 531433N 0004258W
+      - 531343N 0004324W
+      - 531600N 0005542W
 
 - name: DUNDEE
   id: dundee-atz
