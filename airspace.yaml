@@ -660,7 +660,7 @@ airspace:
         to: 511705N 0005508W
   - seqno: 3
     upper: 5500 ft
-    lower: 1500 ft
+    lower: 2000 ft
     boundary:
     - line:
       - 511101N 0005355W
