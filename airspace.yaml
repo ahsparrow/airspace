@@ -818,6 +818,59 @@ airspace:
       - 533222N 0030059W
       - 533213N 0031406W
 
+- name: LINCOLNSHIRE CTA
+  type: CTA
+  class: A
+  geometry:
+  - seqno: 1
+    upper: FL195
+    lower: FL155
+    boundary:
+    - line:
+      - 532830N 0001732W
+      - 532204N 0000431E
+      - 531717N 0000155E
+      - 531222N 0000029E
+      - 531232N 0000107W
+      - 530618N 0000428W
+      - 531101N 0002908W
+      - 532007N 0002420W
+  - seqno: 2
+    upper: FL195
+    lower: FL125
+    boundary:
+    - line:
+      - 533225N 0003106W
+      - 532830N 0001732W
+      - 532007N 0002420W
+      - 531101N 0002908W
+      - 531343N 0004324W
+      - 532325N 0003820W
+  - seqno: 3
+    upper: FL195
+    lower: FL105
+    boundary:
+    - line:
+      - 533619N 0004448W
+      - 533225N 0003106W
+      - 532325N 0003820W
+      - 531343N 0004324W
+      - 531938N 0011532W
+      - 533059N 0010932W
+      - 533109N 0010751W
+      - 533119N 0010614W
+      - 532643N 0004958W
+  - seqno: 4
+    upper: FL195
+    lower: FL85
+    boundary:
+    - line:
+      - 534117N 0010226W
+      - 533619N 0004448W
+      - 532643N 0004958W
+      - 533119N 0010614W
+      - 533109N 0010751W
+
 - name: NITON CTA
   type: CTA
   class: A
