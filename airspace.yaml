@@ -8857,17 +8857,6 @@ airspace:
 #----------------------------------------------------------------------
 # ENR 5.5 (cont) Ultralight flights
 
-- name: ARCLID
-  type: OTHER
-  localtype: UL
-  geometry:
-  - upper: 2262 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.5 nm
-        centre: 530828N 0021900W
-
 - name: ATHEY'S MOOR
   type: OTHER
   localtype: UL
