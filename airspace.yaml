@@ -1731,10 +1731,10 @@ airspace:
     lower: 4500 ft
     boundary:
     - line:
-      - 510602N 0005439W
       - 510652N 0004829W
       - 505728N 0004224W
       - 505616N 0005119W
+      - 510602N 0005439W
 
 - name: MANCESTER TMA
   type: TMA
