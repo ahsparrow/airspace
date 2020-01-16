@@ -11463,6 +11463,35 @@ airspace:
         radius: 2 nm
         centre: 524422N 0000148W
 
+- name: FARNBOROUGH CTR
+  type: CTR
+  class: D
+  geometry:
+  - seqno: 1
+    upper: 3500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 512112N 0004247W
+    - arc:
+        dir: ccw
+        radius: 12 nm
+        centre: 512812N 0002713W
+        to: 512103N 0004236W
+    - line:
+      - 512035N 0003959W
+      - 511520N 0003639W
+      - 511035N 0005054W
+      - 511705N 0005508W
+  - seqno: 2
+    upper: 2500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 512035N 0003959W
+      - 512013N 0003800W
+      - 511520N 0003639W
+
 - name: GLASGOW CTR
   id: glasgow-ctr
   type: CTR
