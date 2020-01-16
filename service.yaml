@@ -136,7 +136,7 @@ service:
   controls:
   - cambridge-atz
   - cambridge-raz
-  frequency: 123.605
+  frequency: 120.965
 
 - callsign: CAMPBELTOWN INFORMATION
   controls:
