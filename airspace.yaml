@@ -8633,7 +8633,7 @@ airspace:
     boundary:
     - circle:
         radius: 1 nm
-        centre: 541220N 0012254W
+        centre: 541223N 0012256W
 
 - name: UPAVON
   type: OTHER
