@@ -12036,7 +12036,7 @@ airspace:
         centre: 510853N 0001125W
         to: 510100N 0000458E
 
-- name: LONDON HEATHROW CTR
+- name: LONDON CTR
   type: CTR
   class: D
   geometry:
@@ -12053,7 +12053,7 @@ airspace:
         to: 512013N 0001255W
     - line:
       - 512013N 0003800W
-      - 512104N 0004242W
+      - 512103N 0004236W
     - arc:
         dir: cw
         radius: 12 nm
