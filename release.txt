@@ -1,3 +1,10 @@
+AIRAC: 2020/02/27
+  DONCASTER/SHEFFIELD CTA-13 - Add
+  FARNBOROUGH - Add new CTA/CTR and minor adjustments to surrounding airspace
+  LINCOLNSHIRE CTA - Add, replacing Y70
+  NORTH SEA CTA - Update coordinates
+  TOPCLIFFE - Update coordinates
+
 AIRAC: 2020/01/30
   No change
 
@@ -106,18 +113,3 @@ Non-AIRAC
 AIRAC: 2019/03/28
   Update government aerodrome elevation data
   EAST MIDLANDS frequency - Update
-
-Non-AIRAC
-  CHELTENHAM FESTIVAL RA(T)
-  ABINGDON AIRSHOW RA(T)
-
-AIRAC: 2019/02/28
-  No changes
-
-Non-AIRAC:
-  DUNKESWELL LOA - Added
-  Add radio frequencies
-  THAME - Remove glider site (from NOTAM)
-
-AIRAC: 2019/01/31
-  No changes
