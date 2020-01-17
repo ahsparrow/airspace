@@ -633,6 +633,7 @@ airspace:
       - 515853N 0015319W
 
 - name: FARNBOROUGH CTA
+  id: farnborough-cta
   type: CTA
   class: D
   geometry:
@@ -11464,6 +11465,7 @@ airspace:
         centre: 524422N 0000148W
 
 - name: FARNBOROUGH CTR
+  id: farnborough-ctr
   type: CTR
   class: D
   geometry:
