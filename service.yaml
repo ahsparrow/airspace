@@ -345,6 +345,11 @@ service:
   - exeter-atz
   frequency: 128.975
 
+- callsign: EYRES FIELD RADIO
+  controls:
+  - eyres-field-glider
+  frequency: 129.980
+
 - callsign: FAIROAKS INFORMATION
   controls:
   - fairoaks-atz

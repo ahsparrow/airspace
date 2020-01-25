@@ -7905,6 +7905,7 @@ airspace:
         centre: 520507N 0012828W
 
 - name: EYRES FIELD
+  id: eyres-field-glider
   type: OTHER
   localtype: GLIDER
   geometry:

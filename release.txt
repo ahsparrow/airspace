@@ -1,3 +1,6 @@
+Non-AIRAC:
+  EYRES FIELD - Add frequency
+
 AIRAC: 2020/02/27
   DONCASTER/SHEFFIELD CTA-13 - Add
   FARNBOROUGH - Add new CTA/CTR and minor adjustments to surrounding airspace
