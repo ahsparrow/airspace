@@ -1313,7 +1313,7 @@ loa:
   areas:
   - name: HIGHGROVE HOUSE
     add:
-    - name: HIGHGROVE HOUSE
+    - name: HIGHGROVE PROHIBITED AREA
       type: R
       geometry:
       - upper: 860 ft
@@ -1324,22 +1324,6 @@ loa:
             centre: 513724N 0021048W
 
     replace: []
-
-#----------------------------------------------------------------------
-- name: HIGHGROVE HOUSE (HG/PG)
-  areas:
-  - name: HIGHGROVE HOUSE
-    add: []
-
-    replace:
-    - id: r105
-      geometry:
-      - upper: 860 ft
-        lower: SFC
-        boundary:
-        - circle:
-            radius: 0.6 km
-            centre: 513724N 0021048W
 
 #----------------------------------------------------------------------
 - name: LASHAM COMPS
