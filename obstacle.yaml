@@ -344,11 +344,6 @@ obstacle:
   id: UK0230A058F
   position: 512804N 0001716E
   elevation: 640 ft
-- name: LITTLEBROOK CMN
-  type: CHIM
-  id: UK0230A055F
-  position: 512801N 0001431E
-  elevation: 703 ft
 - name: DARTFORD PYL
   type: PYL
   id: UK0230I251F
