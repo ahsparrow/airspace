@@ -2781,7 +2781,7 @@ airspace:
     boundary:
     - circle:
         radius: 3 nm
-        centre: 505745N 0025608W
+        centre: 505747N 0025613W
 
 - name: MIDDLE WALLOP
   id: middle-wallop-matz

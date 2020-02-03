@@ -1,6 +1,7 @@
 Non-AIRAC:
   EYRES FIELD - Add frequency
   HIGHGROVE HOUSE - Combine LoAs
+  MERRYIELD MATZ - Correct centre coordinates
 
 AIRAC: 2020/02/27
   DONCASTER/SHEFFIELD CTA-13 - Add
