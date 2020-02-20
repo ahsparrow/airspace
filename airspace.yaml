@@ -9401,18 +9401,6 @@ airspace:
         radius: 0.5 nm
         centre: 514220N 0001629W
 
-- name: LONG MARSTON
-  id: long-marston-ul
-  type: OTHER
-  localtype: UL
-  geometry:
-  - upper: 2154 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.5 nm
-        centre: 520825N 0014513W
-
 - name: LONG SUTTON
   type: OTHER
   localtype: UL
