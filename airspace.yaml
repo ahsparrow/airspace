@@ -9009,18 +9009,6 @@ airspace:
          radius: 0.5 nm
          centre: 551859N 0014712W
 
-- name: BAGBY
-  id: bagby-ul
-  type: OTHER
-  localtype: UL
-  geometry:
-  - upper: 2160 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.5 nm
-        centre: 541240N 0011724W
-
 - name: BALADO PARK
   type: OTHER
   localtype: UL
