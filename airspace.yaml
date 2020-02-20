@@ -3989,24 +3989,6 @@ airspace:
       - 503729N 0040101W
       - 504019N 0040341W
 
-- name: D011A OKEHAMPTON
-  type: D
-  rules:
-  - SI
-  - NOTAM
-  geometry:
-  - upper: 24100 ft
-    lower: 10000 ft
-    boundary:
-    - line:
-      - 504226N 0040146W
-      - 504311N 0035854W
-      - 503937N 0035613W
-      - 503725N 0035712W
-      - 503744N 0035801W
-      - 503729N 0040101W
-      - 504019N 0040341W
-
 - name: D011B WILLSWORTHY
   type: D
   rules:
@@ -4023,22 +4005,6 @@ airspace:
       - 503550N 0040444W
       - 503747N 0040558W
 
-- name: D011B WILLSWORTHY
-  type: D
-  rules:
-  - SI
-  - NOTAM
-  geometry:
-  - upper: 24100 ft
-    lower: 4500 ft
-    boundary:
-    - line:
-      - 504019N 0040341W
-      - 503729N 0040101W
-      - 503726N 0040136W
-      - 503550N 0040444W
-      - 503747N 0040558W
-
 - name: D011C MERRIVALE
   type: D
   rules:
@@ -4047,24 +4013,6 @@ airspace:
   geometry:
   - upper: 10000 ft
     lower: SFC
-    boundary:
-    - line:
-      - 503726N 0040136W
-      - 503729N 0040101W
-      - 503744N 0035801W
-      - 503725N 0035712W
-      - 503426N 0035832W
-      - 503402N 0040336W
-      - 503550N 0040444W
-
-- name: D011C MERRIVALE
-  type: D
-  rules:
-  - SI
-  - NOTAM
-  geometry:
-  - upper: 24100 ft
-    lower: 10000 ft
     boundary:
     - line:
       - 503726N 0040136W
