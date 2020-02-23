@@ -7284,6 +7284,8 @@ airspace:
 - name: CHATTERIS
   type: D_OTHER
   localtype: DZ
+  rules:
+    - INTENSE
   geometry:
   - upper: FL150
     lower: SFC
@@ -7433,6 +7435,8 @@ airspace:
 - name: LANGAR
   type: D_OTHER
   localtype: DZ
+  rules:
+    - INTENSE
   geometry:
   - upper: FL150
     lower: SFC
@@ -7515,6 +7519,8 @@ airspace:
 - name: SIBSON
   type: D_OTHER
   localtype: DZ
+  rules:
+    - INTENSE
   geometry:
   - upper: FL150
     lower: SFC
@@ -7607,6 +7613,8 @@ airspace:
 - name: WESTON-ON-THE-GREEN
   type: D_OTHER
   localtype: DZ
+  rules:
+    - INTENSE
   geometry:
   - upper: FL85
     lower: SFC
@@ -7913,6 +7921,8 @@ airspace:
   id: hinton-glider
   type: OTHER
   localtype: GLIDER
+  rules:
+    - INTENSE
   geometry:
   - upper: 2500 ft
     lower: SFC
