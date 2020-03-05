@@ -3,6 +3,8 @@ Non-AIRAC:
   HIGHGROVE HOUSE - Combine LoAs
   LONG MARSTON - Remove disused airfield
   MERRYIELD MATZ - Correct centre coordinates
+  RHDS LOA - Correct coordinates of DARLTON BOX
+  RHDS LOA - Correct coordinates of GOOLE BOX
 
 AIRAC: 2020/02/27
   DONCASTER/SHEFFIELD CTA-13 - Add
