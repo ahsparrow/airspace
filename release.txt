@@ -3,6 +3,7 @@ Non-AIRAC:
   HIGHGROVE HOUSE - Combine LoAs
   LONG MARSTON - Remove disused airfield
   MERRYIELD MATZ - Correct centre coordinates
+  RHDS LOA - Add Burn Soaring Box
   RHDS LOA - Correct coordinates of DARLTON BOX
   RHDS LOA - Correct coordinates of GOOLE BOX
 
