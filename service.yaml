@@ -564,12 +564,6 @@ service:
   - llanbedr-noatz
   frequency: 118.930
 
-- callsign: LONG MARSTON RADIO
-  controls:
-  - long-marston-noatz
-  - long-marston-ul
-  frequency: 129.830
-
 - callsign: LOSSIE RADAR
   controls:
   - kinloss-atz

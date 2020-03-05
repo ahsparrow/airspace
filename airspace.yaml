@@ -8010,17 +8010,6 @@ airspace:
         radius: 1 nm
         centre: 531239N 0032312W
 
-- name: LONG MARSTON
-  type: OTHER
-  localtype: GLIDER
-  geometry:
-  - upper: 3154 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1 nm
-        centre: 520825N 0014456W
-
 - name: LONG MYND
   type: OTHER
   localtype: GLIDER
@@ -13574,18 +13563,6 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 521000N 0000914W
-
-- name: LONG MARSTON
-  id: long-marston-noatz
-  type: OTHER
-  localtype: NOATZ
-  geometry:
-  - upper: 2157 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1.5 nm
-        centre: 520821N 0014513W
 
 - name: MARSHLAND
   type: OTHER

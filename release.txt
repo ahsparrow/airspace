@@ -1,6 +1,7 @@
 Non-AIRAC:
   EYRES FIELD - Add frequency
   HIGHGROVE HOUSE - Combine LoAs
+  LONG MARSTON - Remove disused airfield
   MERRYIELD MATZ - Correct centre coordinates
 
 AIRAC: 2020/02/27
