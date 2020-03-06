@@ -334,11 +334,6 @@ obstacle:
   id: UK0229A071F
   position: 515639N 0043939W
   elevation: 1858 ft
-- name: DIDCOT CMN
-  type: CHIM
-  id: UK0230A091F
-  position: 513720N 0011538W
-  elevation: 828 ft
 - name: DARTFORD PYL
   type: PYL
   id: UK0230A058F
