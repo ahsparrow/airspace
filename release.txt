@@ -1,6 +1,7 @@
 AIRAC: 2020/02/26
   FARNBOROUGH CTA/CTR - Change callsign
   MEIKLE ENDOVIE - Remove
+  SYWELL - Add ILS feathers
 
 Non-AIRAC:
   EYRES FIELD - Add frequency
