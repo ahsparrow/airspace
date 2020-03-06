@@ -1,3 +1,6 @@
+AIRAC: 2020/02/26
+  FARNBOROUGH CTA/CTR - Change callsign
+
 Non-AIRAC:
   EYRES FIELD - Add frequency
   HIGHGROVE HOUSE - Combine LoAs
@@ -110,15 +113,3 @@ Non-AIRAC:
 
 AIRAC: 2019/04/25
   No changes
-
-Non-AIRAC
-  OLD WARDEN RA(T)
-  YEOVILTON RA(T)
-  BOOKER RA(T)
-  SANDOWN A/F - Add radio
-  AMPIT TRIANGLE LOA - Correct replacement volume
-  R105 HIGHGROVE HOUSE LOA - Add without replacing restricted area
-
-AIRAC: 2019/03/28
-  Update government aerodrome elevation data
-  EAST MIDLANDS frequency - Update

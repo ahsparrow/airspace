@@ -355,7 +355,7 @@ service:
   - fairoaks-atz
   frequency: 123.430
 
-- callsign: FARNBOROUGH ZONE
+- callsign: FARNBOROUGH RADAR
   controls:
   - farnborough-ctr
   - farnborough-cta
