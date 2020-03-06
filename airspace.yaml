@@ -9370,17 +9370,6 @@ airspace:
         radius: 0.5 nm
         centre: 512543N 0014627W
 
-- name: MEIKLE ENDOVIE
-  type: OTHER
-  localtype: UL
-  geometry:
-  - upper: 2475 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.5 nm
-        centre: 571349N 0024003W
-
 - name: MIDDLETON SANDS
   type: OTHER
   localtype: UL
