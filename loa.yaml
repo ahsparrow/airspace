@@ -366,7 +366,7 @@ loa:
             to: 521557N 0001606E
 
 #----------------------------------------------------------------------
-- name: CAMPHILL
+- name: CAMPHILL BOX/L975
   areas:
   - name: CAMPHILL BOX
     add:
@@ -569,6 +569,151 @@ loa:
           - 541113N 0021858W
           - 541530N 0020852W
           - 550332N 0015351W
+
+#----------------------------------------------------------------------
+- name: CAMPHILL EAST MIDLANDS
+  areas:
+  - name: NORTHERN BOX
+    add:
+    - name: NORTHERN BOX
+      type: CTA
+      class: D
+      geometry:
+      - upper: 5000 ft
+        lower: 4000 ft
+        boundary:
+        - line:
+          - 530410N 0013110W
+          - 530402N 0011422W
+          - 525901N 0010918W
+          - 525911N 0012801W
+      - upper: FL65
+        lower: 5500 ft
+        boundary:
+        - line:
+          - 530900N 0013146W
+          - 530854N 0011918W
+          - 530402N 0011422W
+          - 530410N 0013110W
+          - 530517N 0013152W
+
+    replace:
+    - id: east-midlands-cta-7
+      geometry:
+      - upper: FL105
+        lower: 5000 ft
+        boundary:
+        - line:
+          - 530410N 0013110W
+          - 530402N 0011422W
+          - 525901N 0010918W
+          - 525911N 0012801W
+    - id: east-midlands-cta-19
+      geometry:
+      - upper: FL105
+        lower: FL65
+        boundary:
+        - line:
+          - 530900N 0013146W
+          - 530854N 0011918W
+          - 530402N 0011422W
+          - 530410N 0013110W
+          - 530517N 0013152W
+
+  - name: NOTTINGHAM KEYWORTH BOX
+    add:
+    - name: NOTTINGHAM BOX
+      type: CTA
+      class: D
+      geometry:
+      - upper: 5000 ft
+        lower: 2500 ft
+        boundary:
+        - line:
+          - 525901N 0010918W
+          - 525537N 0010600W
+          - 525746N 0011600W
+          - 525906N 0011906W
+
+    - name: NOTTINGHAM/KEYWORTH BOX
+      type: CTA
+      class: D
+      geometry:
+      - upper: 5000 ft
+        lower: 2500 ft
+        boundary:
+        - line:
+          - 525421N 0010006W
+          - 525901N 0010918W
+          - 525537N 0010600W
+
+    - name: KEYWORTH BOX
+      type: CTA
+      class: D
+      geometry:
+      - upper: FL105
+        lower: 5000 ft
+        boundary:
+        - line:
+          - 525421N 0010006W
+          - 525901N 0010918W
+          - 525537N 0010600W
+
+      - upper: FL105
+        lower: 2500 ft
+        boundary:
+        - line:
+          - 525537N 0010600W
+          - 525421N 0010006W
+          - 525121N 0005725W
+          - 525057N 0005724W
+          - 525155N 0010225W
+
+      - upper: FL105
+        lower: 1500 ft
+        boundary:
+        - line:
+          - 525155N 0010225W
+          - 525057N 0005724W
+          - 525014N 0005722W
+          - 524705N 0005743W
+
+    replace:
+    - id: east-midlands-cta-1
+      geometry:
+      - upper: FL105
+        lower: 2500 ft
+        boundary:
+        - line:
+          - 525911N 0012801W
+          - 525906N 0011906W
+          - 525746N 0011600W
+          - 525537N 0010600W
+          - 525155N 0010225W
+          - 525255N 0010733W
+          - 525456N 0011804W
+          - 525510N 0012530W
+      - upper: FL105
+        lower: 5000 ft
+        boundary:
+        - line:
+          - 525901N 0010918W
+          - 525537N 0010600W
+          - 525746N 0011600W
+          - 525906N 0011906W
+    - id: east-midlands-cta-2
+      geometry:
+      - upper: FL105
+        lower: 1500 ft
+        boundary:
+        - line:
+          - 525255N 0010733W
+
+          - 525155N 0010225W
+          - 524705N 0005743W
+
+          - 524619N 0005748W
+          - 524558N 0010733W
 
 #----------------------------------------------------------------------
 - name: CHIPPING BOX

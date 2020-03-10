@@ -10997,7 +10997,8 @@ airspace:
   type: CTA
   class: D
   geometry:
-  - seqno: 1
+  - id: east-midlands-cta-1
+    seqno: 1
     upper: FL105
     lower: 2500 ft
     boundary:
@@ -11007,9 +11008,11 @@ airspace:
       - 525421N 0010006W
       - 525121N 0005725W
       - 525057N 0005724W
+      - 525255N 0010733W
       - 525456N 0011804W
       - 525510N 0012530W
-  - seqno: 2
+  - id: east-midlands-cta-2
+    seqno: 2
     upper: FL105
     lower: 1500 ft
     boundary:
@@ -11061,7 +11064,8 @@ airspace:
       - 525142N 0013706W
       - 524942N 0013857W
       - 525059N 0014031W
-  - seqno: 7
+  - id: east-midlands-cta-7
+    seqno: 7
     upper: FL105
     lower: 4000 ft
     boundary:
@@ -11163,7 +11167,8 @@ airspace:
       - 522927N 0005753W
       - 522823N 0010232W
       - 523203N 0010851W
-  - seqno: 19
+  - id: east-midlands-cta-19
+    seqno: 19
     upper: FL105
     lower: 5500 ft
     boundary:
