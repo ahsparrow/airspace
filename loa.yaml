@@ -622,7 +622,8 @@ loa:
 
   - name: NOTTINGHAM KEYWORTH BOX
     add:
-    - name: NOTTINGHAM BOX
+    - id: nottingham-box
+      name: NOTTINGHAM BOX
       type: CTA
       class: D
       geometry:
@@ -635,7 +636,8 @@ loa:
           - 525746N 0011600W
           - 525906N 0011906W
 
-    - name: NOTTINGHAM/KEYWORTH BOX
+    - id: nottingham-keyworth-box
+      name: NOTTINGHAM/KEYWORTH BOX
       type: CTA
       class: D
       geometry:
@@ -647,7 +649,8 @@ loa:
           - 525901N 0010918W
           - 525537N 0010600W
 
-    - name: KEYWORTH BOX
+    - id: keyworth-box
+      name: KEYWORTH BOX
       type: CTA
       class: D
       geometry:
