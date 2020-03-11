@@ -576,6 +576,7 @@ loa:
   - name: NORTHERN BOX
     add:
     - name: NORTHERN BOX
+      id: east-midlands-northern-box
       type: CTA
       class: D
       geometry:
@@ -622,7 +623,7 @@ loa:
 
   - name: NOTTINGHAM KEYWORTH BOX
     add:
-    - id: nottingham-box
+    - id: east-midlands-nottingham-box
       name: NOTTINGHAM BOX
       type: CTA
       class: D
@@ -636,7 +637,7 @@ loa:
           - 525746N 0011600W
           - 525906N 0011906W
 
-    - id: nottingham-keyworth-box
+    - id: east-midlands-nottingham-keyworth-box
       name: NOTTINGHAM/KEYWORTH BOX
       type: CTA
       class: D
@@ -649,7 +650,7 @@ loa:
           - 525901N 0010918W
           - 525537N 0010600W
 
-    - id: keyworth-box
+    - id: east-midlands-keyworth-box
       name: KEYWORTH BOX
       type: CTA
       class: D

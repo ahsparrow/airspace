@@ -322,9 +322,10 @@ service:
   controls:
   - east-midlands-cta
   - east-midlands-ctr
-  - nottingham-box
-  - nottingham-keyworth-box
-  - keyworth-box
+  - east-midlands-northern-box
+  - east-midlands-nottingham-box
+  - east-midlands-nottingham-keyworth-box
+  - east-midlands-keyworth-box
   frequency: 134.180
 
 - callsign: EDINBURGH APPROACH
