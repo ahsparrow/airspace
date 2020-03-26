@@ -3,7 +3,7 @@ Non-AIRAC:
   CAMPHILL EAST MIDLANDS LOA - Add
   EAST MIDLANDS RADAR - Change frequency and control CAMPHILL LOA
 
-AIRAC: 2020/02/26
+AIRAC: 2020/03/26
   FARNBOROUGH CTA/CTR - Change callsign
   MEIKLE ENDOVIE - Remove
   SYWELL - Add ILS feathers
