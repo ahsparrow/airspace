@@ -478,7 +478,6 @@ airspace:
       - 530517N 0013152W
       - 531145N 0013558W
       - 531137N 0013631W
-      - 532227N 0014315W
   - id: daventry12-camphill
     seqno: 12
     upper: FL195
@@ -952,7 +951,6 @@ airspace:
       - 524821N 0030236W
       - 524256N 0030302W
       - 524324N 0031928W
-      - 524849N 0031904W
   - seqno: 8
     upper: FL195
     lower: FL125
@@ -5269,7 +5267,6 @@ airspace:
       - 545930N 0051542W
       - 545548N 0052800W
       - 550630N 0054300W
-      - 551230N 0053900W
 
 - name: D510B SPADEADAM
   type: D
