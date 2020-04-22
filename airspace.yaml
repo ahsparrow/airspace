@@ -2700,6 +2700,112 @@ airspace:
       - 505334N 0014051W
       - 510045N 0013053W
 
+- name: PRESTWICK CTA
+  id: prestwick-cta
+  type: CTA
+  class: D
+  geometry:
+  - seqno: 1
+    upper: 5500 ft
+    lower: 1500 ft
+    boundary:
+    - line:
+      - 554023N 0045040W
+      - 553734N 0044227W
+    - arc:
+        dir: ccw
+        radius: 8 nm
+        centre: 553034N 0043540W
+        to: 552811N 0044906W
+    - line:
+      - 553124N 0045830W
+    - arc:
+        dir: cw
+        radius: 13 nm
+        centre: 553034N 0043540W
+        to: 554023N 0045040W
+  - seqno: 2
+    upper: 5500 ft
+    lower: 2000 ft
+    boundary:
+    - line:
+      - 553044N 0044945W
+      - 552703N 0043902W
+      - 552518N 0044044W
+      - 552811N 0044906W
+    - arc:
+        dir: cw
+        radius: 8 nm
+        centre: 553034N 0043540W
+        to: 553044N 0044945W
+  - seqno: 3
+    upper: 5500 ft
+    lower: 3000 ft
+    boundary:
+    - line:
+      - 552703N 0043902W
+      - 552150N 0042400W
+    - arc:
+        dir: cw
+        radius: 11 nm
+        centre: 553034N 0043540W
+        to: 552040N 0042722W
+    - line:
+      - 552518N 0044044W
+  - seqno: 4
+    upper: 5500 ft
+    lower: 3000 ft
+    boundary:
+    - line:
+      - 552838N 0041639W
+      - 552658N 0041154W
+    - arc:
+        dir: cw
+        radius: 14 nm
+        centre: 553034N 0043540W
+        to: 552010N 0041916W
+    - line:
+      - 552150N 0042400W
+    - arc:
+        dir: ccw
+        radius: 11 nm
+        centre: 553034N 0043540W
+        to: 552838N 0041639W
+  - seqno: 5
+    upper: 5500 ft
+    lower: 3500 ft
+    boundary:
+    - line:
+      - 553124N 0045830W
+      - 552040N 0042722W
+      - 551848N 0044702W
+  - seqno: 6
+    upper: 5500 ft
+    lower: 4000 ft
+    boundary:
+    - line:
+      - 552658N 0041154W
+      - 552521N 0040716W
+    - arc:
+        dir: cw
+        radius: 17 nm
+        centre: 553034N 0043540W
+        to: 551710N 0041723W
+    - line:
+      - 552040N 0042722W
+    - arc:
+        dir: ccw
+        radius: 11 nm
+        centre: 553034N 0043540W
+        to: 552150N 0042400W
+    - line:
+      - 552010N 0041916W
+    - arc:
+        dir: ccw
+        radius: 14 nm
+        centre: 553034N 0043540W
+        to: 552658N 0041154W
+
 - name: SEVERN CTA
   type: CTA
   class: C
@@ -12788,112 +12894,6 @@ airspace:
         radius: 8 nm
         centre: 553034N 0043540W
         to: 553734N 0044227W
-
-- name: PRESTWICK CTA
-  id: prestwick-cta
-  type: CTA
-  class: D
-  geometry:
-  - seqno: 1
-    upper: 5500 ft
-    lower: 1500 ft
-    boundary:
-    - line:
-      - 554023N 0045040W
-      - 553734N 0044227W
-    - arc:
-        dir: ccw
-        radius: 8 nm
-        centre: 553034N 0043540W
-        to: 552811N 0044906W
-    - line:
-      - 553124N 0045830W
-    - arc:
-        dir: cw
-        radius: 13 nm
-        centre: 553034N 0043540W
-        to: 554023N 0045040W
-  - seqno: 2
-    upper: 5500 ft
-    lower: 2000 ft
-    boundary:
-    - line:
-      - 553044N 0044945W
-      - 552703N 0043902W
-      - 552518N 0044044W
-      - 552811N 0044906W
-    - arc:
-        dir: cw
-        radius: 8 nm
-        centre: 553034N 0043540W
-        to: 553044N 0044945W
-  - seqno: 3
-    upper: 5500 ft
-    lower: 3000 ft
-    boundary:
-    - line:
-      - 552703N 0043902W
-      - 552150N 0042400W
-    - arc:
-        dir: cw
-        radius: 11 nm
-        centre: 553034N 0043540W
-        to: 552040N 0042722W
-    - line:
-      - 552518N 0044044W
-  - seqno: 4
-    upper: 5500 ft
-    lower: 3000 ft
-    boundary:
-    - line:
-      - 552838N 0041639W
-      - 552658N 0041154W
-    - arc:
-        dir: cw
-        radius: 14 nm
-        centre: 553034N 0043540W
-        to: 552010N 0041916W
-    - line:
-      - 552150N 0042400W
-    - arc:
-        dir: ccw
-        radius: 11 nm
-        centre: 553034N 0043540W
-        to: 552838N 0041639W
-  - seqno: 5
-    upper: 5500 ft
-    lower: 3500 ft
-    boundary:
-    - line:
-      - 553124N 0045830W
-      - 552040N 0042722W
-      - 551848N 0044702W
-  - seqno: 6
-    upper: 5500 ft
-    lower: 4000 ft
-    boundary:
-    - line:
-      - 552658N 0041154W
-      - 552521N 0040716W
-    - arc:
-        dir: cw
-        radius: 17 nm
-        centre: 553034N 0043540W
-        to: 551710N 0041723W
-    - line:
-      - 552040N 0042722W
-    - arc:
-        dir: ccw
-        radius: 11 nm
-        centre: 553034N 0043540W
-        to: 552150N 0042400W
-    - line:
-      - 552010N 0041916W
-    - arc:
-        dir: ccw
-        radius: 14 nm
-        centre: 553034N 0043540W
-        to: 552658N 0041154W
 
 - name: REDHILL
   id: redhill-atz
