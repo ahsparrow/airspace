@@ -2231,6 +2231,118 @@ airspace:
       - 532638N 0022258W
       - 533430N 0020400W
 
+- name: NEWCASTLE CTA
+  id: newcastle-cta
+  type: CTA
+  class: D
+  geometry:
+  - seqno: 1
+    upper: FL105
+    lower: 1500 ft
+    boundary:
+    - line:
+      - 550345N 0020020W
+      - 550525N 0015411W
+    - arc:
+        dir: ccw
+        radius: 8 nm
+        centre: 550217N 0014123W
+        to: 545500N 0014705W
+    - line:
+      - 545336N 0015304W
+    - arc:
+        dir: cw
+        radius: 11 nm
+        centre: 550217N 0014123W
+        to: 550345N 0020020W
+  - seqno: 2
+    upper: FL105
+    lower: 1500 ft
+    boundary:
+    - line:
+      - 550955N 0013719W
+      - 551134N 0013108W
+    - arc:
+        dir: cw
+        radius: 11 nm
+        centre: 550217N 0014123W
+        to: 550042N 0012228W
+    - line:
+      - 545919N 0012829W
+    - arc:
+        dir: ccw
+        radius: 8 nm
+        centre: 550217N 0014123W
+        to: 550955N 0013719W
+  - seqno: 3
+    upper: FL105
+    lower: 3000 ft
+    boundary:
+    - line:
+      - 551338N 0012147W
+    - arc:
+        dir: cw
+        radius: 16 nm
+        centre: 550217N 0014123W
+        to: 550149N 0011336W
+    - line:
+      - 545010N 0013330W
+      - 545849N 0013040W
+      - 550042N 0012228W
+    - arc:
+        dir: ccw
+        radius: 11 nm
+        centre: 550217N 0014123W
+        to: 551134N 0013108W
+  - seqno: 4
+    id: newcastle-cta4
+    upper: FL105
+    lower: 3000 ft
+    boundary:
+    - line:
+      - 550209N 0020030W
+    - arc:
+        dir: ccw
+        radius: 11 nm
+        centre: 550217N 0014123W
+        to: 545531N 0015626W
+    - line:
+      - 544356N 0020004W
+  - seqno: 5
+    id: newcastle-cta5
+    upper: FL55
+    lower: 3000 ft
+    boundary:
+    - line:
+      - 545849N 0013040W
+      - 545010N 0013330W
+      - 544356N 0020004W
+      - 545531N 0015626W
+    - arc:
+        dir: ccw
+        radius: 11 nm
+        centre: 550217N 0014123W
+        to: 545336N 0015304W
+  - seqno: 6
+    id: newcastle-cta6
+    upper: FL55
+    lower: 4500 ft
+    boundary:
+    - line:
+      - 545010N 0013330W
+      - 544124N 0013620W
+      - 544356N 0020004W
+  - seqno: 7
+    id: newcastle-cta7
+    upper: FL75
+    lower: 6000 ft
+    boundary:
+    - line:
+      - 544356N 0020004W
+      - 544219N 0014448W
+      - 543724N 0014622W
+      - 543901N 0020136W
+
 - name: NITON CTA
   type: CTA
   class: A
@@ -12383,118 +12495,6 @@ airspace:
         radius: 8 nm
         centre: 550217N 0014123W
         to: 550525N 0015411W
-
-- name: NEWCASTLE CTA
-  id: newcastle-cta
-  type: CTA
-  class: D
-  geometry:
-  - seqno: 1
-    upper: FL105
-    lower: 1500 ft
-    boundary:
-    - line:
-      - 550345N 0020020W
-      - 550525N 0015411W
-    - arc:
-        dir: ccw
-        radius: 8 nm
-        centre: 550217N 0014123W
-        to: 545500N 0014705W
-    - line:
-      - 545336N 0015304W
-    - arc:
-        dir: cw
-        radius: 11 nm
-        centre: 550217N 0014123W
-        to: 550345N 0020020W
-  - seqno: 2
-    upper: FL105
-    lower: 1500 ft
-    boundary:
-    - line:
-      - 550955N 0013719W
-      - 551134N 0013108W
-    - arc:
-        dir: cw
-        radius: 11 nm
-        centre: 550217N 0014123W
-        to: 550042N 0012228W
-    - line:
-      - 545919N 0012829W
-    - arc:
-        dir: ccw
-        radius: 8 nm
-        centre: 550217N 0014123W
-        to: 550955N 0013719W
-  - seqno: 3
-    upper: FL105
-    lower: 3000 ft
-    boundary:
-    - line:
-      - 551338N 0012147W
-    - arc:
-        dir: cw
-        radius: 16 nm
-        centre: 550217N 0014123W
-        to: 550149N 0011336W
-    - line:
-      - 545010N 0013330W
-      - 545849N 0013040W
-      - 550042N 0012228W
-    - arc:
-        dir: ccw
-        radius: 11 nm
-        centre: 550217N 0014123W
-        to: 551134N 0013108W
-  - seqno: 4
-    id: newcastle-cta4
-    upper: FL105
-    lower: 3000 ft
-    boundary:
-    - line:
-      - 550209N 0020030W
-    - arc:
-        dir: ccw
-        radius: 11 nm
-        centre: 550217N 0014123W
-        to: 545531N 0015626W
-    - line:
-      - 544356N 0020004W
-  - seqno: 5
-    id: newcastle-cta5
-    upper: FL55
-    lower: 3000 ft
-    boundary:
-    - line:
-      - 545849N 0013040W
-      - 545010N 0013330W
-      - 544356N 0020004W
-      - 545531N 0015626W
-    - arc:
-        dir: ccw
-        radius: 11 nm
-        centre: 550217N 0014123W
-        to: 545336N 0015304W
-  - seqno: 6
-    id: newcastle-cta6
-    upper: FL55
-    lower: 4500 ft
-    boundary:
-    - line:
-      - 545010N 0013330W
-      - 544124N 0013620W
-      - 544356N 0020004W
-  - seqno: 7
-    id: newcastle-cta7
-    upper: FL75
-    lower: 6000 ft
-    boundary:
-    - line:
-      - 544356N 0020004W
-      - 544219N 0014448W
-      - 543724N 0014622W
-      - 543901N 0020136W
 
 - name: NEWQUAY
   id: newquay-atz
