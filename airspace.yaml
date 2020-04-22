@@ -2939,6 +2939,158 @@ airspace:
       - 502754N 0013240W
       - 503156N 0014700W
 
+- name: SOUTHEND CTA
+  id: southend-cta
+  type: CTA
+  class: D
+  geometry:
+  - seqno: 1
+    upper: 3500 ft
+    lower: 1500 ft
+    boundary:
+    - line:
+      - 513437N 0002440E
+      - 514333N 0004429E
+      - 514206N 0004521E
+      - 513445N 0002903E
+    - arc:
+        dir: ccw
+        radius: 7.5 nm
+        centre: 513357N 0004100E
+        to: 512701N 0003630E
+    - line:
+      - 512719N 0003955E
+      - 513151N 0005000E
+      - 513000N 0005000E
+      - 512528N 0003956E
+      - 512446N 0003202E
+      - 512757N 0002721E
+      - 513146N 0002401E
+  - seqno: 2
+    upper: 4500 ft
+    lower: 1500 ft
+    boundary:
+    - line:
+      - 514333N 0004429E
+      - 514420N 0004614E
+      - 514440N 0005036E
+      - 514431N 0005038E
+      - 514138N 0005222E
+      - 514312N 0004748E
+      - 514206N 0004521E
+  - seqno: 3
+    upper: 5500 ft
+    lower: 1500 ft
+    boundary:
+    - line:
+      - 514440N 0005036E
+      - 514446N 0005158E
+    - arc:
+        dir: cw
+        radius: 12 nm
+        centre: 513428N 0004207E
+        to: 513504N 0010120E
+    - line:
+      - 513000N 0005000E
+      - 513151N 0005000E
+      - 513528N 0005805E
+    - arc:
+        dir: ccw
+        radius: 10 nm
+        centre: 513428N 0004207E
+        to: 514057N 0005420E
+    - line:
+      - 514138N 0005222E
+      - 514431N 0005038E
+  - seqno: 4
+    upper: 3500 ft
+    lower: 2500 ft
+    boundary:
+    - line:
+      - 513437N 0002440E
+      - 513943N 0002551E
+      - 514353N 0003508E
+      - 514435N 0004406E
+      - 514401N 0004412E
+      - 514333N 0004429E
+  - seqno: 5
+    upper: 4500 ft
+    lower: 2500 ft
+    boundary:
+    - line:
+      - 514435N 0004406E
+      - 514506N 0004514E
+      - 514530N 0005026E
+      - 514440N 0005036E
+      - 514420N 0004614E
+      - 514333N 0004429E
+      - 514401N 0004412E
+  - seqno: 6
+    upper: 5500 ft
+    lower: 2500 ft
+    boundary:
+    - line:
+      - 514530N 0005026E
+      - 514551N 0005510E
+    - arc:
+        dir: cw
+        radius: 14 nm
+        centre: 513428N 0004207E
+        to: 513653N 0010414E
+    - line:
+      - 513535N 0010117E
+    - arc:
+        dir: ccw
+        radius: 12 nm
+        centre: 513428N 0004207E
+        to: 514446N 0005158E
+    - line:
+      - 514440N 0005036E
+  - seqno: 7
+    upper: 3500 ft
+    lower: 2500 ft
+    boundary:
+    - line:
+      - 512757N 0002721E
+      - 512446N 0003202E
+      - 512528N 0003956E
+      - 513000N 0005000E
+      - 512120N 0005000E
+      - 512046N 0003338E
+  - seqno: 8
+    upper: 5500 ft
+    lower: 3500 ft
+    boundary:
+    - line:
+      - 512829N 0005000E
+      - 512555N 0005625E
+      - 512124N 0005144E
+      - 512120N 0005000E
+  - seqno: 9
+    upper: 4500 ft
+    lower: 3500 ft
+    boundary:
+    - line:
+      - 514506N 0004514E
+      - 514716N 0005005E
+      - 514530N 0005026E
+  - seqno: 10
+    upper: 5500 ft
+    lower: 3500 ft
+    boundary:
+    - line:
+      - 514716N 0005005E
+      - 514940N 0005655E
+      - 513905N 0010915E
+      - 513653N 0010414E
+    - arc:
+        dir: ccw
+        radius: 14 nm
+        centre: 513428N 0004207E
+        to: 514551N 0005510E
+    - line:
+      - 514530N 0005026E
+
 - name: STRUMBLE CTA
   type: CTA
   class: A
@@ -13065,158 +13217,6 @@ airspace:
       - 513151N 0005000E
       - 513417N 0005000E
       - 513618N 0005532E
-
-- name: SOUTHEND CTA
-  id: southend-cta
-  type: CTA
-  class: D
-  geometry:
-  - seqno: 1
-    upper: 3500 ft
-    lower: 1500 ft
-    boundary:
-    - line:
-      - 513437N 0002440E
-      - 514333N 0004429E
-      - 514206N 0004521E
-      - 513445N 0002903E
-    - arc:
-        dir: ccw
-        radius: 7.5 nm
-        centre: 513357N 0004100E
-        to: 512701N 0003630E
-    - line:
-      - 512719N 0003955E
-      - 513151N 0005000E
-      - 513000N 0005000E
-      - 512528N 0003956E
-      - 512446N 0003202E
-      - 512757N 0002721E
-      - 513146N 0002401E
-  - seqno: 2
-    upper: 4500 ft
-    lower: 1500 ft
-    boundary:
-    - line:
-      - 514333N 0004429E
-      - 514420N 0004614E
-      - 514440N 0005036E
-      - 514431N 0005038E
-      - 514138N 0005222E
-      - 514312N 0004748E
-      - 514206N 0004521E
-  - seqno: 3
-    upper: 5500 ft
-    lower: 1500 ft
-    boundary:
-    - line:
-      - 514440N 0005036E
-      - 514446N 0005158E
-    - arc:
-        dir: cw
-        radius: 12 nm
-        centre: 513428N 0004207E
-        to: 513504N 0010120E
-    - line:
-      - 513000N 0005000E
-      - 513151N 0005000E
-      - 513528N 0005805E
-    - arc:
-        dir: ccw
-        radius: 10 nm
-        centre: 513428N 0004207E
-        to: 514057N 0005420E
-    - line:
-      - 514138N 0005222E
-      - 514431N 0005038E
-  - seqno: 4
-    upper: 3500 ft
-    lower: 2500 ft
-    boundary:
-    - line:
-      - 513437N 0002440E
-      - 513943N 0002551E
-      - 514353N 0003508E
-      - 514435N 0004406E
-      - 514401N 0004412E
-      - 514333N 0004429E
-  - seqno: 5
-    upper: 4500 ft
-    lower: 2500 ft
-    boundary:
-    - line:
-      - 514435N 0004406E
-      - 514506N 0004514E
-      - 514530N 0005026E
-      - 514440N 0005036E
-      - 514420N 0004614E
-      - 514333N 0004429E
-      - 514401N 0004412E
-  - seqno: 6
-    upper: 5500 ft
-    lower: 2500 ft
-    boundary:
-    - line:
-      - 514530N 0005026E
-      - 514551N 0005510E
-    - arc:
-        dir: cw
-        radius: 14 nm
-        centre: 513428N 0004207E
-        to: 513653N 0010414E
-    - line:
-      - 513535N 0010117E
-    - arc:
-        dir: ccw
-        radius: 12 nm
-        centre: 513428N 0004207E
-        to: 514446N 0005158E
-    - line:
-      - 514440N 0005036E
-  - seqno: 7
-    upper: 3500 ft
-    lower: 2500 ft
-    boundary:
-    - line:
-      - 512757N 0002721E
-      - 512446N 0003202E
-      - 512528N 0003956E
-      - 513000N 0005000E
-      - 512120N 0005000E
-      - 512046N 0003338E
-  - seqno: 8
-    upper: 5500 ft
-    lower: 3500 ft
-    boundary:
-    - line:
-      - 512829N 0005000E
-      - 512555N 0005625E
-      - 512124N 0005144E
-      - 512120N 0005000E
-  - seqno: 9
-    upper: 4500 ft
-    lower: 3500 ft
-    boundary:
-    - line:
-      - 514506N 0004514E
-      - 514716N 0005005E
-      - 514530N 0005026E
-  - seqno: 10
-    upper: 5500 ft
-    lower: 3500 ft
-    boundary:
-    - line:
-      - 514716N 0005005E
-      - 514940N 0005655E
-      - 513905N 0010915E
-      - 513653N 0010414E
-    - arc:
-        dir: ccw
-        radius: 14 nm
-        centre: 513428N 0004207E
-        to: 514551N 0005510E
-    - line:
-      - 514530N 0005026E
 
 - name: STAPLEFORD
   id: stapleford-atz
