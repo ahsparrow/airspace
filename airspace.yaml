@@ -2008,6 +2008,66 @@ airspace:
       - 513946N 0032432W
       - 514224N 0034108W
 
+- name: TEESSIDE CTA
+  id: teesside-cta
+  type: CTA
+  class: D
+  geometry:
+  - seqno: 1
+    upper: 6000 ft
+    lower: 1200 ft
+    boundary:
+    - line:
+      - 543303N 0013347W
+    - arc:
+        dir: ccw
+        radius: 5.3 nm
+        centre: 543033N 0012546W
+        to: 542541N 0012211W
+    - line:
+      - 542417N 0012449W
+    - arc:
+        dir: cw
+        radius: 6.3 nm
+        centre: 543033N 0012546W
+        to: 543138N 0013625W
+  - seqno: 2
+    upper: 6000 ft
+    lower: 1500 ft
+    boundary:
+    - line:
+      - 543138N 0013625W
+    - arc:
+        dir: ccw
+        radius: 6.3 nm
+        centre: 543033N 0012546W
+        to: 542417N 0012449W
+    - line:
+      - 542251N 0013100W
+    - arc:
+        dir: cw
+        radius: 8.3 nm
+        centre: 543033N 0012546W
+        to: 542945N 0013956W
+  - seqno: 3
+    upper: 6000 ft
+    lower: 3000 ft
+    boundary:
+    - line:
+      - 544219N 0011621W
+    - arc:
+        dir: cw
+        radius: 13 nm
+        centre: 543033N 0012546W
+        to: 543456N 0010446W
+    - line:
+      - 543328N 0010734W
+    - arc:
+        dir: ccw
+        radius: 11 nm
+        centre: 543033N 0012546W
+        to: 544050N 0011909W
+
 - name: WORTHING CTA
   type: CTA
   class: A
@@ -10880,66 +10940,6 @@ airspace:
         radius: 5.3 nm
         centre: 543033N 0012546W
         to: 543303N 0013347W
-
-- name: TEESSIDE CTA
-  id: teesside-cta
-  type: CTA
-  class: D
-  geometry:
-  - seqno: 1
-    upper: 6000 ft
-    lower: 1200 ft
-    boundary:
-    - line:
-      - 543303N 0013347W
-    - arc:
-        dir: ccw
-        radius: 5.3 nm
-        centre: 543033N 0012546W
-        to: 542541N 0012211W
-    - line:
-      - 542417N 0012449W
-    - arc:
-        dir: cw
-        radius: 6.3 nm
-        centre: 543033N 0012546W
-        to: 543138N 0013625W
-  - seqno: 2
-    upper: 6000 ft
-    lower: 1500 ft
-    boundary:
-    - line:
-      - 543138N 0013625W
-    - arc:
-        dir: ccw
-        radius: 6.3 nm
-        centre: 543033N 0012546W
-        to: 542417N 0012449W
-    - line:
-      - 542251N 0013100W
-    - arc:
-        dir: cw
-        radius: 8.3 nm
-        centre: 543033N 0012546W
-        to: 542945N 0013956W
-  - seqno: 3
-    upper: 6000 ft
-    lower: 3000 ft
-    boundary:
-    - line:
-      - 544219N 0011621W
-    - arc:
-        dir: cw
-        radius: 13 nm
-        centre: 543033N 0012546W
-        to: 543456N 0010446W
-    - line:
-      - 543328N 0010734W
-    - arc:
-        dir: ccw
-        radius: 11 nm
-        centre: 543033N 0012546W
-        to: 544050N 0011909W
 
 - name: DUXFORD
   id: duxford-atz
