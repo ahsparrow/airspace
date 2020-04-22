@@ -1674,6 +1674,38 @@ airspace:
       - 505119N 0005457W
       - 505512N 0005908W
 
+- name: GLASGOW CTA
+  id: glasgow-cta
+  type: CTA
+  class: D
+  geometry:
+  - id: glasgow-cta1
+    seqno: 1
+    upper: 6000 ft
+    lower: 3000 ft
+    boundary:
+    - line:
+      - 560700N 0034855W
+      - 560700N 0040910W
+      - 560400N 0042000W
+      - 560130N 0040435W
+      - 554434N 0040924W
+      - 554349N 0034715W
+      - 554806N 0035411W
+      - 555724N 0035417W
+  - id: glasgow-cta2
+    seqno: 2
+    upper: 6000 ft
+    lower: 3500 ft
+    boundary:
+    - line:
+      - 554349N 0034715W
+      - 554434N 0040924W
+      - 554132N 0042405W
+      - 553700N 0042847W
+      - 554125N 0041017W
+      - 554125N 0034324W
+
 - name: HOLYHEAD CTA
   type: CTA
   class: C
@@ -11281,38 +11313,6 @@ airspace:
     - circle:
         radius: 10 nm
         centre: 555700N 0032221W
-
-- name: GLASGOW CTA
-  id: glasgow-cta
-  type: CTA
-  class: D
-  geometry:
-  - id: glasgow-cta1
-    seqno: 1
-    upper: 6000 ft
-    lower: 3000 ft
-    boundary:
-    - line:
-      - 560700N 0034855W
-      - 560700N 0040910W
-      - 560400N 0042000W
-      - 560130N 0040435W
-      - 554434N 0040924W
-      - 554349N 0034715W
-      - 554806N 0035411W
-      - 555724N 0035417W
-  - id: glasgow-cta2
-    seqno: 2
-    upper: 6000 ft
-    lower: 3500 ft
-    boundary:
-    - line:
-      - 554349N 0034715W
-      - 554434N 0040924W
-      - 554132N 0042405W
-      - 553700N 0042847W
-      - 554125N 0041017W
-      - 554125N 0034324W
 
 - name: ELSTREE
   id: elstree-atz
