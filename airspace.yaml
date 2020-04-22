@@ -302,6 +302,142 @@ airspace:
       - 520648N 0020148W
       - 521702N 0021251W
 
+- name: BRISTOL CTA
+  id: bristol-cta
+  type: CTA
+  class: D
+  geometry:
+  - seqno: 1
+    id: bristol-cta-1
+    upper: FL105
+    lower: 1500 ft
+    boundary:
+    - line:
+      - 512824N 0023142W
+    - arc:
+        dir: cw
+        radius: 9 nm
+        centre: 512258N 0024309W
+        to: 511826N 0023045W
+    - line:
+      - 511759N 0024239W
+    - arc:
+        dir: ccw
+        radius: 5 nm
+        centre: 512258N 0024309W
+        to: 512757N 0024339W
+  - seqno: 2
+    upper: FL105
+    lower: 1500 ft
+    boundary:
+    - line:
+      - 512757N 0024339W
+    - arc:
+        dir: ccw
+        radius: 5 nm
+        centre: 512258N 0024309W
+        to: 511759N 0024239W
+    - line:
+      - 511730N 0025433W
+    - arc:
+        dir: cw
+        radius: 9 nm
+        centre: 512258N 0024309W
+        to: 512728N 0025535W
+  - seqno: 3
+    upper: FL105
+    lower: 2000 ft
+    boundary:
+    - line:
+      - 512836N 0022614W
+    - arc:
+        dir: cw
+        radius: 12 nm
+        centre: 512258N 0024309W
+        to: 511838N 0022518W
+    - line:
+      - 511826N 0023045W
+    - arc:
+        dir: ccw
+        radius: 9 nm
+        centre: 512258N 0024309W
+        to: 512824N 0023142W
+  - seqno: 4
+    upper: FL105
+    lower: 2000 ft
+    boundary:
+    - line:
+      - 512728N 0025535W
+    - arc:
+        dir: ccw
+        radius: 9 nm
+        centre: 512258N 0024309W
+        to: 511730N 0025433W
+    - line:
+      - 511709N 0030302W
+      - 512349N 0030302W
+      - 512715N 0030058W
+  - seqno: 5
+    id: bristol-cta-5
+    upper: FL105
+    lower: 3000 ft
+    boundary:
+    - line:
+      - 511826N 0023045W
+    - arc:
+        dir: cw
+        radius: 9 nm
+        centre: 512258N 0024309W
+        to: 511620N 0023328W
+    - line:
+      - 511538N 0025120W
+      - 511247N 0030302W
+      - 511709N 0030302W
+  - id: bristol-6
+    seqno: 6
+    upper: FL105
+    lower: 3500 ft
+    boundary:
+    - line:
+      - 512847N 0022104W
+    - arc:
+        dir: cw
+        radius: 15 nm
+        centre: 512258N 0024309W
+        to: 511849N 0022009W
+    - line:
+      - 511838N 0022518W
+    - arc:
+        dir: ccw
+        radius: 12 nm
+        centre: 512258N 0024309W
+        to: 512836N 0022614W
+  - seqno: 7
+    upper: FL105
+    lower: 4000 ft
+    boundary:
+    - line:
+      - 513450N 0024206W
+      - 513235N 0022204W
+      - 512842N 0022338W
+      - 512715N 0030058W
+  - id: bristol-8
+    seqno: 8
+    upper: FL105
+    lower: 4500 ft
+    boundary:
+    - line:
+      - 513235N 0022204W
+      - 513039N 0020510W
+      - 512320N 0021913W
+    - arc:
+        dir: ccw
+        radius: 15 nm
+        centre: 512258N 0024309W
+        to: 512847N 0022104W
+    - line:
+      - 512842N 0022338W
+
 - name: CLACTON CTA
   type: CTA
   class: A
@@ -10112,142 +10248,6 @@ airspace:
     - circle:
         radius: 5 nm
         centre: 512258N 0024309W
-
-- name: BRISTOL CTA
-  id: bristol-cta
-  type: CTA
-  class: D
-  geometry:
-  - seqno: 1
-    id: bristol-cta-1
-    upper: FL105
-    lower: 1500 ft
-    boundary:
-    - line:
-      - 512824N 0023142W
-    - arc:
-        dir: cw
-        radius: 9 nm
-        centre: 512258N 0024309W
-        to: 511826N 0023045W
-    - line:
-      - 511759N 0024239W
-    - arc:
-        dir: ccw
-        radius: 5 nm
-        centre: 512258N 0024309W
-        to: 512757N 0024339W
-  - seqno: 2
-    upper: FL105
-    lower: 1500 ft
-    boundary:
-    - line:
-      - 512757N 0024339W
-    - arc:
-        dir: ccw
-        radius: 5 nm
-        centre: 512258N 0024309W
-        to: 511759N 0024239W
-    - line:
-      - 511730N 0025433W
-    - arc:
-        dir: cw
-        radius: 9 nm
-        centre: 512258N 0024309W
-        to: 512728N 0025535W
-  - seqno: 3
-    upper: FL105
-    lower: 2000 ft
-    boundary:
-    - line:
-      - 512836N 0022614W
-    - arc:
-        dir: cw
-        radius: 12 nm
-        centre: 512258N 0024309W
-        to: 511838N 0022518W
-    - line:
-      - 511826N 0023045W
-    - arc:
-        dir: ccw
-        radius: 9 nm
-        centre: 512258N 0024309W
-        to: 512824N 0023142W
-  - seqno: 4
-    upper: FL105
-    lower: 2000 ft
-    boundary:
-    - line:
-      - 512728N 0025535W
-    - arc:
-        dir: ccw
-        radius: 9 nm
-        centre: 512258N 0024309W
-        to: 511730N 0025433W
-    - line:
-      - 511709N 0030302W
-      - 512349N 0030302W
-      - 512715N 0030058W
-  - seqno: 5
-    id: bristol-cta-5
-    upper: FL105
-    lower: 3000 ft
-    boundary:
-    - line:
-      - 511826N 0023045W
-    - arc:
-        dir: cw
-        radius: 9 nm
-        centre: 512258N 0024309W
-        to: 511620N 0023328W
-    - line:
-      - 511538N 0025120W
-      - 511247N 0030302W
-      - 511709N 0030302W
-  - id: bristol-6
-    seqno: 6
-    upper: FL105
-    lower: 3500 ft
-    boundary:
-    - line:
-      - 512847N 0022104W
-    - arc:
-        dir: cw
-        radius: 15 nm
-        centre: 512258N 0024309W
-        to: 511849N 0022009W
-    - line:
-      - 511838N 0022518W
-    - arc:
-        dir: ccw
-        radius: 12 nm
-        centre: 512258N 0024309W
-        to: 512836N 0022614W
-  - seqno: 7
-    upper: FL105
-    lower: 4000 ft
-    boundary:
-    - line:
-      - 513450N 0024206W
-      - 513235N 0022204W
-      - 512842N 0022338W
-      - 512715N 0030058W
-  - id: bristol-8
-    seqno: 8
-    upper: FL105
-    lower: 4500 ft
-    boundary:
-    - line:
-      - 513235N 0022204W
-      - 513039N 0020510W
-      - 512320N 0021913W
-    - arc:
-        dir: ccw
-        radius: 15 nm
-        centre: 512258N 0024309W
-        to: 512847N 0022104W
-    - line:
-      - 512842N 0022338W
 
 - name: CAERNARFON
   id: caernarfon-atz
