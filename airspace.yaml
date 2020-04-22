@@ -10858,8 +10858,8 @@ airspace:
         radius: 2 nm
         centre: 505136N 0031405W
 
-- name: DURHAM CTR
-  id: durham-ctr
+- name: TEESSIDE CTR
+  id: teesside-ctr
   type: CTR
   class: D
   geometry:
@@ -10881,8 +10881,8 @@ airspace:
         centre: 543033N 0012546W
         to: 543303N 0013347W
 
-- name: DURHAM CTA
-  id: durham-cta
+- name: TEESSIDE CTA
+  id: teesside-cta
   type: CTA
   class: D
   geometry:

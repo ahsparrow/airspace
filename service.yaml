@@ -292,10 +292,10 @@ service:
   - dunstable-glider
   frequency: 119.905
 
-- callsign: DURHAM APPROACH
+- callsign: TEESSIDE APPROACH
   controls:
-  - durham-cta
-  - durham-ctr
+  - teesside-cta
+  - teesside-ctr
   frequency: 118.855
 
 - callsign: DUXFORD INFORMATION
