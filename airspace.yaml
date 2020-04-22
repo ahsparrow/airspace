@@ -1902,6 +1902,55 @@ airspace:
       - 533119N 0010614W
       - 533109N 0010751W
 
+- name: LIVERPOOL CTA
+  id: liverpool-cta
+  type: CTA
+  class: D
+  geometry:
+  - seqno: 1
+    upper: 3500 ft
+    lower: 1500 ft
+    boundary:
+    - line:
+      - 532817N 0025719W
+      - 532331N 0030804W
+      - 531924N 0030735W
+      - 532309N 0031205W
+      - 532734N 0030310W
+  - seqno: 2
+    upper: 3500 ft
+    lower: 2000 ft
+    boundary:
+    - line:
+      - 532734N 0030310W
+      - 532336N 0031110W
+      - 532345N 0031625W
+      - 531855N 0031647W
+      - 531909N 0032201W
+      - 532621N 0032107W
+      - 533213N 0031406W
+  - seqno: 3
+    upper: 3500 ft
+    lower: 2500 ft
+    boundary:
+    - line:
+      - 532902N 0025059W
+      - 531309N 0025059W
+      - 531427N 0030140W
+      - 531924N 0030735W
+      - 532331N 0030804W
+      - 532817N 0025719W
+  - seqno: 4
+    upper: 3000 ft
+    lower: 2000 ft
+    boundary:
+    - line:
+      - 532336N 0031110W
+      - 532309N 0031205W
+      - 531427N 0030140W
+      - 531855N 0031647W
+      - 532345N 0031625W
+
 - name: NITON CTA
   type: CTA
   class: A
@@ -11795,55 +11844,6 @@ airspace:
       - 531924N 0030735W
       - 532331N 0030804W
       - 532817N 0025719W
-
-- name: LIVERPOOL CTA
-  id: liverpool-cta
-  type: CTA
-  class: D
-  geometry:
-  - seqno: 1
-    upper: 3500 ft
-    lower: 1500 ft
-    boundary:
-    - line:
-      - 532817N 0025719W
-      - 532331N 0030804W
-      - 531924N 0030735W
-      - 532309N 0031205W
-      - 532734N 0030310W
-  - seqno: 2
-    upper: 3500 ft
-    lower: 2000 ft
-    boundary:
-    - line:
-      - 532734N 0030310W
-      - 532336N 0031110W
-      - 532345N 0031625W
-      - 531855N 0031647W
-      - 531909N 0032201W
-      - 532621N 0032107W
-      - 533213N 0031406W
-  - seqno: 3
-    upper: 3500 ft
-    lower: 2500 ft
-    boundary:
-    - line:
-      - 532902N 0025059W
-      - 531309N 0025059W
-      - 531427N 0030140W
-      - 531924N 0030735W
-      - 532331N 0030804W
-      - 532817N 0025719W
-  - seqno: 4
-    upper: 3000 ft
-    lower: 2000 ft
-    boundary:
-    - line:
-      - 532336N 0031110W
-      - 532309N 0031205W
-      - 531427N 0030140W
-      - 531855N 0031647W
-      - 532345N 0031625W
 
 - name: LONDON CITY CTR
   type: CTR
