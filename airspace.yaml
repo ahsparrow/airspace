@@ -2070,6 +2070,73 @@ airspace:
       - 515356N 0005006W
       - 515048N 0004926W
 
+- name: LONDON STANSTED CTA
+  type: CTA
+  class: D
+  geometry:
+  - seqno: 1
+    upper: 3500 ft
+    lower: 1500 ft
+    boundary:
+    - line:
+      - 515416N 0002653E
+    - arc:
+        dir: ccw
+        radius: 8 nm
+        centre: 515306N 0001406E
+        to: 520104N 0001503E
+    - line:
+      - 520517N 0002124E
+    - arc:
+        dir: cw
+        radius: 13 nm
+        centre: 515306N 0001406E
+        to: 515828N 0003314E
+  - seqno: 2
+    upper: 2500 ft
+    lower: 1500 ft
+    boundary:
+    - line:
+      - 514508N 0001309E
+      - 514055N 0000652E
+    - arc:
+        dir: cw
+        radius: 13 nm
+        centre: 515306N 0001406E
+        to: 514550N 0000316W
+    - line:
+      - 515146N 0000006W
+      - 515155N 0000120E
+    - arc:
+        dir: ccw
+        radius: 8 nm
+        centre: 515306N 0001406E
+        to: 514508N 0001309E
+  - seqno: 3
+    upper: 3500 ft
+    lower: 2000 ft
+    boundary:
+    - line:
+      - 515828N 0003314E
+    - arc:
+        dir: cw
+        radius: 13 nm
+        centre: 515306N 0001406E
+        to: 515349N 0003503E
+    - line:
+      - 514556N 0002309E
+      - 514508N 0001309E
+  - seqno: 4
+    upper: 3500 ft
+    lower: 2500 ft
+    boundary:
+    - line:
+      - 520300N 0000907E
+      - 520517N 0002124E
+      - 515155N 0000120E
+      - 515146N 0000006W
+      - 520127N 0000000W
+
 - name: LONDON CITY CTA
   type: CTA
   class: D
@@ -12114,73 +12181,6 @@ airspace:
         radius: 8 nm
         centre: 515306N 0001406E
         to: 515416N 0002653E
-
-- name: LONDON STANSTED CTA
-  type: CTA
-  class: D
-  geometry:
-  - seqno: 1
-    upper: 3500 ft
-    lower: 1500 ft
-    boundary:
-    - line:
-      - 515416N 0002653E
-    - arc:
-        dir: ccw
-        radius: 8 nm
-        centre: 515306N 0001406E
-        to: 520104N 0001503E
-    - line:
-      - 520517N 0002124E
-    - arc:
-        dir: cw
-        radius: 13 nm
-        centre: 515306N 0001406E
-        to: 515828N 0003314E
-  - seqno: 2
-    upper: 2500 ft
-    lower: 1500 ft
-    boundary:
-    - line:
-      - 514508N 0001309E
-      - 514055N 0000652E
-    - arc:
-        dir: cw
-        radius: 13 nm
-        centre: 515306N 0001406E
-        to: 514550N 0000316W
-    - line:
-      - 515146N 0000006W
-      - 515155N 0000120E
-    - arc:
-        dir: ccw
-        radius: 8 nm
-        centre: 515306N 0001406E
-        to: 514508N 0001309E
-  - seqno: 3
-    upper: 3500 ft
-    lower: 2000 ft
-    boundary:
-    - line:
-      - 515828N 0003314E
-    - arc:
-        dir: cw
-        radius: 13 nm
-        centre: 515306N 0001406E
-        to: 515349N 0003503E
-    - line:
-      - 514556N 0002309E
-      - 514508N 0001309E
-  - seqno: 4
-    upper: 3500 ft
-    lower: 2500 ft
-    boundary:
-    - line:
-      - 520300N 0000907E
-      - 520517N 0002124E
-      - 515155N 0000120E
-      - 515146N 0000006W
-      - 520127N 0000000W
 
 - name: LONDON STANSTED TMZ
   type: OTHER
