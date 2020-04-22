@@ -1789,6 +1789,66 @@ airspace:
       - 533222N 0030059W
       - 533213N 0031406W
 
+- name: LEEDS BRADFORD CTA
+  id: leeds-bradford-cta
+  type: CTA
+  class: D
+  geometry:
+  - seqno: 1
+    upper: FL85
+    lower: 2500 ft
+    boundary:
+    - line:
+      - 534445N 0012327W
+    - arc:
+        dir: cw
+        radius: 12 nm
+        centre: 535157N 0013938W
+        to: 534032N 0013331W
+    - line:
+      - 534359N 0013847W
+    - arc:
+        dir: ccw
+        radius: 8 nm
+        centre: 535157N 0013938W
+        to: 534904N 0012703W
+  - seqno: 2
+    upper: FL85
+    lower: 2500 ft
+    boundary:
+    - line:
+      - 535312N 0015259W
+      - 534359N 0013847W
+    - arc:
+        dir: cw
+        radius: 8 nm
+        centre: 535157N 0013938W
+        to: 535312N 0015259W
+  - seqno: 3
+    upper: FL85
+    lower: 3000 ft
+    boundary:
+    - line:
+      - 540236N 0014900W
+      - 535955N 0014027W
+    - arc:
+        dir: ccw
+        radius: 8 nm
+        centre: 535157N 0013938W
+        to: 534359N 0013847W
+    - line:
+      - 534032N 0013331W
+    - arc:
+        dir: ccw
+        radius: 12 nm
+        centre: 535157N 0013938W
+        to: 534445N 0012327W
+    - line:
+      - 534007N 0011937W
+      - 533713N 0014830W
+      - 534726N 0015913W
+      - 535539N 0020919W
+
 - name: LINCOLNSHIRE CTA
   type: CTA
   class: A
@@ -11664,66 +11724,6 @@ airspace:
         radius: 8 nm
         centre: 535157N 0013938W
         to: 535955N 0014027W
-
-- name: LEEDS BRADFORD CTA
-  id: leeds-bradford-cta
-  type: CTA
-  class: D
-  geometry:
-  - seqno: 1
-    upper: FL85
-    lower: 2500 ft
-    boundary:
-    - line:
-      - 534445N 0012327W
-    - arc:
-        dir: cw
-        radius: 12 nm
-        centre: 535157N 0013938W
-        to: 534032N 0013331W
-    - line:
-      - 534359N 0013847W
-    - arc:
-        dir: ccw
-        radius: 8 nm
-        centre: 535157N 0013938W
-        to: 534904N 0012703W
-  - seqno: 2
-    upper: FL85
-    lower: 2500 ft
-    boundary:
-    - line:
-      - 535312N 0015259W
-      - 534359N 0013847W
-    - arc:
-        dir: cw
-        radius: 8 nm
-        centre: 535157N 0013938W
-        to: 535312N 0015259W
-  - seqno: 3
-    upper: FL85
-    lower: 3000 ft
-    boundary:
-    - line:
-      - 540236N 0014900W
-      - 535955N 0014027W
-    - arc:
-        dir: ccw
-        radius: 8 nm
-        centre: 535157N 0013938W
-        to: 534359N 0013847W
-    - line:
-      - 534032N 0013331W
-    - arc:
-        dir: ccw
-        radius: 12 nm
-        centre: 535157N 0013938W
-        to: 534445N 0012327W
-    - line:
-      - 534007N 0011937W
-      - 533713N 0014830W
-      - 534726N 0015913W
-      - 535539N 0020919W
 
 # Leeds East
 - name: CHURCH FENTON
