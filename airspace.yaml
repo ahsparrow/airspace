@@ -1289,6 +1289,219 @@ airspace:
       - 531343N 0004324W
       - 531600N 0005542W
 
+- name: EAST MIDLANDS CTA
+  id: east-midlands-cta
+  type: CTA
+  class: D
+  geometry:
+  - id: east-midlands-cta-1
+    seqno: 1
+    upper: FL105
+    lower: 2500 ft
+    boundary:
+    - line:
+      - 525911N 0012801W
+      - 525901N 0010918W
+      - 525421N 0010006W
+      - 525121N 0005725W
+      - 525057N 0005724W
+      - 525255N 0010733W
+      - 525456N 0011804W
+      - 525510N 0012530W
+  - id: east-midlands-cta-2
+    seqno: 2
+    upper: FL105
+    lower: 1500 ft
+    boundary:
+    - line:
+      - 525255N 0010733W
+      - 525057N 0005724W
+      - 525014N 0005722W
+      - 524619N 0005748W
+      - 524558N 0010733W
+  - seqno: 3
+    upper: FL105
+    lower: 2500 ft
+    boundary:
+    - line:
+      - 524619N 0005748W
+      - 524315N 0005749W
+      - 524122N 0011653W
+      - 524536N 0011932W
+      - 524537N 0011628W
+  - seqno: 4
+    upper: 5500 ft
+    lower: 2500 ft
+    boundary:
+    - line:
+      - 524536N 0011932W
+      - 524122N 0011653W
+      - 524013N 0012820W
+      - 524533N 0013405W
+  - seqno: 5
+    upper: 5500 ft
+    lower: 1500 ft
+    boundary:
+    - line:
+      - 525142N 0013706W
+      - 525233N 0013241W
+      - 524535N 0012816W
+      - 524533N 0013405W
+      - 524702N 0013541W
+      - 524942N 0013857W
+  - seqno: 6
+    upper: 5500 ft
+    lower: 2500 ft
+    boundary:
+    - line:
+      - 525629N 0013938W
+      - 525911N 0012801W
+      - 525510N 0012530W
+      - 525233N 0013241W
+      - 525142N 0013706W
+      - 524942N 0013857W
+      - 525059N 0014031W
+  - id: east-midlands-cta-7
+    seqno: 7
+    upper: FL105
+    lower: 4000 ft
+    boundary:
+    - line:
+      - 530410N 0013110W
+      - 530402N 0011422W
+      - 525901N 0010918W
+      - 525911N 0012801W
+  - seqno: 8
+    upper: 5500 ft
+    lower: 4000 ft
+    boundary:
+    - line:
+      - 525833N 0014948W
+      - 530123N 0014310W
+      - 530410N 0013110W
+      - 525911N 0012801W
+      - 525506N 0014533W
+  - seqno: 9
+    upper: 5500 ft
+    lower: 4500 ft
+    boundary:
+    - line:
+      - 524122N 0011653W
+      - 523610N 0011340W
+      - 523447N 0012231W
+      - 524013N 0012820W
+  - seqno: 10
+    upper: 5500 ft
+    lower: 3000 ft
+    boundary:
+    - line:
+      - 525506N 0014533W
+      - 525629N 0013938W
+      - 525059N 0014031W
+  - seqno: 11
+    upper: 4500 ft
+    lower: 3000 ft
+    boundary:
+    - line:
+      - 525232N 0014224W
+      - 524942N 0013857W
+      - 524542N 0013843W
+      - 524538N 0014201W
+  - seqno: 12
+    upper: 4500 ft
+    lower: 3500 ft
+    boundary:
+    - line:
+      - 525245N 0014543W
+      - 525248N 0014245W
+      - 525232N 0014224W
+      - 524538N 0014201W
+      - 524533N 0014518W
+  - seqno: 13
+    upper: 4500 ft
+    lower: 2500 ft
+    boundary:
+    - line:
+      - 524942N 0013857W
+      - 524702N 0013541W
+      - 524013N 0012820W
+      - 524542N 0013843W
+  - seqno: 15
+    upper: FL105
+    lower: 4500 ft
+    boundary:
+    - line:
+      - 524315N 0005749W
+      - 523836N 0005750W
+      - 523610N 0011340W
+      - 524122N 0011653W
+  - seqno: 16
+    upper: FL105
+    lower: FL75
+    boundary:
+    - line:
+      - 524026N 0005750W
+      - 523753N 0004811W
+      - 523637N 0004656W
+      - 522358N 0005457W
+      - 522823N 0010232W
+      - 522927N 0005753W
+  - seqno: 17
+    upper: FL105
+    lower: 5500 ft
+    boundary:
+    - line:
+      - 523836N 0005750W
+      - 523400N 0005752W
+      - 523141N 0011054W
+      - 523610N 0011340W
+  - seqno: 18
+    upper: FL105
+    lower: FL65
+    boundary:
+    - line:
+      - 523400N 0005752W
+      - 522927N 0005753W
+      - 522823N 0010232W
+      - 523203N 0010851W
+  - id: east-midlands-cta-19
+    seqno: 19
+    upper: FL105
+    lower: 5500 ft
+    boundary:
+    - line:
+      - 530900N 0013146W
+      - 530854N 0011918W
+      - 530402N 0011422W
+      - 530410N 0013110W
+      - 530517N 0013152W
+  - seqno: 20
+    upper: FL105
+    lower: FL75
+    boundary:
+    - line:
+      - 531143N 0013142W
+      - 531139N 0012206W
+      - 530854N 0011918W
+      - 530900N 0013146W
+  - seqno: 21
+    upper: FL85
+    lower: 5500 ft
+    boundary:
+    - line:
+      - 530901N 0013414W
+      - 530900N 0013146W
+      - 530517N 0013152W
+  - seqno: 22
+    upper: FL85
+    lower: FL75
+    boundary:
+    - line:
+      - 531145N 0013558W
+      - 531143N 0013142W
+      - 530900N 0013146W
+      - 530901N 0013414W
+
 - name: FARNBOROUGH CTA
   id: farnborough-cta
   type: CTA
@@ -10988,219 +11201,6 @@ airspace:
       - 524536N 0011932W
       - 524535N 0012816W
       - 525233N 0013241W
-
-- name: EAST MIDLANDS CTA
-  id: east-midlands-cta
-  type: CTA
-  class: D
-  geometry:
-  - id: east-midlands-cta-1
-    seqno: 1
-    upper: FL105
-    lower: 2500 ft
-    boundary:
-    - line:
-      - 525911N 0012801W
-      - 525901N 0010918W
-      - 525421N 0010006W
-      - 525121N 0005725W
-      - 525057N 0005724W
-      - 525255N 0010733W
-      - 525456N 0011804W
-      - 525510N 0012530W
-  - id: east-midlands-cta-2
-    seqno: 2
-    upper: FL105
-    lower: 1500 ft
-    boundary:
-    - line:
-      - 525255N 0010733W
-      - 525057N 0005724W
-      - 525014N 0005722W
-      - 524619N 0005748W
-      - 524558N 0010733W
-  - seqno: 3
-    upper: FL105
-    lower: 2500 ft
-    boundary:
-    - line:
-      - 524619N 0005748W
-      - 524315N 0005749W
-      - 524122N 0011653W
-      - 524536N 0011932W
-      - 524537N 0011628W
-  - seqno: 4
-    upper: 5500 ft
-    lower: 2500 ft
-    boundary:
-    - line:
-      - 524536N 0011932W
-      - 524122N 0011653W
-      - 524013N 0012820W
-      - 524533N 0013405W
-  - seqno: 5
-    upper: 5500 ft
-    lower: 1500 ft
-    boundary:
-    - line:
-      - 525142N 0013706W
-      - 525233N 0013241W
-      - 524535N 0012816W
-      - 524533N 0013405W
-      - 524702N 0013541W
-      - 524942N 0013857W
-  - seqno: 6
-    upper: 5500 ft
-    lower: 2500 ft
-    boundary:
-    - line:
-      - 525629N 0013938W
-      - 525911N 0012801W
-      - 525510N 0012530W
-      - 525233N 0013241W
-      - 525142N 0013706W
-      - 524942N 0013857W
-      - 525059N 0014031W
-  - id: east-midlands-cta-7
-    seqno: 7
-    upper: FL105
-    lower: 4000 ft
-    boundary:
-    - line:
-      - 530410N 0013110W
-      - 530402N 0011422W
-      - 525901N 0010918W
-      - 525911N 0012801W
-  - seqno: 8
-    upper: 5500 ft
-    lower: 4000 ft
-    boundary:
-    - line:
-      - 525833N 0014948W
-      - 530123N 0014310W
-      - 530410N 0013110W
-      - 525911N 0012801W
-      - 525506N 0014533W
-  - seqno: 9
-    upper: 5500 ft
-    lower: 4500 ft
-    boundary:
-    - line:
-      - 524122N 0011653W
-      - 523610N 0011340W
-      - 523447N 0012231W
-      - 524013N 0012820W
-  - seqno: 10
-    upper: 5500 ft
-    lower: 3000 ft
-    boundary:
-    - line:
-      - 525506N 0014533W
-      - 525629N 0013938W
-      - 525059N 0014031W
-  - seqno: 11
-    upper: 4500 ft
-    lower: 3000 ft
-    boundary:
-    - line:
-      - 525232N 0014224W
-      - 524942N 0013857W
-      - 524542N 0013843W
-      - 524538N 0014201W
-  - seqno: 12
-    upper: 4500 ft
-    lower: 3500 ft
-    boundary:
-    - line:
-      - 525245N 0014543W
-      - 525248N 0014245W
-      - 525232N 0014224W
-      - 524538N 0014201W
-      - 524533N 0014518W
-  - seqno: 13
-    upper: 4500 ft
-    lower: 2500 ft
-    boundary:
-    - line:
-      - 524942N 0013857W
-      - 524702N 0013541W
-      - 524013N 0012820W
-      - 524542N 0013843W
-  - seqno: 15
-    upper: FL105
-    lower: 4500 ft
-    boundary:
-    - line:
-      - 524315N 0005749W
-      - 523836N 0005750W
-      - 523610N 0011340W
-      - 524122N 0011653W
-  - seqno: 16
-    upper: FL105
-    lower: FL75
-    boundary:
-    - line:
-      - 524026N 0005750W
-      - 523753N 0004811W
-      - 523637N 0004656W
-      - 522358N 0005457W
-      - 522823N 0010232W
-      - 522927N 0005753W
-  - seqno: 17
-    upper: FL105
-    lower: 5500 ft
-    boundary:
-    - line:
-      - 523836N 0005750W
-      - 523400N 0005752W
-      - 523141N 0011054W
-      - 523610N 0011340W
-  - seqno: 18
-    upper: FL105
-    lower: FL65
-    boundary:
-    - line:
-      - 523400N 0005752W
-      - 522927N 0005753W
-      - 522823N 0010232W
-      - 523203N 0010851W
-  - id: east-midlands-cta-19
-    seqno: 19
-    upper: FL105
-    lower: 5500 ft
-    boundary:
-    - line:
-      - 530900N 0013146W
-      - 530854N 0011918W
-      - 530402N 0011422W
-      - 530410N 0013110W
-      - 530517N 0013152W
-  - seqno: 20
-    upper: FL105
-    lower: FL75
-    boundary:
-    - line:
-      - 531143N 0013142W
-      - 531139N 0012206W
-      - 530854N 0011918W
-      - 530900N 0013146W
-  - seqno: 21
-    upper: FL85
-    lower: 5500 ft
-    boundary:
-    - line:
-      - 530901N 0013414W
-      - 530900N 0013146W
-      - 530517N 0013152W
-  - seqno: 22
-    upper: FL85
-    lower: FL75
-    boundary:
-    - line:
-      - 531145N 0013558W
-      - 531143N 0013142W
-      - 530900N 0013146W
-      - 530901N 0013414W
 
 - name: EDINBURGH CTR
   id: edinburgh-ctr
