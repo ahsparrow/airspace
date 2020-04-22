@@ -1951,6 +1951,29 @@ airspace:
       - 531855N 0031647W
       - 532345N 0031625W
 
+- name: LONDON GATWICK CTA
+  type: CTA
+  class: D
+  geometry:
+  - upper: 2500 ft
+    lower: 1500 ft
+    boundary:
+    - line:
+      - 510100N 0000458E
+      - 510100N 0002545W
+    - arc:
+        dir: cw
+        radius: 12 nm
+        centre: 510853N 0001125W
+        to: 511124N 0003003W
+    - line:
+      - 511618N 0000533E
+    - arc:
+        dir: cw
+        radius: 13 nm
+        centre: 510853N 0001125W
+        to: 510100N 0000458E
+
 - name: LONDON CITY CTA
   type: CTA
   class: D
@@ -11927,29 +11950,6 @@ airspace:
         radius: 8 nm
         centre: 510853N 0001125W
         to: 511118N 0002332W
-
-- name: LONDON GATWICK CTA
-  type: CTA
-  class: D
-  geometry:
-  - upper: 2500 ft
-    lower: 1500 ft
-    boundary:
-    - line:
-      - 510100N 0000458E
-      - 510100N 0002545W
-    - arc:
-        dir: cw
-        radius: 12 nm
-        centre: 510853N 0001125W
-        to: 511124N 0003003W
-    - line:
-      - 511618N 0000533E
-    - arc:
-        dir: cw
-        radius: 13 nm
-        centre: 510853N 0001125W
-        to: 510100N 0000458E
 
 - name: LONDON CTR
   type: CTR
