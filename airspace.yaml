@@ -1974,6 +1974,102 @@ airspace:
         centre: 510853N 0001125W
         to: 510100N 0000458E
 
+- name: LONDON LUTON CTA
+  type: CTA
+  class: D
+  geometry:
+  - seqno: 1
+    upper: 3500 ft
+    lower: 2500 ft
+    boundary:
+    - line:
+      - 515857N 0001434W
+      - 520127N 0000000W
+      - 515146N 0000006W
+      - 515102N 0000030W
+      - 514830N 0001506W
+      - 515042N 0000931W
+    - arc:
+        dir: ccw
+        radius: 8 nm
+        centre: 515229N 0002206W
+        to: 515857N 0001434W
+  - seqno: 2
+    upper: 3500 ft
+    lower: 2500 ft
+    boundary:
+    - line:
+      - 514810N 0004155W
+      - 514905N 0003647W
+      - 514503N 0003457W
+      - 514409N 0004005W
+  - seqno: 3
+    upper: 5500 ft
+    lower: 2500 ft
+    boundary:
+    - line:
+      - 514810N 0004155W
+      - 515150N 0004336W
+      - 515244N 0003828W
+      - 514905N 0003647W
+  - seqno: 4
+    upper: 5500 ft
+    lower: 3500 ft
+    boundary:
+    - line:
+      - 515150N 0004336W
+      - 514810N 0004155W
+      - 514659N 0004838W
+      - 515048N 0004926W
+  - seqno: 5
+    upper: 5500 ft
+    lower: 3500 ft
+    boundary:
+    - line:
+      - 520038N 0002832W
+      - 515743N 0002145W
+      - 515021N 0002931W
+      - 514905N 0003647W
+      - 515244N 0003828W
+      - 515258N 0003709W
+  - seqno: 6
+    upper: 5500 ft
+    lower: 4500 ft
+    boundary:
+    - line:
+      - 520316N 0003441W
+      - 520038N 0002832W
+      - 515258N 0003709W
+      - 515244N 0003828W
+      - 515503N 0004353W
+  - seqno: 7
+    upper: 4500 ft
+    lower: 3500 ft
+    boundary:
+    - line:
+      - 520606N 0001712W
+      - 515935N 0001056W
+      - 515743N 0002145W
+      - 520038N 0002832W
+  - seqno: 8
+    upper: 5500 ft
+    lower: 3500 ft
+    boundary:
+    - line:
+      - 515150N 0004336W
+      - 515244N 0003828W
+      - 515503N 0004353W
+  - seqno: 9
+    upper: 5500 ft
+    lower: 4500 ft
+    boundary:
+    - line:
+      - 515150N 0004336W
+      - 515503N 0004353W
+      - 515749N 0004048W
+      - 515356N 0005006W
+      - 515048N 0004926W
+
 - name: LONDON CITY CTA
   type: CTA
   class: D
@@ -11995,102 +12091,6 @@ airspace:
     - line:
       - 514830N 0001506W
       - 514503N 0003457W
-
-- name: LONDON LUTON CTA
-  type: CTA
-  class: D
-  geometry:
-  - seqno: 1
-    upper: 3500 ft
-    lower: 2500 ft
-    boundary:
-    - line:
-      - 515857N 0001434W
-      - 520127N 0000000W
-      - 515146N 0000006W
-      - 515102N 0000030W
-      - 514830N 0001506W
-      - 515042N 0000931W
-    - arc:
-        dir: ccw
-        radius: 8 nm
-        centre: 515229N 0002206W
-        to: 515857N 0001434W
-  - seqno: 2
-    upper: 3500 ft
-    lower: 2500 ft
-    boundary:
-    - line:
-      - 514810N 0004155W
-      - 514905N 0003647W
-      - 514503N 0003457W
-      - 514409N 0004005W
-  - seqno: 3
-    upper: 5500 ft
-    lower: 2500 ft
-    boundary:
-    - line:
-      - 514810N 0004155W
-      - 515150N 0004336W
-      - 515244N 0003828W
-      - 514905N 0003647W
-  - seqno: 4
-    upper: 5500 ft
-    lower: 3500 ft
-    boundary:
-    - line:
-      - 515150N 0004336W
-      - 514810N 0004155W
-      - 514659N 0004838W
-      - 515048N 0004926W
-  - seqno: 5
-    upper: 5500 ft
-    lower: 3500 ft
-    boundary:
-    - line:
-      - 520038N 0002832W
-      - 515743N 0002145W
-      - 515021N 0002931W
-      - 514905N 0003647W
-      - 515244N 0003828W
-      - 515258N 0003709W
-  - seqno: 6
-    upper: 5500 ft
-    lower: 4500 ft
-    boundary:
-    - line:
-      - 520316N 0003441W
-      - 520038N 0002832W
-      - 515258N 0003709W
-      - 515244N 0003828W
-      - 515503N 0004353W
-  - seqno: 7
-    upper: 4500 ft
-    lower: 3500 ft
-    boundary:
-    - line:
-      - 520606N 0001712W
-      - 515935N 0001056W
-      - 515743N 0002145W
-      - 520038N 0002832W
-  - seqno: 8
-    upper: 5500 ft
-    lower: 3500 ft
-    boundary:
-    - line:
-      - 515150N 0004336W
-      - 515244N 0003828W
-      - 515503N 0004353W
-  - seqno: 9
-    upper: 5500 ft
-    lower: 4500 ft
-    boundary:
-    - line:
-      - 515150N 0004336W
-      - 515503N 0004353W
-      - 515749N 0004048W
-      - 515356N 0005006W
-      - 515048N 0004926W
 
 - name: LONDON STANSTED CTR
   type: CTR
