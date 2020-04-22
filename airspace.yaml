@@ -9173,17 +9173,6 @@ airspace:
         radius: 1.5 nm
         centre: 505138N 0031406W
 
-- name: DURHAM TEES VALLEY
-  type: D_OTHER
-  localtype: DZ
-  geometry:
-  - upper: FL150
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1.5 nm
-        centre: 543033N 0012546W
-
 - name: ERROL
   type: D_OTHER
   localtype: DZ
