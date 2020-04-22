@@ -131,6 +131,177 @@ airspace:
       - 500000N 0031907W
       - 502257N 0033739W
 
+- name: BIRMINGHAM CTA
+  id: birmingham-cta
+  type: CTA
+  class: D
+  geometry:
+  - seqno: 1
+    upper: 4500 ft
+    lower: 1500 ft
+    boundary:
+    - line:
+      - 524015N 0014744W
+      - 523507N 0014154W
+    - arc:
+        dir: ccw
+        radius: 8 nm
+        centre: 522722N 0014502W
+        to: 522835N 0015758W
+    - line:
+      - 523335N 0020342W
+    - arc:
+        dir: cw
+        radius: 13 nm
+        centre: 522722N 0014502W
+        to: 524015N 0014744W
+  - seqno: 2
+    upper: 4500 ft
+    lower: 1500 ft
+    boundary:
+    - line:
+      - 522626N 0013203W
+      - 522118N 0012616W
+    - arc:
+        dir: cw
+        radius: 13 nm
+        centre: 522722N 0014502W
+        to: 521431N 0014159W
+    - line:
+      - 521933N 0014740W
+    - arc:
+        dir: ccw
+        radius: 8 nm
+        centre: 522722N 0014502W
+        to: 522626N 0013203W
+  - seqno: 3
+    upper: 4500 ft
+    lower: 3500 ft
+    boundary:
+    - line:
+      - 524342N 0015238W
+      - 524020N 0014350W
+    - arc:
+        dir: ccw
+        radius: 13 nm
+        centre: 522722N 0014502W
+        to: 523335N 0020342W
+    - line:
+      - 523708N 0020748W
+    - arc:
+        dir: cw
+        radius: 17 nm
+        centre: 522722N 0014502W
+        to: 524342N 0015238W
+  - seqno: 4
+    upper: 4500 ft
+    lower: 3500 ft
+    boundary:
+    - line:
+      - 522329N 0012446W
+      - 521750N 0012205W
+    - arc:
+        dir: cw
+        radius: 17 nm
+        centre: 522722N 0014502W
+        to: 521039N 0014012W
+    - line:
+      - 521431N 0014159W
+    - arc:
+        dir: ccw
+        radius: 13 nm
+        centre: 522722N 0014502W
+        to: 522329N 0012446W
+  - seqno: 5
+    upper: FL145
+    lower: 2500 ft
+    boundary:
+    - line:
+      - 523335N 0020342W
+      - 521431N 0014159W
+    - arc:
+        dir: cw
+        radius: 13 nm
+        centre: 522722N 0014502W
+        to: 521447N 0015012W
+    - line:
+      - 522846N 0020610W
+    - arc:
+        dir: cw
+        radius: 13 nm
+        centre: 522722N 0014502W
+        to: 523335N 0020342W
+  - seqno: 6
+    upper: FL145
+    lower: 3500 ft
+    boundary:
+    - line:
+      - 523708N 0020748W
+      - 523335N 0020342W
+    - arc:
+        dir: ccw
+        radius: 13 nm
+        centre: 522722N 0014502W
+        to: 522846N 0020610W
+    - line:
+      - 523216N 0021011W
+  - seqno: 7
+    upper: FL145
+    lower: FL65
+    boundary:
+    - line:
+      - 523216N 0021011W
+      - 521634N 0015214W
+      - 521544N 0020755W
+      - 521813N 0021130W
+      - 522535N 0021247W
+  - seqno: 8
+    upper: 4500 ft
+    lower: 2000 ft
+    boundary:
+    - line:
+      - 524020N 0014350W
+      - 522329N 0012446W
+    - arc:
+        dir: cw
+        radius: 13 nm
+        centre: 522722N 0014502W
+        to: 522118N 0012616W
+    - line:
+      - 524015N 0014744W
+    - arc:
+        dir: cw
+        radius: 13 nm
+        centre: 522722N 0014502W
+        to: 524020N 0014350W
+  - seqno: 9
+    upper: FL85
+    lower: FL65
+    boundary:
+    - line:
+      - 524025N 0021135W
+      - 523708N 0020748W
+      - 523442N 0020900W
+      - 523847N 0021444W
+  - seqno: 10
+    upper: FL105
+    lower: FL65
+    boundary:
+    - line:
+      - 521803N 0021116W
+      - 521544N 0020755W
+      - 521634N 0015214W
+      - 521447N 0015012W
+    - arc:
+        dir: ccw
+        radius: 13 nm
+        centre: 522722N 0014502W
+        to: 521423N 0014442W
+    - line:
+      - 520711N 0014056W
+      - 520648N 0020148W
+      - 521702N 0021251W
+
 - name: CLACTON CTA
   type: CTA
   class: A
@@ -9877,177 +10048,6 @@ airspace:
         radius: 8 nm
         centre: 522722N 0014502W
         to: 523507N 0014154W
-
-- name: BIRMINGHAM CTA
-  id: birmingham-cta
-  type: CTA
-  class: D
-  geometry:
-  - seqno: 1
-    upper: 4500 ft
-    lower: 1500 ft
-    boundary:
-    - line:
-      - 524015N 0014744W
-      - 523507N 0014154W
-    - arc:
-        dir: ccw
-        radius: 8 nm
-        centre: 522722N 0014502W
-        to: 522835N 0015758W
-    - line:
-      - 523335N 0020342W
-    - arc:
-        dir: cw
-        radius: 13 nm
-        centre: 522722N 0014502W
-        to: 524015N 0014744W
-  - seqno: 2
-    upper: 4500 ft
-    lower: 1500 ft
-    boundary:
-    - line:
-      - 522626N 0013203W
-      - 522118N 0012616W
-    - arc:
-        dir: cw
-        radius: 13 nm
-        centre: 522722N 0014502W
-        to: 521431N 0014159W
-    - line:
-      - 521933N 0014740W
-    - arc:
-        dir: ccw
-        radius: 8 nm
-        centre: 522722N 0014502W
-        to: 522626N 0013203W
-  - seqno: 3
-    upper: 4500 ft
-    lower: 3500 ft
-    boundary:
-    - line:
-      - 524342N 0015238W
-      - 524020N 0014350W
-    - arc:
-        dir: ccw
-        radius: 13 nm
-        centre: 522722N 0014502W
-        to: 523335N 0020342W
-    - line:
-      - 523708N 0020748W
-    - arc:
-        dir: cw
-        radius: 17 nm
-        centre: 522722N 0014502W
-        to: 524342N 0015238W
-  - seqno: 4
-    upper: 4500 ft
-    lower: 3500 ft
-    boundary:
-    - line:
-      - 522329N 0012446W
-      - 521750N 0012205W
-    - arc:
-        dir: cw
-        radius: 17 nm
-        centre: 522722N 0014502W
-        to: 521039N 0014012W
-    - line:
-      - 521431N 0014159W
-    - arc:
-        dir: ccw
-        radius: 13 nm
-        centre: 522722N 0014502W
-        to: 522329N 0012446W
-  - seqno: 5
-    upper: FL145
-    lower: 2500 ft
-    boundary:
-    - line:
-      - 523335N 0020342W
-      - 521431N 0014159W
-    - arc:
-        dir: cw
-        radius: 13 nm
-        centre: 522722N 0014502W
-        to: 521447N 0015012W
-    - line:
-      - 522846N 0020610W
-    - arc:
-        dir: cw
-        radius: 13 nm
-        centre: 522722N 0014502W
-        to: 523335N 0020342W
-  - seqno: 6
-    upper: FL145
-    lower: 3500 ft
-    boundary:
-    - line:
-      - 523708N 0020748W
-      - 523335N 0020342W
-    - arc:
-        dir: ccw
-        radius: 13 nm
-        centre: 522722N 0014502W
-        to: 522846N 0020610W
-    - line:
-      - 523216N 0021011W
-  - seqno: 7
-    upper: FL145
-    lower: FL65
-    boundary:
-    - line:
-      - 523216N 0021011W
-      - 521634N 0015214W
-      - 521544N 0020755W
-      - 521813N 0021130W
-      - 522535N 0021247W
-  - seqno: 8
-    upper: 4500 ft
-    lower: 2000 ft
-    boundary:
-    - line:
-      - 524020N 0014350W
-      - 522329N 0012446W
-    - arc:
-        dir: cw
-        radius: 13 nm
-        centre: 522722N 0014502W
-        to: 522118N 0012616W
-    - line:
-      - 524015N 0014744W
-    - arc:
-        dir: cw
-        radius: 13 nm
-        centre: 522722N 0014502W
-        to: 524020N 0014350W
-  - seqno: 9
-    upper: FL85
-    lower: FL65
-    boundary:
-    - line:
-      - 524025N 0021135W
-      - 523708N 0020748W
-      - 523442N 0020900W
-      - 523847N 0021444W
-  - seqno: 10
-    upper: FL105
-    lower: FL65
-    boundary:
-    - line:
-      - 521803N 0021116W
-      - 521544N 0020755W
-      - 521634N 0015214W
-      - 521447N 0015012W
-    - arc:
-        dir: ccw
-        radius: 13 nm
-        centre: 522722N 0014502W
-        to: 521423N 0014442W
-    - line:
-      - 520711N 0014056W
-      - 520648N 0020148W
-      - 521702N 0021251W
 
 - name: BLACKBUSH
   id: blackbush-atz
