@@ -2174,6 +2174,63 @@ airspace:
         centre: 512812N 0002713W
         to: 513547N 0001221W
 
+- name: MANCHESTER CTA
+  id: manchester-cta
+  type: CTA
+  class: D
+  geometry:
+  - seqno: 1
+    upper: 3500 ft
+    lower: 2500 ft
+    boundary:
+    - line:
+      - 533430N 0020400W
+      - 532734N 0030310W
+      - 533200N 0025000W
+  - seqno: 2
+    upper: 3500 ft
+    lower: 2500 ft
+    boundary:
+    - line:
+      - 531047N 0020459W
+      - 530602N 0022246W
+      - 530626N 0024349W
+      - 531427N 0030140W
+      - 531050N 0023224W
+      - 531055N 0022207W
+      - 531616N 0020131W
+  - seqno: 3
+    upper: 3500 ft
+    lower: 3000 ft
+    boundary:
+    - line:
+      - 533650N 0015216W
+      - 532719N 0014617W
+      - 532656N 0015000W
+      - 530732N 0020056W
+      - 531047N 0020459W
+      - 532730N 0015400W
+      - 533430N 0020400W
+  - seqno: 4
+    upper: 3500 ft
+    lower: 2500 ft
+    boundary:
+    - line:
+      - 533011N 0024123W
+      - 532708N 0023744W
+      - 531130N 0023744W
+      - 531309N 0025059W
+      - 532902N 0025059W
+  - seqno: 5
+    upper: 3500 ft
+    lower: 2000 ft
+    boundary:
+    - line:
+      - 533124N 0023102W
+      - 532056N 0023103W
+      - 532638N 0022258W
+      - 533430N 0020400W
+
 - name: NITON CTA
   type: CTA
   class: A
@@ -12279,63 +12336,6 @@ airspace:
       - 531050N 0023224W
       - 531130N 0023744W
       - 532708N 0023744W
-
-- name: MANCHESTER CTA
-  id: manchester-cta
-  type: CTA
-  class: D
-  geometry:
-  - seqno: 1
-    upper: 3500 ft
-    lower: 2500 ft
-    boundary:
-    - line:
-      - 533430N 0020400W
-      - 532734N 0030310W
-      - 533200N 0025000W
-  - seqno: 2
-    upper: 3500 ft
-    lower: 2500 ft
-    boundary:
-    - line:
-      - 531047N 0020459W
-      - 530602N 0022246W
-      - 530626N 0024349W
-      - 531427N 0030140W
-      - 531050N 0023224W
-      - 531055N 0022207W
-      - 531616N 0020131W
-  - seqno: 3
-    upper: 3500 ft
-    lower: 3000 ft
-    boundary:
-    - line:
-      - 533650N 0015216W
-      - 532719N 0014617W
-      - 532656N 0015000W
-      - 530732N 0020056W
-      - 531047N 0020459W
-      - 532730N 0015400W
-      - 533430N 0020400W
-  - seqno: 4
-    upper: 3500 ft
-    lower: 2500 ft
-    boundary:
-    - line:
-      - 533011N 0024123W
-      - 532708N 0023744W
-      - 531130N 0023744W
-      - 531309N 0025059W
-      - 532902N 0025059W
-  - seqno: 5
-    upper: 3500 ft
-    lower: 2000 ft
-    boundary:
-    - line:
-      - 533124N 0023102W
-      - 532056N 0023103W
-      - 532638N 0022258W
-      - 533430N 0020400W
 
 # Mancester/Barton
 - name: BARTON
