@@ -1951,6 +1951,43 @@ airspace:
       - 531855N 0031647W
       - 532345N 0031625W
 
+- name: LONDON CITY CTA
+  type: CTA
+  class: D
+  geometry:
+  - upper: 2500 ft
+    lower: 1500 ft
+    boundary:
+    - line:
+      - 513547N 0001221W
+      - 513505N 0001022E
+    - arc:
+        dir: cw
+        radius: 6.5 nm
+        centre: 513019N 0000319E
+        to: 512507N 0000932E
+    - line:
+      - 512541N 0000828W
+    - arc:
+        dir: ccw
+        radius: 12 nm
+        centre: 512812N 0002713W
+        to: 512640N 0000811W
+    - line:
+      - 512610N 0000747E
+    - arc:
+        dir: ccw
+        radius: 5 nm
+        centre: 513019N 0000319E
+        to: 513409N 0000826E
+    - line:
+      - 513445N 0001108W
+    - arc:
+        dir: ccw
+        radius: 12 nm
+        centre: 512812N 0002713W
+        to: 513547N 0001221W
+
 - name: NITON CTA
   type: CTA
   class: A
@@ -11867,43 +11904,6 @@ airspace:
         radius: 12 nm
         centre: 512812N 0002713W
         to: 513445N 0001108W
-
-- name: LONDON CITY CTA
-  type: CTA
-  class: D
-  geometry:
-  - upper: 2500 ft
-    lower: 1500 ft
-    boundary:
-    - line:
-      - 513547N 0001221W
-      - 513505N 0001022E
-    - arc:
-        dir: cw
-        radius: 6.5 nm
-        centre: 513019N 0000319E
-        to: 512507N 0000932E
-    - line:
-      - 512541N 0000828W
-    - arc:
-        dir: ccw
-        radius: 12 nm
-        centre: 512812N 0002713W
-        to: 512640N 0000811W
-    - line:
-      - 512610N 0000747E
-    - arc:
-        dir: ccw
-        radius: 5 nm
-        centre: 513019N 0000319E
-        to: 513409N 0000826E
-    - line:
-      - 513445N 0001108W
-    - arc:
-        dir: ccw
-        radius: 12 nm
-        centre: 512812N 0002713W
-        to: 513547N 0001221W
 
 - name: LONDON GATWICK CTR
   type: CTR
