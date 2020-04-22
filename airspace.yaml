@@ -438,6 +438,126 @@ airspace:
     - line:
       - 512842N 0022338W
 
+- name: CARDIFF CTA
+  id: cardiff-cta
+  type: CTA
+  class: D
+  geometry:
+  - seqno: 1
+    upper: FL105
+    lower: 1000 ft
+    boundary:
+    - line:
+      - 512815N 0031700W
+      - 512526N 0030806W
+    - arc:
+        dir: cw
+        radius: 8 nm
+        centre: 512348N 0032036W
+        to: 511632N 0031518W
+    - line:
+      - 511920N 0032411W
+    - arc:
+        dir: ccw
+        radius: 5 nm
+        centre: 512348N 0032036W
+        to: 512815N 0031700W
+  - seqno: 2
+    upper: FL105
+    lower: 1500 ft
+    boundary:
+    - line:
+      - 512526N 0030806W
+      - 512349N 0030302W
+    - arc:
+        dir: cw
+        radius: 11 nm
+        centre: 512348N 0032036W
+        to: 511455N 0031016W
+    - line:
+      - 511632N 0031518W
+    - arc:
+        dir: ccw
+        radius: 8 nm
+        centre: 512348N 0032036W
+        to: 512526N 0030806W
+  - seqno: 3
+    upper: FL105
+    lower: 2000 ft
+    boundary:
+    - line:
+      - 513309N 0033236W
+      - 512957N 0032222W
+      - 513021N 0032755W
+    - arc:
+        dir: ccw
+        radius: 8 nm
+        centre: 512348N 0032036W
+        to: 512208N 0033305W
+    - line:
+      - 512413N 0033945W
+    - arc:
+        dir: cw
+        radius: 12 nm
+        centre: 512348N 0032036W
+        to: 513309N 0033236W
+  - seqno: 4
+    upper: FL105
+    lower: 3000 ft
+    boundary:
+    - line:
+      - 513458N 0032522W
+      - 512715N 0030058W
+      - 512349N 0030302W
+      - 513309N 0033236W
+      - 513335N 0033205W
+  - seqno: 5
+    upper: FL105
+    lower: 3000 ft
+    boundary:
+    - line:
+      - 512413N 0033945W
+      - 511455N 0031016W
+    - arc:
+        dir: ccw
+        radius: 11 nm
+        centre: 512348N 0032036W
+        to: 512349N 0030302W
+    - line:
+      - 511247N 0030302W
+      - 511010N 0031341W
+      - 511115N 0032929W
+      - 511309N 0032910W
+  - seqno: 6
+    upper: FL105
+    lower: 4000 ft
+    boundary:
+    - line:
+      - 513946N 0032432W
+      - 513839N 0031727W
+      - 513450N 0024206W
+      - 512715N 0030058W
+      - 513458N 0032522W
+      - 513335N 0033205W
+  - seqno: 7
+    upper: FL65
+    lower: 4500 ft
+    boundary:
+    - line:
+      - 511115N 0032929W
+      - 511010N 0031341W
+      - 510512N 0031434W
+      - 510617N 0033020W
+  - seqno: 8
+    upper: FL75
+    lower: 5500 ft
+    boundary:
+    - line:
+      - 513950N 0030822W
+      - 513947N 0024858W
+      - 513450N 0024206W
+      - 513743N 0030845W
+
 - name: CLACTON CTA
   type: CTA
   class: A
@@ -10327,126 +10447,6 @@ airspace:
         radius: 8 nm
         centre: 512348N 0032036W
         to: 513021N 0032755W
-
-- name: CARDIFF CTA
-  id: cardiff-cta
-  type: CTA
-  class: D
-  geometry:
-  - seqno: 1
-    upper: FL105
-    lower: 1000 ft
-    boundary:
-    - line:
-      - 512815N 0031700W
-      - 512526N 0030806W
-    - arc:
-        dir: cw
-        radius: 8 nm
-        centre: 512348N 0032036W
-        to: 511632N 0031518W
-    - line:
-      - 511920N 0032411W
-    - arc:
-        dir: ccw
-        radius: 5 nm
-        centre: 512348N 0032036W
-        to: 512815N 0031700W
-  - seqno: 2
-    upper: FL105
-    lower: 1500 ft
-    boundary:
-    - line:
-      - 512526N 0030806W
-      - 512349N 0030302W
-    - arc:
-        dir: cw
-        radius: 11 nm
-        centre: 512348N 0032036W
-        to: 511455N 0031016W
-    - line:
-      - 511632N 0031518W
-    - arc:
-        dir: ccw
-        radius: 8 nm
-        centre: 512348N 0032036W
-        to: 512526N 0030806W
-  - seqno: 3
-    upper: FL105
-    lower: 2000 ft
-    boundary:
-    - line:
-      - 513309N 0033236W
-      - 512957N 0032222W
-      - 513021N 0032755W
-    - arc:
-        dir: ccw
-        radius: 8 nm
-        centre: 512348N 0032036W
-        to: 512208N 0033305W
-    - line:
-      - 512413N 0033945W
-    - arc:
-        dir: cw
-        radius: 12 nm
-        centre: 512348N 0032036W
-        to: 513309N 0033236W
-  - seqno: 4
-    upper: FL105
-    lower: 3000 ft
-    boundary:
-    - line:
-      - 513458N 0032522W
-      - 512715N 0030058W
-      - 512349N 0030302W
-      - 513309N 0033236W
-      - 513335N 0033205W
-  - seqno: 5
-    upper: FL105
-    lower: 3000 ft
-    boundary:
-    - line:
-      - 512413N 0033945W
-      - 511455N 0031016W
-    - arc:
-        dir: ccw
-        radius: 11 nm
-        centre: 512348N 0032036W
-        to: 512349N 0030302W
-    - line:
-      - 511247N 0030302W
-      - 511010N 0031341W
-      - 511115N 0032929W
-      - 511309N 0032910W
-  - seqno: 6
-    upper: FL105
-    lower: 4000 ft
-    boundary:
-    - line:
-      - 513946N 0032432W
-      - 513839N 0031727W
-      - 513450N 0024206W
-      - 512715N 0030058W
-      - 513458N 0032522W
-      - 513335N 0033205W
-  - seqno: 7
-    upper: FL65
-    lower: 4500 ft
-    boundary:
-    - line:
-      - 511115N 0032929W
-      - 511010N 0031341W
-      - 510512N 0031434W
-      - 510617N 0033020W
-  - seqno: 8
-    upper: FL75
-    lower: 5500 ft
-    boundary:
-    - line:
-      - 513950N 0030822W
-      - 513947N 0024858W
-      - 513450N 0024206W
-      - 513743N 0030845W
 
 - name: CARLISLE
   id: carlisle-atz
