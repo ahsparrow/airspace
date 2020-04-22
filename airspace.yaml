@@ -1502,6 +1502,74 @@ airspace:
       - 530900N 0013146W
       - 530901N 0013414W
 
+- name: EDINBURGH CTA
+  id: edinburgh-cta
+  type: CTA
+  class: D
+  geometry:
+  - id: edinburgh-cta1
+    seqno: 1
+    upper: 6000 ft
+    lower: 2500 ft
+    boundary:
+    - line:
+      - 555916N 0033941W
+    - arc:
+        dir: ccw
+        radius: 10 nm
+        centre: 555700N 0032221W
+        to: 554851N 0033235W
+    - line:
+      - 554349N 0034715W
+      - 554806N 0035411W
+      - 555417N 0035413W
+  - seqno: 2
+    upper: 6000 ft
+    lower: 2500 ft
+    boundary:
+    - line:
+      - 560700N 0032221W
+      - 560700N 0025608W
+      - 560008N 0024849W
+      - 555442N 0030503W
+    - arc:
+        dir: ccw
+        radius: 10 nm
+        centre: 555700N 0032221W
+        to: 560700N 0032221W
+  - id: edinburgh-cta3
+    seqno: 3
+    upper: 6000 ft
+    lower: 3500 ft
+    boundary:
+    - line:
+      - 560700N 0034855W
+      - 560700N 0032221W
+    - arc:
+        dir: ccw
+        radius: 10 nm
+        centre: 555700N 0032221W
+        to: 555916N 0033941W
+    - line:
+      - 555417N 0035413W
+      - 555724N 0035417W
+  - id: edinburgh-cta4
+    seqno: 4
+    upper: 6000 ft
+    lower: 3500 ft
+    boundary:
+    - line:
+      - 560008N 0024849W
+      - 554125N 0025510W
+      - 554125N 0034324W
+      - 554349N 0034715W
+      - 554851N 0033235W
+    - arc:
+        dir: ccw
+        radius: 10 nm
+        centre: 555700N 0032221W
+        to: 555442N 0030503W
+
 - name: FARNBOROUGH CTA
   id: farnborough-cta
   type: CTA
@@ -11213,74 +11281,6 @@ airspace:
     - circle:
         radius: 10 nm
         centre: 555700N 0032221W
-
-- name: EDINBURGH CTA
-  id: edinburgh-cta
-  type: CTA
-  class: D
-  geometry:
-  - id: edinburgh-cta1
-    seqno: 1
-    upper: 6000 ft
-    lower: 2500 ft
-    boundary:
-    - line:
-      - 555916N 0033941W
-    - arc:
-        dir: ccw
-        radius: 10 nm
-        centre: 555700N 0032221W
-        to: 554851N 0033235W
-    - line:
-      - 554349N 0034715W
-      - 554806N 0035411W
-      - 555417N 0035413W
-  - seqno: 2
-    upper: 6000 ft
-    lower: 2500 ft
-    boundary:
-    - line:
-      - 560700N 0032221W
-      - 560700N 0025608W
-      - 560008N 0024849W
-      - 555442N 0030503W
-    - arc:
-        dir: ccw
-        radius: 10 nm
-        centre: 555700N 0032221W
-        to: 560700N 0032221W
-  - id: edinburgh-cta3
-    seqno: 3
-    upper: 6000 ft
-    lower: 3500 ft
-    boundary:
-    - line:
-      - 560700N 0034855W
-      - 560700N 0032221W
-    - arc:
-        dir: ccw
-        radius: 10 nm
-        centre: 555700N 0032221W
-        to: 555916N 0033941W
-    - line:
-      - 555417N 0035413W
-      - 555724N 0035417W
-  - id: edinburgh-cta4
-    seqno: 4
-    upper: 6000 ft
-    lower: 3500 ft
-    boundary:
-    - line:
-      - 560008N 0024849W
-      - 554125N 0025510W
-      - 554125N 0034324W
-      - 554349N 0034715W
-      - 554851N 0033235W
-    - arc:
-        dir: ccw
-        radius: 10 nm
-        centre: 555700N 0032221W
-        to: 555442N 0030503W
 
 - name: GLASGOW CTA
   id: glasgow-cta
