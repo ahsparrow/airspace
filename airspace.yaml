@@ -2475,6 +2475,63 @@ airspace:
       - 515640N 0024718W
       - 515716N 0030640W
 
+- name: NORWICH CTA
+  id: norwich-cta
+  type: CTA
+  class: D
+  geometry:
+  - seqno: 1
+    upper: 4000 ft
+    lower: 1500 ft
+    boundary:
+    - line:
+      - 524653N 0005826E
+      - 524708N 0012946E
+      - 524304N 0013754E
+    - arc:
+        dir: cw
+        radius: 12.5 nm
+        centre: 524034N 0011747E
+        to: 523541N 0013639E
+    - line:
+      - 523537N 0012319E
+    - arc:
+        dir: ccw
+        radius: 6 nm
+        centre: 524034N 0011747E
+        to: 524536N 0012308E
+    - line:
+      - 524530N 0011035E
+    - arc:
+        dir: ccw
+        radius: 6 nm
+        centre: 524033N 0011609E
+        to: 523531N 0011049E
+    - line:
+      - 523815N 0005559E
+    - arc:
+        dir: cw
+        radius: 12.5 nm
+        centre: 524033N 0011609E
+        to: 524653N 0005826E
+  - seqno: 2
+    upper: 4000 ft
+    lower: 2500 ft
+    boundary:
+    - line:
+      - 523535N 0011921E
+      - 523541N 0013639E
+      - 523409N 0012916E
+      - 523407N 0012448E
+  - seqno: 3
+    upper: 4000 ft
+    lower: 2500 ft
+    boundary:
+    - line:
+      - 523815N 0005559E
+      - 523531N 0011049E
+      - 523527N 0010311E
+
 - name: PORTSMOUTH CTA
   type: CTA
   class: A
@@ -12584,63 +12641,6 @@ airspace:
         radius: 6 nm
         centre: 524033N 0011609E
         to: 524530N 0011035E
-
-- name: NORWICH CTA
-  id: norwich-cta
-  type: CTA
-  class: D
-  geometry:
-  - seqno: 1
-    upper: 4000 ft
-    lower: 1500 ft
-    boundary:
-    - line:
-      - 524653N 0005826E
-      - 524708N 0012946E
-      - 524304N 0013754E
-    - arc:
-        dir: cw
-        radius: 12.5 nm
-        centre: 524034N 0011747E
-        to: 523541N 0013639E
-    - line:
-      - 523537N 0012319E
-    - arc:
-        dir: ccw
-        radius: 6 nm
-        centre: 524034N 0011747E
-        to: 524536N 0012308E
-    - line:
-      - 524530N 0011035E
-    - arc:
-        dir: ccw
-        radius: 6 nm
-        centre: 524033N 0011609E
-        to: 523531N 0011049E
-    - line:
-      - 523815N 0005559E
-    - arc:
-        dir: cw
-        radius: 12.5 nm
-        centre: 524033N 0011609E
-        to: 524653N 0005826E
-  - seqno: 2
-    upper: 4000 ft
-    lower: 2500 ft
-    boundary:
-    - line:
-      - 523535N 0011921E
-      - 523541N 0013639E
-      - 523409N 0012916E
-      - 523407N 0012448E
-  - seqno: 3
-    upper: 4000 ft
-    lower: 2500 ft
-    boundary:
-    - line:
-      - 523815N 0005559E
-      - 523531N 0011049E
-      - 523527N 0010311E
 
 - name: NOTTINGHAM
   id: nottingham-atz
