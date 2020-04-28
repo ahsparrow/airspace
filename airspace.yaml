@@ -12922,17 +12922,6 @@ airspace:
         radius: 2 nm
         centre: 522951N 0010307E
 
-- name: OLD SARUM
-  id: old-sarum-atz
-  type: ATZ
-  geometry:
-  - upper: 2285 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 2 nm
-        centre: 510556N 0014703W
-
 - name: OLD WARDEN
   id: old-warden-atz
   type: ATZ
