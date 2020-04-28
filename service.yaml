@@ -533,6 +533,8 @@ service:
   - leeming-atz
   - leeming-matz
   - leeming-topcliffe-matz
+  - topcliffe-atz
+  - topcliffe-matz
   frequency: 133.375
 
 - callsign: LEICESTER RADIO
@@ -827,12 +829,6 @@ service:
   controls:
   - tilstock-noatz
   frequency: 118.105
-
-- callsign: TOPCLIFFE APPROACH
-  controls:
-  - topcliffe-atz
-  - topcliffe-matz
-  frequency: 125.000
 
 - callsign: TRURO RADIO
   controls:
