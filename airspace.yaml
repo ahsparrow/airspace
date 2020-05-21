@@ -5870,6 +5870,8 @@ airspace:
 
 - name: D015 BOVINGTON
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: 3600 ft
     lower: SFC
@@ -5971,6 +5973,8 @@ airspace:
 
 - name: D061 WOODBURY COMMON
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: 1500 ft
     lower: SFC
@@ -5996,6 +6000,7 @@ airspace:
 - name: D113B CASTLEMARTIN
   type: D
   rules:
+  - NOTAM
   - SI
   geometry:
   - upper: 45000 ft
@@ -6017,6 +6022,8 @@ airspace:
 
 - name: D115A MANORBIER
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: 27000 ft
     lower: SFC
@@ -6032,27 +6039,11 @@ airspace:
 - name: D117 PENDINE
   type: D
   rules:
+  - NOTAM
   - SI
   geometry:
   - upper: 23000 ft
     lower: SFC
-    boundary:
-    - line:
-      - 513510N 0042400W
-      - 513629N 0043752W
-      - 513958N 0043743W
-      - 514515N 0043300W
-      - 514524N 0042517W
-      - 514445N 0042400W
-
-- name: D117 PENDINE
-  type: D
-  rules:
-  - SI
-  - NOTAM
-  geometry:
-  - upper: 27000 ft
-    lower: 23000 ft
     boundary:
     - line:
       - 513510N 0042400W
@@ -6076,24 +6067,10 @@ airspace:
         centre: 514313N 0042144W
         to: 514001N 0042400W
 
-- name: D118 PEMBREY
+- name: D119 BRIDGEWATER BAY
   type: D
   rules:
   - NOTAM
-  geometry:
-  - upper: 23000 ft
-    lower: 12001 ft
-    boundary:
-    - line:
-      - 514625N 0042400W
-    - arc:
-        dir: cw
-        radius: 3.5 nm
-        centre: 514313N 0042144W
-        to: 514001N 0042400W
-
-- name: D119 BRIDGEWATER BAY
-  type: D
   geometry:
   - upper: 5000 ft
     lower: SFC
@@ -6104,6 +6081,8 @@ airspace:
 
 - name: D120 BOSCOMBE DOWN
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: 2407 ft
     lower: SFC
@@ -6131,6 +6110,8 @@ airspace:
 
 - name: D122A WESSEX WEST
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: FL160
     lower: FL80
@@ -6145,6 +6126,8 @@ airspace:
 
 - name: D122B WESSEX CENTRAL
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: FL160
     lower: FL80
@@ -6158,6 +6141,8 @@ airspace:
 
 - name: D122C WESSEX EAST
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: FL160
     lower: FL80
@@ -6193,6 +6178,8 @@ airspace:
 
 - name: D124 LAVINGTON
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: FL660
     lower: SFC
@@ -6298,26 +6285,6 @@ airspace:
     - line:
       - 511828N 0015004W
 
-- name: D128 EVERLEIGH
-  type: D
-  rules:
-  - NOTAM
-  geometry:
-  - upper: 50000 ft
-    lower: 1400 ft
-    boundary:
-    - line:
-      - 511852N 0014215W
-      - 511621N 0013746W
-      - 511354N 0014225W
-    - arc:
-        dir: ccw
-        radius: 5 nm
-        centre: 510912N 0014504W
-        to: 511351N 0014759W
-    - line:
-      - 511828N 0015004W
-
 - name: D129 WESTON ON THE GREEN
   type: D
   geometry:
@@ -6345,6 +6312,7 @@ airspace:
 - name: D132 ASH RANGES
   type: D
   rules:
+  - NOTAM
   - SI
   geometry:
   - upper: 2500 ft
@@ -6358,36 +6326,6 @@ airspace:
       - 511606N 0004309W
       - 511638N 0004259W
       - 511732N 0004116W
-
-- name: D133 PIRBRIGHT
-  type: D
-  geometry:
-  - upper: 1200 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 512040N 0004029W
-      - 512034N 0003957W
-      - 511922N 0003907W
-      - 511830N 0004118W
-      - 511915N 0004146W
-      - 512019N 0004158W
-
-- name: D133 PIRBRIGHT
-  type: D
-  rules:
-  - NOTAM
-  geometry:
-  - upper: 2400 ft
-    lower: 1200 ft
-    boundary:
-    - line:
-      - 512040N 0004029W
-      - 512034N 0003957W
-      - 511922N 0003907W
-      - 511830N 0004118W
-      - 511915N 0004146W
-      - 512019N 0004158W
 
 - name: D133A PIRBRIGHT
   type: D
@@ -6403,8 +6341,24 @@ airspace:
       - 511815N 0004103W
       - 511830N 0004118W
 
+- name: D133B PIRBRIGHT
+  type: D
+  geometry:
+  - upper: 1200 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 512040N 0004029W
+      - 512034N 0003957W
+      - 511922N 0003907W
+      - 511830N 0004118W
+      - 511915N 0004146W
+      - 512019N 0004158W
+
 - name: D136 SHOEBURYNESS
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: 13000 ft
     lower: SFC
@@ -6414,27 +6368,13 @@ airspace:
       - 513017N 0005104E
       - 513030N 0004700E
 
-- name: D138 SHOEBURYNESS
-  type: D
-  geometry:
-  - upper: 13000 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 513714N 0005536E
-      - 513714N 0011203E
-      - 513000N 0005300E
-      - 513009N 0005115E
-      - 513217N 0004804E
-      - 513714N 0005000E
-
-- name: D138 SHOEBURYNESS
+- name: D138D SHOEBURYNESS
   type: D
   rules:
   - NOTAM
   geometry:
-  - upper: 60000 ft
-    lower: 13000 ft
+  - upper: 13000 ft
+    lower: SFC
     boundary:
     - line:
       - 513714N 0005536E
@@ -6451,20 +6391,6 @@ airspace:
   geometry:
   - upper: 1500 ft
     lower: SFC
-    boundary:
-    - line:
-      - 515000N 0005458E
-      - 514954N 0005852E
-      - 514833N 0005848E
-      - 514839N 0005452E
-
-- name: D139 FINGRINGHOE
-  type: D
-  rules:
-  - NOTAM
-  geometry:
-  - upper: 2000 ft
-    lower: 1500 ft
     boundary:
     - line:
       - 515000N 0005458E
@@ -6500,6 +6426,7 @@ airspace:
 - name: D201C ABERPORTH
   type: D
   rules:
+  - NOTAM
   - SI
   geometry:
   - upper: FL660
@@ -6513,6 +6440,7 @@ airspace:
 - name: D201H ABERPORTH
   type: D
   rules:
+  - NOTAM
   - SI
   geometry:
   - upper: FL660
@@ -6531,6 +6459,7 @@ airspace:
 - name: D201J ABERPORTH
   type: D
   rules:
+  - NOTAM
   - SI
   geometry:
   - upper: FL660
@@ -6548,6 +6477,8 @@ airspace:
 
 - name: D202D WEST WALES
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: FL125
     lower: SFC
@@ -6675,28 +6606,10 @@ airspace:
       - 522900N 0003900E
       - 523100N 0004000E
 
-- name: D208 STANFORD
-  type: D
-  rules:
-  - SI
-  - NOTAM
-  geometry:
-  - upper: 7500 ft
-    lower: 2500 ft
-    boundary:
-    - line:
-      - 523315N 0004050E
-      - 523320N 0004500E
-      - 523255N 0004800E
-      - 523045N 0005000E
-      - 522650N 0005050E
-      - 522620N 0004830E
-      - 522800N 0004500E
-      - 522900N 0003900E
-      - 523100N 0004000E
-
 - name: D211 SWYNNERTON
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: 2400 ft
     lower: SFC
@@ -6707,6 +6620,8 @@ airspace:
 
 - name: D213 KINETON
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: 2400 ft
     lower: SFC
@@ -6717,6 +6632,8 @@ airspace:
 
 - name: D215 NORTH LUFFENHAM
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: 2400 ft
     lower: SFC
@@ -6735,20 +6652,10 @@ airspace:
         radius: 2 nm
         centre: 520453N 0024806W
 
-- name: D216 CREDENHILL
+- name: D304 UPPER HULME
   type: D
   rules:
   - NOTAM
-  geometry:
-  - upper: 10000 ft
-    lower: 2300 ft
-    boundary:
-    - circle:
-        radius: 2 nm
-        centre: 520453N 0024806W
-
-- name: D304 UPPER HULME
-  type: D
   geometry:
   - upper: 3500 ft
     lower: SFC
@@ -6759,6 +6666,8 @@ airspace:
 
 - name: D305 BECKINGHAM
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: 1500 ft
     lower: SFC
@@ -6785,23 +6694,6 @@ airspace:
         centre: 532830N 0001315E
         to: 532331N 0001354E
 
-- name: D307 DONNA NOOK
-  type: D
-  rules:
-  - NOTAM
-  geometry:
-  - upper: 23000 ft
-    lower: 20000 ft
-    boundary:
-    - line:
-      - 532331N 0001354E
-      - 532932N 0000503E
-    - arc:
-        dir: cw
-        radius: 5 nm
-        centre: 532830N 0001315E
-        to: 532331N 0001354E
-
 - name: D314 HARPUR HILL
   type: D
   geometry:
@@ -6814,6 +6706,8 @@ airspace:
 
 - name: D323F SOUTHERN MDA
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: FL660
     lower: FL150
@@ -6828,6 +6722,8 @@ airspace:
 
 - name: D323G SOUTHERN MDA
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: FL660
     lower: FL150
@@ -6839,6 +6735,8 @@ airspace:
 
 - name: D323H SOUTHERN MDA
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: FL660
     lower: FL150
@@ -6851,6 +6749,8 @@ airspace:
 
 - name: D323J SOUTHERN MDA
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: FL660
     lower: FL150
@@ -6863,6 +6763,8 @@ airspace:
 
 - name: D323K SOUTHERN MDA
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: FL660
     lower: FL150
@@ -6875,6 +6777,8 @@ airspace:
 
 - name: D402A LUCE BAY (N)
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: 3000 ft
     lower: SFC
@@ -6897,51 +6801,13 @@ airspace:
       - 545812N 0051210W
       - 550218N 0050909W
 
-- name: D402A LUCE BAY (N)
+- name: D402B LUCE BAY (N)
   type: D
   rules:
   - NOTAM
-  geometry:
-  - upper: 23000 ft
-    lower: 3000 ft
-    boundary:
-    - line:
-      - 550332N 0050509W
-      - 545600N 0045800W
-      - 545600N 0044744W
-      - 544650N 0043837W
-      - 545008N 0044939W
-      - 545100N 0044946W
-      - 545217N 0045134W
-      - 545208N 0045404W
-      - 544953N 0045653W
-      - 544541N 0045627W
-      - 544215N 0045339W
-      - 544007N 0045032W
-      - 543915N 0044653W
-      - 543815N 0045352W
-      - 545812N 0051210W
-      - 550218N 0050909W
-
-- name: D402B LUCE BAY (N)
-  type: D
   geometry:
   - upper: 3000 ft
     lower: SFC
-    boundary:
-    - line:
-      - 550332N 0050509W
-      - 550254N 0045410W
-      - 545600N 0044744W
-      - 545600N 0045800W
-
-- name: D402B LUCE BAY (N)
-  type: D
-  rules:
-  - NOTAM
-  geometry:
-  - upper: 23000 ft
-    lower: 3000 ft
     boundary:
     - line:
       - 550332N 0050509W
@@ -6951,6 +6817,8 @@ airspace:
 
 - name: D402C LUCE BAY (N)
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: 4000 ft
     lower: SFC
@@ -6961,28 +6829,11 @@ airspace:
 
 - name: D405 KIRKCUDBRIGHT
   type: D
-  geometry:
-  - upper: 15000 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 544647N 0040349W
-      - 544744N 0040214W
-      - 544828N 0040040W
-      - 544818N 0035705W
-      - 544710N 0035630W
-      - 543800N 0034806W
-      - 543302N 0035720W
-      - 543315N 0041341W
-      - 543537N 0041514W
-
-- name: D405 KIRKCUDBRIGHT
-  type: D
   rules:
   - NOTAM
   geometry:
-  - upper: 50000 ft
-    lower: 15000 ft
+  - upper: 15000 ft
+    lower: SFC
     boundary:
     - line:
       - 544647N 0040349W
@@ -7013,25 +6864,6 @@ airspace:
       - 543343N 0022536W
       - 543526N 0022419W
 
-- name: D407 WARCOP
-  type: D
-  rules:
-  - SI
-  - NOTAM
-  geometry:
-  - upper: 13500 ft
-    lower: 10000 ft
-    boundary:
-    - line:
-      - 543812N 0022047W
-      - 543856N 0021445W
-      - 543753N 0021402W
-      - 543432N 0021545W
-      - 543156N 0022043W
-      - 543202N 0022209W
-      - 543343N 0022536W
-      - 543526N 0022419W
-
 - name: D408 FELDOM
   type: D
   rules:
@@ -7049,27 +6881,10 @@ airspace:
       - 542505N 0015159W
       - 542720N 0015350W
 
-- name: D408 FELDOM
-  type: D
-  rules:
-  - SI
-  - NOTAM
-  geometry:
-  - upper: 5600 ft
-    lower: 3000 ft
-    boundary:
-    - line:
-      - 542826N 0015159W
-      - 542750N 0014921W
-      - 542656N 0014654W
-      - 542513N 0014819W
-      - 542447N 0015004W
-      - 542505N 0015159W
-      - 542720N 0015350W
-
 - name: D410 STRENSALL
   type: D
   rules:
+  - NOTAM
   - SI
   geometry:
   - upper: 1000 ft
@@ -7103,6 +6918,8 @@ airspace:
 
 - name: D509 CAMPBELTOWN
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: 55000 ft
     lower: SFC
@@ -7115,6 +6932,18 @@ airspace:
       - 545548N 0052800W
       - 550630N 0054300W
 
+- name: D510A SPADEADAM
+  type: D
+  geometry:
+  - upper: 5500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 551500N 0025256W
+      - 550112N 0024453W
+      - 550900N 0030000W
+      - 551500N 0025400W
+
 - name: D510B SPADEADAM
   type: D
   geometry:
@@ -7130,50 +6959,6 @@ airspace:
       - 550000N 0022752W
       - 550000N 0024235W
       - 550112N 0024453W
-
-- name: D510B SPADEADAM
-  type: D
-  rules:
-  - NOTAM
-  geometry:
-  - upper: 18000 ft
-    lower: 5500 ft
-    boundary:
-    - line:
-      - 551500N 0025256W
-      - 551500N 0023951W
-      - 550453N 0021743W
-      - 550417N 0021717W
-      - 550206N 0021640W
-      - 550000N 0022752W
-      - 550000N 0024235W
-      - 550112N 0024453W
-
-- name: D510A SPADEADAM
-  type: D
-  geometry:
-  - upper: 5500 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 551500N 0025256W
-      - 550112N 0024453W
-      - 550900N 0030000W
-      - 551500N 0025400W
-
-- name: D510A SPADEADAM
-  type: D
-  rules:
-  - NOTAM
-  geometry:
-  - upper: 15000 ft
-    lower: 5500 ft
-    boundary:
-    - line:
-      - 551500N 0025256W
-      - 550112N 0024453W
-      - 550900N 0030000W
-      - 551500N 0025400W
 
 - name: D510C SPADEADAM
   type: D
@@ -7184,39 +6969,6 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 550243N 0023526W
-
-- name: D512 OTTERBURN
-  type: D
-  rules:
-  - SI
-  geometry:
-  - upper: 18000 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 552426N 0021355W
-      - 551719N 0020336W
-      - 551418N 0020239W
-      - 551525N 0021352W
-      - 551857N 0022315W
-      - 552212N 0022009W
-
-- name: D512 OTTERBURN
-  type: D
-  rules:
-  - SI
-  - NOTAM
-  geometry:
-  - upper: 25000 ft
-    lower: 18000 ft
-    boundary:
-    - line:
-      - 552426N 0021355W
-      - 551719N 0020336W
-      - 551418N 0020239W
-      - 551525N 0021352W
-      - 551857N 0022315W
-      - 552212N 0022009W
 
 - name: D512A OTTERBURN
   type: D
@@ -7233,8 +6985,26 @@ airspace:
       - 551857N 0022315W
       - 551525N 0021352W
 
+- name: D512B OTTERBURN
+  type: D
+  rules:
+  - SI
+  geometry:
+  - upper: 18000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 552426N 0021355W
+      - 551719N 0020336W
+      - 551418N 0020239W
+      - 551525N 0021352W
+      - 551857N 0022315W
+      - 552212N 0022009W
+
 - name: D601 GARELOCHHEAD
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: 4000 ft
     lower: SFC
@@ -7253,21 +7023,6 @@ airspace:
   geometry:
   - upper: 1500 ft
     lower: SFC
-    boundary:
-    - line:
-      - 562849N 0024849W
-      - 562957N 0024010W
-      - 562735N 0023943W
-      - 562738N 0024829W
-
-- name: D604 BARRY BUDDON
-  type: D
-  rules:
-  - SI
-  - NOTAM
-  geometry:
-  - upper: 9000 ft
-    lower: 1500 ft
     boundary:
     - line:
       - 562849N 0024849W
@@ -7297,26 +7052,6 @@ airspace:
   geometry:
   - upper: 15000 ft
     lower: SFC
-    boundary:
-    - line:
-      - 575224N 0033030W
-      - 575224N 0033000W
-      - 580300N 0033000W
-      - 580700N 0033700W
-      - 580324N 0034436W
-      - 575136N 0040812W
-      - 574500N 0040254W
-      - 574500N 0035500W
-      - 575054N 0034630W
-
-- name: D703 TAIN
-  type: D
-  rules:
-  - SI
-  - NOTAM
-  geometry:
-  - upper: 22000 ft
-    lower: 15000 ft
     boundary:
     - line:
       - 575224N 0033030W
