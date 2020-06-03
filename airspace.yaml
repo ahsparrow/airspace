@@ -2003,7 +2003,8 @@ airspace:
       - 514905N 0003647W
       - 514503N 0003457W
       - 514409N 0004005W
-  - seqno: 3
+  - id: luton-cta-3
+    seqno: 3
     upper: 5500 ft
     lower: 2500 ft
     boundary:
@@ -2021,7 +2022,8 @@ airspace:
       - 514810N 0004155W
       - 514659N 0004838W
       - 515048N 0004926W
-  - seqno: 5
+  - id: luton-cta-5
+    seqno: 5
     upper: 5500 ft
     lower: 3500 ft
     boundary:
@@ -12350,7 +12352,8 @@ airspace:
   type: CTR
   class: D
   geometry:
-  - upper: 3500 ft
+  - id: luton-ctr
+    upper: 3500 ft
     lower: SFC
     boundary:
     - line:
