@@ -324,6 +324,7 @@ loa:
 
 #----------------------------------------------------------------------
 - name: CAMBRIDGE RAZ
+  default: true
   areas:
   - name: CAMBRIDGE RAZ
     add:
@@ -2676,13 +2677,14 @@ loa:
 #----------------------------------------------------------------------
 
 - name: WOBURN (NO LANDING)
+  default: true
   areas:
   - name: WOBURN (NO LANDING)
     add:
     - name: WOBURN (NO LANDING)
       type: P
       geometry:
-      - upper: 150 ft
+      - upper: 1500 ft
         lower: SFC
         boundary:
         - line:
