@@ -11399,15 +11399,9 @@ airspace:
   - upper: 2325 ft
     lower: SFC
     boundary:
-    - line:
-      - 511737N 0005211W
-    - arc:
-        dir: cw
+    - circle:
         radius: 2 nm
         centre: 511926N 0005051W
-        to: 511805N 0004830W
-    - line:
-      - 511757N 0004955W
 
 - name: BLACKPOOL
   id: blackpool-atz
