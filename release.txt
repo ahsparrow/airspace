@@ -1,3 +1,6 @@
+AIRAC: 2020/06/18
+  BLACKBUSHE - Remove Farnbourgh cut-out
+
 Non-AIRAC:
   Correct/tidy NOTAM activated danger areas
   DUNSTABLE COMPS LOA - Add
