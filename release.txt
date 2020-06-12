@@ -1,3 +1,6 @@
+Non-AIRAC:
+  WALES (COVID-19) - Add RA(T) prohibited area
+
 AIRAC: 2020/06/18
   BLACKBUSHE - Remove Farnbourgh cut-out
 
