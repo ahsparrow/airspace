@@ -4,6 +4,7 @@ Non-AIRAC:
 AIRAC: 2020/07/16
   NEWQUAY - Elevation changed
   OBAN - Elevation changed
+  OLD WARDEN - Elevation changed
 
 Non-AIRAC:
   WALES (COVID-19) - Add RA(T) prohibited area
@@ -115,25 +116,3 @@ Non-AIRAC:
   LASHENDEN RA(T)
   FAIRFORD RIAT FLYPAST RA(T)
   EASTBOURNE RA(T)
-
-AIRAC: 2019/06/20
-  No changes
-
-Non-AIRAC:
-  STONEHENGE RA(T)
-  QUEEN'S BIRTHDAY REHERSAL RA(T)
-  QUEEN'S BIRTHDAY RA(T)
-  LEEDS FESTIVAL RA(T)
-  BESTIVAL RA(T)
-  LATITUDE FESTIVAL RA(T)
-  SILVERSTONE RA(T)
-  DUXFORD RA(T)
-  GOODWOOD RA(T)
-  FOLKESTONE RA(T)
-  PORTSMOUTH D-DAY RA(T)
-  DUXFORD DAKOTAS RA(T)
-  COSFORD RA(T)
-
-AIRAC: 2019/05/23
-  DONCASTER - Frequency change
-  D323 - Add onshore segment (missed from a previous AIRAC)

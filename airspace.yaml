@@ -12626,7 +12626,7 @@ airspace:
   rules:
   - NOTAM
   geometry:
-  - upper: 2120 ft
+  - upper: 2127 ft
     lower: SFC
     boundary:
     - circle:
