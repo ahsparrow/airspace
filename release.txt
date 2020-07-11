@@ -1,4 +1,10 @@
 Non-AIRAC:
+  BICESTER - Delete
+
+AIRAC: 2020/07/16
+  No change
+
+Non-AIRAC:
   WALES (COVID-19) - Add RA(T) prohibited area
 
 AIRAC: 2020/06/18

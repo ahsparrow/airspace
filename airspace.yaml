@@ -9242,17 +9242,6 @@ airspace:
         radius: 1 nm
         centre: 504041N 0010633W
 
-- name: BICESTER
-  type: OTHER
-  localtype: GLIDER
-  geometry:
-  - upper: 3267 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1 nm
-        centre: 515458N 0010756W
-
 - name: BIDFORD
   type: OTHER
   localtype: GLIDER
