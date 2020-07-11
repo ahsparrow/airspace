@@ -11756,29 +11756,6 @@ airspace:
         radius: 2 nm
         centre: 505136N 0031405W
 
-- name: TEESSIDE CTR
-  id: teesside-ctr
-  type: CTR
-  class: D
-  geometry:
-  - upper: 6000 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 544050N 0011909W
-    - arc:
-        dir: cw
-        radius: 11 nm
-        centre: 543033N 0012546W
-        to: 543328N 0010734W
-    - line:
-      - 542541N 0012211W
-    - arc:
-        dir: cw
-        radius: 5.3 nm
-        centre: 543033N 0012546W
-        to: 543303N 0013347W
-
 - name: DUXFORD
   id: duxford-atz
   type: ATZ
@@ -12949,6 +12926,29 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 524851N 0014553W
+
+- name: TEESSIDE CTR
+  id: teesside-ctr
+  type: CTR
+  class: D
+  geometry:
+  - upper: 6000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 544050N 0011909W
+    - arc:
+        dir: cw
+        radius: 11 nm
+        centre: 543033N 0012546W
+        to: 543328N 0010734W
+    - line:
+      - 542541N 0012211W
+    - arc:
+        dir: cw
+        radius: 5.3 nm
+        centre: 543033N 0012546W
+        to: 543303N 0013347W
 
 - name: THRUXTON
   id: thruxton-atz
