@@ -9650,7 +9650,7 @@ airspace:
   type: OTHER
   localtype: GLIDER
   geometry:
-  - upper: 2020 ft
+  - upper: 2023 ft
     lower: SFC
     boundary:
     - circle:
@@ -12602,7 +12602,7 @@ airspace:
   id: oban-atz
   type: ATZ
   geometry:
-  - upper: 2024 ft
+  - upper: 2023 ft
     lower: SFC
     boundary:
     - circle:

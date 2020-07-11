@@ -3,6 +3,7 @@ Non-AIRAC:
 
 AIRAC: 2020/07/16
   NEWQUAY - Elevation changed
+  OBAN - Elevation changed
 
 Non-AIRAC:
   WALES (COVID-19) - Add RA(T) prohibited area
