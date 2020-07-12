@@ -9167,19 +9167,6 @@ airspace:
         radius: 2 nm
         centre: 515246N 0011320W
 
-- name: WESTON-ON-THE-GREEN
-  type: D_OTHER
-  localtype: DZ
-  rules:
-  - NOTAM
-  geometry:
-  - upper: FL150
-    lower: FL85
-    boundary:
-    - circle:
-        radius: 2 nm
-        centre: 515246N 0011320W
-
 #----------------------------------------------------------------------
 # ENR 5.5 (cont) Aerial sporting (gliding clubs)
 
