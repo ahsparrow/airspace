@@ -369,11 +369,6 @@ obstacle:
   id: UK0230A027F
   position: 510642N 0011451E
   elevation: 1240 ft
-- name: FUNTINGTON BALLOON
-  type: OBST
-  id: UK18638181F
-  position: 505208N 0005243W
-  elevation: 1118 ft
 - name: FAWLEY CMN
   type: CHIM
   id: UK0230D709F
@@ -384,11 +379,6 @@ obstacle:
   id: UK0229A015F
   position: 504826N 0030618W
   elevation: 1542 ft
-- name: RAMPISHAM RTM
-  type: RTM
-  id: UK27999326F
-  elevation: 1343 ft
-  position: 504818N 0023852W
 - name: ROWRIDGE RTM
   type: RTM
   id: UK0230N156F
