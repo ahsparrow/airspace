@@ -13226,18 +13226,6 @@ airspace:
         radius: 1.5 nm
         centre: 535850N 0005153W
 
-- name: LASHAM
-  id: lasham-noatz
-  type: OTHER
-  localtype: NOATZ
-  geometry:
-  - upper: 2618 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1.5 nm
-        centre: 511110N 0010150W
-
 - name: LITTLE GRANSDEN
   type: OTHER
   localtype: NOATZ
