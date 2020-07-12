@@ -210,3 +210,13 @@ rat:
       - 532106N 0031949W
       - 531405N 0030516W
       - 531531N 0030504W
+
+- name: RAF CRANWELL (16 JUL)
+  type: P
+  geometry:
+  - upper: 8300 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 530152N 0002955W
