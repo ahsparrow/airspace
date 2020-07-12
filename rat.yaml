@@ -211,6 +211,22 @@ rat:
       - 531405N 0030516W
       - 531531N 0030504W
 
+- name: OLD WARDEN (3 MAY-4 OCT)
+  type: P
+  geometry:
+  - upper: 3500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 520225N 0002056W
+    - arc:
+        dir: cw
+        radius: 3 nm
+        centre: 520512N 0001907W
+        to: 520258N 0001553W
+    - line:
+      - 520258N 0001553W
+
 - name: RAF CRANWELL (16 JUL)
   type: P
   geometry:
