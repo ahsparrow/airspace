@@ -8978,19 +8978,6 @@ airspace:
         radius: 1.5 nm
         centre: 520136N 0011216W
 
-- name: HINTON-IN-THE-HEDGES
-  type: D_OTHER
-  localtype: DZ
-  rules:
-  - NOTAM
-  geometry:
-  - upper: FL150
-    lower: FL65
-    boundary:
-    - circle:
-        radius: 1.5 nm
-        centre: 520136N 0011216W
-
 - name: KEEVIL
   type: D_OTHER
   localtype: DZ
@@ -9127,19 +9114,6 @@ airspace:
   geometry:
   - upper: 5000 ft
     lower: SFC
-    boundary:
-    - circle:
-        radius: 1.5 nm
-        centre: 561930N 0034455W
-
-- name: STRATHALLAN
-  type: D_OTHER
-  localtype: DZ
-  rules:
-  - NOTAM
-  geometry:
-  - upper: FL660
-    lower: 5000 ft
     boundary:
     - circle:
         radius: 1.5 nm
