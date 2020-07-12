@@ -1,6 +1,7 @@
 Non-AIRAC:
   BICESTER - Delete
   RAF CRANWELL RA(T)
+  SILVERSTONE RA(T)
 
 AIRAC: 2020/07/16
   NEWQUAY - Elevation changed
