@@ -589,7 +589,7 @@ loa:
           - 530402N 0011422W
           - 525901N 0010918W
           - 525911N 0012801W
-      - upper: FL65
+      - upper: 6000 ft
         lower: 5500 ft
         boundary:
         - line:
@@ -613,7 +613,7 @@ loa:
     - id: east-midlands-cta-19
       geometry:
       - upper: FL105
-        lower: FL65
+        lower: 6000 ft
         boundary:
         - line:
           - 530900N 0013146W
@@ -656,7 +656,7 @@ loa:
       type: CTA
       class: D
       geometry:
-      - upper: FL105
+      - upper: 6000 ft
         lower: 5000 ft
         boundary:
         - line:
@@ -664,7 +664,7 @@ loa:
           - 525901N 0010918W
           - 525537N 0010600W
 
-      - upper: FL105
+      - upper: 6000 ft
         lower: 2500 ft
         boundary:
         - line:
@@ -674,7 +674,7 @@ loa:
           - 525057N 0005724W
           - 525155N 0010225W
 
-      - upper: FL105
+      - upper: 6000 ft
         lower: 1500 ft
         boundary:
         - line:
@@ -687,6 +687,24 @@ loa:
     - id: east-midlands-cta-1
       geometry:
       - upper: FL105
+        lower: 6000 ft
+        boundary:
+        - line:
+          - 525421N 0010006W
+          - 525901N 0010918W
+          - 525537N 0010600W
+
+      - upper: FL105
+        lower: 6000 ft
+        boundary:
+        - line:
+          - 525537N 0010600W
+          - 525421N 0010006W
+          - 525121N 0005725W
+          - 525057N 0005724W
+          - 525155N 0010225W
+
+      - upper: FL105
         lower: 2500 ft
         boundary:
         - line:
@@ -698,6 +716,7 @@ loa:
           - 525255N 0010733W
           - 525456N 0011804W
           - 525510N 0012530W
+
       - upper: FL105
         lower: 5000 ft
         boundary:
@@ -706,17 +725,25 @@ loa:
           - 525537N 0010600W
           - 525746N 0011600W
           - 525906N 0011906W
+
     - id: east-midlands-cta-2
       geometry:
+      - upper: FL105
+        lower: 6000 ft
+        boundary:
+        - line:
+          - 525155N 0010225W
+          - 525057N 0005724W
+          - 525014N 0005722W
+          - 524705N 0005743W
+
       - upper: FL105
         lower: 1500 ft
         boundary:
         - line:
           - 525255N 0010733W
-
           - 525155N 0010225W
           - 524705N 0005743W
-
           - 524619N 0005748W
           - 524558N 0010733W
 
