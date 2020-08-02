@@ -9641,6 +9641,7 @@ airspace:
         centre: 501947N 0051039W
 
 - name: POCKLINGTON
+  id: pocklington-glider
   type: OTHER
   localtype: GLIDER
   geometry:

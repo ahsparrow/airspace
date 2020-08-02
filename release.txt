@@ -4,6 +4,7 @@ Non-AIRAC:
   SILVERSTONE RA(T)
   OLD WARDEN RA(T)
   EAST MIDLANDS (CAMPHILL) LOA - Update vertical limits
+  POCKLINGTON - Add frequency
 
 AIRAC: 2020/07/16
   NEWQUAY - Elevation changed

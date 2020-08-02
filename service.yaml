@@ -689,6 +689,11 @@ service:
   - perth-atz
   frequency: 121.080
 
+- callsign: POCKLINGTON RADIO
+  controls:
+  - pocklington-glider
+  frequency: 118.755
+
 - callsign: POPHAM RADIO
   controls:
   - popham-noatz
