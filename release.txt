@@ -5,6 +5,7 @@ Non-AIRAC:
   OLD WARDEN RA(T)
   EAST MIDLANDS (CAMPHILL) LOA - Update vertical limits
   POCKLINGTON - Add frequency
+  SOUTHEND CORRIDOR - Reclassify and tweak coordinates
 
 AIRAC: 2020/07/16
   NEWQUAY - Elevation changed
