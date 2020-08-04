@@ -2442,8 +2442,10 @@ loa:
   - name: SOUTHEND CROSSING
     add:
     - name: EASTERN CORRIDOR
-      type: CTR
-      class: D
+      type: OTHER
+      localtype: GLIDER
+      rules:
+        - LOA
       geometry:
       - upper: 3500 ft
         lower: SFC
@@ -2462,8 +2464,10 @@ loa:
           - 514716N 0005005E
 
     - name: GATEWAY CORRIDOR
-      type: CTR
-      class: D
+      type: OTHER
+      localtype: GLIDER
+      rules:
+        - LOA
       geometry:
       - upper: 3500 ft
         lower: 1500 ft
@@ -2483,8 +2487,10 @@ loa:
           - 513943N 0002551E
 
     - name: WESTERN CORRIDOR
-      type: CTR
-      class: D
+      type: OTHER
+      localtype: GLIDER
+      rules:
+        - LOA
       geometry:
       - upper: 3500 ft
         lower: SFC
