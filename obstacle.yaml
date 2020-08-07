@@ -8,7 +8,7 @@ obstacle:
   type: RTM
   id: UK0150B620F
   position: 573703N 0015315W
-  elevation: 935 ft
+  elevation: 939 ft
 - name: CRIMOND RTM
   type: RTM
   id: UK0150B621F
@@ -18,7 +18,7 @@ obstacle:
   type: RTM
   id: UK0150A095F
   position: 573624N 0015250W
-  elevation: 646 ft
+  elevation: 643 ft
 - name: MOUNT EAGLE RTM
   type: RTM
   id: UK0150A046F
@@ -28,7 +28,7 @@ obstacle:
   type: RTM
   id: UK0150A033F
   position: 570000N 0022324W
-  elevation: 2122 ft
+  elevation: 2115 ft
 - name: CRAIGOWL HILL RTM
   type: RTM
   id: UK0150A026F
@@ -43,7 +43,7 @@ obstacle:
   type: PLT
   id: UK0150A006F
   position: 560255N 0034057W
-  elevation: 603 ft
+  elevation: 621 ft
 - name: FORTH BRIDGE
   type: BRDG
   id: UK0150M812F
@@ -57,7 +57,7 @@ obstacle:
 - name: FORTH BRIDGE
   type: BRDG
   id: UK0150M813F
-  position: 560018N 0032445W
+  position: 560017N 0032445W
   elevation: 717 ft
 - name: FORTH BRIDGE
   type: BRDG
@@ -73,7 +73,7 @@ obstacle:
   type: RTM
   id: UK0171A385F
   position: 555143N 0035221W
-  elevation: 1938 ft
+  elevation: 1948 ft
 - name: BLACKHILL RTM
   type: RTM
   id: UK0171T707F
@@ -103,7 +103,7 @@ obstacle:
   type: RTM
   id: UK0171Q339F
   position: 545503N 0031646W
-  elevation: 778 ft
+  elevation: 776 ft
 - name: ANTHORN RTM
   type: RTM
   id: UK0171Q341F
@@ -168,12 +168,12 @@ obstacle:
   type: RTM
   id: UK0171A344F
   position: 544919N 0014253W
-  elevation: 1542 ft
+  elevation: 1551 ft
 - name: CALDBECK RTM
   type: RTM
   id: UK0171T708F
   position: 544624N 0030527W
-  elevation: 2054 ft
+  elevation: 2058 ft
 - name: SKELTON RTM
   type: RTM
   id: UK0171E680F
@@ -183,7 +183,7 @@ obstacle:
   type: RTM
   id: UK0171A310F
   position: 542131N 0010901W
-  elevation: 2298 ft
+  elevation: 2295 ft
 - name: INSKIP RTM
   type: RTM
   id: UK0171F960F
@@ -208,17 +208,17 @@ obstacle:
   type: CHIM
   id: UK0171P750F
   position: 534414N 0005957W
-  elevation: 870 ft
+  elevation: 869 ft
 - name: FERRYBRIDGE CMN
   type: CHIM
   id: UK18612915F
   position: 534257N 0011648W
-  elevation: 706 ft
+  elevation: 694 ft
 - name: FERRYBRIDGE CMN
   type: CHIM
   id: UK18612914F
   position: 534255N 0011653W
-  elevation: 709 ft
+  elevation: 694 ft
 - name: EGGBOROUGH CMN
   type: CHIM
   id: UK0171U698F
@@ -233,22 +233,22 @@ obstacle:
   type: RTM
   id: UK0171A239F
   position: 533644N 0013952W
-  elevation: 1925 ft
+  elevation: 1927 ft
 - name: EMLEY MOOR TMP RTM
   type: RTM
   id: UK18639141F
   position: 533640N 0013956W
-  elevation: 1904 ft
+  elevation: 1881 ft
 - name: HOLME MOSS RTM
   type: RTM
   id: UK0171E898F
   position: 533200N 0015130W
-  elevation: 2502 ft
+  elevation: 2505 ft
 - name: FIDDLERS CMN
   type: CHIM
   id: UK0171A176F
-  position: 532223N 0024109W
-  elevation: 654 ft
+  position: 532222N 0024109W
+  elevation: 653 ft
 - name: WEST BURTON CMN
   type: CHIM
   id: UK0171A172F
@@ -263,17 +263,17 @@ obstacle:
   type: RTM
   id: UK0171A168F
   position: 532009N 0001019W
-  elevation: 1554 ft
+  elevation: 1556 ft
 - name: COTTAM CMN
   type: PLT
   id: UK0171A209F
   position: 531817N 0004654W
-  elevation: 669 ft
+  elevation: 676 ft
 - name: MOEL-Y-PARC RTM
   type: RTM
   id: UK0171A146F
   position: 531316N 0031852W
-  elevation: 1893 ft
+  elevation: 1891 ft
 - name: ARFON RTM
   type: RTM
   id: UK0171A125F
@@ -297,13 +297,13 @@ obstacle:
 - name: LICHFIELD RTM
   type: RTM
   id: UK0171A083F
-  position: 523812N 0014533W
-  elevation: 1487 ft
+  position: 523812N 0014532W
+  elevation: 1477 ft
 - name: IRON BRIDGE CMN
   type: PLT
   id: UK0171A486F
   position: 523748N 0023048W
-  elevation: 891 ft
+  elevation: 896 ft
 - name: SUTTON COLDFIELD RTM
   type: RTM
   id: UK0171A071F
@@ -314,11 +314,16 @@ obstacle:
   id: UK0171W457F
   position: 523108N 0010819E
   elevation: 888 ft
+- name: DROITWICH STH RTM
+  type: RTM
+  id: UK0171A034F
+  position: 521740N 0020621W
+  elevation: 897 ft
 - name: DROITWICH RTM
   type: RTM
   id: UK0171A034F
-  position: 521747N 0020625W
-  elevation: 880 ft
+  position: 521747N 0020624W
+  elevation: 881 ft
 - name: MENDLESHAM RTM
   type: RTM
   id: UK0171A028F
@@ -363,16 +368,16 @@ obstacle:
   type: RTM
   id: UK0229A024F
   position: 511413N 0023731W
-  elevation: 1955 ft
+  elevation: 1960 ft
 - name: DOVER RTM
   type: RTM
   id: UK0230A027F
   position: 510642N 0011451E
-  elevation: 1240 ft
+  elevation: 1251 ft
 - name: FAWLEY CMN
   type: CHIM
   id: UK0230D709F
-  position: 504903N 0011945W
+  position: 504904N 0011945W
   elevation: 648 ft
 - name: STOCKLAND HILL RTM
   type: BLDG
@@ -388,7 +393,7 @@ obstacle:
   type: RTM
   id: UK0230A002F
   position: 503857N 0011944W
-  elevation: 1291 ft
+  elevation: 1300 ft
 - name: HESSARY TOR RTM
   type: RTM
   id: UK0229A011F
@@ -398,4 +403,4 @@ obstacle:
   type: RTM
   id: UK0229A009F
   position: 503041N 0042612W
-  elevation: 1995 ft
+  elevation: 2005 ft

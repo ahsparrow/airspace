@@ -1,6 +1,7 @@
 AIRAC: 2020/08/13
   BIGGIN HILL - Update elevation
   EXETER - Update frequency
+  Obstacle updates
 
 Non-AIRAC:
   BICESTER - Delete
