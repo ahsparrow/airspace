@@ -347,7 +347,7 @@ service:
 - callsign: EXETER APPROACH
   controls:
   - exeter-atz
-  frequency: 128.975
+  frequency: 128.980
 
 - callsign: EYRES FIELD RADIO
   controls:
