@@ -1,3 +1,6 @@
+AIRAC: 2020/08/13
+  BIGGIN HILL - Update elevation
+
 Non-AIRAC:
   BICESTER - Delete
   RAF CRANWELL RA(T)
