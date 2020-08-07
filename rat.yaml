@@ -28,16 +28,6 @@ rat:
     - line:
       - 520258N 0001553W
 
-- name: RAF CRANWELL (16 JUL)
-  type: P
-  geometry:
-  - upper: 8300 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 6 nm
-        centre: 530152N 0002955W
-
 - name: SILVERSTONE (30 JUL-9 AUG)
   type: P
   geometry:
