@@ -4837,25 +4837,6 @@ airspace:
         centre: 524737N 0024004W
         to: 524302N 0024321W
 
-- name: TOPCLIFFE
-  id: topcliffe-matz
-  type: OTHER
-  localtype: MATZ
-  controltype: MILITARY
-  geometry:
-  - upper: 3091 ft
-    lower: 1091 ft
-    boundary:
-    - line:
-      - 542056N 0011336W
-      - 542222N 0011959W
-      - 541719N 0012318W
-    - arc:
-        dir: cw
-        radius: 5 nm
-        centre: 541220N 0012255W
-        to: 541553N 0011656W
-
 - name: VALLEY
   id: valley-matz
   type: OTHER

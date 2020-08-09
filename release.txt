@@ -1,3 +1,6 @@
+AIRAC: 2020/09/10
+  TOPCLIFFE MATZ - Remove stub
+
 AIRAC: 2020/08/13
   BIGGIN HILL - Update elevation
   EXETER - Update frequency
