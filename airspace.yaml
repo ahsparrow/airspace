@@ -10894,17 +10894,6 @@ airspace:
         radius: 0.5 nm
         centre: 522141N 0023245W
 
-- name: MISK HILL
-  type: OTHER
-  localtype: UL
-  geometry:
-  - upper: 2581 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.5 nm
-        centre: 530311N 0011455W
-
 - name: MONTROSE
   type: OTHER
   localtype: UL
