@@ -287,11 +287,6 @@ service:
   - dunsfold-noatz
   frequency: 119.105
 
-- callsign: DUNSTABLE RADIO
-  controls:
-  - dunstable-glider
-  frequency: 119.905
-
 - callsign: TEESSIDE APPROACH
   controls:
   - teesside-cta
@@ -348,11 +343,6 @@ service:
   controls:
   - exeter-atz
   frequency: 128.980
-
-- callsign: EYRES FIELD RADIO
-  controls:
-  - eyres-field-glider
-  frequency: 129.980
 
 - callsign: FAIROAKS INFORMATION
   controls:
@@ -411,11 +401,6 @@ service:
   - goodwood-atz
   frequency: 122.455
 
-- callsign: GRANSDEN LODGE RADIO
-  controls:
-  - gransden-lodge-glider
-  frequency: 131.280
-
 - callsign: GREAT OAKLEY RADIO
   controls:
   - great-oakley-noatz
@@ -462,16 +447,6 @@ service:
   - henstridge-noatz
   frequency: 130.255
 
-- callsign: HINTON RADIO
-  controls:
-  - hinton-glider
-  frequency: 119.455
-
-- callsign: HUSBOS RADIO
-  controls:
-  - hosbos-glider
-  frequency: 127.580
-
 - callsign: INCE RADIO
   controls:
   - ince-ul
@@ -511,12 +486,6 @@ service:
   - lands-end-atz
   frequency: 120.250
 
-- callsign: LASHAM RADIO
-  controls:
-  - lasham-glider
-  - lasham-noatz
-  frequency: 131.030
-
 - callsign: LEE RADIO
   controls:
   - lee-on-solent-atz
@@ -553,11 +522,6 @@ service:
   - linton-atz
   - linton-matz
   frequency: 118.550
-
-- callsign: LITTLE RISSINGTON RADIO
-  controls:
-  - litte-rissington-glider
-  frequency: 120.775
 
 - callsign: LIVERPOOL APPROACH
   controls:
@@ -688,11 +652,6 @@ service:
   controls:
   - perth-atz
   frequency: 121.080
-
-- callsign: POCKLINGTON RADIO
-  controls:
-  - pocklington-glider
-  frequency: 118.755
 
 - callsign: POPHAM RADIO
   controls:
@@ -845,11 +804,6 @@ service:
   - turweston-noatz
   frequency: 122.180
 
-- callsign: USK RADIO
-  controls:
-  - usk-glider
-  frequency: 129.980
-
 - callsign: VALLEY RADAR
   controls:
   - mona-atz
@@ -940,3 +894,55 @@ service:
   - yeovilton-atz
   - yeovilton-matz
   frequency: 127.350
+
+#----------------------------------------------------------------------
+# Civil gliding sites
+
+- callsign: DUNSTABLE RADIO
+  controls:
+  - dunstable-glider
+  frequency: 119.905
+
+- callsign: EYRES FIELD RADIO
+  controls:
+  - eyres-field-glider
+  frequency: 129.980
+
+- callsign: GRANSDEN LODGE RADIO
+  controls:
+  - gransden-lodge-glider
+  frequency: 131.280
+
+- callsign: HINTON RADIO
+  controls:
+  - hinton-glider
+  frequency: 119.455
+
+- callsign: HUSBOS RADIO
+  controls:
+  - hosbos-glider
+  frequency: 127.580
+
+- callsign: LASHAM RADIO
+  controls:
+  - lasham-glider
+  - lasham-noatz
+  frequency: 131.030
+
+- callsign: POCKLINGTON RADIO
+  controls:
+  - pocklington-glider
+  frequency: 118.755
+
+- callsign: USK RADIO
+  controls:
+  - usk-glider
+  frequency: 129.980
+
+# Military gliding sites
+
+- callsign: LITTLE RISSINGTON RADIO
+  controls:
+  - litte-rissington-glider
+  frequency: 120.775
+
