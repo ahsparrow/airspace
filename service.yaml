@@ -26,7 +26,6 @@ service:
 - callsign: BAGBY RADIO
   controls:
   - bagby-noatz
-  - bagby-ul
   frequency: 123.255
 
 - callsign: BARTON INFORMATION
@@ -503,7 +502,6 @@ service:
   - leeming-matz
   - leeming-topcliffe-matz
   - topcliffe-atz
-  - topcliffe-matz
   frequency: 133.375
 
 - callsign: LEICESTER RADIO
