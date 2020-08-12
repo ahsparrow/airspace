@@ -9152,6 +9152,7 @@ airspace:
 # ENR 5.5 (cont) Aerial sporting (gliding clubs)
 
 - name: ABOYNE
+  id: aboyne-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9163,6 +9164,7 @@ airspace:
         centre: 570430N 0025005W
 
 - name: ASTON DOWN
+  id: aston-down-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9174,6 +9176,7 @@ airspace:
         centre: 514228N 0020750W
 
 - name: BEMBRIDGE
+  id: bembridge-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9185,6 +9188,7 @@ airspace:
         centre: 504041N 0010633W
 
 - name: BIDFORD
+  id: bidford-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9196,6 +9200,7 @@ airspace:
         centre: 520803N 0015103W
 
 - name: BOGNOR REGIS
+  id: bognor-regis-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9207,6 +9212,7 @@ airspace:
         centre: 504804N 0003934W
 
 - name: BRENT TOR
+  id: brent-tor-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9218,6 +9224,7 @@ airspace:
         centre: 503517N 0040850W
 
 - name: BURN
+  id: burn-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9229,6 +9236,7 @@ airspace:
         centre: 534445N 0010504W
 
 - name: CAMPHILL
+  id: camphill-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9240,6 +9248,7 @@ airspace:
         centre: 531818N 0014353W
 
 - name: CHALLOCK
+  id: challock-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9251,6 +9260,7 @@ airspace:
         centre: 511230N 0004945E
 
 - name: CHIPPING
+  id: chipping-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9262,6 +9272,7 @@ airspace:
         centre: 535301N 0023714W
 
 - name: CRANWELL
+  id: cranwell-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9273,6 +9284,7 @@ airspace:
         centre: 530231N 0002936W
 
 - name: CROWLAND
+  id: crowland-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9284,6 +9296,7 @@ airspace:
         centre: 524233N 0000834W
 
 - name: CULDROSE
+  id: culdrose-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9295,6 +9308,7 @@ airspace:
         centre: 500510N 0051521W
 
 - name: CURROCK HILL
+  id: currock-hill-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9306,6 +9320,7 @@ airspace:
         centre: 545602N 0015043W
 
 - name: DARLTON
+  id: darlton-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9329,6 +9344,7 @@ airspace:
         centre: 515200N 0003254W
 
 - name: EAGLESCOTT
+  id: eaglescott-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9340,6 +9356,7 @@ airspace:
         centre: 505542N 0035922W
 
 - name: EASTERTON
+  id: easterton-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9351,6 +9368,7 @@ airspace:
         centre: 573508N 0031841W
 
 - name: EDGE HILL
+  id: edge-hill-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9374,6 +9392,7 @@ airspace:
         centre: 504233N 0021310W
 
 - name: FALGUNZEON
+  id: falgunzeon-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9385,6 +9404,7 @@ airspace:
         centre: 545638N 0034424W
 
 - name: FESHIEBRIDGE
+  id: feshiebridge-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9408,6 +9428,7 @@ airspace:
         centre: 521041N 0000653W
 
 - name: HALESLAND
+  id: halesland-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9419,7 +9440,7 @@ airspace:
         centre: 511544N 0024356W
 
 - name: HINTON-IN-THE-HEDGES
-  id: hinton-glider
+  id: hinton-in-the-hedges-glider
   type: OTHER
   localtype: GLIDER
   rules:
@@ -9433,7 +9454,7 @@ airspace:
         centre: 520145N 0011229W
 
 - name: HUSBANDS BOSWORTH
-  id: hosbos-glider
+  id: husbands-boswoth-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9445,6 +9466,7 @@ airspace:
         centre: 522626N 0010238W
 
 - name: KEEVIL
+  id: keevil-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9456,6 +9478,7 @@ airspace:
         centre: 511850N 0020643W
 
 - name: KIRTON-IN-LINDSEY
+  id: kirton-in-lindsey-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9479,6 +9502,7 @@ airspace:
         centre: 511112N 0010155W
 
 - name: LEE-ON-SOLENT
+  id: lee-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9490,6 +9514,7 @@ airspace:
         centre: 504855N 0011225W
 
 - name: LLANTISILIO
+  id: llantisilio-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9501,6 +9526,7 @@ airspace:
         centre: 530239N 0031315W
 
 - name: LLEWENI PARC
+  id: lleweni-parc-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9512,6 +9538,7 @@ airspace:
         centre: 531239N 0032312W
 
 - name: LONG MYND
+  id: long-mynd-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9523,6 +9550,7 @@ airspace:
         centre: 523108N 0025233W
 
 - name: LYVEDEN
+  id: lyveden-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9534,6 +9562,7 @@ airspace:
         centre: 522758N 0003430W
 
 - name: MARHAM
+  id: marham-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9545,6 +9574,7 @@ airspace:
         centre: 523854N 0003302E
 
 - name: MERRYFIELD
+  id: merryfield-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9556,6 +9586,7 @@ airspace:
         centre: 505729N 0025614W
 
 - name: MILFIELD
+  id: milfield-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9567,6 +9598,7 @@ airspace:
         centre: 553514N 0020510W
 
 - name: NORTH HILL
+  id: north-hill-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9578,6 +9610,7 @@ airspace:
         centre: 505107N 0031639W
 
 - name: NYMPSFIELD
+  id: nympsfield-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9589,6 +9622,7 @@ airspace:
         centre: 514251N 0021701W
 
 - name: OBAN
+  id: oban-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9600,6 +9634,7 @@ airspace:
         centre: 562740N 0052410W
 
 - name: PARHAM
+  id: parham-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9611,6 +9646,7 @@ airspace:
         centre: 505532N 0002828W
 
 - name: PERRANPORTH
+  id: perranporth-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9634,6 +9670,7 @@ airspace:
         centre: 535541N 0004751W
 
 - name: PORTMOAK
+  id: portmoak-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9645,6 +9682,7 @@ airspace:
         centre: 561121N 0031945W
 
 - name: RATTLESDEN
+  id: rattlesden-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9656,6 +9694,7 @@ airspace:
         centre: 521001N 0005216E
 
 - name: RHIGOS
+  id: rhigos-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9667,6 +9706,7 @@ airspace:
         centre: 514434N 0033505W
 
 - name: RIDGEWELL
+  id: ridgewell-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9678,6 +9718,7 @@ airspace:
         centre: 520253N 0003330E
 
 - name: RINGMER
+  id: ringmer-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9689,6 +9730,7 @@ airspace:
         centre: 505423N 0000618E
 
 - name: RIVAR HILL
+  id: rivar-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9700,6 +9742,7 @@ airspace:
         centre: 512038N 0013235W
 
 - name: SACKVILLE LODGE
+  id: sackville-lodge-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9711,6 +9754,7 @@ airspace:
         centre: 521551N 0002905W
 
 - name: SALTBY
+  id: saltby-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9722,6 +9766,7 @@ airspace:
         centre: 524947N 0004245W
 
 - name: SANDHILL FARM
+  id: sandhill-farm-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9733,6 +9778,7 @@ airspace:
         centre: 513614N 0014030W
 
 - name: SEIGHFORD
+  id: seighford-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9744,6 +9790,7 @@ airspace:
         centre: 524940N 0021212W
 
 - name: SHOBDON
+  id: shobdon-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9755,6 +9802,7 @@ airspace:
         centre: 521430N 0025252W
 
 - name: SKELLING FARM
+  id: skelling-farm-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9766,6 +9814,7 @@ airspace:
         centre: 544152N 0023506W
 
 - name: SLEAP
+  id: sleap-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9777,6 +9826,7 @@ airspace:
         centre: 525002N 0024618W
 
 - name: SNITTERFIELD
+  id: snitterfield-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9788,6 +9838,7 @@ airspace:
         centre: 521406N 0014310W
 
 - name: SPILSTED FARM
+  id: spilsted-farm-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9799,6 +9850,7 @@ airspace:
         centre: 505613N 0003109E
 
 - name: STRUBBY
+  id: strubby-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9810,6 +9862,7 @@ airspace:
         centre: 531836N 0001034E
 
 - name: SUTTON BANK
+  id: sutton-bank-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9821,6 +9874,7 @@ airspace:
         centre: 541338N 0011249W
 
 - name: TALGARTH
+  id: talgarth-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9832,6 +9886,7 @@ airspace:
         centre: 515848N 0031215W
 
 - name: THE PARK
+  id: the-park-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9843,6 +9898,7 @@ airspace:
         centre: 510742N 0021445W
 
 - name: TIBENHAM
+  id: tibenham-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9854,6 +9910,7 @@ airspace:
         centre: 522724N 0010915E
 
 - name: UPWOOD
+  id: upwood-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9877,6 +9934,7 @@ airspace:
         centre: 514306N 0025101W
 
 - name: WALDERSHARE PARK
+  id: waldershare-park-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9887,7 +9945,9 @@ airspace:
         radius: 1 nm
         centre: 511020N 0011636E
 
-- name: WALNEY ISLAND
+# Walney Island
+- name: BARROW
+  id: barrow-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9899,6 +9959,7 @@ airspace:
         centre: 540752N 0031549W
 
 - name: WATTISHAM
+  id: wattisham-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9910,6 +9971,7 @@ airspace:
         centre: 520739N 0005722E
 
 - name: WESTON-ON-THE-GREEN
+  id: weston-on-the-green-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9921,6 +9983,7 @@ airspace:
         centre: 515249N 0011311W
 
 - name: WORMINGFORD
+  id: wormingford-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9931,7 +9994,9 @@ airspace:
         radius: 1 nm
         centre: 515630N 0004723E
 
-- name: WYCOMBE AIR PARK
+# Wycombe Air Park
+- name: BOOKER
+  id: booker-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9943,6 +10008,7 @@ airspace:
         centre: 513642N 0004830W
 
 - name: YEOVILTON
+  id: yeovilton-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9955,6 +10021,7 @@ airspace:
 
 # York/Rufforth
 - name: RUFFORTH
+  id: rufforth-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9966,6 +10033,7 @@ airspace:
         centre: 535651N 0011116W
 
 - name: COSFORD
+  id: cosford-glider
   type: OTHER
   localtype: GLIDER
   controltype: MILITARY
@@ -9978,6 +10046,7 @@ airspace:
         centre: 523824N 0021820W
 
 - name: HALTON
+  id: halton-glider
   type: OTHER
   localtype: GLIDER
   controltype: MILITARY
@@ -9990,6 +10059,7 @@ airspace:
         centre: 514733N 0004416W
 
 - name: KENLEY
+  id: kenley-glider
   type: OTHER
   localtype: GLIDER
   controltype: MILITARY
@@ -10002,6 +10072,7 @@ airspace:
         centre: 511820N 0000537W
 
 - name: KIRKNEWTON
+  id: kirknewton-glider
   type: OTHER
   localtype: GLIDER
   controltype: MILITARY
@@ -10027,6 +10098,7 @@ airspace:
         centre: 515200N 0014139W
 
 - name: ODIHAM
+  id: odiham-glider
   type: OTHER
   localtype: GLIDER
   controltype: MILITARY
@@ -10039,6 +10111,7 @@ airspace:
         centre: 511405N 0005657W
 
 - name: PREDANNACK
+  id: predannack-glider
   type: OTHER
   localtype: GLIDER
   controltype: MILITARY
@@ -10051,6 +10124,7 @@ airspace:
         centre: 500007N 0051351W
 
 - name: SYERSTON
+  id: syerston-glider
   type: OTHER
   localtype: GLIDER
   controltype: MILITARY
@@ -10063,6 +10137,7 @@ airspace:
         centre: 530124N 0005442W
 
 - name: TERNHILL
+  id: ternhill-glider
   type: OTHER
   localtype: GLIDER
   controltype: MILITARY
@@ -10075,6 +10150,7 @@ airspace:
         centre: 525227N 0023201W
 
 - name: TOPCLIFFE
+  id: topcliffe-glider
   type: OTHER
   localtype: GLIDER
   controltype: MILITARY
@@ -10087,6 +10163,7 @@ airspace:
         centre: 541223N 0012256W
 
 - name: UPAVON
+  id: upavon-glider
   type: OTHER
   localtype: GLIDER
   controltype: MILITARY
