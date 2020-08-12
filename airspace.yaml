@@ -9454,7 +9454,7 @@ airspace:
         centre: 520145N 0011229W
 
 - name: HUSBANDS BOSWORTH
-  id: husbands-boswoth-glider
+  id: husbands-bosworth-glider
   type: OTHER
   localtype: GLIDER
   geometry:
@@ -9730,7 +9730,7 @@ airspace:
         centre: 505423N 0000618E
 
 - name: RIVAR HILL
-  id: rivar-glider
+  id: rivar-hill-glider
   type: OTHER
   localtype: GLIDER
   geometry:

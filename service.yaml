@@ -895,8 +895,8 @@ service:
   - yeovilton-matz
   frequency: 127.350
 
-#----------------------------------------------------------------------
-# Civil gliding sites
+#-----------------------------------------------------------------------
+# Civil gliding
 
 - callsign: ABOYNE RADIO
   controls:
@@ -906,7 +906,12 @@ service:
 - callsign: ASTON DOWN RADIO
   controls:
   - aston-down-glider
-  frequency: 129.98
+  frequency: 129.980
+
+- callsign: BARROW RADIO
+  controls:
+  - barrow-glider
+  frequency: 129.980
 
 - callsign: BEMBRIDGE RADIO
   controls:
@@ -918,80 +923,346 @@ service:
   - bidford-glider
   frequency: 118.685
 
+- callsign: BOGNOR REGIS RADIO
+  controls:
+  - bognor-regis-glider
+  frequency: 129.980
+
 - callsign: BOOKER RADIO
   controls:
   - booker-glider
   frequency: 126.555
-
-- callsign: BOGNOR RADIO
-  controls:
-  - bognor-glider
-  frequency: 129.98
-
-- callsign: BURN RADIO
-  controls:
-  - burn-glider
-  frequency: 129.98
 
 - callsign: BRENT TOR RADIO
   controls:
   - brent-tor-glider
   frequency: 130.105
 
-- callsign: BARROW RADIO
+- callsign: BURN RADIO
   controls:
-  - barrow-glider
-  frequency: 129.98
+  - burn-glider
+  frequency: 129.980
 
-- callsign: BARROW RADIO
+- callsign: CAMPHILL RADIO
   controls:
-  - barrow-glider
-  frequency: 129.98
+  - camphill-glider
+  frequency: 129.980
+
+- callsign: CHALLOCK RADIO
+  controls:
+  - challock-glider
+  frequency: 118.685
+
+- callsign: CHIPPING RADIO
+  controls:
+  - chipping-glider
+  frequency: 118.685
+
+- callsign: CRANWELL RADIO
+  controls:
+  - cranwell-glider
+  frequency: 129.980
+
+- callsign: CROWLAND RADIO
+  controls:
+  - crowland-glider
+  frequency: 129.980
+
+- callsign: CULDROSE RADIO
+  controls:
+  - culdrose-glider
+  frequency: 134.050
+
+- callsign: CURROCK HILL RADIO
+  controls:
+  - currock-hill-glider
+  frequency: 130.130
+
+- callsign: DARLTON RADIO
+  controls:
+  - darlton-glider
+  frequency: 118.685
 
 - callsign: DUNSTABLE RADIO
   controls:
   - dunstable-glider
   frequency: 119.905
 
+- callsign: EAGLESCOTT RADIO
+  controls:
+  - eaglescott-glider
+  frequency: 123.000
+
+- callsign: EASTERTON RADIO
+  controls:
+  - easterton-glider
+  frequency: 130.105
+
+- callsign: EDGE HILL RADIO
+  controls:
+  - edge-hill-glider
+  frequency: 129.980
+
 - callsign: EYRES FIELD RADIO
   controls:
   - eyres-field-glider
   frequency: 129.980
+
+- callsign: FALGUNZEON RADIO
+  controls:
+  - falgunzeon-glider
+  frequency: 129.980
+
+- callsign: FESHIEBRIDGE RADIO
+  controls:
+  - feshiebridge-glider
+  frequency: 118.685
 
 - callsign: GRANSDEN LODGE RADIO
   controls:
   - gransden-lodge-glider
   frequency: 131.280
 
+- callsign: HALESLAND RADIO
+  controls:
+  - halesland-glider
+  frequency: 129.980
+
 - callsign: HINTON RADIO
   controls:
-  - hinton-glider
+  - hinton-in-the-hedges-glider
   frequency: 119.455
 
-- callsign: HUSBOS RADIO
+- callsign: HUSBANDS BOSWORTH RADIO
   controls:
-  - hosbos-glider
+  - husbands-bosworth-glider
   frequency: 127.580
+
+- callsign: KEEVIL RADIO
+  controls:
+  - keevil-glider
+  frequency: 129.980
+
+- callsign: KIRTON RADIO
+  controls:
+  - kirton-in-lindsey-glider
+  frequency: 129.980
 
 - callsign: LASHAM RADIO
   controls:
   - lasham-glider
-  - lasham-noatz
   frequency: 131.030
+
+- callsign: LLANTISILIO RADIO
+  controls:
+  - llantisilio-glider
+  frequency: 129.980
+
+- callsign: LLEWENI PARC RADIO
+  controls:
+  - lleweni-parc-glider
+  frequency: 129.980
+
+- callsign: LONG MYND RADIO
+  controls:
+  - long-mynd-glider
+  frequency: 129.980
+
+- callsign: LYVEDEN RADIO
+  controls:
+  - lyveden-glider
+  frequency: 129.980
+
+- callsign: MARHAM RADIO
+  controls:
+  - marham-glider
+  frequency: 124.150
+
+- callsign: MILFIELD RADIO
+  controls:
+  - milfield-glider
+  frequency: 130.105
+
+- callsign: NORTH HILL RADIO
+  controls:
+  - north-hill-glider
+  frequency: 129.905
+
+- callsign: NYMPSFIELD RADIO
+  controls:
+  - nympsfield-glider
+  frequency: 129.980
+
+- callsign: OBAN RADIO
+  controls:
+  - oban-glider
+  frequency: 118.055
+
+- callsign: PARHAM RADIO
+  controls:
+  - parham-glider
+  frequency: 129.980
 
 - callsign: POCKLINGTON RADIO
   controls:
   - pocklington-glider
-  frequency: 118.755
+  frequency: 118.685
+
+- callsign: PORTMOAK RADIO
+  controls:
+  - portmoak-glider
+  frequency: 129.980
+
+- callsign: RATTLESDEN RADIO
+  controls:
+  - rattlesden-glider
+  frequency: 129.980
+
+- callsign: RIDGEWELL RADIO
+  controls:
+  - ridgewell-glider
+  frequency: 129.980
+
+- callsign: RINGMER RADIO
+  controls:
+  - ringmer-glider
+  frequency: 129.980
+
+- callsign: RIVAR HILL RADIO
+  controls:
+  - rivar-hill-glider
+  frequency: 129.980
+
+- callsign: RUFFORTH RADIO
+  controls:
+  - rufforth-glider
+  frequency: 129.980
+
+- callsign: SACKVILLE LODGE RADIO
+  controls:
+  - sackville-lodge-glider
+  frequency: 135.480
+
+- callsign: SALTBY RADIO
+  controls:
+  - saltby-glider
+  frequency: 129.980
+
+- callsign: SANDHILL FARM RADIO
+  controls:
+  - sandhill-farm-glider
+  frequency: 129.980
+
+- callsign: SEIGHFORD RADIO
+  controls:
+  - seighford-glider
+  frequency: 129.980
+
+- callsign: SHOBDON RADIO
+  controls:
+  - shobdon-glider
+  frequency: 118.155
+
+- callsign: SKELLING FARM RADIO
+  controls:
+  - skelling-farm-glider
+  frequency: 129.980
+
+- callsign: SLEAP RADIO
+  controls:
+  - sleap-glider
+  frequency: 122.455
+
+- callsign: SNITTERFIELD RADIO
+  controls:
+  - snitterfield-glider
+  frequency: 129.980
+
+- callsign: STRUBBY RADIO
+  controls:
+  - strubby-glider
+  frequency: 129.980
+
+- callsign: SUTTON BANK RADIO
+  controls:
+  - sutton-bank-glider
+  frequency: 118.685
+
+- callsign: TALGARTH RADIO
+  controls:
+  - talgarth-glider
+  frequency: 118.685
+
+- callsign: THE PARK RADIO
+  controls:
+  - the-park-glider
+  frequency: 118.685
+
+- callsign: TIBENHAM RADIO
+  controls:
+  - tibenham-glider
+  frequency: 129.980
+
+- callsign: UPWOOD RADIO
+  controls:
+  - upwood-glider
+  frequency: 129.980
 
 - callsign: USK RADIO
   controls:
   - usk-glider
   frequency: 129.980
 
-# Military gliding sites
+- callsign: WATTISHAM RADIO
+  controls:
+  - wattisham-glider
+  frequency: 125.800
+
+- callsign: WESTON RADIO
+  controls:
+  - weston-on-the-green-glider
+  frequency: 129.980
+
+- callsign: WORMINGFORD RADIO
+  controls:
+  - wormingford-glider
+  frequency: 129.980
+
+- callsign: YEOVILTON RADIO
+  controls:
+  - yeovilton-glider
+  frequency: 127.350
+
+#-----------------------------------------------------------------------
+# Military gliding
+
+- callsign: COSFORD RADIO
+  controls:
+  - cosford-glider
+  frequency: 135.875
+
+- callsign: HALTON RADIO
+  controls:
+  - halton-glider
+  frequency: 130.425
+
+- callsign: KENLEY RADIO
+  controls:
+  - kenley-glider
+  frequency: 129.905
 
 - callsign: LITTLE RISSINGTON RADIO
   controls:
-  - litte-rissington-glider
+  - little-rissington-glider
   frequency: 120.775
+
+- callsign: ODIHAM RADIO
+  controls:
+  - odiham-glider
+  frequency: 131.300
+
+- callsign: UPAVON RADIO
+  controls:
+  - upavon-glider
+  frequency: 124.100
+
