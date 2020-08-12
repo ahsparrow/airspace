@@ -3,6 +3,10 @@ AIRAC: 2020/09/10
   MISK HILL UL - Delete
   TOPCLIFFE MATZ - Remove stub
 
+Non-AIRAC:
+  Gliding sites - Update frequencies
+  LEE-ON-SOLENT - Remove gliding site
+
 AIRAC: 2020/08/13
   BIGGIN HILL - Update elevation
   EXETER - Update frequency

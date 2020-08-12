@@ -9501,18 +9501,6 @@ airspace:
         radius: 1 nm
         centre: 511112N 0010155W
 
-- name: LEE-ON-SOLENT
-  id: lee-glider
-  type: OTHER
-  localtype: GLIDER
-  geometry:
-  - upper: 2032 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1 nm
-        centre: 504855N 0011225W
-
 - name: LLANTISILIO
   id: llantisilio-glider
   type: OTHER
