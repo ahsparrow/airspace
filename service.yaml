@@ -898,6 +898,56 @@ service:
 #----------------------------------------------------------------------
 # Civil gliding sites
 
+- callsign: ABOYNE RADIO
+  controls:
+  - aboyne-glider
+  frequency: 130.105
+
+- callsign: ASTON DOWN RADIO
+  controls:
+  - aston-down-glider
+  frequency: 129.98
+
+- callsign: BEMBRIDGE RADIO
+  controls:
+  - bembridge-glider
+  frequency: 123.255
+
+- callsign: BIDFORD RADIO
+  controls:
+  - bidford-glider
+  frequency: 118.685
+
+- callsign: BOOKER RADIO
+  controls:
+  - booker-glider
+  frequency: 126.555
+
+- callsign: BOGNOR RADIO
+  controls:
+  - bognor-glider
+  frequency: 129.98
+
+- callsign: BURN RADIO
+  controls:
+  - burn-glider
+  frequency: 129.98
+
+- callsign: BRENT TOR RADIO
+  controls:
+  - brent-tor-glider
+  frequency: 130.105
+
+- callsign: BARROW RADIO
+  controls:
+  - barrow-glider
+  frequency: 129.98
+
+- callsign: BARROW RADIO
+  controls:
+  - barrow-glider
+  frequency: 129.98
+
 - callsign: DUNSTABLE RADIO
   controls:
   - dunstable-glider
@@ -945,4 +995,3 @@ service:
   controls:
   - litte-rissington-glider
   frequency: 120.775
-
