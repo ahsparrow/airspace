@@ -916,6 +916,11 @@ service:
   - bembridge-glider
   frequency: 123.255
 
+- callsign: BICESTER RADIO
+  controls:
+  - bicester-glider
+  frequency: 135.480
+
 - callsign: BIDFORD RADIO
   controls:
   - bidford-glider

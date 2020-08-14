@@ -6,6 +6,7 @@ AIRAC: 2020/09/10
 Non-AIRAC:
   Add offshore danger areas
   Gliding sites - Update frequencies
+  BICESTER - Re-instate gliding club
   D026 LULWORTH - Remove NOTAM activated upper part
   LEE-ON-SOLENT - Remove gliding site
 
