@@ -4,6 +4,7 @@ AIRAC: 2020/09/10
   TOPCLIFFE MATZ - Remove stub
 
 Non-AIRAC:
+  Add offshore danger areas
   Gliding sites - Update frequencies
   LEE-ON-SOLENT - Remove gliding site
 

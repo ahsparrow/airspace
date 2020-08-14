@@ -5782,7 +5782,112 @@ airspace:
 #----------------------------------------------------------------------
 # ENR 5.1 Prohibited, restricted and danger areas
 
-- name: D009 WEMBURY
+- name: D005A PREDANNACK
+  type: D
+  rules:
+  - NOTAM
+  geometry:
+  - upper: 8000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 3 nm
+        centre: 500007N 0051354W
+
+- name: D005B PREDANNACK CORRIDOR
+  type: D
+  rules:
+  - NOTAM
+  geometry:
+  - upper: 8000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 500208N 0051722W
+      - 495818N 0052242W
+      - 495124N 0051200W
+      - 495629N 0050728W
+      - 495809N 0051024W
+    - arc:
+        dir: cw
+        radius: 3 nm
+        centre: 500007N 0051354W
+        to: 500208N 0051722W
+
+- name: D006A FALMOUTH BAY
+  type: D
+  geometry:
+  - upper: 22000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 501244N 0044659W
+      - 500726N 0044228W
+      - 500000N 0045430W
+      - 500924N 0045430W
+      - 501244N 0044659W
+
+- name: D006B FALMOUTH BAY
+  type: D
+  geometry:
+  - upper: 8000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 495907N 0050506W
+      - 500500N 0045948W
+      - 500924N 0045430W
+      - 500000N 0045430W
+      - 495646N 0045634W
+      - 495907N 0050506W
+
+- name: D007A FOWEY
+  type: D
+  geometry:
+  - upper: 22000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 501801N 0043643W
+      - 501820N 0043152W
+      - 501857N 0042738W
+      - 501550N 0042458W
+      - 500922N 0044407W
+      - 501202N 0044623W
+      - 501801N 0043643W
+
+- name: D007C FOWEY INNER
+  type: D
+  geometry:
+  - upper: 2000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 501733N 0044334W
+      - 501801N 0043643W
+      - 501202N 0044623W
+      - 501244N 0044659W
+      - 501414N 0044441W
+      - 501647N 0044447W
+      - 501733N 0044334W
+
+- name: D009A WEMBURY
+  type: D
+  geometry:
+  - upper: 55000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 501904N 0040633W
+      - 501001N 0034740W
+      - 500623N 0035008W
+    - arc:
+        dir: cw
+        radius: 16.5 nm
+        centre: 501904N 0040633W
+        to: 501140N 0042931W
+
+- name: D009B WEMBURY
   type: D
   geometry:
   - upper: 22000 ft
@@ -5851,6 +5956,55 @@ airspace:
       - 503402N 0040336W
       - 503550N 0040444W
 
+- name: D012 LYME BAY NORTH
+  type: D
+  geometry:
+  - upper: 18000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 504220N 0024500W
+      - 503400N 0024500W
+      - 503400N 0030500W
+      - 503000N 0031730W
+      - 503650N 0031500W
+      - 504106N 0030544W
+      - 504153N 0030522W
+      - 504215N 0030418W
+      - 504153N 0030056W
+      - 504217N 0025946W
+      - 504219N 0025845W
+      - 504246N 0025759W
+      - 504247N 0025719W
+      - 504306N 0025648W
+      - 504309N 0025613W
+      - 504318N 0025617W
+      - 504347N 0025537W
+      - 504402N 0025409W
+      - 504322N 0025023W
+      - 504322N 0024943W
+      - 504304N 0024840W
+      - 504306N 0024743W
+      - 504229N 0024543W
+
+- name: D014 PORTLAND
+  type: D
+  geometry:
+  - upper: 5000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 503818N 0023424W
+      - 503736N 0023230W
+      - 503530N 0022948W
+      - 503400N 0023124W
+      - 503400N 0023000W
+      - 502931N 0023000W
+      - 503400N 0024500W
+      - 503400N 0024200W
+      - 503700N 0024130W
+      - 503818N 0023424W
+
 - name: D015 BOVINGTON
   type: D
   rules:
@@ -5862,6 +6016,37 @@ airspace:
     - circle:
         radius: 0.27 nm
         centre: 504324N 0021424W
+
+- name: D017 PORTLAND
+  type: D
+  geometry:
+  - upper: 22000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 503400N 0024500W
+      - 502931N 0023000W
+      - 500200N 0023000W
+      - 500200N 0024500W
+      - 503400N 0024500W
+
+- name: D021 PORTLAND
+  type: D
+  geometry:
+  - upper: 15000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 503500N 0022000W
+      - 503500N 0021614W
+      - 503154N 0021624W
+      - 503000N 0021700W
+      - 502918N 0021718W
+      - 502500N 0021500W
+      - 502931N 0023000W
+      - 503000N 0023000W
+      - 503000N 0022000W
+      - 503500N 0022000W
 
 - name: D026 LULWORTH
   type: D
@@ -5966,6 +6151,25 @@ airspace:
         radius: 0.5 nm
         centre: 504049N 0032051W
 
+- name: D064A SOUTH WEST MDA
+  type: D
+  rules:
+  - NOTAM
+  geometry:
+  - upper: FL660
+    lower: 10000 ft
+    boundary:
+    - line:
+      - 511207N 0052532W
+      - 511028N 0050621W
+      - 505443N 0043352W
+      - 504712N 0043327W
+      - 504423N 0043914W
+      - 504328N 0043921W
+      - 503012N 0054335W
+      - 510624N 0052510W
+      - 511207N 0052532W
+
 - name: D110 BRAUNTON BURROWS
   type: D
   geometry:
@@ -5979,6 +6183,29 @@ airspace:
       - 510458N 0041315W
       - 510516N 0041344W
       - 510514N 0041527W
+
+- name: D113A CASTLEMARTIN
+  type: D
+  rules:
+  - NOTAM
+  - SI
+  geometry:
+  - upper: 40000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 513937N 0051830W
+      - 513937N 0050443W
+      - 513906N 0050320W
+      - 513130N 0050530W
+      - 512900N 0050330W
+      - 512900N 0045432W
+      - 512430N 0050220W
+    - arc:
+        dir: cw
+        radius: 18.1 nm
+        centre: 514213N 0045647W
+        to: 513610N 0052408W
 
 - name: D113B CASTLEMARTIN
   type: D
@@ -6018,6 +6245,25 @@ airspace:
         radius: 2 nm
         centre: 513815N 0044700W
         to: 513815N 0044348W
+
+- name: D115B MANORBIER
+  type: D
+  rules:
+  - NOTAM
+  - SI
+  geometry:
+  - upper: 50000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 513815N 0045012W
+      - 513815N 0044348W
+      - 513345N 0043019W
+    - arc:
+        dir: cw
+        radius: 11.34 nm
+        centre: 513815N 0044700W
+        to: 513208N 0050218W
 
 - name: D117 PENDINE
   type: D
