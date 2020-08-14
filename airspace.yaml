@@ -6144,6 +6144,8 @@ airspace:
 
 - name: D110 BRAUNTON BURROWS
   type: D
+  rules:
+  - NOTAM
   geometry:
   - upper: 2000 ft
     lower: SFC
