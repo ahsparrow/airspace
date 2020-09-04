@@ -12,6 +12,16 @@
 # YAXIM project on GitLab at https://gitlab.com/ahsparrow/yaixm.
 
 rat:
+- name: LASHENDEN (25-27 SEP)
+  type: P
+  geometry:
+  - upper: 3500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 3 nm
+        centre: 510927N 0003827E
+
 - name: OLD WARDEN (3 MAY-4 OCT)
   type: P
   geometry:
