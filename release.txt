@@ -1,6 +1,7 @@
 Non-AIRAC:
   LASHENDEN RA(T)
   DUXFORD RA(T)
+  TOPCLIFFE RA(T)
 
 AIRAC: 2020/09/10
   BIGGIN HILL ATZ - Update upper limit
