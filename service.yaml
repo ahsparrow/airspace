@@ -792,11 +792,6 @@ service:
   - tilstock-noatz
   frequency: 118.105
 
-- callsign: TRURO RADIO
-  controls:
-  - truro-noatz
-  frequency: 129.800
-
 - callsign: TURWESTON RADIO
   controls:
   - turweston-noatz
