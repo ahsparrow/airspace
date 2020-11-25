@@ -78,7 +78,7 @@ service:
 - callsign: BLACKPOOL APPROACH
   controls:
   - blackpool-atz
-  frequency: 119.950
+  frequency: 119.955
 
 - callsign: BODMIN RADIO
   controls:
@@ -849,7 +849,7 @@ service:
 - callsign: WEST WALES INFORMATION
   controls:
   - west-wales-atz
-  frequency: 122.150
+  frequency: 122.155
 
 - callsign: WICK APPROACH
   controls:
