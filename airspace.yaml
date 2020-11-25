@@ -12866,7 +12866,7 @@ airspace:
   id: oxford-atz
   type: ATZ
   geometry:
-  - upper: 2270 ft
+  - upper: 2263 ft
     lower: SFC
     boundary:
     - circle:
@@ -12877,7 +12877,7 @@ airspace:
   type: OTHER
   localtype: ILS
   geometry:
-  - upper: 2270 ft
+  - upper: 2263 ft
     lower: SFC
     boundary:
     - line:
@@ -12885,7 +12885,7 @@ airspace:
       - 515808N 0011731W
       - 515759N 0011611W
       - 515209N 0011827W
-  - upper: 2270 ft
+  - upper: 2263 ft
     lower: SFC
     boundary:
     - line:

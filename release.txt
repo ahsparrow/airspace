@@ -1,5 +1,6 @@
 AIRAC: 2020/11/05
   BICESTER - Reduce height (no winch)
+  OXFORD ATZ - Modify upper level
 
 AIRAC: 2020/10/08
   LYDD ATZ - Modify coordinates
