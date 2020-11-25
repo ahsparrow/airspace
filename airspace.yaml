@@ -10220,7 +10220,7 @@ airspace:
   type: OTHER
   localtype: GLIDER
   geometry:
-  - upper: 2520 ft
+  - upper: 2513 ft
     lower: SFC
     boundary:
     - circle:
