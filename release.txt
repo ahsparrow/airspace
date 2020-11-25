@@ -1,3 +1,6 @@
+AIRAC: 2020/10/08
+  LYDD ATZ - Modify coordinates
+
 Non-AIRAC:
   LASHENDEN RA(T)
   DUXFORD RA(T)

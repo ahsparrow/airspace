@@ -12636,7 +12636,7 @@ airspace:
     boundary:
     - circle:
         radius: 2 nm
-        centre: 505722N 0005621E
+        centre: 505722N 0005620E
 
 - name: LYDD
   type: OTHER
