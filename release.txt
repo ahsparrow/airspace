@@ -101,18 +101,3 @@ AIRAC: 2020/01/02
 
 Non-AIRAC:
   REDLANDS - No longer active remove DZ and UL
-
-AIRAC: 2019/12/05
-  No changes
-
-AIRAC: 2019/11/07
-  BIRMINGHAM CTA-10 - Add
-  COTSWOLD CTA-15,16,17,18 - Add
-  DAVENTRY CTA 23,24 - Add
-
-Non-AIRAC:
-  R704 BALMORAL/R705 BIRKHALL - Add airspace and LOA's
-
-AIRAC: 2019/10/10
-  HAVERFORDWEST ATZ - Update coordinates
-  YEOVILTON ATZ - Remove overlap with YEOVIL ATZ
