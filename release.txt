@@ -1,3 +1,6 @@
+AIRAC: 2020/12/03
+  HAVERFORDWEST - Frequency change
+
 AIRAC: 2020/11/05
   BICESTER - Reduce height (no winch)
   BOOKER - Modify elevation

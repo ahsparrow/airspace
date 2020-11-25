@@ -423,7 +423,7 @@ service:
 - callsign: HAVERFORDWEST RADIO
   controls:
   - haverfordwest-atz
-  frequency: 122.205
+  frequency: 123.605
 
 - callsign: HAWARDEN RADAR
   controls:
