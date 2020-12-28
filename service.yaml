@@ -102,7 +102,7 @@ service:
 - callsign: BOURNEMOUTH APPROACH
   controls:
   - bournemouth-ctr
-  frequency: 119.475
+  frequency: 119.480
 
 - callsign: BREIGHTON RADIO
   controls:

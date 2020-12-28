@@ -1,3 +1,6 @@
+AIRAC: 2020/12/31
+  BOURNEMOUTH - 8.33 kHz frequency
+
 AIRAC: 2020/12/03
   HAVERFORDWEST - Frequency change
 
@@ -97,12 +100,3 @@ AIRAC: 2020/02/27
 
 AIRAC: 2020/01/30
   No change
-
-AIRAC: 2020/01/02
-  ARCLID UL - Delete
-  CAMBRIDGE APPROACH - Change frequency
-  CARLISLE APPROACH - Change frequency
-  LITTLE RISSINGTON - Change coordinates
-
-Non-AIRAC:
-  REDLANDS - No longer active remove DZ and UL
