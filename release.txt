@@ -1,5 +1,6 @@
 AIRAC: 2020/12/31
   BOURNEMOUTH - 8.33 kHz frequency
+  WELSHPOOL ATZ - Amend elevation
 
 AIRAC: 2020/12/03
   HAVERFORDWEST - Frequency change

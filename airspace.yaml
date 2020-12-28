@@ -13229,7 +13229,7 @@ airspace:
   id: welshpool-atz
   type: ATZ
   geometry:
-  - upper: 2233 ft
+  - upper: 2235 ft
     lower: SFC
     boundary:
     - circle:
