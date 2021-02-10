@@ -3964,7 +3964,7 @@ airspace:
     boundary:
     - circle:
         radius: 2 nm
-        centre: 510822N 0013407W
+        centre: 510828N 0013422W
 
 - name: MILDENHALL
   id: mildenhall-atz
