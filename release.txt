@@ -15,6 +15,7 @@ AIRAC: 2010/01/28
   TOPCLIFFE ATZ - Coordinates changed
   WATTISHAM ATZ - Coordinates changed
   WOODVALE ATZ - Coordinates changed
+  BLACKBuSHE ATZ - Coordinates changed
 
 AIRAC: 2020/12/31
   BOURNEMOUTH - 8.33 kHz frequency
