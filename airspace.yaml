@@ -4058,7 +4058,7 @@ airspace:
     boundary:
     - circle:
         radius: 2.5 nm
-        centre: 531828N 0003303W
+        centre: 531829N 0003303W
 
 - name: SHAWBURY
   id: shawbury-atz
