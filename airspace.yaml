@@ -3997,7 +3997,7 @@ airspace:
     boundary:
     - circle:
         radius: 2 nm
-        centre: 511450N 0014515W
+        centre: 511453N 0014517W
 
 - name: ODIHAM
   id: odiham-atz
