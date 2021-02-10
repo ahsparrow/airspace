@@ -12697,9 +12697,15 @@ airspace:
   - upper: 2073 ft
     lower: SFC
     boundary:
-    - circle:
+    - line:
+      - 532618N 0022327W
+    - arc:
+        dir: cw
         radius: 2 nm
         centre: 532818N 0022323W
+        to: 532749N 0022008W
+    - line:
+      - 532638N 0022258W
 
 - name: NETHERTHORPE
   id: netherthorpe-atz
