@@ -3798,7 +3798,7 @@ airspace:
     boundary:
     - circle:
         radius: 2 nm
-        centre: 523824N 0021820W
+        centre: 523826N 0021819W
 
 - name: CRANWELL
   id: cranwell-atz
