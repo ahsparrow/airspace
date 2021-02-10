@@ -4135,7 +4135,7 @@ airspace:
     boundary:
     - circle:
         radius: 2.5 nm
-        centre: 520738N 0005723E
+        centre: 520737N 0005719E
 
 - name: WITTERING
   id: wittering-atz
