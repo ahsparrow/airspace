@@ -4,6 +4,7 @@ AIRAC: 2010/01/28
   COSFORD ATZ - Coordinates changed
   FAIRFORD ATZ - Coordinates changed
   HALTON ATZ - Coordinates changed
+  LEUCHARS ATZ - Coordinates changed
 
 AIRAC: 2020/12/31
   BOURNEMOUTH - 8.33 kHz frequency

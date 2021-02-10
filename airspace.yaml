@@ -3897,7 +3897,7 @@ airspace:
     boundary:
     - circle:
         radius: 2.5 nm
-        centre: 562230N 0025129W
+        centre: 562230N 0025132W
 
 - name: LINTON-ON-OUSE
   id: linton-atz
