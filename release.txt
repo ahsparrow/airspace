@@ -11,6 +11,7 @@ AIRAC: 2010/01/28
   NETHERAVON ATZ - Coordinates changed
   SCAMPTON ATZ - Coordinates changed
   SHAWBURY ATZ - Coordinates changed
+  TERNHILL ATZ - Coordinates changed
 
 AIRAC: 2020/12/31
   BOURNEMOUTH - 8.33 kHz frequency

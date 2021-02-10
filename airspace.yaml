@@ -4091,7 +4091,7 @@ airspace:
     boundary:
     - circle:
         radius: 2 nm
-        centre: 525225N 0023155W
+        centre: 525223N 0023156W
 
 - name: TOPCLIFFE
   id: topcliffe-atz
