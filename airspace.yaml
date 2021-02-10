@@ -3919,7 +3919,7 @@ airspace:
     boundary:
     - circle:
         radius: 2.5 nm
-        centre: 574218N 0032021W
+        centre: 574224N 0032016W
 
 - name: LYNEHAM
   type: ATZ
