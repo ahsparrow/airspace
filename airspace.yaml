@@ -3842,7 +3842,7 @@ airspace:
     boundary:
     - circle:
         radius: 2 nm
-        centre: 514733N 0004416W
+        centre: 514732N 0004411W
 
 - name: HONINGTION
   id: honington-atz
