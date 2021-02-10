@@ -4069,7 +4069,7 @@ airspace:
     boundary:
     - circle:
         radius: 2 nm
-        centre: 524737N 0024004W
+        centre: 524737N 0024005W
 
 - name: SYERSTON
   id: syerston-atz
