@@ -1,5 +1,6 @@
 AIRAC: 2010/01/28
-  BOSCOMBE DOWN - ATZ coordinates change
+  BOSCOMBE DOWN ATZ - Coordinates changed
+  COLERNE ATZ - Coordinates changed
 
 AIRAC: 2020/12/31
   BOURNEMOUTH - 8.33 kHz frequency

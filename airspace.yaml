@@ -3776,7 +3776,7 @@ airspace:
     boundary:
     - circle:
         radius: 2 nm
-        centre: 512630N 0021646W
+        centre: 512628N 0021645W
 
 - name: CONINGSBY
   id: coningsby-atz
