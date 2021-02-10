@@ -4157,7 +4157,7 @@ airspace:
     boundary:
     - circle:
         radius: 2 nm
-        centre: 533456N 0030324W
+        centre: 533454N 0030327W
 
 - name: YEOVILTON
   id: yeovilton-atz
