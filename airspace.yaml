@@ -13326,12 +13326,12 @@ airspace:
     lower: SFC
     boundary:
     - line:
-      - 505817N 0024037W
+      - 505804N 0023747W
     - arc:
-        dir: ccw
+        dir: cw
         radius: 2 nm
         centre: 505624N 0023932W
-        to: 505804N 0023744W
+        to:  505817N 0024035W
 
 # Runway 92/272
 - name: YEOVIL
