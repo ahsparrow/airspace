@@ -1,3 +1,6 @@
+AIRAC: 2010/01/28
+  BOSCOMBE DOWN - ATZ coordinates change
+
 AIRAC: 2020/12/31
   BOURNEMOUTH - 8.33 kHz frequency
   WELSHPOOL ATZ - Amend elevation
@@ -98,6 +101,3 @@ AIRAC: 2020/02/27
   LINCOLNSHIRE CTA - Add, replacing Y70
   NORTH SEA CTA - Update coordinates
   TOPCLIFFE - Update coordinates
-
-AIRAC: 2020/01/30
-  No change

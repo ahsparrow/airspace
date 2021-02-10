@@ -3765,7 +3765,7 @@ airspace:
     boundary:
     - circle:
         radius: 2.5 nm
-        centre: 510911N 0014504W
+        centre: 510912N 0014504W
 
 - name: COLERNE
   id: colerne-atz
