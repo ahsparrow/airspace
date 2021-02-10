@@ -4102,7 +4102,7 @@ airspace:
     boundary:
     - circle:
         radius: 2 nm
-        centre: 541220N 0012254W
+        centre: 541226N 0012250W
 
 - name: VALLEY
   id: valley-atz
