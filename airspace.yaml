@@ -4167,13 +4167,12 @@ airspace:
     lower: SFC
     boundary:
     - line:
-      - 505817N 0024037W
-      - 505804N 0023744W
+      - 505817N 0024035W
     - arc:
-        dir: ccw
+        dir: cw
         radius: 2.5 nm
-        centre: 510029N 0023845W
-        to: 505817N 0024037W
+        centre: 510030N 0023844W
+        to: 505804N 0023747W
 
 - name: BARKSTON/CRANWELL
   id: barkston-cranwell-matz
