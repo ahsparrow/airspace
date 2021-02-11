@@ -306,6 +306,17 @@ airspace:
   type: CTA
   class: A
   geometry:
+  - seqno: 1
+    upper: FL195
+    lower: FL145
+    boundary:
+    - line:
+      - 550603N 0041419W
+      - 545410N 0035231W
+      - 544000N 0032654W
+      - 543637N 0032230W
+      - 543306N 0033033W
+      - 550603N 0041419W
   - seqno: 4
     upper: FL195
     lower: FL165
@@ -5626,19 +5637,6 @@ airspace:
       - 543101N 0050703W
       - 543230N 0051046W
       - 543910N 0051904W
-
-- name: T256
-  type: AWY
-  class: A
-  geometry:
-  - upper: FL195
-    lower: FL135
-    boundary:
-    - line:
-      - 550603N 0041419W
-      - 543306N 0033033W
-      - 543637N 0032230W
-      - 544000N 0032654W
 
 - name: Y904
   type: AWY
