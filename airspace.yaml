@@ -302,6 +302,35 @@ airspace:
       - 520648N 0020148W
       - 521702N 0021251W
 
+- name: BORDERS CTA
+  type: CTA
+  class: A
+  geometry:
+  - seqno: 6
+    upper: FL195
+    lower: FL115
+    boundary:
+    - line:
+      - 553805N 0025111W
+      - 552606N 0023655W
+      - 551724N 0024532W
+      - 551735N 0025427W
+      - 551742N 0030000W
+      - 552700N 0030000W
+      - 553100N 0025156W
+      - 553805N 0025111W
+  - seqno: 7
+    upper: FL195
+    lower: FL155
+    boundary:
+    - line:
+      - 552606N 0023655W
+      - 552111N 0022140W
+      - 551230N 0023019W
+      - 551240N 0023052W
+      - 551724N 0024532W
+      - 552606N 0023655W
+
 - name: BRISTOL CTA
   id: bristol-cta
   type: CTA
@@ -5754,29 +5783,6 @@ airspace:
       - 553040N 0053703W
       - 552056N 0054100W
       - 551528N 0050002W
-
-- name: Y96
-  type: AWY
-  class: A
-  geometry:
-  - upper: FL195
-    lower: FL115
-    boundary:
-    - line:
-      - 552701N 0030002W
-      - 553056N 0025204W
-      - 553805N 0025111W
-      - 552606N 0023655W
-      - 551724N 0024532W
-      - 551742N 0030000W
-  - upper: FL195
-    lower: FL155
-    boundary:
-    - line:
-      - 552606N 0023655W
-      - 552109N 0022141W
-      - 551229N 0023018W
-      - 551724N 0024532W
 
 #----------------------------------------------------------------------
 # ENR 5.1 Prohibited, restricted and danger areas
