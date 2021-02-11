@@ -306,6 +306,29 @@ airspace:
   type: CTA
   class: A
   geometry:
+  - seqno: 4
+    upper: FL195
+    lower: FL165
+    boundary:
+    - line:
+      - 551742N 0030000W
+      - 551735N 0025427W
+      - 545610N 0024159W
+      - 545442N 0024940W
+      - 550858N 0030000W
+      - 551742N 0030000W
+  - seqno: 5
+    class: D
+    upper: FL195
+    lower: FL165
+    boundary:
+    - line:
+      - 551735N 0025427W
+      - 551724N 0024532W
+      - 551240N 0023052W
+      - 545912N 0022555W
+      - 545610N 0024159W
+      - 551735N 0025427W
   - seqno: 6
     upper: FL195
     lower: FL115
@@ -5285,30 +5308,6 @@ airspace:
       - 574941N 0051452W
       - 572958N 0041232W
       - 571326N 0041636W
-
-- name: N601
-  type: AWY
-  class: A
-  geometry:
-  - upper: FL195
-    lower: FL165
-    class: D
-    boundary:
-    - line:
-      - 551735N 0025427W
-      - 551724N 0024532W
-      - 551241N 0023052W
-      - 545912N 0022555W
-      - 545610N 0024159W
-  - upper: FL195
-    lower: FL165
-    boundary:
-    - line:
-      - 551742N 0030000W
-      - 551735N 0025427W
-      - 545610N 0024159W
-      - 545442N 0024940W
-      - 550858N 0030000W
 
 - name: N601/P17/P18
   type: AWY
