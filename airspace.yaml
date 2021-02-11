@@ -328,6 +328,19 @@ airspace:
       - 545410N 0035231W
       - 550603N 0041419W
       - 552700N 0030000W
+  - seqno: 3
+    upper: FL195
+    lower: FL125
+    boundary:
+    - line:
+      - 550858N 0030000W
+      - 545442N 0024940W
+      - 543356N 0023451W
+      - 543356N 0031901W
+      - 543637N 0032230W
+      - 544000N 0032654W
+      - 545410N 0035231W
+      - 550858N 0030000W
   - seqno: 4
     upper: FL195
     lower: FL165
@@ -375,6 +388,19 @@ airspace:
       - 551240N 0023052W
       - 551724N 0024532W
       - 552606N 0023655W
+  - seqno: 8
+    upper: FL125
+    lower: FL95
+    boundary:
+    - line:
+      - 550858N 0030000W
+      - 545442N 0024940W
+      - 543356N 0023451W
+      - 543356N 0031901W
+      - 543637N 0032230W
+      - 544000N 0032654W
+      - 545410N 0035231W
+      - 550858N 0030000W
 
 - name: BRISTOL CTA
   id: bristol-cta
@@ -3322,6 +3348,34 @@ airspace:
       - 531222N 0000029E
       - 531717N 0000155E
 
+- name: YORKSHIRE CTA
+  type: CTA
+  class: A
+  geometry:
+  - seqno: 4
+    upper: FL195
+    lower: FL125
+    boundary:
+    - line:
+      - 543356N 0023451W
+      - 541110N 0021856W
+      - 540234N 0023858W
+      - 541042N 0024912W
+      - 543356N 0031901W
+      - 543356N 0023451W
+  - seqno: 16
+    upper: FL125
+    lower: FL95
+    boundary:
+    - line:
+      - 543356N 0023451W
+      - 541110N 0021856W
+      - 540828N 0022515W
+      - 541638N 0023531W
+      - 541042N 0024912W
+      - 543356N 0031901W
+      - 543356N 0023451W
+
 - name: LONDON TMA
   type: TMA
   class: A
@@ -5167,26 +5221,6 @@ airspace:
       - 543330N 0031837W
       - 540234N 0023858W
       - 535858N 0025310W
-
-- name: L612/N57/P17/P18
-  type: AWY
-  class: A
-  geometry:
-  - upper: FL195
-    lower: FL125
-    boundary:
-    - line:
-      - 545442N 0024940W
-      - 541113N 0021858W
-      - 540828N 0022519W
-      - 541638N 0023532W
-      - 541038N 0024914W
-      - 544021N 0032721W
-      - 545410N 0035231W
-      - 545853N 0033559W
-      - 550045N 0032924W
-      - 550533N 0031219W
-      - 550858N 0030000W
 
 - name: L975
   type: AWY
