@@ -417,7 +417,8 @@ airspace:
         radius: 11 nm
         centre: 550217N 0014123W
         to: 545531N 0015626W
-  - seqno: 10
+  - id: borders-cta10
+    seqno: 10
     class: D
     upper: FL125
     lower: FL55
@@ -432,7 +433,8 @@ airspace:
         radius: 11 nm
         centre: 550217N 0014123W
         to: 545336N 0015304W
-  - seqno: 11
+  - id: borders-cta11
+    seqno: 11
     class: D
     upper: FL125
     lower: FL75
@@ -3416,7 +3418,8 @@ airspace:
       - 541042N 0024912W
       - 543356N 0031901W
       - 543356N 0023451W
-  - seqno: 16
+  - id: yorkshire-cta17
+    seqno: 17
     class: D
     upper: FL125
     lower: FL105

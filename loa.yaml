@@ -1739,7 +1739,7 @@ loa:
   - name: P18 CROSSING
     add:
     - name: CASTLE
-      type: AWY
+      type: CTA
       class: D
       geometry:
       - upper: FL120
@@ -1754,15 +1754,11 @@ loa:
         lower: FL75
         boundary:
         - line:
-          - 544356N 0020004W
+          - 543901N 0020136W
+          - 543746N 0014946W
           - 543135N 0013929W
           - 543406N 0020308W
-
-    - name: CASTLE
-      type: CTA
-      class: D
-      geometry:
-      - upper: FL75
+      - upper: FL120
         lower: 6000 ft
         boundary:
         - line:
@@ -1771,7 +1767,7 @@ loa:
           - 543901N 0020136W
 
     - name: DERWENT
-      type: AWY
+      type: CTA
       class: D
       geometry:
       - upper: FL120
@@ -1779,20 +1775,9 @@ loa:
         boundary:
         - line:
           - 543135N 0013929W
-          - 544240N 0014812W
-          - 544356N 0020004W
-      - upper: FL120
-        lower: FL55
-        boundary:
-        - line:
-          - 544356N 0020004W
-          - 544240N 0014812W
-          - 545349N 0015655W
-
-    - name: DERWENT
-      type: CTA
-      class: D
-      geometry:
+          - 543929N 0014542W
+          - 543724N 0014622W
+          - 543746N 0014946W
       - upper: FL105
         lower: 3000 ft
         boundary:
@@ -1800,21 +1785,21 @@ loa:
           - 545352N 0015659W
           - 545821N 0020025W
           - 544356N 0020004W
-      - upper: FL55
+      - upper: FL120
         lower: 3000 ft
         boundary:
         - line:
           - 544605N 0015053W
           - 545352N 0015659W
           - 544356N 0020004W
-      - upper: FL55
+      - upper: FL120
         lower: 4500 ft
         boundary:
         - line:
           - 544605N 0015053W
           - 544240N 0014812W
           - 544356N 0020004W
-      - upper: FL75
+      - upper: FL120
         lower: 6000 ft
         boundary:
         - line:
@@ -1825,9 +1810,10 @@ loa:
           - 543746N 0014946W
 
     replace:
-    - id: p18-castle
+    - id: yorkshire-cta17
       geometry:
-      - upper: FL125
+      - class: D
+        upper: FL125
         lower: FL120
         boundary:
         - line:
@@ -1836,9 +1822,10 @@ loa:
           - 542344N 0014159W
           - 542615N 0020534W
 
-    - id: p18-castlederwent
+    - id: borders-cta11
       geometry:
-      - upper: FL125
+      - class: D
+        upper: FL125
         lower: FL120
         boundary:
         - line:
@@ -1846,7 +1833,8 @@ loa:
           - 543135N 0013929W
           - 543406N 0020308W
           - 544356N 0020004W
-      - upper: FL125
+      - class: D
+        upper: FL125
         lower: FL75
         boundary:
         - line:
@@ -1854,24 +1842,33 @@ loa:
           - 544240N 0014812W
           - 544124N 0013620W
 
-    - id: p18-derwent
+    - id: borders-cta10
       geometry:
-      - upper: FL125
-        lower: FL120
-        boundary:
-        - line:
-          - 545349N 0015655W
-          - 544240N 0014812W
-          - 544356N 0020004W
-      - upper: FL125
+      - class: D
+        upper: FL125
         lower: FL55
         boundary:
         - line:
+          - 545849N 0013040W
           - 544124N 0013620W
+
           - 544240N 0014812W
-          - 545349N 0015655W
-          - 550332N 0015351W
-          - 550059N 0012954W
+          - 545352N 0015659W
+
+          - 545531N 0015626W
+        - arc:
+            dir: ccw
+            radius: 11 nm
+            centre: 550217N 0014123W
+            to: 545336N 0015304W
+      - class: D
+        upper: FL125
+        lower: FL120
+        boundary:
+        - line:
+          - 544356N 0020004W
+          - 544240N 0014812W
+          - 545352N 0015659W
 
     - id: newcastle-cta4
       geometry:
