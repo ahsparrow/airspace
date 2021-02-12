@@ -3487,6 +3487,7 @@ airspace:
       - 534726N 0015913W
       - 535539N 0020919W
   - seqno: 10
+    id: yorkshire-cta10
     upper: FL195
     lower: FL125
     boundary:
@@ -3504,6 +3505,7 @@ airspace:
       - 541110N 0021856W
       - 541528N 0020852W
   - seqno: 11
+    id: yorkshire-cta11
     upper: FL195
     lower: FL65
     boundary:
@@ -3514,6 +3516,7 @@ airspace:
       - 533038N 0011307W
       - 534030N 0011550W
   - seqno: 12
+    id: yorkshire-cta12
     upper: FL195
     lower: FL55
     boundary:
