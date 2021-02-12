@@ -3387,6 +3387,34 @@ airspace:
   type: CTA
   class: A
   geometry:
+  - seqno: 1
+    upper: FL195
+    lower: 4500 ft
+    boundary:
+    - line:
+      - 535539N 0020919W
+      - 535110N 0020348W
+      - 534127N 0023240W
+      - 534529N 0023244W
+  - seqno: 2
+    upper: FL195
+    lower: FL55
+    boundary:
+    - line:
+      - 540342N 0021918W
+      - 535539N 0020919W
+      - 534529N 0023244W
+      - 535734N 0023258W
+      - 535747N 0023258W
+  - seqno: 3
+    upper: FL195
+    lower: FL75
+    boundary:
+    - line:
+      - 540828N 0022515W
+      - 540342N 0021918W
+      - 535747N 0023258W
+      - 540234N 0023858W
   - seqno: 4
     upper: FL195
     lower: FL125
@@ -3443,6 +3471,15 @@ airspace:
       - 540236N 0014900W
       - 541110N 0021856W
       - 541528N 0020852W
+  - seqno: 15
+    upper: FL125
+    lower: FL75
+    boundary:
+    - line:
+      - 541638N 0023531W
+      - 540828N 0022515W
+      - 540234N 0023858W
+      - 541042N 0024912W
   - seqno: 16
     upper: FL125
     lower: FL95
@@ -5312,43 +5349,6 @@ airspace:
       - 534141N 0010349W
       - 534118N 0010226W
       - 533109N 0010751W
-
-- name: N57
-  type: AWY
-  class: A
-  geometry:
-  - upper: FL195
-    lower: 4500 ft
-    boundary:
-    - line:
-      - 534529N 0023244W
-      - 535539N 0020919W
-      - 535110N 0020348W
-      - 534127N 0023240W
-  - upper: FL195
-    lower: FL55
-    boundary:
-    - line:
-      - 540344N 0021919W
-      - 535539N 0020919W
-      - 534529N 0023244W
-      - 535747N 0023258W
-  - upper: FL195
-    lower: FL75
-    boundary:
-    - line:
-      - 540828N 0022519W
-      - 540344N 0021919W
-      - 535747N 0023258W
-      - 540234N 0023858W
-  - upper: FL195
-    lower: FL125
-    boundary:
-    - line:
-      - 541638N 0023532W
-      - 540828N 0022519W
-      - 540234N 0023858W
-      - 541038N 0024914W
 
 - name: N560
   type: AWY
