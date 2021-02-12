@@ -3532,6 +3532,7 @@ airspace:
       - 532719N 0014617W
       - 533650N 0015216W
   - seqno: 14
+    id: yorkshire-cta14
     upper: FL195
     lower: FL85
     boundary:
