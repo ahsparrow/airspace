@@ -3397,6 +3397,35 @@ airspace:
       - 540234N 0023858W
       - 541042N 0024912W
       - 543356N 0031901W
+  - seqno: 5
+    upper: FL195
+    lower: FL65
+    boundary:
+    - line:
+      - 535734N 0023258W
+      - 534529N 0023244W
+      - 534127N 0023240W
+      - 533918N 0023900W
+      - 535329N 0024913W
+  - seqno: 6
+    upper: FL195
+    lower: FL95
+    boundary:
+    - line:
+      - 540234N 0023858W
+      - 535747N 0023258W
+      - 535734N 0023258W
+      - 535329N 0024913W
+      - 535859N 0025312W
+  - seqno: 7
+    upper: FL195
+    lower: FL145
+    boundary:
+    - line:
+      - 543356N 0031901W
+      - 541042N 0024912W
+      - 540234N 0023858W
+      - 535859N 0025312W
   - seqno: 10
     upper: FL195
     lower: FL125
@@ -3414,7 +3443,6 @@ airspace:
       - 540236N 0014900W
       - 541110N 0021856W
       - 541528N 0020852W
-      - 550334N 0015352W
   - seqno: 16
     upper: FL125
     lower: FL95
@@ -5252,37 +5280,6 @@ airspace:
       - 532012N 0011841W
       - 532109N 0012904W
       - 532227N 0014315W
-
-- name: L612
-  type: AWY
-  class: A
-  geometry:
-  - id: l612-chipping1
-    upper: FL195
-    lower: FL65
-    boundary:
-    - line:
-      - 535734N 0023258W
-      - 534127N 0023240W
-      - 533918N 0023900W
-      - 535330N 0024911W
-  - id: l612-chipping2
-    upper: FL195
-    lower: FL95
-    boundary:
-    - line:
-      - 540234N 0023858W
-      - 535747N 0023258W
-      - 535734N 0023258W
-      - 535330N 0024911W
-      - 535858N 0025310W
-  - upper: FL195
-    lower: FL145
-    boundary:
-    - line:
-      - 543330N 0031837W
-      - 540234N 0023858W
-      - 535858N 0025310W
 
 - name: L975
   type: AWY
