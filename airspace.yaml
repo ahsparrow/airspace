@@ -1923,6 +1923,15 @@ airspace:
       - 533630N 0030136W
       - 533222N 0030059W
       - 533213N 0031406W
+  - seqno: 22
+    upper: FL195
+    lower: FL145
+    boundary:
+    - line:
+      - 533918N 0023900W
+      - 533223N 0025907W
+      - 533222N 0030059W
+      - 533630N 0030136W
 
 - name: LEEDS BRADFORD CTA
   id: leeds-bradford-cta
@@ -5740,19 +5749,6 @@ airspace:
 
 #----------------------------------------------------------------------
 # ENR 3.3 Area navigation routes
-
-- name: L70
-  type: AWY
-  class: C
-  geometry:
-  - upper: FL195
-    lower: FL145
-    boundary:
-    - line:
-      - 533918N 0023900W
-      - 533630N 0030136W
-      - 533222N 0030059W
-      - 533223N 0025907W
 
 - name: L602
   type: AWY
