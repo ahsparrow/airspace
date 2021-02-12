@@ -3520,6 +3520,17 @@ airspace:
       - 532845N 0013215W
       - 532719N 0014617W
       - 533650N 0015216W
+  - seqno: 14
+    upper: FL195
+    lower: FL85
+    boundary:
+    - line:
+      - 533059N 0010932W
+      - 531938N 0011532W
+      - 532012N 0011840W
+      - 532109N 0012904W
+      - 532227N 0014315W
+      - 532719N 0014617W
   - seqno: 15
     upper: FL125
     lower: FL75
@@ -5350,22 +5361,6 @@ airspace:
 
 #----------------------------------------------------------------------
 # ENR 3.1 Lower ATS Routes
-
-- name: L60/L603
-  type: AWY
-  class: A
-  geometry:
-  - id: l60-camphill
-    upper: FL195
-    lower: FL85
-    boundary:
-    - line:
-      - 532719N 0014617W
-      - 533059N 0010929W
-      - 531938N 0011532W
-      - 532012N 0011841W
-      - 532109N 0012904W
-      - 532227N 0014315W
 
 - name: N560
   type: AWY
