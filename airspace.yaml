@@ -3454,6 +3454,15 @@ airspace:
       - 541042N 0024912W
       - 540234N 0023858W
       - 535859N 0025312W
+  - seqno: 8
+    upper: FL195
+    lower: FL95
+    boundary:
+    - line:
+      - 541110N 0021856W
+      - 540236N 0014900W
+      - 535539N 0020919W
+      - 540828N 0022515W
   - seqno: 10
     upper: FL195
     lower: FL125
@@ -5407,19 +5416,6 @@ airspace:
       - 574941N 0051452W
       - 572958N 0041232W
       - 571326N 0041636W
-
-- name: N601/P17/P18
-  type: AWY
-  class: A
-  geometry:
-  - upper: FL195
-    lower: FL95
-    boundary:
-    - line:
-      - 540236N 0014900W
-      - 535540N 0020919W
-      - 540828N 0022519W
-      - 541113N 0021858W
 
 - name: N864
   type: AWY
