@@ -3492,6 +3492,34 @@ airspace:
       - 540236N 0014900W
       - 541110N 0021856W
       - 541528N 0020852W
+  - seqno: 11
+    upper: FL195
+    lower: FL65
+    boundary:
+    - line:
+      - 534140N 0010347W
+      - 534117N 0010226W
+      - 533109N 0010751W
+      - 533038N 0011307W
+      - 534030N 0011550W
+  - seqno: 12
+    upper: FL195
+    lower: FL55
+    boundary:
+    - line:
+      - 534030N 0011550W
+      - 533038N 0011307W
+      - 532845N 0013215W
+      - 533835N 0013503W
+  - seqno: 13
+    upper: FL195
+    lower: 3500 ft
+    boundary:
+    - line:
+      - 533835N 0013503W
+      - 532845N 0013215W
+      - 532719N 0014617W
+      - 533650N 0015216W
   - seqno: 15
     upper: FL125
     lower: FL75
@@ -5338,38 +5366,6 @@ airspace:
       - 532012N 0011841W
       - 532109N 0012904W
       - 532227N 0014315W
-
-- name: L975
-  type: AWY
-  class: A
-  geometry:
-  - upper: FL195
-    lower: 3500 ft
-    boundary:
-    - line:
-      - 533836N 0013503W
-      - 532844N 0013215W
-      - 532719N 0014617W
-      - 533650N 0015216W
-  - id: l975-camphill1
-    upper: FL195
-    lower: FL55
-    boundary:
-    - line:
-      - 533836N 0013503W
-      - 532844N 0013215W
-      - 533038N 0011307W
-      - 534030N 0011551W
-  - id: l975-camphill2
-    upper: FL195
-    lower: FL65
-    boundary:
-    - line:
-      - 533038N 0011307W
-      - 534030N 0011551W
-      - 534141N 0010349W
-      - 534118N 0010226W
-      - 533109N 0010751W
 
 - name: N560
   type: AWY
