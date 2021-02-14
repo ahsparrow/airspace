@@ -2,6 +2,7 @@ AIRAC: 2010/02/25
   BORDERS CTA - Add, replacing  various airways
   YORKSIRE CTA - Add, replacing  various airways
   LINTON-ON-OUZE - Delete ATZ and MATZ
+  SHAWBURY - New gliding site
 
 AIRAC: 2010/01/28
   BOSCOMBE DOWN ATZ - Coordinates changed

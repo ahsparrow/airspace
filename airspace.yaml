@@ -10334,6 +10334,18 @@ airspace:
         radius: 1 nm
         centre: 500007N 0051351W
 
+- name: SHAWBURY
+  type: OTHER
+  localtype: GLIDER
+  controltype: MILITARY
+  geometry:
+  - upper: 2249 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 1 nm
+        centre: 524737N 0024004W
+
 - name: SYERSTON
   id: syerston-glider
   type: OTHER
