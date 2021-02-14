@@ -4229,17 +4229,6 @@ airspace:
         radius: 2.5 nm
         centre: 562230N 0025132W
 
-- name: LINTON-ON-OUSE
-  id: linton-atz
-  type: ATZ
-  geometry:
-  - upper: 2052 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 2 nm
-        centre: 540258N 0011511W
-
 - name: LOSSIEMOUTH
   id: lossiemouth-atz
   type: ATZ
@@ -4864,31 +4853,6 @@ airspace:
         radius: 5 nm
         centre: 562230N 0025129W
         to: 562350N 0030009W
-
-- name: LINTON
-  id: linton-matz
-  type: OTHER
-  localtype: MATZ
-  controltype: MILITARY
-  geometry:
-  - upper: 3053 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 5 nm
-        centre: 540258N 0011513W
-  - upper: 3053 ft
-    lower: 1053 ft
-    boundary:
-    - line:
-      - 541029N 0010332W
-      - 541233N 0010921W
-      - 540755N 0011407W
-    - arc:
-        dir: cw
-        radius: 5 nm
-        centre: 540258N 0011513W
-        to: 540551N 0010818W
 
 - name: LOSSIEMOUTH
   id: lossiemouth-matz

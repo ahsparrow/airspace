@@ -515,12 +515,6 @@ service:
   - leuchars-matz
   frequency: 126.600
 
-- callsign: LINTON ZONE
-  controls:
-  - linton-atz
-  - linton-matz
-  frequency: 118.550
-
 - callsign: LIVERPOOL APPROACH
   controls:
   - liverpool-cta

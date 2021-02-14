@@ -1,6 +1,7 @@
 AIRAC: 2010/02/25
   BORDERS CTA - Add, replacing  various airways
   YORKSIRE CTA - Add, replacing  various airways
+  LINTON-ON-OUZE - Delete ATZ and MATZ
 
 AIRAC: 2010/01/28
   BOSCOMBE DOWN ATZ - Coordinates changed
@@ -116,10 +117,3 @@ Non-AIRAC:
   RHDS LOA - Add Burn Soaring Box
   RHDS LOA - Correct coordinates of DARLTON BOX
   RHDS LOA - Correct coordinates of GOOLE BOX
-
-AIRAC: 2020/02/27
-  DONCASTER/SHEFFIELD CTA-13 - Add
-  FARNBOROUGH - Add new CTA/CTR and minor adjustments to surrounding airspace
-  LINCOLNSHIRE CTA - Add, replacing Y70
-  NORTH SEA CTA - Update coordinates
-  TOPCLIFFE - Update coordinates
