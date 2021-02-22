@@ -916,23 +916,22 @@ loa:
     replace:
     - id: rhads-4
       geometry:
-      - upper: FL65
+      - id: burn-upper-4
+        upper: FL65
         lower: 4500 ft
         boundary:
         - line:
           - 534149N 0010209W
-
           - 534047N 0010241W
           - 534058N 0010414W
-
           - 534139N 0010352W
-      - upper: FL65
+      - id: rhads-4
+        upper: FL65
         lower: 2000 ft
         boundary:
         - line:
           - 534058N 0010414W
           - 534047N 0010241W
-
           - 533109N 0010751W
           - 533059N 0010932W
 
@@ -965,7 +964,7 @@ loa:
           - 534051N 0005906W
           - 534058N 0005832W
           - 534112N 0005746W
-      - id: burn-upper
+      - id: burn-upper-5
         upper: FL85
         lower: 4500 ft
         boundary:
@@ -1053,8 +1052,29 @@ loa:
         - line:
           - 533536N 0004511W
           - 533945N 0010315W
+          - 534005N 0010442W
+          - 534139N 0010352W
 
     replace:
+    - id: rhads-4
+      geometry:
+      - upper: FL65
+        lower: 2000 ft
+        boundary:
+        - line:
+          - 534005N 0010442W
+          - 533945N 0010315W
+          - 533109N 0010751W
+          - 533059N 0010932W
+      - upper: FL65
+        lower: 4500 ft
+        boundary:
+        - line:
+          - 534139N 0010352W
+          - 534149N 0010209W
+          - 533945N 0010315W
+          - 534005N 0010442W
+
     - id: rhads-5
       geometry:
       - upper: FL85
@@ -1063,7 +1083,6 @@ loa:
         - line:
           - 533945N 0010315W
           - 533536N 0004511W
-        - line:
           - 532643N 0004958W
           - 532720N 0005206W
           - 533336N 0004844W
@@ -1085,7 +1104,11 @@ loa:
         - line:
           - 533536N 0004511W
           - 533945N 0010315W
-    - id: burn-upper
+
+    - id: burn-upper-4
+      geometry: []
+
+    - id: burn-upper-5
       geometry: []
 
 - name: UPTON CORRIDOR
