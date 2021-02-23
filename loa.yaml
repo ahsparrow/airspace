@@ -1031,6 +1031,52 @@ loa:
             centre: 532751N 0010036W
             to: 531641N 0011139W
 
+    replace:
+    - id: rhads-3
+      geometry:
+      - upper: FL60
+        lower: 4500 ft
+        boundary:
+        - line:
+          - 531858N 0011152W
+          - 531600N 0005542W
+          - 531509N 0005610W
+        - arc:
+            dir: cw
+            radius: 13 nm
+            centre: 532751N 0010036W
+            to: 531641N 0011139W
+
+    - id: rhads-6
+      geometry:
+      - upper: FL105
+        lower: 4500 ft
+        boundary:
+        - line:
+          - 532010N 0005328W
+          - 531903N 0005808W
+          - 531917N 0010139W
+          - 532024N 0011200W
+          - 531858N 0011152W
+          - 531600N 0005542W
+      - upper: FL105
+        lower: 2000 ft
+        boundary:
+        - line:
+          - 532401N 0011220W
+        - arc:
+            dir: ccw
+            radius: 8 nm
+            centre: 532751N 0010036W
+            to: 532024N 0005549W
+        - line:
+          - 532720N 0005206W
+          - 532643N 0004958W
+          - 532010N 0005328W
+          - 531903N 0005808W
+          - 531917N 0010139W
+          - 532024N 0011200W
+
 - name: GOOLE BOX
   areas:
   - name: GOOLE BOX
