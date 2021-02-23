@@ -1275,7 +1275,8 @@ airspace:
         radius: 6.5 nm
         centre: 532911N 0005954W
         to: 533432N 0010603W
-  - seqno: 2
+  - id: rhads-2
+    seqno: 2
     upper: FL105
     lower: 1500 ft
     boundary:

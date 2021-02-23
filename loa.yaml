@@ -1203,6 +1203,135 @@ loa:
     - id: burn-upper-8
       geometry: []
 
+- name: WORKSOP CORRIDOR (HG/PG)
+  areas:
+  - name: WORKSOP CORRIDOR
+    add:
+    - name: WORKSOP CORRIDOR
+      type: CTA
+      class: D
+      geometry:
+      - upper: 4500 ft
+        lower: 1500 ft
+        boundary:
+        - line:
+          - 532527N 0011228W
+          - 532535N 0011047W
+        - arc:
+            dir: ccw
+            radius: 6.5 nm
+            centre: 532751N 0010036W
+            to: 532223N 0005445W
+        - line:
+          - 532024N 0005549W
+        - arc:
+            dir: cw
+            radius: 8 nm
+            centre: 532751N 0010036W
+            to: 532401N 0011220W
+      - upper: 4500 ft
+        lower: 2000 ft
+        boundary:
+        - line:
+          - 531858N 0011152W
+          - 531600N 0005542W
+          - 531509N 0005610W
+        - arc:
+            dir: cw
+            radius: 13 nm
+            centre: 532751N 0010036W
+            to: 531641N 0011139W
+      - upper: 4500 ft
+        lower: 2000 ft
+        boundary:
+        - line:
+          - 532401N 0011220W
+        - arc:
+            dir: ccw
+            radius: 8 nm
+            centre: 532751N 0010036W
+            to: 532024N 0005549W
+        - line:
+          - 532223N 0005445W
+        - arc:
+            dir: ccw
+            radius: 6.5 nm
+            centre: 532751N 0010036W
+            to: 532444N 0005102W
+        - line:
+          - 531600N 0005542W
+          - 531858N 0011152W
+
+    replace:
+    - id: rhads-2
+      geometry:
+      - upper: FL105
+        lower: 4500 ft
+        boundary:
+        - line:
+          - 532527N 0011228W
+          - 532535N 0011047W
+        - arc:
+            dir: ccw
+            radius: 6.5 nm
+            centre: 532751N 0010036W
+            to: 532223N 0005445W
+        - line:
+          - 532024N 0005549W
+        - arc:
+            dir: cw
+            radius: 8 nm
+            centre: 532751N 0010036W
+            to: 532401N 0011220W
+    - id: rhads-3
+      geometry:
+      - upper: FL60
+        lower: 4500 ft
+        boundary:
+        - line:
+          - 531858N 0011152W
+          - 531600N 0005542W
+          - 531509N 0005610W
+        - arc:
+            dir: cw
+            radius: 13 nm
+            centre: 532751N 0010036W
+            to: 531641N 0011139W
+    - id: rhads-6
+      geometry:
+      - upper: FL105
+        lower: 4500 ft
+        boundary:
+        - line:
+          - 532401N 0011220W
+        - arc:
+            dir: ccw
+            radius: 8 nm
+            centre: 532751N 0010036W
+            to: 532024N 0005549W
+        - line:
+          - 532223N 0005445W
+        - arc:
+            dir: ccw
+            radius: 6.5 nm
+            centre: 532751N 0010036W
+            to: 532444N 0005102W
+        - line:
+          - 531600N 0005542W
+          - 531858N 0011152W
+      - upper: FL105
+        lower: 2000 ft
+        boundary:
+        - line:
+          - 532643N 0004958W
+          - 532720N 0005206W
+          - 532223N 0005445W
+        - arc:
+            dir: ccw
+            radius: 6.5 nm
+            centre: 532751N 0010036W
+            to: 532444N 0005102W
+
 #----------------------------------------------------------------------
 - name: DUNKESWELL
   areas:
