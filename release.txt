@@ -4,6 +4,7 @@ AIRAC: 2021/03/25
 Non-AIRAC:
   DONCASTER LOA - Split into separate boxes
   WORKSOP CORRIDOR LOA - Add
+  RUGELEY CHM - Obstacle removed
 
 AIRAC: 2021/02/25
   BORDERS CTA - Add, replacing  various airways
