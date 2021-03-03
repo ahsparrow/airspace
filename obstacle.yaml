@@ -289,11 +289,6 @@ obstacle:
   id: UK0171U424F
   position: 524805N 0004803W
   elevation: 1489 ft
-- name: RUGELEY CMN
-  type: CHIM
-  id: UK0171S230F
-  position: 524527N 0015512W
-  elevation: 820 ft
 - name: LICHFIELD RTM
   type: RTM
   id: UK0171A083F
