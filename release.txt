@@ -1,3 +1,6 @@
+AIRAC: 2021/04/22
+  WHITE WALTHAM - Elevation changed
+
 AIRAC: 2021/03/25
   No change
 
@@ -104,25 +107,3 @@ Non-AIRAC:
 AIRAC: 2020/05/21
   OLD SARUM ATZ - Delete
   TOPCLIFFE - Radio service now from Leeming
-
-AIRAC: 2020/04/23
-  DURHAM CTA/CTR - Name changed to TEESSIDE
-
-Non-AIRAC:
-  CHELTENHAM FESTIVAL RA(T)
-  CAMPHILL EAST MIDLANDS LOA - Add
-  EAST MIDLANDS RADAR - Change frequency and control CAMPHILL LOA
-
-AIRAC: 2020/03/26
-  FARNBOROUGH CTA/CTR - Change callsign
-  MEIKLE ENDOVIE - Remove
-  SYWELL - Add ILS feathers
-
-Non-AIRAC:
-  EYRES FIELD - Add frequency
-  HIGHGROVE HOUSE - Combine LoAs
-  LONG MARSTON - Remove disused airfield
-  MERRYIELD MATZ - Correct centre coordinates
-  RHDS LOA - Add Burn Soaring Box
-  RHDS LOA - Correct coordinates of DARLTON BOX
-  RHDS LOA - Correct coordinates of GOOLE BOX

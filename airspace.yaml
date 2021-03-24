@@ -13271,7 +13271,7 @@ airspace:
   id: white-waltham-atz
   type: ATZ
   geometry:
-  - upper: 2133 ft
+  - upper: 2127 ft
     lower: SFC
     boundary:
     - circle:
