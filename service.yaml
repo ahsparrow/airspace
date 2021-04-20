@@ -513,7 +513,7 @@ service:
   controls:
   - leuchars-atz
   - leuchars-matz
-  frequency: 126.600
+  frequency: 126.500
 
 - callsign: LIVERPOOL APPROACH
   controls:
