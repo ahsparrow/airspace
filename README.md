@@ -1,7 +1,7 @@
 Airspace data for the United Kingdom
 ------------------------------------
 
-Airspace data in YAIXM format (see https://gitlab.com/ahsparrow/yaixm).
+Airspace data in YAIXM format (see https://github.com/ahsparrow/yaixm).
 
 The data is split into four files:
 
