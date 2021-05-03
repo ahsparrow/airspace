@@ -13163,7 +13163,7 @@ airspace:
     boundary:
     - circle:
         radius: 2 nm
-        centre: 513619N 0040404W
+        centre: 513618N 0040405W
 
 - name: TATENHILL
   id: tatenhill-atz
