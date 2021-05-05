@@ -6001,6 +6001,7 @@ airspace:
   type: D
   rules:
   - NOTAM
+  - SI
   geometry:
   - upper: 3600 ft
     lower: SFC
@@ -6107,6 +6108,7 @@ airspace:
   type: D
   rules:
   - NOTAM
+  - SI
   geometry:
   - upper: 1500 ft
     lower: SFC
@@ -6200,6 +6202,7 @@ airspace:
   type: D
   rules:
   - NOTAM
+  - SI
   geometry:
   - upper: 27000 ft
     lower: SFC
@@ -6375,6 +6378,7 @@ airspace:
   type: D
   rules:
   - NOTAM
+  - SI
   geometry:
   - upper: FL660
     lower: SFC
@@ -6464,6 +6468,8 @@ airspace:
 
 - name: D128 EVERLEIGH
   type: D
+  rules:
+  - SI
   geometry:
   - upper: 1400 ft
     lower: SFC
@@ -6851,6 +6857,7 @@ airspace:
   type: D
   rules:
   - NOTAM
+  - SI
   geometry:
   - upper: 3500 ft
     lower: SFC
