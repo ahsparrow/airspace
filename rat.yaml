@@ -11,4 +11,41 @@
 # details (including a data schema and a validator) can be found in the
 # YAXIM project on GitLab at https://gitlab.com/ahsparrow/yaixm.
 
-rat: []
+rat:
+- name: OLD WARDEN (VARIOUS DATES)
+  type: P
+  geometry:
+  - upper: 3500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 520713N 0001528W
+    - arc:
+        dir: cw
+        radius: 3 nm
+        centre: 520512N 0001907W
+        to: 520810N 0002010W
+    - line:
+      - 520708N 0001947W
+    - arc:
+        dir: cw
+        radius: 2 nm
+        centre: 520512N 0001907W
+        to: 520631N 0001643W
+  - upper: 3500 ft
+    lower: 1300 ft
+    boundary:
+    - line:
+      - 520810N 0002010W
+    - arc:
+        dir: cw
+        radius: 3 nm
+        centre: 520512N 0001907W
+        to: 520713N 0001528W
+    - line:
+      - 520631N 0001643W
+    - arc:
+        dir: ccw
+        radius: 2 nm
+        centre: 520512N 0001907W
+        to: 520708N 0001947W
