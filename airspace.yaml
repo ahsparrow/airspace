@@ -6426,29 +6426,6 @@ airspace:
         centre: 510912N 0014504W
         to: 511354N 0014225W
 
-- name: D126 BULFORD
-  type: D
-  rules:
-  - SI
-  - NOTAM
-  geometry:
-  - upper: FL090
-    lower: 1400 ft
-    boundary:
-    - line:
-      - 511621N 0013746W
-      - 511525N 0013606W
-      - 511247N 0013759W
-      - 511233N 0013942W
-      - 511044N 0014308W
-      - 511059N 0014641W
-      - 511351N 0014759W
-    - arc:
-        dir: cw
-        radius: 5 nm
-        centre: 510912N 0014504W
-        to: 511354N 0014225W
-
 - name: D127 PORTON
   type: D
   rules:
