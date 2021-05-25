@@ -50,7 +50,17 @@ rat:
         centre: 520512N 0001907W
         to: 520708N 0001947W
 
-- name: NEWQUAY CAS(T)
+- name: MIDLANDS AIR FEST (4-6 JUN)
+  type: P
+  geometry:
+  - upper: 6500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.3 nm
+        centre: 521128N 0015406W
+
+- name: NEWQUAY CAS(T) (10-14 JUN)
   type: CTA
   class: D
   geometry:

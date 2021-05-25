@@ -1,5 +1,6 @@
 Non-AIRACL
   NEWQUAY CAS(T) - Add
+  MIDLANDS AIR FEST (RAT) - Add
 
 AIRAC: 2021/04/20
   SWANSEA ATZ - Change coordinates
