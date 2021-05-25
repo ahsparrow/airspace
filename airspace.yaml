@@ -11670,7 +11670,7 @@ airspace:
   id: cambridge-atz
   type: ATZ
   geometry:
-  - upper: 2047 ft
+  - upper: 2048 ft
     lower: SFC
     boundary:
     - circle:
@@ -11681,7 +11681,7 @@ airspace:
   type: OTHER
   localtype: ILS
   geometry:
-  - upper: 2047 ft
+  - upper: 2048 ft
     lower: SFC
     boundary:
     - line:
@@ -11689,7 +11689,7 @@ airspace:
       - 520650N 0000059E
       - 520729N 0000007E
       - 521048N 0000715E
-  - upper: 2047 ft
+  - upper: 2048 ft
     lower: SFC
     boundary:
     - line:
