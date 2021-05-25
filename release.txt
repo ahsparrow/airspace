@@ -1,5 +1,6 @@
 AIRAC: 2021/06/17
   CAMBRIDGE ATZ - Amend elevation
+  NEWQUAY ATZ - Amend elevation
   OAKLEY UL - Delete
 
 Non-AIRACL

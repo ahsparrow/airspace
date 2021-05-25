@@ -12724,7 +12724,7 @@ airspace:
   id: newquay-atz
   type: ATZ
   geometry:
-  - upper: 2388 ft
+  - upper: 2173 ft
     lower: SFC
     boundary:
     - circle:
@@ -12735,7 +12735,7 @@ airspace:
   type: OTHER
   localtype: ILS
   geometry:
-  - upper: 2388 ft
+  - upper: 2173 ft
     lower: SFC
     boundary:
     - line:
@@ -12743,7 +12743,7 @@ airspace:
       - 503005N 0051052W
       - 503049N 0051013W
       - 502749N 0050300W
-  - upper: 2388 ft
+  - upper: 2173 ft
     lower: SFC
     boundary:
     - line:
