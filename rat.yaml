@@ -49,3 +49,30 @@ rat:
         radius: 2 nm
         centre: 520512N 0001907W
         to: 520708N 0001947W
+
+- name: NEWQUAY CAS(T)
+  type: CTA
+  class: D
+  geometry:
+  - upper: FL195
+    lower: 3500 ft
+    boundary:
+    - line:
+      - 502550N 0043617W
+      - 502700N 0041248W
+      - 501702N 0041140W
+      - 501527N 0044348W
+    - arc:
+        dir: ccw
+        radius: 15 nm
+        centre: 502627N 0045943W
+        to: 502550N 0043617W
+  - upper: FL195
+    lower: FL85
+    boundary:
+      - line:
+        - 502700N 0041248W
+        - 502837N 0033642W
+        - 502257N 0033739W
+        - 501843N 0033412W
+        - 501702N 0041140W
