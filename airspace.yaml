@@ -11212,17 +11212,6 @@ airspace:
         radius: 0.5 nm
         centre: 510016N 0003718E
 
-- name: OAKLEY
-  type: OTHER
-  localtype: UL
-  geometry:
-  - upper: 2249 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.5 nm
-        centre: 514705N 0010428W
-
 - name: OTHERTON
   type: OTHER
   localtype: UL

@@ -1,3 +1,6 @@
+AIRAC: 2021/06/17
+  OAKLEY UL - Delete
+
 Non-AIRACL
   NEWQUAY CAS(T) - Add
   MIDLANDS AIR FEST (RAT) - Add
