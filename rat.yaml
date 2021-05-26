@@ -50,6 +50,22 @@ rat:
         centre: 520512N 0001907W
         to: 520708N 0001947W
 
+- name: KEEVIL DANGER AREA (6 MAY-4 AUG)
+  type: D
+  geometry:
+  - upper: 3500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 511619N 0020555W
+      - 511659N 0021000W
+      - 511734N 0021034W
+      - 512007N 0020913W
+      - 512050N 0020715W
+      - 512041N 0020341W
+      - 512007N 0020257W
+      - 511646N 0020418W
+
 - name: MIDLANDS AIR FEST (4-6 JUN)
   type: P
   geometry:
