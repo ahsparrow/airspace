@@ -3,9 +3,10 @@ AIRAC: 2021/06/17
   NEWQUAY ATZ - Amend elevation
   OAKLEY UL - Delete
 
-Non-AIRACL
+Non-AIRAC
   KEEVIL TEMPORARY DANGER AREA - Add
   NEWQUAY CAS(T) - Add
+  NEWQUAY RA(T) - Add
   MIDLANDS AIR FEST (RAT) - Add
 
 AIRAC: 2021/04/20
@@ -110,9 +111,3 @@ AIRAC: 2020/07/16
   NEWQUAY - Elevation changed
   OBAN - Elevation changed
   OLD WARDEN - Elevation changed
-
-Non-AIRAC:
-  WALES (COVID-19) - Add RA(T) prohibited area
-
-AIRAC: 2020/06/18
-  BLACKBUSHE - Remove Farnbourgh cut-out

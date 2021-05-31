@@ -102,3 +102,29 @@ rat:
         - 502257N 0033739W
         - 501843N 0033412W
         - 501702N 0041140W
+
+- name: NEWQUAY RA(T) (10-13 JUN)
+  type: P
+  geometry:
+  - upper: FL100
+    lower: SFC
+    boundary:
+    - line:
+      - 500210N 0053003W
+    - arc:
+        dir: cw
+        radius: 10 nm
+        centre: 501152N 0052759W
+        to: 501801N 0054024W
+    - line:
+      - 503604N 0051753W
+    - arc:
+        dir: cw
+        radius: 15 nm
+        centre: 502627N 0045943W
+        to: 501141N 0050331W
+    - arc:
+        dir: cw
+        radius: 10 nm
+        centre: 500507N 0051514W
+        to: 500210N 0053003W
