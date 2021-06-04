@@ -66,7 +66,7 @@ rat:
       - 512007N 0020257W
       - 511646N 0020418W
 
-- name: MIDLANDS AIR FEST (4-6 JUN)
+- name: MIDLANDS AIR FESTVAL (4-6 JUN)
   type: P
   geometry:
   - upper: 6500 ft
@@ -75,6 +75,12 @@ rat:
     - circle:
         radius: 2.3 nm
         centre: 521128N 0015406W
+  - upper: 8300 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 521147N 0015354W
 
 - name: NEWQUAY CAS(T) (10-14 JUN)
   type: CTA
@@ -138,6 +144,12 @@ rat:
     - circle:
         radius: 3 nm
         centre: 510927N 0003827E
+  - upper: 8100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 510923N 0003827E
 
 - name: CLEETHORPES (26-27 JUN)
   type: P
@@ -148,3 +160,102 @@ rat:
     - circle:
         radius: 2 nm
         centre: 533358N 0000120W
+  - upper: 8100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 533329N 0000120W
+
+- name: HAVERFORDWEST (26-27 JUN)
+  type: P
+  geometry:
+  - upper: 2000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 515136N 0051604W
+      - 514800N 0045739W
+      - 515150N 0045316W
+      - 515425N 0050849W
+      - 515338N 0051452W
+
+- name: SCAMPTON (6 JUL)
+  type: P
+  geometry:
+  - upper: 8300 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 531828N 0003302W
+
+- name: GOODWOOD (9-11 JUL)
+  type: P
+  geometry:
+  - upper: 8200 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 505220N 0004345W
+
+- name: ODIHAM (10 JUL)
+  type: P
+  geometry:
+  - upper: 8500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 511419N 0005641W
+
+- name: SILVERSTONE (18 JUL)
+  type: P
+  geometry:
+  - upper: 8500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 520418N 0010022W
+
+- name: LOSSIEMOUTH (21 JUL)
+  type: P
+  geometry:
+  - upper: 8100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 574229N 0031926W
+
+- name: HONINGTON (22 JUL)
+  type: P
+  geometry:
+  - upper: 8200 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 522031N 0004600E
+
+- name: CONINGSBY (23 JUL)
+  type: P
+  geometry:
+  - upper: 8100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 530535N 0001037W
+
+- name: DUXFORD (24-25 JUL)
+  type: P
+  geometry:
+  - upper: 8200 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 520532N 0000750E
