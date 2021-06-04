@@ -1,4 +1,5 @@
 Non-AIRAC:
+  CLEETHORPES RA(T) - Add
   HEADCORN RA(T) - Add
 
 AIRAC: 2021/06/17
