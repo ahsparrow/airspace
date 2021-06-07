@@ -66,22 +66,6 @@ rat:
       - 512007N 0020257W
       - 511646N 0020418W
 
-- name: MIDLANDS AIR FESTVAL (4-6 JUN)
-  type: P
-  geometry:
-  - upper: 6500 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 2.3 nm
-        centre: 521128N 0015406W
-  - upper: 8300 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 6 nm
-        centre: 521147N 0015354W
-
 - name: NEWQUAY CAS(T) (10-14 JUN)
   type: CTA
   class: D
@@ -134,6 +118,16 @@ rat:
         radius: 10 nm
         centre: 500507N 0051514W
         to: 500210N 0053003W
+
+- name: STONEHENGE (20-21 JUN)
+  type: P
+  geometry:
+  - upper: 3000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 3 nm
+        centre: 511044N 0014934W
 
 - name: HEADCORN (25-27 JUN)
   type: P

@@ -2,6 +2,7 @@ Non-AIRAC:
   CLEETHORPES RA(T) - Add
   HEADCORN RA(T) - Add
   RED ARROWS RA(T)s - Add
+  STONEHENGE RA(T) - Add
 
 AIRAC: 2021/06/17
   CAMBRIDGE ATZ - Amend elevation
