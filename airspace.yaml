@@ -9147,6 +9147,8 @@ airspace:
 - name: HINTON-IN-THE-HEDGES
   type: D_OTHER
   localtype: DZ
+  rules:
+    - INTENSE
   geometry:
   - upper: FL65
     lower: SFC
@@ -9651,8 +9653,6 @@ airspace:
   id: hinton-in-the-hedges-glider
   type: OTHER
   localtype: GLIDER
-  rules:
-    - INTENSE
   geometry:
   - upper: 2500 ft
     lower: SFC
