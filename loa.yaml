@@ -2951,7 +2951,7 @@ loa:
   - name: WOBURN (NO LANDING)
     add:
     - name: WOBURN (NO LANDING)
-      type: P
+      type: D_OTHER
       geometry:
       - upper: 1500 ft
         lower: SFC
