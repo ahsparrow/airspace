@@ -1241,7 +1241,7 @@ service:
 - callsign: KENLEY RADIO
   controls:
   - kenley-glider
-  frequency: 129.905
+  frequency: 120.775
 
 - callsign: LITTLE RISSINGTON RADIO
   controls:
