@@ -7,7 +7,8 @@ import yaixm.util_cli
 
 def cli():
     parser = argparse.ArgumentParser()
-    subparsers = parser.add_subparsers(title='subcommands', required=True)
+    subparsers = parser.add_subparsers(title='commands', dest='cmd',
+                                       required=True)
 
     # check sub-command
     sub_parser = subparsers.add_parser('check', help='check against schema')
