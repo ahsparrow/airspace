@@ -15,20 +15,13 @@
 # You should have received a copy of the GNU General Public License
 # along with YAIXM.  If not, see <http://www.gnu.org/licenses/>.
 
-import argparse
 import json
 import sys
 
 from .convert import Openair, Tnp, seq_name, make_openair_type
 from .helpers import load, validate, merge_loa
 
-def check():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("airspace_file", nargs="?",
-                        help="YAML airspace file",
-                        type=argparse.FileType("r"), default=sys.stdin)
-    args = parser.parse_args()
-
+def check(args):
     # Load airspace
     airspace = load(args.airspace_file)
 
@@ -38,19 +31,7 @@ def check():
         print(e.message, file=sys.stderr)
         sys.exit(1)
 
-def openair():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("airspace_file", nargs="?",
-                        help="YAML airspace file",
-                        type=argparse.FileType("r"), default=sys.stdin)
-    parser.add_argument("openair_file", nargs="?",
-                        help="Openair output file, stdout if not specified",
-                        type=argparse.FileType("w", encoding="ascii"),
-                        default=sys.stdout)
-    parser.add_argument("--comp",
-                        help="Competition airspace", action="store_true")
-    args = parser.parse_args()
-
+def openair(args):
     # Load airspace
     airspace = load(args.airspace_file)
 
@@ -66,17 +47,7 @@ def openair():
 
     args.openair_file.write(output_oa)
 
-def tnp():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("airspace_file", nargs="?",
-                        help="YAML airspace file",
-                        type=argparse.FileType("r"), default=sys.stdin)
-    parser.add_argument("tnp_file", nargs="?",
-                        help="TNP output file, stdout if not specified",
-                        type=argparse.FileType("w", encoding="ascii"),
-                        default=sys.stdout)
-    args = parser.parse_args()
-
+def tnp(args):
     # Load airspace
     airspace = load(args.airspace_file)
 
@@ -89,37 +60,14 @@ def tnp():
 
     args.tnp_file.write(output_oa)
 
-def to_json():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("yaml_file", nargs="?",
-                        help="YAML input file, stdin if not specified",
-                        type=argparse.FileType("r"), default=sys.stdin)
-    parser.add_argument("json_file", nargs="?",
-                        help="JSON output file, stdout if not specified",
-                        type=argparse.FileType("w"), default=sys.stdout)
-    parser.add_argument("-i", "--indent", type=int, help="indent level",
-                        default=None)
-    parser.add_argument("-s", "--sort", help="sort keys", action="store_true")
-    args = parser.parse_args()
-
+def json(args):
     data = load(args.yaml_file)
     json.dump(data, args.json_file, sort_keys=args.sort, indent=args.indent)
 
     if args.json_file is sys.stdout:
         print()
 
-def merge():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("input_file", nargs="?",
-                        help="YAML input file, stdin if not specified",
-                        type=argparse.FileType("r"), default=sys.stdin)
-    parser.add_argument("output_file", nargs="?",
-                        help="Merged JSON output file, stdout if not specified",
-                        type=argparse.FileType("w"), default=sys.stdout)
-    parser.add_argument("-m", "--merge", default="",
-                        help="Comma separated list of LOAs to merge")
-    args = parser.parse_args()
-
+def merge(args):
     yaixm = load(args.input_file)
     airspace = yaixm['airspace']
     loa = yaixm['loa']
@@ -133,25 +81,13 @@ def merge():
 
     json.dump(merged, args.output_file, sort_keys=True, indent=4)
 
-def geojson():
+def geojson(args):
     # Do the import here to avoid hard dependency on pygeodesy
     try:
         from .geojson import geojson as convert_geojson
     except ModuleNotFoundError:
         print("ERROR: GeoJSON requires the PyGeodesy package")
         sys.exit(1)
-
-    parser = argparse.ArgumentParser()
-    parser.add_argument("airspace_file", nargs="?",
-                        help="YAML airspace file",
-                        type=argparse.FileType("r"), default=sys.stdin)
-    parser.add_argument("geojson_file", nargs="?",
-                        help="GeoJSON output file, stdout if not specified",
-                        type=argparse.FileType("w"),
-                        default=sys.stdout)
-    parser.add_argument("-r", "--resolution", type=int, default=15,
-                        help="Angular resolution, per 90 degrees")
-    args = parser.parse_args()
 
     # Load airspace
     airspace = load(args.airspace_file)
