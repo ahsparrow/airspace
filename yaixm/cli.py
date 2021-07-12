@@ -20,6 +20,7 @@ import sys
 
 from .convert import Openair, Tnp, seq_name, make_openair_type
 from .helpers import load, validate, merge_loa
+from .geojson import geojson as convert_geojson
 
 def check(args):
     # Load airspace
@@ -82,13 +83,6 @@ def merge(args):
     json.dump(merged, args.output_file, sort_keys=True, indent=4)
 
 def geojson(args):
-    # Do the import here to avoid hard dependency on pygeodesy
-    try:
-        from .geojson import geojson as convert_geojson
-    except ModuleNotFoundError:
-        print("ERROR: GeoJSON requires the PyGeodesy package")
-        sys.exit(1)
-
     # Load airspace
     airspace = load(args.airspace_file)
 

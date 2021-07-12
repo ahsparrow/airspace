@@ -1,9 +1,9 @@
 #!/usr/bin/env python
-
 import argparse
 import sys
 
 import yaixm.cli
+import yaixm.util_cli
 
 def cli():
     parser = argparse.ArgumentParser()
@@ -15,6 +15,15 @@ def cli():
                             help="YAML airspace file",
                             type=argparse.FileType("r"), default=sys.stdin)
     sub_parser.set_defaults(func=yaixm.cli.check)
+
+    # check-service sub-command
+    sub_parser = subparsers.add_parser('check-service',
+            help='check services exist in airspace file')
+    sub_parser.add_argument("service_file", type=argparse.FileType("r"),
+                            help="Service file")
+    sub_parser.add_argument("airspace_file", type=argparse.FileType("r"),
+                            help="Airspace file")
+    sub_parser.set_defaults(func=yaixm.util_cli.check_service)
 
     # geojson sub-command
     sub_parser = subparsers.add_parser('geojson', help='convert to GeoJSON')
@@ -28,6 +37,15 @@ def cli():
     sub_parser.add_argument("-r", "--resolution", type=int, default=15,
                             help="Angular resolution, per 90 degrees")
     sub_parser.set_defaults(func=yaixm.cli.geojson)
+
+    # ils sub-command
+    sub_parser = subparsers.add_parser('ils', help='calculate ILS coordinates')
+    sub_parser.add_argument("lat", help="Centre latitude, DMS e.g. 512345N")
+    sub_parser.add_argument("lon", help="Centre longitude, DMS e.g. 0012345W")
+    sub_parser.add_argument("bearing", type=float, help="Runway bearing, degrees")
+    sub_parser.add_argument("radius", type=float, nargs="?", default=2,
+                            help="ATZ radius, in nm (default 2)")
+    sub_parser.set_defaults(func=yaixm.util_cli.calc_ils)
 
     # json sub-command
     sub_parser = subparsers.add_parser('json', help='convert to JSON')
@@ -54,6 +72,16 @@ def cli():
                             help="Comma separated list of LOAs to merge")
     sub_parser.set_defaults(func=yaixm.cli.merge)
 
+    # obstacle sub-command
+    sub_parser = subparsers.add_parser('obstacle', help='convert obstacles')
+    sub_parser.add_argument("obstacle_xls", help="ENR obstacle XLS data")
+    sub_parser.add_argument("names", help="CSV file with id, name",
+                            type=argparse.FileType("r"))
+    sub_parser.add_argument("yaml_file", nargs="?",
+                            help="YAML output file, stdout if not specified",
+                            type=argparse.FileType("w"), default=sys.stdout)
+    sub_parser.set_defaults(func=yaixm.util_cli.convert_obstacle)
+
     # openair sub-command
     sub_parser = subparsers.add_parser('openair', help='convert to OpenAir')
     sub_parser.add_argument("airspace_file", nargs="?",
@@ -66,6 +94,44 @@ def cli():
     sub_parser.add_argument("--comp",
                             help="Competition airspace", action="store_true")
     sub_parser.set_defaults(func=yaixm.cli.openair)
+
+    # point sub-command
+    sub_parser = subparsers.add_parser('point', help='calculate offset point')
+    sub_parser.add_argument("lat", help="Centre latitude, DMS e.g. 512345N")
+    sub_parser.add_argument("lon", help="Centre longitude, DMS e.g. 0012345W")
+    sub_parser.add_argument("bearing", type=float, help="Degrees (true)")
+    sub_parser.add_argument("distance", type=float, help="Distance (nm)")
+    sub_parser.set_defaults(func=yaixm.util_cli.calc_point)
+
+    # release sub-command
+    sub_parser = subparsers.add_parser('release', help='make ASSelect airspace')
+    sub_parser.add_argument("yaixm_dir",
+                            help="YAML input directory")
+    sub_parser.add_argument("release_file", type=argparse.FileType("w"),
+                            help="JSON output file")
+    sub_parser.add_argument("--indent", "-i", type=int, default=None,
+                            help="JSON file indentation level (default none)")
+    sub_parser.add_argument("--note", "-n", help="Release note file",
+                            type=argparse.FileType("r"), default=None)
+    group = sub_parser.add_mutually_exclusive_group()
+    group.add_argument("--prev", "-p", action="store_const", default=0,
+                       dest="offset", const=-28, help="Use previous AIRAC date")
+    group.add_argument("--next", action="store_const", default=0,
+                       dest="offset", const=28, help="Use next AIRAC date")
+    sub_parser.set_defaults(func=yaixm.util_cli.release)
+
+    # stub sub-command
+    sub_parser = subparsers.add_parser('stub', help='calculate MATZ stub coordinates')
+    sub_parser.add_argument("lat", help="Centre latitude, DMS e.g. 512345N")
+    sub_parser.add_argument("lon", help="Centre longitude, DMS e.g. 0012345W")
+    sub_parser.add_argument("bearing", type=float, help="R/W bearing, degrees (true)")
+    sub_parser.add_argument("length", type=float, nargs="?", default=5,
+                            help="Stub length (nm)")
+    sub_parser.add_argument("width", type=float, nargs="?", default=4,
+                            help="Stub width (nm)")
+    sub_parser.add_argument("radius", type=float, nargs="?", default=5,
+                            help="Circle radius (nm)")
+    sub_parser.set_defaults(func=yaixm.util_cli.calc_stub)
 
     # tnp sub-command
     sub_parser = subparsers.add_parser('tnp', help='convert to TNP')
