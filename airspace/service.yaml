@@ -1246,6 +1246,7 @@ service:
 - callsign: LITTLE RISSINGTON RADIO
   controls:
   - little-rissington-glider
+  - little-rissington-atz
   frequency: 120.775
 
 - callsign: ODIHAM RADIO

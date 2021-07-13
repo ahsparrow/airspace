@@ -4230,6 +4230,17 @@ airspace:
         radius: 2.5 nm
         centre: 562230N 0025132W
 
+- name: LITTLE RISSINGTON
+  id: little-rissington-atz
+  type: ATZ
+  geometry:
+  - upper: 2731 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2 nm
+        centre: 515202N 0014139W
+
 - name: LOSSIEMOUTH
   id: lossiemouth-atz
   type: ATZ
