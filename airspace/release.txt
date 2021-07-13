@@ -96,30 +96,3 @@ AIRAC: 2020/09/10
   BIGGIN HILL ATZ - Update upper limit
   MISK HILL UL - Delete
   TOPCLIFFE MATZ - Remove stub
-
-Non-AIRAC:
-  Add offshore danger areas
-  Gliding sites - Update frequencies
-  BICESTER - Re-instate gliding club
-  D026 LULWORTH - Remove NOTAM activated upper part
-  D110 BRAUNTON BURROWS - NOTAM activated
-  LEE-ON-SOLENT - Remove gliding site
-
-AIRAC: 2020/08/13
-  BIGGIN HILL - Update elevation
-  EXETER - Update frequency
-  Obstacle updates
-
-Non-AIRAC:
-  BICESTER - Delete
-  RAF CRANWELL RA(T)
-  SILVERSTONE RA(T)
-  OLD WARDEN RA(T)
-  EAST MIDLANDS (CAMPHILL) LOA - Update vertical limits
-  POCKLINGTON - Add frequency
-  SOUTHEND CORRIDOR - Reclassify and tweak coordinates
-
-AIRAC: 2020/07/16
-  NEWQUAY - Elevation changed
-  OBAN - Elevation changed
-  OLD WARDEN - Elevation changed

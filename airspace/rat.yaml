@@ -66,36 +66,6 @@ rat:
       - 512007N 0020257W
       - 511646N 0020418W
 
-- name: SCAMPTON (6 JUL)
-  type: P
-  geometry:
-  - upper: 8300 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 6 nm
-        centre: 531828N 0003302W
-
-- name: GOODWOOD (9-11 JUL)
-  type: P
-  geometry:
-  - upper: 8200 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 6 nm
-        centre: 505220N 0004345W
-
-- name: ODIHAM (10 JUL)
-  type: P
-  geometry:
-  - upper: 8500 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 6 nm
-        centre: 511419N 0005641W
-
 - name: SILVERSTONE (18 JUL)
   type: P
   geometry:
