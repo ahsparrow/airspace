@@ -1,7 +1,8 @@
 AIRAC: 2021/08/12
+  CARDIFF APPROACH - Change frequency
+  KENLEY GLIDING - Coordinate change
   LITTLE RISSINGTON ATZ - Add
   LLANBEDR DZ - Add
-  CARDIFF APPROACH - Change frequency
 
 Non-AIRAC:
   KENLEY - Freqeuency change

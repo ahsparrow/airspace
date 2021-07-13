@@ -10247,7 +10247,7 @@ airspace:
     boundary:
     - circle:
         radius: 1 nm
-        centre: 511820N 0000537W
+        centre: 511821N 0000538W
 
 - name: KIRKNEWTON
   id: kirknewton-glider
