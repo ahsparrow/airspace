@@ -1,5 +1,6 @@
 AIRAC: 2021/08/12
   LITTLE RISSINGTON ATZ - Add
+  LLANBEDR DZ - Add
   CARDIFF APPROACH - Change frequency
 
 Non-AIRAC:
