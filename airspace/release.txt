@@ -6,6 +6,7 @@ AIRAC: 2021/08/12
 
 Non-AIRAC:
   KENLEY - Freqeuency change
+  SILVERSTONE RA(T) - Add
   Various NOTAM activated DZ height extensions - Remove
 
 AIRAC: 2021/07/15
