@@ -1,5 +1,6 @@
 AIRAC: 2021/08/12
   LITTLE RISSINGTON ATZ - Add
+  CARDIFF APPROACH - Change frequency
 
 Non-AIRAC:
   KENLEY - Freqeuency change

@@ -146,7 +146,7 @@ service:
   controls:
   - cardiff-cta
   - cardiff-ctr
-  frequency: 119.150
+  frequency: 119.155
 
 - callsign: CARLISLE APPROACH
   controls:
