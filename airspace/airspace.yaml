@@ -9142,19 +9142,6 @@ airspace:
         radius: 1.5 nm
         centre: 532956N 0003048W
 
-- name: HIBALDSTOW
-  type: D_OTHER
-  localtype: DZ
-  rules:
-  - NOTAM
-  geometry:
-  - upper: FL150
-    lower: FL120
-    boundary:
-    - circle:
-        radius: 1.5 nm
-        centre: 532956N 0003048W
-
 - name: HINTON-IN-THE-HEDGES
   type: D_OTHER
   localtype: DZ
@@ -9199,20 +9186,6 @@ airspace:
   geometry:
   - upper: 3500 ft
     lower: SFC
-    boundary:
-    - circle:
-        radius: 1.5 nm
-        centre: 510925N 0003902E
-
-# Lashenden/Headcorn
-- name: HEADCORN
-  type: D_OTHER
-  localtype: DZ
-  rules:
-  - NOTAM
-  geometry:
-  - upper: FL150
-    lower: 3500 ft
     boundary:
     - circle:
         radius: 1.5 nm
@@ -9326,19 +9299,6 @@ airspace:
   geometry:
   - upper: FL85
     lower: SFC
-    boundary:
-    - circle:
-        radius: 1.5 nm
-        centre: 525551N 0023905W
-
-- name: TILSTOCK
-  type: D_OTHER
-  localtype: DZ
-  rules:
-  - NOTAM
-  geometry:
-  - upper: FL150
-    lower: FL85
     boundary:
     - circle:
         radius: 1.5 nm
