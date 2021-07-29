@@ -4101,6 +4101,8 @@ airspace:
 - name: COLERNE
   id: colerne-atz
   type: ATZ
+  rules:
+  - NOTAM
   geometry:
   - upper: 2593 ft
     lower: SFC
