@@ -1,5 +1,6 @@
 Non-AIRAC:
   COLERNE ATZ - NOTAM activated
+  EAST KIRKBY RA(T) - Add
 
 AIRAC: 2021/08/12
   CARDIFF APPROACH - Change frequency

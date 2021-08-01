@@ -65,3 +65,13 @@ rat:
       - 512041N 0020341W
       - 512007N 0020257W
       - 511646N 0020418W
+
+- name: EAST KIRKBY
+  type: P
+  geometry:
+  - upper: 3000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 1.5 nm
+        centre: 530811N 0000019E 
