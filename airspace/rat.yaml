@@ -74,4 +74,65 @@ rat:
     boundary:
     - circle:
         radius: 1.5 nm
-        centre: 530811N 0000019E 
+        centre: 530811N 0000019E
+
+- name: SHAWBURY (12 AUG)
+  type: P
+  geometry:
+  - upper: 8300 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 524729N 0023957W
+
+- name: ODIHAM (14 AUG)
+  type: P
+  geometry:
+  - upper: 5500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 511419N 0005641W
+
+- name: SYERSTON (25 AUG)
+  type: P
+  geometry:
+  - upper: 8300 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 530114N 0005450W
+
+- name: MARHAM (25 AUG)
+  type: P
+  geometry:
+  - upper: 8100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 523909N 0003320E
+
+- name: WYTON (26 AUG)
+  type: P
+  geometry:
+  - upper: 8200 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 522130N 0000647W
+
+- name: COSFORD (11-12 SEP)
+  type: P
+  geometry:
+  - upper: 8300 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 523831N 0021805W
+
