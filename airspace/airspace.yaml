@@ -6843,6 +6843,217 @@ airspace:
         radius: 2 nm
         centre: 520453N 0024806W
 
+- name: D217A LLANBEDR
+  type: D
+  rules:
+    - NOTAM
+  geometry:
+  - upper: 2000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 524617N 0040510W
+    - arc:
+        dir: cw
+        radius: 2.5 nm
+        centre: 524817N 0040738W
+        to: 525022N 0040522W
+
+- name: D217B LLANBEDR
+  type: D
+  rules: 
+    - NOTAM
+  geometry:
+  - upper: 2000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 525028N 0040939W
+    - arc:
+        dir: ccw
+        radius: 2.5 nm
+        centre: 524817N 0040738W
+        to: 524617N 0040510W
+    - line:
+      - 524333N 0040503W
+    - arc:
+        dir: cw
+        radius: 5 nm
+        centre: 524817N 0040738W
+        to: 525306N 0040947W
+
+- name: D217C LLANBEDR
+  type: D
+  rules:
+    - NOTAM
+  geometry:
+  - upper: 2000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 524942N 0041102W
+    - arc:
+        dir: ccw
+        radius: 2.5 nm
+        centre: 524817N 0040738W
+        to: 524617N 0040510W
+    - line:
+      - 524603N 0040510W 
+      - 523933N 0041231W 
+      - 524222N 0041917W 
+
+- name: D217D LLANBEDR
+  type: D
+  rules:
+  - NOTAM
+  geometry:
+  - upper: 6000 ft
+    lower: 2000 ft
+    boundary:
+    - line:
+      - 524222N 0041917W
+      - 523933N 0041231W
+      - 523526N 0041712W
+      - 523816N 0042359W
+
+- name: D217E LLANBEDR
+  type: D
+  rules:
+  - NOTAM
+  geometry:
+  - upper: 2000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 525307N 0040530W
+    - arc:
+        dir: cw
+        radius: 5 nm
+        centre: 524817N 0040738W
+        to: 524333N 0040503W
+
+- name: D217F LLANBEDR
+  type: D
+  rules:
+  - NOTAM
+  geometry:
+  - upper: 2000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 525306N 0040947W
+    - arc:
+        dir: cw
+        radius: 5 nm
+        centre: 524817N 0040738W
+        to: 525307N 0040530W
+    - line:
+      - 525022N 0040522W
+    - arc:
+        dir: ccw
+        radius: 2.5 nm
+        centre: 524817N 0040738W
+        to: 525028N 0040939W
+
+- name: D217G LLANBEDR
+  type: D
+  rules:
+  - NOTAM
+  geometry:
+  - upper: 6000 ft
+    lower: 2000 ft
+    boundary:
+    - line:
+      - 524617N 0040510W
+    - arc:
+        dir: cw
+        radius: 2.5 nm
+        centre: 524817N 0040738W
+        to: 525022N 0040522W
+
+- name: D217H LLANBEDR
+  type: D
+  rules:
+  - NOTAM
+  geometry:
+  - upper: 6000 ft
+    lower: 2000 ft
+    boundary:
+    - line:
+      - 525306N 0040947W
+      - 525028N 0040939W
+    - arc:
+        dir: ccw
+        radius: 2.5 nm
+        centre: 524817N 0040738W
+        to: 524617N 0040510W
+    - line:
+      - 524333N 0040503W
+    - arc:
+        dir: cw
+        radius: 5 nm
+        centre: 524817N 0040738W
+        to: 525306N 0040947W
+
+- name: D217I LLANBEDR
+  type: D
+  rules:
+  - NOTAM
+  geometry:
+  - upper: 6000 ft
+    lower: 2000 ft
+    boundary:
+    - line:
+      - 524942N 0041102W
+    - arc:
+        dir: ccw
+        radius: 2.5 nm
+        centre: 524817N 0040738W
+        to: 524617N 0040510W
+    - line:
+      - 524603N 0040510W 
+      - 523933N 0041231W 
+      - 524222N 0041917W 
+
+- name: D217J LLANBEDR
+  type: D
+  rules:
+  - NOTAM
+  geometry:
+  - upper: 6000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 525307N 0040530W
+    - arc:
+        dir: cw
+        radius: 5 nm
+        centre: 524817N 0040738W
+        to: 524333N 0040503W
+
+- name: D217K LLANBEDR
+  type: D
+  rules:
+  - NOTAM
+  geometry:
+  - upper: 6000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 525306N 0040947W
+    - arc:
+        dir: cw
+        radius: 5 nm
+        centre: 524817N 0040738W
+        to: 525307N 0040530W
+    - line:
+      - 525022N 0040522W
+    - arc:
+        dir: ccw
+        radius: 2.5 nm
+        centre: 524817N 0040738W
+        to: 525028N 0040939W
+
 - name: D304 UPPER HULME
   type: D
   rules:
