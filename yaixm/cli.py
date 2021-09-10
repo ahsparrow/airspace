@@ -61,7 +61,7 @@ def tnp(args):
 
     args.tnp_file.write(output_oa)
 
-def json(args):
+def jsonify(args):
     data = load(args.yaml_file)
     json.dump(data, args.json_file, sort_keys=args.sort, indent=args.indent)
 

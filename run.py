@@ -59,7 +59,7 @@ def cli():
     sub_parser.add_argument("-i", "--indent", type=int, help="indent level",
                             default=None)
     sub_parser.add_argument("-s", "--sort", help="sort keys", action="store_true")
-    sub_parser.set_defaults(func=yaixm.cli.json)
+    sub_parser.set_defaults(func=yaixm.cli.jsonify)
 
     # merge sub-command
     sub_parser = subparsers.add_parser('merge', help='merge LOAs')
