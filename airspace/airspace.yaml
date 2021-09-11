@@ -7538,6 +7538,16 @@ airspace:
         radius: 1.5 nm
         centre: 513720N 0021050W
 
+- name: R106 RAYMILL HOUSE
+  type: R
+  geometry:
+  - upper: 1600 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 1 nm
+        centre: 512523N 0020646W
+
 - name: R153 HINKLEY POINT
   type: R
   geometry:
