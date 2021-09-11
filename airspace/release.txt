@@ -1,6 +1,7 @@
 AIRAC: 2021/09/09
   D217A-J LLANBEDR - Add
   R106 RAYMILL HOUSE - Add
+  OBAN - Change elevation
 
 Non-AIRAC:
   COLERNE ATZ - NOTAM activated

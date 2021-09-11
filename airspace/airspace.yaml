@@ -13029,7 +13029,7 @@ airspace:
   id: oban-atz
   type: ATZ
   geometry:
-  - upper: 2023 ft
+  - upper: 2024 ft
     lower: SFC
     boundary:
     - circle:
