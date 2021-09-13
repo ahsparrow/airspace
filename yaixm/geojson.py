@@ -45,8 +45,7 @@ def do_arc(arc, from_lonlat, resolution):
     to_point = LatLon(*parse_latlon(arc['to']))
 
     # Get radius, in metres
-    radius_str = arc['radius']
-    radius = float(radius_str.split()[0]) * 1852
+    radius = centre.distanceTo(from_point)
 
     # Get from and to bearings
     bearing_from = centre.bearingTo(from_point)
