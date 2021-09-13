@@ -29,7 +29,7 @@ def cli():
     # geojson sub-command
     sub_parser = subparsers.add_parser('geojson', help='convert to GeoJSON')
     sub_parser.add_argument("airspace_file", nargs="?",
-                            help="YAML airspace file",
+                            help="airspace file (YAIXM or Openair)",
                             type=argparse.FileType("r"), default=sys.stdin)
     sub_parser.add_argument("geojson_file", nargs="?",
                             help="GeoJSON output file, stdout if not specified",

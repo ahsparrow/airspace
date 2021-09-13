@@ -21,6 +21,7 @@ import sys
 from .convert import Openair, Tnp, seq_name, make_openair_type
 from .helpers import load, validate, merge_loa
 from .geojson import geojson as convert_geojson
+from .parse_openair import parse as parse_openair
 
 def check(args):
     # Load airspace
@@ -84,7 +85,12 @@ def merge(args):
 
 def geojson(args):
     # Load airspace
-    airspace = load(args.airspace_file)
+    if args.airspace_file.name.endswith('yaml'):
+        # YAML input
+        airspace = load(args.airspace_file)
+    else:
+        # Openair input
+        airspace = {'airspace': parse_openair(args.airspace_file.read())}
 
     # Convert to GeoJSON
     gjson = convert_geojson(airspace['airspace'], resolution=args.resolution)
