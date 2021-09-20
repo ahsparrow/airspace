@@ -23,7 +23,7 @@ obstacle:
   type: RTM
   id: UK0150A046F
   position: 573530N 0041636W
-  elevation: 1502
+  elevation: 1502 ft
 - name: DURRIS RTM
   type: RTM
   id: UK0150A033F
