@@ -8941,17 +8941,6 @@ airspace:
         radius: 1.9 nm
         centre: 500302N 0051104W
 
-- name: NEATISHEAD
-  type: D_OTHER
-  localtype: HIRTA
-  geometry:
-  - upper: 1550 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.9 nm
-        centre: 524301N 0012754E
-
 - name: OAKHANGER
   type: D_OTHER
   localtype: HIRTA
