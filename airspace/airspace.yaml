@@ -8952,17 +8952,6 @@ airspace:
         radius: 2.4 nm
         centre: 510656N 0005337W
 
-- name: OXENHOPE
-  type: D_OTHER
-  localtype: HIRTA
-  geometry:
-  - upper: 2500 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.4 nm
-        centre: 534731N 0015905W
-
 - name: PERSHORE
   type: D_OTHER
   localtype: HIRTA
