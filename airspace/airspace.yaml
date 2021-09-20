@@ -8941,17 +8941,6 @@ airspace:
         radius: 1.9 nm
         centre: 500302N 0051104W
 
-- name: MORMOND HILL
-  type: D_OTHER
-  localtype: HIRTA
-  geometry:
-  - upper: 1550 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1 nm
-        centre: 573559N 0020306W
-
 - name: NEATISHEAD
   type: D_OTHER
   localtype: HIRTA
