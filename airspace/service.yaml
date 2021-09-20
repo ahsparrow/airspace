@@ -148,7 +148,7 @@ service:
   - cardiff-ctr
   frequency: 119.155
 
-- callsign: CARLISLE APPROACH
+- callsign: CARLISLE RADIO
   controls:
   - carlisle-atz
   frequency: 123.605

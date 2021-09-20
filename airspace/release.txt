@@ -2,6 +2,7 @@ AIRAC: 2021/10/07
   CALDBECK HIRTA - Delete
   MORMOND HILL HIRTA - Delete
   NEATISHEAD HIRTA - Delete
+  CARLISLE - Change service
 
 Non-AIRAC:
   BLANFORD CAMP HIRTA - Delete
