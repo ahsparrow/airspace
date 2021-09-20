@@ -8842,6 +8842,17 @@ airspace:
         radius: 0.05 nm
         centre: 520001N 0012105W
 
+- name: BLACK HILL
+  type: D_OTHER
+  localtype: HIRTA
+  geometry:
+  - upper: 2400 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.15 nm
+        centre: 555137N 0035209W
+
 - name: BOULMER
   type: D_OTHER
   localtype: HIRTA
