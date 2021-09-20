@@ -23,7 +23,7 @@ obstacle:
   type: RTM
   id: UK0150A046F
   position: 573530N 0041636W
-  elevation: 1495 ft
+  elevation: 1502
 - name: DURRIS RTM
   type: RTM
   id: UK0150A033F
@@ -207,28 +207,28 @@ obstacle:
 - name: DRAX CMN
   type: CHIM
   id: UK0171P750F
-  position: 534414N 0005957W
-  elevation: 869 ft
+  position: 534413N 0005956W
+  elevation: 870 ft
 - name: FERRYBRIDGE CMN
   type: CHIM
   id: UK18612915F
   position: 534257N 0011648W
-  elevation: 694 ft
+  elevation: 706 ft
 - name: FERRYBRIDGE CMN
   type: CHIM
   id: UK18612914F
   position: 534255N 0011653W
-  elevation: 694 ft
+  elevation: 709 ft
 - name: EGGBOROUGH CMN
   type: CHIM
   id: UK0171U698F
   position: 534243N 0010731W
-  elevation: 677 ft
+  elevation: 696 ft
 - name: WINTER HILL RTM
   type: RTM
   id: UK0171A245F
   position: 533732N 0023054W
-  elevation: 2453 ft
+  elevation: 2452 ft
 - name: EMLEY MOOR RTM
   type: RTM
   id: UK0171A239F
@@ -268,12 +268,12 @@ obstacle:
   type: PLT
   id: UK0171A209F
   position: 531817N 0004654W
-  elevation: 676 ft
+  elevation: 669 ft
 - name: MOEL-Y-PARC RTM
   type: RTM
   id: UK0171A146F
   position: 531316N 0031852W
-  elevation: 1891 ft
+  elevation: 1893 ft
 - name: ARFON RTM
   type: RTM
   id: UK0171A125F
@@ -318,7 +318,12 @@ obstacle:
   type: RTM
   id: UK0171A034F
   position: 521747N 0020624W
-  elevation: 881 ft
+  elevation: 919 ft
+- name: DAVENTRY RTM
+  type: RTM
+  id: UK017A030F
+  position: 521510N 0010824W
+  elevation: 1339 ft
 - name: MENDLESHAM RTM
   type: RTM
   id: UK0171A028F
@@ -333,7 +338,7 @@ obstacle:
   type: RTM
   id: UK0229A071F
   position: 515639N 0043939W
-  elevation: 1858 ft
+  elevation: 1861 ft
 - name: DARTFORD PYL
   type: PYL
   id: UK0230A058F
