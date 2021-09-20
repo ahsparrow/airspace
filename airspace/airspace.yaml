@@ -8842,17 +8842,6 @@ airspace:
         radius: 0.05 nm
         centre: 520001N 0012105W
 
-- name: BLANDFORD CAMP
-  type: D_OTHER
-  localtype: HIRTA
-  geometry:
-  - upper: 820 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.25 nm
-        centre: 505258N 0020643W
-
 - name: BOULMER
   type: D_OTHER
   localtype: HIRTA
