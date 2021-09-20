@@ -1,3 +1,6 @@
+AIRAC: 2021/10/07
+  CALDBECK HIRTA - Delete
+
 AIRAC: 2021/09/09
   D217A-J LLANBEDR - Add
   R106 RAYMILL HOUSE - Add
@@ -101,11 +104,3 @@ AIRAC: 2020/11/05
   BICESTER - Reduce height (no winch)
   BOOKER - Modify elevation
   OXFORD ATZ - Modify elevation
-
-AIRAC: 2020/10/08
-  LYDD ATZ - Modify coordinates
-
-Non-AIRAC:
-  LASHENDEN RA(T)
-  DUXFORD RA(T)
-  TOPCLIFFE RA(T)

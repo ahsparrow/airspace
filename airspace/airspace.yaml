@@ -8875,17 +8875,6 @@ airspace:
         radius: 0.65 nm
         centre: 572728N 0014852W
 
-- name: CALDBECK
-  type: D_OTHER
-  localtype: HIRTA
-  geometry:
-  - upper: 3500 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.25 nm
-        centre: 544630N 0030535W
-
 - name: COWES
   type: D_OTHER
   localtype: HIRTA
