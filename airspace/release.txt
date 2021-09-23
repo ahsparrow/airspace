@@ -1,3 +1,6 @@
+Non-AIRAC:
+  D296A CRANFIELD NBEC - Add (temporary danger area)
+
 AIRAC: 2021/10/07
   CALDBECK HIRTA - Delete
   MORMOND HILL HIRTA - Delete
