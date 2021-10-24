@@ -9242,18 +9242,6 @@ airspace:
         radius: 1.5 nm
         centre: 522919N 0000512E
 
-- name: CHILTERN PARK
-  id: chiltern-park-dz
-  type: D_OTHER
-  localtype: DZ
-  geometry:
-  - upper: FL150
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1.5 nm
-        centre: 513330N 0010638W
-
 - name: COCKERHAM
   type: D_OTHER
   localtype: DZ

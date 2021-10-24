@@ -1,3 +1,6 @@
+AIRAC:2021/11/04
+  CHILTON PARK DZ - Delete
+
 Non-AIRAC:
   D296A CRANFIELD NBEC - Add (temporary danger area)
 
@@ -105,13 +108,3 @@ AIRAC: 2020/12/31
 
 AIRAC: 2020/12/03
   HAVERFORDWEST - Frequency change
-
-Non-AIRAC:
-  BLACKPOOL - Freqeuncy change (missed from earlier AIRAC)
-  TRURO - Remove radio frequency (missed from earlier AIRAC)
-  WEST WALES ATZ - Frequency change (missed from earlier AIRAC)
-
-AIRAC: 2020/11/05
-  BICESTER - Reduce height (no winch)
-  BOOKER - Modify elevation
-  OXFORD ATZ - Modify elevation
