@@ -12330,7 +12330,7 @@ airspace:
   id: haverfordwest-atz
   type: ATZ
   geometry:
-  - upper: 2159 ft
+  - upper: 2160 ft
     lower: SFC
     boundary:
     - circle:
