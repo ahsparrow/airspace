@@ -1,6 +1,7 @@
 AIRAC:2021/11/04
   CHILTON PARK DZ - Delete
   HAVERFORDWEST ATZ - Amend elevation
+  LANDS END RMZ - Add RMZ
 
 Non-AIRAC:
   D296A CRANFIELD NBEC - Add (temporary danger area)

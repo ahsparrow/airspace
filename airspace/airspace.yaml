@@ -12495,6 +12495,31 @@ airspace:
         radius: 2 nm
         centre: 500610N 0054014W
 
+- name: LANDS END RMZ
+  id: lands-end-rmz
+  type: OTHER
+  localtype: RMZ
+  rules:
+  - RMZ
+  geometry:
+  - upper: 4000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 501705N 0055014W 
+      - 501703N 0053706W 
+      - 500950N 0052951W 
+      - 495559N 0053109W 
+      - 495602N 0055051W 
+      - 494924N 0061338W
+    - arc:
+        dir: cw
+        radius: 6 nm
+        centre: 495451N 0061728W
+        to: 500009N 0062148W
+    - line:
+      - 500907N 0055514W
+
 # Lashenden/Headcorn
 - name: HEADCORN
   id: headcorn-atz

@@ -483,7 +483,8 @@ service:
 - callsign: LANDS END TOWER
   controls:
   - lands-end-atz
-  frequency: 120.250
+  - lands-end-rmz
+  frequency: 120.255
 
 - callsign: LEE RADIO
   controls:
