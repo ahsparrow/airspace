@@ -1,3 +1,9 @@
+AIRAC: 2021/12/30
+  BORDERS CTA1 - Correction to lower limit
+
+AIRAC: 2021/12/02
+  BIRMINGHAM RADAR - Change call sign
+
 AIRAC:2021/11/04
   CHILTON PARK DZ - Delete
   HAVERFORDWEST ATZ - Amend elevation

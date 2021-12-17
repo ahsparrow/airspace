@@ -308,7 +308,7 @@ airspace:
   geometry:
   - seqno: 1
     upper: FL195
-    lower: FL145
+    lower: FL135
     boundary:
     - line:
       - 550603N 0041419W
