@@ -64,7 +64,7 @@ service:
   - biggin-atz
   frequency: 129.405
 
-- callsign: BIRMINGHAM APPROACH
+- callsign: BIRMINGHAM RADAR
   controls:
   - birmingham-cta
   - birmingham-ctr
