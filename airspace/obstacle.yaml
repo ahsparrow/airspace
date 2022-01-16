@@ -39,11 +39,6 @@ obstacle:
   id: UK0150F532F
   position: 560511N 0045203W
   elevation: 611 ft
-- name: LONGANNET CMN
-  type: PLT
-  id: UK0150A006F
-  position: 560255N 0034057W
-  elevation: 621 ft
 - name: FORTH BRIDGE
   type: BRDG
   id: UK0150M812F
@@ -209,16 +204,6 @@ obstacle:
   id: UK0171P750F
   position: 534413N 0005956W
   elevation: 870 ft
-- name: FERRYBRIDGE CMN
-  type: CHIM
-  id: UK18612915F
-  position: 534257N 0011648W
-  elevation: 706 ft
-- name: FERRYBRIDGE CMN
-  type: CHIM
-  id: UK18612914F
-  position: 534255N 0011653W
-  elevation: 709 ft
 - name: EGGBOROUGH CMN
   type: CHIM
   id: UK0171U698F
@@ -294,11 +279,6 @@ obstacle:
   id: UK0171A083F
   position: 523812N 0014532W
   elevation: 1477 ft
-- name: IRON BRIDGE CMN
-  type: PLT
-  id: UK0171A486F
-  position: 523748N 0023048W
-  elevation: 896 ft
 - name: SUTTON COLDFIELD RTM
   type: RTM
   id: UK0171A071F

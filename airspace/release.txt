@@ -1,3 +1,6 @@
+Non-AIRAC
+  Remove obstacles - FERRYBRIDGE, IRONBRIDGE, LONGANNET
+
 AIRAC: 2021/12/30
   BORDERS CTA1 - Correction to lower limit
 
@@ -109,10 +112,3 @@ AIRAC: 2021/01/28
   BLACKBuSHE ATZ - Coordinates changed
   BARTON ATZ - Coordinates changed
   YEOVIL ATZ - Coordinates changed
-
-AIRAC: 2020/12/31
-  BOURNEMOUTH - 8.33 kHz frequency
-  WELSHPOOL ATZ - Amend elevation
-
-AIRAC: 2020/12/03
-  HAVERFORDWEST - Frequency change
