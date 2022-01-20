@@ -1,3 +1,6 @@
+AIRAC: 2022/01/27
+  No changes
+
 Non-AIRAC
   Remove obstacles - FERRYBRIDGE, IRONBRIDGE, LONGANNET
 
@@ -91,24 +94,3 @@ AIRAC: 2021/02/25
   YORKSIRE CTA - Add, replacing  various airways
   LINTON-ON-OUZE - Delete ATZ and MATZ
   SHAWBURY - New gliding site
-
-AIRAC: 2021/01/28
-  BOSCOMBE DOWN ATZ - Coordinates changed
-  COLERNE ATZ - Coordinates changed
-  COSFORD ATZ - Coordinates changed
-  FAIRFORD ATZ - Coordinates changed
-  HALTON ATZ - Coordinates changed
-  LEUCHARS ATZ - Coordinates changed
-  LOSSIEMOUTH ATZ - Coordinates changed
-  MERRYFIELD ATZ - Coordinates changed
-  MIDDLE WALLOP ATZ - Coordinates changed
-  NETHERAVON ATZ - Coordinates changed
-  SCAMPTON ATZ - Coordinates changed
-  SHAWBURY ATZ - Coordinates changed
-  TERNHILL ATZ - Coordinates changed
-  TOPCLIFFE ATZ - Coordinates changed
-  WATTISHAM ATZ - Coordinates changed
-  WOODVALE ATZ - Coordinates changed
-  BLACKBuSHE ATZ - Coordinates changed
-  BARTON ATZ - Coordinates changed
-  YEOVIL ATZ - Coordinates changed
