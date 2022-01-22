@@ -3238,6 +3238,41 @@ airspace:
     - line:
       - 514530N 0005026E
 
+- name: STRANGFORD CTA
+  type: CTA
+  class: D
+  geometry:
+  - seqno: 11
+    upper: FL195
+    lower: FL95
+    boundary:
+    - line:
+      - 545040N 0050133W
+      - 543138N 0050835W
+      - 543230N 0051046W
+      - 543912N 0051906W
+  - seqno: 12
+    upper: FL195
+    lower: FL55
+    boundary:
+    - line:
+      - 551214N 0050234W
+      - 551002N 0044501W
+      - 550251N 0045118W
+      - 545120N 0050118W
+      - 545040N 0050133W
+      - 543912N 0051906W
+      - 544449N 0052608W
+      - 545715N 0051530W
+  - seqno: 13
+    upper: FL195
+    lower: FL125
+    boundary:
+    - line:
+      - 551002N 0044501W
+      - 550806N 0043002W
+      - 550251N 0045118W
+
 - name: STRUMBLE CTA
   type: CTA
   class: A
@@ -5563,24 +5598,6 @@ airspace:
   type: AWY
   class: A
   geometry:
-  - upper: FL195
-    lower: FL55
-    class: D
-    boundary:
-    - line:
-      - 551214N 0050234W
-      - 550959N 0044501W
-      - 545011N 0050216W
-      - 543910N 0051904W
-      - 544449N 0052608W
-  - upper: FL195
-    lower: FL125
-    class: D
-    boundary:
-    - line:
-      - 550250N 0045120W
-      - 551002N 0044501W
-      - 550806N 0043002W
   - id: p600-a
     upper: FL195
     lower: FL55
@@ -5640,19 +5657,6 @@ airspace:
       - 571545N 0020831W
       - 565433N 0023557W
       - 570015N 0025056W
-
-- name: P620
-  type: AWY
-  class: D
-  geometry:
-  - upper: FL195
-    lower: FL95
-    boundary:
-    - line:
-      - 545011N 0050216W
-      - 543101N 0050703W
-      - 543230N 0051046W
-      - 543910N 0051904W
 
 - name: Y904
   type: AWY
