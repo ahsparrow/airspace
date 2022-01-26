@@ -2624,6 +2624,25 @@ airspace:
       - 562708N 0040928W
       - 561235N 0041258W
       - 560432N 0043253W
+  - seqno: 17
+    upper: FL195
+    lower: FL115
+    boundary:
+    - line:
+      - 572453N 0023020W
+    - arc:
+        dir: cw
+        radius: 10 nm
+        centre: 571834N 0021602W
+        to: 572153N 0015835W
+    - line:
+      - 572100N 0015802W
+      - 571755N 0015605W
+      - 571542N 0020528W
+      - 571940N 0020701W
+      - 571838N 0021602W
+      - 572130N 0022334W
+      - 571920N 0022624W
 
 - name: NEWCASTLE CTA
   id: newcastle-cta
