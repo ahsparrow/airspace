@@ -3667,7 +3667,7 @@ airspace:
       - 565650N 0025515W
   - seqno: 9
     upper: FL195
-    lower: FL155
+    lower: FL115
     boundary:
     - line:
       - 572130N 0022334W
@@ -3675,6 +3675,18 @@ airspace:
       - 571437N 0020959W
       - 565433N 0023557W
       - 570015N 0025056W
+  - seqno: 10
+    class: D
+    upper: FL195
+    lower: FL115
+    boundary:
+    - line:
+      - 571940N 0020701W
+      - 563050N 0014817W
+      - 562848N 0020556W
+      - 570627N 0022037W
+      - 571437N 0020959W
+      - 571838N 0021602W
 
 - name: TEESSIDE CTA
   id: teesside-cta
@@ -5751,22 +5763,6 @@ airspace:
   type: AWY
   class: D
   geometry:
-  - upper: FL195
-    lower: FL115
-    boundary:
-    - line:
-      - 571941N 0020658W
-      - 565659N 0015812W
-    - arc:
-        dir: cw
-        radius: 10 nm
-        centre: 570531N 0020740W
-        to: 565533N 0020635W
-    - line:
-      - 565517N 0021618W
-      - 570622N 0022039W
-      - 571545N 0020831W
-      - 571838N 0021604W
   - upper: FL115
     lower: 4500 ft
     boundary:
