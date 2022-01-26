@@ -79,6 +79,52 @@ airspace:
         centre: 571834N 0021602W
         to: 572100N 0023356W
 
+- name: ARGYLL CTA
+  type: CTA
+  class: E
+  geometry:
+  - seqno: 1
+    class: E
+    rules:
+      - TMZ
+    upper: FL195
+    lower: 5500 ft
+    boundary:
+    - line:
+      - 561844N 0054648W
+      - 560727N 0050308W
+      - 560127N 0044028W
+      - 560000N 0044400W
+      - 555356N 0045343W
+      - 555825N 0051042W
+      - 560939N 0055411W
+  - seqno: 2
+    rules:
+      - TMZ
+    upper: FL195
+    lower: FL115
+    boundary:
+    - line:
+      - 564819N 0062031W
+      - 561807N 0054423W
+      - 561844N 0054648W
+      - 560939N 0055411W
+      - 562501N 0065609W
+      - 563408N 0064847W
+      - 562552N 0061508W
+      - 564248N 0063539W
+  - seqno: 3
+    rules:
+      - TMZ
+    upper: FL195
+    lower: FL105
+    boundary:
+    - line:
+      - 553039N 0053655W
+      - 552543N 0050000W
+      - 551527N 0050000W
+      - 552057N 0054102W
+
 - name: BERRY HEAD CTA
   type: CTA
   class: A
@@ -5734,59 +5780,6 @@ airspace:
       - 581646N 0060620W
       - 580803N 0061537W
       - 574941N 0051452W
-
-#----------------------------------------------------------------------
-# ENR 3.3 Area navigation routes
-
-- name: L602
-  type: AWY
-  class: E
-  rules:
-  - TMZ
-  geometry:
-  - upper: FL195
-    lower: 5500 ft
-    boundary:
-    - line:
-      - 560122N 0044034W
-      - 561843N 0054643W
-      - 560938N 0055412W
-      - 555349N 0045342W
-      - 560000N 0044400W
-
-- name: L602/Y958
-  type: AWY
-  class: E
-  rules:
-  - TMZ
-  geometry:
-  - upper: FL195
-    lower: FL115
-    boundary:
-    - line:
-      - 561843N 0054643W
-      - 561805N 0054423W
-      - 564825N 0062036W
-      - 564251N 0063544W
-      - 562552N 0061519W
-      - 563410N 0064854W
-      - 562501N 0065610W
-      - 560938N 0055412W
-
-- name: N562
-  type: AWY
-  class: E
-  rules:
-  - TMZ
-  geometry:
-  - upper: FL195
-    lower: FL105
-    boundary:
-    - line:
-      - 552541N 0050002W
-      - 553040N 0053703W
-      - 552056N 0054100W
-      - 551528N 0050002W
 
 #----------------------------------------------------------------------
 # ENR 5.1 Prohibited, restricted and danger areas

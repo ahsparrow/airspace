@@ -1,3 +1,6 @@
+AIRAC: 2022/02/24
+  ARGYLL CTA - Replaces L602, L602/Y958 and N562
+
 AIRAC: 2022/01/27
   No changes
 
@@ -83,14 +86,3 @@ AIRAC: 2021/04/22
 
 AIRAC: 2021/03/25
   No change
-
-Non-AIRAC:
-  DONCASTER LOA - Split into separate boxes
-  WORKSOP CORRIDOR LOA - Add
-  RUGELEY CHM - Obstacle removed
-
-AIRAC: 2021/02/25
-  BORDERS CTA - Add, replacing  various airways
-  YORKSIRE CTA - Add, replacing  various airways
-  LINTON-ON-OUZE - Delete ATZ and MATZ
-  SHAWBURY - New gliding site
