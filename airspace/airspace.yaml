@@ -2593,6 +2593,15 @@ airspace:
       - 571206N 0035820W
       - 564120N 0040600W
       - 564239N 0042359W
+  - seqno: 11
+    upper: FL195
+    lower: FL125
+    boundary:
+    - line:
+      - 564239N 0042359W
+      - 564120N 0040600W
+      - 562708N 0040928W
+      - 562827N 0042720W
 
 - name: NEWCASTLE CTA
   id: newcastle-cta
@@ -5605,21 +5614,6 @@ airspace:
 
 #----------------------------------------------------------------------
 # ENR 3.1 Lower ATS Routes
-
-- name: N560
-  type: AWY
-  class: E
-  geometry:
-  - upper: FL195
-    lower: FL125
-    rules:
-    - TMZ
-    boundary:
-    - line:
-      - 562709N 0040927W
-      - 564120N 0040559W
-      - 564239N 0042400W
-      - 562827N 0042722W
 
 - name: N864
   type: AWY
