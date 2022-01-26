@@ -2583,6 +2583,16 @@ airspace:
       - 575820N 0050530W
       - 574940N 0051447W
       - 580805N 0061540W
+  - seqno: 10
+    id: moray-10
+    upper: FL195
+    lower: FL105
+    boundary:
+    - line:
+      - 571327N 0041634W
+      - 571206N 0035820W
+      - 564120N 0040600W
+      - 564239N 0042359W
 
 - name: NEWCASTLE CTA
   id: newcastle-cta
@@ -5610,17 +5620,6 @@ airspace:
       - 564120N 0040559W
       - 564239N 0042400W
       - 562827N 0042722W
-  - id: n560-gussi
-    upper: FL195
-    lower: FL105
-    rules:
-    - TMZ
-    boundary:
-    - line:
-      - 564120N 0040559W
-      - 571207N 0035819W
-      - 571326N 0041635W
-      - 564239N 0042400W
 
 - name: N864
   type: AWY
