@@ -2380,7 +2380,7 @@ airspace:
         to: 514508N 0001309E
   - seqno: 3
     upper: 3500 ft
-    lower: 2000 ft
+    lower: 2500 ft
     boundary:
     - line:
       - 515828N 0003314E

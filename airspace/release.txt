@@ -5,6 +5,7 @@ AIRAC: 2022/02/24
   DAVENTRY CTA 21 - Amend boundary and lower level
   DAVENTRY CTA 22 - Amend boundary
   DAVENTRY CTA 25 - Add
+  STANSTED CTA 3 - Amend lower level
 
 AIRAC: 2022/01/27
   No changes
