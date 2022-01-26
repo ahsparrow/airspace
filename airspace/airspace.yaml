@@ -2537,6 +2537,15 @@ airspace:
       - 573556N 0013910W
       - 573706N 0015736W
       - 592039N 0013445W
+  - seqno: 6
+    upper: FL155
+    lower: FL75
+    boundary:
+    - line:
+      - 582757N 0025607W
+      - 573613N 0021832W
+      - 573241N 0023554W
+      - 581914N 0031000W
 
 - name: NEWCASTLE CTA
   id: newcastle-cta
@@ -5799,22 +5808,6 @@ airspace:
       - 571545N 0020831W
       - 565433N 0023557W
       - 570015N 0025056W
-
-- name: Y904
-  type: AWY
-  class: E
-  rules:
-  - TMZ
-  geometry:
-  - upper: FL155
-    lower: FL75
-    boundary:
-    - line:
-      - 573615N 0021832W
-      - 582752N 0025605W
-      - 582451N 0025720W
-      - 581904N 0031000W
-      - 573241N 0023556W
 
 - name: Y906
   type: AWY
