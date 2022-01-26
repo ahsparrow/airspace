@@ -1,5 +1,6 @@
 AIRAC: 2022/02/24
-  ARGYLL CTA - Replaces L602, L602/Y958 and N562
+  ARGYLL CTA - Replace L602, L602/Y958 and N562
+  BORDERS CTA12/3 - Replace southern part of P18
 
 AIRAC: 2022/01/27
   No changes

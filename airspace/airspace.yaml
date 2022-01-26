@@ -482,6 +482,28 @@ airspace:
       - 544124N 0013620W
       - 543135N 0013929W
       - 543406N 0020308W
+  - seqno: 12
+    class: D
+    upper: FL195
+    lower: FL155
+    boundary:
+    - line:
+      - 561343N 0014155W
+      - 552653N 0012457W
+      - 550601N 0013151W
+      - 550751N 0014858W
+      - 552647N 0014250W
+      - 561143N 0015927W
+  - seqno: 13
+    class: D
+    upper: FL195
+    lower: FL105
+    boundary:
+    - line:
+      - 550751N 0014858W
+      - 550601N 0013151W
+      - 550123N 0013322W
+      - 550313N 0015027W
 
 - name: BRISTOL CTA
   id: bristol-cta
@@ -5532,24 +5554,6 @@ airspace:
   type: AWY
   class: D
   geometry:
-  - upper: FL125
-    lower: FL75
-    boundary:
-    - line:
-      - 550123N 0013320W
-      - 550601N 0013149W
-      - 550750N 0014859W
-      - 550312N 0015029W
-  - upper: FL195
-    lower: FL155
-    boundary:
-    - line:
-      - 561143N 0015929W
-      - 561343N 0014153W
-      - 552653N 0012515W
-      - 550601N 0013148W
-      - 550751N 0014900W
-      - 552647N 0014233W
   - upper: FL195
     lower: FL115
     boundary:
