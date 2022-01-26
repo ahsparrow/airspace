@@ -3665,6 +3665,16 @@ airspace:
       - 565433N 0023557W
       - 565109N 0024016W
       - 565650N 0025515W
+  - seqno: 9
+    upper: FL195
+    lower: FL155
+    boundary:
+    - line:
+      - 572130N 0022334W
+      - 571838N 0021602W
+      - 571437N 0020959W
+      - 565433N 0023557W
+      - 570015N 0025056W
 
 - name: TEESSIDE CTA
   id: teesside-cta
@@ -5830,20 +5840,6 @@ airspace:
       - 561343N 0014153W
       - 561143N 0015929W
       - 562848N 0020557W
-
-- name: P600
-  type: AWY
-  class: A
-  geometry:
-  - id: p600-g
-    upper: FL195
-    lower: FL115
-    boundary:
-    - line:
-      - 572130N 0022334W
-      - 571545N 0020831W
-      - 565433N 0023557W
-      - 570015N 0025056W
 
 #----------------------------------------------------------------------
 # ENR 5.1 Prohibited, restricted and danger areas
