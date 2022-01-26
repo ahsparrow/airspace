@@ -3585,6 +3585,21 @@ airspace:
       - 513946N 0032432W
       - 514224N 0034108W
 
+- name: TAY CTA
+  type: CTA
+  class: A
+  geometry:
+  - seqno: 1
+    upper: FL195
+    lower: FL55
+    boundary:
+    - line:
+      - 562146N 0034425W
+      - 561555N 0032923W
+      - 561400N 0033259W
+      - 561400N 0040926W
+      - 562000N 0034746W
+
 - name: TEESSIDE CTA
   id: teesside-cta
   type: CTA
@@ -5788,16 +5803,6 @@ airspace:
   type: AWY
   class: A
   geometry:
-  - id: p600-a
-    upper: FL195
-    lower: FL55
-    boundary:
-    - line:
-      - 562149N 0034418W
-      - 561554N 0032925W
-      - 561400N 0033259W
-      - 561400N 0040926W
-      - 562000N 0034746W
   - id: p600-b
     upper: FL195
     lower: FL85
