@@ -2613,6 +2613,17 @@ airspace:
       - 564120N 0040600W
       - 562708N 0040928W
       - 562827N 0042720W
+  - seqno: 13
+    rules:
+      - NOTAM
+    upper: FL125
+    lower: FL105
+    boundary:
+    - line:
+      - 562827N 0042720W
+      - 562708N 0040928W
+      - 561235N 0041258W
+      - 560432N 0043253W
 
 - name: NEWCASTLE CTA
   id: newcastle-cta
