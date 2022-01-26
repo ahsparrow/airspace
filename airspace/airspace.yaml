@@ -3715,6 +3715,16 @@ airspace:
       - 563833N 0020942W
       - 564326N 0021135W
       - 564809N 0021455W
+  - seqno: 13
+    class: D
+    upper: FL195
+    lower: FL135
+    boundary:
+    - line:
+      - 563050N 0014817W
+      - 561343N 0014155W
+      - 561143N 0015927W
+      - 562848N 0020556W
 
 - name: TEESSIDE CTA
   id: teesside-cta
@@ -5783,30 +5793,6 @@ airspace:
         radius: 5 nm
         centre: 510029N 0023845W
         to: 510154N 0024621W
-
-#----------------------------------------------------------------------
-# ENR 3.1 Lower ATS Routes
-
-- name: P18
-  type: AWY
-  class: D
-  geometry:
-  - upper: FL195
-    lower: FL115
-    boundary:
-    - line:
-      - 564037N 0015155W
-      - 563050N 0014816W
-      - 562848N 0020557W
-      - 563834N 0020945W
-  - upper: FL195
-    lower: FL135
-    boundary:
-    - line:
-      - 563050N 0014816W
-      - 561343N 0014153W
-      - 561143N 0015929W
-      - 562848N 0020557W
 
 #----------------------------------------------------------------------
 # ENR 5.1 Prohibited, restricted and danger areas
