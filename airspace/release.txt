@@ -3,6 +3,7 @@ AIRAC: 2022/02/24
   BORDERS CTA 12/3 - Replace southern part of P18
   CLACTON CTA 10/11/12 - Add
   DAVENTRY CTA 21 - Amend boundary and lower level
+  DAVENTRY CTA 22 - Amend boundary
 
 AIRAC: 2022/01/27
   No changes
