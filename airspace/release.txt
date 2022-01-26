@@ -1,6 +1,7 @@
 AIRAC: 2022/02/24
   ARGYLL CTA - Replace L602, L602/Y958 and N562
-  BORDERS CTA12/3 - Replace southern part of P18
+  BORDERS CTA 12/3 - Replace southern part of P18
+  CLACTON CTA 10/11/12 - Add
 
 AIRAC: 2022/01/27
   No changes

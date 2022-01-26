@@ -826,6 +826,44 @@ airspace:
       - 512130N 0012140E
       - 512247N 0011549E
       - 513905N 0012500E
+  - seqno: 10
+    class: C
+    upper: FL195
+    lower: FL75
+    boundary:
+    - line:
+      - 521832N 0000507W
+      - 521802N 0000240W
+      - 521712N 0000935E
+      - 521105N 0001412E
+      - 521104N 0000528E
+      - 521104N 0002159W
+      - 521126N 0002220W
+  - seqno: 11
+    class: C
+    upper: FL195
+    lower: FL105
+    boundary:
+    - line:
+      - 521712N 0000935E
+      - 521606N 0002507E
+      - 521105N 0002410E
+      - 521105N 0001412E
+  - seqno: 12
+    class: C
+    upper: FL195
+    lower: FL125
+    boundary:
+    - line:
+      - 522030N 0011113E
+      - 522026N 0011450E
+      - 521245N 0005322E
+      - 521221N 0004819E
+      - 521104N 0003242E
+      - 521105N 0002410E
+      - 521606N 0002507E
+      - 521503N 0003932E
+      - 521614N 0005918E
 
 - name: COTSWOLD CTA
   type: CTA
