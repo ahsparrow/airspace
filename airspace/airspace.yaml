@@ -2497,6 +2497,38 @@ airspace:
       - 532638N 0022258W
       - 533430N 0020400W
 
+- name: MORAY CTA
+  type: CTA
+  class: E
+  rules:
+    - TMZ
+  geometry:
+  - seqno: 1
+    upper: FL195
+    lower: 4500 ft
+    boundary:
+    - line:
+      - 573706N 0015736W
+      - 573556N 0013910W
+      - 573333N 0013540W
+      - 572422N 0012815W
+      - 570417N 0014929W
+    - arc:
+        dir: ccw
+        radius: 10 nm
+        centre: 570531N 0020740W
+        to: 570845N 0015019W
+    - line:
+      - 572153N 0015835W
+    - arc:
+        dir: ccw
+        radius: 10 nm
+        centre: 571834N 0021602W
+        to: 572100N 0023356W
+    - line:
+      - 573241N 0023554W
+      - 573613N 0021832W
+
 - name: NEWCASTLE CTA
   id: newcastle-cta
   type: CTA
@@ -5774,37 +5806,6 @@ airspace:
       - 582451N 0025720W
       - 581904N 0031000W
       - 573241N 0023556W
-
-- name: Y904/Y905/P600
-  type: AWY
-  class: E
-  rules:
-  - TMZ
-  geometry:
-  - upper: FL195
-    lower: 4500 ft
-    boundary:
-    - line:
-      - 572100N 0023356W
-    - arc:
-        dir: cw
-        radius: 10 nm
-        centre: 571834N 0021602W
-        to: 572153N 0015835W
-    - line:
-      - 570845N 0015019W
-    - arc:
-        dir: cw
-        radius: 10 nm
-        centre: 570531N 0020740W
-        to: 570417N 0014929W
-    - line:
-      - 572423N 0012819W
-      - 573334N 0013538W
-      - 573557N 0013909W
-      - 573706N 0015739W
-      - 573615N 0021832W
-      - 573241N 0023555W
 
 - name: Y905
   type: AWY
