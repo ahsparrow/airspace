@@ -3637,6 +3637,16 @@ airspace:
       - 563947N 0025440W
       - 562228N 0025909W
       - 562341N 0031445W
+  - seqno: 6
+    upper: FL195
+    lower: FL105
+    boundary:
+    - line:
+      - 564838N 0030536W
+      - 564257N 0025041W
+      - 562341N 0031445W
+      - 562633N 0032207W
+      - 562948N 0032900W
 
 - name: TEESSIDE CTA
   id: teesside-cta
@@ -5807,18 +5817,6 @@ airspace:
   type: AWY
   class: A
   geometry:
-  - id: p600-cd
-    upper: FL195
-    lower: FL105
-    boundary:
-    - line:
-      - 564838N 0030536W
-      - 564257N 0025040W
-      - 563321N 0030244W
-      - 562341N 0031445W
-      - 562633N 0032207W
-      - 562948N 0032900W
-      - 563900N 0031738W
   - id: p600-e
     upper: FL195
     lower: FL85
