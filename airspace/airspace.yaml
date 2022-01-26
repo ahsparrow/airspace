@@ -1311,7 +1311,7 @@ airspace:
   - seqno: 21
     class: C
     upper: FL155
-    lower: FL115
+    lower: FL75
     boundary:
     - line:
       - 522632N 0003702W
