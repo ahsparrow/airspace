@@ -3629,6 +3629,14 @@ airspace:
       - 561118N 0030159W
       - 561241N 0031943W
       - 562219N 0031721W
+  - seqno: 5
+    upper: FL195
+    lower: FL105
+    boundary:
+    - line:
+      - 563947N 0025440W
+      - 562228N 0025909W
+      - 562341N 0031445W
 
 - name: TEESSIDE CTA
   id: teesside-cta
@@ -5700,19 +5708,6 @@ airspace:
 
 #----------------------------------------------------------------------
 # ENR 3.1 Lower ATS Routes
-
-- name: N864
-  type: AWY
-  class: A
-  geometry:
-  - id: n864-z
-    upper: FL195
-    lower: FL105
-    boundary:
-    - line:
-      - 562230N 0025909W
-      - 562341N 0031445W
-      - 563947N 0025439W
 
 - name: P18
   type: AWY
