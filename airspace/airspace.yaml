@@ -1359,6 +1359,17 @@ airspace:
       - 520711N 0014056W
       - 520429N 0013932W
       - 515853N 0015319W
+  - seqno: 25
+    class: C
+    upper: FL105
+    lower: FL85
+    boundary:
+    - line:
+      - 521658N 0002741W
+      - 521126N 0002220W
+      - 521002N 0002427W
+      - 521118N 0003323W
+      - 521332N 0002806W
 
 - name: DONCASTER SHEFFIELD CTA
   id: doncaster-cta

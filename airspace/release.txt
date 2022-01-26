@@ -4,6 +4,7 @@ AIRAC: 2022/02/24
   CLACTON CTA 10/11/12 - Add
   DAVENTRY CTA 21 - Amend boundary and lower level
   DAVENTRY CTA 22 - Amend boundary
+  DAVENTRY CTA 25 - Add
 
 AIRAC: 2022/01/27
   No changes
