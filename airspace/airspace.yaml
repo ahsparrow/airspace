@@ -3590,6 +3590,7 @@ airspace:
   class: A
   geometry:
   - seqno: 1
+    id: tay-cta-1
     upper: FL195
     lower: FL55
     boundary:
@@ -3600,6 +3601,7 @@ airspace:
       - 561400N 0040926W
       - 562000N 0034746W
   - seqno: 2
+    id: tay-cta-2
     upper: FL195
     lower: FL85
     boundary:
