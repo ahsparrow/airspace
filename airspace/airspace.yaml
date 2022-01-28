@@ -3613,6 +3613,7 @@ airspace:
       - 561555N 0032923W
       - 562146N 0034425W
   - seqno: 3
+    id: tay-cta-3
     upper: FL195
     lower: FL65
     boundary:
@@ -3622,6 +3623,7 @@ airspace:
       - 560700N 0030304W
       - 560700N 0032107W
   - seqno: 4
+    id: tay-cta-4
     upper: FL195
     lower: FL85
     boundary:
@@ -3632,6 +3634,7 @@ airspace:
       - 561241N 0031943W
       - 562219N 0031721W
   - seqno: 5
+    id: tay-cta-5
     upper: FL195
     lower: FL105
     boundary:
@@ -3640,6 +3643,7 @@ airspace:
       - 562228N 0025909W
       - 562341N 0031445W
   - seqno: 6
+    id: tay-cta-6
     upper: FL195
     lower: FL105
     boundary:
@@ -3650,6 +3654,7 @@ airspace:
       - 562633N 0032207W
       - 562948N 0032900W
   - seqno: 7
+    id: tay-cta-7
     upper: FL195
     lower: FL85
     boundary:
@@ -3659,6 +3664,7 @@ airspace:
       - 564257N 0025041W
       - 564838N 0030536W
   - seqno: 8
+    id: tay-cta-8
     upper: FL195
     lower: FL55
     boundary:
