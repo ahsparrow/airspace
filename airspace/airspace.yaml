@@ -10707,18 +10707,6 @@ airspace:
         radius: 1.5 nm
         centre: 515400N 0011018E
 
-- name: HENLOW
-  id: henlow-noatz
-  type: OTHER
-  localtype: NOATZ
-  geometry:
-  - upper: 2168 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1.5 nm
-        centre: 520110N 0001806W
-
 - name: HENSTRIDGE
   id: henstridge-noatz
   type: OTHER
