@@ -6,6 +6,12 @@ AIRAC: 2022/02/24
   DAVENTRY CTA 22 - Amend boundary
   DAVENTRY CTA 25 - Add
   STANSTED CTA 3 - Amend lower level
+  MORAY CTA - Add, replace airways and update GUSSI BOX
+  TAY CTA - Add, replace airways and update Portmoak LOAs
+  LONDON TMA 2/3 - Delete TMA 2, modify TMA 3
+  HIGH TREES FARM - Add microlight site
+  KENLEY RADIO - Update frequency
+  HENLOW - Delete
 
 AIRAC: 2022/01/27
   No changes
