@@ -1191,7 +1191,7 @@ airspace:
       - 531137N 0013631W
       - 530952N 0014407W
       - 532614N 0015024W
-  - id: daventry11-camphill
+  - id: daventry-cta11
     seqno: 11
     upper: FL195
     lower: FL85
@@ -1205,7 +1205,7 @@ airspace:
       - 530517N 0013152W
       - 531145N 0013558W
       - 531137N 0013631W
-  - id: daventry12-camphill
+  - id: daventry-cta12
     seqno: 12
     upper: FL195
     lower: FL105

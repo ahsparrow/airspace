@@ -418,7 +418,8 @@ loa:
     replace:
     - id: yorkshire-cta14
       geometry:
-      - upper: FL195
+      - subseq: A
+        upper: FL195
         lower: FL190
         boundary:
         - line:
@@ -427,7 +428,8 @@ loa:
           - 531938N 0011532W
           - 532012N 0011840W
           - 532227N 0014315W
-      - upper: FL195
+      - subseq: B
+        upper: FL195
         lower: FL85
         boundary:
         - line:
@@ -435,9 +437,10 @@ loa:
           - 531938N 0011532W
           - 533017N 0011641W
 
-    - id: daventry11-camphill
+    - id: daventry-cta11
       geometry:
-      - upper: FL195
+      - subseq: A
+        upper: FL195
         lower: FL190
         boundary:
         - line:
@@ -446,7 +449,8 @@ loa:
           - 531244N 0013141W
           - 531137N 0013631W
           - 532227N 0014315W
-      - upper: FL195
+      - subseq: B
+        upper: FL195
         lower: FL85
         boundary:
         - line:
@@ -454,9 +458,10 @@ loa:
           - 530517N 0013152W
           - 531145N 0013558W
 
-    - id: daventry12-camphill
+    - id: daventry-cta12
       geometry:
-      - upper: FL195
+      - subseq: A
+        upper: FL195
         lower: FL190
         boundary:
         - line:
@@ -464,8 +469,8 @@ loa:
           - 531418N 0012449W
           - 531244N 0013141W
           - 531930N 0013131W
-
-      - upper: FL195
+      - subseq: B
+        upper: FL195
         lower: FL105
         boundary:
         - line:
@@ -485,7 +490,8 @@ loa:
       type: D_OTHER
       localtype: GLIDER
       geometry:
-      - upper: FL120
+      - subseq: A
+        upper: FL120
         lower: FL55
         boundary:
         - line:
@@ -493,7 +499,8 @@ loa:
           - 533038N 0011307W
           - 532845N 0013215W
           - 533835N 0013503W
-      - upper: FL120
+      - subseq: B
+        upper: FL120
         lower: FL65
         boundary:
         - line:
@@ -534,7 +541,8 @@ loa:
     replace:
     - id: yorkshire-cta12
       geometry:
-      - upper: FL195
+      - subseq: A
+        upper: FL195
         lower: FL190
         boundary:
         - line:
@@ -545,7 +553,8 @@ loa:
 
     - id: yorkshire-cta11
       geometry:
-      - upper: FL195
+      - subseq: A
+        upper: FL195
         lower: FL190
         boundary:
         - line:
@@ -553,7 +562,8 @@ loa:
           - 533059N 0010932W
           - 533038N 0011307W
           - 534030N 0011550W
-      - upper: FL195
+      - subseq: B
+        upper: FL195
         lower: FL65
         boundary:
         - line:
@@ -564,7 +574,8 @@ loa:
 
     - id: yorkshire-cta10
       geometry:
-      - upper: FL195
+      - subseq: A
+        upper: FL195
         lower: FL190
         boundary:
         - line:
@@ -572,7 +583,8 @@ loa:
           - 534610N 0011937W
           - 534312N 0011636W
           - 534134N 0010443W
-      - upper: FL195
+      - subseq: B
+        upper: FL195
         lower: FL125
         boundary:
         - line:
