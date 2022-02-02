@@ -918,6 +918,7 @@ loa:
     - id: rhads-4
       geometry:
       - id: burn-upper-4
+        subseq: A
         upper: FL65
         lower: 4500 ft
         boundary:
@@ -927,6 +928,7 @@ loa:
           - 534058N 0010414W
           - 534139N 0010352W
       - id: rhads-4
+        subseq: B
         upper: FL65
         lower: 2000 ft
         boundary:
@@ -939,6 +941,7 @@ loa:
     - id: rhads-5
       geometry:
       - id: rhads-5
+        subseq: A
         upper: FL85
         lower: 2000 ft
         boundary:
@@ -966,6 +969,7 @@ loa:
           - 534058N 0005832W
           - 534112N 0005746W
       - id: burn-upper-5
+        subseq: B
         upper: FL85
         lower: 4500 ft
         boundary:
@@ -987,6 +991,7 @@ loa:
     - id: rhads-8
       geometry:
       - id: rhads-8
+        subseq: A
         upper: FL65
         lower: 4000 ft
         boundary:
@@ -998,6 +1003,7 @@ loa:
           - 533059N 0010932W
           - 533038N 0011307W
       - id: burn-upper-8
+        subseq: B
         upper: FL65
         lower: 4500 ft
         boundary:
@@ -1105,7 +1111,8 @@ loa:
     replace:
     - id: rhads-4
       geometry:
-      - upper: FL65
+      - subseq: A
+        upper: FL65
         lower: 2000 ft
         boundary:
         - line:
@@ -1113,7 +1120,8 @@ loa:
           - 533945N 0010315W
           - 533109N 0010751W
           - 533059N 0010932W
-      - upper: FL65
+      - subseq: B
+        upper: FL65
         lower: 4500 ft
         boundary:
         - line:
@@ -1124,7 +1132,8 @@ loa:
 
     - id: rhads-5
       geometry:
-      - upper: FL85
+      - subseq: A
+        upper: FL85
         lower: 2000 ft
         boundary:
         - line:
@@ -1138,7 +1147,8 @@ loa:
             radius: 8 nm
             centre: 532911N 0005954W
             to: 533635N 0010457W
-      - upper: FL85
+      - subseq: B
+        upper: FL85
         lower: 4500 ft
         boundary:
         - line:
@@ -1180,7 +1190,8 @@ loa:
     replace:
     - id: rhads-8
       geometry:
-      - upper: FL65
+      - subseq: A
+        upper: FL65
         lower: 4500 ft
         boundary:
         - line:
@@ -1191,7 +1202,8 @@ loa:
 
     - id: rhads-9
       geometry:
-      - upper: FL85
+      - subseq: A
+        upper: FL85
         lower: 4500 ft
         boundary:
         - line:
