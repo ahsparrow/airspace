@@ -34,7 +34,8 @@ loa:
     replace:
     - id: holyhead-cta1
       geometry:
-      - upper: FL195
+      - subseq: A
+        upper: FL195
         lower: FL185
         boundary:
         - line:
