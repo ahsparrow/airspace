@@ -207,14 +207,16 @@ loa:
     replace:
     - id: ltma-3
       geometry:
-      - upper: FL195
+      - subseq: A
+        upper: FL195
         lower: 4500 ft
         boundary:
         - line:
           - 514542N 0005550W
           - 514647N 0004936W
           - 514021N 0004916W
-      - upper: FL195
+      - subseq: B
+        upper: FL195
         lower: 3500 ft
         boundary:
         - line:
@@ -258,7 +260,8 @@ loa:
 
     - id: ltma-4
       geometry:
-      - upper: FL195
+      - subseq: A
+        upper: FL195
         lower: 4500 ft
         boundary:
         - line:
@@ -266,7 +269,8 @@ loa:
           - 513451N 0005516W
           - 513238N 0005516W
           - 513233N 0010000W
-      - upper: FL195
+      - subseq: B
+        upper: FL195
         lower: 3500 ft
         boundary:
         - line:
@@ -283,14 +287,16 @@ loa:
 
     - id: ltma-1
       geometry:
-      - upper: FL195
+      - subseq: A
+        upper: FL195
         lower: 4500 ft
         boundary:
         - line:
           - 513451N 0005516W
           - 513238N 0005516W
           - 513512N 0004942W
-      - upper: FL195
+      - subseq: B
+        upper: FL195
         lower: 2500 ft
         boundary:
         - line:
