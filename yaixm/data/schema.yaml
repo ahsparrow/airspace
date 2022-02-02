@@ -214,6 +214,10 @@ definitions:
       # Indicates order of aggregation
       seqno: *seqno
 
+      subseq:
+        type: string
+        pattern: ^[A-Z]$
+
       upper:
         type: string
         # Referenced to either standard pressure or MSL
