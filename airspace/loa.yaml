@@ -1955,7 +1955,8 @@ loa:
     replace:
     - id: ltma-11
       geometry:
-      - upper: FL195
+      - subseq: A
+        upper: FL195
         lower: 5500 ft
         boundary:
         - line:
@@ -1963,7 +1964,8 @@ loa:
           - 513423N 0011138W
           - 513350N 0010654W
           - 512400N 0011001W
-      - upper: FL195
+      - subseq: B
+        upper: FL195
         lower: 4500 ft
         boundary:
         - line:
