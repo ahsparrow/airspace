@@ -1785,7 +1785,8 @@ loa:
     replace:
     - id: moray-10
       geometry:
-      - upper: FL195
+      - subseq: A
+        upper: FL195
         lower: FL190
         boundary:
         - line:
@@ -1793,7 +1794,8 @@ loa:
           - 571206N 0035820W
           - 564120N 0040600W
           - 564239N 0042359W
-      - upper: FL195
+      - subseq: B
+        upper: FL195
         lower: FL105
         boundary:
         - line:
