@@ -1827,7 +1827,8 @@ loa:
     replace:
     - id: daventry-9
       geometry:
-      - upper: FL195
+      - subseq: A
+        upper: FL195
         lower: 5500 ft
         boundary:
         - line:
@@ -1835,7 +1836,8 @@ loa:
           - 522048N 0010740W
           - 521355N 0010026W
           - 521049N 0010650W
-      - upper: FL195
+      - subseq: B
+        upper: FL195
         lower: 4500 ft
         boundary:
         - line:
