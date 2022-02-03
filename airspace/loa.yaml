@@ -826,7 +826,8 @@ loa:
     replace:
     - id: yorkshire-cta5
       geometry:
-      - upper: FL195
+      - subseq: A
+        upper: FL195
         lower: FL65
         boundary:
         - line:
@@ -835,7 +836,8 @@ loa:
           - 534127N 0023240W
           - 533918N 0023900W
           - 534741N 0024502W
-      - upper: FL195
+      - subseq: B
+        upper: FL195
         lower: FL140
         boundary:
         - line:
@@ -846,7 +848,8 @@ loa:
 
     - id: yorkshire-cta6
       geometry:
-      - upper: FL195
+      - subseq: A 
+        upper: FL195
         lower: FL140
         boundary:
         - line:
