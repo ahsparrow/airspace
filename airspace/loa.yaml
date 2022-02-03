@@ -32,7 +32,7 @@ loa:
           - 530813N 0031736W
 
     replace:
-    - id: holyhead-cta1
+    - id: holyhead-cta-1
       geometry:
       - subseq: A
         upper: FL195
@@ -97,7 +97,7 @@ loa:
             to: 512605N 0022440W
 
     replace:
-    - id: bristol-6
+    - id: bristol-cta-6
       geometry:
       - subseq: A
         upper: FL105
@@ -133,7 +133,7 @@ loa:
         - line:
           - 512842N 0022338W
 
-    - id: bristol-8
+    - id: bristol-cta-8
       geometry:
       - subseq: A
         upper: FL105
@@ -416,7 +416,7 @@ loa:
           - 531137N 0013631W
 
     replace:
-    - id: yorkshire-cta14
+    - id: yorkshire-cta-14
       geometry:
       - subseq: A
         upper: FL195
@@ -437,7 +437,7 @@ loa:
           - 531938N 0011532W
           - 533017N 0011641W
 
-    - id: daventry-cta11
+    - id: daventry-cta-11
       geometry:
       - subseq: A
         upper: FL195
@@ -458,7 +458,7 @@ loa:
           - 530517N 0013152W
           - 531145N 0013558W
 
-    - id: daventry-cta12
+    - id: daventry-cta-12
       geometry:
       - subseq: A
         upper: FL195
@@ -539,7 +539,7 @@ loa:
           - 534134N 0010443W
 
     replace:
-    - id: yorkshire-cta12
+    - id: yorkshire-cta-12
       geometry:
       - subseq: A
         upper: FL195
@@ -551,7 +551,7 @@ loa:
           - 532845N 0013215W
           - 533835N 0013503W
 
-    - id: yorkshire-cta11
+    - id: yorkshire-cta-11
       geometry:
       - subseq: A
         upper: FL195
@@ -572,7 +572,7 @@ loa:
           - 533109N 0010751W
           - 533059N 0010932W
 
-    - id: yorkshire-cta10
+    - id: yorkshire-cta-10
       geometry:
       - subseq: A
         upper: FL195
@@ -824,7 +824,7 @@ loa:
           - 535859N 0025312W
 
     replace:
-    - id: yorkshire-cta5
+    - id: yorkshire-cta-5
       geometry:
       - subseq: A
         upper: FL195
@@ -846,7 +846,7 @@ loa:
           - 534741N 0024502W
           - 535329N 0024913W
 
-    - id: yorkshire-cta6
+    - id: yorkshire-cta-6
       geometry:
       - subseq: A 
         upper: FL195
@@ -944,7 +944,7 @@ loa:
           - 534124N 0010623W
 
     replace:
-    - id: rhads-4
+    - id: rhads-cta-4
       geometry:
       - id: burn-upper-4
         subseq: A
@@ -956,7 +956,7 @@ loa:
           - 534047N 0010241W
           - 534058N 0010414W
           - 534139N 0010352W
-      - id: rhads-4
+      - id: rhads-cta-4
         subseq: B
         upper: FL65
         lower: 2000 ft
@@ -967,9 +967,9 @@ loa:
           - 533109N 0010751W
           - 533059N 0010932W
 
-    - id: rhads-5
+    - id: rhads-cta-5
       geometry:
-      - id: rhads-5
+      - id: rhads-cta-5
         subseq: A
         upper: FL85
         lower: 2000 ft
@@ -1017,9 +1017,9 @@ loa:
           - 534046N 0010054W
           - 534047N 0010241W
 
-    - id: rhads-8
+    - id: rhads-cta-8
       geometry:
-      - id: rhads-8
+      - id: rhads-cta-8
         subseq: A
         upper: FL65
         lower: 4000 ft
@@ -1068,7 +1068,7 @@ loa:
             to: 531641N 0011139W
 
     replace:
-    - id: rhads-3
+    - id: rhads-cta-3
       geometry:
       - upper: FL60
         lower: 4500 ft
@@ -1083,7 +1083,7 @@ loa:
             centre: 532751N 0010036W
             to: 531641N 0011139W
 
-    - id: rhads-6
+    - id: rhads-cta-6
       geometry:
       - upper: FL105
         lower: 4500 ft
@@ -1138,7 +1138,7 @@ loa:
           - 534139N 0010352W
 
     replace:
-    - id: rhads-4
+    - id: rhads-cta-4
       geometry:
       - subseq: A
         upper: FL65
@@ -1159,7 +1159,7 @@ loa:
           - 533945N 0010315W
           - 534005N 0010442W
 
-    - id: rhads-5
+    - id: rhads-cta-5
       geometry:
       - subseq: A
         upper: FL85
@@ -1217,7 +1217,7 @@ loa:
           - 534030N 0011550W
 
     replace:
-    - id: rhads-8
+    - id: rhads-cta-8
       geometry:
       - subseq: A
         upper: FL65
@@ -1229,7 +1229,7 @@ loa:
           - 533059N 0010932W
           - 533038N 0011307W
 
-    - id: rhads-9
+    - id: rhads-cta-9
       geometry:
       - subseq: A
         upper: FL85
@@ -1304,7 +1304,7 @@ loa:
           - 531858N 0011152W
 
     replace:
-    - id: rhads-2
+    - id: rhads-cta-2
       geometry:
       - upper: FL105
         lower: 4500 ft
@@ -1324,7 +1324,7 @@ loa:
             radius: 8 nm
             centre: 532751N 0010036W
             to: 532401N 0011220W
-    - id: rhads-3
+    - id: rhads-cta-3
       geometry:
       - upper: FL60
         lower: 4500 ft
@@ -1338,7 +1338,7 @@ loa:
             radius: 13 nm
             centre: 532751N 0010036W
             to: 531641N 0011139W
-    - id: rhads-6
+    - id: rhads-cta-6
       geometry:
       - upper: FL105
         lower: 4500 ft
@@ -1583,7 +1583,7 @@ loa:
           - 554125N 0034549W
 
     replace:
-    - id: glasgow-cta1
+    - id: glasgow-cta-1
       geometry:
       - subseq: A
         upper: 6000 ft
@@ -1619,7 +1619,7 @@ loa:
           - 554349N 0034715W
           - 554354N 0034950W
 
-    - id: glasgow-cta2
+    - id: glasgow-cta-2
       geometry:
       - subseq: A
         upper: 6000 ft
@@ -1642,7 +1642,7 @@ loa:
           - 554125N 0034549W
           - 554125N 0034324W
 
-    - id: edinburgh-cta3
+    - id: edinburgh-cta-3
       geometry:
       - subseq: A
         upper: 6000 ft
@@ -1669,7 +1669,7 @@ loa:
           - 555417N 0035413W
           - 555724N 0035417W
 
-    - id: edinburgh-cta1
+    - id: edinburgh-cta-1
       geometry:
       - subseq: A
         upper: 6000 ft
@@ -1705,7 +1705,7 @@ loa:
           - 555647N 0034709W
           - 554939N 0034706W
 
-    - id: edinburgh-cta4
+    - id: edinburgh-cta-4
       geometry:
       - subseq: A
         upper: 6000 ft
@@ -1732,7 +1732,7 @@ loa:
           - 554125N 0034324W
           - 554349N 0034715W
 
-    - id: scottish-tma1
+    - id: scottish-tma-1
       geometry:
       - subseq: A
         upper: FL195
@@ -1783,7 +1783,7 @@ loa:
           - 565741N 0040728W
 
     replace:
-    - id: moray-10
+    - id: moray-cta-10
       geometry:
       - subseq: A
         upper: FL195
@@ -1825,7 +1825,7 @@ loa:
           - 521049N 0010650W
 
     replace:
-    - id: daventry-9
+    - id: daventry-cta-9
       geometry:
       - subseq: A
         upper: FL195
@@ -2111,7 +2111,7 @@ loa:
           - 543746N 0014946W
 
     replace:
-    - id: yorkshire-cta17
+    - id: yorkshire-cta-17
       geometry:
       - subseq: A
         class: D
@@ -2124,7 +2124,7 @@ loa:
           - 542344N 0014159W
           - 542615N 0020534W
 
-    - id: borders-cta11
+    - id: borders-cta-11
       geometry:
       - subseq: A
         class: D
@@ -2146,7 +2146,7 @@ loa:
           - 544240N 0014812W
           - 544124N 0013620W
 
-    - id: borders-cta10
+    - id: borders-cta-10
       geometry:
       - subseq: A
         class: D
@@ -2174,7 +2174,7 @@ loa:
           - 544240N 0014812W
           - 545352N 0015659W
 
-    - id: newcastle-cta4
+    - id: newcastle-cta-4
       geometry:
       - subseq: A
         upper: FL105
@@ -2191,7 +2191,7 @@ loa:
           - 545352N 0015659W
           - 545821N 0020025W
 
-    - id: newcastle-cta5
+    - id: newcastle-cta-5
       geometry:
       - subseq: A
         upper: FL55
@@ -2209,7 +2209,7 @@ loa:
             centre: 550217N 0014123W
             to: 545336N 0015304W
 
-    - id: newcastle-cta6
+    - id: newcastle-cta-6
       geometry:
       - subseq: A
         upper: FL55
@@ -2221,7 +2221,7 @@ loa:
           - 544240N 0014812W
           - 544605N 0015053W
 
-    - id: newcastle-cta7
+    - id: newcastle-cta-7
       geometry:
       - subseq: A
         upper: FL75
@@ -2565,7 +2565,7 @@ loa:
           - 562000N 0034746W
 
     replace:
-    - id: scottish-tma3
+    - id: scottish-tma-3
       geometry:
       - subseq: A
         upper: FL195
@@ -2650,7 +2650,7 @@ loa:
           - 515701N 0025836W
 
     replace:
-    - id: niton-9
+    - id: niton-cta-9
       geometry:
       - upper: FL195
         lower: FL145
@@ -2666,7 +2666,7 @@ loa:
           - 520215N 0030617W
           - 520749N 0030551W
           - 520817N 0032203W
-    - id: niton-12
+    - id: niton-cta-12
       geometry:
       - upper: FL195
         lower: FL145
@@ -2706,7 +2706,7 @@ loa:
           - 515153N 0025901W
 
     replace:
-    - id: cotswold-11
+    - id: cotswold-cta-11
       geometry:
       - upper: FL195
         lower: FL105
