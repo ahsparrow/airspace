@@ -2825,7 +2825,8 @@ loa:
     replace:
       - id: bristol-ctr
         geometry:
-        - upper: FL105
+        - subseq: A
+          upper: FL105
           lower: SFC
           boundary:
           - line:
@@ -2836,7 +2837,8 @@ loa:
               radius: 5 nm
               centre: 512258N 0024309W
               to: 511836N 0023915W
-        - lower: 2500 ft
+        - subseq: B
+          lower: 2500 ft
           upper: FL105
           boundary:
           - line:
@@ -2849,7 +2851,8 @@ loa:
               to: 511836N 0023915W
       - id: bristol-cta-1
         geometry:
-        - upper: FL105
+        - subseq: A
+          upper: FL105
           lower: 2500 ft
           boundary:
           - line:
@@ -2860,7 +2863,8 @@ loa:
               radius: 5 nm
               centre: 512258N 0024309W
               to: 511836N 0023915W
-        - upper: FL105
+        - subseq: B
+          upper: FL105
           lower: 1500 ft
           boundary:
           - line:
