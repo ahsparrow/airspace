@@ -2567,7 +2567,8 @@ loa:
     replace:
     - id: scottish-tma3
       geometry:
-      - upper: FL195
+      - subseq: A
+        upper: FL195
         lower: FL190
         boundary:
         - line:
@@ -2575,7 +2576,8 @@ loa:
           - 561400N 0033259W
           - 560700N 0032938W
           - 560700N 0040000W
-      - upper: FL195
+      - subseq: B
+        upper: FL195
         lower: 6000 ft
         boundary:
         - line:
@@ -2595,6 +2597,7 @@ loa:
     - id: tay-cta-1
       geometry:
       - id: p600-access-p600-a
+        subseq: A
         upper: FL195
         lower: FL190
         boundary:
@@ -2607,6 +2610,7 @@ loa:
     - id: tay-cta-2
       geometry:
       - id: p600-access-p600-b1
+        subseq: A
         upper: FL195
         lower: FL190
         boundary:
@@ -2618,6 +2622,7 @@ loa:
           - 561555N 0032923W
           - 562146N 0034425W
       - id: p600-access-600-b2
+        subseq: B
         upper: FL195
         lower: FL85
         boundary:
