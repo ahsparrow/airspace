@@ -1585,7 +1585,8 @@ loa:
     replace:
     - id: glasgow-cta1
       geometry:
-      - upper: 6000 ft
+      - subseq: A
+        upper: 6000 ft
         lower: 3000 ft
         boundary:
         - line:
@@ -1597,7 +1598,8 @@ loa:
           - 554354N 0034950W
           - 554742N 0035557W
           - 555733N 0035603W
-      - upper: 6000 ft
+      - subseq: B
+        upper: 6000 ft
         lower: 4000 ft
         boundary:
         - line:
@@ -1607,7 +1609,8 @@ loa:
           - 555724N 0035417W
           - 560700N 0034855W
           - 560700N 0035042W
-      - upper: 6000 ft
+      - subseq: C
+        upper: 6000 ft
         lower: 5000 ft
         boundary:
         - line:
@@ -1618,7 +1621,8 @@ loa:
 
     - id: glasgow-cta2
       geometry:
-      - upper: 6000 ft
+      - subseq: A
+        upper: 6000 ft
         lower: 3500 ft
         boundary:
         - line:
@@ -1628,7 +1632,8 @@ loa:
           - 553700N 0042847W
           - 554125N 0041017W
           - 554125N 0034549W
-      - upper: 6000 ft
+      - subseq: B
+        upper: 6000 ft
         lower: 5000 ft
         boundary:
         - line:
@@ -1639,7 +1644,8 @@ loa:
 
     - id: edinburgh-cta3
       geometry:
-      - upper: 6000 ft
+      - subseq: A
+        upper: 6000 ft
         lower: 3500 ft
         boundary:
         - line:
@@ -1652,7 +1658,8 @@ loa:
             to: 555916N 0033941W
         - line:
           - 555647N 0034709W
-      - upper: 6000 ft
+      - subseq: B
+        upper: 6000 ft
         lower: 4000 ft
         boundary:
         - line:
@@ -1664,7 +1671,8 @@ loa:
 
     - id: edinburgh-cta1
       geometry:
-      - upper: 6000 ft
+      - subseq: A
+        upper: 6000 ft
         lower: 2500 ft
         boundary:
         - line:
@@ -1678,7 +1686,8 @@ loa:
           - 554555N 0034107W
           - 554939N 0034706W
           - 555647N 0034709W
-      - upper: 6000 ft
+      - subseq: B
+        upper: 6000 ft
         lower: 5000 ft
         boundary:
         - line:
@@ -1686,7 +1695,8 @@ loa:
           - 554349N 0034715W
           - 554806N 0035411W
           - 554939N 0034706W
-      - upper: 6000 ft
+      - subseq: C
+        upper: 6000 ft
         lower: 4000 ft
         boundary:
         - line:
@@ -1697,7 +1707,8 @@ loa:
 
     - id: edinburgh-cta4
       geometry:
-      - upper: 6000 ft
+      - subseq: A
+        upper: 6000 ft
         lower: 3500 ft
         boundary:
         - line:
@@ -1711,7 +1722,8 @@ loa:
             radius: 10 nm
             centre: 555700N 0032221W
             to: 555442N 0030503W
-      - upper: 6000 ft
+      - subseq: B
+        upper: 6000 ft
         lower: 5000 ft
         boundary:
         - line:
@@ -1722,7 +1734,8 @@ loa:
 
     - id: scottish-tma1
       geometry:
-      - upper: FL195
+      - subseq: A
+        upper: FL195
         lower: 5000 ft
         boundary:
         - line:
@@ -1730,7 +1743,8 @@ loa:
           - 553824N 0032902W
           - 553728N 0033928W
           - 554125N 0034549W
-      - upper: FL195
+      - subseq: B
+        upper: FL195
         lower: 4500 ft
         boundary:
         - line:
@@ -1739,7 +1753,8 @@ loa:
           - 554125N 0034549W
           - 553728N 0033928W
           - 553302N 0042918W
-      - upper: FL195
+      - subseq: C
+        upper: FL195
         lower: 4500 ft
         boundary:
         - line:
