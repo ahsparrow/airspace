@@ -2652,8 +2652,7 @@ loa:
     replace:
     - id: niton-9
       geometry:
-      - seqno: 9
-        upper: FL195
+      - upper: FL195
         lower: FL145
         boundary:
         - line:
@@ -2669,8 +2668,7 @@ loa:
           - 520817N 0032203W
     - id: niton-12
       geometry:
-      - seqno: 12
-        upper: FL195
+      - upper: FL195
         lower: FL145
         boundary:
         - line:
