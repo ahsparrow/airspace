@@ -1451,8 +1451,7 @@ loa:
 
     - id: luton-cta-3
       geometry:
-      - seqno: 3
-        upper: 5500 ft
+      - upper: 5500 ft
         lower: 2500 ft
         boundary:
         - line:
@@ -1465,8 +1464,7 @@ loa:
 
     - id: luton-cta-5
       geometry:
-      - seqno: 5
-        upper: 5500 ft
+      - upper: 5500 ft
         lower: 3500 ft
         boundary:
         - line:
