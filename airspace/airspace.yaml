@@ -12944,27 +12944,6 @@ airspace:
         radius: 2 nm
         centre: 521817N 0004732W
 
-- name: SYWELL
-  type: OTHER
-  localtype: ILS
-  geometry:
-  - upper: 2424 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 521625N 0004844W
-      - 521051N 0005218W
-      - 521112N 0005332W
-      - 521631N 0004902W
-  - upper: 2424 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 522008N 0004620W
-      - 522543N 0004245W
-      - 522522N 0004130W
-      - 522003N 0004602W
-
 - name: NORWICH CTR
   id: norwich-ctr
   type: CTR
