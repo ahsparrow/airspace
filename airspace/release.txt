@@ -1,3 +1,6 @@
+AIRAC: 2022/03/24
+  BORDERS CTA 14 - Add
+
 Non-AIRAC:
   SYWELL ILS - Delete
 

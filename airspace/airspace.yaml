@@ -504,6 +504,15 @@ airspace:
       - 550601N 0013151W
       - 550123N 0013322W
       - 550313N 0015027W
+  - seqno: 14
+    class: D
+    upper: FL105
+    lower: FL75
+    boundary:
+    - line:
+      - 550751N 0014858W
+      - 550733N 0014613W
+      - 550643N 0014919W
 
 - name: BRISTOL CTA
   id: bristol-cta
