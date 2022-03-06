@@ -860,7 +860,7 @@ service:
   controls:
   - wittering-atz
   - wittering-matz
-  frequency: 119.500
+  frequency: 119.675
 
 - callsign: WOODVALE APPROACH
   controls:
