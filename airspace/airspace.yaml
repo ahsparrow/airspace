@@ -4702,18 +4702,6 @@ airspace:
         radius: 2.5 nm
         centre: 574224N 0032016W
 
-- name: LYNEHAM
-  type: ATZ
-  rules:
-  - NOTAM
-  geometry:
-  - upper: 2513 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 2.5 nm
-        centre: 513019N 0015936W
-
 - name: MARHAM
   id: marham-atz
   type: ATZ
