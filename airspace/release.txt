@@ -1,3 +1,7 @@
+Non-AIRAC:
+  BRIZE/FAIRFORD - Change service
+  WITTERING ZONE - Amend frequency
+
 AIRAC: 2022/03/24
   BORDERS CTA 14 - Add
 

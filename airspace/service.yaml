@@ -120,11 +120,11 @@ service:
   - bristol-ctr
   frequency: 125.650
 
-- callsign: BRIZE ZONE
+- callsign: BRIZE RADAR
   controls:
   - brize-ctr
   - fairford-atz
-  frequency: 124.275
+  frequency: 119.000
 
 - callsign: CAERNARFON RADIO
   controls:
@@ -860,7 +860,7 @@ service:
   controls:
   - wittering-atz
   - wittering-matz
-  frequency: 119.500
+  frequency: 119.675
 
 - callsign: WOODVALE APPROACH
   controls:
