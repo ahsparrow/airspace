@@ -441,6 +441,11 @@ service:
   - henstridge-noatz
   frequency: 130.255
 
+- callsign: HUMBERSIDE RADAR
+  controls:
+  - humbersize-atz
+  frequency: 119.130
+
 - callsign: INCE RADIO
   controls:
   - ince-ul
