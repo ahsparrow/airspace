@@ -4,7 +4,6 @@ import sys
 
 import yaixm.cli
 import yaixm.util_cli
-import yaixm.wwgc
 
 def cli():
     parser = argparse.ArgumentParser()
@@ -145,16 +144,6 @@ def cli():
                             type=argparse.FileType("w", encoding="ascii"),
                             default=sys.stdout)
     sub_parser.set_defaults(func=yaixm.cli.tnp)
-
-    # WWGC sub-command
-    sub_parser = subparsers.add_parser('wwgc', help='generate WWGC airspace')
-    sub_parser.add_argument("yaixm_dir",
-                            help="YAML input directory")
-    sub_parser.add_argument("openair_file", nargs="?",
-                            help="Openair output file, stdout if not specified",
-                            type=argparse.FileType("w", encoding="ascii"),
-                            default=sys.stdout)
-    sub_parser.set_defaults(func=yaixm.wwgc.wwgc)
 
     args = parser.parse_args()
     args.func(args)
