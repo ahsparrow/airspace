@@ -11,4 +11,13 @@
 # details (including a data schema and a validator) can be found in the
 # YAXIM project on GitLab at https://gitlab.com/ahsparrow/yaixm.
 
-rat: []
+rat:
+- name: RED ARROWS (28 MAR-8 APR)
+  type: P
+  geometry:
+  - upper: 9500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 5nm
+        centre: 530958N 0003126W
