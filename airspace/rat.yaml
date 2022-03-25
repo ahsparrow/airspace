@@ -19,5 +19,5 @@ rat:
     lower: SFC
     boundary:
     - circle:
-        radius: 5nm
+        radius: 5 nm
         centre: 530958N 0003126W
