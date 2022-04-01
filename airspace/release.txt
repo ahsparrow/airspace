@@ -1,3 +1,6 @@
+AIRAC: 2022/04/21
+  No changes
+
 Non-AIRAC:
   BRIZE/FAIRFORD - Change service
   DUNSTAABLE (HG/PG) LOA - Add
@@ -103,9 +106,3 @@ Non-AIRAC:
   OLD WARDEN RA(T) - Add
   D015 D061 D115A D124 D128 D304 - Add missing SI rule
   D126 - Remove OCNL NOTAM activated upper segment
-
-AIRAC: 2021/04/22
-  WHITE WALTHAM - Elevation changed
-
-AIRAC: 2021/03/25
-  No change
