@@ -1,3 +1,6 @@
+AIRAC: 2022/05/19
+  No changes
+
 AIRAC: 2022/04/21
   No changes
 
@@ -98,11 +101,3 @@ Non-AIRAC
   NEWQUAY CAS(T) - Add
   NEWQUAY RA(T) - Add
   MIDLANDS AIR FEST (RAT) - Add
-
-AIRAC: 2021/04/20
-  SWANSEA ATZ - Change coordinates
-
-Non-AIRAC:
-  OLD WARDEN RA(T) - Add
-  D015 D061 D115A D124 D128 D304 - Add missing SI rule
-  D126 - Remove OCNL NOTAM activated upper segment
