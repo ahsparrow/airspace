@@ -1408,6 +1408,69 @@ loa:
             to: 505042N 0031556W
 
 #----------------------------------------------------------------------
+- name: DUNSTABLE (HG/PG)
+  areas:
+  - name: DUNSTABLE (HG/PG)
+    add:
+    - name: DUNSTABLE (HG/PG)
+      type: CTA
+      class: D
+      geometry:
+      - upper: 3500 ft
+        lower: SFC
+        boundary:
+        - line:
+          - 515227N 0004006W
+          - 515511N 0002426W
+          - 515239N 0002710W
+          - 515133N 0003327W
+          - 515135N 0003730W
+          - 515114N 0003938W
+
+    replace:
+    - id: luton-ctr
+      geometry:
+      - upper: 3500 ft
+        lower: SFC
+        boundary:
+        - line:
+          - 515131N 0003754W
+          - 515135N 0003730W
+          - 515133N 0003327W
+          - 515240N 0002705W
+          - 515511N 0002426W
+          - 515743N 0002145W
+          - 515857N 0001434W
+        - arc:
+            dir: cw
+            radius: 8 nm
+            centre: 515229N 0002206W
+            to: 515042N 0000931W
+        - line:
+          - 514830N 0001506W
+          - 514503N 0003457W
+    - id: luton-cta-3
+      geometry:
+      - upper: 5500 ft
+        lower: 2500 ft
+        boundary:
+        - line:
+          - 514810N 0004155W
+          - 515150N 0004336W
+          - 515227N 0004006W
+          - 515114N 0003938W
+          - 515131N 0003754W
+          - 514905N 0003647W
+      - upper: 5500 ft
+        lower: 3500 ft
+        boundary:
+        - line:
+          - 515244N 0003828W
+          - 515227N 0004006W
+          - 515114N 0003938W
+          - 515131N 0003754W
+
+#----------------------------------------------------------------------
 - name: DUNSTABLE COMPS
   areas:
   - name: DUNSTABLE COMPS
