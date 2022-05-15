@@ -168,3 +168,119 @@ rat:
     - circle:
         radius: 2.5 nm
         centre: 521128N 0015406W
+  - upper: 8300 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 521146N 0015358W
+
+- name: COSFORD (12 JUN)
+  type: P
+  geometry:
+  - upper: 8300 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 523831N 0021805W
+
+- name: GOODWOOD (23-26 JUN)
+  type: P
+  geometry:
+  - upper: 8200 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 505220N 0004345W
+
+- name: HEADCORN (24 JUN)
+  type: P
+  geometry:
+  - upper: 8100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 510927N 0003827E
+
+- name: SCARBOROUGH (25 JUN)
+  type: P
+  geometry:
+  - upper: 8100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 541713N 0002303W
+
+- name: CLEETHORPES (25 JUN)
+  type: P
+  geometry:
+  - upper: 8100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 533329N 0000120W
+
+- name: WESTON-SUPER-MARE (26 JUN)
+  type: P
+  geometry:
+  - upper: 8000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 512024N 0025933W
+
+- name: SILVERSTONE (3 JUL)
+  type: P
+  geometry:
+  - upper: 8500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 520418N 0010022W
+
+- name: LOSSIEMOUTH (20 JUL)
+  type: P
+  geometry:
+  - upper: 8100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 574229N 0031926W
+
+- name: PETERHEAD (20 JUL)
+  type: P
+  geometry:
+  - upper: 8100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 572948N 0014621W
+
+- name: LEEMING (21 JUL)
+  type: P
+  geometry:
+  - upper: 8100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 541738N 0013150W
+
+- name: MARHAM (28 JUL)
+  type: P
+  geometry:
+  - upper: 8100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 523909N 0003320E
