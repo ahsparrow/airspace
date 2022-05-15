@@ -158,3 +158,13 @@ rat:
       - 512620N 0012925W
       - 511835N 0012810W
       - 511726N 0012843W
+
+- name: MIDLANDS AIR FESTIVAL (2-4 JUN)
+  type: P
+  geometry:
+  - upper: 6500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.5 nm
+        centre: 521128N 0015406W
