@@ -8879,6 +8879,17 @@ airspace:
         radius: 0.65 nm
         centre: 572728N 0014852W
 
+- name: COLERNE
+  type: D_OTHER
+  localtype: HIRTA
+  geometry:
+  - upper: 3700 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.9 nm
+        centre: 512639N 0021640W
+
 - name: COWES
   type: D_OTHER
   localtype: HIRTA
