@@ -105,14 +105,3 @@ Non-AIRAC:
   HEADCORN RA(T) - Add
   RED ARROWS RA(T)s - Add
   STONEHENGE RA(T) - Add
-
-AIRAC: 2021/06/17
-  CAMBRIDGE ATZ - Amend elevation
-  NEWQUAY ATZ - Amend elevation
-  OAKLEY UL - Delete
-
-Non-AIRAC
-  KEEVIL TEMPORARY DANGER AREA - Add
-  NEWQUAY CAS(T) - Add
-  NEWQUAY RA(T) - Add
-  MIDLANDS AIR FEST (RAT) - Add
