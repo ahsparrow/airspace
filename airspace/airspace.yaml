@@ -8945,6 +8945,17 @@ airspace:
         radius: 1.9 nm
         centre: 500302N 0051104W
 
+- name: MADLEY
+  type: D_OTHER
+  localtype: HIRTA
+  geometry:
+  - upper: 6700 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: n nm
+        centre: 520153N 0025023W
+
 - name: OAKHANGER
   type: D_OTHER
   localtype: HIRTA
