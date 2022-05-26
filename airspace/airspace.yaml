@@ -8839,12 +8839,12 @@ airspace:
   type: D_OTHER
   localtype: HIRTA
   geometry:
-  - upper: 850 ft
+  - upper: 600 ft
     lower: SFC
     boundary:
     - circle:
-        radius: 0.05 nm
-        centre: 520001N 0012105W
+        radius: 0.25 nm
+        centre: 520014N 0012138W
 
 - name: BLACK HILL
   type: D_OTHER
@@ -8861,22 +8861,22 @@ airspace:
   type: D_OTHER
   localtype: HIRTA
   geometry:
-  - upper: 1600 ft
+  - upper: 300 ft
     lower: SFC
     boundary:
     - circle:
-        radius: 0.9 nm
-        centre: 552400N 0013706W
+        radius: 0.15 nm
+        centre: 552428N 0013720W
 
 - name: BUCHAN
   type: D_OTHER
   localtype: HIRTA
   geometry:
-  - upper: 4000 ft
+  - upper: 600 ft
     lower: SFC
     boundary:
     - circle:
-        radius: 0.65 nm
+        radius: 0.15 nm
         centre: 572728N 0014852W
 
 - name: COLERNE
@@ -8894,12 +8894,12 @@ airspace:
   type: D_OTHER
   localtype: HIRTA
   geometry:
-  - upper: 920 ft
+  - upper: 400 ft
     lower: SFC
     boundary:
     - circle:
         radius: 0.25 nm
-        centre: 504502N 0011805W
+        centre: 504551N 0011836W
 
 - name: CROUGHTON
   type: D_OTHER
@@ -8916,45 +8916,45 @@ airspace:
   type: D_OTHER
   localtype: HIRTA
   geometry:
-  - upper: 1925 ft
+  - upper: 2200 ft
     lower: SFC
     boundary:
     - circle:
         radius: 0.08 nm
-        centre: 533641N 0014002W
+        centre: 533644N 0013952W
 
 - name: FAREHAM
   type: D_OTHER
   localtype: HIRTA
   geometry:
-  - upper: 1600 ft
+  - upper: 700 ft
     lower: SFC
     boundary:
     - circle:
-        radius: 0.25 nm
-        centre: 505002N 0011105W
+        radius: 0.2 nm
+        centre: 505015N 0011130W
 
 - name: FYLINGDALES
   type: D_OTHER
   localtype: HIRTA
   geometry:
-  - upper: 40000 ft
+  - upper: 13600 ft
     lower: SFC
     boundary:
     - circle:
-        radius: 5 nm
-        centre: 542147N 0004012W
+        radius: 2.5 nm
+        centre: 542143N 0004013W
 
 - name: GOONHILLY
   type: D_OTHER
   localtype: HIRTA
   geometry:
-  - upper: 11800 ft
+  - upper: 5600 ft
     lower: SFC
     boundary:
     - circle:
-        radius: 1.9 nm
-        centre: 500302N 0051104W
+        radius: 0.85 nm
+        centre: 500302N 0051100W
 
 - name: MADLEY
   type: D_OTHER
@@ -8964,19 +8964,19 @@ airspace:
     lower: SFC
     boundary:
     - circle:
-        radius: n nm
+        radius: 2 nm
         centre: 520153N 0025023W
 
 - name: OAKHANGER
   type: D_OTHER
   localtype: HIRTA
   geometry:
-  - upper: 10500 ft
+  - upper: 3800 ft
     lower: SFC
     boundary:
     - circle:
-        radius: 2.4 nm
-        centre: 510656N 0005337W
+        radius: 1.5 nm
+        centre: 510651N 0005334W
 
 - name: PERSHORE
   type: D_OTHER
@@ -8993,12 +8993,12 @@ airspace:
   type: D_OTHER
   localtype: HIRTA
   geometry:
-  - upper: 1500 ft
+  - upper: 450 ft
     lower: SFC
     boundary:
     - circle:
-        radius: 0.2 nm
-        centre: 501621N 0051552W
+        radius: 0.15 nm
+        centre: 501614N 0051623W
 
 - name: PORTSDOWN
   type: D_OTHER
@@ -9015,100 +9015,243 @@ airspace:
   type: D_OTHER
   localtype: HIRTA
   geometry:
-  - upper: 3500 ft
+  - upper: 2200 ft
     lower: SFC
     boundary:
     - circle:
-        radius: 0.25 nm
-        centre: 544454N 0030805W
+        radius: 0.04 nm
+        centre: 544457N 0030826W
 
 - name: SKELTON
   type: D_OTHER
   localtype: HIRTA
   geometry:
-  - upper: 2400 ft
+  - upper: 2200 ft
     lower: SFC
     boundary:
     - circle:
-        radius: 0.7 nm
-        centre: 544400N 0025320W
+        radius: 0.35 nm
+        centre: 544354N 0025259W
 
 - name: SPADEADAM-1
   type: D_OTHER
   localtype: HIRTA
   geometry:
-  - upper: 2000 ft
+  - upper: 2800 ft
     lower: SFC
     boundary:
     - circle:
         radius: 0.2 nm
-        centre: 550300N 0023305W
+        centre: 551258N 0024125W
 
 - name: SPADEADAM-2
   type: D_OTHER
   localtype: HIRTA
   geometry:
-  - upper: 2000 ft
+  - upper: 2800 ft
     lower: SFC
     boundary:
     - circle:
-        radius: 0.25 nm
+        radius: 0.2 nm
+        centre: 550748N 0022910W
+
+- name: SPADEADAM-3
+  type: D_OTHER
+  localtype: HIRTA
+  geometry:
+  - upper: 2800 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.2 nm
+        centre: 545538N 0022325W
+
+- name: SPADEADAM-4
+  type: D_OTHER
+  localtype: HIRTA
+  geometry:
+  - upper: 2800 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.2 nm
+        centre: 550037N 0023307W
+
+- name: SPADEADAM-5
+  type: D_OTHER
+  localtype: HIRTA
+  geometry:
+  - upper: 2800 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.2 nm
+        centre: 550513N 0023815W
+
+- name: SPADEADAM-6
+  type: D_OTHER
+  localtype: HIRTA
+  geometry:
+  - upper: 2800 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.2 nm
+        centre: 550226N 0023744W
+
+- name: SPADEADAM-7
+  type: D_OTHER
+  localtype: HIRTA
+  geometry:
+  - upper: 2800 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.2 nm
+        centre: 550349N 0023558W
+
+- name: SPADEADAM-8
+  type: D_OTHER
+  localtype: HIRTA
+  geometry:
+  - upper: 2800 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.2 nm
+        centre: 550207N 0023444W
+
+- name: SPADEADAM-9
+  type: D_OTHER
+  localtype: HIRTA
+  geometry:
+  - upper: 2800 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.2 nm
         centre: 550307N 0023311W
+
+- name: SPADEADAM-10
+  type: D_OTHER
+  localtype: HIRTA
+  geometry:
+  - upper: 2800 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.2 nm
+        centre: 550404N 0023417W
+
+- name: SPADEADAM-11
+  type: D_OTHER
+  localtype: HIRTA
+  geometry:
+  - upper: 2800 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.2 nm
+        centre: 550207N 0023444W
+
+- name: SPADEADAM-12
+  type: D_OTHER
+  localtype: HIRTA
+  geometry:
+  - upper: 2800 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.2 nm
+        centre: 550326N 0023410W
+
+- name: SPADEADAM-13
+  type: D_OTHER
+  localtype: HIRTA
+  geometry:
+  - upper: 2800 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.2 nm
+        centre: 550404N 0023353W
+
+- name: SPADEADAM-14
+  type: D_OTHER
+  localtype: HIRTA
+  geometry:
+  - upper: 2800 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.2 nm
+        centre: 550137N 0023336W
+
+- name: SPADEADAM-15
+  type: D_OTHER
+  localtype: HIRTA
+  geometry:
+  - upper: 2800 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.2 nm
+        centre: 550148N 0023237W
 
 - name: STAXTON WOLD
   type: D_OTHER
   localtype: HIRTA
   geometry:
-  - upper: 2000 ft
+  - upper: 750 ft
     lower: SFC
     boundary:
     - circle:
-        radius: 0.9 nm
-        centre: 541101N 0002506W
+        radius: 0.15 nm
+        centre: 541116N 0002600W
 
 - name: SWINGATE
   type: D_OTHER
   localtype: HIRTA
   geometry:
-  - upper: 1000 ft
+  - upper: 650 ft
     lower: SFC
     boundary:
     - circle:
-        radius: 0.75 nm
-        centre: 510812N 0012011E
+        radius: 0.07 nm
+        centre: 510759N 0012037E
 
 - name: TACOLNESTON
   type: D_OTHER
   localtype: HIRTA
   geometry:
-  - upper: 3300 ft
+  - upper: 1300 ft
     lower: SFC
     boundary:
     - circle:
-        radius: 0.5 nm
-        centre: 523101N 0010824E
+        radius: 0.15 nm
+        centre: 523108N 0010818E
 
 - name: WOODHAM FERRERS
   type: D_OTHER
   localtype: HIRTA
   geometry:
-  - upper: 1250 ft
+  - upper: 850 ft
     lower: SFC
     boundary:
     - circle:
-        radius: 0.25 nm
-        centre: 513932N 0003654E
+        radius: 0.2 nm
+        centre: 513929N 0003710E
 
 - name: WOOFFERTON
   type: D_OTHER
   localtype: HIRTA
   geometry:
-  - upper: 2100 ft
+  - upper: 1600 ft
     lower: SFC
     boundary:
     - circle:
         radius: 0.7 nm
-        centre: 521901N 0024305W
+        centre: 521850N 0024319W
 
 #----------------------------------------------------------------------
 # ENR 5.3 (cont) LASERs
