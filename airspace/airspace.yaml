@@ -8905,11 +8905,11 @@ airspace:
   type: D_OTHER
   localtype: HIRTA
   geometry:
-  - upper: 6400 ft
+  - upper: 2900 ft
     lower: SFC
     boundary:
     - circle:
-        radius: 2 nm
+        radius: 1.2 nm
         centre: 515921N 0011049W
 
 - name: EMLEY MOOR
