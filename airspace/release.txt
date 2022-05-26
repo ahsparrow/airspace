@@ -2,6 +2,7 @@ AIRAC: 2022/06/16
   COLERNE HIRTA - Add
   COUGHTON HIRTA - Amend geometry
   MADLEY HIRTA - Add
+  PERSHORE HIRTA - Amend position
 
 Non-AIRAC:
   JUBILEE FLYPAST RA(T) - Add
