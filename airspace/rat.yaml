@@ -22,6 +22,16 @@ rat:
         radius: 3 nm
         centre: 520512N 0001907W
 
+- name: COSFORD (10-12 JUN)
+  type: P
+  geometry:
+  - upper: 5300 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 523824N 0021819W
+
 - name: COSFORD (12 JUN)
   type: P
   geometry:
