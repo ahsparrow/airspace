@@ -52,6 +52,16 @@ rat:
         radius: 2 nm
         centre: 504318N 0011557W
 
+- name: DUXFORD (17-19 JUN)
+  type: P
+  geometry:
+  - upper: 4500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.2 nm
+        centre: 520539N 0000753E
+
 - name: GOODWOOD (23-26 JUN)
   type: P
   geometry:
