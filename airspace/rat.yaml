@@ -101,6 +101,12 @@ rat:
     - circle:
         radius: 6 nm
         centre: 541713N 0002303W
+  - upper: 3000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.5 nm
+        centre: 541645N 0002310W
 
 - name: CLEETHORPES (25 JUN)
   type: P
