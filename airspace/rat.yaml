@@ -134,7 +134,7 @@ rat:
         radius: 6 nm
         centre: 512024N 0025933W
 
-- name: SILVERSTONE (3 JUL)
+- name: SILVERSTONE (1-3 JUL)
   type: P
   geometry:
   - upper: 8500 ft
@@ -143,6 +143,23 @@ rat:
     - circle:
         radius: 6 nm
         centre: 520418N 0010022W
+  - upper: 2500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 520323N 0005357W
+      - 515958N 0010239W
+      - 520055N 0010339W
+    - arc:
+        dir: ccw
+        radius: 2 nm
+        centre: 520227N 0010544W
+        to: 520422N 0010500W
+    - line:
+      - 520422N 0010500W
+      - 520623N 0010520W
+      - 520815N 0005940W
+      - 520457N 0005357W
 
 - name: LOSSIEMOUTH (20 JUL)
   type: P
