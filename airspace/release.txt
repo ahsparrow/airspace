@@ -3,6 +3,7 @@ Non-AIRAC:
   COSFORD RA(T) - Add
   DUXFORD RA(T) - Add
   GLASTONBURY RA(T) - Add
+  HEADCORN RA(T) - Add
   SCARBOROUGH RA(T) - Add
   IOW FESTIVAL RA(T) - Add
 

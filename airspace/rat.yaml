@@ -82,7 +82,7 @@ rat:
         radius: 6 nm
         centre: 505220N 0004345W
 
-- name: HEADCORN (24 JUN)
+- name: HEADCORN (24-26 JUN)
   type: P
   geometry:
   - upper: 8100 ft
@@ -90,6 +90,12 @@ rat:
     boundary:
     - circle:
         radius: 6 nm
+        centre: 510927N 0003827E
+  - upper: 3500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 5 nm
         centre: 510927N 0003827E
 
 - name: SCARBOROUGH (25 JUN)
