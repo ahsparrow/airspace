@@ -146,6 +146,12 @@ rat:
   - upper: 2500 ft
     lower: SFC
     boundary:
+    - circle:
+        radius: 2 nm
+        centre: 520227N 0010544W
+  - upper: 2500 ft
+    lower: SFC
+    boundary:
     - line:
       - 520323N 0005357W
       - 515958N 0010239W
