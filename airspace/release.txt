@@ -2,6 +2,7 @@ Non-AIRAC:
   Update all HIRTA
   COSFORD RA(T) - Add
   DUXFORD RA(T) - Add
+  GLASTONBURY RA(T) - Add
   IOW FESTIVAL RA(T) - Add
 
 AIRAC: 2022/06/16

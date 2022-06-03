@@ -62,6 +62,16 @@ rat:
         radius: 2.2 nm
         centre: 520539N 0000753E
 
+- name: GLASTONBURY (19-28 JUN)
+  type: P
+  geometry:
+  - upper: 3100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.5 nm
+        centre: 510921N 0023510W
+
 - name: GOODWOOD (23-26 JUN)
   type: P
   geometry:
