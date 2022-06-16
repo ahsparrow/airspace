@@ -7,6 +7,7 @@ Non-AIRAC:
   SCARBOROUGH RA(T) - Add
   SILVERSTONE RA(T) - Add
   IOW FESTIVAL RA(T) - Add
+  Correct longitude of CROUGHTON HIRTA
 
 AIRAC: 2022/06/16
   COLERNE HIRTA - Add

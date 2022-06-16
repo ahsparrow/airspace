@@ -8910,7 +8910,7 @@ airspace:
     boundary:
     - circle:
         radius: 1.2 nm
-        centre: 515921N 0011049W
+        centre: 515916N 0011112W
 
 - name: EMLEY MOOR
   type: D_OTHER
