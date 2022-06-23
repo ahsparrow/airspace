@@ -13208,17 +13208,6 @@ airspace:
       - 514225N 0012200W
       - 514816N 0011954W
 
-- name: PEMBREY
-  id: pembrey-atz
-  type: ATZ
-  geometry:
-  - upper: 2015 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 2 nm
-        centre: 514250N 0041844W
-
 - name: PERTH
   id: perth-atz
   type: ATZ
