@@ -1,3 +1,6 @@
+AIRAC: 2022/07/13
+  SCOTTISH TMA - Minor coordinate change
+
 Non-AIRAC:
   Update all HIRTA
   COSFORD RA(T) - Add
@@ -104,12 +107,3 @@ Non-AIRAC:
   KENLEY - Freqeuency change
   SILVERSTONE RA(T) - Add
   Various NOTAM activated DZ height extensions - Remove
-
-AIRAC: 2021/07/15
-  No changes
-
-Non-AIRAC:
-  CLEETHORPES RA(T) - Add
-  HEADCORN RA(T) - Add
-  RED ARROWS RA(T)s - Add
-  STONEHENGE RA(T) - Add
