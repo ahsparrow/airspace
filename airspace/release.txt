@@ -1,3 +1,30 @@
+AIRAC: 2022/07/13
+  PEMBREY ATZ - Delete
+  SCOTTISH TMA - Minor coordinate change
+
+Non-AIRAC:
+  Update all HIRTA
+  COSFORD RA(T) - Add
+  DUXFORD RA(T) - Add
+  GLASTONBURY RA(T) - Add
+  HEADCORN RA(T) - Add
+  SCARBOROUGH RA(T) - Add
+  SILVERSTONE RA(T) - Add
+  IOW FESTIVAL RA(T) - Add
+  Correct longitude of CROUGHTON HIRTA
+
+AIRAC: 2022/06/16
+  COLERNE HIRTA - Add
+  COUGHTON HIRTA - Amend geometry
+  MADLEY HIRTA - Add
+  PERSHORE HIRTA - Amend position
+
+Non-AIRAC:
+  JUBILEE FLYPAST RA(T) - Add
+  JUBILEE REHEARSAL RA(T) - Add
+  MIDLANDS AIR FESTIVAL RA(T) - Add
+  RED ARROWS RA(T)s - Add
+
 AIRAC: 2022/05/19
   No changes
 
@@ -81,23 +108,3 @@ Non-AIRAC:
   KENLEY - Freqeuency change
   SILVERSTONE RA(T) - Add
   Various NOTAM activated DZ height extensions - Remove
-
-AIRAC: 2021/07/15
-  No changes
-
-Non-AIRAC:
-  CLEETHORPES RA(T) - Add
-  HEADCORN RA(T) - Add
-  RED ARROWS RA(T)s - Add
-  STONEHENGE RA(T) - Add
-
-AIRAC: 2021/06/17
-  CAMBRIDGE ATZ - Amend elevation
-  NEWQUAY ATZ - Amend elevation
-  OAKLEY UL - Delete
-
-Non-AIRAC
-  KEEVIL TEMPORARY DANGER AREA - Add
-  NEWQUAY CAS(T) - Add
-  NEWQUAY RA(T) - Add
-  MIDLANDS AIR FEST (RAT) - Add

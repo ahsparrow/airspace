@@ -21,3 +21,184 @@ rat:
     - circle:
         radius: 3 nm
         centre: 520512N 0001907W
+
+- name: COSFORD (10-12 JUN)
+  type: P
+  geometry:
+  - upper: 5300 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 523824N 0021819W
+  - upper: 8300 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 523831N 0021805W
+
+- name: IOW FESTIVAL (15-20 JUN)
+  type: P
+  geometry:
+  - upper: 2500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2 nm
+        centre: 504318N 0011557W
+
+- name: DUXFORD (17-19 JUN)
+  type: P
+  geometry:
+  - upper: 4500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.2 nm
+        centre: 520539N 0000753E
+
+- name: GLASTONBURY (19-28 JUN)
+  type: P
+  geometry:
+  - upper: 3100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.5 nm
+        centre: 510921N 0023510W
+
+- name: GOODWOOD (23-26 JUN)
+  type: P
+  geometry:
+  - upper: 8200 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 505220N 0004345W
+
+- name: HEADCORN (24-26 JUN)
+  type: P
+  geometry:
+  - upper: 8100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 510927N 0003827E
+  - upper: 3500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 5 nm
+        centre: 510927N 0003827E
+
+- name: SCARBOROUGH (25 JUN)
+  type: P
+  geometry:
+  - upper: 8100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 541713N 0002303W
+  - upper: 3000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.5 nm
+        centre: 541645N 0002310W
+
+- name: CLEETHORPES (25 JUN)
+  type: P
+  geometry:
+  - upper: 8100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 533329N 0000120W
+
+- name: WESTON-SUPER-MARE (26 JUN)
+  type: P
+  geometry:
+  - upper: 8000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 512024N 0025933W
+
+- name: SILVERSTONE (1-3 JUL)
+  type: P
+  geometry:
+  - upper: 8500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 520418N 0010022W
+  - upper: 2500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2 nm
+        centre: 520227N 0010544W
+  - upper: 2500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 520323N 0005357W
+      - 515958N 0010239W
+      - 520055N 0010339W
+    - arc:
+        dir: ccw
+        radius: 2 nm
+        centre: 520227N 0010544W
+        to: 520422N 0010500W
+    - line:
+      - 520422N 0010500W
+      - 520623N 0010520W
+      - 520815N 0005940W
+      - 520457N 0005357W
+
+- name: LOSSIEMOUTH (20 JUL)
+  type: P
+  geometry:
+  - upper: 8100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 574229N 0031926W
+
+- name: PETERHEAD (20 JUL)
+  type: P
+  geometry:
+  - upper: 8100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 572948N 0014621W
+
+- name: LEEMING (21 JUL)
+  type: P
+  geometry:
+  - upper: 8100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 541738N 0013150W
+
+- name: MARHAM (28 JUL)
+  type: P
+  geometry:
+  - upper: 8100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 523909N 0003320E
