@@ -1,3 +1,7 @@
+Non-AIRAC:
+  DUXFORD ATZ - Correct frequency
+  OLD SARUM - Corret frequency
+
 AIRAC: 2022/07/13
   PEMBREY ATZ - Delete
   SCOTTISH TMA - Minor coordinate change

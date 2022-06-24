@@ -295,7 +295,7 @@ service:
 - callsign: DUXFORD INFORMATION
   controls:
   - duxford-atz
-  frequency: 121.080
+  frequency: 122.080
 
 - callsign: EAGLESCOTT RADIO
   controls:
@@ -619,7 +619,7 @@ service:
 - callsign: OLD SARUM RADIO
   controls:
   - old-sarum-atz
-  frequency: 123.205
+  frequency: 129.905
 
 - callsign: OLD WARDEN INFORMATION
   controls:

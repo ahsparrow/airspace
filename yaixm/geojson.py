@@ -100,7 +100,7 @@ def geojson(airspace, resolution=15):
             if feature.get('localtype'):
                 properties['localtype'] = feature.get('localtype')
 
-            rules = feature.get('rules', [])
+            rules = feature.get('rules', [])[:]
             rules.extend(volume.get('rules', []))
             if rules:
                 properties['rules'] = rules
