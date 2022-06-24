@@ -3,7 +3,7 @@ import os.path
 from .convert import Openair, seq_name
 from .helpers import level, load, merge_loa
 
-LOA_NAMES = ["DAVENTRY BOX"]
+LOA_NAMES = ["DAVENTRY BOX", "NUCLEAR EXEMPTIONS"]
 RAT_NAMES = []
 
 HEADER = """
@@ -15,11 +15,14 @@ def filter_func(volume, feature):
     if level(volume['lower']) >= 10000:
         return False
 
+    if "NOTAM" in feature.get('rules', []):
+        return False
+
     return feature.get('localtype', "") not in [
-            'GLIDER', 'GVS', 'HIRTA', 'ILS', 'LASER', 'MATZ', 'NOATZ', 'UL']
+            'GLIDER', 'GVS', 'HIRTA', 'ILS', 'LASER', 'NOATZ', 'UL']
 
 def type_func(volume, feature):
-    if "NOTAM" in feature.get('rules', []):
+    if feature.get('localtype') == "MATZ":
         return "G"
     elif feature['type'] == "ATZ":
         return "R"
