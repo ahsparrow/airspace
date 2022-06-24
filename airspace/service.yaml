@@ -295,7 +295,7 @@ service:
 - callsign: DUXFORD INFORMATION
   controls:
   - duxford-atz
-  frequency: 121.080
+  frequency: 122.080
 
 - callsign: EAGLESCOTT RADIO
   controls:
