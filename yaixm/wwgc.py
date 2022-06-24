@@ -5,6 +5,7 @@ from .helpers import level, load, merge_loa
 
 LOA_NAMES = ["DAVENTRY BOX", "NUCLEAR EXEMPTIONS"]
 RAT_NAMES = []
+NOTAM_OVERRIDE = "OLD WARDEN"
 
 HEADER = """
 Version [Preliminary]
@@ -16,7 +17,8 @@ def filter_func(volume, feature):
         return False
 
     if "NOTAM" in feature.get('rules', []):
-        return False
+        if feature['name'] not in NOTAM_OVERRIDE:
+            return False
 
     return feature.get('localtype', "") not in [
             'GLIDER', 'GVS', 'HIRTA', 'ILS', 'LASER', 'NOATZ', 'UL']
