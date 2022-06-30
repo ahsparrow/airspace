@@ -3,6 +3,7 @@ Non-AIRAC:
   FARNBOROUGH RA(T) - Add
   FAIRFORD RA(T) - Add
   OLD SARUM - Correct frequency
+  OLD WARDEN RA(T) - Add
 
 AIRAC: 2022/07/13
   PEMBREY ATZ - Delete

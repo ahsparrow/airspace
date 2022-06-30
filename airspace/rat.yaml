@@ -190,6 +190,18 @@ rat:
         radius: 6 nm
         centre: 541738N 0013150W
 
+- name: OLD WARDEN (23-24 JUL)
+  type: P
+  geometry:
+  - upper: 1500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 520904N 0001627W
+      - 520550N 0002214W
+      - 515944N 0001840W
+      - 520454N 0000549W
+
 - name: MARHAM (28 JUL)
   type: P
   geometry:
