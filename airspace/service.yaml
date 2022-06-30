@@ -489,7 +489,7 @@ service:
 - callsign: LEE RADIO
   controls:
   - lee-on-solent-atz
-  frequency: 118.925
+  frequency: 118.930
 
 - callsign: LEEDS APPROACH
   controls:
