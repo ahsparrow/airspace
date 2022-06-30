@@ -8,8 +8,14 @@ RAT_NAMES = []
 NOTAM_OVERRIDE = "OLD WARDEN"
 
 HEADER = """
-Version [Preliminary]
+Version: Draft 1
+30/6/22
+
 WWGC 2022
+
+Airspace type "P" are penalty areas.
+Airspace type "R" are ATZs. See local rules.
+Airspace type "G" are MATZs. Infomation only, NOT penalty.
 """
 
 def filter_func(volume, feature):
