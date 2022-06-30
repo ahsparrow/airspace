@@ -1,6 +1,7 @@
 Non-AIRAC:
   DUXFORD ATZ - Correct frequency
-  OLD SARUM - Corret frequency
+  FAIRFORD RA(T) - Add
+  OLD SARUM - Correct frequency
 
 AIRAC: 2022/07/13
   PEMBREY ATZ - Delete
