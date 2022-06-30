@@ -1,8 +1,14 @@
+AIRAC: 2022/08/11
+  LEE RADIO - Update frequency
+
 Non-AIRAC:
   DUXFORD ATZ - Correct frequency
-  OLD SARUM - Corret frequency
+  FARNBOROUGH RA(T) - Add
+  FAIRFORD RA(T) - Add
+  OLD SARUM - Correct frequency
+  OLD WARDEN RA(T) - Add
 
-AIRAC: 2022/07/13
+AIRAC: 2022/07/14
   PEMBREY ATZ - Delete
   SCOTTISH TMA - Minor coordinate change
 
