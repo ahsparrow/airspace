@@ -15,7 +15,7 @@ WWGC 2022
 
 Airspace type "P" are penalty areas.
 Airspace type "R" are ATZs. See local rules.
-Airspace type "G" are MATZs. Infomation only, NOT penalty.
+Airspace type "G" are MATZs. Information only, NOT penalty.
 """
 
 def filter_func(volume, feature):
