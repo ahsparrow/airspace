@@ -55,6 +55,61 @@ rat:
       - 520815N 0005940W
       - 520457N 0005357W
 
+- name: FARNBOROUGH (11-24 JUL)
+  type: P
+  geometry:
+  - upper: 5500 ft
+    lower: SFC
+    boundary:
+      - line:
+        - 512431N 0004525W
+      - arc:
+          dir: ccw
+          radius: 12 nm
+          centre: 512812N 0002713W
+          to: 512104N 0004242W
+      - line:
+        - 512013N 0003800W
+        - 512013N 0003515W
+      - arc:
+          dir: cw
+          radius: 8 nm
+          centre: 511633N 0004635W
+          to: 512431N 0004525W
+  - upper: 5500 ft
+    lower: 2500 ft
+    boundary:
+      - line:
+        - 511411N 0005849W
+      - arc:
+          dir: ccw
+          radius: 8 nm
+          centre: 511633N 0004635W
+          to: 511121N 0005622W
+      - line:
+        - 511143N 0005851W
+      - arc:
+          dir: cw
+          radius: 4.72 nm
+          centre: 511256N 0005136W
+          to: 511411N 0005849W
+  - upper: 5500 ft
+    lower: 2500 ft
+    boundary:
+      - line:
+        - 511014N 0003325W
+        - 510832N 0004055W
+        - 505832N 0003428W
+        - 505616N 0005119W
+        - 510602N 0005439W
+        - 511143N 0005851W
+        - 511122N 0005622W
+      - arc:
+          dir: ccw
+          radius: 8 nm
+          centre: 511633N 0004635W
+          to: 511302N 0003511W
+
 - name: FAIRFORD (13-17 JUL)
   type: P
   geometry:

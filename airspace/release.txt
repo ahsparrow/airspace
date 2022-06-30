@@ -1,5 +1,6 @@
 Non-AIRAC:
   DUXFORD ATZ - Correct frequency
+  FARNBOROUGH RA(T) - Add
   FAIRFORD RA(T) - Add
   OLD SARUM - Correct frequency
 
