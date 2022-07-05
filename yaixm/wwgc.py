@@ -30,12 +30,10 @@ def filter_func(volume, feature):
             return False
 
     return feature.get('localtype', "") not in [
-            'GLIDER', 'GVS', 'HIRTA', 'ILS', 'LASER', 'NOATZ', 'UL']
+            'GLIDER', 'GVS', 'HIRTA', 'ILS', 'LASER', 'NOATZ', 'UL', 'MATZ']
 
 def type_func(volume, feature):
-    if feature.get('localtype') == "MATZ":
-        return "G"
-    elif feature['type'] == "ATZ":
+    if feature['type'] == "ATZ":
         return "R"
     else:
         return "P"
