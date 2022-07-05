@@ -6,6 +6,7 @@ from .helpers import level, load, merge_loa
 LOA_NAMES = ["DAVENTRY BOX", "NUCLEAR EXEMPTIONS"]
 RAT_NAMES = []
 NOTAM_OVERRIDE = "OLD WARDEN"
+DISABLED_AIRSPACE = ["R219 SANDRINGHAM HOUSE"]
 
 HEADER = """
 Version: Draft 1
@@ -15,10 +16,12 @@ WWGC 2022
 
 Airspace type "P" are penalty areas.
 Airspace type "R" are ATZs. See local rules.
-Airspace type "G" are MATZs. Information only, NOT penalty.
 """
 
 def filter_func(volume, feature):
+    if volume['name'] in DISABLED_AIRSPACE:
+        return False
+
     if level(volume['lower']) >= 10000:
         return False
 
