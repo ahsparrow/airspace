@@ -1,3 +1,7 @@
+Non-AIRAC:
+  KEEVIL DZ - Add NOTAM rule
+  MIDDLE WALLOP DZ - Add NOTAM rule
+
 AIRAC: 2022/08/11
   LEE RADIO - Update frequency
 
