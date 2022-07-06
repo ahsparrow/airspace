@@ -9494,6 +9494,8 @@ airspace:
 - name: KEEVIL
   type: D_OTHER
   localtype: DZ
+  rules:
+  - NOTAM
   geometry:
   - upper: FL150
     lower: SFC
@@ -9997,8 +9999,6 @@ airspace:
   id: keevil-glider
   type: OTHER
   localtype: GLIDER
-  rules:
-  - NOTAM
   geometry:
   - upper: 3200 ft
     lower: SFC
