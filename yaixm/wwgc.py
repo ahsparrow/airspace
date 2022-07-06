@@ -19,7 +19,7 @@ Airspace type "R" are ATZs. See local rules.
 """
 
 def filter_func(volume, feature):
-    if volume['name'] in DISABLED_AIRSPACE:
+    if feature['name'] in DISABLED_AIRSPACE:
         return False
 
     if level(volume['lower']) >= 10000:
