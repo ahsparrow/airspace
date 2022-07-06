@@ -9,13 +9,13 @@ NOTAM_OVERRIDE = "OLD WARDEN"
 DISABLED_AIRSPACE = ["R219 SANDRINGHAM HOUSE"]
 
 HEADER = """
-Version: Draft 1
-30/6/22
+Version: 1
+6/7/22
 
 WWGC 2022
 
-Airspace type "P" are penalty areas.
-Airspace type "R" are ATZs. See local rules.
+Airspace type "P" - Penalty areas.
+Airspace type "R" - ATZs, see local rules.
 """
 
 def filter_func(volume, feature):
