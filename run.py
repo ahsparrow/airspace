@@ -154,6 +154,8 @@ def cli():
                             help="Openair output file, stdout if not specified",
                             type=argparse.FileType("w", encoding="ascii"),
                             default=sys.stdout)
+    sub_parser.add_argument("--info",
+                            help="Advisory airspace", action="store_true")
     sub_parser.set_defaults(func=yaixm.wwgc.wwgc)
 
     args = parser.parse_args()

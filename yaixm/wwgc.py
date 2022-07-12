@@ -1,6 +1,7 @@
+from copy import deepcopy
 import os.path
 
-from .convert import Openair, seq_name
+from .convert import Openair, seq_name, noseq_name
 from .helpers import level, load, merge_loa
 
 LOA_NAMES = ["DAVENTRY BOX", "NUCLEAR EXEMPTIONS"]
@@ -32,6 +33,19 @@ def filter_func(volume, feature):
     return feature.get('localtype', "") not in [
             'GLIDER', 'GVS', 'HIRTA', 'ILS', 'LASER', 'NOATZ', 'UL', 'MATZ']
 
+def advisory_filter_func(volume, feature):
+    if feature['name'] in DISABLED_AIRSPACE:
+        return False
+
+    if level(volume['lower']) >= 10000:
+        return False
+
+    if "NOTAM" in feature.get('rules', []):
+        if feature['name'] not in NOTAM_OVERRIDE:
+            return False
+
+    return feature['type'] == "OTHER" and feature['localtype'] in ["GLIDER" , "MATZ"]
+
 def type_func(volume, feature):
     if feature['type'] == "ATZ":
         return "R"
@@ -40,6 +54,10 @@ def type_func(volume, feature):
 
 # Generate WWGC airspace
 def wwgc(args):
+    if args.info:
+        wwgc_advisory(args)
+        return
+
     # Aggregate YAIXM files
     yaixm = {}
     for f in ["airspace", "loa", "rat", "service"]:
@@ -65,6 +83,37 @@ def wwgc(args):
 
     converter = Openair(filter_func=filter_func, name_func=seq_name,
                         type_func=type_func, header=HEADER)
+    oa = converter.convert(airspace)
+
+    # Don't accept anything other than ASCII
+    output_oa = oa.encode("ascii").decode("ascii")
+
+    args.openair_file.write(output_oa)
+    args.openair_file.write("\n")
+
+# Generate WWGC advisory airspace
+def wwgc_advisory(args):
+    # YAIXM files
+    yaixm = {}
+    for f in ["airspace", "service"]:
+        yaixm.update(load(open(os.path.join(args.yaixm_dir, f + ".yaml"))))
+
+    airspace = deepcopy(yaixm['airspace'])
+
+    # ATZ frequencies
+    services = {}
+    for service in yaixm['service']:
+        for control in service['controls']:
+            services[control] = service['frequency']
+
+    for feature in airspace:
+        if feature['type'] == "OTHER" and feature['localtype'] == "GLIDER":
+            freq = services.get(feature.get('id'))
+            if freq:
+                feature['frequency'] = freq
+
+    converter = Openair(filter_func=advisory_filter_func, name_func=noseq_name,
+                        type_func=lambda f, v: "G", header=HEADER)
     oa = converter.convert(airspace)
 
     # Don't accept anything other than ASCII
