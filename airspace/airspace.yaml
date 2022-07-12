@@ -10343,18 +10343,6 @@ airspace:
         radius: 1 nm
         centre: 521406N 0014310W
 
-- name: SPILSTED FARM
-  id: spilsted-farm-glider
-  type: OTHER
-  localtype: GLIDER
-  geometry:
-  - upper: 2160 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1 nm
-        centre: 505613N 0003109E
-
 - name: STRUBBY
   id: strubby-glider
   type: OTHER
