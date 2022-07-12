@@ -10211,18 +10211,6 @@ airspace:
         radius: 1 nm
         centre: 521001N 0005216E
 
-- name: RHIGOS
-  id: rhigos-glider
-  type: OTHER
-  localtype: GLIDER
-  geometry:
-  - upper: 2780 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1 nm
-        centre: 514434N 0033505W
-
 - name: RIDGEWELL
   id: ridgewell-glider
   type: OTHER
@@ -10354,18 +10342,6 @@ airspace:
     - circle:
         radius: 1 nm
         centre: 521406N 0014310W
-
-- name: SPILSTED FARM
-  id: spilsted-farm-glider
-  type: OTHER
-  localtype: GLIDER
-  geometry:
-  - upper: 2160 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1 nm
-        centre: 505613N 0003109E
 
 - name: STRUBBY
   id: strubby-glider
