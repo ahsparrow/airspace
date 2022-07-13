@@ -7,7 +7,10 @@ from .helpers import level, load, merge_loa
 LOA_NAMES = ["DAVENTRY BOX", "NUCLEAR EXEMPTIONS"]
 RAT_NAMES = []
 NOTAM_OVERRIDE = "OLD WARDEN"
-DISABLED_AIRSPACE = ["R219 SANDRINGHAM HOUSE"]
+DISABLED_AIRSPACE = ["R219 SANDRINGHAM HOUSE",
+                     "HINTON-IN-THE-HEDGES",
+                     "HUSBANDS BOSWORTH",
+                     "WESTON-ON-THE-GREEN"]
 
 HEADER = """
 Version: 1
@@ -17,6 +20,17 @@ WWGC 2022
 
 Airspace type "P" - Penalty areas.
 Airspace type "R" - ATZs, see local rules.
+"""
+
+ADVISORY_HEADER = """
+Version: 1
+13/7/22
+
+WWGC 2022
+
+This is advisory airspace, it is NOT PENALTY
+
+Includes Military Air Traffic Zones (MATZ) and gliding sites
 """
 
 def filter_func(volume, feature):
@@ -113,7 +127,7 @@ def wwgc_advisory(args):
                 feature['frequency'] = freq
 
     converter = Openair(filter_func=advisory_filter_func, name_func=noseq_name,
-                        type_func=lambda f, v: "G", header=HEADER)
+                        type_func=lambda f, v: "G", header=ADVISORY_HEADER)
     oa = converter.convert(airspace)
 
     # Don't accept anything other than ASCII
