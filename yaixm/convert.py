@@ -105,6 +105,8 @@ def name_func(volume, feature, add_seqno=False):
             localtype = feature['localtype']
             if localtype in ["NOATZ", "UL"]:
                 name += " A/F"
+            elif localtype in ["GLIDER"]:
+                name += " GC"
             elif localtype in ["MATZ", "DZ", "GVS", "HIRTA", "ILS", "LASER"]:
                 name += " " + localtype
 
