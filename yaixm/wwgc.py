@@ -28,9 +28,7 @@ Version: 1
 
 WWGC 2022
 
-This is advisory airspace, it is NOT PENALTY
-
-Includes Military Air Traffic Zones (MATZ) and gliding sites
+NON-PENALTY (advisory) airspace
 """
 
 def filter_func(volume, feature):
