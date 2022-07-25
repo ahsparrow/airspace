@@ -194,6 +194,11 @@ definitions:
       # Overrides class in parent airspace
       class: *class
 
+      # Surface elevation
+      elevation:
+        type: string
+        pattern: ^[0-9]{1,5}[ ](m|ft)$
+
       # Identifies volume (for LoA replacement and frequency assignment)
       id: *id
 
