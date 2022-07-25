@@ -56,7 +56,7 @@ def advisory_filter_func(volume, feature):
         if feature['name'] not in NOTAM_OVERRIDE:
             return False
 
-    return feature['type'] == "OTHER" and feature['localtype'] in ["GLIDER" , "MATZ"]
+    return feature['type'] == "OTHER" and feature['localtype'] in ["MATZ"]
 
 def type_func(volume, feature):
     if feature['type'] == "ATZ":
