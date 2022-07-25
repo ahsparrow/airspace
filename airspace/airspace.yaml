@@ -10696,6 +10696,7 @@ airspace:
         centre: 500007N 0051351W
 
 - name: SHAWBURY
+  id: shawbury-glider
   type: OTHER
   localtype: GLIDER
   controltype: MILITARY

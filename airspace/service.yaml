@@ -695,6 +695,7 @@ service:
 - callsign: SHAWBURY ZONE
   controls:
   - shawbury-atz
+  - shawbury-glider
   - shawbury-matz
   - shawbury-ternhill-matz
   - ternhill-atz
