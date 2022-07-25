@@ -9678,6 +9678,7 @@ airspace:
   geometry:
   - upper: 2460 ft
     lower: SFC
+    elevation: 460 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -9690,6 +9691,7 @@ airspace:
   geometry:
   - upper: 3600 ft
     lower: SFC
+    elevation: 600 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -9702,6 +9704,7 @@ airspace:
   geometry:
   - upper: 2055 ft
     lower: SFC
+    elevation: 55 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -9714,6 +9717,7 @@ airspace:
   geometry:
   - upper: 2267 ft
     lower: SFC
+    elevation: 267 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -9726,6 +9730,7 @@ airspace:
   geometry:
   - upper: 2135 ft
     lower: SFC
+    elevation: 135 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -9738,6 +9743,7 @@ airspace:
   geometry:
   - upper: 2510 ft
     lower: SFC
+    elevation: 10 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -9750,6 +9756,7 @@ airspace:
   geometry:
   - upper: 2820 ft
     lower: SFC
+    elevation: 820 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -9762,6 +9769,7 @@ airspace:
   geometry:
   - upper: 3020 ft
     lower: SFC
+    elevation: 20 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -9774,6 +9782,7 @@ airspace:
   geometry:
   - upper: 3350 ft
     lower: SFC
+    elevation: 1350 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -9786,6 +9795,7 @@ airspace:
   geometry:
   - upper: 2600 ft
     lower: SFC
+    elevation: 600 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -9798,6 +9808,7 @@ airspace:
   geometry:
   - upper: 3600 ft
     lower: SFC
+    elevation: 600 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -9810,6 +9821,7 @@ airspace:
   geometry:
   - upper: 3222 ft
     lower: SFC
+    elevation: 222 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -9822,6 +9834,7 @@ airspace:
   geometry:
   - upper: 2010 ft
     lower: SFC
+    elevation: 10 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -9834,6 +9847,7 @@ airspace:
   geometry:
   - upper: 2267 ft
     lower: SFC
+    elevation: 267 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -9846,6 +9860,7 @@ airspace:
   geometry:
   - upper: 2800 ft
     lower: SFC
+    elevation: 800 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -9858,6 +9873,7 @@ airspace:
   geometry:
   - upper: 2155 ft
     lower: SFC
+    elevation: 155 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -9870,6 +9886,7 @@ airspace:
   geometry:
   - upper: 2500 ft
     lower: SFC
+    elevation: 500 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -9882,6 +9899,7 @@ airspace:
   geometry:
   - upper: 2655 ft
     lower: SFC
+    elevation: 655 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -9894,6 +9912,7 @@ airspace:
   geometry:
   - upper: 2361 ft
     lower: SFC
+    elevation: 361 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -9906,6 +9925,7 @@ airspace:
   geometry:
   - upper: 3142 ft
     lower: SFC
+    elevation: 642 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -9918,6 +9938,7 @@ airspace:
   geometry:
   - upper: 2205 ft
     lower: SFC
+    elevation: 205 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -9930,6 +9951,7 @@ airspace:
   geometry:
   - upper: 2600 ft
     lower: SFC
+    elevation: 600 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -9942,6 +9964,7 @@ airspace:
   geometry:
   - upper: 2860 ft
     lower: SFC
+    elevation: 860 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -9954,6 +9977,7 @@ airspace:
   geometry:
   - upper: 3254 ft
     lower: SFC
+    elevation: 254 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -9966,6 +9990,7 @@ airspace:
   geometry:
   - upper: 2870 ft
     lower: SFC
+    elevation: 870 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -9978,6 +10003,7 @@ airspace:
   geometry:
   - upper: 2500 ft
     lower: SFC
+    elevation: 500 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -9990,6 +10016,7 @@ airspace:
   geometry:
   - upper: 3505 ft
     lower: SFC
+    elevation: 505 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10002,6 +10029,7 @@ airspace:
   geometry:
   - upper: 3200 ft
     lower: SFC
+    elevation: 200 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10014,6 +10042,7 @@ airspace:
   geometry:
   - upper: 2203 ft
     lower: SFC
+    elevation: 203 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10026,6 +10055,7 @@ airspace:
   geometry:
   - upper: 3618 ft
     lower: SFC
+    elevation: 618 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10038,6 +10068,7 @@ airspace:
   geometry:
   - upper: 3120 ft
     lower: SFC
+    elevation: 1120 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10050,6 +10081,7 @@ airspace:
   geometry:
   - upper: 3200 ft
     lower: SFC
+    elevation: 200 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10062,6 +10094,7 @@ airspace:
   geometry:
   - upper: 4411 ft
     lower: SFC
+    elevation: 1411 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10074,6 +10107,7 @@ airspace:
   geometry:
   - upper: 2279 ft
     lower: SFC
+    elevation: 279 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10086,6 +10120,7 @@ airspace:
   geometry:
   - upper: 3075 ft
     lower: SFC
+    elevation: 75 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10098,6 +10133,7 @@ airspace:
   geometry:
   - upper: 2146 ft
     lower: SFC
+    elevation: 146 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10110,6 +10146,7 @@ airspace:
   geometry:
   - upper: 2150 ft
     lower: SFC
+    elevation: 150 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10122,6 +10159,7 @@ airspace:
   geometry:
   - upper: 2921 ft
     lower: SFC
+    elevation: 921 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10134,6 +10172,7 @@ airspace:
   geometry:
   - upper: 3700 ft
     lower: SFC
+    elevation: 700 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10146,6 +10185,7 @@ airspace:
   geometry:
   - upper: 2023 ft
     lower: SFC
+    elevation: 20 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10158,6 +10198,7 @@ airspace:
   geometry:
   - upper: 2110 ft
     lower: SFC
+    elevation: 110 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10170,6 +10211,7 @@ airspace:
   geometry:
   - upper: 2330 ft
     lower: SFC
+    elevation: 330 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10182,6 +10224,7 @@ airspace:
   geometry:
   - upper: 2087 ft
     lower: SFC
+    elevation: 87 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10194,6 +10237,7 @@ airspace:
   geometry:
   - upper: 2360 ft
     lower: SFC
+    elevation: 360 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10206,6 +10250,7 @@ airspace:
   geometry:
   - upper: 2305 ft
     lower: SFC
+    elevation: 305 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10218,6 +10263,7 @@ airspace:
   geometry:
   - upper: 2273 ft
     lower: SFC
+    elevation: 2273 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10230,6 +10276,7 @@ airspace:
   geometry:
   - upper: 2572 ft
     lower: SFC
+    elevation: 572 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10242,6 +10289,7 @@ airspace:
   geometry:
   - upper: 3730 ft
     lower: SFC
+    elevation: 730 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10254,6 +10302,7 @@ airspace:
   geometry:
   - upper: 2250 ft
     lower: SFC
+    elevation: 250 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10266,6 +10315,7 @@ airspace:
   geometry:
   - upper: 3480 ft
     lower: SFC
+    elevation: 480 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10278,6 +10328,7 @@ airspace:
   geometry:
   - upper: 2350 ft
     lower: SFC
+    elevation: 350 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10290,6 +10341,7 @@ airspace:
   geometry:
   - upper: 2321 ft
     lower: SFC
+    elevation: 321 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10302,6 +10354,7 @@ airspace:
   geometry:
   - upper: 2328 ft
     lower: SFC
+    elevation: 328 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10314,6 +10367,7 @@ airspace:
   geometry:
   - upper: 2610 ft
     lower: SFC
+    elevation: 610 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10326,6 +10380,7 @@ airspace:
   geometry:
   - upper: 2275 ft
     lower: SFC
+    elevation: 275 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10338,6 +10393,7 @@ airspace:
   geometry:
   - upper: 2375 ft
     lower: SFC
+    elevation: 375 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10350,6 +10406,7 @@ airspace:
   geometry:
   - upper: 3047 ft
     lower: SFC
+    elevation: 47 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10362,6 +10419,7 @@ airspace:
   geometry:
   - upper: 2920 ft
     lower: SFC
+    elevation: 920 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10374,6 +10432,7 @@ airspace:
   geometry:
   - upper: 2970 ft
     lower: SFC
+    elevation: 970 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10386,6 +10445,7 @@ airspace:
   geometry:
   - upper: 3697 ft
     lower: SFC
+    elevation: 697 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10398,6 +10458,7 @@ airspace:
   geometry:
   - upper: 3186 ft
     lower: SFC
+    elevation: 186 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10410,6 +10471,7 @@ airspace:
   geometry:
   - upper: 2075 ft
     lower: SFC
+    elevation: 75 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10422,6 +10484,7 @@ airspace:
   geometry:
   - upper: 2080 ft
     lower: SFC
+    elevation: 80 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10434,6 +10497,7 @@ airspace:
   geometry:
   - upper: 2375 ft
     lower: SFC
+    elevation: 375 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10447,6 +10511,7 @@ airspace:
   geometry:
   - upper: 2044 ft
     lower: SFC
+    elevation: 44 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10459,6 +10524,7 @@ airspace:
   geometry:
   - upper: 3284 ft
     lower: SFC
+    elevation: 284 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10471,6 +10537,7 @@ airspace:
   geometry:
   - upper: 3282 ft
     lower: SFC
+    elevation: 282 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10483,6 +10550,7 @@ airspace:
   geometry:
   - upper: 3236 ft
     lower: SFC
+    elevation: 236 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10496,6 +10564,7 @@ airspace:
   geometry:
   - upper: 2513 ft
     lower: SFC
+    elevation: 513 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10508,6 +10577,7 @@ airspace:
   geometry:
   - upper: 2075 ft
     lower: SFC
+    elevation: 75 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10521,6 +10591,7 @@ airspace:
   geometry:
   - upper: 2065 ft
     lower: SFC
+    elevation: 65 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10534,6 +10605,7 @@ airspace:
   geometry:
   - upper: 3272 ft
     lower: SFC
+    elevation: 272 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10547,6 +10619,7 @@ airspace:
   geometry:
   - upper: 2370 ft
     lower: SFC
+    elevation: 370 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10560,6 +10633,7 @@ airspace:
   geometry:
   - upper: 2256 ft
     lower: SFC
+    elevation: 256 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10573,6 +10647,7 @@ airspace:
   geometry:
   - upper: 3652 ft
     lower: SFC
+    elevation: 652 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10586,6 +10661,7 @@ airspace:
   geometry:
   - upper: 2722 ft
     lower: SFC
+    elevation: 722 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10599,6 +10675,7 @@ airspace:
   geometry:
   - upper: 2905 ft
     lower: SFC
+    elevation: 405 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10612,6 +10689,7 @@ airspace:
   geometry:
   - upper: 3295 ft
     lower: SFC
+    elevation: 295 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10624,6 +10702,7 @@ airspace:
   geometry:
   - upper: 2249 ft
     lower: SFC
+    elevation: 249 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10637,6 +10716,7 @@ airspace:
   geometry:
   - upper: 3228 ft
     lower: SFC
+    elevation: 228 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10650,6 +10730,7 @@ airspace:
   geometry:
   - upper: 2272 ft
     lower: SFC
+    elevation: 272 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10663,6 +10744,7 @@ airspace:
   geometry:
   - upper: 2091 ft
     lower: SFC
+    elevation: 91 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -10676,6 +10758,7 @@ airspace:
   geometry:
   - upper: 3575 ft
     lower: SFC
+    elevation: 575 ft
     boundary:
     - circle:
         radius: 1 nm
