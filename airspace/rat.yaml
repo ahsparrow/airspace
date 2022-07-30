@@ -21,3 +21,43 @@ rat:
     - circle:
         radius: 3 nm
         centre: 520512N 0001907W
+
+- name: SHAWBURY (11 AUG)
+  type: P
+  geometry:
+  - upper: 8300 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 524745N 0024008W
+
+- name: ODIHAM (19 AUG)
+  type: P
+  geometry:
+  - upper: 4000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 511421N 0005640W
+
+- name: SYERSTON (24 AUG)
+  type: P
+  geometry:
+  - upper: 8300 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 530121N 0005453W
+
+- name: WATTISHAM (25 AUG)
+  type: P
+  geometry:
+  - upper: 8300 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 520747N 0005743E
