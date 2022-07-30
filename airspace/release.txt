@@ -5,6 +5,7 @@ Non-AIRAC:
   SPILSTED FARM GC - Delete
   RED ARROWS RA(T)s - Add
   LEEDS EAST RA(T) - Add
+  EAST KIRKBY RA(T) - Add
 
 AIRAC: 2022/08/11
   LEE RADIO - Update frequency
