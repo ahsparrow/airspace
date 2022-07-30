@@ -32,6 +32,19 @@ rat:
         radius: 6 nm
         centre: 524745N 0024008W
 
+- name: LEEDS EAST (13-14 AUG)
+  type: P
+  geometry:
+  - upper: 1500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 535047N 0011623W
+      - 535505N 0010513W
+      - 535216N 0010311W
+      - 534832N 0010506W
+      - 534843N 0011514W
+
 - name: ODIHAM (19 AUG)
   type: P
   geometry:
