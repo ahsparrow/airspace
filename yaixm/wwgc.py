@@ -5,7 +5,8 @@ from .convert import Openair, seq_name, noseq_name
 from .helpers import level, load, merge_loa
 
 LOA_NAMES = ["DAVENTRY BOX", "NUCLEAR EXEMPTIONS"]
-RAT_NAMES = ["CROMER (17 AUG)",
+RAT_NAMES = ["SHAWBURY (11 AUG)",
+             "CROMER (17 AUG)",
              "ODIHAM (19 AUG)",
              "SYERSTON (24 AUG)",
              "WATTISHAM (25 AUG)"]
