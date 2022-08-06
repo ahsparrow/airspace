@@ -7,10 +7,7 @@ from .helpers import level, load, merge_loa
 LOA_NAMES = ["DAVENTRY BOX", "NUCLEAR EXEMPTIONS"]
 RAT_NAMES = []
 NOTAM_OVERRIDE = "OLD WARDEN"
-DISABLED_AIRSPACE = ["R219 SANDRINGHAM HOUSE",
-                     "HINTON-IN-THE-HEDGES",
-                     "HUSBANDS BOSWORTH",
-                     "WESTON-ON-THE-GREEN"]
+DISABLED_AIRSPACE = ["R219 SANDRINGHAM HOUSE"]
 
 HEADER = """
 Version: 1
