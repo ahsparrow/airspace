@@ -5,7 +5,10 @@ from .convert import Openair, seq_name, noseq_name
 from .helpers import level, load, merge_loa
 
 LOA_NAMES = ["DAVENTRY BOX", "NUCLEAR EXEMPTIONS"]
-RAT_NAMES = []
+RAT_NAMES = ["CROMER (17 AUG)",
+             "ODIHAM (19 AUG)",
+             "SYERSTON (24 AUG)",
+             "WATTISHAM (25 AUG)"]
 NOTAM_OVERRIDE = "OLD WARDEN"
 DISABLED_AIRSPACE = ["R219 SANDRINGHAM HOUSE"]
 
