@@ -14,8 +14,15 @@ NOTAM_OVERRIDE = "OLD WARDEN"
 DISABLED_AIRSPACE = ["R219 SANDRINGHAM HOUSE"]
 
 HEADER = """
-Version: 1
-6/7/22
+Version: 2
+7/8/22
+
+Added temporary restricted airspace:
+    SHAWBURY (11 AUG)
+    CROMER (17 AUG)
+    ODIHAM (19 AUG)
+    SYERSTON (24 AUG)
+    WATTISHAM (25 AUG)
 
 WWGC 2022
 
