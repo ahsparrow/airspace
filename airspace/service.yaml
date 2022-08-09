@@ -611,9 +611,9 @@ service:
   - odiham-matz
   frequency: 131.300
 
-- callsign: OLD BUCKINGHAM RADIO
+- callsign: OLD BUCKENHAM RADIO
   controls:
-  - old-buckingham-atz
+  - old-buckenham-atz
   frequency: 124.405
 
 - callsign: OLD SARUM RADIO

@@ -13216,8 +13216,8 @@ airspace:
         radius: 2 nm
         centre: 562749N 0052400W
 
-- name: OLD BUCKINGHAM
-  id: old-buckingham-atz
+- name: OLD BUCKENHAM
+  id: old-buckenham-atz
   type: ATZ
   geometry:
   - upper: 2194 ft
