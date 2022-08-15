@@ -2990,7 +2990,7 @@ airspace:
       - 500000N 0015149W
   - seqno: 6
     upper: FL195
-    lower: 5500 ft
+    lower: FL55
     boundary:
     - line:
       - 510913N 0012355W
@@ -3105,7 +3105,7 @@ airspace:
       - 511837N 0012813W
   - seqno: 17
     upper: FL115
-    lower: 5500 ft
+    lower: FL55
     boundary:
     - line:
       - 510416N 0012559W
@@ -3113,7 +3113,7 @@ airspace:
       - 510045N 0013053W
   - seqno: 18
     upper: FL95
-    lower: 5500 ft
+    lower: FL55
     boundary:
     - line:
       - 510123N 0012711W
