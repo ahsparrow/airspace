@@ -94,3 +94,13 @@ rat:
     - circle:
         radius: 6 nm
         centre: 520747N 0005743E
+
+- name: BENSON (18 AUG)
+  type: P
+  geometry:
+  - upper: 3150 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 5 nm
+        centre: 513654N 0010545W
