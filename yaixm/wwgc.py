@@ -5,21 +5,23 @@ from .convert import Openair, seq_name, noseq_name
 from .helpers import level, load, merge_loa
 
 LOA_NAMES = ["DAVENTRY BOX", "NUCLEAR EXEMPTIONS"]
-RAT_NAMES = ["WELLINGBOROUGH (20 AUG)",
-             "SYERSTON (24 AUG)",
-             "WATTISHAM (25 AUG)"]
+RAT_NAMES = ["SYERSTON (24 AUG)",
+             "WATTISHAM (25 AUG)",
+             "SYWELL A (24 AUG)",
+             "SYWELL B (24 AUG)"]
 NOTAM_OVERRIDE = "OLD WARDEN"
 DISABLED_AIRSPACE = ["R219 SANDRINGHAM HOUSE"]
 
 HEADER = """
-Version: 4
+Version: 5
 19/8/22
 
-Add WELLINGBOROUGH (20 AUG)
+Add
+    SYWELL A (24 AUG)
+    SYWELL B (24 AUG)
 
 Remove temporary restricted airspace:
-    BENSON (18 AUG)
-    ODIHAM (19 AUG)
+    WELLINGBOROUGH (20 AUG)
 
 WWGC 2022
 

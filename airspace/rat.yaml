@@ -114,3 +114,23 @@ rat:
     - circle:
         radius: 3 nm
         centre: 521844N 0004451W
+
+- name: SYWELL A (24 AUG)
+  type: P
+  geometry:
+  - upper: 3500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 5 nm
+        centre: 521822N 0004732W
+
+- name: SYWELL B (24 AUG)
+  type: P
+  geometry:
+  - upper: 5500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 3 nm
+        centre: 521822N 0004732W
