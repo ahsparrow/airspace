@@ -897,9 +897,9 @@ service:
   - aston-down-glider
   frequency: 129.980
 
-- callsign: BARROW RADIO
+- callsign: WALNEY RADIO
   controls:
-  - barrow-glider
+  - walney-glider
   frequency: 129.980
 
 - callsign: BEMBRIDGE RADIO

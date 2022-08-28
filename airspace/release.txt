@@ -1,6 +1,7 @@
 AIRAC: 2022/09/08
   KINLOSS ATZ - Remove
   SOUTHEND CTA-10 - Exend area
+  WALNEY GLIDING - Renamed from BARROW
 
 Non-AIRAC:
   KEEVIL DZ - Add NOTAM rule
