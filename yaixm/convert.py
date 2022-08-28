@@ -149,7 +149,7 @@ def noseq_name(volume, feature):
 #    W (wave)
 #    MATZ (military ATZ)
 #    OTHER
-def make_openair_type(atz="CTR", ils="OTHER", glider="G", noatz="G", ul="G", comp=False):
+def make_openair_type(atz="CTR", ils="G", glider="G", noatz="G", ul="G", comp=False):
     def openair_type(volume, feature):
         as_type = feature['type']
         localtype = feature.get('localtype')
@@ -196,7 +196,7 @@ def make_openair_type(atz="CTR", ils="OTHER", glider="G", noatz="G", ul="G", com
             elif localtype == "RMZ":
                 out_type = "RMZ"
             else:
-                out_type = "OTHER"
+                out_type = "G"
         elif as_type == "P":
             out_type = "P"
         elif as_type == "R":
@@ -207,7 +207,7 @@ def make_openair_type(atz="CTR", ils="OTHER", glider="G", noatz="G", ul="G", com
             out_type = "RMZ"
         else:
             # Fallback is airspace class, or OTHER if no class
-            out_type = volume.get('class') or feature.get('class') or "OTHER"
+            out_type = volume.get('class') or feature.get('class') or "G"
 
         return out_type
 
