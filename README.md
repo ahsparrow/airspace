@@ -47,9 +47,9 @@ To validate a YAIXM file against the schema:
 
     ./run.py check airspace.yaml
 
-To generate a ASSelect airspace file
+To generate a ASSelect airspace files
 
-    ./run.py release --note airspace/release.txt airspace yaixm.json
+    ./run.py release --note airspace/release.txt airspace yaixm.json openair.txt
 
 ### Contributing
 
