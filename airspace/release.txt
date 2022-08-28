@@ -1,3 +1,6 @@
+AIRAC: 2022/09/08
+  SOUTHEND CTA-10 - Exend area
+
 Non-AIRAC:
   KEEVIL DZ - Add NOTAM rule
   MIDDLE WALLOP DZ - Add NOTAM rule
