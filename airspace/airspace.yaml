@@ -4640,17 +4640,6 @@ airspace:
         radius: 2 nm
         centre: 522036N 0004648E
 
-- name: KINLOSS
-  id: kinloss-atz
-  type: ATZ
-  geometry:
-  - upper: 2022 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 2.5 nm
-        centre: 573858N 0033338W
-
 - name: LAKENHEATH
   id: lakenheath-atz
   type: ATZ
