@@ -119,14 +119,3 @@ Non-AIRAC:
   COLERNE ATZ - NOTAM activated
   EAST KIRKBY RA(T) - Add
   RED ARROWS RA(T)s - Add
-
-AIRAC: 2021/08/12
-  CARDIFF APPROACH - Change frequency
-  KENLEY GLIDING - Coordinate change
-  LITTLE RISSINGTON ATZ - Add
-  LLANBEDR DZ - Add
-
-Non-AIRAC:
-  KENLEY - Freqeuency change
-  SILVERSTONE RA(T) - Add
-  Various NOTAM activated DZ height extensions - Remove
