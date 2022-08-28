@@ -21,3 +21,13 @@ rat:
     - circle:
         radius: 3 nm
         centre: 520512N 0001907W
+
+- name: DUXFORD (9-11 SEP)
+  type: P
+  geometry:
+  - upper: 4500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.2 nm
+        centre: 520539N 0000753E

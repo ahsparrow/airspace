@@ -4,6 +4,9 @@ AIRAC: 2022/09/08
   WALNEY GLIDING - Renamed from BARROW
 
 Non-AIRAC:
+  DUXFORD (11-13 SEP) RAT - Add
+
+Non-AIRAC:
   KEEVIL DZ - Add NOTAM rule
   MIDDLE WALLOP DZ - Add NOTAM rule
   RHIGOS GC - Delete
