@@ -29,7 +29,17 @@ from pygeodesy.ellipsoidalVincenty import LatLon
 import yaixm
 import yaml
 
+from .convert import Openair, make_openair_type, make_filter
+from .helpers import merge_loa, merge_service
 from .obstacle import make_obstacles
+
+HEADER = """UK Airspace
+Alan Sparrow (airspace@asselect.uk)
+
+To the extent possible under law, Alan Sparrow has waived all
+copyright and related or neighbouring rights to this file. The data
+The data is originally sourced from the UK Aeronautical Information
+Package (AIP)\n\n"""
 
 # Convert obstacle data XLS spreadsheet from AIS to YAXIM format
 def convert_obstacle(args):
@@ -72,7 +82,7 @@ def get_airac_date(offset=0):
     return airac_date.isoformat() + "T00:00:00Z"
 
 # Convert collection of YAIXM files containing airspace, LOAs and
-# obstacles to single JSON file with release header
+# obstacles to JSON file with release header and to default Openair file
 def release(args):
     # Aggregate YAIXM files
     out = {}
@@ -117,7 +127,43 @@ def release(args):
         print(error)
         sys.exit(-1)
 
-    json.dump(out, args.release_file, sort_keys=True, indent=args.indent)
+    json.dump(out, args.yaixm_file, sort_keys=True, indent=args.indent)
+
+    # Default Openair file
+
+    hdr = HEADER
+    hdr += f"AIRAC: {header['airac_date'][:10]}\n"
+    hdr += "asselect.uk: Default airspace file\n"
+    hdr += f"Commit: {commit}\n"
+    hdr += "\n"
+    hdr += header['note']
+
+    loas = [loa for loa in out['loa'] if loa['name'] == "CAMBRIDGE RAZ"]
+    airspace = merge_loa(out['airspace'], loas)
+
+    services = {}
+    for service in out['service']:
+        for control in service['controls']:
+            services[control] = service['frequency']
+    airspace = merge_service(airspace, services)
+
+    type_func = make_openair_type(atz="CTR", ils="G", glider="W", noatz="G",
+                                  ul="G", comp=False)
+
+    exclude = [{'name': a['name'], 'type': "D_OTHER"} for a in out['airspace']
+            if "TRA" in a.get('rules', []) or "NOSSR" in a.get('rules', [])]
+    filter_func = make_filter(microlight=False, hgl=False, exclude=exclude)
+
+    convert = Openair(type_func=type_func, filter_func=filter_func, header=hdr)
+    oa = convert.convert(airspace)
+
+    # Don't accept anything other than ASCII
+    output_oa = oa.encode("ascii").decode("ascii")
+
+    # Convert to DOS format
+    dos_oa = output_oa.replace("\n", "\r\n") + "\r\n"
+
+    args.openair_file.write(dos_oa)
 
 def calc_ils(args):
     lon = yaixm.parse_deg(args.lon)

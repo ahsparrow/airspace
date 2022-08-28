@@ -108,8 +108,10 @@ def cli():
     sub_parser = subparsers.add_parser('release', help='make ASSelect airspace')
     sub_parser.add_argument("yaixm_dir",
                             help="YAML input directory")
-    sub_parser.add_argument("release_file", type=argparse.FileType("w"),
+    sub_parser.add_argument("yaixm_file", type=argparse.FileType("w"),
                             help="JSON output file")
+    sub_parser.add_argument("openair_file", type=argparse.FileType("w"),
+                            help="OpenAir output file")
     sub_parser.add_argument("--indent", "-i", type=int, default=None,
                             help="JSON file indentation level (default none)")
     sub_parser.add_argument("--note", "-n", help="Release note file",
