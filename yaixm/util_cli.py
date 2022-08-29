@@ -36,10 +36,9 @@ from .obstacle import make_obstacles
 HEADER = """UK Airspace
 Alan Sparrow (airspace@asselect.uk)
 
-To the extent possible under law, Alan Sparrow has waived all
+To the extent possible under law Alan Sparrow has waived all
 copyright and related or neighbouring rights to this file. The data
-The data is originally sourced from the UK Aeronautical Information
-Package (AIP)\n\n"""
+is sourced from the UK Aeronautical Information Package (AIP)\n\n"""
 
 # Convert obstacle data XLS spreadsheet from AIS to YAXIM format
 def convert_obstacle(args):
