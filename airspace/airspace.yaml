@@ -11761,6 +11761,17 @@ airspace:
         radius: 0.5 nm
         centre: 524405N 0005743E
 
+- name: THORNEY ISLAND
+  type: OTHER
+  localtype: UL
+  geometry:
+  - upper: 2003 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.5 nm
+        centre: 504848N 0005538W
+
 - name: THORNHILL
   type: OTHER
   localtype: UL
