@@ -402,7 +402,7 @@ class Openair(Converter):
 
     def do_frequency(self, volume, feature):
         freq = volume.get('frequency') or feature.get('frequency')
-        return [f"AF {freq}"] if freq else []
+        return [f"AF {freq:.3f}"] if freq else []
 
     def do_type(self, as_type):
         return ["AC %s" % as_type]
