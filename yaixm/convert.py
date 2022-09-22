@@ -400,6 +400,10 @@ class Openair(Converter):
     def do_name(self, name):
         return ["AN %s" % name]
 
+    def do_frequency(self, volume, feature):
+        freq = volume.get('frequency') or feature.get('frequency')
+        return [f"AF {freq}"] if freq else []
+
     def do_type(self, as_type):
         return ["AC %s" % as_type]
 
@@ -450,7 +454,8 @@ class Openair(Converter):
     def do_volume(self, volume, feature):
         return (["*"] +
                 self.do_type(self.type_func(volume, feature)) +
-                self.do_name(self.name_func(volume,feature)) +
+                self.do_name(self.name_func(volume, feature)) +
+                self.do_frequency(volume, feature) +
                 self.do_levels(volume) +
                 self.do_boundary(volume['boundary']))
 
