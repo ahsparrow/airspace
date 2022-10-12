@@ -1,5 +1,6 @@
 Non-AIRAC:
   MORAY CTA-13 - Correct upper and lower limits
+  MORAY CTA-13 - Remove NOTAM rule
 
 AIRAC: 2022/10/06
   THORNEY ISLAND - Add microlight site
