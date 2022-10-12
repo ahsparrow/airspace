@@ -2625,8 +2625,8 @@ airspace:
   - seqno: 13
     rules:
       - NOTAM
-    upper: FL125
-    lower: FL105
+    upper: FL195
+    lower: 5500 ft
     boundary:
     - line:
       - 562827N 0042720W
