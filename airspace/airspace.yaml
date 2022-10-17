@@ -11924,7 +11924,7 @@ airspace:
   id: biggin-atz
   type: ATZ
   geometry:
-  - upper: 2000 ft
+  - upper: 2599 ft
     lower: SFC
     boundary:
     - circle:
