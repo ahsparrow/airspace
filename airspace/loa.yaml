@@ -11,7 +11,7 @@
 # The format of this file is base on the FAA/EUROCONTROL's Aeronautical
 # Information Exchange Model (AIXM). More details (including a data schema
 # and a validator) can be found in the YAXIM project on GitLab at
-# https://gitlab.com/ahsparrow/yaixm.
+# https://gitlab.com/ahsparrow/airspace.
 
 loa:
 #----------------------------------------------------------------------

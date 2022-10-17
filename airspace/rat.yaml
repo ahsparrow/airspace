@@ -9,7 +9,7 @@
 # The format of this file is a greatly simplified version of the
 # FAA/EUROCONTROL's Aeronautical Information Exchange Model (AIXM). More
 # details (including a data schema and a validator) can be found in the
-# YAXIM project on GitLab at https://gitlab.com/ahsparrow/yaixm.
+# YAXIM project on GitLab at https://gitlab.com/ahsparrow/airspace.
 
 rat:
 - name: OLD WARDEN (VARIOUS DATES)
