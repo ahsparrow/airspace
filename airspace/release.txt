@@ -1,4 +1,10 @@
 Non-AIRAC:
+  BIGGIN HILL - Correct upper level
+
+AIRAC: 2022/11/03
+  No changes
+
+Non-AIRAC:
   MORAY CTA-13 - Correct upper and lower limits
   MORAY CTA-13 - Remove NOTAM rule
 
@@ -108,11 +114,3 @@ AIRAC: 2021/12/30
 
 AIRAC: 2021/12/02
   BIRMINGHAM RADAR - Change call sign
-
-AIRAC:2021/11/04
-  CHILTON PARK DZ - Delete
-  HAVERFORDWEST ATZ - Amend elevation
-  LANDS END RMZ - Add RMZ
-
-Non-AIRAC:
-  D296A CRANFIELD NBEC - Add (temporary danger area)
