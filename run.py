@@ -83,6 +83,14 @@ def cli():
                             type=argparse.FileType("w"), default=sys.stdout)
     sub_parser.set_defaults(func=yaixm.util_cli.convert_obstacle)
 
+    # navplot sub-command
+    sub_parser = subparsers.add_parser('navplot', help='make NavPlot airspace')
+    sub_parser.add_argument("yaixm_file", type=argparse.FileType("r"),
+                            help="Airspace input file")
+    sub_parser.add_argument("navplot_file", type=argparse.FileType("w"),
+                            help="NavPlot output file")
+    sub_parser.set_defaults(func=yaixm.cli.navplot)
+
     # openair sub-command
     sub_parser = subparsers.add_parser('openair', help='convert to OpenAir')
     sub_parser.add_argument("airspace_file", nargs="?",

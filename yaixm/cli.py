@@ -19,7 +19,7 @@ import json
 import sys
 
 from .convert import Openair, Tnp, seq_name, make_openair_type
-from .helpers import load, validate, merge_loa
+from .helpers import load, validate, merge_loa, level
 from .geojson import geojson as convert_geojson
 from .parse_openair import parse as parse_openair
 
@@ -96,3 +96,20 @@ def geojson(args):
     gjson = convert_geojson(airspace['airspace'], resolution=args.resolution)
 
     json.dump(gjson, args.geojson_file, sort_keys=True, indent=4)
+
+def navplot(args):
+    # Load airspace
+    yaixm = load(args.yaixm_file)
+
+    volumes = []
+    for feature in yaixm["airspace"]:
+        for vol in feature["geometry"]:
+            if feature["type"] in ["CTA", "CTR", "D", "TMA"] and level(vol["lower"]) < 6000:
+                volumes.append(vol)
+
+    dummy = [{'geometry': volumes, 'name': "DUMMY", 'type': "OTHER"}]
+
+    # Convert to GeoJSON
+    gjson = convert_geojson(dummy, resolution=15)
+
+    json.dump(gjson, args.navplot_file, sort_keys=True, indent=4)
