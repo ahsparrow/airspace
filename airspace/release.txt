@@ -1,3 +1,8 @@
+AIRAC: 2022/12/01
+  PARHAM - Update frequency
+
+AIRAC: 2021/12/02
+  BIRMINGHAM RADAR - Change call sign
 Non-AIRAC:
   BIGGIN HILL - Correct upper level
 
@@ -111,6 +116,3 @@ Non-AIRAC
 
 AIRAC: 2021/12/30
   BORDERS CTA1 - Correction to lower limit
-
-AIRAC: 2021/12/02
-  BIRMINGHAM RADAR - Change call sign

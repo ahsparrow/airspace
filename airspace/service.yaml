@@ -1095,7 +1095,7 @@ service:
 - callsign: PARHAM RADIO
   controls:
   - parham-glider
-  frequency: 129.980
+  frequency: 118.685
 
 - callsign: POCKLINGTON RADIO
   controls:
