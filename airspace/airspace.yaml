@@ -10148,7 +10148,7 @@ airspace:
   type: OTHER
   localtype: GLIDER
   geometry:
-  - upper: 2921 ft
+  - upper: 3921 ft
     lower: SFC
     elevation: 921 ft
     boundary:
