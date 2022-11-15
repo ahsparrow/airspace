@@ -803,7 +803,6 @@ service:
 
 - callsign: WADDINGTON ZONE
   controls:
-  - scampton-atz
   - scampton-matz
   - scampton-waddington-matz
   - waddington-atz

@@ -4809,17 +4809,6 @@ airspace:
         radius: 2 nm
         centre: 500007N 0051354W
 
-- name: SCAMPTON
-  id: scampton-atz
-  type: ATZ
-  geometry:
-  - upper: 2202 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 2.5 nm
-        centre: 531829N 0003303W
-
 - name: SHAWBURY
   id: shawbury-atz
   type: ATZ
