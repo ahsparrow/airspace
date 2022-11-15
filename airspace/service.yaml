@@ -803,8 +803,6 @@ service:
 
 - callsign: WADDINGTON ZONE
   controls:
-  - scampton-matz
-  - scampton-waddington-matz
   - waddington-atz
   - waddington-matz
   frequency: 119.500

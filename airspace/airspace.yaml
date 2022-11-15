@@ -5450,56 +5450,6 @@ airspace:
         centre: 511403N 0005634W
         to: 511617N 0010341W
 
-- name: SCAMPTON/WADDINGTON
-  id: scampton-waddington-matz
-  type: OTHER
-  localtype: MATZ
-  controltype: MILITARY
-  geometry:
-  - upper: 3231 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 531355N 0003628W
-    - arc:
-        dir: cw
-        radius: 5 nm
-        centre: 531828N 0003303W
-        to: 531431N 0002759W
-    - line:
-      - 531431N 0002759W
-    - arc:
-        dir: cw
-        radius: 5 nm
-        centre: 530958N 0003126W
-        to: 531355N 0003628W
-
-- name: SCAMPTON
-  id: scampton-matz
-  type: OTHER
-  localtype: MATZ
-  controltype: MILITARY
-  geometry:
-  - upper: 3202 ft
-    lower: 1202 ft
-    boundary:
-    - line:
-      - 531214N 0004629W
-      - 530937N 0004127W
-      - 531053N 0003936W
-    - arc:
-        dir: cw
-        radius: 5 nm
-        centre: 530958N 0003126W
-        to: 531355N 0003628W
-    - line:
-      - 531355N 0003628W
-    - arc:
-        dir: cw
-        radius: 5 nm
-        centre: 531828N 0003303W
-        to: 531619N 0004034W
-
 - name: SHAWBURY/TERNHILL
   id: shawbury-ternhill-matz
   type: OTHER
@@ -5585,22 +5535,31 @@ airspace:
   localtype: MATZ
   controltype: MILITARY
   geometry:
-  - upper: 3231 ft
-    lower: 1231 ft
+  - upper: 3230 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 5 nm
+        centre: 530958N 0003126W
+
+- name: WADDINGTON
+  id: waddington-matz
+  type: OTHER
+  localtype: MATZ
+  controltype: MILITARY
+  geometry:
+  - upper: 3230 ft
+    lower: 1230 ft
     boundary:
     - line:
       - 531828N 0002206W
-      - 531908N 0002448W
-    - arc:
-        dir: cw
-        radius: 5 nm
-        centre: 531828N 0003303W
-        to: 531431N 0002759W
+      - 531958N 0002817W
+      - 531457N 0003140W
     - arc:
         dir: cw
         radius: 5 nm
         centre: 530958N 0003126W
-        to: 531328N 0002529W
+        to: 531328N 0002530W
 
 - name: WARTON
   id: warton-matz
