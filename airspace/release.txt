@@ -7,8 +7,6 @@ Non-AIRAC:
 AIRAC: 2022/12/01
   PARHAM - Update frequency
 
-AIRAC: 2021/12/02
-  BIRMINGHAM RADAR - Change call sign
 Non-AIRAC:
   BIGGIN HILL - Correct upper level
 
