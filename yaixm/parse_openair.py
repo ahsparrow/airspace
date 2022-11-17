@@ -4,7 +4,7 @@ grammer = '''
     ?start: feature_list
     feature_list: feature+
 
-    feature: airtype airname geometry_list
+    feature: airtype airname freq? geometry_list
     geometry_list: geometry+
     geometry: lower upper boundary
 
@@ -12,6 +12,7 @@ grammer = '''
     airname: "AN" _WS_INLINE+ NAME_STRING _NEWLINE
     lower: "AL" _WS_INLINE + (ALT | FL | SFC) _NEWLINE
     upper: "AH" _WS_INLINE+ (ALT | FL) _NEWLINE
+    freq: "AF" _WS_INLINE+ FREQ _NEWLINE
 
     boundary: (line | circle | arc)+
 
@@ -37,6 +38,9 @@ grammer = '''
     ALT: DIGIT+ "ALT"
     FL: "FL" DIGIT+
     SFC: "SFC"
+
+    FREQ: DIGIT~3 "." DIGIT~3
+    %ignore FREQ
 
     RADIUS: NUMBER
     DIRECTION: ("+" | "-")
@@ -121,6 +125,9 @@ class OpenairTransformer(Transformer):
 
     def airtype(self, data):
         return 'type', data[0]
+
+    def freq(self, data):
+        return "freq", data[0]
 
     geometry = dict
     def geometry_list(self, tree):
