@@ -103,13 +103,14 @@ def navplot(args):
 
     volumes = []
     for feature in yaixm["airspace"]:
-        for vol in feature["geometry"]:
+        for volume in feature["geometry"]:
+            rules = feature.get('rules', []) + volume.get('rules', [])
 
             if (feature["type"] in ["CTA", "CTR", "D", "TMA"] or
                 feature["type"] == "OTHER" and feature["localtype"] == "MATZ"):
 
-                if level(vol["lower"]) < 6000:
-                    volumes.append(vol)
+                if level(volume["lower"]) < 6000 and "NOTAM" not in rules:
+                    volumes.append(volume)
 
     dummy = [{'geometry': volumes, 'name': "DUMMY", 'type': "OTHER"}]
 
