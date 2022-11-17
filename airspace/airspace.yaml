@@ -1384,8 +1384,6 @@ airspace:
   id: rhads-cta
   type: CTA
   class: D
-  rules:
-    - NOTAM
   geometry:
   - seqno: 1
     upper: FL85
@@ -12236,8 +12234,6 @@ airspace:
   id: doncaster-ctr
   type: CTR
   class: D
-  rules:
-    - NOTAM
   geometry:
   - seqno: 1
     upper: FL85
