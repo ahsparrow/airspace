@@ -6074,13 +6074,13 @@ airspace:
         radius: 0.5 nm
         centre: 504049N 0032051W
 
-- name: D064A SOUTH WEST MDA
+- name: D064C SOUTH WEST MDA
   type: D
   rules:
   - NOTAM
   geometry:
   - upper: FL660
-    lower: 10000 ft
+    lower: FL50
     boundary:
     - line:
       - 511207N 0052532W
