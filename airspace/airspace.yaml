@@ -4367,7 +4367,7 @@ airspace:
       - 505616N 0005119W
       - 510602N 0005439W
 
-- name: MANCESTER TMA
+- name: MANCHESTER TMA
   type: TMA
   class: A
   geometry:
@@ -4516,7 +4516,7 @@ airspace:
 #----------------------------------------------------------------------
 # ENR 2.2 Other regulated airspace
 
-- name: BARKSTONE HEATH
+- name: BARKSTON HEATH
   id: barkston-heath-atz
   type: ATZ
   geometry:
@@ -4628,7 +4628,7 @@ airspace:
         radius: 2 nm
         centre: 514732N 0004411W
 
-- name: HONINGTION
+- name: HONINGTON
   id: honington-atz
   type: ATZ
   geometry:
@@ -11917,8 +11917,8 @@ airspace:
         centre: 522722N 0014502W
         to: 523507N 0014154W
 
-- name: BLACKBUSH
-  id: blackbush-atz
+- name: BLACKBUSHE
+  id: blackbushe-atz
   type: ATZ
   geometry:
   - upper: 2325 ft
@@ -12579,8 +12579,8 @@ airspace:
       - 530321N 0031150W
       - 530845N 0031227W
 
-- name: HUMBERSDE
-  id: humbersize-atz
+- name: HUMBERSIDE
+  id: humberside-atz
   type: ATZ
   geometry:
   - upper: 2121 ft
@@ -12590,7 +12590,7 @@ airspace:
         radius: 2.5 nm
         centre: 533424N 0002105W
 
-- name: HUMBERSDE
+- name: HUMBERSIDE
   type: OTHER
   localtype: ILS
   geometry:
@@ -13022,7 +13022,7 @@ airspace:
       - 531130N 0023744W
       - 532708N 0023744W
 
-# Mancester/Barton
+# Manchester/Barton
 - name: BARTON
   id: barton-atz
   type: ATZ

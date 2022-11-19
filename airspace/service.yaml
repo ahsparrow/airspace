@@ -70,9 +70,9 @@ service:
   - birmingham-ctr
   frequency: 123.980
 
-- callsign: BLACKBUSH INFORMATION
+- callsign: BLACKBUSHE INFORMATION
   controls:
-  - blackbush-atz
+  - blackbushe-atz
   frequency: 122.305
 
 - callsign: BLACKPOOL APPROACH
@@ -443,7 +443,7 @@ service:
 
 - callsign: HUMBERSIDE RADAR
   controls:
-  - humbersize-atz
+  - humberside-atz
   frequency: 119.130
 
 - callsign: INCE RADIO
