@@ -6981,7 +6981,7 @@ airspace:
   - NOTAM
   geometry:
   - upper: 6000 ft
-    lower: SFC
+    lower: 2000 ft
     boundary:
     - line:
       - 525306N 0040947W
