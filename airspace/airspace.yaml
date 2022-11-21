@@ -5774,7 +5774,6 @@ airspace:
       - 500726N 0044228W
       - 500000N 0045430W
       - 500924N 0045430W
-      - 501244N 0044659W
 
 - name: D006B FALMOUTH BAY
   type: D
@@ -5788,7 +5787,6 @@ airspace:
       - 500924N 0045430W
       - 500000N 0045430W
       - 495646N 0045634W
-      - 495907N 0050506W
 
 - name: D007A FOWEY
   type: D
@@ -5803,7 +5801,6 @@ airspace:
       - 501550N 0042458W
       - 500922N 0044407W
       - 501202N 0044623W
-      - 501801N 0043643W
 
 - name: D007C FOWEY INNER
   type: D
@@ -5818,7 +5815,6 @@ airspace:
       - 501244N 0044659W
       - 501414N 0044441W
       - 501647N 0044447W
-      - 501733N 0044334W
 
 - name: D009A WEMBURY
   type: D
@@ -5952,7 +5948,6 @@ airspace:
       - 503400N 0024500W
       - 503400N 0024200W
       - 503700N 0024130W
-      - 503818N 0023424W
 
 - name: D015 BOVINGTON
   type: D
@@ -5978,7 +5973,6 @@ airspace:
       - 502931N 0023000W
       - 500200N 0023000W
       - 500200N 0024500W
-      - 503400N 0024500W
 
 - name: D021 PORTLAND
   type: D
@@ -5996,7 +5990,6 @@ airspace:
       - 502931N 0023000W
       - 503000N 0023000W
       - 503000N 0022000W
-      - 503500N 0022000W
 
 - name: D026 LULWORTH
   type: D
@@ -6091,7 +6084,6 @@ airspace:
       - 504328N 0043921W
       - 503012N 0054335W
       - 510624N 0052510W
-      - 511207N 0052532W
 
 - name: D110 BRAUNTON BURROWS
   type: D
@@ -11936,7 +11928,6 @@ airspace:
       - 511758N 0004954W
       - 511753N 0005038W
       - 511746N 0005120W
-      - 511738N 0005215W
 
 - name: BLACKPOOL
   id: blackpool-atz
