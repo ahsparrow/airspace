@@ -913,7 +913,7 @@ loa:
     add:
     - name: BURN BOX
       type: CTA
-      class: D
+      class: G
       geometry:
       - upper: 4500 ft
         lower: 2000 ft
@@ -1048,7 +1048,7 @@ loa:
     add:
     - name: DARLTON BOX
       type: CTA
-      class: D
+      class: G
       geometry:
       - upper: 4500 ft
         lower: 2000 ft
@@ -1119,7 +1119,7 @@ loa:
     add:
     - name: GOOLE BOX
       type: CTA
-      class: D
+      class: G
       geometry:
       - upper: 4500 ft
         lower: 2000 ft
@@ -1203,7 +1203,7 @@ loa:
     add:
     - name: UPTON CORRIDOR
       type: CTA
-      class: D
+      class: G
       geometry:
       - upper: 4500 ft
         lower: 4000 ft
@@ -1250,7 +1250,7 @@ loa:
     add:
     - name: WORKSOP CORRIDOR
       type: CTA
-      class: D
+      class: G
       geometry:
       - upper: 4500 ft
         lower: 1500 ft

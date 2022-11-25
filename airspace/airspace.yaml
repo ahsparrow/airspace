@@ -1383,7 +1383,7 @@ airspace:
 - name: DONCASTER SHEFFIELD CTA
   id: rhads-cta
   type: CTA
-  class: D
+  class: G
   geometry:
   - seqno: 1
     upper: FL85
@@ -1541,9 +1541,6 @@ airspace:
       - 531858N 0011152W
       - 531938N 0011532W
   - seqno: 13
-    class: E
-    rules:
-      - TMZ
     upper: FL105
     lower: FL85
     boundary:
@@ -12225,7 +12222,7 @@ airspace:
 - name: DONCASTER SHEFFIELD CTR
   id: doncaster-ctr
   type: CTR
-  class: D
+  class: G
   geometry:
   - seqno: 1
     upper: FL85
