@@ -12254,6 +12254,17 @@ airspace:
         centre: 532751N 0010036W
         to: 532535N 0011047W
 
+- name: DONCASTER SHEFFIELD
+  id: doncaster-atz
+  type: ATZ
+  geometry:
+  - upper: 2055 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.5 nm
+        centre: 532831N 0010015W
+
 - name: DUNDEE
   id: dundee-atz
   type: ATZ
