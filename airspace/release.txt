@@ -1,8 +1,10 @@
+AIRAC: 2022/12/29
+  SCAMPTON ATZ - Delete
+  SCAMPTON MATZ - Delete
+
 Non-AIRAC:
   DONCASTER/SHEFFIELD CTA, CTR, ATZ & LOAs - Remove
   NORTH HILL - Raise upper limit
-  SCAMPTON ATZ - Delete
-  SCAMPTON MATZ - Delete
 
 AIRAC: 2022/12/01
   PARHAM - Update frequency
