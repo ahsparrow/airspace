@@ -265,12 +265,6 @@ service:
   - derby-atz
   frequency: 118.355
 
-- callsign: DONCASTER APPROACH
-  controls:
-  - doncaster-cta
-  - doncaster-ctr
-  frequency: 126.225
-
 - callsign: DUNDEE APPROACH
   controls:
   - dundee-atz
