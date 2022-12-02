@@ -338,6 +338,7 @@ definitions:
       id:
         type: string
         pattern: ^UK[0-9A-Z]+$
+      name: *name
       position: *latlon
       # Type emumeration from ENR spreadsheet
       type:
@@ -361,6 +362,9 @@ definitions:
           - RTM         # Radio/TV mast
           - TURB-ON     # Onshore wind turbine
           - WASTE       # Waste pipe
+
+    required: [elevation, id, name, position, type]
+    additionalProperties: False
 
   #--------------------------------------------------------------------
   # Services
