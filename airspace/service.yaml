@@ -356,7 +356,7 @@ service:
 - callsign: FENTON RADIO
   controls:
   - fenton-atz
-  frequency: 126.505
+  frequency: 120.710
 
 - callsign: FLEETLANDS INFORMATION
   controls:
