@@ -9885,6 +9885,18 @@ airspace:
         radius: 1 nm
         centre: 505729N 0025614W
 
+- name: MIDDLE WALLOP
+  type: OTHER
+  localtype: GLIDER
+  geometry:
+  - upper: 2297 ft
+    lower: SFC
+    elevation: 297 ft
+    boundary:
+    - circle:
+        radius: 1 nm
+        centre: 510858N 0013413W
+
 - name: MILFIELD
   id: milfield-glider
   type: OTHER
