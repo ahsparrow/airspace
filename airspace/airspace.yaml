@@ -9299,19 +9299,6 @@ airspace:
         radius: 1.5 nm
         centre: 524817N 0040738W
 
-- name: MIDDLE WALLOP
-  type: D_OTHER
-  localtype: DZ
-  rules:
-  - NOTAM
-  geometry:
-  - upper: FL150
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1.5 nm
-        centre: 510902N 0013405W
-
 - name: NETHERAVON
   type: D_OTHER
   localtype: DZ

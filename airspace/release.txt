@@ -1,5 +1,6 @@
 Non-AIRAC:
   FENTON RADIO - Frequency change
+  MIDDLE WALLOP DZ - Delete
 
 AIRAC: 2022/12/29
   SCAMPTON ATZ - Delete
