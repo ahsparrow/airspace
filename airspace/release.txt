@@ -1,4 +1,5 @@
 Non-AIRAC:
+  D397 SYERSTON - Add TDA
   FENTON RADIO - Frequency change
   MIDDLE WALLOP DZ - Delete
   MIDDLE WALLOP - Add gliding site
