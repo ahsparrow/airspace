@@ -122,12 +122,3 @@ AIRAC: 2022/02/24
   HIGH TREES FARM - Add microlight site
   KENLEY RADIO - Update frequency
   HENLOW - Delete
-
-AIRAC: 2022/01/27
-  No changes
-
-Non-AIRAC
-  Remove obstacles - FERRYBRIDGE, IRONBRIDGE, LONGANNET
-
-AIRAC: 2021/12/30
-  BORDERS CTA1 - Correction to lower limit
