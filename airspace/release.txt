@@ -1,3 +1,6 @@
+AIRAC: 2023/2/32
+  No changes
+
 AIRAC: 2023/1/26
   No changes
 
@@ -104,21 +107,3 @@ Non-AIRAC:
 
 AIRAC: 2022/03/24
   BORDERS CTA 14 - Add
-
-Non-AIRAC:
-  SYWELL ILS - Delete
-
-AIRAC: 2022/02/24
-  ARGYLL CTA - Replace L602, L602/Y958 and N562
-  BORDERS CTA 12/3 - Replace southern part of P18
-  CLACTON CTA 10/11/12 - Add
-  DAVENTRY CTA 21 - Amend boundary and lower level
-  DAVENTRY CTA 22 - Amend boundary
-  DAVENTRY CTA 25 - Add
-  STANSTED CTA 3 - Amend lower level
-  MORAY CTA - Add, replace airways and update GUSSI BOX
-  TAY CTA - Add, replace airways and update Portmoak LOAs
-  LONDON TMA 2/3 - Delete TMA 2, modify TMA 3
-  HIGH TREES FARM - Add microlight site
-  KENLEY RADIO - Update frequency
-  HENLOW - Delete
