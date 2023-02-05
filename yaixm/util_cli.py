@@ -129,13 +129,13 @@ def release(args):
     json.dump(out, args.yaixm_file, sort_keys=True, indent=args.indent)
 
     # Default Openair file
-
     hdr = HEADER
     hdr += f"AIRAC: {header['airac_date'][:10]}\n"
     hdr += "asselect.uk: Default airspace file\n"
     hdr += f"Commit: {commit}\n"
     hdr += "\n"
-    hdr += header['note']
+    if args.note:
+        hdr += header['note']
 
     loas = [loa for loa in out['loa'] if loa['name'] == "CAMBRIDGE RAZ"]
     airspace = merge_loa(out['airspace'], loas)
