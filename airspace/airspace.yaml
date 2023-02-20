@@ -4376,19 +4376,6 @@ airspace:
         radius: 2.5 nm
         centre: 510912N 0014504W
 
-- name: COLERNE
-  id: colerne-atz
-  type: ATZ
-  rules:
-  - NOTAM
-  geometry:
-  - upper: 2593 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 2 nm
-        centre: 512628N 0021645W
-
 - name: CONINGSBY
   id: coningsby-atz
   type: ATZ

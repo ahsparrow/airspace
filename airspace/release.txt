@@ -1,3 +1,6 @@
+AIRAC: 2023/3/23
+  COLERNE ATZ - Delete
+
 AIRAC: 2023/2/32
   No changes
 
@@ -99,11 +102,3 @@ AIRAC: 2022/05/19
 
 AIRAC: 2022/04/21
   No changes
-
-Non-AIRAC:
-  BRIZE/FAIRFORD - Change service
-  DUNSTAABLE (HG/PG) LOA - Add
-  WITTERING ZONE - Amend frequency
-
-AIRAC: 2022/03/24
-  BORDERS CTA 14 - Add
