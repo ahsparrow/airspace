@@ -2612,7 +2612,7 @@ airspace:
       - 543724N 0014622W
       - 543901N 0020136W
 
-- name: NITON CTA
+- name: PEPZE CTA
   type: CTA
   class: A
   geometry:
