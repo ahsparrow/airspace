@@ -1,5 +1,6 @@
 AIRAC: 2023/3/23
   COLERNE ATZ - Delete
+  BERRY HEAD CTA 4 - Modify coordinates
 
 Non-AIRAC:
   WALDERSHARE PARK - Delete
