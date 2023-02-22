@@ -2703,6 +2703,69 @@ airspace:
       - 524748N 0024505W
       - 524220N 0024338W
       - 524256N 0030302W
+  - seqno: 9
+    upper: FL195
+    lower: FL145
+    boundary:
+    - line:
+      - 524325N 0032001W
+      - 524220N 0024338W
+      - 523651N 0024210W
+      - 523639N 0024211W
+      - 523752N 0032310W
+      - 523810N 0032308W
+  - seqno: 10
+    upper: FL195
+    lower: FL155
+    boundary:
+    - line:
+      - 523752N 0032310W
+      - 523639N 0024211W
+      - 523028N 0024244W
+      - 523040N 0024916W
+      - 520722N 0025115W
+      - 520749N 0030551W
+      - 520811N 0031848W
+      - 522743N 0031721W
+      - 522753N 0032353W
+  - seqno: 11
+    upper: FL195
+    lower: FL175
+    boundary:
+    - line:
+      - 523040N 0024916W
+      - 523028N 0024244W
+      - 522029N 0024337W
+      - 522042N 0025007W
+  - seqno: 12
+    upper: FL195
+    lower: FL175
+    boundary:
+    - line:
+      - 522753N 0032353W
+      - 522743N 0031721W
+      - 520811N 0031848W
+      - 520822N 0032517W
+  - seqno: 13
+    upper: FL195
+    lower: FL145
+    boundary:
+    - line:
+      - 520811N 0031848W
+      - 520722N 0025115W
+      - 520148N 0025143W
+      - 520237N 0031916W
+      - 520253N 0031912W
+  - seqno: 14
+    upper: FL195
+    lower: FL145
+    boundary:
+    - line:
+      - 520237N 0031916W
+      - 520148N 0025143W
+      - 515751N 0025203W
+      - 515647N 0025125W
+      - 515739N 0032029W
 
 - name: NORWICH CTA
   id: norwich-cta
