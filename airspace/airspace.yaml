@@ -11246,7 +11246,7 @@ airspace:
     boundary:
     - circle:
         radius: 0.5 nm
-        centre: 514811N 0000339E
+        centre: 514825N 0000416E
 
 - name: HUSTHWAITE
   type: OTHER
