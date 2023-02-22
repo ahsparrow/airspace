@@ -6,7 +6,7 @@ AIRAC: 2023/3/23
   COTSWOLD CTA 10 - Delete
   DAVENTRY CTA 15 - Modify coordinates
   NITON CTA - Rename PEPZE CTA
-  PEPZE CTA 6,7 - Modify coordinates
+  PEPZE CTA 6,7,8 - Modify coordinates
 
 Non-AIRAC:
   WALDERSHARE PARK - Delete
