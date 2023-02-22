@@ -9,6 +9,7 @@ AIRAC: 2023/3/23
   NITON 9-12 - Delete (replace with PEPZE 9-14)
   PEPZE CTA 6,7,8 - Modify coordinates
   PEPZE 9-14 - New (replacing NITON 9-12)
+  STRUMBLE CTA 1 - Modify coordinates
 
 Non-AIRAC:
   WALDERSHARE PARK - Delete
