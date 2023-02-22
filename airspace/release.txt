@@ -3,6 +3,7 @@ AIRAC: 2023/3/23
   BERRY HEAD CTA 8,9 - New
   COLERNE ATZ - Delete
   COTSWOLD CTA 5,6,7,9 - Modify coordinates
+  COTSWOLD CTA 10 - Delete
 
 Non-AIRAC:
   WALDERSHARE PARK - Delete

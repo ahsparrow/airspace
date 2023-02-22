@@ -1002,15 +1002,6 @@ airspace:
       - 514825N 0031406W
       - 514954N 0032323W
       - 515056N 0032207W
-  - seqno: 10
-    upper: FL195
-    lower: FL95
-    boundary:
-    - line:
-      - 515743N 0032249W
-      - 515716N 0030640W
-      - 515316N 0030658W
-      - 515343N 0032306W
   - id: cotswold-cta-11
     seqno: 11
     upper: FL195
