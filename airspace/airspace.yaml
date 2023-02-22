@@ -4796,29 +4796,35 @@ airspace:
     lower: SFC
     boundary:
     - line:
-      - 525814N 0003835W
-    - arc:
-        dir: cw
-        radius: 3 nm
-        centre: 525744N 0003342W
-        to: 525952N 0003712W
-    - line:
       - 525952N 0003712W
     - arc:
         dir: cw
         radius: 5 nm
         centre: 530148N 0002934W
         to: 525649N 0002858W
-    - line:
-      - 525649N 0002858W
     - arc:
         dir: cw
         radius: 3 nm
         centre: 525744N 0003342W
-        to: 525452N 0003505W
+        to: 525952N 0003712W
+
+- name: BARKSTON HEATH
+  type: OTHER
+  localtype: MATZ
+  controltype: MILITARY
+  geometry:
+  - upper: 3367 ft
+    lower: 1000 ft
+    boundary:
     - line:
-      - 525323N 0003857W
-      - 525646N 0004228W
+      - 525324N 0003857W
+      - 525647N 0004228W
+      - 525815N 0003835W
+    - arc:
+        dir: ccw
+        radius: 3 nm
+        centre: 525744N 0003342W
+        to: 525451N 0003505W
 
 - name: BENSON
   id: benson-matz
