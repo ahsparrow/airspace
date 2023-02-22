@@ -177,6 +177,25 @@ airspace:
       - 500000N 0031958W
       - 502251N 0033827W
       - 502452N 0032136W
+  - seqno: 8
+    upper: FL195
+    lower: FL105
+    boundary:
+    - line:
+      - 510440N 0033037W
+      - 504441N 0033401W
+      - 504506N 0034002W
+      - 505655N 0033746W
+  - seqno: 9
+    upper: FL195
+    lower: FL145
+    boundary:
+    - line:
+      - 504506N 0034002W
+      - 504441N 0033401W
+      - 502257N 0033739W
+      - 502251N 0033827W
+      - 502837N 0034310W
 
 - name: BIRMINGHAM CTA
   id: birmingham-cta
