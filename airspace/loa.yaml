@@ -786,7 +786,7 @@ loa:
   - name: CHIPPING BOX
     add:
     - name: CHIPPING BOX FL100
-      type: AWY
+      type: CTA
       class: A
       geometry:
       - upper: FL100
@@ -808,7 +808,7 @@ loa:
           - 535859N 0025312W
 
     - name: CHIPPING BOX FL140
-      type: AWY
+      type: CTA
       class: A
       geometry:
       - upper: FL140
@@ -1362,7 +1362,7 @@ loa:
   - name: GUSSI BOX
     add:
     - name: GUSSI BOX
-      type: AWY
+      type: CTA
       class: E
       rules:
         - TMZ
@@ -1534,7 +1534,7 @@ loa:
   - name: COMPTON BOX
     add:
     - name: COMPTON BOX
-      type: AWY
+      type: CTA
       class: A
       geometry:
       - upper: 5500 ft
@@ -1849,7 +1849,7 @@ loa:
           - 562000N 0034746W
 
     - name: P600 AREA A
-      type: AWY
+      type: CTA
       class: A
       geometry:
       - upper: FL190
@@ -1862,7 +1862,7 @@ loa:
           - 561400N 0040926W
           - 562000N 0034746W
     - name: P600 AREA B
-      type: AWY
+      type: CTA
       class: A
       geometry:
       - upper: FL190
@@ -1877,7 +1877,7 @@ loa:
           - 562146N 0034425W
 
     - name: P600 AREA C
-      type: AWY
+      type: CTA
       class: A
       geometry:
       - upper: FL190
@@ -1891,7 +1891,7 @@ loa:
           - 562948N 0032900W
 
     - name: P600 AREA D
-      type: AWY
+      type: CTA
       class: A
       geometry:
       - upper: FL190
@@ -1904,7 +1904,7 @@ loa:
           - 563900N 0031738W
 
     - name: P600 AREA E
-      type: AWY
+      type: CTA
       class: A
       geometry:
       - upper: FL190
@@ -1917,7 +1917,7 @@ loa:
           - 564838N 0030536W
 
     - name: P600 AREA F
-      type: AWY
+      type: CTA
       class: A
       geometry:
       - upper: FL190
@@ -2017,7 +2017,7 @@ loa:
   - name: N864 CROSSING
     add:
     - name: N864 AREA X
-      type: AWY
+      type: CTA
       class: A
       geometry:
       - upper: FL190
@@ -2038,7 +2038,7 @@ loa:
           - 561241N 0031943W
 
     - name: N864 AREA Y
-      type: AWY
+      type: CTA
       class: A
       geometry:
       - upper: FL190
@@ -2116,7 +2116,7 @@ loa:
           - 560700N 0040000W
 
     - name: P600 ACCESS
-      type: AWY
+      type: CTA
       class: A
       geometry:
       - id: p600-access-area-a
