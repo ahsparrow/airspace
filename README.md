@@ -36,20 +36,8 @@ common computer languages) or converted to JSON before parsing.
 
 YAML doesn't have a schema language. However YAIXM data can
 be mapped directly to/from JSON, so [JSON Schema](http://json-schema.org/)
-can be used instead. The JSON schema (written in YAML!) can be found at
-yaixm/data/schema.yaml
-
-### Utilities
-
-Use the run.py script for various utilities, `./run.py -h` to get a list
-
-To validate a YAIXM file against the schema:
-
-    ./run.py check airspace.yaml
-
-To generate a ASSelect airspace files
-
-    ./run.py release --note airspace/release.txt airspace yaixm.json openair.txt
+can be used instead. The JSON schema for YAIXM can be found on 
+[GitHub](https://github.com/ahsparrow/airspace_utils/yaixm/data/schema.yaml).
 
 ### Contributing
 
