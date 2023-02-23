@@ -2231,7 +2231,7 @@ loa:
   - name: MADLEY BOX
     add:
     - name: MADLEY BOX
-      type: AWY
+      type: CTA
       class: A
       geometry:
       - upper: FL195
@@ -2239,37 +2239,80 @@ loa:
         boundary:
         - line:
           - 520734N 0025744W
-          - 520712N 0024624W
-          - 515640N 0024718W
+          - 520722N 0025115W
+          - 515751N 0025203W
+          - 515647N 0025125W
           - 515701N 0025836W
 
-    replace:
-    - id: niton-cta-9
+    - name: MADLEY BOX
+      type: CTA
+      class: C
       geometry:
       - upper: FL195
-        lower: FL145
+        lower: FL175
         boundary:
         - line:
-          - 524324N 0031928W
-          - 524256N 0030302W
-          - 524223N 0024500W
-          - 523040N 0024421W
+          - 520722N 0025115W
           - 520712N 0024624W
-          - 520734N 0025744W
-          - 520200N 0025812W
-          - 520215N 0030617W
-          - 520749N 0030551W
-          - 520817N 0032203W
-    - id: niton-cta-12
+          - 515700N 0024716W
+          - 515642N 0024828W
+          - 515647N 0025125W
+          - 515751N 0025203W
+
+    - name: MADLEY BOX
+      type: CTA
+      class: A
+      geometry:
+      - upper: FL195
+        lower: FL105
+        boundary:
+        - line:
+          - 515700N 0024716W
+          - 515640N 0024718W
+          - 515642N 0024828W
+
+    replace:
+    - id: pepze-cta-13
       geometry:
       - upper: FL195
         lower: FL145
         boundary:
         - line:
-          - 520215N 0030617W
-          - 520200N 0025812W
+          - 520811N 0031848W
+          - 520734N 0025744W
+          - 520200N 0025811W
+          - 520237N 0031916W
+          - 520253N 0031912W
+
+    - id: pepze-cta-14
+      geometry:
+      - upper: FL195
+        lower: FL145
+        boundary:
+        - line:
+          - 520237N 0031916W
+          - 520200N 0025811W
           - 515701N 0025836W
-          - 515716N 0030640W
+          - 515739N 0032029W
+
+    - id: cotswold-cta-17
+      geometry:
+      - upper: FL195
+        lower: FL175
+        boundary:
+        - line:
+          - 525046N 0024529W
+          - 523253N 0023011W
+          - 521702N 0021251W
+          - 520526N 0023050W
+          - 515714N 0024620W
+          - 515700N 0024716W
+          - 520712N 0024624W
+          - 520722N 0025115W
+          - 522042N 0025007W
+          - 522029N 0024337W
+          - 523651N 0024210W
+          - 524852N 0024522W
 
   - name: RAGLAN BOX
     add:
@@ -2306,13 +2349,14 @@ loa:
         lower: FL105
         boundary:
         - line:
-          - 515716N 0030640W
+          - 515739N 0032029W
           - 515701N 0025836W
           - 515153N 0025901W
-          - 515040N 0024748W
-          - 514539N 0024814W
-          - 514743N 0030725W
-          - 515316N 0030658W
+          - 515043N 0024748W
+          - 514515N 0024433W
+          - 514738N 0030638W
+          - 515313N 0030514W
+          - 515341N 0032127W
 
 #----------------------------------------------------------------------
 # The Southend Crossing LOA is not well defined. The LoA shows

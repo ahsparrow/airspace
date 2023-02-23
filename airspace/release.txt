@@ -14,6 +14,7 @@ AIRAC: 2023/3/23
   STRUMBLE CTA 1,2,3,4 - Modify coordinates
 
 Non-AIRAC:
+  RILES GLIDING AREA LOA - Update for new CTA structure
   WALDERSHARE PARK - Delete
 
 AIRAC: 2023/2/23

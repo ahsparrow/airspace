@@ -1075,7 +1075,8 @@ airspace:
       - 515351N 0023017W
       - 515208N 0022350W
       - 514413N 0023517W
-  - seqno: 17
+  - id: cotswold-cta-17
+    seqno: 17
     class: C
     upper: FL195
     lower: FL175
@@ -2746,7 +2747,8 @@ airspace:
       - 522743N 0031721W
       - 520811N 0031848W
       - 520822N 0032517W
-  - seqno: 13
+  - id: pepze-cta-13
+    seqno: 13
     upper: FL195
     lower: FL145
     boundary:
@@ -2756,7 +2758,8 @@ airspace:
       - 520148N 0025143W
       - 520237N 0031916W
       - 520253N 0031912W
-  - seqno: 14
+  - id: pepze-cta-14
+    seqno: 14
     upper: FL195
     lower: FL145
     boundary:
