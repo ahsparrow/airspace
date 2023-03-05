@@ -23,7 +23,7 @@ obstacle:
   type: RTM
   id: UK0150A046F
   position: 573530N 0041636W
-  elevation: 1502 ft
+  elevation: 1526 ft
 - name: DURRIS RTM
   type: RTM
   id: UK0150A033F
@@ -33,7 +33,7 @@ obstacle:
   type: RTM
   id: UK0150A026F
   position: 563318N 0025910W
-  elevation: 1814 ft
+  elevation: 1817 ft
 - name: POWER CABLE
   type: PYL
   id: UK0150F532F
@@ -178,7 +178,7 @@ obstacle:
   type: RTM
   id: UK0171A310F
   position: 542131N 0010901W
-  elevation: 2295 ft
+  elevation: 2248 ft
 - name: INSKIP RTM
   type: RTM
   id: UK0171F960F
@@ -204,11 +204,6 @@ obstacle:
   id: UK0171P750F
   position: 534413N 0005956W
   elevation: 870 ft
-- name: EGGBOROUGH CMN
-  type: CHIM
-  id: UK0171U698F
-  position: 534243N 0010731W
-  elevation: 696 ft
 - name: WINTER HILL RTM
   type: RTM
   id: UK0171A245F
@@ -299,11 +294,6 @@ obstacle:
   id: UK0171A034F
   position: 521747N 0020624W
   elevation: 919 ft
-- name: DAVENTRY RTM
-  type: RTM
-  id: UK017A030F
-  position: 521510N 0010824W
-  elevation: 1339 ft
 - name: MENDLESHAM RTM
   type: RTM
   id: UK0171A028F
@@ -328,17 +318,17 @@ obstacle:
   type: PYL
   id: UK0230I251F
   position: 512754N 0001748E
-  elevation: 668 ft
+  elevation: 640 ft
 - name: DARTFORD PYL
   type: PYL
   id: UK0230A054F
   position: 512744N 0001819E
-  elevation: 668 ft
+  elevation: 640 ft
 - name: WENVOE RTM
   type: RTM
   id: UK0229A035F
   position: 512734N 0031654W
-  elevation: 1297 ft
+  elevation: 1319 ft
 - name: ST HILARY RTM
   type: RTM
   id: UK0229A034F
@@ -354,11 +344,6 @@ obstacle:
   id: UK0230A027F
   position: 510642N 0011451E
   elevation: 1251 ft
-- name: FAWLEY CMN
-  type: CHIM
-  id: UK0230D709F
-  position: 504904N 0011945W
-  elevation: 648 ft
 - name: STOCKLAND HILL RTM
   type: BLDG
   id: UK0229A015F

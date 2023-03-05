@@ -18,6 +18,7 @@ Non-AIRAC:
   PORTSMOUTH CTA 6,17,18 - Revert base from FL55 to 5500 ft to match SOLENT CTA
   RILES GLIDING AREA LOA - Update for new CTA structure
   WALDERSHARE PARK - Delete
+  Obstacles - Minor updates
 
 AIRAC: 2023/2/23
   No changes
