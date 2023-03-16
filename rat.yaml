@@ -21,3 +21,13 @@ rat:
     - circle:
         radius: 3 nm
         centre: 520512N 0001907W
+
+- name: ABINGDON AIR SHOW (19-20 MAY)
+  type: P
+  geometry:
+  - upper: 6000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 4 nm
+        centre: 514127N 0011902W
