@@ -1,6 +1,7 @@
 Non-AIRAC
   ABINGDON AIR SHOW RA(T) - Add
   OLD WARDEN RA(T) - Add
+  WADDINGTON RA(T) - Add
 
 AIRAC: 2023/3/23
   BARKSTON HEATH MATZ - Raise lower level of stub
