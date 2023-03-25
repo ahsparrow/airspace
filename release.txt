@@ -123,6 +123,3 @@ Non-AIRAC:
 
 AIRAC: 2022/05/19
   No changes
-
-AIRAC: 2022/04/21
-  No changes
