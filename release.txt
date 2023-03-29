@@ -2,6 +2,7 @@ AIRAC: 2023/4/20
   BICESTER - Change frequency
   DAIRY HOUSE FARM - New microlight site
   HONINGTON ATZ - Change frequency
+  PREDANNACK GLIDING - Raise upper limit
 
 Non-AIRAC
   ABINGDON AIR SHOW RA(T) - Add

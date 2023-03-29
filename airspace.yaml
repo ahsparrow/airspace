@@ -4670,7 +4670,7 @@ airspace:
   id: predannack-atz
   type: ATZ
   geometry:
-  - upper: 2299 ft
+  - upper: 3299 ft
     lower: SFC
     boundary:
     - circle:
