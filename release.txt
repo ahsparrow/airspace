@@ -1,3 +1,6 @@
+AIRAC: 2023/4/20
+  HONINGTON ATZ - Change frequency
+
 Non-AIRAC
   ABINGDON AIR SHOW RA(T) - Add
   DUNSTABLE COMPS LOA - Modify coordiates

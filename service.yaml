@@ -435,6 +435,11 @@ service:
   - henstridge-noatz
   frequency: 130.255
 
+- callsign: HONINGTON RADIO
+  controls:
+  - honington-atz
+  frequency: 124.105
+
 - callsign: HUMBERSIDE RADAR
   controls:
   - humberside-atz
@@ -467,7 +472,6 @@ service:
 
 - callsign: LAKENHEATH RADAR
   controls:
-  - honington-atz
   - lakenheath-atz
   - lakenheath-mildenhall-matz
   - mildenhall-atz
