@@ -905,7 +905,7 @@ service:
 - callsign: BICESTER RADIO
   controls:
   - bicester-glider
-  frequency: 135.480
+  frequency: 118.390
 
 - callsign: BIDFORD RADIO
   controls:
