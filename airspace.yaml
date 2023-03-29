@@ -11081,6 +11081,17 @@ airspace:
         radius: 0.5 nm
         centre: 510338N 0010035W
 
+- name: DAIRY HOUSE FARM
+  type: OTHER
+  localtype: UL
+  geometry:
+  - upper: 2150 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.5 nm
+        centre: 530623N 0023015W
+
 - name: DARLEY MOOR
   type: OTHER
   localtype: UL
