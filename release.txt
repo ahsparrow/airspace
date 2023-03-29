@@ -1,7 +1,8 @@
 AIRAC: 2023/4/20
-  BICESTER - Change frequency
+  BICESTER - Update frequency
+  BIGGIN HILL - Update elevation
   DAIRY HOUSE FARM - New microlight site
-  HONINGTON ATZ - Change frequency
+  HONINGTON ATZ - Update frequency
   PREDANNACK GLIDING - Raise upper limit
 
 Non-AIRAC
