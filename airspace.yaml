@@ -13655,17 +13655,6 @@ airspace:
         radius: 1.5 nm
         centre: 523837N 0001742E
 
-- name: MAYPOLE
-  type: OTHER
-  localtype: NOATZ
-  geometry:
-  - upper: 2110 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1.5 nm
-        centre: 512017N 0010920E
-
 - name: NEWMARKET
   type: OTHER
   localtype: NOATZ
