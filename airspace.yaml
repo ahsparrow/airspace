@@ -11646,17 +11646,6 @@ airspace:
         radius: 0.5 nm
         centre: 541401N 0005808W
 
-- name: WYTON
-  type: OTHER
-  localtype: UL
-  geometry:
-  - upper: 2128 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.5 nm
-        centre: 522120N 0000706W
-
 - name: YATESBURY
   type: OTHER
   localtype: UL
