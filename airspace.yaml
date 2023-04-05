@@ -10769,6 +10769,17 @@ airspace:
         radius: 1.5 nm
         centre: 524817N 0040738W
 
+- name: LONGSIDE
+  type: OTHER
+  localtype: NOATZ
+  geometry:
+  - upper: 2120 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 1.5 nm
+        centre: 573056N 0015230W
+
 - name: MEMBURY
   type: OTHER
   localtype: NOATZ
