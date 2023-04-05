@@ -11047,18 +11047,6 @@ airspace:
         radius: 0.5 nm
         centre: 522910N 0000523E
 
-- name: CHILTERN PARK
-  id: chiltern-park-ul
-  type: OTHER
-  localtype: UL
-  geometry:
-  - upper: 2180 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.5 nm
-        centre: 513302N 0010605W
-
 - name: CHIRK
   type: OTHER
   localtype: UL
