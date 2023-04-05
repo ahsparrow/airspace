@@ -11547,7 +11547,7 @@ airspace:
         radius: 0.5 nm
         centre: 554049N 0040654W
 
-- name: SUTTON MEDOWS
+- name: SUTTON MEADOWS
   type: OTHER
   localtype: UL
   geometry:
