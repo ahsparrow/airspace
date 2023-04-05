@@ -11503,17 +11503,6 @@ airspace:
         radius: 0.5 nm
         centre: 535603N 0025038W
 
-- name: SADDINGTON
-  type: OTHER
-  localtype: UL
-  geometry:
-  - upper: 2460 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.5 nm
-        centre: 523039N 0010102W
-
 - name: SANDY
   type: OTHER
   localtype: UL
