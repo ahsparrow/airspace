@@ -10651,6 +10651,18 @@ airspace:
         radius: 1.5 nm
         centre: 512302N 0011012W
 
+- name: DAMYNS HALL
+  id: damyns-noatz
+  type: OTHER
+  localtype: NOATZ
+  geometry:
+  - upper: 2056 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 1.5 nm
+        centre: 513143N 0001444E
+
 - name: DUNSFOLD
   id: dunsfold-noatz
   type: OTHER
@@ -13563,18 +13575,6 @@ airspace:
     - circle:
         radius: 1.5 nm
         centre: 521016N 0010640E
-
-- name: DAMYNS HALL
-  id: damyns-noatz
-  type: OTHER
-  localtype: NOATZ
-  geometry:
-  - upper: 2056 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1.5 nm
-        centre: 513143N 0001444E
 
 - name: DEANLAND
   id: deanland-noatz
