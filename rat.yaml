@@ -22,6 +22,86 @@ rat:
         radius: 3 nm
         centre: 520512N 0001907W
 
+- name: CORONATION REHEARSAL (25-27 APR)
+  type: P
+  geometry:
+  - upper: 7000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 523700N 0014400E
+      - 522250N 0014416E
+      - 521033N 0015518E
+      - 521141N 0022435E
+      - 515548N 0010705E
+      - 520015N 0004842E
+      - 520300N 0004956E
+  - upper: 5500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 524800N 0002400E
+      - 525800N 0005900E
+      - 521830N 0011411E
+      - 520300N 0004956E
+      - 520015N 0004842E
+      - 520059N 0004627E
+  - upper: 3000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 523400N 0003045E
+      - 525900N 0010000W
+      - 531451N 0010000W
+    - arc:
+        dir: ccw
+        radius: 13 nm
+        centre: 532751N 0010036W
+        to: 531509N 0005610W
+    - line:
+      - 532341N 0005135W
+      - 532329N 0003250W
+    - arc:
+        dir: cw
+        radius: 5 nm
+        centre: 531828N 0003303W
+        to: 531839N 0002442W
+    - line:
+      - 530453N 0001811W
+    - arc:
+        dir: ccw
+        radius: 5 nm
+        centre: 530535N 0000958W
+        to: 530108N 0001343W
+    - line:
+      - 525500N 0000400E
+      - 524800N 0001200E
+      - 524800N 0002400E
+  - upper: FL105
+    lower: SFC
+    boundary:
+    - line:
+      - 532341N 0005135W
+      - 533741N 0004403W
+      - 540000N 0004400W
+      - 540000N 0001235W
+      - 533600N 0001100E
+      - 530600N 0002100E
+      - 525500N 0000400E
+      - 530108N 0001343W
+    - arc:
+        dir: cw
+        radius: 5 nm
+        centre: 530535N 0000958W
+        to: 530453N 0001811W
+    - line:
+      - 531839N 0002442W
+    - arc:
+        dir: ccw
+        radius: 5 nm
+        centre: 531828N 0003303W
+        to: 532329N 0003250W
+
 - name: ABINGDON AIR SHOW (19-20 MAY)
   type: P
   geometry:
