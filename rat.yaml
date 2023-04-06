@@ -182,3 +182,18 @@ rat:
     - circle:
         radius: 4 nm
         centre: 514127N 0011902W
+
+- name: SHERBURN-IN-ELMET (20-21 MAY)
+  type: P
+  geometry:
+  - upper: 1500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 534844N 0011658W
+      - 534748N 0010943W
+      - 534945N 0010215W
+      - 534702N 0005716W
+      - 534224N 0010036W
+      - 534149N 0010737W
+      - 534532N 0011720W
