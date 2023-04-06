@@ -22,16 +22,6 @@ rat:
         radius: 3 nm
         centre: 520512N 0001907W
 
-- name: WADDINGTON (28-30 MAR)
-  type: P
-  geometry:
-  - upper: 9000 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 5 nm
-        centre: 531001N 0003126W
-
 - name: ABINGDON AIR SHOW (19-20 MAY)
   type: P
   geometry:
