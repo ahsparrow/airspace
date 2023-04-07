@@ -7,6 +7,7 @@ Non-AIRAC
   MAYPOLE A/F - Remove
   SADDINGTON UL - Remove
   SHERBURN-IN-ELMET RA(T) - Add
+  SYERSTON - Remove TDA
   WYTON UL - Remove
 
 AIRAC: 2023/4/20

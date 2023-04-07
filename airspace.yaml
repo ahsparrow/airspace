@@ -6987,16 +6987,6 @@ airspace:
       - 534331N 0000805W
       - 535908N 0002606W
 
-- name: D397 SYERSTON
-  type: D
-  geometry:
-  - upper: 5000 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 5 nm
-        centre: 530124N 0005442W
-
 - name: D402A LUCE BAY (N)
   type: D
   rules:
