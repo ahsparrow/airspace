@@ -11216,6 +11216,17 @@ airspace:
         radius: 0.5 nm
         centre: 510531N 0005918E
 
+- name: HAWKSVIEW
+  type: OTHER
+  localtype: UL
+  geometry:
+  - upper: 2220 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.5 nm
+        centre: 532032N 0023133W
+
 - name: HIGH TREES FARM
   type: OTHER
   localtype: UL
