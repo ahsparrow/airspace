@@ -9790,6 +9790,19 @@ airspace:
         radius: 1 nm
         centre: 520145N 0011229W
 
+- name: HONINGTON
+  id: honington-glider
+  type: OTHER
+  localtype: GLIDER
+  geometry:
+  - upper: 2174 ft
+    lower: SFC
+    elevation: 174 ft
+    boundary:
+    - circle:
+        radius: 1 nm
+        centre: 522036N 0004648E
+
 - name: HUSBANDS BOSWORTH
   id: husbands-bosworth-glider
   type: OTHER

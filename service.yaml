@@ -438,6 +438,7 @@ service:
 - callsign: HONINGTON RADIO
   controls:
   - honington-atz
+  - honington-glider
   frequency: 124.105
 
 - callsign: HUMBERSIDE RADAR

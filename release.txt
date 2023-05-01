@@ -1,6 +1,7 @@
 AIRAC: 2023/5/18
   HAVERFORDWEST DZ - Remove
   HAWKSVIEW UL - Add
+  HONINGTON - Add gliding site
 
 Non-AIRAC
   CHILTERN PARK UL - Remove
