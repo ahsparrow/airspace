@@ -9261,17 +9261,6 @@ airspace:
         radius: 1.5 nm
         centre: 561100N 0031313W
 
-- name: HAVERFORDWEST
-  type: D_OTHER
-  localtype: DZ
-  geometry:
-  - upper: FL150
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1.5 nm
-        centre: 514959N 0045740W
-
 - name: HIBALDSTOW
   type: D_OTHER
   localtype: DZ
