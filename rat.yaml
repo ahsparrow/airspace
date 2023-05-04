@@ -93,6 +93,16 @@ rat:
       - 511835N 0012810W
       - 511726N 0012843W
 
+- name: MORETON-IN-MARSH (9-12 MAY)
+  type: P
+  geometry:
+  - upper: 2200 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.5 nm
+        centre: 515934N 0014017W
+
 - name: ABINGDON AIR SHOW (19-20 MAY)
   type: P
   geometry:
