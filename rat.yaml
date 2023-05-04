@@ -117,3 +117,24 @@ rat:
       - 534224N 0010036W
       - 534149N 0010737W
       - 534532N 0011720W
+
+- name: SYWELL (8-10 JUN)
+  type: P
+  geometry:
+  - upper: 3500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 522121N 0004311W
+    - arc:
+        dir: cw
+        radius : 4 nm
+        centre: 521822N 0004732W
+        to: 521521N 0004316W
+    - line:
+      - 521521N 0005508W
+    - arc:
+        dir: cw
+        radius: 4 nm
+        centre: 521822N 0005052W
+        to: 522121N 0005513W
