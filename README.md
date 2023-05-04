@@ -47,3 +47,28 @@ YAIXM is on [GitHub](https://github.com/ahsparrow/airspace).
 
 Please get in touch, via GitHub or otherwise. If you've got something
 to contribute it would be very welcome.
+
+### Airspace type coding
+
+type        | localtype   | description
+------------|-------------|------------
+ATZ         |             | Air traffic zone
+CTA         |             | Control area
+CTR         |             | Control zone
+D           |             | Danger area
+D_OTHER     | DZ          | Drop zone
+D_OTHER     | LASER       | Laser site
+D_OTHER     | GLIDER      | Wave box
+D_OTHER     | HIRTA       | HIRTA
+D_OTHER     | GVS         | Gas venting station
+OTHER       | GLIDER      | Gliding site
+OTHER       | ILS         | Instrument landing system
+OTHER       | MATZ        | Military ATZ
+OTHER       | NOATZ       | Training airfield
+OTHER       | RMZ         | Radio mandatory zone
+OTHER       | TMZ         | Transponder mandatory zone
+OTHER       | UL          | Ultralight airfield
+P           |             | Prohibited area
+R           |             | Restricted area
+TMA         |             | Terminal manouvering area
+
