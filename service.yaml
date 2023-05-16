@@ -92,6 +92,7 @@ service:
   - boscombe-wallop-matz
   - middle-wallop-atz
   - middle-wallop-matz
+  - d148
   frequency: 126.700
 
 - callsign: BOURN RADIO

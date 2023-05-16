@@ -6423,6 +6423,24 @@ airspace:
         radius: 2 nm
         centre: 515800N 0025300W
 
+- name: D148 KEEVIL
+  type: D
+  rules:
+    - NOTAM
+  geometry:
+    - id: d148
+      upper: 3200 ft
+      lower: SFC
+      boundary:
+      - line:
+        - 511744N 0021016W
+        - 511937N 0020745W
+        - 512055N 0020410W
+        - 511946N 0020305W
+        - 511705N 0020312W
+        - 511602N 0020657W
+        - 511701N 0020929W
+
 - name: D201C ABERPORTH
   type: D
   rules:
