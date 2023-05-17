@@ -3,6 +3,7 @@ Non-AIRAC:
   MORETON-IN-MARSH RA(T) - Add
   SYWELL RA(T) - Add
   D148 KEEVIL - Add
+  ROUGHAM A/F - Delete
 
 AIRAC: 2023/5/18
   HAVERFORDWEST DZ - Remove
