@@ -1,3 +1,6 @@
+AIRAC: 2023/6/15
+  No changes
+
 Non-AIRAC:
   COSFORD RA(T) - Add
   MORETON-IN-MARSH RA(T) - Add
@@ -128,20 +131,3 @@ Non-AIRAC:
 AIRAC: 2022/07/14
   PEMBREY ATZ - Delete
   SCOTTISH TMA - Minor coordinate change
-
-Non-AIRAC:
-  Update all HIRTA
-  COSFORD RA(T) - Add
-  DUXFORD RA(T) - Add
-  GLASTONBURY RA(T) - Add
-  HEADCORN RA(T) - Add
-  SCARBOROUGH RA(T) - Add
-  SILVERSTONE RA(T) - Add
-  IOW FESTIVAL RA(T) - Add
-  Correct longitude of CROUGHTON HIRTA
-
-AIRAC: 2022/06/16
-  COLERNE HIRTA - Add
-  COUGHTON HIRTA - Amend geometry
-  MADLEY HIRTA - Add
-  PERSHORE HIRTA - Amend position
