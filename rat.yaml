@@ -126,6 +126,16 @@ rat:
       - 534832N 0010506W
       - 534847N 0011514W
 
+- name: DUXFORD (24-25 JUN)
+  type: P
+  geometry:
+  - upper: 4500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.2 nm
+        centre: 520528N 0000758E
+
 - name: DUXFORD RED ARROWS (25 JUN)
   type: P
   geometry:
