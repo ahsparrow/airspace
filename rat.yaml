@@ -52,3 +52,13 @@ rat:
     - circle:
         radius: 6 nm
         centre: 523824N 0021819W
+
+- name: IOW FESTIVAL (14-19 JUN)
+  type: P
+  geometry:
+  - upper: 2500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2 nm
+        centre: 504318N 0011557W
