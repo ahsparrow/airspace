@@ -22,7 +22,7 @@ rat:
         radius: 3 nm
         centre: 520512N 0001907W
 
-- name: RAGLEY HALL (3-4 JUN)
+- name: RAGLEY HALL (2-4 JUN)
   type: P
   geometry:
   - upper: 6500 ft
@@ -31,6 +31,16 @@ rat:
     - circle:
         radius: 2.5 nm
         centre: 521128N 0015406W
+
+- name: RAGLEY HALL RED ARROWS (2-3 JUN)
+  type: P
+  geometry:
+  - upper: 8300 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 521146N 0015358W
 
 - name: SYWELL (8-10 JUN)
   type: P
@@ -62,6 +72,26 @@ rat:
     - circle:
         radius: 6 nm
         centre: 523824N 0021819W
+
+- name: COSFORD RED ARROWS (11 JUN)
+  type: P
+  geometry:
+  - upper: 8300 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 523831N 0021805W
+
+- name: WOODFORD RED ARROWS (10 JUN)
+  type: P
+  geometry:
+  - upper: 8000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 532008N 0020915W
 
 - name: IOW FESTIVAL (14-19 JUN)
   type: P
@@ -96,6 +126,16 @@ rat:
       - 534832N 0010506W
       - 534847N 0011514W
 
+- name: DUXFORD RED ARROWS (25 JUN)
+  type: P
+  geometry:
+  - upper: 5500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 520534N 0000751E
+
 - name: HEADCORN (30 JUN-2 JUL)
   type: P
   geometry:
@@ -105,3 +145,73 @@ rat:
     - circle:
         radius: 3 nm
         centre: 510927N 0003827E
+
+- name: HEADCORN RED ARROWS (2 JUL)
+  type: P
+  geometry:
+  - upper: 8100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 510923N 0003834E
+
+- name: WADDINGTON RED ARROWS (8 JUL)
+  type: P
+  geometry:
+  - upper: 9000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 531009N 0003120W
+
+- name: SILVERSTONE RED ARROWS (9 JUL)
+  type: P
+  geometry:
+  - upper: 8500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 520423N 0010048W
+
+- name: GOODWOOD RED ARROWS (13-14 JUL)
+  type: P
+  geometry:
+  - upper: 8000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 505218N 0004419W
+
+- name: HONINGTON RED ARROWS (27 JUL)
+  type: P
+  geometry:
+  - upper: 8200 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 522032N 0004600E
+
+- name: CONINGSBY RED ARROWS (28 JUL)
+  type: P
+  geometry:
+  - upper: 8000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 530534N 0001012W
+
+- name: OLD BUCKENHAM RED ARROWS (29 JUL)
+  type: P
+  geometry:
+  - upper: 8200 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 522954N 0010317E
