@@ -22,6 +22,16 @@ rat:
         radius: 3 nm
         centre: 520512N 0001907W
 
+- name: RAGLEY HALL (3-4 JUN)
+  type: P
+  geometry:
+  - upper: 6500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.5 nm
+        centre: 521128N 0015406W
+
 - name: SYWELL (8-10 JUN)
   type: P
   geometry:
