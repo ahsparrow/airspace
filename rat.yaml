@@ -22,41 +22,6 @@ rat:
         radius: 3 nm
         centre: 520512N 0001907W
 
-- name: MORETON-IN-MARSH (9-12 MAY)
-  type: P
-  geometry:
-  - upper: 2200 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 2.5 nm
-        centre: 515934N 0014017W
-
-- name: ABINGDON AIR SHOW (19-20 MAY)
-  type: P
-  geometry:
-  - upper: 6000 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 4 nm
-        centre: 514127N 0011902W
-
-- name: SHERBURN-IN-ELMET (20-21 MAY)
-  type: P
-  geometry:
-  - upper: 1500 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 534844N 0011658W
-      - 534748N 0010943W
-      - 534945N 0010215W
-      - 534702N 0005716W
-      - 534224N 0010036W
-      - 534149N 0010737W
-      - 534532N 0011720W
-
 - name: SYWELL (8-10 JUN)
   type: P
   geometry:
