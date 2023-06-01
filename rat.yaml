@@ -83,6 +83,19 @@ rat:
         radius: 2.5 nm
         centre: 510921N 0023510W
 
+- name: LEEDS EAST (24-25 JUN)
+  type: P
+  geometry:
+  - upper: 1500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 535046N 0011623W
+      - 535606N 0010517W
+      - 535215N 0010037W
+      - 534832N 0010506W
+      - 534847N 0011514W
+
 - name: HEADCORN (30 JUN-2 JUL)
   type: P
   geometry:
