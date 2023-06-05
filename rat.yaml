@@ -103,7 +103,7 @@ rat:
         radius: 2 nm
         centre: 504318N 0011557W
 
-- name: KING'S BIRTHDAY (17 JUN)
+- name: KINGS BIRTHDAY (17 JUN)
   type: P
   geometry:
   - upper: 5500 ft
