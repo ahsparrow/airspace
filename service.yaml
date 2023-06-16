@@ -753,6 +753,11 @@ service:
   - stapleford-atz
   frequency: 122.805
 
+- callsign: STORNOWAY APPROACH
+  controls:
+  - stornoway-atz
+  frequency: 119.480
+
 - callsign: STURGATE RADIO
   controls:
   - sturgate-noatz

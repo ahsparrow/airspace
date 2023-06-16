@@ -13284,6 +13284,17 @@ airspace:
         radius: 2 nm
         centre: 513909N 0000922E
 
+- name: STORNOWAY
+  id: stonoway-atz
+  type: ATZ
+  geometry:
+  - upper: 2184 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.5 nm
+        centre: 581256N 0061952W
+
 - name: SWANSEA
   id: swansea-atz
   type: ATZ
