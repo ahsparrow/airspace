@@ -13415,6 +13415,17 @@ airspace:
         radius: 2 nm
         centre: 511240N 0013549W
 
+- name: TIREE
+  id: tiree-atz
+  type: ATZ
+  geometry:
+  - upper: 2038 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2 nm
+        centre: 562957N 0065209W
+
 - name: WARTON
   id: warton-atz
   type: ATZ

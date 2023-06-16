@@ -803,6 +803,11 @@ service:
   - tilstock-noatz
   frequency: 118.105
 
+- callsign: TIREE INFORMATION
+  controls:
+  - tiree-atz
+  frequency: 122.705
+
 - callsign: TURWESTON RADIO
   controls:
   - turweston-noatz
