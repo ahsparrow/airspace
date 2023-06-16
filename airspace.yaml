@@ -7294,6 +7294,28 @@ airspace:
       - 574500N 0035500W
       - 575054N 0034630W
 
+- name: D701A HEBRIDES
+  type: D
+  rules:
+  - SI
+  - NOTAM
+  geometry:
+  - upper: FL660
+    lower: SFC
+    boundary:
+    - line:
+      - 572253N 0072531W
+      - 572324N 0072233W
+      - 572147N 0072116W
+      - 571056N 0072253W
+      - 571034N 0073131W
+      - 570200N 0073421W
+    - arc:
+        dir: cw
+        radius: 19 nm
+        centre: 572004N 0072347W
+        to: 573347N 0074803W
+
 - name: D704 HEBRIDES
   type: D
   rules:
