@@ -28,6 +28,11 @@ service:
   - bagby-noatz
   frequency: 123.255
 
+- callsign: BARRA INFORMATION
+  controls:
+  - barra-atz
+  frequency: 118.080
+
 - callsign: BARTON INFORMATION
   controls:
   - barton-atz
