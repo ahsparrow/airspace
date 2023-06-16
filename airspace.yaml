@@ -7294,6 +7294,21 @@ airspace:
       - 574500N 0035500W
       - 575054N 0034630W
 
+- name: D704 HEBRIDES
+  type: D
+  rules:
+  - SI
+  - NOTAM
+  geometry:
+  - upper: 10000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 573727N 0071811W
+      - 573143N 0071055W
+      - 572625N 0072457W
+      - 573305N 0073017W
+
 - name: P611 COULPORT/FASLANE
   type: P
   geometry:

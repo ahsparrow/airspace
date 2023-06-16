@@ -10,6 +10,7 @@ Non-AIRAC:
   BARRA ATZ - Add
   BENBECULA ATZ - Add
   STORNOWAY ATZ - Add
+  D704 HEBRIDES - Add
 
 AIRAC: 2023/6/15
   No changes
