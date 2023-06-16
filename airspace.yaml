@@ -11739,6 +11739,17 @@ airspace:
         radius: 1.5 nm
         centre: 521357N 0002644W
 
+- name: BENBECULA
+  id: benbecular-atz
+  type: ATZ
+  geometry:
+  - upper: 2188 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2 nm
+        centre: 572850N 0072150W
+
 - name: BIGGIN HILL
   id: biggin-atz
   type: ATZ

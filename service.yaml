@@ -43,6 +43,11 @@ service:
   - bedford-noatz
   frequency: 119.030
 
+- callsign: BENBECULA APPROACH
+  controls:
+  - benbecula-atz
+  frequency: 119.205
+
 - callsign: BEMBRIDGE RADIO
   controls:
   - bembridge-noatz
