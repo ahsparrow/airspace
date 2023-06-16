@@ -7297,7 +7297,6 @@ airspace:
 - name: D701A HEBRIDES
   type: D
   rules:
-  - SI
   - NOTAM
   geometry:
   - upper: FL660
@@ -7337,7 +7336,6 @@ airspace:
 - name: D704 HEBRIDES
   type: D
   rules:
-  - SI
   - NOTAM
   geometry:
   - upper: 10000 ft
