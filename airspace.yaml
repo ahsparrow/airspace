@@ -11793,7 +11793,7 @@ airspace:
         centre: 521357N 0002644W
 
 - name: BENBECULA
-  id: benbecular-atz
+  id: benbecula-atz
   type: ATZ
   geometry:
   - upper: 2188 ft
@@ -13349,7 +13349,7 @@ airspace:
         centre: 513909N 0000922E
 
 - name: STORNOWAY
-  id: stonoway-atz
+  id: stornoway-atz
   type: ATZ
   geometry:
   - upper: 2184 ft
