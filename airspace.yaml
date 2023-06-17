@@ -13426,17 +13426,6 @@ airspace:
         radius: 2 nm
         centre: 562957N 0065209W
 
-- name: WARTON
-  id: warton-atz
-  type: ATZ
-  geometry:
-  - upper: 2054 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 2.5 nm
-        centre: 534442N 0025300W
-
 - name: WALNEY
   id: walney-atz
   type: ATZ
@@ -13447,6 +13436,17 @@ airspace:
     - circle:
         radius: 2 nm
         centre: 540752N 0031548W
+
+- name: WARTON
+  id: warton-atz
+  type: ATZ
+  geometry:
+  - upper: 2054 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.5 nm
+        centre: 534442N 0025300W
 
 - name: WARTON
   type: OTHER
