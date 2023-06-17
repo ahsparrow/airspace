@@ -13469,19 +13469,6 @@ airspace:
         radius: 2.5 nm
         centre: 534442N 0025300W
 
-- name: WARTON
-  type: OTHER
-  localtype: ILS
-  geometry:
-  - upper: 2054 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 534538N 0024907W
-      - 534741N 0024031W
-      - 534653N 0024003W
-      - 534523N 0024859W
-
 - name: WELLESBOURNE MOUNTFORD
   id: wellesbourne-atz
   type: ATZ

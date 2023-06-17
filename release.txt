@@ -15,6 +15,7 @@ Non-AIRAC:
   D701Y HEBRIDES - Add
   D704 HEBRIDES - Add
   SHOREHAM ILS - Add
+  WARTON ILS - Delete
 
 AIRAC: 2023/6/15
   No changes
