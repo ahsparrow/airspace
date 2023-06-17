@@ -13452,7 +13452,7 @@ airspace:
   type: OTHER
   localtype: ILS
   geometry:
-  - upper: 2055 ft
+  - upper: 2054 ft
     lower: SFC
     boundary:
     - line:
