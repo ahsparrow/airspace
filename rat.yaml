@@ -121,3 +121,24 @@ rat:
     - circle:
         radius: 6 nm
         centre: 522954N 0010317E
+
+- name: OLD BUCKENHAM (29-30 JUL)
+  type: P
+  geometry:
+  - upper: 5000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 522451N 0010330E
+    - arc:
+        dir: cw
+        radius: 5 nm
+        centre: 522949N 0010305E
+        to: 523034N 0005454E
+    - line:
+      - 523259N 0005906
+    - arc:
+        dir: cw
+        radius: 4 nm
+        centre: 522949N 0010305E
+        to: 522718N 0010805E
