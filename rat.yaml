@@ -53,7 +53,7 @@ rat:
       - 515958N 0010239W
       - 520055N 0010339W
     - arc:
-        dir: ccw
+        dir: cw
         radius: 2 nm
         centre: 520227N 0010544W
         to: 520422N 0010500W
