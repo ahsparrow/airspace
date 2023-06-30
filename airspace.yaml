@@ -11686,6 +11686,17 @@ airspace:
         radius: 0.5 nm
         centre: 531004N 0024718W
 
+- name: WESTEND FARM
+  type: OTHER
+  localtype: UL
+  geometry:
+  - upper: 2240 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.5 nm
+        centre: 513540N 0022503W
+
 - name: WESTONZOYLAND
   type: OTHER
   localtype: UL
