@@ -512,7 +512,6 @@ service:
   - leeming-atz
   - leeming-matz
   - leeming-topcliffe-matz
-  - topcliffe-atz
   frequency: 133.375
 
 - callsign: LEICESTER RADIO
@@ -807,6 +806,12 @@ service:
   controls:
   - tiree-atz
   frequency: 122.705
+
+- callsign: TOPCLIFFE RADIO
+  controls:
+  - topcliffe-atz
+  - topcliffe-glider
+  frequency: 121.450
 
 - callsign: TURWESTON RADIO
   controls:
