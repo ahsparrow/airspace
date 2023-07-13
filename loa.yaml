@@ -34,7 +34,7 @@ loa:
     replace:
     - id: holyhead-cta-1
       geometry:
-      - subseq: A
+      - seqno: 1A
         upper: FL195
         lower: FL185
         boundary:
@@ -99,7 +99,7 @@ loa:
     replace:
     - id: bristol-cta-6
       geometry:
-      - subseq: A
+      - seqno: 6A
         upper: FL105
         lower: 3500 ft
         boundary:
@@ -112,7 +112,7 @@ loa:
             to: 512836N 0022614W
         - line:
           - 512842N 0022338W
-      - subseq: B
+      - seqno: 6B
         upper: FL105
         lower: 5000 ft
         boundary:
@@ -135,7 +135,7 @@ loa:
 
     - id: bristol-cta-8
       geometry:
-      - subseq: A
+      - seqno: 8A
         upper: FL105
         lower: 5000 ft
         boundary:
@@ -207,7 +207,7 @@ loa:
     replace:
     - id: ltma-3
       geometry:
-      - subseq: A
+      - seqno: 3A
         upper: FL195
         lower: 4500 ft
         boundary:
@@ -215,7 +215,7 @@ loa:
           - 514542N 0005550W
           - 514647N 0004936W
           - 514021N 0004916W
-      - subseq: B
+      - seqno: 3B
         upper: FL195
         lower: 3500 ft
         boundary:
@@ -260,7 +260,7 @@ loa:
 
     - id: ltma-4
       geometry:
-      - subseq: A
+      - seqno: 4A
         upper: FL195
         lower: 4500 ft
         boundary:
@@ -269,7 +269,7 @@ loa:
           - 513451N 0005516W
           - 513238N 0005516W
           - 513233N 0010000W
-      - subseq: B
+      - seqno: 4B
         upper: FL195
         lower: 3500 ft
         boundary:
@@ -287,7 +287,7 @@ loa:
 
     - id: ltma-1
       geometry:
-      - subseq: A
+      - seqno: 1A
         upper: FL195
         lower: 4500 ft
         boundary:
@@ -295,7 +295,7 @@ loa:
           - 513451N 0005516W
           - 513238N 0005516W
           - 513512N 0004942W
-      - subseq: B
+      - seqno: 1B
         upper: FL195
         lower: 2500 ft
         boundary:
@@ -418,7 +418,7 @@ loa:
     replace:
     - id: yorkshire-cta-14
       geometry:
-      - subseq: A
+      - seqno: 14A
         upper: FL195
         lower: FL190
         boundary:
@@ -428,7 +428,7 @@ loa:
           - 531938N 0011532W
           - 532012N 0011840W
           - 532227N 0014315W
-      - subseq: B
+      - seqno: 14B
         upper: FL195
         lower: FL85
         boundary:
@@ -439,7 +439,7 @@ loa:
 
     - id: daventry-cta-11
       geometry:
-      - subseq: A
+      - seqno: 11A
         upper: FL195
         lower: FL190
         boundary:
@@ -449,7 +449,7 @@ loa:
           - 531244N 0013141W
           - 531137N 0013631W
           - 532227N 0014315W
-      - subseq: B
+      - seqno: 11B
         upper: FL195
         lower: FL85
         boundary:
@@ -460,7 +460,7 @@ loa:
 
     - id: daventry-cta-12
       geometry:
-      - subseq: A
+      - seqno: 12A
         upper: FL195
         lower: FL190
         boundary:
@@ -469,7 +469,7 @@ loa:
           - 531418N 0012449W
           - 531244N 0013141W
           - 531930N 0013131W
-      - subseq: B
+      - seqno: 12B
         upper: FL195
         lower: FL105
         boundary:
@@ -490,7 +490,7 @@ loa:
       type: D_OTHER
       localtype: GLIDER
       geometry:
-      - subseq: A
+      - seqno: A
         upper: FL120
         lower: FL55
         boundary:
@@ -499,7 +499,7 @@ loa:
           - 533038N 0011307W
           - 532845N 0013215W
           - 533835N 0013503W
-      - subseq: B
+      - seqno: B
         upper: FL120
         lower: FL65
         boundary:
@@ -541,7 +541,7 @@ loa:
     replace:
     - id: yorkshire-cta-12
       geometry:
-      - subseq: A
+      - seqno: 12A
         upper: FL195
         lower: FL190
         boundary:
@@ -553,7 +553,7 @@ loa:
 
     - id: yorkshire-cta-11
       geometry:
-      - subseq: A
+      - seqno: 11A
         upper: FL195
         lower: FL190
         boundary:
@@ -562,7 +562,7 @@ loa:
           - 533059N 0010932W
           - 533038N 0011307W
           - 534030N 0011550W
-      - subseq: B
+      - seqno: 11B
         upper: FL195
         lower: FL65
         boundary:
@@ -574,7 +574,7 @@ loa:
 
     - id: yorkshire-cta-10
       geometry:
-      - subseq: A
+      - seqno: 10A
         upper: FL195
         lower: FL190
         boundary:
@@ -583,7 +583,7 @@ loa:
           - 534610N 0011937W
           - 534312N 0011636W
           - 534134N 0010443W
-      - subseq: B
+      - seqno: 10B
         upper: FL195
         lower: FL125
         boundary:
@@ -631,7 +631,7 @@ loa:
     replace:
     - id: east-midlands-cta-7
       geometry:
-      - subseq: A
+      - seqno: 7A
         upper: FL105
         lower: 5000 ft
         boundary:
@@ -642,7 +642,7 @@ loa:
           - 525911N 0012801W
     - id: east-midlands-cta-19
       geometry:
-      - subseq: A
+      - seqno: 19A
         upper: FL105
         lower: 6000 ft
         boundary:
@@ -717,7 +717,7 @@ loa:
     replace:
     - id: east-midlands-cta-1
       geometry:
-      - subseq: A
+      - seqno: 1A
         upper: FL105
         lower: 6000 ft
         boundary:
@@ -725,7 +725,7 @@ loa:
           - 525421N 0010006W
           - 525901N 0010918W
           - 525537N 0010600W
-      - subseq: B
+      - seqno: 1B
         upper: FL105
         lower: 6000 ft
         boundary:
@@ -735,7 +735,7 @@ loa:
           - 525121N 0005725W
           - 525057N 0005724W
           - 525155N 0010225W
-      - subseq: C
+      - seqno: 1C
         upper: FL105
         lower: 2500 ft
         boundary:
@@ -748,7 +748,7 @@ loa:
           - 525255N 0010733W
           - 525456N 0011804W
           - 525510N 0012530W
-      - subseq: D
+      - seqno: 1D
         upper: FL105
         lower: 5000 ft
         boundary:
@@ -760,7 +760,7 @@ loa:
 
     - id: east-midlands-cta-2
       geometry:
-      - subseq: A
+      - seqno: 2A
         upper: FL105
         lower: 6000 ft
         boundary:
@@ -769,7 +769,7 @@ loa:
           - 525057N 0005724W
           - 525014N 0005722W
           - 524705N 0005743W
-      - subseq: B
+      - seqno: 2B
         upper: FL105
         lower: 1500 ft
         boundary:
@@ -826,7 +826,7 @@ loa:
     replace:
     - id: yorkshire-cta-5
       geometry:
-      - subseq: A
+      - seqno: 5A
         upper: FL195
         lower: FL65
         boundary:
@@ -836,7 +836,7 @@ loa:
           - 534127N 0023240W
           - 533918N 0023900W
           - 534741N 0024502W
-      - subseq: B
+      - seqno: 5B
         upper: FL195
         lower: FL140
         boundary:
@@ -848,7 +848,7 @@ loa:
 
     - id: yorkshire-cta-6
       geometry:
-      - subseq: A 
+      - seqno: 6A
         upper: FL195
         lower: FL140
         boundary:
@@ -961,7 +961,8 @@ loa:
     replace:
     - id: luton-ctr
       geometry:
-      - upper: 3500 ft
+      - seqno: A
+        upper: 3500 ft
         lower: SFC
         boundary:
         - line:
@@ -982,7 +983,8 @@ loa:
           - 514503N 0003457W
     - id: luton-cta-3
       geometry:
-      - upper: 5500 ft
+      - seqno: 3A
+        upper: 5500 ft
         lower: 2500 ft
         boundary:
         - line:
@@ -992,7 +994,8 @@ loa:
           - 515114N 0003938W
           - 515131N 0003754W
           - 514905N 0003647W
-      - upper: 5500 ft
+      - seqno: 3B
+        upper: 5500 ft
         lower: 3500 ft
         boundary:
         - line:
@@ -1010,7 +1013,8 @@ loa:
     replace:
     - id: luton-ctr
       geometry:
-      - upper: 3500 ft
+      - seqno: A
+        upper: 3500 ft
         lower: SFC
         boundary:
         - line:
@@ -1035,7 +1039,8 @@ loa:
 
     - id: luton-cta-3
       geometry:
-      - upper: 5500 ft
+      - seqno: 3A
+        upper: 5500 ft
         lower: 2500 ft
         boundary:
         - line:
@@ -1048,7 +1053,8 @@ loa:
 
     - id: luton-cta-5
       geometry:
-      - upper: 5500 ft
+      - seqno: 5A
+        upper: 5500 ft
         lower: 3500 ft
         boundary:
         - line:
@@ -1169,7 +1175,7 @@ loa:
     replace:
     - id: glasgow-cta-1
       geometry:
-      - subseq: A
+      - seqno: 1A
         upper: 6000 ft
         lower: 3000 ft
         boundary:
@@ -1182,7 +1188,7 @@ loa:
           - 554354N 0034950W
           - 554742N 0035557W
           - 555733N 0035603W
-      - subseq: B
+      - seqno: 1B
         upper: 6000 ft
         lower: 4000 ft
         boundary:
@@ -1193,7 +1199,7 @@ loa:
           - 555724N 0035417W
           - 560700N 0034855W
           - 560700N 0035042W
-      - subseq: C
+      - seqno: 1C
         upper: 6000 ft
         lower: 5000 ft
         boundary:
@@ -1205,7 +1211,7 @@ loa:
 
     - id: glasgow-cta-2
       geometry:
-      - subseq: A
+      - seqno: 2A
         upper: 6000 ft
         lower: 3500 ft
         boundary:
@@ -1216,7 +1222,7 @@ loa:
           - 553700N 0042847W
           - 554125N 0041017W
           - 554125N 0034549W
-      - subseq: B
+      - seqno: 2B
         upper: 6000 ft
         lower: 5000 ft
         boundary:
@@ -1228,7 +1234,7 @@ loa:
 
     - id: edinburgh-cta-3
       geometry:
-      - subseq: A
+      - seqno: 3A
         upper: 6000 ft
         lower: 3500 ft
         boundary:
@@ -1242,7 +1248,7 @@ loa:
             to: 555916N 0033941W
         - line:
           - 555647N 0034709W
-      - subseq: B
+      - seqno: 3B
         upper: 6000 ft
         lower: 4000 ft
         boundary:
@@ -1255,7 +1261,7 @@ loa:
 
     - id: edinburgh-cta-1
       geometry:
-      - subseq: A
+      - seqno: 1A
         upper: 6000 ft
         lower: 2500 ft
         boundary:
@@ -1270,7 +1276,7 @@ loa:
           - 554555N 0034107W
           - 554939N 0034706W
           - 555647N 0034709W
-      - subseq: B
+      - seqno: 1B
         upper: 6000 ft
         lower: 5000 ft
         boundary:
@@ -1279,7 +1285,7 @@ loa:
           - 554349N 0034715W
           - 554806N 0035411W
           - 554939N 0034706W
-      - subseq: C
+      - seqno: 1C
         upper: 6000 ft
         lower: 4000 ft
         boundary:
@@ -1291,7 +1297,7 @@ loa:
 
     - id: edinburgh-cta-4
       geometry:
-      - subseq: A
+      - seqno: 4A
         upper: 6000 ft
         lower: 3500 ft
         boundary:
@@ -1306,7 +1312,7 @@ loa:
             radius: 10 nm
             centre: 555700N 0032221W
             to: 555442N 0030503W
-      - subseq: B
+      - seqno: 4B
         upper: 6000 ft
         lower: 5000 ft
         boundary:
@@ -1318,7 +1324,7 @@ loa:
 
     - id: scottish-tma-1
       geometry:
-      - subseq: A
+      - seqno: 1A
         upper: FL195
         lower: 5000 ft
         boundary:
@@ -1327,7 +1333,7 @@ loa:
           - 553824N 0032902W
           - 553728N 0033928W
           - 554125N 0034549W
-      - subseq: B
+      - seqno: 1B
         upper: FL195
         lower: 4500 ft
         boundary:
@@ -1337,7 +1343,7 @@ loa:
           - 554125N 0034549W
           - 553728N 0033928W
           - 553302N 0042918W
-      - subseq: C
+      - seqno: 1C
         upper: FL195
         lower: 4500 ft
         boundary:
@@ -1369,7 +1375,7 @@ loa:
     replace:
     - id: moray-cta-10
       geometry:
-      - subseq: A
+      - seqno: 10A
         upper: FL195
         lower: FL190
         boundary:
@@ -1378,7 +1384,7 @@ loa:
           - 571206N 0035820W
           - 564120N 0040600W
           - 564239N 0042359W
-      - subseq: B
+      - seqno: 10B
         upper: FL195
         lower: FL105
         boundary:
@@ -1411,7 +1417,7 @@ loa:
     replace:
     - id: daventry-cta-9
       geometry:
-      - subseq: A
+      - seqno: 9A
         upper: FL195
         lower: 5500 ft
         boundary:
@@ -1420,7 +1426,7 @@ loa:
           - 522048N 0010740W
           - 521355N 0010026W
           - 521049N 0010650W
-      - subseq: B
+      - seqno: 9B
         upper: FL195
         lower: 4500 ft
         boundary:
@@ -1477,7 +1483,7 @@ loa:
     replace:
       - id: bristol-cta-5
         geometry:
-        - subseq: A
+        - seqno: 5A
           upper: FL105
           lower: 3000 ft
           boundary:
@@ -1487,7 +1493,7 @@ loa:
             - 511740N 0025003W
             - 511541N 0025003W
             - 511538N 0025120W
-        - subseq: B
+        - seqno: 5B
           upper: FL105
           lower: 4000 ft
           boundary:
@@ -1539,7 +1545,7 @@ loa:
     replace:
     - id: ltma-11
       geometry:
-      - subseq: A
+      - seqno: 11A
         upper: FL195
         lower: 5500 ft
         boundary:
@@ -1548,7 +1554,7 @@ loa:
           - 513423N 0011138W
           - 513350N 0010654W
           - 512400N 0011001W
-      - subseq: B
+      - seqno: 11B
         upper: FL195
         lower: 4500 ft
         boundary:
@@ -1697,8 +1703,7 @@ loa:
     replace:
     - id: yorkshire-cta-17
       geometry:
-      - subseq: A
-        class: D
+      - seqno: 17A
         upper: FL125
         lower: FL120
         boundary:
@@ -1710,8 +1715,7 @@ loa:
 
     - id: borders-cta-11
       geometry:
-      - subseq: A
-        class: D
+      - seqno: 11A
         upper: FL125
         lower: FL120
         boundary:
@@ -1720,8 +1724,7 @@ loa:
           - 543135N 0013929W
           - 543406N 0020308W
           - 544356N 0020004W
-      - subseq: B
-        class: D
+      - seqno: 11B
         upper: FL125
         lower: FL75
         boundary:
@@ -1732,8 +1735,7 @@ loa:
 
     - id: borders-cta-10
       geometry:
-      - subseq: A
-        class: D
+      - seqno: 10A
         upper: FL125
         lower: FL55
         boundary:
@@ -1748,8 +1750,7 @@ loa:
             radius: 11 nm
             centre: 550217N 0014123W
             to: 545336N 0015304W
-      - subseq: B
-        class: D
+      - seqno: 10B
         upper: FL125
         lower: FL120
         boundary:
@@ -1760,7 +1761,7 @@ loa:
 
     - id: newcastle-cta-4
       geometry:
-      - subseq: A
+      - seqno: 4A
         upper: FL105
         lower: 3000 ft
         boundary:
@@ -1777,7 +1778,7 @@ loa:
 
     - id: newcastle-cta-5
       geometry:
-      - subseq: A
+      - seqno: 5A
         upper: FL55
         lower: 3000 ft
         boundary:
@@ -1795,7 +1796,7 @@ loa:
 
     - id: newcastle-cta-6
       geometry:
-      - subseq: A
+      - seqno: 6A
         upper: FL55
         lower: 4500 ft
         boundary:
@@ -1807,7 +1808,7 @@ loa:
 
     - id: newcastle-cta-7
       geometry:
-      - subseq: A
+      - seqno: 7A
         upper: FL75
         lower: 6000 ft
         boundary:
@@ -1932,7 +1933,7 @@ loa:
     - id: p600-access-tay-2a
       geometry:
       - id: p600-crossing-tay-2
-        subseq: A
+        seqno: 2A
         upper: FL195
         lower: FL190
         boundary:
@@ -1949,7 +1950,7 @@ loa:
 
     - id: tay-cta-1
       geometry:
-      - subseq: A
+      - seqno: 1A
         upper: FL195
         lower: FL190
         boundary:
@@ -1963,7 +1964,7 @@ loa:
     - id: tay-cta-2
       geometry:
       - id: p600-crossing-tay-2
-        subseq: A
+        seqno: 2A
         upper: FL195
         lower: FL190
         boundary:
@@ -1977,7 +1978,7 @@ loa:
 
     - id: tay-cta-6
       geometry:
-      - subseq: A
+      - seqno: 6A
         upper: FL195
         lower: FL190
         boundary:
@@ -1992,7 +1993,7 @@ loa:
 
     - id: tay-cta-7
       geometry:
-      - subseq: A
+      - seqno: 7A
         upper: FL195
         lower: FL190
         boundary:
@@ -2004,7 +2005,7 @@ loa:
 
     - id: tay-cta-8
       geometry:
-      - subseq: A
+      - seqno: 8A
         upper: FL195
         lower: FL190
         boundary:
@@ -2061,7 +2062,7 @@ loa:
     replace:
     - id: tay-cta-3
       geometry:
-      - subseq: A
+      - seqno: 3A
         upper: FL195
         lower: FL190
         boundary:
@@ -2073,7 +2074,7 @@ loa:
 
     - id: tay-cta-4
       geometry:
-      - subseq: A
+      - seqno: 4A
         upper: FL195
         lower: FL190
         boundary:
@@ -2088,7 +2089,7 @@ loa:
 
     - id: tay-cta-5
       geometry:
-      - subseq: A
+      - seqno: 5A
         upper: FL195
         lower: FL190
         boundary:
@@ -2161,7 +2162,7 @@ loa:
     replace:
     - id: scottish-tma-3
       geometry:
-      - subseq: A
+      - seqno: 3A
         upper: FL195
         lower: FL190
         boundary:
@@ -2170,7 +2171,7 @@ loa:
           - 561400N 0033259W
           - 560700N 0032938W
           - 560700N 0040000W
-      - subseq: B
+      - seqno: 3B
         upper: FL195
         lower: 6000 ft
         boundary:
@@ -2191,7 +2192,7 @@ loa:
     - id: tay-cta-1
       geometry:
       - id: p600-access-tay-1
-        subseq: A
+        seqno: 1A
         upper: FL195
         lower: FL190
         boundary:
@@ -2204,7 +2205,7 @@ loa:
     - id: tay-cta-2
       geometry:
       - id: p600-access-tay-2a
-        subseq: A
+        seqno: 2A
         upper: FL195
         lower: FL190
         boundary:
@@ -2216,7 +2217,7 @@ loa:
           - 561555N 0032923W
           - 562146N 0034425W
       - id: p600-access-tay-2b
-        subseq: B
+        seqno: 2B
         upper: FL195
         lower: FL85
         boundary:
@@ -2274,7 +2275,8 @@ loa:
     replace:
     - id: pepze-cta-13
       geometry:
-      - upper: FL195
+      - seqno: 13A
+        upper: FL195
         lower: FL145
         boundary:
         - line:
@@ -2286,7 +2288,8 @@ loa:
 
     - id: pepze-cta-14
       geometry:
-      - upper: FL195
+      - seqno: 14A
+        upper: FL195
         lower: FL145
         boundary:
         - line:
@@ -2297,7 +2300,8 @@ loa:
 
     - id: cotswold-cta-17
       geometry:
-      - upper: FL195
+      - seqno: 17A
+        upper: FL195
         lower: FL175
         boundary:
         - line:
@@ -2345,7 +2349,8 @@ loa:
     replace:
     - id: cotswold-cta-11
       geometry:
-      - upper: FL195
+      - seqno: 11A
+        upper: FL195
         lower: FL105
         boundary:
         - line:
@@ -2463,7 +2468,7 @@ loa:
     replace:
       - id: bristol-ctr
         geometry:
-        - subseq: A
+        - seqno: A
           upper: FL105
           lower: SFC
           boundary:
@@ -2475,7 +2480,7 @@ loa:
               radius: 5 nm
               centre: 512258N 0024309W
               to: 511836N 0023915W
-        - subseq: B
+        - seqno: B
           lower: 2500 ft
           upper: FL105
           boundary:
@@ -2489,7 +2494,7 @@ loa:
               to: 511836N 0023915W
       - id: bristol-cta-1
         geometry:
-        - subseq: A
+        - seqno: 1A
           upper: FL105
           lower: 2500 ft
           boundary:
@@ -2501,7 +2506,7 @@ loa:
               radius: 5 nm
               centre: 512258N 0024309W
               to: 511836N 0023915W
-        - subseq: B
+        - seqno: 1B
           upper: FL105
           lower: 1500 ft
           boundary:
