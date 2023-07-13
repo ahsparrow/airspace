@@ -366,7 +366,7 @@ service:
 
 - callsign: FENTON RADIO
   controls:
-  - fenton-atz
+  - leeds-east-atz
   frequency: 120.710
 
 - callsign: FLEETLANDS INFORMATION
