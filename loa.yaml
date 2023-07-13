@@ -1929,13 +1929,22 @@ loa:
     - id: p600-access-strathallan
       geometry: []
 
-    - id: p600-access-p600-a
-      geometry: []
+    - id: p600-access-tay-2a
+      geometry:
+      - id: p600-crossing-tay-2
+        subseq: A
+        upper: FL195
+        lower: FL190
+        boundary:
+        - line:
+          - 562948N 0032900W
+          - 562633N 0032207W
+          - 562341N 0031445W
+          - 562219N 0031721W
+          - 561555N 0032923W
+          - 562146N 0034425W
 
-    - id: p600-access-p600-b1
-      geometry: []
-
-    - id: p600-access-p600-b2
+    - id: p600-access-tay-2b
       geometry: []
 
     - id: tay-cta-1
@@ -1953,7 +1962,8 @@ loa:
 
     - id: tay-cta-2
       geometry:
-      - subseq: A
+      - id: p600-crossing-tay-2
+        subseq: A
         upper: FL195
         lower: FL190
         boundary:
@@ -2180,7 +2190,7 @@ loa:
 
     - id: tay-cta-1
       geometry:
-      - id: p600-access-p600-a
+      - id: p600-access-tay-1
         subseq: A
         upper: FL195
         lower: FL190
@@ -2193,7 +2203,7 @@ loa:
           - 562000N 0034746W
     - id: tay-cta-2
       geometry:
-      - id: p600-access-p600-b1
+      - id: p600-access-tay-2a
         subseq: A
         upper: FL195
         lower: FL190
@@ -2205,7 +2215,7 @@ loa:
           - 562219N 0031721W
           - 561555N 0032923W
           - 562146N 0034425W
-      - id: p600-access-600-b2
+      - id: p600-access-tay-2b
         subseq: B
         upper: FL195
         lower: FL85
