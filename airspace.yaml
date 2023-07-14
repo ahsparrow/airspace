@@ -6688,7 +6688,7 @@ airspace:
 
 - name: D217B LLANBEDR
   type: D
-  rules: 
+  rules:
     - NOTAM
   geometry:
   - upper: 2000 ft
@@ -6838,9 +6838,9 @@ airspace:
         centre: 524817N 0040738W
         to: 524617N 0040510W
     - line:
-      - 524603N 0040510W 
-      - 523933N 0041231W 
-      - 524222N 0041917W 
+      - 524603N 0040510W
+      - 523933N 0041231W
+      - 524222N 0041917W
 
 - name: D217J LLANBEDR
   type: D
@@ -12596,11 +12596,11 @@ airspace:
     lower: SFC
     boundary:
     - line:
-      - 501705N 0055014W 
-      - 501703N 0053706W 
-      - 500950N 0052951W 
-      - 495559N 0053109W 
-      - 495602N 0055051W 
+      - 501705N 0055014W
+      - 501703N 0053706W
+      - 500950N 0052951W
+      - 495559N 0053109W
+      - 495602N 0055051W
       - 494924N 0061338W
     - arc:
         dir: cw
