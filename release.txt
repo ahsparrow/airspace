@@ -1,3 +1,6 @@
+AIRAC: 2023/8/10
+  No changes
+
 Non-AIRAC:
   SILVERSTON RA(T) - Add
   OLD BUCKENHAM RA(T) - Add
@@ -5,7 +8,7 @@ Non-AIRAC:
   CHURCH FENTON - Rename LEEDS EAST
   D031 PORTLAND - Improve coastline section
 
-AIRAC: 2323/7/13
+AIRAC: 2023/7/13
   TOPCLIFFE ATZ - Update frequency
   WESTEND FARM - Add microlight
 
