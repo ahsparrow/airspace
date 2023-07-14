@@ -12647,9 +12647,8 @@ airspace:
         centre: 535157N 0013938W
         to: 535955N 0014027W
 
-# Leeds East
-- name: CHURCH FENTON
-  id: fenton-atz
+- name: LEEDS EAST
+  id: leeds-east-atz
   type: ATZ
   geometry:
   - upper: 2029 ft
