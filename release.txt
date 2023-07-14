@@ -2,6 +2,8 @@ Non-AIRAC:
   SILVERSTON RA(T) - Add
   OLD BUCKENHAM RA(T) - Add
   FAIRFORD RIAT RA(T) - Add
+  CHURCH FENTON - Rename LEEDS EAST
+  D031 PORTLAND - Improve coastline section
 
 AIRAC: 2323/7/13
   TOPCLIFFE ATZ - Update frequency
