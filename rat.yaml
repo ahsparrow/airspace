@@ -53,6 +53,16 @@ rat:
         radius: 2 nm
         centre: 530811N 0000019E
 
+- name: DUXFORD (12/26 AUG)
+  type: P
+  geometry:
+  - upper: 5500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.2 nm
+        centre: 520528N 0000758E
+
 - name: EASTBOURNE (16-20 AUG)
   type: P
   geometry:
