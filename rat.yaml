@@ -64,3 +64,18 @@ rat:
       - 505038N 0001835E
       - 504619N 0002508E
       - 504047N 0001603E
+
+- name: SHERBURN-IN-ELMET (19-20 AUG)
+  type: P
+  geometry:
+  - upper: 1500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 534844N 0011658W
+      - 534748N 0010943W
+      - 534945N 0010215W
+      - 534702N 0005716W
+      - 534224N 0010036W
+      - 534149N 0010737W
+      - 534532N 0011720W

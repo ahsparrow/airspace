@@ -1,6 +1,7 @@
 Non-AIRAC:
   EASTBOURNE RA(T) - Add
   EAST KIRKBY RA(T) - Add
+  SHERBURN-IN-ELMET RA(T) - Add
 
 AIRAC: 2023/8/10
   No changes
