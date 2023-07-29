@@ -74,6 +74,22 @@ rat:
       - 505038N 0001835E
       - 504619N 0002508E
       - 504047N 0001603E
+  - upper: 5500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 504539N 0001711E
+
+- name: ODIHAM (18 AUG)
+  type: P
+  geometry:
+  - upper: 4000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 511408N 0005642W
 
 - name: SHERBURN-IN-ELMET (19-20 AUG)
   type: P
@@ -89,3 +105,43 @@ rat:
       - 534224N 0010036W
       - 534149N 0010737W
       - 534532N 0011720W
+
+- name: SYERSTON (23 AUG)
+  type: P
+  geometry:
+  - upper: 8300 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 530119N 0005454W
+
+- name: WATTISHAM (24 AUG)
+  type: P
+  geometry:
+  - upper: 8300 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 520738N 0005721E
+
+- name: MARHAM (31 AUG)
+  type: P
+  geometry:
+  - upper: 8100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 523858N 0003311E
+
+- name: DUXFORD (16-17 AUG)
+  type: P
+  geometry:
+  - upper: 5500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 520534N 0000751E
