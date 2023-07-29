@@ -1,5 +1,6 @@
 Non-AIRAC:
   EASTBOURNE RA(T) - Add
+  EAST KIRKBY RA(T) - Add
 
 AIRAC: 2023/8/10
   No changes
