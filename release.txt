@@ -1,3 +1,6 @@
+AIRAC: 2023/9/7
+  HILL TOP FARM - Add microlight
+
 Non-AIRAC:
   EASTBOURNE RA(T) - Add
   EAST KIRKBY RA(T) - Add

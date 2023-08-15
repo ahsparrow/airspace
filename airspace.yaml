@@ -11313,6 +11313,17 @@ airspace:
         radius: 0.5 nm
         centre: 525115N 0015249W
 
+- name: HILL TOP FARM
+  type: OTHER
+  localtype: UL
+  geometry:
+  - upper: 2110 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.5 nm
+        centre: 530530N 0002524W
+
 - name: HOGHTON (HIGHER BARN FARM)
   type: OTHER
   localtype: UL
