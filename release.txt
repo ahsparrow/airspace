@@ -1,5 +1,6 @@
 Non-AIRAC:
   DUXFORD RA(T) - Add
+  D130 LONGMOOR - Correct upper limit
 
 AIRAC: 2023/9/7
   HILL TOP FARM - Add microlight

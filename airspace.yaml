@@ -6303,7 +6303,7 @@ airspace:
   rules:
   - SI
   geometry:
-  - upper: 2300 ft
+  - upper: 1800 ft
     lower: SFC
     boundary:
     - line:
