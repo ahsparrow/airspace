@@ -9047,17 +9047,6 @@ airspace:
 #----------------------------------------------------------------------
 # ENR 5.3 (cont) LASERs
 
-- name: CAMBRIDGE UNIVERSITY
-  type: D_OTHER
-  localtype: LASER
-  geometry:
-  - upper: FL660
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1 nm
-        centre: 521218N 0000712E
-
 - name: PORTON DOWN
   type: D_OTHER
   localtype: LASER
