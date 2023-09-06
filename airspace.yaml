@@ -11456,6 +11456,17 @@ airspace:
         radius: 0.5 nm
         centre: 522414N 0022115W
 
+- name: RECTORY FARM
+  type: OTHER
+  localtype: UL
+  geometry:
+  - upper: 2040 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.5 nm
+        centre: 530510N 0005055W
+
 - name: ROGART (ROVIE FARM)
   type: OTHER
   localtype: UL
