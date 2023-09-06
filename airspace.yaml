@@ -8216,17 +8216,6 @@ airspace:
         radius: 0.25 nm
         centre: 555509N 0034443W
 
-- name: GLENMAVIS
-  type: D_OTHER
-  localtype: GVS
-  geometry:
-  - upper: 2500 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1 nm
-        centre: 555336N 0040030W
-
 - name: WOOLER
   type: D_OTHER
   localtype: GVS
@@ -8248,17 +8237,6 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 551646N 0032625W
-
-- name: ELLINGTON
-  type: D_OTHER
-  localtype: GVS
-  geometry:
-  - upper: 1100 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.25 nm
-        centre: 551320N 0013153W
 
 - name: BISHOP AUCKLAND
   type: D_OTHER
@@ -8337,17 +8315,6 @@ airspace:
         radius: 0.25 nm
         centre: 534850N 0000515W
 
-- name: WILSTOW
-  type: D_OTHER
-  localtype: GVS
-  geometry:
-  - upper: 1100 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.25 nm
-        centre: 534847N 0010744W
-
 - name: GASCOIGNE WOOD
   type: D_OTHER
   localtype: GVS
@@ -8425,17 +8392,6 @@ airspace:
         radius: 0.25 nm
         centre: 532431N 0022847W
 
-- name: THEDDLETHORPE
-  type: D_OTHER
-  localtype: GVS
-  geometry:
-  - upper: 3600 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1 nm
-        centre: 532126N 0001358E
-
 - name: HATTON
   type: D_OTHER
   localtype: GVS
@@ -8446,39 +8402,6 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 531611N 0001439W
-
-- name: WELBECK
-  type: D_OTHER
-  localtype: GVS
-  geometry:
-  - upper: 1300 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.25 nm
-        centre: 531335N 0010752W
-
-- name: THORESBY
-  type: D_OTHER
-  localtype: GVS
-  geometry:
-  - upper: 1300 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.25 nm
-        centre: 531206N 0010302W
-
-- name: HOLE HOUSE
-  type: D_OTHER
-  localtype: GVS
-  geometry:
-  - upper: 2100 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.5 nm
-        centre: 530822N 0022720W
 
 - name: BACTON
   type: D_OTHER
@@ -8545,17 +8468,6 @@ airspace:
     - circle:
         radius: 0.25 nm
         centre: 523737N 0001755W
-
-- name: DAW MILL
-  type: D_OTHER
-  localtype: GVS
-  geometry:
-  - upper: 1300 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.25 nm
-        centre: 523022N 0013703W
 
 - name: CHURCHOVER
   type: D_OTHER
