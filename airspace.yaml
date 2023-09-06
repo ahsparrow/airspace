@@ -9895,19 +9895,6 @@ airspace:
         radius: 1 nm
         centre: 523854N 0003302E
 
-- name: MERRYFIELD
-  id: merryfield-glider
-  type: OTHER
-  localtype: GLIDER
-  geometry:
-  - upper: 2146 ft
-    lower: SFC
-    elevation: 146 ft
-    boundary:
-    - circle:
-        radius: 1 nm
-        centre: 505729N 0025614W
-
 - name: MIDDLE WALLOP
   type: OTHER
   localtype: GLIDER

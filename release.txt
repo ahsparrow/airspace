@@ -1,5 +1,6 @@
 AIRAC: 2023/10/5
   CAMBRIDGE UNIVERSITY LASER - Remove
+  MERRYFIELD - Remove glider site
   Various GVS - Remove
 
 Non-AIRAC:
