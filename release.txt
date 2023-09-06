@@ -1,3 +1,6 @@
+Non-AIRAC:
+  DUXFORD RA(T) - Add
+
 AIRAC: 2023/9/7
   HILL TOP FARM - Add microlight
 
@@ -137,29 +140,3 @@ Non-AIRAC:
 
 AIRAC: 2022/10/06
   THORNEY ISLAND - Add microlight site
-
-AIRAC: 2022/09/08
-  KINLOSS ATZ - Remove
-  SOUTHEND CTA-10 - Exend area
-  WALNEY GLIDING - Renamed from BARROW
-
-Non-AIRAC:
-  COSBY (2-4 SEP) RAT - Add
-  TOPCLIFFE (4-16 SEP) RAT - Add
-  ABINGDON (9-10 SEP) RAT - Add
-  DUXFORD (11-13 SEP) RAT - Add
-
-Non-AIRAC:
-  KEEVIL DZ - Add NOTAM rule
-  MIDDLE WALLOP DZ - Add NOTAM rule
-  RHIGOS GC - Delete
-  SPILSTED FARM GC - Delete
-  RED ARROWS RA(T)s - Add
-  LEEDS EAST RA(T) - Add
-  EAST KIRKBY RA(T) - Add
-  CROMER RA(T) - Add
-  OLD BUCKENHAM - Correct spelling
-  PORTSMOUTH CTA - Correct base levels
-
-AIRAC: 2022/08/11
-  LEE RADIO - Update frequency
