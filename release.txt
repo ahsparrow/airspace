@@ -1,3 +1,6 @@
+AIRAC: 2023/11/2
+  TOPCLIFFE ATZ - Update coordinates
+
 AIRAC: 2023/10/5
   CAMBRIDGE UNIVERSITY LASER - Remove
   MERRYFIELD - Remove glider site
@@ -134,16 +137,3 @@ Non-AIRAC:
 
 AIRAC: 2022/12/01
   PARHAM - Update frequency
-
-Non-AIRAC:
-  BIGGIN HILL - Correct upper level
-
-AIRAC: 2022/11/03
-  No changes
-
-Non-AIRAC:
-  MORAY CTA-13 - Correct upper and lower limits
-  MORAY CTA-13 - Remove NOTAM rule
-
-AIRAC: 2022/10/06
-  THORNEY ISLAND - Add microlight site
