@@ -7522,6 +7522,8 @@ airspace:
 
 - name: R313 SCAMPTON
   type: R
+  rules:
+    - NOTAM
   geometry:
   - upper: 9500 ft
     lower: SFC
@@ -10491,7 +10493,7 @@ airspace:
     boundary:
     - circle:
         radius: 1 nm
-        centre: 541223N 0012256W
+        centre: 541220N 0012254W
 
 - name: UPAVON
   id: upavon-glider
