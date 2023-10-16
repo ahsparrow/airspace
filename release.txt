@@ -1,3 +1,6 @@
+Non-AIRAC
+  D298A/B RADNOR - Temporary danger area
+
 AIRAC: 2023/11/2
   R313 SCAMPTON - Add NOTAM rule
   R612 ARBROATH - Delete
