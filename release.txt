@@ -1,5 +1,6 @@
 AIRAC: 2023/11/2
-  TOPCLIFFE ATZ - Update coordinates
+  R612 ARBROATH - Delete
+  TOPCLIFFE ATZ/MATZ - Update coordinates
 
 AIRAC: 2023/10/5
   CAMBRIDGE UNIVERSITY LASER - Remove

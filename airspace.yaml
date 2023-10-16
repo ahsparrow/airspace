@@ -7680,16 +7680,6 @@ airspace:
       - 573900N 0043000W
       - 574700N 0042500W
 
-- name: R612 ARBROATH
-  type: R
-  geometry:
-  - upper: 6000 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1.5 nm
-        centre: 563449N 0023645W
-
 - name: R704 BALMORAL
   type: R
   geometry:
