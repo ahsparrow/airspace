@@ -5093,13 +5093,11 @@ airspace:
         dir: cw
         radius: 5 nm
         centre: 541733N 0013207W
-        to: 541722N 0012336W
-    - line:
-      - 541722N 0012336W
+        to: 541719N 0012336W
     - arc:
         dir: cw
         radius: 5 nm
-        centre: 541220N 0012255W
+        centre: 541220N 0012254W
         to: 541237N 0013124W
 
 - name: LEEMING
