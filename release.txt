@@ -1,3 +1,6 @@
+AIRAC: 2023/11/30
+  D324A/B WADDINGTON - Add danger area
+
 Non-AIRAC
   D298A/B RADNOR - Temporary danger area
 
@@ -135,10 +138,3 @@ Non-AIRAC:
 AIRAC: 2022/12/29
   SCAMPTON ATZ - Delete
   SCAMPTON MATZ - Delete
-
-Non-AIRAC:
-  DONCASTER/SHEFFIELD CTA, CTR, ATZ & LOAs - Remove
-  NORTH HILL - Raise upper limit
-
-AIRAC: 2022/12/01
-  PARHAM - Update frequency
