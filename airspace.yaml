@@ -5223,7 +5223,7 @@ airspace:
     boundary:
     - circle:
         radius: 3 nm
-        centre: 505747N 0025613W
+        centre: 505747N 0025620W
 
 - name: MIDDLE WALLOP
   id: middle-wallop-matz
@@ -5585,12 +5585,12 @@ airspace:
     boundary:
     - line:
       - 510114N 0025452W
-      - 510038N 0025446W
+      - 510036N 0025446W
     - arc:
         dir: cw
         radius: 3 nm
-        centre: 505747N 0025613W
-        to: 505727N 0025132W
+        centre: 505747N 0025620W
+        to: 505727N 0025138W
     - line:
       - 505756N 0024534W
     - arc:
