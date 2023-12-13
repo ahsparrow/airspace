@@ -9150,17 +9150,6 @@ airspace:
         radius: 1.5 nm
         centre: 540946N 0025737W
 
-- name: CARLISLE
-  type: D_OTHER
-  localtype: DZ
-  geometry:
-  - upper: FL95
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1.5 nm
-        centre: 545615N 0024832W
-
 - name: CHALGROVE
   type: D_OTHER
   localtype: DZ
