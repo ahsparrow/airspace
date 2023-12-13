@@ -1,3 +1,6 @@
+AIRAC: 2023/12/28
+  RICCALL GVS - Remove
+
 AIRAC: 2023/11/30
   D324A/B WADDINGTON - Add danger area
 
@@ -128,13 +131,3 @@ AIRAC: 2023/2/23
 
 AIRAC: 2023/1/26
   No changes
-
-Non-AIRAC:
-  D397 SYERSTON - Add TDA
-  FENTON RADIO - Frequency change
-  MIDDLE WALLOP DZ - Delete
-  MIDDLE WALLOP - Add gliding site
-
-AIRAC: 2022/12/29
-  SCAMPTON ATZ - Delete
-  SCAMPTON MATZ - Delete

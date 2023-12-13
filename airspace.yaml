@@ -8309,17 +8309,6 @@ airspace:
         radius: 0.25 nm
         centre: 535128N 0010458W
 
-- name: RICCALL
-  type: D_OTHER
-  localtype: GVS
-  geometry:
-  - upper: 1100 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.25 nm
-        centre: 534931N 0010157W
-
 - name: ALDBROUGH
   type: D_OTHER
   localtype: GVS
