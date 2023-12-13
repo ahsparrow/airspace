@@ -10241,19 +10241,6 @@ airspace:
         radius: 1 nm
         centre: 514306N 0025101W
 
-- name: WALNEY
-  id: walney-glider
-  type: OTHER
-  localtype: GLIDER
-  geometry:
-  - upper: 2044 ft
-    lower: SFC
-    elevation: 44 ft
-    boundary:
-    - circle:
-        radius: 1 nm
-        centre: 540752N 0031549W
-
 - name: WATTISHAM
   id: wattisham-glider
   type: OTHER

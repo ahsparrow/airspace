@@ -2,6 +2,7 @@ AIRAC: 2023/12/28
   BODMIN DZ - Remove
   CARLISLE DZ - Remove
   RICCALL GVS - Remove
+  WALNEY GLIDING - Remove
 
 AIRAC: 2023/11/30
   D324A/B WADDINGTON - Add danger area
