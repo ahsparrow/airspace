@@ -9117,17 +9117,6 @@ airspace:
         radius: 1.5 nm
         centre: 522612N 0013710E
 
-- name: BODMIN
-  type: D_OTHER
-  localtype: DZ
-  geometry:
-  - upper: FL120
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1.5 nm
-        centre: 502959N 0043957W
-
 - name: BOSCOMBE DOWN
   type: D_OTHER
   localtype: DZ

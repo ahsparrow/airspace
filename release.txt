@@ -1,4 +1,5 @@
 AIRAC: 2023/12/28
+  BODMIN DZ - Remove
   RICCALL GVS - Remove
 
 AIRAC: 2023/11/30
