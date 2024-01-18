@@ -11891,38 +11891,6 @@ airspace:
         centre: 512348N 0032036W
         to: 513021N 0032755W
 
-- name: CARLISLE
-  id: carlisle-atz
-  type: ATZ
-  geometry:
-  - upper: 2190 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 2 nm
-        centre: 545615N 0024833W
-
-- name: CARLISLE
-  type: OTHER
-  localtype: ILS
-  geometry:
-  - upper: 2190 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 545718N 0024536W
-      - 550028N 0023646W
-      - 545944N 0023604W
-      - 545707N 0024526W
-  - upper: 2190 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 545511N 0025129W
-      - 545201N 0030017W
-      - 545244N 0030100W
-      - 545522N 0025140W
-
 - name: CHALGROVE
   id: chalgrove-noatz
   type: OTHER

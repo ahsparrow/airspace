@@ -1,3 +1,6 @@
+AIRAC: 2024/01/25
+  CARLISLE ATZ - Remove
+
 AIRAC: 2023/12/28
   BODMIN DZ - Remove
   CARLISLE DZ - Remove
@@ -130,7 +133,4 @@ Non-AIRAC:
   Obstacles - Minor updates
 
 AIRAC: 2023/2/23
-  No changes
-
-AIRAC: 2023/1/26
   No changes
