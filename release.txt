@@ -1,3 +1,6 @@
+AIRAC: 2024/02/22
+  No changes
+
 AIRAC: 2024/01/25
   CARLISLE ATZ - Remove
 
@@ -124,13 +127,3 @@ AIRAC: 2023/3/23
   PEPZE CTA 6,7,8 - Modify coordinates
   PEPZE 9-14 - New (replacing NITON 9-12)
   STRUMBLE CTA 1,2,3,4 - Modify coordinates
-
-Non-AIRAC:
-  MORAY CTA 13 - Add NOTAM rule
-  PORTSMOUTH CTA 6,17,18 - Revert base from FL55 to 5500 ft to match SOLENT CTA
-  RILES GLIDING AREA LOA - Update for new CTA structure
-  WALDERSHARE PARK - Delete
-  Obstacles - Minor updates
-
-AIRAC: 2023/2/23
-  No changes
