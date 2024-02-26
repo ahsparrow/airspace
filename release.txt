@@ -1,3 +1,6 @@
+AIRAC: 2024/03/21
+  Update gliding frequencies
+
 AIRAC: 2024/02/22
   No changes
 
@@ -106,24 +109,3 @@ AIRAC: 2023/4/20
   DAIRY HOUSE FARM - New microlight site
   HONINGTON ATZ - Update frequency
   PREDANNACK GLIDING - Raise upper limit
-
-Non-AIRAC
-  ABINGDON AIR SHOW RA(T) - Add
-  DUNSTABLE COMPS LOA - Modify coordiates
-  OLD WARDEN RA(T) - Add
-  WADDINGTON RA(T) - Add
-
-AIRAC: 2023/3/23
-  BARKSTON HEATH MATZ - Raise lower level of stub
-  BERRY HEAD CTA 4,5 - Modify coordinates
-  BERRY HEAD CTA 8,9 - New
-  COLERNE ATZ - Delete
-  COTSWOLD CTA 5,6,7,9,11,12,13,15,17 - Modify coordinates
-  COTSWOLD CTA 10 - Delete
-  DAVENTRY CTA 15 - Modify coordinates
-  HUNSDON UL - Update coordinates
-  NITON CTA - Rename PEPZE CTA
-  NITON 9-12 - Delete (replace with PEPZE 9-14)
-  PEPZE CTA 6,7,8 - Modify coordinates
-  PEPZE 9-14 - New (replacing NITON 9-12)
-  STRUMBLE CTA 1,2,3,4 - Modify coordinates
