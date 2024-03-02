@@ -11238,6 +11238,17 @@ airspace:
         radius: 0.5 nm
         centre: 533158N 0030139W
 
+- name: KINGS FARM
+  type: OTHER
+  localtype: UL
+  geometry:
+  - upper: 2210 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.5 nm
+        centre: 523702N 0003611W
+
 - name: KIRKBRIDE
   id: kirkbride-ul
   type: OTHER
