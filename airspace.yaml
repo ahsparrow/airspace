@@ -10267,6 +10267,19 @@ airspace:
         radius: 1 nm
         centre: 515249N 0011311W
 
+- name: WOODVALE
+  id: woodvale-atz
+  type: OTHER
+  localtype: GLIDER
+  geometry:
+  - upper: 2037 ft
+    lower: SFC
+    elevation: 37 ft
+    boundary:
+    - circle:
+        radius: 1 nm
+        centre: 533454N 0030327W
+
 - name: WORMINGFORD
   id: wormingford-glider
   type: OTHER

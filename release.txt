@@ -1,6 +1,7 @@
 AIRAC: 2024/03/21
-  KINGS FARM UL - Add
-  OVER FARM UL - Add
+  KINGS FARM - Add microlight
+  OVER FARM - Add microlight
+  WOODVALE - Add gliding site
   Update gliding frequencies
 
 AIRAC: 2024/02/22
