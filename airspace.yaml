@@ -11371,6 +11371,17 @@ airspace:
         radius: 0.5 nm
         centre: 524231N 0020541W
 
+- name: OVER FARM
+  type: OTHER
+  localtype: UL
+  geometry:
+  - upper: 2047 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.5 nm
+        centre: 515239N 0021657W
+
 - name: OXTON
   type: OTHER
   localtype: UL
