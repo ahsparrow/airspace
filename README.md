@@ -58,7 +58,7 @@ CTR         |             | Control zone
 D           |             | Danger area
 D_OTHER     | DZ          | Drop zone
 D_OTHER     | LASER       | Laser site
-D_OTHER     | GLIDER      | Wave box
+D_OTHER     | GLIDER      | Wave box, or LOA area (with LOA rule)
 D_OTHER     | HIRTA       | HIRTA
 D_OTHER     | GVS         | Gas venting station
 OTHER       | GLIDER      | Gliding site
