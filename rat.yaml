@@ -31,3 +31,13 @@ rat:
           - circle:
               radius: 2.2 nm
               centre: 520527N 0000755E
+
+  - name: OLD WARDEN (VARIOUS)
+    type: P
+    geometry:
+      - upper: 3500 ft
+        lower: SFC
+        boundary:
+          - circle:
+              radius: 3 nm
+              centre: 520512N 0001907W
