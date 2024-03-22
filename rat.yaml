@@ -12,22 +12,22 @@
 # YAXIM project on GitLab at https://gitlab.com/ahsparrow/airspace.
 
 rat:
-- name: D298A RADNOR
-  type: D
-  geometry:
-    - upper: 3500 ft
-      lower: SFC
-      boundary:
-        - circle:
-            radius: 1.5 nm
-            centre: 521453N 0031046W
+  - name: D298A RADNOR
+    type: D
+    geometry:
+      - upper: 3500 ft
+        lower: SFC
+        boundary:
+          - circle:
+              radius: 1.5 nm
+              centre: 521453N 0031046W
 
-- name: D298B RADNOR
-  type: D
-  geometry:
-    - upper: 3500 ft
-      lower: SFC
-      boundary:
-        - circle:
-            radius: 3 nm
-            centre: 521453N 0031046W
+  - name: D298B RADNOR
+    type: D
+    geometry:
+      - upper: 3500 ft
+        lower: SFC
+        boundary:
+          - circle:
+              radius: 3 nm
+              centre: 521453N 0031046W

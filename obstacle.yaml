@@ -1,371 +1,371 @@
 obstacle:
-- name: RUMSTER FOREST RTM
-  type: RTM
-  id: UK0150A059F
-  position: 581941N 0032217W
-  elevation: 1513 ft
-- name: CRIMOND RTM
-  type: RTM
-  id: UK0150B620F
-  position: 573703N 0015315W
-  elevation: 939 ft
-- name: CRIMOND RTM
-  type: RTM
-  id: UK0150B621F
-  position: 573644N 0015337W
-  elevation: 633 ft
-- name: CRIMOND RTM
-  type: RTM
-  id: UK0150A095F
-  position: 573624N 0015250W
-  elevation: 643 ft
-- name: MOUNT EAGLE RTM
-  type: RTM
-  id: UK0150A046F
-  position: 573530N 0041636W
-  elevation: 1526 ft
-- name: DURRIS RTM
-  type: RTM
-  id: UK0150A033F
-  position: 570000N 0022324W
-  elevation: 2115 ft
-- name: CRAIGOWL HILL RTM
-  type: RTM
-  id: UK0150A026F
-  position: 563318N 0025910W
-  elevation: 1817 ft
-- name: POWER CABLE
-  type: PYL
-  id: UK0150F532F
-  position: 560511N 0045203W
-  elevation: 611 ft
-- name: FORTH BRIDGE
-  type: BRDG
-  id: UK0150M812F
-  position: 560037N 0032433W
-  elevation: 691 ft
-- name: FORTH BRIDGE
-  type: OBST
-  id: UK0150F424F
-  position: 560022N 0032414W
-  elevation: 518 ft
-- name: FORTH BRIDGE
-  type: BRDG
-  id: UK0150M813F
-  position: 560017N 0032445W
-  elevation: 717 ft
-- name: FORTH BRIDGE
-  type: BRDG
-  id: UK18613562F
-  position: 555958N 0032458W
-  elevation: 691 ft
-- name: FORTH BRIDGE
-  type: OBST
-  id: UK0171O101F
-  position: 555949N 0032416W
-  elevation: 517 ft
-- name: BLACKHILL RTM
-  type: RTM
-  id: UK0171A385F
-  position: 555143N 0035221W
-  elevation: 1948 ft
-- name: BLACKHILL RTM
-  type: RTM
-  id: UK0171T707F
-  position: 555137N 0035208W
-  elevation: 1935 ft
-- name: KIRK O SHOTTS RTM
-  type: RTM
-  id: UK0171A384F
-  position: 555110N 0034934W
-  elevation: 1555 ft
-- name: HUNTERSTON WT
-  type: TURB-ON
-  id: UK18610709F
-  position: 554402N 0045306W
-  elevation: 642 ft
-- name: SELKIRK RTM
-  type: RTM
-  id: UK0171A373F
-  position: 553321N 0024736W
-  elevation: 1721 ft
-- name: ASHKIRK RTM
-  type: RTM
-  id: UK0171A371F
-  position: 553038N 0025027W
-  elevation: 1748 ft
-- name: ANTHORN RTM
-  type: RTM
-  id: UK0171Q339F
-  position: 545503N 0031646W
-  elevation: 776 ft
-- name: ANTHORN RTM
-  type: RTM
-  id: UK0171Q341F
-  position: 545454N 0031612W
-  elevation: 776 ft
-- name: ANTHORN RTM
-  type: RTM
-  id: UK0171Q340F
-  position: 545453N 0031633W
-  elevation: 775 ft
-- name: ANTHORN RTM
-  type: RTM
-  id: UK0171Q336F
-  position: 545452N 0031655W
-  elevation: 771 ft
-- name: ANTHORN RTM
-  type: RTM
-  id: UK0171Q334F
-  position: 545451N 0031716W
-  elevation: 781 ft
-- name: ANTHORN RTM
-  type: RTM
-  id: UK0171Q342F
-  position: 545443N 0031620W
-  elevation: 777 ft
-- name: ANTHORN RTM
-  type: RTM
-  id: UK0171A353F
-  position: 545442N 0031643W
-  elevation: 771 ft
-- name: ANTHORN RTM
-  type: RTM
-  id: UK0171Q335F
-  position: 545441N 0031704W
-  elevation: 771 ft
-- name: ANTHORN RTM
-  type: RTM
-  id: UK0171Q344F
-  position: 545433N 0031609W
-  elevation: 778 ft
-- name: ANTHORN RTM
-  type: RTM
-  id: UK0171Q343F
-  position: 545432N 0031630W
-  elevation: 767 ft
-- name: ANTHORN RTM
-  type: RTM
-  id: UK0171Q338F
-  position: 545431N 0031652W
-  elevation: 765 ft
-- name: ANTHORN RTM
-  type: RTM
-  id: UK0171Q337F
-  position: 545430N 0031713W
-  elevation: 766 ft
-- name: ANTHORN RTM
-  type: RTM
-  id: UK0171Q345F
-  position: 545421N 0031639W
-  elevation: 752 ft
-- name: BURNHOPE RTM
-  type: RTM
-  id: UK0171A344F
-  position: 544919N 0014253W
-  elevation: 1551 ft
-- name: CALDBECK RTM
-  type: RTM
-  id: UK0171T708F
-  position: 544624N 0030527W
-  elevation: 2058 ft
-- name: SKELTON RTM
-  type: RTM
-  id: UK0171E680F
-  position: 544355N 0025259W
-  elevation: 1789 ft
-- name: BILSDALE RTM
-  type: RTM
-  id: UK0171A310F
-  position: 542131N 0010901W
-  elevation: 2248 ft
-- name: INSKIP RTM
-  type: RTM
-  id: UK0171F960F
-  position: 534954N 0025015W
-  elevation: 643 ft
-- name: INSKIP RTM
-  type: RTM
-  id: UK0171F961F
-  position: 534948N 0025003W
-  elevation: 647 ft
-- name: INSKIP RTM
-  type: RTM
-  id: UK0171F962F
-  position: 534947N 0024949W
-  elevation: 654 ft
-- name: INSKIP RTM
-  type: RTM
-  id: UK0171F959F
-  position: 534945N 0025018W
-  elevation: 646 ft
-- name: DRAX CMN
-  type: CHIM
-  id: UK0171P750F
-  position: 534414N 0005957W
-  elevation: 870 ft
-- name: WINTER HILL RTM
-  type: RTM
-  id: UK0171A245F
-  position: 533732N 0023054W
-  elevation: 2452 ft
-- name: EMLEY MOOR RTM
-  type: RTM
-  id: UK0171A239F
-  position: 533644N 0013952W
-  elevation: 1927 ft
-- name: EMLEY MOOR TMP RTM
-  type: RTM
-  id: UK18639141F
-  position: 533640N 0013956W
-  elevation: 1881 ft
-- name: HOLME MOSS RTM
-  type: RTM
-  id: UK0171E898F
-  position: 533200N 0015130W
-  elevation: 2505 ft
-- name: FIDDLERS CMN
-  type: CHIM
-  id: UK0171A176F
-  position: 532222N 0024109W
-  elevation: 653 ft
-- name: WEST BURTON CMN
-  type: CHIM
-  id: UK0171A172F
-  position: 532147N 0004839W
-  elevation: 689 ft
-- name: WEST BURTON CMN
-  type: CHIM
-  id: UK18610703F
-  position: 532144N 0004847W
-  elevation: 689 ft
-- name: BELMONT RTM
-  type: RTM
-  id: UK0171A168F
-  position: 532009N 0001019W
-  elevation: 1556 ft
-- name: COTTAM CMN
-  type: PLT
-  id: UK0171A209F
-  position: 531817N 0004654W
-  elevation: 669 ft
-- name: MOEL-Y-PARC RTM
-  type: RTM
-  id: UK0171A146F
-  position: 531316N 0031852W
-  elevation: 1893 ft
-- name: ARFON RTM
-  type: RTM
-  id: UK0171A125F
-  position: 530112N 0041625W
-  elevation: 2079 ft
-- name: RATCLIFFE CMN
-  type: CHIM
-  id: UK0171H704F
-  position: 525201N 0011524W
-  elevation: 758 ft
-- name: WALTHAM RTM
-  type: RTM
-  id: UK0171U424F
-  position: 524805N 0004803W
-  elevation: 1489 ft
-- name: LICHFIELD RTM
-  type: RTM
-  id: UK0171A083F
-  position: 523812N 0014532W
-  elevation: 1477 ft
-- name: SUTTON COLDFIELD RTM
-  type: RTM
-  id: UK0171A071F
-  position: 523602N 0015002W
-  elevation: 1358 ft
-- name: TACOLNESTON RTM
-  type: RTM
-  id: UK0171W457F
-  position: 523108N 0010819E
-  elevation: 888 ft
-- name: DROITWICH STH RTM
-  type: RTM
-  id: UK0171A034F
-  position: 521740N 0020621W
-  elevation: 897 ft
-- name: DROITWICH RTM
-  type: RTM
-  id: UK0171A034F
-  position: 521747N 0020624W
-  elevation: 919 ft
-- name: MENDLESHAM RTM
-  type: RTM
-  id: UK0171A028F
-  position: 521404N 0010626E
-  elevation: 1234 ft
-- name: SANDY RTM
-  type: RTM
-  id: UK0171E832F
-  position: 520749N 0001429W
-  elevation: 979 ft
-- name: PRESELI RTM
-  type: RTM
-  id: UK0229A071F
-  position: 515639N 0043939W
-  elevation: 1861 ft
-- name: DARTFORD PYL
-  type: PYL
-  id: UK0230A058F
-  position: 512804N 0001716E
-  elevation: 640 ft
-- name: DARTFORD PYL
-  type: PYL
-  id: UK0230I251F
-  position: 512754N 0001748E
-  elevation: 640 ft
-- name: DARTFORD PYL
-  type: PYL
-  id: UK0230A054F
-  position: 512744N 0001819E
-  elevation: 640 ft
-- name: WENVOE RTM
-  type: RTM
-  id: UK0229A035F
-  position: 512734N 0031654W
-  elevation: 1319 ft
-- name: ST HILARY RTM
-  type: RTM
-  id: UK0229A034F
-  position: 512727N 0032411W
-  elevation: 1163 ft
-- name: MENDIP RTM
-  type: RTM
-  id: UK0229A024F
-  position: 511413N 0023731W
-  elevation: 1960 ft
-- name: DOVER RTM
-  type: RTM
-  id: UK0230A027F
-  position: 510642N 0011451E
-  elevation: 1251 ft
-- name: STOCKLAND HILL RTM
-  type: BLDG
-  id: UK0229A015F
-  position: 504826N 0030618W
-  elevation: 1542 ft
-- name: ROWRIDGE RTM
-  type: RTM
-  id: UK0230N156F
-  position: 504036N 0012213W
-  elevation: 1082 ft
-- name: CHILLERTON RTM
-  type: RTM
-  id: UK0230A002F
-  position: 503857N 0011944W
-  elevation: 1300 ft
-- name: HESSARY TOR RTM
-  type: RTM
-  id: UK0229A011F
-  position: 503301N 0040030W
-  elevation: 2326 ft
-- name: CARADON HILL RTM
-  type: RTM
-  id: UK0229A009F
-  position: 503041N 0042612W
-  elevation: 2005 ft
+  - name: RUMSTER FOREST RTM
+    type: RTM
+    id: UK0150A059F
+    position: 581941N 0032217W
+    elevation: 1513 ft
+  - name: CRIMOND RTM
+    type: RTM
+    id: UK0150B620F
+    position: 573703N 0015315W
+    elevation: 939 ft
+  - name: CRIMOND RTM
+    type: RTM
+    id: UK0150B621F
+    position: 573644N 0015337W
+    elevation: 633 ft
+  - name: CRIMOND RTM
+    type: RTM
+    id: UK0150A095F
+    position: 573624N 0015250W
+    elevation: 643 ft
+  - name: MOUNT EAGLE RTM
+    type: RTM
+    id: UK0150A046F
+    position: 573530N 0041636W
+    elevation: 1526 ft
+  - name: DURRIS RTM
+    type: RTM
+    id: UK0150A033F
+    position: 570000N 0022324W
+    elevation: 2115 ft
+  - name: CRAIGOWL HILL RTM
+    type: RTM
+    id: UK0150A026F
+    position: 563318N 0025910W
+    elevation: 1817 ft
+  - name: POWER CABLE
+    type: PYL
+    id: UK0150F532F
+    position: 560511N 0045203W
+    elevation: 611 ft
+  - name: FORTH BRIDGE
+    type: BRDG
+    id: UK0150M812F
+    position: 560037N 0032433W
+    elevation: 691 ft
+  - name: FORTH BRIDGE
+    type: OBST
+    id: UK0150F424F
+    position: 560022N 0032414W
+    elevation: 518 ft
+  - name: FORTH BRIDGE
+    type: BRDG
+    id: UK0150M813F
+    position: 560017N 0032445W
+    elevation: 717 ft
+  - name: FORTH BRIDGE
+    type: BRDG
+    id: UK18613562F
+    position: 555958N 0032458W
+    elevation: 691 ft
+  - name: FORTH BRIDGE
+    type: OBST
+    id: UK0171O101F
+    position: 555949N 0032416W
+    elevation: 517 ft
+  - name: BLACKHILL RTM
+    type: RTM
+    id: UK0171A385F
+    position: 555143N 0035221W
+    elevation: 1948 ft
+  - name: BLACKHILL RTM
+    type: RTM
+    id: UK0171T707F
+    position: 555137N 0035208W
+    elevation: 1935 ft
+  - name: KIRK O SHOTTS RTM
+    type: RTM
+    id: UK0171A384F
+    position: 555110N 0034934W
+    elevation: 1555 ft
+  - name: HUNTERSTON WT
+    type: TURB-ON
+    id: UK18610709F
+    position: 554402N 0045306W
+    elevation: 642 ft
+  - name: SELKIRK RTM
+    type: RTM
+    id: UK0171A373F
+    position: 553321N 0024736W
+    elevation: 1721 ft
+  - name: ASHKIRK RTM
+    type: RTM
+    id: UK0171A371F
+    position: 553038N 0025027W
+    elevation: 1748 ft
+  - name: ANTHORN RTM
+    type: RTM
+    id: UK0171Q339F
+    position: 545503N 0031646W
+    elevation: 776 ft
+  - name: ANTHORN RTM
+    type: RTM
+    id: UK0171Q341F
+    position: 545454N 0031612W
+    elevation: 776 ft
+  - name: ANTHORN RTM
+    type: RTM
+    id: UK0171Q340F
+    position: 545453N 0031633W
+    elevation: 775 ft
+  - name: ANTHORN RTM
+    type: RTM
+    id: UK0171Q336F
+    position: 545452N 0031655W
+    elevation: 771 ft
+  - name: ANTHORN RTM
+    type: RTM
+    id: UK0171Q334F
+    position: 545451N 0031716W
+    elevation: 781 ft
+  - name: ANTHORN RTM
+    type: RTM
+    id: UK0171Q342F
+    position: 545443N 0031620W
+    elevation: 777 ft
+  - name: ANTHORN RTM
+    type: RTM
+    id: UK0171A353F
+    position: 545442N 0031643W
+    elevation: 771 ft
+  - name: ANTHORN RTM
+    type: RTM
+    id: UK0171Q335F
+    position: 545441N 0031704W
+    elevation: 771 ft
+  - name: ANTHORN RTM
+    type: RTM
+    id: UK0171Q344F
+    position: 545433N 0031609W
+    elevation: 778 ft
+  - name: ANTHORN RTM
+    type: RTM
+    id: UK0171Q343F
+    position: 545432N 0031630W
+    elevation: 767 ft
+  - name: ANTHORN RTM
+    type: RTM
+    id: UK0171Q338F
+    position: 545431N 0031652W
+    elevation: 765 ft
+  - name: ANTHORN RTM
+    type: RTM
+    id: UK0171Q337F
+    position: 545430N 0031713W
+    elevation: 766 ft
+  - name: ANTHORN RTM
+    type: RTM
+    id: UK0171Q345F
+    position: 545421N 0031639W
+    elevation: 752 ft
+  - name: BURNHOPE RTM
+    type: RTM
+    id: UK0171A344F
+    position: 544919N 0014253W
+    elevation: 1551 ft
+  - name: CALDBECK RTM
+    type: RTM
+    id: UK0171T708F
+    position: 544624N 0030527W
+    elevation: 2058 ft
+  - name: SKELTON RTM
+    type: RTM
+    id: UK0171E680F
+    position: 544355N 0025259W
+    elevation: 1789 ft
+  - name: BILSDALE RTM
+    type: RTM
+    id: UK0171A310F
+    position: 542131N 0010901W
+    elevation: 2248 ft
+  - name: INSKIP RTM
+    type: RTM
+    id: UK0171F960F
+    position: 534954N 0025015W
+    elevation: 643 ft
+  - name: INSKIP RTM
+    type: RTM
+    id: UK0171F961F
+    position: 534948N 0025003W
+    elevation: 647 ft
+  - name: INSKIP RTM
+    type: RTM
+    id: UK0171F962F
+    position: 534947N 0024949W
+    elevation: 654 ft
+  - name: INSKIP RTM
+    type: RTM
+    id: UK0171F959F
+    position: 534945N 0025018W
+    elevation: 646 ft
+  - name: DRAX CMN
+    type: CHIM
+    id: UK0171P750F
+    position: 534414N 0005957W
+    elevation: 870 ft
+  - name: WINTER HILL RTM
+    type: RTM
+    id: UK0171A245F
+    position: 533732N 0023054W
+    elevation: 2452 ft
+  - name: EMLEY MOOR RTM
+    type: RTM
+    id: UK0171A239F
+    position: 533644N 0013952W
+    elevation: 1927 ft
+  - name: EMLEY MOOR TMP RTM
+    type: RTM
+    id: UK18639141F
+    position: 533640N 0013956W
+    elevation: 1881 ft
+  - name: HOLME MOSS RTM
+    type: RTM
+    id: UK0171E898F
+    position: 533200N 0015130W
+    elevation: 2505 ft
+  - name: FIDDLERS CMN
+    type: CHIM
+    id: UK0171A176F
+    position: 532222N 0024109W
+    elevation: 653 ft
+  - name: WEST BURTON CMN
+    type: CHIM
+    id: UK0171A172F
+    position: 532147N 0004839W
+    elevation: 689 ft
+  - name: WEST BURTON CMN
+    type: CHIM
+    id: UK18610703F
+    position: 532144N 0004847W
+    elevation: 689 ft
+  - name: BELMONT RTM
+    type: RTM
+    id: UK0171A168F
+    position: 532009N 0001019W
+    elevation: 1556 ft
+  - name: COTTAM CMN
+    type: PLT
+    id: UK0171A209F
+    position: 531817N 0004654W
+    elevation: 669 ft
+  - name: MOEL-Y-PARC RTM
+    type: RTM
+    id: UK0171A146F
+    position: 531316N 0031852W
+    elevation: 1893 ft
+  - name: ARFON RTM
+    type: RTM
+    id: UK0171A125F
+    position: 530112N 0041625W
+    elevation: 2079 ft
+  - name: RATCLIFFE CMN
+    type: CHIM
+    id: UK0171H704F
+    position: 525201N 0011524W
+    elevation: 758 ft
+  - name: WALTHAM RTM
+    type: RTM
+    id: UK0171U424F
+    position: 524805N 0004803W
+    elevation: 1489 ft
+  - name: LICHFIELD RTM
+    type: RTM
+    id: UK0171A083F
+    position: 523812N 0014532W
+    elevation: 1477 ft
+  - name: SUTTON COLDFIELD RTM
+    type: RTM
+    id: UK0171A071F
+    position: 523602N 0015002W
+    elevation: 1358 ft
+  - name: TACOLNESTON RTM
+    type: RTM
+    id: UK0171W457F
+    position: 523108N 0010819E
+    elevation: 888 ft
+  - name: DROITWICH STH RTM
+    type: RTM
+    id: UK0171A034F
+    position: 521740N 0020621W
+    elevation: 897 ft
+  - name: DROITWICH RTM
+    type: RTM
+    id: UK0171A034F
+    position: 521747N 0020624W
+    elevation: 919 ft
+  - name: MENDLESHAM RTM
+    type: RTM
+    id: UK0171A028F
+    position: 521404N 0010626E
+    elevation: 1234 ft
+  - name: SANDY RTM
+    type: RTM
+    id: UK0171E832F
+    position: 520749N 0001429W
+    elevation: 979 ft
+  - name: PRESELI RTM
+    type: RTM
+    id: UK0229A071F
+    position: 515639N 0043939W
+    elevation: 1861 ft
+  - name: DARTFORD PYL
+    type: PYL
+    id: UK0230A058F
+    position: 512804N 0001716E
+    elevation: 640 ft
+  - name: DARTFORD PYL
+    type: PYL
+    id: UK0230I251F
+    position: 512754N 0001748E
+    elevation: 640 ft
+  - name: DARTFORD PYL
+    type: PYL
+    id: UK0230A054F
+    position: 512744N 0001819E
+    elevation: 640 ft
+  - name: WENVOE RTM
+    type: RTM
+    id: UK0229A035F
+    position: 512734N 0031654W
+    elevation: 1319 ft
+  - name: ST HILARY RTM
+    type: RTM
+    id: UK0229A034F
+    position: 512727N 0032411W
+    elevation: 1163 ft
+  - name: MENDIP RTM
+    type: RTM
+    id: UK0229A024F
+    position: 511413N 0023731W
+    elevation: 1960 ft
+  - name: DOVER RTM
+    type: RTM
+    id: UK0230A027F
+    position: 510642N 0011451E
+    elevation: 1251 ft
+  - name: STOCKLAND HILL RTM
+    type: BLDG
+    id: UK0229A015F
+    position: 504826N 0030618W
+    elevation: 1542 ft
+  - name: ROWRIDGE RTM
+    type: RTM
+    id: UK0230N156F
+    position: 504036N 0012213W
+    elevation: 1082 ft
+  - name: CHILLERTON RTM
+    type: RTM
+    id: UK0230A002F
+    position: 503857N 0011944W
+    elevation: 1300 ft
+  - name: HESSARY TOR RTM
+    type: RTM
+    id: UK0229A011F
+    position: 503301N 0040030W
+    elevation: 2326 ft
+  - name: CARADON HILL RTM
+    type: RTM
+    id: UK0229A009F
+    position: 503041N 0042612W
+    elevation: 2005 ft
