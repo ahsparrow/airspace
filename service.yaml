@@ -348,7 +348,7 @@ service:
       - exeter-atz
     frequency: 128.980
 
-  - callsign: FAIROAKS INFORMATION
+  - callsign: FAIROAKS RADIO
     controls:
       - fairoaks-atz
     frequency: 123.430
