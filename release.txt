@@ -1,3 +1,6 @@
+AIRAC: 2024/04/18
+  No changes
+
 AIRAC: 2024/03/21
   KINGS FARM - Add microlight
   OVER FARM - Add microlight
@@ -94,21 +97,3 @@ AIRAC: 2023/5/18
   HAVERFORDWEST DZ - Remove
   HAWKSVIEW UL - Add
   HONINGTON - Add gliding site
-
-Non-AIRAC
-  CHILTERN PARK UL - Remove
-  CORONATION RA(T) - Add
-  CORONATION REHEARSAL RA(T) - Add
-  LONGSIDE A/F - Add
-  MAYPOLE A/F - Remove
-  SADDINGTON UL - Remove
-  SHERBURN-IN-ELMET RA(T) - Add
-  SYERSTON - Remove TDA
-  WYTON UL - Remove
-
-AIRAC: 2023/4/20
-  BICESTER - Update frequency
-  BIGGIN HILL - Update elevation
-  DAIRY HOUSE FARM - New microlight site
-  HONINGTON ATZ - Update frequency
-  PREDANNACK GLIDING - Raise upper limit
