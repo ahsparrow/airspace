@@ -1,6 +1,9 @@
 AIRAC: 2024/04/18
   No changes
 
+Non-ARIAC
+  ABINGDON RA(T) - Add
+
 AIRAC: 2024/03/21
   KINGS FARM - Add microlight
   OVER FARM - Add microlight

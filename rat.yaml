@@ -11,4 +11,13 @@
 # details (including a data schema and a validator) can be found in the
 # YAXIM project on GitLab at https://gitlab.com/ahsparrow/airspace.
 
-rat: []
+rat:
+  - name: ABINGDON (17-18 MAY)
+    type: P
+    geometry:
+      - upper: 6000 ft
+        lower: SFC
+        boundary:
+          - circle:
+              radius: 3 nm
+              centre: 514126N 0011859W
