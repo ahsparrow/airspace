@@ -6183,7 +6183,7 @@ airspace:
       - SI
     geometry:
       - id: imber
-        upper: 50000 ft
+        upper: 23000 ft
         lower: SFC
         boundary:
           - line:
