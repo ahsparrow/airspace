@@ -6215,7 +6215,7 @@ airspace:
     rules:
       - SI
     geometry:
-      - upper: 50000 ft
+      - upper: 23000 ft
         lower: SFC
         boundary:
           - line:
