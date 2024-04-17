@@ -36,6 +36,16 @@ rat:
       - 534045N 0011443W
       - 534541N 0011549W
 
+- name: SYWELL (22-23 JUN)
+  type: P
+  geometry:
+  - upper: 5000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 3 nm
+        centre: 521822N 0004732W
+
 - name: DUXFORD (VARIOUS)
   type: P
   geometry:
