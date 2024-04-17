@@ -76,6 +76,32 @@ rat:
         radius: 3.5 nm
         centre: 510927N 0003827E
 
+- name: SILVERSTONE (4-7 JUL)
+  type: P
+  geometry:
+  - upper: 2500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 520323N 0005357W
+      - 515958N 0010239W
+      - 520055N 0010339W
+    - arc:
+        dir: ccw
+        radius: 2 nm
+        centre: 520227N 0010544W
+        to: 520422N 0010500W
+    - line:
+      - 520623N 0010520W
+      - 520815N 0005940W
+      - 520457N 0005357W
+  - upper: 2500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2 nm
+        centre: 520227N 0010544W
+
 - name: OLD BUCKENHAM (27-28 JUL)
   type: P
   geometry:
