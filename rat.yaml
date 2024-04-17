@@ -78,6 +78,61 @@ rat:
       - 530332N 0004246W
       - 531459N 0004230W
 
+- name: KING'S BIRTHDAY (15 JUN)
+  type: P
+  geometry:
+  - upper: 10000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 530000N 0023500E
+      - 530000N 0031300E
+      - 521300N 0023400E
+      - 520500N 0015000E
+      - 522200N 0012000E
+  - upper: 5000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 521650N 0012910E
+      - 521325N 0013513E
+      - 515710N 0010319E
+      - 520058N 0005809E
+  - upper: 4000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 515551N 0004820E
+      - 520058N 0005809E
+      - 515710N 0010319E
+      - 515205N 0005331E
+  - upper: 2500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 515008N 0004230W
+      - 513611N 0002353W
+      - 513611N 0004133W
+      - 514458N 0004602W
+  - upper: 2500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 514834N 0011958W
+      - 515008N 0004230W
+      - 514458N 0004602W
+      - 514349N 0011753W
+  - upper: 2500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 514349N 0011753W
+      - 514458N 0004602W
+      - 513611N 0004133W
+      - 512700N 0004133W
+      - 512930N 0011311W
+      - 513500N 0012100W
+
 - name: STONEHENGE (20-21 JUN)
   type: P
   geometry:
