@@ -66,6 +66,16 @@ rat:
         radius: 3 nm
         centre: 521822N 0004732W
 
+- name: HEADCORN (5-7 JUL)
+  type: P
+  geometry:
+  - upper: 3500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 3.5 nm
+        centre: 510927N 0003827E
+
 - name: OLD BUCKENHAM (27-28 JUL)
   type: P
   geometry:
