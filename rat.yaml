@@ -12,32 +12,46 @@
 # YAXIM project on GitLab at https://gitlab.com/ahsparrow/airspace.
 
 rat:
-  - name: ABINGDON (17-18 MAY)
-    type: P
-    geometry:
-      - upper: 6000 ft
-        lower: SFC
-        boundary:
-          - circle:
-              radius: 3 nm
-              centre: 514126N 0011859W
+- name: ABINGDON (17-18 MAY)
+  type: P
+  geometry:
+  - upper: 6000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 3 nm
+        centre: 514126N 0011859W
 
-  - name: DUXFORD (VARIOUS)
-    type: P
-    geometry:
-      - upper: 4500 ft
-        lower: SFC
-        boundary:
-          - circle:
-              radius: 2.2 nm
-              centre: 520527N 0000755E
+- name: SHERBURN-IN-ELMET (18-19 MAY)
+  type: P
+  geometry:
+  - upper: 1500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 534801N 0011314W
+      - 534747N 0010943W
+      - 534820N 0010715W
+      - 534000N 0011002W
+      - 534045N 0011443W
+      - 534541N 0011549W
 
-  - name: OLD WARDEN (VARIOUS)
-    type: P
-    geometry:
-      - upper: 3500 ft
-        lower: SFC
-        boundary:
-          - circle:
-              radius: 3 nm
-              centre: 520512N 0001907W
+- name: DUXFORD (VARIOUS)
+  type: P
+  geometry:
+  - upper: 4500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.2 nm
+        centre: 520527N 0000755E
+
+- name: OLD WARDEN (VARIOUS)
+  type: P
+  geometry:
+  - upper: 3500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 3 nm
+        centre: 520512N 0001907W
