@@ -36,6 +36,16 @@ rat:
       - 534045N 0011443W
       - 534541N 0011549W
 
+- name: STONEHENGE (20-21 JUN)
+  type: P
+  geometry:
+  - upper: 3000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 3 nm
+        centre: 511044N 0014934W
+
 - name: SYWELL (22-23 JUN)
   type: P
   geometry:
