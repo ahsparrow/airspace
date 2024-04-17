@@ -46,6 +46,38 @@ rat:
         radius: 6 nm
         centre: 523824N 0021819W
 
+- name: KING'S BIRTHDAY REHEARSAL (3-4 JUN)
+  type: P
+  geometry:
+  - upper: 10000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 530000N 0023500E
+      - 530000N 0031300E
+      - 521300N 0023400E
+      - 520500N 0015000E
+      - 522200N 0012000E
+  - upper: 7000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 524111N 0003539E
+      - 522605N 0012753E
+      - 522200N 0012000E
+      - 523636N 0003222E
+  - upper: 3000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 531619N 0004034W
+      - 531514N 0002624W
+      - 530114N 0002114W
+      - 524111N 0003539E
+      - 523636N 0003222E
+      - 530332N 0004246W
+      - 531459N 0004230W
+
 - name: STONEHENGE (20-21 JUN)
   type: P
   geometry:
