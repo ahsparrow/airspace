@@ -46,6 +46,16 @@ rat:
         radius: 3 nm
         centre: 521822N 0004732W
 
+- name: OLD BUCKENHAM (27-28 JUL)
+  type: P
+  geometry:
+  - upper: 10300 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 5 nm
+        centre: 522951N 0010307E
+
 - name: DUXFORD (VARIOUS)
   type: P
   geometry:
