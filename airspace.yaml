@@ -6882,6 +6882,18 @@ airspace:
         centre: 524817N 0040738W
         to: 525028N 0040939W
 
+- name: D296A MARHAM
+  type: D
+  rules:
+  - NOTAM
+  geometry:
+  - upper: FL105
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 5 nm
+        centre: 523854N 0003302E
+
 - name: D304 UPPER HULME
   type: D
   rules:
