@@ -36,6 +36,16 @@ rat:
       - 534045N 0011443W
       - 534541N 0011549W
 
+- name: MIDLAND AIRSHOW (31 MAY-2 JUN)
+  type: P
+  geometry:
+  - upper: 6500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 3 nm
+        centre: 521140N 0015423W
+
 - name: COSFORD (7-9 JUN)
   type: P
   geometry:
