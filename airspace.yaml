@@ -9200,6 +9200,8 @@ airspace:
 - name: DUNKESWELL
   type: D_OTHER
   localtype: DZ
+  rules:
+  - INTENSE
   geometry:
   - id: dunkeswell-dz
     upper: FL150
