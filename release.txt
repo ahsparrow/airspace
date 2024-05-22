@@ -1,5 +1,8 @@
 Non-AIRAC
+  DUNKESWELL DZ - Add INTENSE rule
+  KEMBLE LOA - Add
   MIDLAND AIRSHOW RA(T) - Add
+  R106 - Add competition area
 
 AIRAC: 2024/05/16
   No changes
