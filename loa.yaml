@@ -1513,7 +1513,7 @@ loa:
   - name: HIGHGROVE HOUSE
     add:
     - name: HIGHGROVE PROHIBITED AREA
-      type: R
+      type: P
       geometry:
       - upper: 860 ft
         lower: SFC
@@ -1521,6 +1521,23 @@ loa:
         - circle:
             radius: 0.6 km
             centre: 513724N 0021048W
+
+    replace: []
+
+#----------------------------------------------------------------------
+- name: RAYMILL HOUSE
+  areas:
+  - name: RAYMILL HOUSE
+    add:
+    - name: RAYMILL PROHIBITED AREA
+      type: P
+      geometry:
+      - upper: 640 ft
+        lower: SFC
+        boundary:
+        - circle:
+            radius: 0.3 km
+            centre: 512524N 0020650W
 
     replace: []
 
