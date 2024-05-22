@@ -2707,7 +2707,8 @@ loa:
   - name: KEMBLE ATZ
     add:
     - name: KEMBLE COMPETITION GLIDER SECTOR
-      type: G
+      type: D_OTHER
+      localtype: GLIDER
       geometry:
       - upper: 2436 ft
         lower: SFC

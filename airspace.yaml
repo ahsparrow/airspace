@@ -12465,7 +12465,8 @@ airspace:
   id: kemble-atz
   type: ATZ
   geometry:
-  - upper: 2436 ft
+  - id: kemble-atz
+    upper: 2436 ft
     lower: SFC
     boundary:
     - circle:
