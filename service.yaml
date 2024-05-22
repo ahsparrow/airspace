@@ -372,7 +372,7 @@ service:
 - callsign: FLEETLANDS INFORMATION
   controls:
   - fleetlands-atz
-  frequency: 135.700
+  frequency: 135.705
 
 - callsign: FOWLMERE RADIO
   controls:
