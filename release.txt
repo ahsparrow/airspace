@@ -1,5 +1,6 @@
 AIRAC: 2024/06/13
   FLEETLANDS ATZ - Update channel
+  WYCOMBE ATZ/BOOKER - Update elevation
 
 Non-AIRAC
   DUNKESWELL DZ - Add INTENSE rule

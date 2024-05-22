@@ -10313,9 +10313,9 @@ airspace:
   type: OTHER
   localtype: GLIDER
   geometry:
-  - upper: 2513 ft
+  - upper: 2516 ft
     lower: SFC
-    elevation: 513 ft
+    elevation: 516 ft
     boundary:
     - circle:
         radius: 1 nm
@@ -13462,7 +13462,7 @@ airspace:
   id: wycombe-atz
   type: ATZ
   geometry:
-  - upper: 2520 ft
+  - upper: 2516 ft
     lower: SFC
     boundary:
     - circle:
