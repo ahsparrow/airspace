@@ -2700,3 +2700,36 @@ loa:
           - 515851N 0003457W
           - 515842N 0003504W
           - 515820N 0003537W
+
+#----------------------------------------------------------------------
+- name: COTSWOLD COMPS
+  areas:
+  - name: KEMBLE ATZ
+    add:
+    - name: KEMBLE COMPETITION GLIDER SECTOR
+      type: G
+      geometry:
+      - upper: 2436 ft
+        lower: SFC
+        boundary:
+        - line:
+          - 514036N 0020631W
+        - arc:
+            dir: cw
+            radius: 2 nm
+            centre: 514005N 0020325W
+            to: 514144N 0020138W
+
+    replace:
+    - id: kemble-atz
+      geometry:
+      - upper: 2436 ft
+        lower: SFC
+        boundary:
+        - line:
+          - 514144N 0020138W
+        - arc:
+            dir: cw
+            radius: 2 nm
+            centre: 514005N 0020325W
+            to: 514036N 0020631W
