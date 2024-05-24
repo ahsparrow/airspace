@@ -151,6 +151,16 @@ rat:
         radius: 3 nm
         centre: 511044N 0014934W
 
+- name: GLASTONBURY (23 JUN - 2 JUL)
+  type: P
+  geometry:
+  - upper: 3100 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.5 nm
+        centre: 510921N 0023510W
+
 - name: SYWELL (22-23 JUN)
   type: P
   geometry:

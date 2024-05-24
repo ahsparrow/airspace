@@ -1,3 +1,6 @@
+Non-AIRAC:
+  GLASTONBURY RA(T) - Add
+
 AIRAC: 2024/06/13
   FLEETLANDS ATZ - Update channel
   WYCOMBE ATZ/BOOKER - Update elevation
