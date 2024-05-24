@@ -151,7 +151,7 @@ rat:
         radius: 3 nm
         centre: 511044N 0014934W
 
-- name: GLASTONBURY (23 JUN - 2 JUL)
+- name: GLASTONBURY (23 JUN-2 JUL)
   type: P
   geometry:
   - upper: 3100 ft
