@@ -12,30 +12,6 @@
 # YAXIM project on GitLab at https://gitlab.com/ahsparrow/airspace.
 
 rat:
-- name: ABINGDON (17-18 MAY)
-  type: P
-  geometry:
-  - upper: 6000 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 3 nm
-        centre: 514126N 0011859W
-
-- name: SHERBURN-IN-ELMET (18-19 MAY)
-  type: P
-  geometry:
-  - upper: 1500 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 534801N 0011314W
-      - 534747N 0010943W
-      - 534820N 0010715W
-      - 534000N 0011002W
-      - 534045N 0011443W
-      - 534541N 0011549W
-
 - name: MIDLAND AIRSHOW (31 MAY-2 JUN)
   type: P
   geometry:
