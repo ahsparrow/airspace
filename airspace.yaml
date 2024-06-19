@@ -9309,6 +9309,8 @@ airspace:
 - name: NETHERAVON
   type: D_OTHER
   localtype: DZ
+  rules:
+  - INTENSE
   geometry:
   - upper: FL150
     lower: SFC
@@ -9320,6 +9322,8 @@ airspace:
 - name: OLD SARUM
   type: D_OTHER
   localtype: DZ
+  rules:
+  - INTENSE
   geometry:
   - upper: FL150
     lower: SFC
