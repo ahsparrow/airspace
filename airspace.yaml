@@ -1760,7 +1760,8 @@ airspace:
       - 510449N 0004709W
       - 510047N 0004433W
       - 510047N 0005251W
-  - seq: "8"
+  - id: farnborough-cta-8
+    seq: "8"
     class: E
     rules:
     - TMZ
@@ -1774,7 +1775,8 @@ airspace:
       - 505435N 0010335W
       - 510420N 0010657W
       - 510636N 0010817W
-  - seq: "9"
+  - id: farnborough-cta-9
+    seq: "9"
     class: E
     rules:
     - TMZ

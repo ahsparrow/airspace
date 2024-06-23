@@ -353,11 +353,17 @@ service:
   - fairoaks-atz
   frequency: 123.430
 
-- callsign: FARNBOROUGH RADAR
+- callsign: FARNBOROUGH APPROACH
   controls:
   - farnborough-ctr
   - farnborough-cta
   frequency: 133.440
+
+- callsign: FARNBOROUGH RADAR
+  controls:
+  - farnborough-cta-8
+  - farnborough-cta-9
+  frequency: 125.250
 
 - callsign: FENLAND RADIO
   controls:
