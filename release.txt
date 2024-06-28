@@ -1,3 +1,6 @@
+AIRAC: 2024/07/15
+  PORTLAND ATZ - Add
+
 Non-AIRAC:
   FAIRFORD RIAT RA(T) - Add
   FARNBOROUGH CTA-8/9 - Correct frequency
@@ -90,14 +93,3 @@ Non-AIRAC:
 
 AIRAC: 2023/8/10
   No changes
-
-Non-AIRAC:
-  SILVERSTON RA(T) - Add
-  OLD BUCKENHAM RA(T) - Add
-  FAIRFORD RIAT RA(T) - Add
-  CHURCH FENTON - Rename LEEDS EAST
-  D031 PORTLAND - Improve coastline section
-
-AIRAC: 2023/7/13
-  TOPCLIFFE ATZ - Update frequency
-  WESTEND FARM - Add microlight

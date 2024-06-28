@@ -13502,7 +13502,7 @@ airspace:
       - 505622N 0024242W
       - 505615N 0025211W
       - 505705N 0025208W
-      - 505634N 0024241W
+      - 505634N 0024241W l
   - upper: 2200 ft
     lower: SFC
     boundary:
@@ -13511,6 +13511,25 @@ airspace:
       - 505632N 0022653W
       - 505542N 0022656W
       - 505614N 0023623W
+
+#---------------------------------------------------------------------
+# AD3
+
+- name: PORTLAND
+  type: ATZ
+  geometry:
+  - upper: 2009
+    lower: SFC
+    boundary:
+    - line:
+      - 503400N 0023006W
+    - arc:
+        dir: cw
+        radius: 2 nm
+        centre: 503404N 0022658W
+        to: 503333N 0023000W
+    - line:
+      - 503400N 0023000W
 
 #----------------------------------------------------------------------
 # Non-AIP airfields from old ASSelect
