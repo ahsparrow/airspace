@@ -10572,18 +10572,6 @@ airspace:
         radius: 1.5 nm
         centre: 535354N 0002141W
 
-- name: BOURN
-  id: bourn-noatz
-  type: OTHER
-  localtype: NOATZ
-  geometry:
-  - upper: 2226 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1.5 nm
-        centre: 521238N 0000233W
-
 - name: BREIGHTON
   id: breighton-noatz
   type: OTHER
