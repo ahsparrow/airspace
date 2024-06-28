@@ -12103,7 +12103,7 @@ airspace:
     boundary:
     - circle:
         radius: 2 nm
-        centre: 505136N 0031405W
+        centre: 505138N 0031406W
 
 - name: DUXFORD
   id: duxford-atz
