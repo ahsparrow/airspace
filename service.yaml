@@ -103,7 +103,7 @@ service:
   - middle-wallop-atz
   - middle-wallop-matz
   - d148
-  frequency: 126.700
+  frequency: 126.705
 
 - callsign: BOURN RADIO
   controls:
@@ -135,7 +135,7 @@ service:
   controls:
   - brize-ctr
   - fairford-atz
-  frequency: 119.000
+  frequency: 119.005
 
 - callsign: CAERNARFON RADIO
   controls:
