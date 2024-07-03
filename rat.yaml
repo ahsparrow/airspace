@@ -195,6 +195,20 @@ rat:
       - 504619N 0002508E
       - 504047N 0001603E
 
+- name: WELLESBOURNE (21-22 SEP)
+  type: P
+  geometry:
+  - upper: 1500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 521406N 0013633W
+      - 521502N 0013334W
+      - 521128N 0012506W
+      - 520740N 0013042W
+      - 520843N 0013709W
+      - 521047N 0013926W
+
 - name: DUXFORD (VARIOUS)
   type: P
   geometry:
