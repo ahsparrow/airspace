@@ -13504,6 +13504,7 @@ airspace:
 # AD3
 
 - name: PORTLAND
+  id: portland-atz
   type: ATZ
   geometry:
   - upper: 2009

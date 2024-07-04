@@ -666,6 +666,11 @@ service:
   - popham-noatz
   frequency: 129.805
 
+- callsign: PORTLAND RADIO
+  controls:
+  - portland-atz
+  frequency: 122.130
+
 - callsign: PRESTWICK APPROACH
   controls:
   - prestwick-cta
