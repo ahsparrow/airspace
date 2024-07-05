@@ -80,7 +80,7 @@ rat:
         radius: 6 nm
         centre: 531000N 0003123W
 
-- name: FAIRFORD RIAT (11-21 JUL)
+- name: FAIRFORD RIAT (17-21 JUL)
   type: P
   geometry:
   - upper: FL85
@@ -127,11 +127,10 @@ rat:
     lower: SFC
     boundary:
     - line:
-      - 514343N 0015711W
-      - 514410N 0013753W
-      - 513732N 0013728W
-      - 513747N 0015652W
-      - 514343N 0015711W
+      - 514510N 0015644W
+      - 514831N 0013817W
+      - 513736N 0013723W
+      - 513745N 0015644W
 
 - name: SHRIVENHAM (18 JUL)
   type: P
