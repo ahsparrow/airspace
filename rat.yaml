@@ -153,6 +153,16 @@ rat:
       - 513938N 0012321W
       - 513911N 0012629W
 
+- name: BLENHEIM (18 JUL)
+  type: P
+  geometry:
+  - upper: 2500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 1.5 nm
+        centre: 515029N 0012140W
+
 - name: FAIRFORD RIAT (22 JUL)
   type: P
   geometry:
