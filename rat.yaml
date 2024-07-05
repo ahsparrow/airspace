@@ -195,7 +195,7 @@ rat:
       - 504619N 0002508E
       - 504047N 0001603E
 
-- name: COSBY (30 AUG - 1 SEP)
+- name: COSBY (30 AUG-1 SEP)
   type: P
   geometry:
   - upper: 3700 ft
