@@ -6288,7 +6288,7 @@ airspace:
     - line:
       - 511828N 0015004W
 
-- name: D129 WESTON ON THE GREEN
+- name: D129 WESTON-ON-THE-GREEN
   type: D
   geometry:
   - upper: FL120
