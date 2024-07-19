@@ -11963,7 +11963,7 @@ airspace:
   type: OTHER
   localtype: NOATZ
   geometry:
-  - upper: 2021 ft
+  - upper: 2020 ft
     lower: SFC
     boundary:
     - circle:

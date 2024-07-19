@@ -1,3 +1,6 @@
+AIRAC: 2024/08/08
+  COLL ATZ - Update elevation
+
 Non-AIRAC:
   BLENHEIM RA(T) - Add
   BOURN A/F - Delete
@@ -91,13 +94,3 @@ Non-AIRAC:
 
 AIRAC: 2023/9/7
   HILL TOP FARM - Add microlight
-
-Non-AIRAC:
-  EASTBOURNE RA(T) - Add
-  EAST KIRKBY RA(T) - Add
-  SHERBURN-IN-ELMET RA(T) - Add
-  DUXFORD RA(T) - Add
-  RED ARROWS RA(T)s - Add
-
-AIRAC: 2023/8/10
-  No changes
