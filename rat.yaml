@@ -54,6 +54,29 @@ rat:
         radius: 3.5 nm
         centre: 523314N 0011234W
 
+- name: FENLAND (17-18 AUG)
+  type: P
+  geometry:
+  - upper: 1500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 524925N 0000731W
+      - 525206N 0000312E
+      - 524530N 0000308E
+      - 524358N 0000057E
+      - 524348N 0000238W
+
+- name: SYERSTON (21 AUG)
+  type: P
+  geometry:
+  - upper: 8300 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 4 nm
+        centre: 530120N 0005458W
+
 - name: WELLESBOURNE (21-22 SEP)
   type: P
   geometry:
