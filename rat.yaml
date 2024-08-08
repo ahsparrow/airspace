@@ -87,6 +87,16 @@ rat:
         radius: 2 nm
         centre: 511056N 0021551W
 
+- name: ABINGDON (21 SEP)
+  type: P
+  geometry:
+  - upper: 6000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 3 nm
+        centre: 514123N 0011853W
+
 - name: WELLESBOURNE (21-22 SEP)
   type: P
   geometry:
