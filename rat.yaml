@@ -77,6 +77,16 @@ rat:
         radius: 4 nm
         centre: 530120N 0005458W
 
+- name: LONGLEAT (13-15 SEP)
+  type: P
+  geometry:
+  - upper: 7000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2 nm
+        centre: 511056N 0021551W
+
 - name: WELLESBOURNE (21-22 SEP)
   type: P
   geometry:

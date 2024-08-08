@@ -1,5 +1,6 @@
 Non-AIRAC:
   FENLAND RA(T) - Add
+  LONGLEAT RA(T) - Add
   SYERSTON RA(T) - Add
 
 AIRAC: 2024/08/08
