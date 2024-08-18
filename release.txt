@@ -6,6 +6,7 @@ Non-AIRAC:
 
 AIRAC: 2024/08/08
   COLL ATZ - Update elevation
+  VARIOUS MILITARY UNITS - Convert to 8.33kHz
 
 Non-AIRAC:
   BLENHEIM RA(T) - Add

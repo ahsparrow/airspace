@@ -103,7 +103,7 @@ service:
   - middle-wallop-atz
   - middle-wallop-matz
   - d148
-  frequency: 126.700
+  frequency: 126.705
 
 - callsign: BOURN RADIO
   controls:
@@ -135,7 +135,7 @@ service:
   controls:
   - brize-ctr
   - fairford-atz
-  frequency: 119.000
+  frequency: 119.005
 
 - callsign: CAERNARFON RADIO
   controls:
@@ -242,14 +242,14 @@ service:
   - barkston-cranwell-matz
   - cranwell-atz
   - cranwell-matz
-  frequency: 124.450
+  frequency: 124.455
 
 - callsign: CULDROSE APPROACH
   controls:
   - culdrose-atz
   - culdrose-matz
   - predannack-atz
-  frequency: 134.050
+  frequency: 134.055
 
 - callsign: CUMBERNAULD RADIO
   controls:
@@ -518,7 +518,7 @@ service:
   - leeming-atz
   - leeming-matz
   - leeming-topcliffe-matz
-  frequency: 133.375
+  frequency: 133.380
 
 - callsign: LEICESTER RADIO
   controls:
@@ -529,7 +529,7 @@ service:
   controls:
   - leuchars-atz
   - leuchars-matz
-  frequency: 126.500
+  frequency: 126.505
 
 - callsign: LIVERPOOL APPROACH
   controls:
@@ -565,7 +565,7 @@ service:
   controls:
   - marham-atz
   - marham-matz
-  frequency: 124.150
+  frequency: 124.155
 
 - callsign: MERRYFIELD TOWER
   controls:
@@ -719,7 +719,7 @@ service:
   - shawbury-matz
   - shawbury-ternhill-matz
   - ternhill-atz
-  frequency: 133.150
+  frequency: 133.155
 
 - callsign: SHERBURN RADIO
   controls:
@@ -835,7 +835,7 @@ service:
   - mona-valley-matz
   - valley-atz
   - valley-matz
-  frequency: 125.225
+  frequency: 125.230
 
 - callsign: WADDINGTON ZONE
   controls:
