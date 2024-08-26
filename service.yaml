@@ -105,11 +105,6 @@ service:
   - d148
   frequency: 126.705
 
-- callsign: BOURN RADIO
-  controls:
-  - bourn-noatz
-  frequency: 124.355
-
 - callsign: BOURNEMOUTH APPROACH
   controls:
   - bournemouth-ctr
