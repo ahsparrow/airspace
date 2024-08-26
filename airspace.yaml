@@ -9211,7 +9211,7 @@ airspace:
     boundary:
     - circle:
         radius: 1.5 nm
-        centre: 505138N 0031406W
+        centre: 505151N 0031353W
 
 - name: ERROL
   type: D_OTHER
