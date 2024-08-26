@@ -1018,7 +1018,7 @@ service:
 - callsign: EASTERTON RADIO
   controls:
   - easterton-glider
-  frequency: 130.105
+  frequency: 130.290
 
 - callsign: EDGE HILL RADIO
   controls:
