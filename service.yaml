@@ -214,7 +214,7 @@ service:
 - callsign: CONINGTON RADIO
   controls:
   - conington-atz
-  frequency: 129.725
+  frequency: 129.730
 
 - callsign: COSFORD APPROACH
   controls:
