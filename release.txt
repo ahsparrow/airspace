@@ -1,3 +1,6 @@
+AIRAC: 2024/09/05
+  BRENT TOR - Frequency updated
+
 Non-AIRAC:
   ABINGDON RA(T) - Add
   FENLAND RA(T) - Add
@@ -94,10 +97,3 @@ AIRAC: 2023/10/5
   MERRYFIELD - Remove glider site
   RECTORY FARM - Add microlight site
   Various GVS - Remove
-
-Non-AIRAC:
-  DUXFORD RA(T) - Add
-  D130 LONGMOOR - Correct upper limit
-
-AIRAC: 2023/9/7
-  HILL TOP FARM - Add microlight

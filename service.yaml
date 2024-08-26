@@ -963,7 +963,7 @@ service:
 - callsign: BRENT TOR RADIO
   controls:
   - brent-tor-glider
-  frequency: 130.105
+  frequency: 129.965
 
 - callsign: BURN RADIO
   controls:
