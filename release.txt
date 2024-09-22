@@ -1,3 +1,6 @@
+Non-AIRAC:
+  BATH GAP (HG/PG) - Add
+
 AIRAC: 2024/09/05
   BRENT TOR - Frequency updated
   CONINGTON - Update frequency

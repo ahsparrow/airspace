@@ -152,6 +152,72 @@ loa:
           - 512842N 0022338W
 
 #----------------------------------------------------------------------
+- name: BATH GAP (HG/PG)
+  areas:
+  - name: BATH GAP
+    add:
+    - name: BATH GAP
+      type: CTA
+      class: D
+      geometry:
+      - upper: 4500 ft
+        lower: 3500 ft
+        boundary:
+        - line:
+          - 512847N 0022104W
+        - arc:
+            dir: cw
+            radius: 15 nm
+            centre: 512258N 0024309W
+            to: 511849N 0022009W
+        - line:
+          - 511838N 0022518W
+        - arc:
+            dir: ccw
+            radius: 12 nm
+            centre: 512258N 0024309W
+            to: 512605N 0022440W
+        - line:
+          - 512842N 0022338W
+
+    replace:
+    - id: bristol-cta-6
+      geometry:
+      - seq: 6A
+        upper: FL105
+        lower: 3500 ft
+        boundary:
+        - line:
+          - 512605N 0022440W
+        - arc:
+            dir: ccw
+            radius: 12 nm
+            centre: 512258N 0024309W
+            to: 512836N 0022614W
+        - line:
+          - 512842N 0022338W
+      - seq: 6B
+        upper: FL105
+        lower: 4500 ft
+        boundary:
+        - line:
+          - 512847N 0022104W
+        - arc:
+            dir: cw
+            radius: 15 nm
+            centre: 512258N 0024309W
+            to: 511849N 0022009W
+        - line:
+          - 511838N 0022518W
+        - arc:
+            dir: ccw
+            radius: 12 nm
+            centre: 512258N 0024309W
+            to: 512605N 0022440W
+        - line:
+          - 512842N 0022338W
+
+#----------------------------------------------------------------------
 # British Model Flying Assocation facility, near Saltby. 1 km radius
 # circle to 1500 ft above ground level
 
