@@ -1,3 +1,6 @@
+AIRAC: 2024/10/31
+  No changes
+
 AIRAC: 2024/10/03
   No changes
 
@@ -92,17 +95,3 @@ AIRAC: 2023/12/28
 
 AIRAC: 2023/11/30
   D324A/B WADDINGTON - Add danger area
-
-Non-AIRAC
-  D298A/B RADNOR - Temporary danger area
-
-AIRAC: 2023/11/2
-  R313 SCAMPTON - Add NOTAM rule
-  R612 ARBROATH - Delete
-  TOPCLIFFE ATZ/MATZ/GLIDER - Update coordinates
-
-AIRAC: 2023/10/5
-  CAMBRIDGE UNIVERSITY LASER - Remove
-  MERRYFIELD - Remove glider site
-  RECTORY FARM - Add microlight site
-  Various GVS - Remove
