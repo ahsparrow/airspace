@@ -1,3 +1,6 @@
+AIRAC: 2024/11/28
+  NORTHAMPTON/SYWELL ATZ - Delete
+
 AIRAC: 2024/10/31
   No changes
 
@@ -92,6 +95,3 @@ AIRAC: 2023/12/28
   CARLISLE DZ - Remove
   RICCALL GVS - Remove
   WALNEY GLIDING - Remove
-
-AIRAC: 2023/11/30
-  D324A/B WADDINGTON - Add danger area

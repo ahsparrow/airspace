@@ -12910,18 +12910,6 @@ airspace:
       - 502204N 0044915W
       - 502505N 0045627W
 
-# Northampton/Sywell
-- name: SYWELL
-  id: sywell-atz
-  type: ATZ
-  geometry:
-  - upper: 2424 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 2 nm
-        centre: 521817N 0004732W
-
 - name: NORWICH CTR
   id: norwich-ctr
   type: CTR
