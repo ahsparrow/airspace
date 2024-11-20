@@ -10748,6 +10748,19 @@ airspace:
         radius: 1.5 nm
         centre: 514318N 0000915E
 
+# Northampton/Sywell
+- name: SYWELL
+  id: northampton-sywell-noatz
+  type: OTHER
+  localtype: NOATZ
+  geometry:
+  - upper: 2424 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 1.5 nm
+        centre: 521822N 0004732W
+
 - name: OAKSEY PARK
   id: oaksey-park-noatz
   type: OTHER

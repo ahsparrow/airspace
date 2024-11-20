@@ -790,7 +790,7 @@ service:
 
 - callsign: SYWELL RADIO
   controls:
-  - sywell-atz
+  - northamton-sywell-noatz
   frequency: 122.705
 
 - callsign: TATENHILL RADIO

@@ -1,5 +1,6 @@
 AIRAC: 2024/11/28
-  NORTHAMPTON/SYWELL ATZ - Delete
+  SYWELL ATZ - Delete
+  SYWELL NOATZ - Add
 
 AIRAC: 2024/10/31
   No changes
