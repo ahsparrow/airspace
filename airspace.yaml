@@ -11220,12 +11220,12 @@ airspace:
   type: OTHER
   localtype: UL
   geometry:
-  - upper: 2329 ft
+  - upper: 2207 ft
     lower: SFC
     boundary:
     - circle:
         radius: 0.5 nm
-        centre: 534425N 0023505W
+        centre: 534443N 0023621W
 
 - name: HOUGHAM (GLEBE FARM)
   type: OTHER
