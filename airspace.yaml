@@ -13103,7 +13103,7 @@ airspace:
   id: rochester-atz
   type: ATZ
   geometry:
-  - upper: 2426 ft
+  - upper: 2420 ft
     lower: SFC
     boundary:
     - circle:

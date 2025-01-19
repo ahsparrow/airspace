@@ -1,3 +1,6 @@
+AIRAC: 2025-01-23
+  ROCHESTER - Change airfield elevation
+
 AIRAC: 2024/12/26
   HOGHTON UL - Update co-ordinates and elevation
 
@@ -90,6 +93,3 @@ AIRAC: 2024/03/21
 
 AIRAC: 2024/02/22
   No changes
-
-AIRAC: 2024/01/25
-  CARLISLE ATZ - Remove
