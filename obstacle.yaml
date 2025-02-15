@@ -214,11 +214,6 @@ obstacle:
   id: UK0171A239F
   position: 533644N 0013952W
   elevation: 1927 ft
-- name: EMLEY MOOR TMP RTM
-  type: RTM
-  id: UK18639141F
-  position: 533640N 0013956W
-  elevation: 1881 ft
 - name: HOLME MOSS RTM
   type: RTM
   id: UK0171E898F
@@ -259,6 +254,11 @@ obstacle:
   id: UK0171A125F
   position: 530112N 0041625W
   elevation: 2079 ft
+- name: CHIRK CASTLE
+  type: OBST
+  id: UK30613700F
+  position: 525608N 0030524W
+  elevation: 1370 ft
 - name: RATCLIFFE CMN
   type: CHIM
   id: UK0171H704F
@@ -274,6 +274,11 @@ obstacle:
   id: UK0171A083F
   position: 523812N 0014532W
   elevation: 1477 ft
+- name: IRONBRIDGE
+  type: CHIM
+  id: UK30452868F
+  position: 523748N 0023048W
+  elevation: 887 ft
 - name: SUTTON COLDFIELD RTM
   type: RTM
   id: UK0171A071F
@@ -313,7 +318,7 @@ obstacle:
   type: PYL
   id: UK0230A058F
   position: 512804N 0001716E
-  elevation: 640 ft
+  elevation: 646 ft
 - name: DARTFORD PYL
   type: PYL
   id: UK0230I251F
@@ -323,7 +328,7 @@ obstacle:
   type: PYL
   id: UK0230A054F
   position: 512744N 0001819E
-  elevation: 640 ft
+  elevation: 651 ft
 - name: WENVOE RTM
   type: RTM
   id: UK0229A035F
@@ -333,7 +338,7 @@ obstacle:
   type: RTM
   id: UK0229A034F
   position: 512727N 0032411W
-  elevation: 1163 ft
+  elevation: 1167 ft
 - name: MENDIP RTM
   type: RTM
   id: UK0229A024F
@@ -348,7 +353,7 @@ obstacle:
   type: BLDG
   id: UK0229A015F
   position: 504826N 0030618W
-  elevation: 1542 ft
+  elevation: 1540 ft
 - name: ROWRIDGE RTM
   type: RTM
   id: UK0230N156F
