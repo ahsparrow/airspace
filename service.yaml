@@ -889,7 +889,7 @@ service:
   controls:
   - wittering-atz
   - wittering-matz
-  frequency: 119.675
+  frequency: 119.680
 
 - callsign: WOODVALE APPROACH
   controls:
