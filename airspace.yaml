@@ -4775,7 +4775,7 @@ airspace:
   id: wittering-atz
   type: ATZ
   geometry:
-  - upper: 2273 ft
+  - upper: 2274 ft
     lower: SFC
     boundary:
     - circle:

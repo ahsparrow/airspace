@@ -4,6 +4,7 @@ AIRAC: 2025-02-20
   NETHERAVON - 8.33kHz frequency change
   ODIHAM - 8.33kHz frequency change
   WITTERING - 8.33kHz frequency change
+  WITTERING - Elevation changed
 
 AIRAC: 2025-01-23
   ROCHESTER - Change airfield elevation
