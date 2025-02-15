@@ -571,7 +571,7 @@ service:
 - callsign: NETHERAVON INFORMATION
   controls:
   - netheravon-atz
-  frequency: 128.300
+  frequency: 128.305
 
 - callsign: NETHERTHORPE RADIO
   controls:
