@@ -619,7 +619,7 @@ service:
   controls:
   - odiham-atz
   - odiham-matz
-  frequency: 131.300
+  frequency: 131.305
 
 - callsign: OLD BUCKENHAM RADIO
   controls:

@@ -2,6 +2,7 @@ AIRAC: 2025-02-20
   MANCHESTER CTA 6 - New
   MANCHESTER CTR - Modify coordinates
   NETHERAVON - 8.33kHz frequency change
+  ODIHAM - 8.33kHz frequency change
 
 AIRAC: 2025-01-23
   ROCHESTER - Change airfield elevation
