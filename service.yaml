@@ -486,6 +486,7 @@ service:
 - callsign: LAKENHEATH RADAR
   controls:
   - lakenheath-atz
+  - lakenheath-matz
   - lakenheath-mildenhall-matz
   - mildenhall-atz
   - mildenhall-matz

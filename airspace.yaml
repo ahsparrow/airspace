@@ -5062,6 +5062,26 @@ airspace:
         centre: 574218N 0032021W
         to: 573750N 0032432W
 
+- name: LAKENHEATH
+  id: lakenheath-matz
+  type: OTHER
+  localtype: MATZ
+  controltype: MILITARY
+  geometry:
+  - upper: 3032 ft
+    lower: 1032 ft
+    boundary:
+    - line:
+      - 522846N 0003803E
+      - 523147N 0004525E
+      - 522828N 0004903E
+      - 522527N 0004142E
+    - arc:
+        dir: ccw
+        radius: 5 nm
+        centre: 522434N 0003340E
+        to: 522846N 0003803E
+
 - name: LAKENHEATH/MILDENHALL
   id: lakenheath-mildenhall-matz
   type: OTHER
@@ -5073,15 +5093,6 @@ airspace:
     boundary:
     - line:
       - 522618N 0002559E
-    - arc:
-        dir: cw
-        radius: 5 nm
-        centre: 522434N 0003340E
-        to: 522846N 0003803E
-    - line:
-      - 523147N 0004525E
-      - 522828N 0004903E
-      - 522527N 0004142E
     - arc:
         dir: cw
         radius: 5 nm
