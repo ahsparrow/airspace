@@ -12,6 +12,16 @@
 # YAXIM project on GitLab at https://gitlab.com/ahsparrow/airspace.
 
 rat:
+- name: OLD WARDEN (VARIOUS)
+  type: P
+  geometry:
+  - upper: 3500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 3 nm
+        centre: 520512N 0001907W
+
 - name: OLD BUCKENHAM (26-27 JUL)
   type: P
   geometry:
