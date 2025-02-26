@@ -5295,11 +5295,8 @@ airspace:
     - arc:
         dir: cw
         radius: 5 nm
-        centre: 522142N 0002911E
+        centre: 522143N 0002911E
         to: 521651N 0002714E
-        #    - line:
-        #      - 522553N 0001400E
-        #      - 521904N 0001128E
   - upper: 3033 ft
     lower: 1033 ft
     boundary:
@@ -5310,7 +5307,7 @@ airspace:
     - arc:
         dir: cw
         radius: 5 nm
-        centre: 522142N 0002911E
+        centre: 522143N 0002911E
         to: 522440N 0002238E
 
 - name: MONA VALLEY
