@@ -6616,16 +6616,6 @@ airspace:
       - 520211N 0034019W
       - 520501N 0033532W
 
-- name: D206 CARDINGTON
-  type: D
-  geometry:
-  - upper: 6000 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 1 nm
-        centre: 520621N 0002521W
-
 - name: D207 HOLBEACH
   type: D
   geometry:
