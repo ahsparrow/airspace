@@ -32,6 +32,16 @@ rat:
         radius: 2 nm
         centre: 504318N 0011557W
 
+- name: STONEHENGE (20-21 JUN)
+  type: P
+  geometry:
+  - upper: 3000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 3 nm
+        centre: 511044N 0014934W
+
 - name: OLD BUCKENHAM (26-27 JUL)
   type: P
   geometry:
