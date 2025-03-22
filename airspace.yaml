@@ -7585,18 +7585,6 @@ airspace:
         radius: 2 nm
         centre: 534634N 0024815W
 
-- name: R313 SCAMPTON
-  type: R
-  rules:
-  - NOTAM
-  geometry:
-  - upper: 9500 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 5 nm
-        centre: 531828N 0003303W
-
 - name: R322 WYLFA
   type: R
   geometry:

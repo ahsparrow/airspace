@@ -1,3 +1,6 @@
+AIRAC: 2025-03-20
+  R313 SCAMPTON - Remove
+
 Non-AIRAC:
   IOW FESTIVAL RA(T) - Add
   OLD BUCKENHAM RA(T) - Add
@@ -76,30 +79,3 @@ Non-AIRAC
 
 AIRAC: 2024/05/16
   No changes
-
-Non-AIRAC
-  COSFORD RA(T) - Add
-  D296A MARHAM - Add temporary danger area
-  EASTBOUNE RA(T) - Add
-  HEADCORN RA(T) - Add
-  KING'S BIRTHDAY RA(T) - Add
-  KING'S BIRTHDAY REHEARSAL - RA(T)
-  OLD BUCKENHAM RA(T) - Add
-  SHERBURN-IN-ELMET RA(T) - Add
-  SILVERSTONE RA(T) - Add
-  STONEHENGE RA(T) - Add
-  SYWELL RA(T) - Add
-
-AIRAC: 2024/04/18
-  No changes
-
-Non-ARIAC
-  ABINGDON RA(T) - Add
-  DUXFORD RA(T) - Add
-  OLD WARDEN RA(T) - Add
-
-AIRAC: 2024/03/21
-  KINGS FARM - Add microlight
-  OVER FARM - Add microlight
-  WOODVALE - Add gliding site
-  Update gliding frequencies
