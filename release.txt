@@ -1,5 +1,6 @@
 AIRAC: 2025-03-20
   R313 SCAMPTON - Remove
+  WHITE WALTHAM - Change elevation
 
 Non-AIRAC:
   IOW FESTIVAL RA(T) - Add
