@@ -66,6 +66,12 @@ rat:
     - circle:
         radius: 3 nm
         centre: 521146N 0015359W
+  - upper: FL65
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 521139N 0015403W
 
 - name: COSFORD (6-8 JUN)
   type: P
@@ -76,6 +82,12 @@ rat:
     - circle:
         radius: 6 nm
         centre: 523824N 0021819W
+  - upper: 8300 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 523824N 0021816W
 
 - name: STONEHENGE (20-21 JUN)
   type: P
@@ -86,6 +98,102 @@ rat:
     - circle:
         radius: 3 nm
         centre: 511044N 0014934W
+
+- name: DUXFORD (22 JUN)
+  type: P
+  geometry:
+  - upper: 5500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 520525N 0000752E
+
+- name: OLD WARDEN (28 JUN)
+  type: P
+  geometry:
+  - upper: 3500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 520505N 0001911W
+
+- name: HEADCORN (28-29 JUN)
+  type: P
+  geometry:
+  - upper: 3500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 3.5 nm
+        centre: 510923N 0003840E
+  - upper: 3500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 510923N 0003831E
+
+- name: GOODWOOD (10-13 JUL)
+  type: P
+  geometry:
+  - upper: 5500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 505232N 0004405W
+
+- name: WADDINGTON (12 JUL)
+  type: P
+  geometry:
+  - upper: 8000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 531000N 0003123W
+
+- name: SHRIVENHAM (17 JUL)
+  type: P
+  geometry:
+  - upper: FL65
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 513557N 0013819W
+
+- name: HONINGTON (24 JUL)
+  type: P
+  geometry:
+  - upper: 8000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 522035N 0004629E
+
+- name: CONINGSBY (25 JUL)
+  type: P
+  geometry:
+  - upper: 8000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 530532N 0001021W
+
+- name: ODIHAM (25 JUL)
+  type: P
+  geometry:
+  - upper: 4000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 511419N 0005628W
 
 - name: FISHBURN (26-27 JUL)
   type: P
@@ -101,16 +209,6 @@ rat:
       - 543909N 0013151W
       - 544153N 0012955W
 
-- name: HEADCORN (28-29 JUN)
-  type: P
-  geometry:
-  - upper: 3500 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 3.5 nm
-        centre: 510923N 0003840E
-
 - name: OLD BUCKENHAM (26-27 JUL)
   type: P
   geometry:
@@ -120,3 +218,20 @@ rat:
     - circle:
         radius: 5 nm
         centre: 522951N 0010307E
+  - upper: 8000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 522948N 0010305E
+
+- name: EASTBOURNE (14-17 AUG)
+  type: P
+  geometry:
+  - upper: 5500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 504535N 0001723E
+
