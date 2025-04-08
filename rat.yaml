@@ -32,6 +32,21 @@ rat:
         radius: 2 nm
         centre: 504318N 0011557W
 
+- name: SHERBURN-IN-ELMET (24-25 MAY)
+  type: P
+  geometry:
+  - upper: 1500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 534649N 0011632W
+      - 534757N 0011206W
+      - 534746N 0010942W
+      - 534820N 0010715W
+      - 534553N 0010811W
+      - 534358N 0011153W
+      - 534547N 0011653W
+
 - name: STONEHENGE (20-21 JUN)
   type: P
   geometry:
