@@ -47,6 +47,16 @@ rat:
       - 534358N 0011153W
       - 534547N 0011653W
 
+- name: COSFORD (6-8 JUN)
+  type: P
+  geometry:
+  - upper: 5300 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 523824N 0021819W
+
 - name: STONEHENGE (20-21 JUN)
   type: P
   geometry:
