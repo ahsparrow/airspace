@@ -57,7 +57,7 @@ rat:
       - 534358N 0011153W
       - 534547N 0011653W
 
-- name: RAGLEY HALL (29 MAY - 1 JUN)
+- name: RAGLEY HALL (29 MAY-1 JUN)
   type: P
   geometry:
   - upper: 6500 ft
