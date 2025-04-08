@@ -22,6 +22,16 @@ rat:
         radius: 3 nm
         centre: 520512N 0001907W
 
+- name: ABINGDON (14 JUN)
+  type: P
+  geometry:
+  - upper: 6000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 3 nm
+        centre: 514126N 0011859W
+
 - name: IOW FESTIVAL (18-23 JUN)
   type: P
   geometry:
