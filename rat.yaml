@@ -67,6 +67,20 @@ rat:
         radius: 3 nm
         centre: 511044N 0014934W
 
+- name: FISHBURN (26-27 JUL)
+  type: P
+  geometry:
+  - upper: 1500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 544310N 0012657W
+      - 544220N 0012209W
+      - 543830N 0012542W
+      - 543803N 0013125W
+      - 543909N 0013151W
+      - 544153N 0012955W
+
 - name: HEADCORN (28-29 JUN)
   type: P
   geometry:
