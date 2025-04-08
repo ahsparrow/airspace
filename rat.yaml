@@ -47,6 +47,16 @@ rat:
       - 534358N 0011153W
       - 534547N 0011653W
 
+- name: RAGLEY HALL (29 MAY - 1 JUN)
+  type: P
+  geometry:
+  - upper: 6500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 3 nm
+        centre: 521146N 0015359W
+
 - name: COSFORD (6-8 JUN)
   type: P
   geometry:
