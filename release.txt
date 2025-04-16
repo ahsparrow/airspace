@@ -1,6 +1,7 @@
 Non-AIRAC:
   ABINGDON RA(T) - Add
   COSFORD RA(T) - Add
+  DUXFORD RA(T)s - Add
   FISHBURN RA(T) - Add
   HEADCORN RA(T) - Add
   RAGLEY HALL RA(T) - Add
