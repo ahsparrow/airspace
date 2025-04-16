@@ -8,6 +8,7 @@ Non-AIRAC:
   RED ARROWS RA(T)s - Add
   SHERBURN-IN-ELMET RA(T) - Add
   SYERSTON RA(T) - Add
+  VE DAY PRACTICE RA(T) - Add
 
 AIRAC: 2025-04-17
   No changes
