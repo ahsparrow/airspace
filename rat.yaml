@@ -235,3 +235,12 @@ rat:
         radius: 6 nm
         centre: 504535N 0001723E
 
+- name: SYERSTON (20 AUG)
+  type: P
+  geometry:
+  - upper: 8000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 530121N 0005453W

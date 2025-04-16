@@ -6,6 +6,7 @@ Non-AIRAC:
   RAGLEY HALL RA(T) - Add
   RED ARROWS RA(T)s - Add
   SHERBURN-IN-ELMET RA(T) - Add
+  SYERSTON RA(T) - Add
 
 AIRAC: 2025-04-17
   No changes
