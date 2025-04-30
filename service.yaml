@@ -1111,11 +1111,6 @@ service:
   - nympsfield-glider
   frequency: 129.980
 
-- callsign: OBAN RADIO
-  controls:
-  - oban-glider
-  frequency: 118.055
-
 - callsign: PARHAM RADIO
   controls:
   - parham-glider
