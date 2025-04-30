@@ -787,7 +787,7 @@ service:
 - callsign: SYERSTON RADIO
   controls:
   - syerston-atz
-  frequency: 128.525
+  frequency: 128.530
 
 - callsign: SYWELL RADIO
   controls:
