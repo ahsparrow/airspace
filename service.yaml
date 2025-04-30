@@ -1278,7 +1278,7 @@ service:
   controls:
   - little-rissington-glider
   - little-rissington-atz
-  frequency: 120.775
+  frequency: 120.780
 
 - callsign: ODIHAM RADIO
   controls:

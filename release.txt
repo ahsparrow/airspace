@@ -1,3 +1,6 @@
+AIRAC: 2025-05-15
+  LITTLE RISSINGTON - 8.33kHz channel
+
 Non-AIRAC:
   ABINGDON RA(T) - Add
   COSFORD RA(T) - Add
@@ -89,12 +92,3 @@ Non-AIRAC:
 AIRAC: 2024/06/13
   FLEETLANDS ATZ - Update channel
   WYCOMBE ATZ/BOOKER - Update elevation
-
-Non-AIRAC
-  DUNKESWELL DZ - Add INTENSE rule
-  KEMBLE LOA - Add
-  MIDLAND AIRSHOW RA(T) - Add
-  R106 - Add competition area
-
-AIRAC: 2024/05/16
-  No changes
