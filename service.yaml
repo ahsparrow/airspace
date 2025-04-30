@@ -1278,4 +1278,4 @@ service:
 - callsign: UPAVON RADIO
   controls:
   - upavon-glider
-  frequency: 124.100
+  frequency: 124.105

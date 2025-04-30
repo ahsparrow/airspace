@@ -4,6 +4,7 @@ AIRAC: 2025-05-15
   OBAN - Remove glider site
   SYERSTON - 8.33 kHz channel
   TOPCLIFFE - 8.33 kHz channel
+  UPAVON - 8.33 kHz channel
 
 Non-AIRAC:
   ABINGDON RA(T) - Add
