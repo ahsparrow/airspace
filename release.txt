@@ -1,5 +1,6 @@
 AIRAC: 2025-05-15
   LITTLE RISSINGTON - 8.33 kHz channel
+  MARHAM - Remove glider site
   SYERSTON - 8.33 kHz channel
   TOPCLIFFE - 8.33 kHz channel
 

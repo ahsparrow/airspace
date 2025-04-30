@@ -9898,19 +9898,6 @@ airspace:
         radius: 1 nm
         centre: 522758N 0003430W
 
-- name: MARHAM
-  id: marham-glider
-  type: OTHER
-  localtype: GLIDER
-  geometry:
-  - upper: 3075 ft
-    lower: SFC
-    elevation: 75 ft
-    boundary:
-    - circle:
-        radius: 1 nm
-        centre: 523854N 0003302E
-
 - name: MIDDLE WALLOP
   type: OTHER
   localtype: GLIDER

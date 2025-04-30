@@ -1096,11 +1096,6 @@ service:
   - lyveden-glider
   frequency: 129.980
 
-- callsign: MARHAM RADIO
-  controls:
-  - marham-glider
-  frequency: 124.150
-
 - callsign: MILFIELD RADIO
   controls:
   - milfield-glider
