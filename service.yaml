@@ -818,7 +818,7 @@ service:
   controls:
   - topcliffe-atz
   - topcliffe-glider
-  frequency: 121.450
+  frequency: 121.455
 
 - callsign: TURWESTON RADIO
   controls:
