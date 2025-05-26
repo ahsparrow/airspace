@@ -1,4 +1,5 @@
 AIRAC: 2025-06-12
+  BALADO UL - Change to training aerodrome and add frequency
   GLASGOW CTA - 8.33kHz channel
 
 AIRAC: 2025-05-15
