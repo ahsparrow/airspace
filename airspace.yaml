@@ -6909,7 +6909,7 @@ airspace:
         centre: 524817N 0040738W
         to: 525028N 0040939W
 
-- name: D296A MARHAM
+- name: D220A MARHAM
   type: D
   rules:
   - NOTAM
