@@ -28,6 +28,11 @@ service:
   - bagby-noatz
   frequency: 123.255
 
+- callsign: BALADO RADIO
+  controls:
+  - bagby-noatz
+  frequency: 118.605
+
 - callsign: BARRA INFORMATION
   controls:
   - barra-atz

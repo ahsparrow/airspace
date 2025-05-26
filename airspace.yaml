@@ -10524,6 +10524,18 @@ airspace:
         radius: 1.5 nm
         centre: 541230N 0011736W
 
+- name: BALADO PARK
+  id: balado-noatz
+  type: OTHER
+  localtype: NOATZ
+  geometry:
+  - upper: 2423 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 1.5 nm
+        centre: 561300N 0032737W
+
 - name: BECCLES
   id: beccles-noatz
   type: OTHER
@@ -10868,17 +10880,6 @@ airspace:
     - circle:
         radius: 0.5 nm
         centre: 551859N 0014712W
-
-- name: BALADO PARK
-  type: OTHER
-  localtype: UL
-  geometry:
-  - upper: 2423 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.5 nm
-        centre: 561300N 0032737W
 
 - name: BEDLANDS GATE
   type: OTHER
