@@ -394,7 +394,7 @@ service:
   controls:
   - glasgow-cta
   - glasgow-ctr
-  frequency: 119.100
+  frequency: 119.105
 
 - callsign: GLOUCESTER APPROACH
   controls:
