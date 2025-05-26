@@ -13021,18 +13021,6 @@ airspace:
         radius: 2 nm
         centre: 562628N 0032226W
 
-# Peterborough/Conington
-- name: CONINGTON
-  id: conington-atz
-  type: ATZ
-  geometry:
-  - upper: 2026 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 2 nm
-        centre: 522805N 0001503W
-
 - name: PRESTWICK CTR
   id: prestwick-ctr
   type: CTR
