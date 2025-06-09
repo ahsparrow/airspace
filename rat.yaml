@@ -207,3 +207,13 @@ rat:
     - circle:
         radius: 6 nm
         centre: 530121N 0005453W
+
+- name: LONGLEAT (12-14 SEP)
+  type: P
+  geometry:
+  - upper: 6500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2 nm
+        centre: 511100N 0021558W
