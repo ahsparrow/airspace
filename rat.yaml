@@ -32,41 +32,6 @@ rat:
         radius: 2.2 nm
         centre: 520527N 0000755E
 
-- name: VE DAY PRACTICE (28-29 APR)
-  type: P
-  geometry:
-  - upper: 10000 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 530000N 0023500E
-      - 530000N 0031300E
-      - 521300N 0023400E
-      - 520500N 0015000E
-      - 522200N 0012000E
-      - 522605N 0012753E
-      - 523328N 0010235E
-      - 523328N 0014215E
-  - upper: 7000 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 524111N 0003539E
-      - 522605N 0012753E
-      - 522200N 0012000E
-      - 523636N 0003222E
-  - upper: 3000 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 531619N 0004034W
-      - 531514N 0002624W
-      - 530114N 0002114W
-      - 524111N 0003539E
-      - 523636N 0003222E
-      - 530332N 0004246W
-      - 531459N 0004230W
-
 - name: ABINGDON (14 JUN)
   type: P
   geometry:
@@ -86,53 +51,6 @@ rat:
     - circle:
         radius: 2 nm
         centre: 504318N 0011557W
-
-- name: SHERBURN-IN-ELMET (24-25 MAY)
-  type: P
-  geometry:
-  - upper: 1500 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 534649N 0011632W
-      - 534757N 0011206W
-      - 534746N 0010942W
-      - 534820N 0010715W
-      - 534553N 0010811W
-      - 534358N 0011153W
-      - 534547N 0011653W
-
-- name: RAGLEY HALL (29 MAY-1 JUN)
-  type: P
-  geometry:
-  - upper: 6500 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 3 nm
-        centre: 521146N 0015359W
-  - upper: FL65
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 6 nm
-        centre: 521139N 0015403W
-
-- name: COSFORD (6-8 JUN)
-  type: P
-  geometry:
-  - upper: 5300 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 6 nm
-        centre: 523824N 0021819W
-  - upper: 8300 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 6 nm
-        centre: 523824N 0021816W
 
 - name: STONEHENGE (20-21 JUN)
   type: P
