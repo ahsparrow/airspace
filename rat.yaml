@@ -208,6 +208,16 @@ rat:
         radius: 6 nm
         centre: 530121N 0005453W
 
+- name: COSBY (29-31 AUG)
+  type: P
+  geometry:
+  - upper: 4200 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 3.5 nm
+        centre: 523314N 0011234W
+
 - name: LONGLEAT (12-14 SEP)
   type: P
   geometry:
