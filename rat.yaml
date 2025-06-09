@@ -72,6 +72,16 @@ rat:
         radius: 6 nm
         centre: 520525N 0000752E
 
+- name: GLASTONBURY (22 JUN-01 JUL)
+  type: P
+  geometry:
+  - upper: 3000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 3.5 nm
+        centre: 510842N 0023155W
+
 - name: OLD WARDEN (28 JUN)
   type: P
   geometry:
