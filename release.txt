@@ -1,5 +1,6 @@
 Non-AIRAC:
   COSBY RA(T) - Add
+  HONINGTON RA(T) - Add
   LONGLEAT RA(T) - Add
 
 AIRAC: 2025-06-12

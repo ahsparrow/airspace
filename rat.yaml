@@ -148,6 +148,16 @@ rat:
         radius: 6 nm
         centre: 530532N 0001021W
 
+- name: HONINGTON (24 JUL)
+  type: P
+  geometry:
+  - upper: 5300 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 4 nm
+        centre: 522036N 0004629E
+
 - name: ODIHAM (25 JUL)
   type: P
   geometry:
