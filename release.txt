@@ -9,6 +9,7 @@ Non-AIRAC:
   LONGLEAT RA(T) - Add
   ODIHAM RA(T) - Add
   SILVERSTONE RA(T) - Add
+  SYERSTON RA(T) - Add
   SYWELL RA(T) - Add
 
 AIRAC: 2025-06-12

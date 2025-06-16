@@ -337,6 +337,12 @@ rat:
     - circle:
         radius: 6 nm
         centre: 530121N 0005453W
+  - upper: 8300 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 4 nm
+        centre: 530120N 0005501W
 
 - name: COSBY (29-31 AUG)
   type: P
