@@ -277,6 +277,16 @@ rat:
         radius: 6 nm
         centre: 522948N 0010305E
 
+- name: EAST KIRKBY (2 AUG)
+  type: P
+  geometry:
+  - upper: 3000 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2 nm
+        centre: 530811N 0000019E
+
 - name: EASTBOURNE (14-17 AUG)
   type: P
   geometry:
