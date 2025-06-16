@@ -98,6 +98,31 @@ rat:
         radius: 6 nm
         centre: 510923N 0003831E
 
+- name: SILVERSTONE (4-6 JUL)
+  type: P
+  geometry:
+  - upper: 3500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2 nm
+        centre: 520227N 0010544W
+  - upper: 3500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 520410N 0010723W
+    - arc:
+        dir: cw
+        radius: 4 nm
+        centre: 520351N 0010056W
+        to: 520034N 0010438W
+    - arc:
+        dir: ccw
+        radius: 2 nm
+        centre: 520227N 0010544W
+        to: 520410N 0010723W
+
 - name: SYWELL (8-13 JUL)
   type: P
   geometry:
