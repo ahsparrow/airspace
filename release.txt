@@ -1,4 +1,5 @@
 Non-AIRAC:
+  CONINGSBY RA(T) - Add
   COSBY RA(T) - Add
   GLASTONBURY RA(T) - Add
   HONINGTON RA(T) - Add
