@@ -98,6 +98,16 @@ rat:
         radius: 6 nm
         centre: 510923N 0003831E
 
+- name: SYWELL (8-13 JUL)
+  type: P
+  geometry:
+  - upper: 5500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2 nm
+        centre: 521817N 0004729W
+
 - name: GOODWOOD (10-13 JUL)
   type: P
   geometry:

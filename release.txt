@@ -6,6 +6,7 @@ Non-AIRAC:
   HONINGTON RA(T) - Add
   LEEMING RA(T) - Add
   LONGLEAT RA(T) - Add
+  SYWELL RA(T) - Add
 
 AIRAC: 2025-06-12
   BALADO UL - Change to training aerodrome and add frequency
