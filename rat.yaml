@@ -32,57 +32,6 @@ rat:
         radius: 2.2 nm
         centre: 520527N 0000755E
 
-- name: ABINGDON (14 JUN)
-  type: P
-  geometry:
-  - upper: 6000 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 3 nm
-        centre: 514126N 0011859W
-
-- name: KING'S BIRTHDAY FLYPAST (14 JUN)
-  type: P
-  geometry:
-  - upper: 10000 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 513611N 0004133W
-      - 513611N 0001253W
-      - 512812N 0002713W
-      - 513445N 0001108W
-      - 513409N 0000826E
-      - 512700N 0000826E
-      - 512700N 0004133W
-  - upper: 5000 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 515008N 0004230W
-      - 513611N 0002353W
-      - 513611N 0004133W
-      - 514458N 0004602W
-  - upper: 2500 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 514834N 0011958W
-      - 515008N 0004230W
-      - 514458N 0004602W
-      - 514349N 0011753W
-  - upper: 2500 ft
-    lower: SFC
-    boundary:
-    - line:
-      - 514349N 0011753W
-      - 514458N 0004602W
-      - 513611N 0004133W
-      - 512700N 0004133W
-      - 512930N 0011311W
-      - 513500N 0012100W
-
 - name: IOW FESTIVAL (18-23 JUN)
   type: P
   geometry:
