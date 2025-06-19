@@ -1,3 +1,6 @@
+AIRAC: 2025-07-10
+  HALTON - 8.33 kHz channel
+
 Non-AIRAC:
   CONINGSBY RA(T) - Add
   COSBY RA(T) - Add
