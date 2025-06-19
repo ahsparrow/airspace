@@ -254,11 +254,6 @@ obstacle:
   id: UK0171A125F
   position: 530112N 0041625W
   elevation: 2079 ft
-- name: CHIRK CASTLE
-  type: OBST
-  id: UK30613700F
-  position: 525608N 0030524W
-  elevation: 1370 ft
 - name: RATCLIFFE CMN
   type: CHIM
   id: UK0171H704F
