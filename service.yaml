@@ -424,7 +424,7 @@ service:
 - callsign: HALTON RADIO
   controls:
   - halton-atz
-  frequency: 130.425
+  frequency: 130.430
 
 - callsign: HAVERFORDWEST RADIO
   controls:
