@@ -360,9 +360,10 @@ rat:
         radius: 2 nm
         centre: 511100N 0021558W
 
-- name: KEMBLE TEMPO CLASS D
+- name: KEMBLE CLASS D (NOTAM)
   type: D
   geometry:
+  # It would be good to be able to name each of these sectors in the output file.
   # CTR 5NM radius Kemble
   - upper: 4000 ft
     lower: SFC
