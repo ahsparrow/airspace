@@ -361,7 +361,8 @@ rat:
         centre: 511100N 0021558W
 
 - name: KEMBLE CLASS D (NOTAM)
-  type: D
+  type: CTA
+  class: D
   geometry:
   # CTR 5NM radius Kemble
   - name: KEMBLE CTR (NOTAM)
