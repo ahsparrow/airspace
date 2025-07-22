@@ -363,16 +363,17 @@ rat:
 - name: KEMBLE CLASS D (NOTAM)
   type: D
   geometry:
-  # It would be good to be able to name each of these sectors in the output file.
   # CTR 5NM radius Kemble
-  - upper: 4000 ft
+  - name: KEMBLE CTR (NOTAM)
+    upper: 4000 ft
     lower: SFC
     boundary:
     - circle:
         radius: 5 nm
         centre: 514005N 0020325W
   # CTR 1 (over Kemble)
-  - lower: SFC
+  - name: KEMBLE CTR-1 (NOTAM)
+    lower: SFC
     upper: 5000 ft
     boundary:
     - line:
@@ -386,7 +387,8 @@ rat:
       - 514016N 0022132W
       - 514117N 0020916W
   # CTR 2 (over Tetbury)
-  - lower: SFC
+  - name: KEMBLE CTR-2 (NOTAM)
+    lower: SFC
     upper: 4000 ft
     boundary:
     - line:
@@ -401,7 +403,8 @@ rat:
       - 514056N 0020619W
       - 514706N 0020509W
   # CTA 1 (over Fairford)
-  - lower: 4000 ft
+  - name: KEMBLE CTA-1 (NOTAM)
+    lower: 4000 ft
     upper: FL095
     boundary:
     - line:
@@ -413,7 +416,8 @@ rat:
       - 513928N 0015338W
       - 514454N 0014947W
   # CTA 2 (over Brize Norton)
-  - lower: 4000 ft
+  - name: KEMBLE CTA-2 (NOTAM)
+    lower: 4000 ft
     upper: FL105
     boundary:
     - line:
@@ -428,7 +432,8 @@ rat:
       - 514707N 0020509W
       - 515242N 0015604W
   # CTA 3 (over Cheltenham)
-  - lower: FL75
+  - name: KEMBLE CTA-3 (NOTAM)
+    lower: FL75
     upper: FL195
     boundary:
     - line:
