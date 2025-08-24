@@ -9117,6 +9117,17 @@ airspace:
         radius: 1 nm
         centre: 520837N 0020217W
 
+- name: PORTSDOWN WEST
+  type: D_OTHER
+  localtype: LASER
+  geometry:
+  - upper: 1800 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.25 nm
+        centre: 505138N 0010747W
+
 - name: UNIVERSITY OF HERTFORDSHIRE
   type: D_OTHER
   localtype: LASER
