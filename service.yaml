@@ -911,7 +911,7 @@ service:
   controls:
   - yeovilton-atz
   - yeovilton-matz
-  frequency: 127.350
+  frequency: 127.355
 
 #-----------------------------------------------------------------------
 # Civil gliding
