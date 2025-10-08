@@ -82,16 +82,3 @@ AIRAC: 2024/11/28
 
 AIRAC: 2024/10/31
   No changes
-
-AIRAC: 2024/10/03
-  No changes
-
-Non-AIRAC:
-  BATH GAP (HG/PG) - Add
-
-AIRAC: 2024/09/05
-  BRENT TOR - Frequency updated
-  CONINGTON - Update frequency
-  DUNKESWELL DZ - Update position
-  EASTERTON - Update frequency
-S MILITARY UNITS - Convert to 8.33kHz
