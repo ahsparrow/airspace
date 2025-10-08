@@ -837,7 +837,7 @@ service:
   controls:
   - waddington-atz
   - waddington-matz
-  frequency: 119.500
+  frequency: 119.505
 
 - callsign: WALNEY INFORMATION
   controls:
