@@ -1,3 +1,6 @@
+Non-AIRAC:
+  COSFORD - Remove gliding site
+
 AIRAC: 2025-10-02
   CONINGSBY - 8.33 kHz channel
   WADDINGTON - 8.33 kHz channel

@@ -10352,20 +10352,6 @@ airspace:
         radius: 1 nm
         centre: 535651N 0011116W
 
-- name: COSFORD
-  id: cosford-glider
-  type: OTHER
-  localtype: GLIDER
-  controltype: MILITARY
-  geometry:
-  - upper: 3272 ft
-    lower: SFC
-    elevation: 272 ft
-    boundary:
-    - circle:
-        radius: 1 nm
-        centre: 523824N 0021820W
-
 - name: HALTON
   id: halton-glider
   type: OTHER
