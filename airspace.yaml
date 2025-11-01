@@ -6676,18 +6676,6 @@ airspace:
         radius: 0.4 nm
         centre: 520902N 0012656W
 
-- name: D215 NORTH LUFFENHAM
-  type: D
-  rules:
-  - NOTAM
-  geometry:
-  - upper: 2400 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.34 nm
-        centre: 523754N 0003557W
-
 - name: D216 CREDENHILL
   type: D
   geometry:

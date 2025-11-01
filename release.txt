@@ -1,3 +1,6 @@
+AIRAC: 2025-10-30
+  D215 NORTH LUFFENHAM - Remove
+
 Non-AIRAC:
   COSFORD - Remove gliding site
 
@@ -86,6 +89,3 @@ AIRAC: 2024/12/26
 AIRAC: 2024/11/28
   SYWELL ATZ - Delete
   SYWELL NOATZ - Add
-
-AIRAC: 2024/10/31
-  No changes
