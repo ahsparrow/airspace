@@ -1,3 +1,6 @@
+AIRAC: 2025-11-27
+  DAVENTRY CTA - Minor adjustments to boundary CTA 12 and 13
+
 AIRAC: 2025-10-30
   D215 NORTH LUFFENHAM - Remove
 
@@ -85,7 +88,3 @@ AIRAC: 2025-01-23
 
 AIRAC: 2024/12/26
   HOGHTON UL - Update co-ordinates and elevation
-
-AIRAC: 2024/11/28
-  SYWELL ATZ - Delete
-  SYWELL NOATZ - Add
