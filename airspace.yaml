@@ -7531,12 +7531,12 @@ airspace:
     lower: SFC
     boundary:
     - line:
-      - 524819N 0003104E
+      - 524810N 0002901E
     - arc:
         dir: cw
         radius: 1.5 nm
-        centre: 524948N 0003049E
-        to: 525117N 0003033E
+        centre: 524939N 0002840E
+        to: 525108N 0002819E
     - line:
       - 525132N 0003424E
     - arc:

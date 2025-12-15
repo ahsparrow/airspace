@@ -1,3 +1,6 @@
+AIRAC: 2025-12-25
+  SANDRINGHAM HOUSE - Update coordinates
+
 AIRAC: 2025-11-27
   DAVENTRY CTA - Minor adjustments to boundary CTA 12 and 13
 
@@ -85,6 +88,3 @@ AIRAC: 2025-02-20
 
 AIRAC: 2025-01-23
   ROCHESTER - Change airfield elevation
-
-AIRAC: 2024/12/26
-  HOGHTON UL - Update co-ordinates and elevation
