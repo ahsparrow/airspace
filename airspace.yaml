@@ -9069,6 +9069,28 @@ airspace:
 #----------------------------------------------------------------------
 # ENR 5.3 (cont) LASERs
 
+- name: CHILBOLTON 1
+  type: D_OTHER
+  localtype: LASER
+  geometry:
+  - upper: FL660
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.5 nm
+        centre: 510842N 0012622W
+
+- name: CHILBOLTON 2
+  type: D_OTHER
+  localtype: LASER
+  geometry:
+  - upper: FL660
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 0.5 nm
+        centre: 510833N 0012611W
+
 - name: PORTON DOWN
   type: D_OTHER
   localtype: LASER
