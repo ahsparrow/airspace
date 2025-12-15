@@ -12967,7 +12967,7 @@ airspace:
   id: old-buckenham-atz
   type: ATZ
   geometry:
-  - upper: 2194 ft
+  - upper: 2195 ft
     lower: SFC
     boundary:
     - circle:
