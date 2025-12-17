@@ -2344,7 +2344,7 @@ loa:
     replace: []
 
 #----------------------------------------------------------------------
-- name: RILES GLIDING AREA
+- name: RILES/OSSEP GLIDING AREA
   areas:
   - name: MADLEY BOX
     add:
