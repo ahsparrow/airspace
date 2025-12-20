@@ -6488,7 +6488,7 @@ airspace:
   - SI
   geometry:
   - upper: FL660
-    lower: SFC
+    lower: FL145
     boundary:
     - line:
       - 525019N 0045319W
