@@ -1,3 +1,6 @@
+AIRAC: 2026-01-22
+  BENSON - 8.33 kHz channel
+
 Non-AIRAC:
   D120 BOSCOMBE DOWN - Correct upper level
   D201C ABERPORTH - Correct lower level
@@ -91,6 +94,3 @@ AIRAC: 2025-02-20
   ODIHAM - 8.33kHz frequency change
   WITTERING - 8.33kHz frequency change
   WITTERING - Elevation changed
-
-AIRAC: 2025-01-23
-  ROCHESTER - Change airfield elevation

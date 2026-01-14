@@ -67,7 +67,7 @@ service:
   controls:
   - benson-atz
   - benson-matz
-  frequency: 120.900
+  frequency: 120.905
 
 - callsign: BEVERLEY RADIO
   controls:
