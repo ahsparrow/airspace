@@ -1,5 +1,6 @@
 AIRAC: 2026-01-22
   BENSON - 8.33 kHz channel
+  SHAWBURY - Update elevation
 
 Non-AIRAC:
   D120 BOSCOMBE DOWN - Correct upper level

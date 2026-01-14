@@ -4700,7 +4700,7 @@ airspace:
   id: shawbury-atz
   type: ATZ
   geometry:
-  - upper: 2249 ft
+  - upper: 2248 ft
     lower: SFC
     boundary:
     - circle:
@@ -5391,8 +5391,8 @@ airspace:
   localtype: MATZ
   controltype: MILITARY
   geometry:
-  - upper: 3249 ft
-    lower: 1249 ft
+  - upper: 3248 ft
+    lower: 1248 ft
     boundary:
     - line:
       - 525736N 0023646W
@@ -10454,9 +10454,9 @@ airspace:
   localtype: GLIDER
   controltype: MILITARY
   geometry:
-  - upper: 2249 ft
+  - upper: 2248 ft
     lower: SFC
-    elevation: 249 ft
+    elevation: 248 ft
     boundary:
     - circle:
         radius: 1 nm
