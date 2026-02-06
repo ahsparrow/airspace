@@ -3448,6 +3448,76 @@ airspace:
   type: CTA
   class: D
   geometry:
+  - seq: "2"
+    upper: FL195
+    lower: 3500 ft
+    boundary:
+    - line:
+      - 544449N 0052608W
+      - 543118N 0053734W
+      - 542534N 0052320W
+      - 543542N 0051444W
+  - seq: "3"
+    upper: FL195
+    lower: FL105
+    boundary:
+    - line:
+      - 545715N 0051530W
+      - 541100N 0055428W
+      - 542634N 0061018W
+    - arc:
+        dir: cw
+        radius: 13 nm
+        centre: 543927N 0061257W
+        to: 545030N 0062442W
+    - line:
+      - 545310N 0054701W
+      - 545418N 0053000W
+  - seq: "4"
+    upper: FL195
+    lower: FL55
+    boundary:
+    - line:
+      - 542214N 0054509W
+      - 541630N 0053058W
+      - 540636N 0053913W
+      - 541100N 0055428W
+  - seq: "6"
+    upper: FL195
+    lower: FL45
+    boundary:
+    - line:
+      - 543118N 0053734W
+      - 542534N 0052320W
+      - 540805N 0044053W
+      - 535956N 0045043W
+      - 541630N 0053058W
+      - 542214N 0054509W
+  - seq: "9"
+    upper: FL195
+    lower: FL75
+    boundary:
+    - line:
+      - 541744N 0062349W
+      - 541711N 0060044W
+      - 541100N 0055428W
+      - 540915N 0054823W
+      - 540008N 0055552W
+      - 540543N 0062435W
+  - seq: "10"
+    upper: FL195
+    lower: FL55
+    boundary:
+    - line:
+      - 542755N 0062310W
+    - arc:
+        dir: ccw
+        radius: 13 NM
+        centre: 543927N 0061257W
+        to: 542634N 0061018W
+    - line:
+      - 541711N 0060044W
+      - 541744N 0062349W
   - seq: "11"
     upper: FL195
     lower: FL95
