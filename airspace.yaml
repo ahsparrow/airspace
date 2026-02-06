@@ -12368,6 +12368,17 @@ airspace:
         radius: 2 nm
         centre: 513921N 0001933W
 
+- name: ENNISKILLEN/ST ANGELO ATZ
+  id: enniskillen-st-angelo-atz
+  type: ATZ
+  geometry:
+  - upper: 2159
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2 nm
+        centre: 542355N 0073907W
+
 - name: EXETER
   id: exeter-atz
   type: ATZ
