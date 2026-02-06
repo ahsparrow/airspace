@@ -197,6 +197,39 @@ airspace:
       - 502251N 0033827W
       - 502837N 0034310W
 
+- name: BELFAST/CITY CTA
+  id: belfast-city-cta
+  type: CTA
+  class: D
+  geometry:
+  - seq: "1"
+    upper: 2000 ft
+    lower: 1500 ft
+    boundary:
+    - line:
+      - 542802N 0060613W
+      - 543121N 0060219W
+      - 542739N 0055306W
+      - 542422N 0055701W
+  - seq: "2"
+    upper: 2000 ft
+    lower: 1500 ft
+    boundary:
+    - line:
+      - 544431N 0054635W
+      - 545014N 0053939W
+      - 544632N 0053024W
+      - 544048N 0053721W
+  - seq: "3"
+    upper: 3500 ft
+    lower: 2000 ft
+    boundary:
+    - line:
+      - 542422N 0055701W
+      - 544632N 0053024W
+      - 544449N 0052608W
+      - 542016N 0054647W
+
 - name: BIRMINGHAM CTA
   id: birmingham-cta
   type: CTA
