@@ -12964,6 +12964,17 @@ airspace:
         centre: 515306N 0001406E
         to: 514508N 0001309E
 
+- name: LONDONDERRY/EGLINGTON
+  id: londonderry-eglington-atz
+  type: ATZ
+  geometry:
+  - upper: 2023 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2.5 nm
+        centre: 550234N 0070943W
+
 - name: LYDD
   id: lydd-atz
   type: ATZ
