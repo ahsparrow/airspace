@@ -11739,6 +11739,18 @@ airspace:
         radius: 1.5 nm
         centre: 521357N 0002644W
 
+- name: BELFAST
+  id: belfast-ctr
+  type: CTR
+  class: D
+  geometry:
+  - upper: FL105
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 9 nm
+        centre: 543927N 0061257W
+
 - name: BENBECULA
   id: benbecula-atz
   type: ATZ
