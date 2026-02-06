@@ -1,3 +1,6 @@
+AIRAC: 2026-02-19
+  No changes
+
 AIRAC: 2026-01-22
   BENSON - 8.33 kHz channel
   SHAWBURY - Update elevation
@@ -82,16 +85,3 @@ Non-AIRAC:
 AIRAC: 2025-03-20
   R313 SCAMPTON - Remove
   WHITE WALTHAM - Change elevation
-
-Non-AIRAC:
-  IOW FESTIVAL RA(T) - Add
-  OLD BUCKENHAM RA(T) - Add
-  OLD WARDEN RA(T) - Add
-
-AIRAC: 2025-02-20
-  MANCHESTER CTA 6 - New
-  MANCHESTER CTR - Modify coordinates
-  NETHERAVON - 8.33kHz frequency change
-  ODIHAM - 8.33kHz frequency change
-  WITTERING - 8.33kHz frequency change
-  WITTERING - Elevation changed
