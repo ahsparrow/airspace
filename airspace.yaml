@@ -3448,6 +3448,17 @@ airspace:
   type: CTA
   class: D
   geometry:
+  - seq: "1"
+    upper: FL195
+    lower: FL75
+    boundary:
+    - line:
+      - 543542N 0051444W
+      - 543230N 0051046W
+      - 542209N 0044501W
+      - 541645N 0045125W
+      - 540805N 0044053W
+      - 542534N 0052320W
   - seq: "2"
     upper: FL195
     lower: 3500 ft
@@ -3482,6 +3493,15 @@ airspace:
       - 541630N 0053058W
       - 540636N 0053913W
       - 541100N 0055428W
+  - seq: "5"
+    upper: FL195
+    lower: FL75
+    boundary:
+    - line:
+      - 541630N 0053058W
+      - 540405N 0050040W
+      - 540202N 0050543W
+      - 540636N 0053913W
   - seq: "6"
     upper: FL195
     lower: FL45
