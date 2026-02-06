@@ -3973,6 +3973,39 @@ airspace:
       - 542344N 0014159W
       - 542615N 0020534W
 
+- name: BELFAST TMA
+  id: belfast-tma
+  type: TMA
+  class: D
+  geometry:
+  - seq: "1"
+    upper: FL105
+    lower: 2000 ft
+    boundary:
+    - line:
+      - 545310N 0054701W
+      - 544632N 0053024W
+      - 542422N 0055701W
+      - 542130N 0060507W
+      - 542634N 0061018W
+    - arc:
+        dir: cw
+        radius: 13 nm
+        centre: 543927N 0061257W
+        to: 545030N 0062442W
+  - seq: "2"
+    upper: FL105
+    lower: 3500 ft
+    boundary:
+    - line:
+      - 545310N 0054701W
+      - 545418N 0053000W
+      - 545715N 0051530W
+      - 541100N 0055428W
+      - 542130N 0060507W
+      - 542422N 0055701W
+      - 544632N 0053024W
+
 - name: LONDON TMA
   type: TMA
   class: A
