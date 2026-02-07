@@ -7217,6 +7217,20 @@ airspace:
       - 525556N 0002123W
       - 530120N 0004950W
 
+- name: D401 BALLYKINLER
+  type: D
+  geometry:
+  - upper: 3200 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 541334N 0054612W
+      - 541256N 0054734W
+      - 541316N 0055038W
+      - 541440N 0054940W
+      - 541526N 0055010W
+      - 541525N 0054718W
+
 - name: D402A LUCE BAY (N)
   type: D
   rules:
