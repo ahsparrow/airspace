@@ -9335,6 +9335,17 @@ airspace:
         radius: 1 nm
         centre: 514512N 0001428W
 
+- name: PORTGLENONE
+  type: D_OTHER
+  localtype: LASER
+  geometry:
+  - upper: FL660
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 1 nm
+        centre: 545155N 0062728W
+
 #----------------------------------------------------------------------
 # ENR 5.5 Aerial sporting and recreational activities
 #
