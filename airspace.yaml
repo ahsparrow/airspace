@@ -7348,6 +7348,20 @@ airspace:
         radius: 1.25 nm
         centre: 542039N 0015125W
 
+- name: D505 MAGILLIGAN
+  type: D
+  geometry:
+  - upper: 2000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 551117N 0065827W
+      - 551307N 0065423W
+      - 551253N 0065133W
+      - 551107N 0064948W
+      - 551010N 0065158W
+      - 551008N 0065633W
+
 - name: D508 RIDSDALE
   type: D
   geometry:
