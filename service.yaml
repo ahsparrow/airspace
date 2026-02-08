@@ -18,6 +18,12 @@ service:
   - aberdeen-ctr
   frequency: 119.055
 
+- callsign: ALDERGROVE APPROACH
+  controls:
+  - belfast-ctr
+  - belfast-tma
+  frequency: 133.125
+
 - callsign: ANDREWSFIELD RADIO
   controls:
   - andrewsfield-atz
