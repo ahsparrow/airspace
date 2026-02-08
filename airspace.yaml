@@ -9550,6 +9550,17 @@ airspace:
         radius: 1.5 nm
         centre: 524817N 0040738W
 
+- name: MOVENIS
+  type: D_OTHER
+  localtype: DZ
+  geometry:
+  - upper: FL150
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 1.5 nm
+        centre: 545915N 0063853W
+
 - name: NETHERAVON
   type: D_OTHER
   localtype: DZ
