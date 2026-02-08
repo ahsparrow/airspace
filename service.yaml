@@ -345,6 +345,11 @@ service:
   - elstree-atz
   frequency: 122.405
 
+- callsign: ENNISKILLEN RADIO
+  controls:
+  - enniskillen-st-angelo-atz
+  frequency: 123.205
+
 - callsign: ENSTONE RADIO
   controls:
   - enstone-noatz
