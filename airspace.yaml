@@ -11947,7 +11947,7 @@ airspace:
         radius: 1.5 nm
         centre: 521357N 0002644W
 
-- name: BELFAST
+- name: BELFAST CTR
   id: belfast-ctr
   type: CTR
   class: D
@@ -11959,7 +11959,7 @@ airspace:
         radius: 9 nm
         centre: 543927N 0061257W
 
-- name: BELFAST/CITY
+- name: BELFAST/CITY CTR
   id: belfast-city-ctr
   type: CTR
   class: D
