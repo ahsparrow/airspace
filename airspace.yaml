@@ -12420,7 +12420,7 @@ airspace:
         radius: 2 nm
         centre: 513921N 0001933W
 
-- name: ENNISKILLEN/ST ANGELO ATZ
+- name: ENNISKILLEN/ST ANGELO
   id: enniskillen-st-angelo-atz
   type: ATZ
   geometry:
