@@ -59,6 +59,12 @@ service:
   - bedford-noatz
   frequency: 119.030
 
+- callsign: BELFAST APPROACH
+  controls:
+  - belfast-city-ctr
+  - belfast-city-cta
+  frequency: 130.850
+
 - callsign: BENBECULA APPROACH
   controls:
   - benbecula-atz
