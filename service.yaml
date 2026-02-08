@@ -555,6 +555,11 @@ service:
   - llanbedr-noatz
   frequency: 118.930
 
+- callsign: EGLINGTON APPROACH
+  controls:
+  - londonderry-eglington-atz
+  frequency: 123.630
+
 - callsign: LOSSIE RADAR
   controls:
   - kinloss-atz
