@@ -612,6 +612,11 @@ service:
   - newquay-atz
   frequency: 133.405
 
+- callsign: NEWTOWNARDS RADIO
+  controls:
+  - newtownards-atz
+  frequency: 128.305
+
 - callsign: NORTH WEALD RADIO
   controls:
   - north-weald-noatz

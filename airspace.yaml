@@ -13211,6 +13211,17 @@ airspace:
       - 502204N 0044915W
       - 502505N 0045627W
 
+- name: NEWTOWNARDS
+  id: newtownards-atz
+  type: ATZ
+  geometry:
+  - upper: 2009 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2 nm
+        centre: 543452N 0054131W
+
 - name: NORWICH CTR
   id: norwich-ctr
   type: CTR
