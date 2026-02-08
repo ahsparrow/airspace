@@ -9503,6 +9503,17 @@ airspace:
         radius: 2 nm
         centre: 511851N 0020637W
 
+- name: KILLYKERGAN
+  type: D_OTHER
+  localtype: DZ
+  geometry:
+  - upper: FL150
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 1.5 nm
+        centre: 550103N 0063951W
+
 - name: LANGAR
   type: D_OTHER
   localtype: DZ
