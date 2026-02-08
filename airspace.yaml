@@ -8381,6 +8381,22 @@ airspace:
       - 520149N 0033037W
       - 520530N 0040000W
 
+- name: TRAG NORTHERN IRELAND
+  type: D_OTHER
+  localtype: GLIDER
+  rules:
+  - TRA
+  geometry:
+  - upper: FL240
+    lower: FL195
+    boundary:
+    - line:
+      - 551010N 0065625W
+      - 551010N 0064000W
+      - 545000N 0064000W
+      - 545000N 0071600W
+      - 545617N 0071600W
+
 #----------------------------------------------------------------------
 # ENR 5.3 Other activities of a dangerous nature
 #
