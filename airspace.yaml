@@ -12424,7 +12424,7 @@ airspace:
   id: enniskillen-st-angelo-atz
   type: ATZ
   geometry:
-  - upper: 2159
+  - upper: 2159 ft
     lower: SFC
     boundary:
     - circle:
