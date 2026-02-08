@@ -3532,7 +3532,7 @@ airspace:
       - 542755N 0062310W
     - arc:
         dir: ccw
-        radius: 13 NM
+        radius: 13 nm
         centre: 543927N 0061257W
         to: 542634N 0061018W
     - line:
