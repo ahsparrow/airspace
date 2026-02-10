@@ -1,3 +1,6 @@
+Non-AIRAC
+  Add Northern Ireland airspace
+
 AIRAC: 2026-02-19
   No changes
 
