@@ -11965,7 +11965,7 @@ airspace:
   id: barra-atz
   type: ATZ
   geometry:
-  - upper: 2190 ft
+  - upper: 2005 ft
     lower: SFC
     boundary:
     - circle:
@@ -12014,7 +12014,7 @@ airspace:
   id: benbecula-atz
   type: ATZ
   geometry:
-  - upper: 2188 ft
+  - upper: 2019 ft
     lower: SFC
     boundary:
     - circle:
@@ -12232,7 +12232,7 @@ airspace:
   id: goodwood-atz
   type: ATZ
   geometry:
-  - upper: 2109 ft
+  - upper: 2111 ft
     lower: SFC
     boundary:
     - circle:
@@ -12321,7 +12321,7 @@ airspace:
   id: cumbernauld-atz
   type: ATZ
   geometry:
-  - upper: 2350 ft
+  - upper: 2348 ft
     lower: SFC
     boundary:
     - circle:
@@ -12390,7 +12390,7 @@ airspace:
   id: duxford-atz
   type: ATZ
   geometry:
-  - upper: 2125 ft
+  - upper: 2126 ft
     lower: SFC
     boundary:
     - circle:
@@ -12710,7 +12710,7 @@ airspace:
   id: inverness-atz
   type: ATZ
   geometry:
-  - upper: 2131 ft
+  - upper: 2031 ft
     lower: SFC
     boundary:
     - circle:
@@ -12721,7 +12721,7 @@ airspace:
   type: OTHER
   localtype: ILS
   geometry:
-  - upper: 2131 ft
+  - upper: 2031 ft
     lower: SFC
     boundary:
     - line:
@@ -12729,7 +12729,7 @@ airspace:
       - 572703N 0041339W
       - 572741N 0041440W
       - 573102N 0040632W
-  - upper: 2131 ft
+  - upper: 2031 ft
     lower: SFC
     boundary:
     - line:
@@ -13182,7 +13182,7 @@ airspace:
   id: newquay-atz
   type: ATZ
   geometry:
-  - upper: 2173 ft
+  - upper: 2390 ft
     lower: SFC
     boundary:
     - circle:
@@ -13193,7 +13193,7 @@ airspace:
   type: OTHER
   localtype: ILS
   geometry:
-  - upper: 2173 ft
+  - upper: 2390 ft
     lower: SFC
     boundary:
     - line:
@@ -13201,7 +13201,7 @@ airspace:
       - 503005N 0051052W
       - 503049N 0051013W
       - 502749N 0050300W
-  - upper: 2173 ft
+  - upper: 2390 ft
     lower: SFC
     boundary:
     - line:
@@ -13327,7 +13327,7 @@ airspace:
   id: perth-atz
   type: ATZ
   geometry:
-  - upper: 2397 ft
+  - upper: 2395 ft
     lower: SFC
     boundary:
     - circle:
@@ -13565,7 +13565,7 @@ airspace:
   id: stornoway-atz
   type: ATZ
   geometry:
-  - upper: 2184 ft
+  - upper: 2026 ft
     lower: SFC
     boundary:
     - circle:
@@ -13576,7 +13576,7 @@ airspace:
   id: swansea-atz
   type: ATZ
   geometry:
-  - upper: 2299 ft
+  - upper: 2298 ft
     lower: SFC
     boundary:
     - circle:
@@ -13754,7 +13754,7 @@ airspace:
   id: yeovil-atz
   type: ATZ
   geometry:
-  - upper: 2200 ft
+  - upper: 2202 ft
     lower: SFC
     boundary:
     - line:
