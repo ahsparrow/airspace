@@ -4662,7 +4662,7 @@ airspace:
   id: halton-atz
   type: ATZ
   geometry:
-  - upper: 2366 ft
+  - upper: 2369 ft
     lower: SFC
     boundary:
     - circle:
@@ -4673,7 +4673,7 @@ airspace:
   id: honington-atz
   type: ATZ
   geometry:
-  - upper: 2174 ft
+  - upper: 2172 ft
     lower: SFC
     boundary:
     - circle:
@@ -4684,7 +4684,7 @@ airspace:
   id: lakenheath-atz
   type: ATZ
   geometry:
-  - upper: 2031 ft
+  - upper: 2032 ft
     lower: SFC
     boundary:
     - circle:
@@ -4739,7 +4739,7 @@ airspace:
   id: marham-atz
   type: ATZ
   geometry:
-  - upper: 2077 ft
+  - upper: 2076 ft
     lower: SFC
     boundary:
     - circle:
@@ -4772,7 +4772,7 @@ airspace:
   id: mildenhall-atz
   type: ATZ
   geometry:
-  - upper: 2032 ft
+  - upper: 2034 ft
     lower: SFC
     boundary:
     - circle:
@@ -4844,7 +4844,7 @@ airspace:
   id: predannack-atz
   type: ATZ
   geometry:
-  - upper: 3299 ft
+  - upper: 2299 ft
     lower: SFC
     boundary:
     - circle:
@@ -4899,7 +4899,7 @@ airspace:
   id: valley-atz
   type: ATZ
   geometry:
-  - upper: 2036 ft
+  - upper: 2037 ft
     lower: SFC
     boundary:
     - circle:
@@ -4910,7 +4910,7 @@ airspace:
   id: waddington-atz
   type: ATZ
   geometry:
-  - upper: 2231 ft
+  - upper: 2230 ft
     lower: SFC
     boundary:
     - circle:
@@ -4921,7 +4921,7 @@ airspace:
   id: wattisham-atz
   type: ATZ
   geometry:
-  - upper: 2284 ft
+  - upper: 2283 ft
     lower: SFC
     boundary:
     - circle:
@@ -4932,7 +4932,7 @@ airspace:
   id: wittering-atz
   type: ATZ
   geometry:
-  - upper: 2274 ft
+  - upper: 2273 ft
     lower: SFC
     boundary:
     - circle:
@@ -5160,7 +5160,7 @@ airspace:
   localtype: MATZ
   controltype: MILITARY
   geometry:
-  - upper: 3299 ft
+  - upper: 3268 ft
     lower: SFC
     boundary:
     - line:
@@ -5269,7 +5269,7 @@ airspace:
   localtype: MATZ
   controltype: MILITARY
   geometry:
-  - upper: 3132 ft
+  - upper: 3091 ft
     lower: SFC
     boundary:
     - line:
@@ -5366,14 +5366,14 @@ airspace:
   localtype: MATZ
   controltype: MILITARY
   geometry:
-  - upper: 3077 ft
+  - upper: 3076 ft
     lower: SFC
     boundary:
     - circle:
         radius: 5 nm
         centre: 523854N 0003302E
-  - upper: 3077 ft
-    lower: 1077 ft
+  - upper: 3076 ft
+    lower: 1076 ft
     boundary:
     - line:
       - 524239N 0004837E
@@ -5384,8 +5384,8 @@ airspace:
         radius: 5 nm
         centre: 523854N 0003302E
         to: 523943N 0004108E
-  - upper: 3077 ft
-    lower: 1077 ft
+  - upper: 3076 ft
+    lower: 1076 ft
     boundary:
     - line:
       - 523507N 0001730E
@@ -5435,8 +5435,8 @@ airspace:
   localtype: MATZ
   controltype: MILITARY
   geometry:
-  - upper: 3033 ft
-    lower: 1033 ft
+  - upper: 3034 ft
+    lower: 1034 ft
     boundary:
     - line:
       - 521434N 0004312E
@@ -5454,8 +5454,8 @@ airspace:
         radius: 5 nm
         centre: 522143N 0002911E
         to: 521651N 0002714E
-  - upper: 3033 ft
-    lower: 1033 ft
+  - upper: 3034 ft
+    lower: 1034 ft
     boundary:
     - line:
       - 522553N 0001400E
@@ -5633,7 +5633,7 @@ airspace:
   localtype: MATZ
   controltype: MILITARY
   geometry:
-  - upper: 3054 ft
+  - upper: 3055 ft
     lower: SFC
     boundary:
     - line:
@@ -5651,8 +5651,8 @@ airspace:
         radius: 5 nm
         centre: 534442N 0025300W
         to: 534508N 0030123W
-  - upper: 3054 ft
-    lower: 1054 ft
+  - upper: 3055 ft
+    lower: 1055 ft
     boundary:
     - line:
       - 534406N 0023526W
@@ -5663,8 +5663,8 @@ airspace:
         radius: 5 nm
         centre: 534442N 0025300W
         to: 534158N 0024558W
-  - upper: 3054 ft
-    lower: 1054 ft
+  - upper: 3055 ft
+    lower: 1055 ft
     boundary:
     - line:
       - 534316N 0031034W
@@ -5682,14 +5682,14 @@ airspace:
   localtype: MATZ
   controltype: MILITARY
   geometry:
-  - upper: 3284 ft
+  - upper: 3283 ft
     lower: SFC
     boundary:
     - circle:
         radius: 5 nm
         centre: 520738N 0005723E
-  - upper: 3284 ft
-    lower: 1284 ft
+  - upper: 3283 ft
+    lower: 1283 ft
     boundary:
     - line:
       - 521249N 0011138E
@@ -5700,8 +5700,8 @@ airspace:
         radius: 5 nm
         centre: 520738N 0005723E
         to: 520912N 0010505E
-  - upper: 3284 ft
-    lower: 1284 ft
+  - upper: 3283 ft
+    lower: 1283 ft
     boundary:
     - line:
       - 520225N 0004311E

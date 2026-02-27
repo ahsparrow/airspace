@@ -1,6 +1,7 @@
 AIRAC: 2026-03-19
   CLACTON CTA - Revise lateral limits
   LONDON TMA - Revise lateral limits
+  Various military ATZ/MATZ - Minor changes to vertical limits
 
 Non-AIRAC
   Add Northern Ireland airspace
