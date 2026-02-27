@@ -1,3 +1,6 @@
+AIRAC: 2026-03-19
+  CLACTON CTA - Revise lateral limits
+
 Non-AIRAC
   Add Northern Ireland airspace
 
@@ -81,10 +84,3 @@ Non-AIRAC:
 
 AIRAC: 2025-04-17
   No changes
-
-Non-AIRAC:
-  STONEHENGE RA(T) - Add
-
-AIRAC: 2025-03-20
-  R313 SCAMPTON - Remove
-  WHITE WALTHAM - Change elevation
