@@ -1,3 +1,6 @@
+Non-AIRAC:
+  FAIRFORD TMZ - Add temporary TMZ
+
 AIRAC: 2026-03-19
   CLACTON CTA - Revise lateral limits
   LONDON TMA - Revise lateral limits

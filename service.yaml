@@ -147,6 +147,7 @@ service:
   controls:
   - brize-ctr
   - fairford-atz
+  - fairford-tmz
   frequency: 119.005
 
 - callsign: CAERNARFON RADIO

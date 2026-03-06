@@ -12,6 +12,20 @@
 # YAXIM project on GitLab at https://gitlab.com/ahsparrow/airspace.
 
 rat:
+- name:  FAIRFORD TMZ
+  id: fairford-tmz
+  type: OTHER
+  localtype: TMZ
+  rules:
+    - TMZ
+  geometry:
+  - lower: SFC
+    upper: FL100
+    boundary:
+    - circle:
+        radius: 8 nm
+        centre: 514101N 0014724W
+
 - name: KEMBLE CLASS D (NOTAM)
   type: CTA
   class: D
