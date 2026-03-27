@@ -1,5 +1,5 @@
 Non-AIRAC:
-  FAIRFORD TMZ - Add temporary TMZ
+  FAIRFORD TMZ - Add temporary TMZ (with cutout for Sandhill Farm)
 
 AIRAC: 2026-03-19
   CLACTON CTA - Revise lateral limits
