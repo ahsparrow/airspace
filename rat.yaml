@@ -22,6 +22,16 @@ rat:
         radius: 2 nm
         centre: 504318N 0011557W
 
+- name: HEADCORN AIRSHOW (26-28 JUN)
+  type: P
+  geometry:
+  - lower: SFC
+    upper: 3500 ft
+    boundary:
+    - circle:
+        radius: 3.5 nm
+        centre: 510924N 0003845E
+
 - name:  FAIRFORD TMZ
   id: fairford-tmz
   type: OTHER
