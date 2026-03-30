@@ -1,3 +1,6 @@
+AIRAC: 2026-04-16
+  KIRTON-IN-LINDSEY - Remove gliding site
+
 Non-AIRAC:
   FAIRFORD TMZ - Add temporary TMZ (with cutout for Sandhill Farm)
 
@@ -75,18 +78,3 @@ AIRAC: 2025-05-15
   SYERSTON - 8.33 kHz channel
   TOPCLIFFE - 8.33 kHz channel
   UPAVON - 8.33 kHz channel
-
-Non-AIRAC:
-  ABINGDON RA(T) - Add
-  COSFORD RA(T) - Add
-  DUXFORD RA(T)s - Add
-  FISHBURN RA(T) - Add
-  HEADCORN RA(T) - Add
-  RAGLEY HALL RA(T) - Add
-  RED ARROWS RA(T)s - Add
-  SHERBURN-IN-ELMET RA(T) - Add
-  SYERSTON RA(T) - Add
-  VE DAY PRACTICE RA(T) - Add
-
-AIRAC: 2025-04-17
-  No changes

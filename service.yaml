@@ -1094,11 +1094,6 @@ service:
   - keevil-glider
   frequency: 130.290
 
-- callsign: KIRTON RADIO
-  controls:
-  - kirton-in-lindsey-glider
-  frequency: 129.980
-
 - callsign: LASHAM RADIO
   controls:
   - lasham-glider

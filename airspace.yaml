@@ -10088,19 +10088,6 @@ airspace:
         radius: 1 nm
         centre: 511850N 0020643W
 
-- name: KIRTON-IN-LINDSEY
-  id: kirton-in-lindsey-glider
-  type: OTHER
-  localtype: GLIDER
-  geometry:
-  - upper: 2203 ft
-    lower: SFC
-    elevation: 203 ft
-    boundary:
-    - circle:
-        radius: 1 nm
-        centre: 532745N 0003436W
-
 - name: LASHAM
   id: lasham-glider
   type: OTHER
