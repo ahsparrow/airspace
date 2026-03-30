@@ -1,4 +1,5 @@
 AIRAC: 2026-04-16
+  EARLS COLNE - Update ATZ upper limit
   KIRTON-IN-LINDSEY - Remove gliding site
 
 Non-AIRAC:
