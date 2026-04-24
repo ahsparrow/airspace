@@ -141,7 +141,7 @@ service:
   controls:
   - bristol-cta
   - bristol-ctr
-  frequency: 125.650
+  frequency: 125.655
 
 - callsign: BRIZE RADAR
   controls:

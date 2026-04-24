@@ -1,3 +1,6 @@
+AIRAC: 2026-05-14
+  BRISTOL RADAR - 8.33 kHz channel
+
 Non-AIRAC
   HEADCORN AIRSHOW - Add
   IOW FESTIVAL RA(T) - Add
@@ -75,11 +78,3 @@ AIRAC: 2025-06-12
   BALADO UL - Change to training aerodrome and add frequency
   GLASGOW CTA - 8.33kHz channel
   PETERBOROUGH/CONINGTON - Delete
-
-AIRAC: 2025-05-15
-  LITTLE RISSINGTON - 8.33 kHz channel
-  MARHAM - Remove glider site
-  OBAN - Remove glider site
-  SYERSTON - 8.33 kHz channel
-  TOPCLIFFE - 8.33 kHz channel
-  UPAVON - 8.33 kHz channel
