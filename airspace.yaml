@@ -9854,6 +9854,18 @@ airspace:
         radius: 1 nm
         centre: 535301N 0023714W
 
+- name: COLERNE
+  type: OTHER
+  localtype: GLIDER
+  geometry:
+  - upper: 3591 ft
+    lower: SFC
+    elevation: 600 ft
+    boundary:
+    - circle:
+        radius: 1 nm
+        centre: 512631N 0021701W
+
 - name: CRANWELL
   id: cranwell-glider
   type: OTHER
