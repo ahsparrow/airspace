@@ -10075,19 +10075,6 @@ airspace:
         radius: 1 nm
         centre: 522626N 0010238W
 
-- name: KEEVIL
-  id: keevil-glider
-  type: OTHER
-  localtype: GLIDER
-  geometry:
-  - upper: 3200 ft
-    lower: SFC
-    elevation: 200 ft
-    boundary:
-    - circle:
-        radius: 1 nm
-        centre: 511850N 0020643W
-
 - name: LASHAM
   id: lasham-glider
   type: OTHER
