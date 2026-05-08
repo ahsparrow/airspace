@@ -9864,7 +9864,7 @@ airspace:
     boundary:
     - circle:
         radius: 1 nm
-        centre: 512631N 0021701W
+        centre: 512620N 0021713W
 
 - name: CRANWELL
   id: cranwell-glider
