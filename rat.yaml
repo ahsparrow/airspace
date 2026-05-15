@@ -129,10 +129,6 @@ rat:
       - 512930N 0011311W
       - 513500N 0012100W
 
- - name: STONEHENGE (20-21 JUN)
-   type: P
-   geometry:
-
 - name: IOW FESTIVAL (17-22 JUN)
   type: P
   geometry:
