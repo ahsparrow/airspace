@@ -64,6 +64,16 @@ rat:
       - 530332N 0004246W
       - 531459N 0004230W
 
+- name: COSFORD (12-14 JUN)
+  type: P
+  geometry:
+  - upper: 5300 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 523824N 0021819W
+
 - name: KING'S BIRTHDAY (13 JUN)
   type: P
   geometry:
