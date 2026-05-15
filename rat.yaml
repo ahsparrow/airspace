@@ -12,6 +12,16 @@
 # YAXIM project on GitLab at https://gitlab.com/ahsparrow/airspace.
 
 rat:
+- name: SALTBY (22-25 MAY)
+  type: P
+  geometry:
+  - upper: 5600 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 2 nm
+        centre: 524947N 0004245W
+
 - name: KING'S BIRTHDAY REHEARSAL (2-3 JUN)
   type: P
   geometry:
