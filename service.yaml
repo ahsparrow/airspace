@@ -22,7 +22,7 @@ service:
   controls:
   - belfast-ctr
   - belfast-tma
-  frequency: 133.125
+  frequency: 133.130
 
 - callsign: ANDREWSFIELD RADIO
   controls:
