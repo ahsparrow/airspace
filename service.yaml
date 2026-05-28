@@ -63,7 +63,7 @@ service:
   controls:
   - belfast-city-ctr
   - belfast-city-cta
-  frequency: 130.850
+  frequency: 130.855
 
 - callsign: BENBECULA APPROACH
   controls:

@@ -1,11 +1,16 @@
 Non-AIRAC:
+  LASHAM SGP - Add sterile area
+
+AIRAC: 2026-06-11
+  BELFAST APPROACH - 8.33 kHz channel
+
+Non-AIRAC:
   COLERNE GLIDING - Add
   COSFORD RA(T) - Add
   FAIRFORD RIAT - Add
   KEEVIL GLIDING - Delete
   KING'S BIRTHDAY RA(T) - Add
   KING'S BIRTHDAY REHEARSAL - Add
-  LASHAM SGP - Add sterile area
   RAGLEY HALL RA(T) - Add
   SALTBY RA(T) - Add
 
