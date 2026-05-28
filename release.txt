@@ -5,6 +5,7 @@ Non-AIRAC:
   KEEVIL GLIDING - Delete
   KING'S BIRTHDAY RA(T) - Add
   KING'S BIRTHDAY REHEARSAL - Add
+  LASHAM SGP - Add sterile area
   RAGLEY HALL RA(T) - Add
   SALTBY RA(T) - Add
 

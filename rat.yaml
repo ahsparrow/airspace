@@ -12,6 +12,16 @@
 # YAXIM project on GitLab at https://gitlab.com/ahsparrow/airspace.
 
 rat:
+- name: LASHAM SGP
+  type: R
+  geometry:
+  - upper: 5500 ft
+    lower: 2620 ft
+    boundary:
+    - circle:
+        radius: 5 km
+        centre: 511127N 0010337W
+
 - name: SALTBY (22-25 MAY)
   type: P
   geometry:
