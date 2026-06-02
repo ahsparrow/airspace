@@ -130,6 +130,16 @@ rat:
         radius: 2 nm
         centre: 504318N 0011557W
 
+- name: STONEHENGE (20 JUN)
+  type: P
+  geometry:
+  - lower: SFC
+    upper: 2500 ft
+    boundary:
+    - circle:
+        radius: 1.5 nm
+        centre: 511044N 0014934W
+
 - name: HEADCORN AIRSHOW (26-28 JUN)
   type: P
   geometry:
