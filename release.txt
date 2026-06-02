@@ -1,5 +1,6 @@
 Non-AIRAC:
-  LASHAM SGP - Add sterile area
+  DUXFORD RA(T) - Add
+  LASHAM SGP RA(T) - Add sterile area
   PORTON DOWN LASER - Add temporary danger areas
   SLEAP RA(T) - Add
   STONEHENGE RA(T) - Add

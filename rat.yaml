@@ -181,6 +181,16 @@ rat:
         radius: 6 nm
         centre: 525005N 0024610W
 
+- name: DUXFORD
+  type: P
+  geometry:
+  - lower: SFC
+    upper: 4500 ft
+    boundary:
+    - circle:
+        radius: 2.2 nm
+        centre: 520528N 0000757E
+
 - name:  FAIRFORD TMZ
   id: fairford-tmz
   type: OTHER
