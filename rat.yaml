@@ -140,6 +140,16 @@ rat:
         radius: 3.5 nm
         centre: 510924N 0003845E
 
+- name: SLEAP (11 JUL)
+  type: P
+  geometry:
+  - lower: SFC
+    upper: 4700 ft
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 525005N 0024610W
+
 - name:  FAIRFORD TMZ
   id: fairford-tmz
   type: OTHER
