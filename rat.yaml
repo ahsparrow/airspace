@@ -45,7 +45,7 @@ rat:
       - 531459N 0004230W
 
 - name: LASHAM SGP (4-13 JUN)
-  type: R
+  type: P
   geometry:
   - upper: 5500 ft
     lower: 2620 ft
@@ -54,6 +54,27 @@ rat:
         radius: 5 km
         centre: 511127N 0010337W
 
+- name: PORTON DOWN LASER (9-11 JUN)
+  type: D
+  geometry:
+  - name: PORTON DOWN A
+    upper: 12000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 510912N 0013907W
+      - 510921N 0013841W
+      - 510746N 0013601W
+      - 510657N 0013818W
+  - name: PORTON DOWN B
+    upper: 12000 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 510848N 0013832W
+      - 510841N 0013804W
+      - 510623N 0013818W
+      - 510657N 0014045W
 
 - name: COSFORD (12-14 JUN)
   type: P
