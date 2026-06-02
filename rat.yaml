@@ -171,6 +171,16 @@ rat:
         radius: 3.5 nm
         centre: 510924N 0003845E
 
+- name: SILVERSTONE (3-5 JUL)
+  type: P
+  geometry:
+  - lower: SFC
+    upper: 3500 ft
+    boundary:
+    - circle:
+        radius: 5.5 nm
+        centre: 520351N 0010056W
+
 - name: SLEAP (11 JUL)
   type: P
   geometry:
