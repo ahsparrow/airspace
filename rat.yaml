@@ -44,6 +44,16 @@ rat:
       - 530332N 0004246W
       - 531459N 0004230W
 
+- name: LASHAM RA(T) (4-13 JUN)
+  type: P
+  geometry:
+  - upper: 5500 ft
+    lower: SFC
+    boundary:
+    - circle:
+        radius: 3 nm
+        centre: 511132N 0010404W
+
 - name: LASHAM SGP (4-13 JUN)
   type: P
   geometry:
