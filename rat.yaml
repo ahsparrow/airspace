@@ -44,7 +44,7 @@ rat:
       - 530332N 0004246W
       - 531459N 0004230W
 
-- name: LASHAM RA(T) (4-13 JUN)
+- name: LASHAM (4-13 JUN)
   type: P
   geometry:
   - upper: 5500 ft
