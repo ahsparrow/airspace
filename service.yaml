@@ -234,11 +234,6 @@ service:
   - cosford-atz
   frequency: 135.875
 
-- callsign: COVENTRY INFORMATION
-  controls:
-  - coventry-atz
-  frequency: 123.830
-
 - callsign: CRANFIELD APPROACH
   controls:
   - cranfield-atz
