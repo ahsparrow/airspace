@@ -1,5 +1,6 @@
 Non-AIRAC:
   DUXFORD RA(T) - Add
+  FAIRFORD TMZ - Modify coordinates
   LASHAM RA(T) - Add
   LASHAM SGP - Add sterile area
   PORTON DOWN LASER - Add temporary danger areas

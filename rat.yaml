@@ -83,20 +83,28 @@ rat:
     upper: FL100
     boundary:
     - line:
-      - 513544N 0014246W
-      - 513350N 0014147W
+      - 514444N 0015847W
+      - 514556N 0015202W
+      - 514758N 0014104W
     - arc:
         dir: cw
         radius: 8 nm
         centre: 514101N 0014724W
-        to: 513647N 0013630W
+        to: 513916N 0013452W
     - line:
-      - 513724N 0013859W
+      - 513909N 0013958W
     - arc:
-        dir: ccw
-        radius: 1.5 nm
-        centre: 513614N 0014030W
-        to:  513544N 0014246W
+        dir: cw
+        radius: 5 nm
+        centre: 514101N 0014724W
+        to: 513618N 0015004W
+    - line:
+      - 513515N 0015618W
+    - arc:
+        dir: cw
+        radius: 8 nm
+        centre: 514101N 0014724W
+        to: 514444N 0015847W
 
 - name: KEMBLE CLASS D (NOTAM)
   type: CTA
