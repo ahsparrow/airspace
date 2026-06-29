@@ -32,6 +32,19 @@ rat:
         radius: 6 nm
         centre: 525005N 0024610W
 
+- name: WELLESBORNE MOUNTFORD (18-19 JUL)
+  type: P
+  geometry:
+  - lower: SFC
+    upper: 1500 ft
+    boundary:
+    - line:
+      - 521114N 0013927W
+      - 521502N 0013334W
+      - 521129N 0012506W
+      - 520759N 0013043W
+      - 520905N 0013723W
+
 - name: DUXFORD
   type: P
   geometry:
