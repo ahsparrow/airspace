@@ -1,3 +1,6 @@
+AIRAC: 2026-07-09
+  WATER EATON - Delete microlight site
+
 Non-AIRAC:
   DUXFORD RA(T) - Add
   FAIRFORD TMZ - Modify coordinates

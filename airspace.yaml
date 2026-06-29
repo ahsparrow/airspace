@@ -11831,17 +11831,6 @@ airspace:
         radius: 0.5 nm
         centre: 560856N 0041109W
 
-- name: WATER EATON
-  type: OTHER
-  localtype: UL
-  geometry:
-  - upper: 2270 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.5 nm
-        centre: 513826N 0014705W
-
 - name: WAVERTON
   type: OTHER
   localtype: UL
