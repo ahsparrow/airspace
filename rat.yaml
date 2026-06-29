@@ -12,36 +12,6 @@
 # YAXIM project on GitLab at https://gitlab.com/ahsparrow/airspace.
 
 rat:
-- name: IOW FESTIVAL (17-22 JUN)
-  type: P
-  geometry:
-  - lower: SFC
-    upper: 2000 ft
-    boundary:
-    - circle:
-        radius: 2 nm
-        centre: 504318N 0011557W
-
-- name: STONEHENGE (20 JUN)
-  type: P
-  geometry:
-  - lower: SFC
-    upper: 2500 ft
-    boundary:
-    - circle:
-        radius: 1.5 nm
-        centre: 511044N 0014934W
-
-- name: HEADCORN AIRSHOW (26-28 JUN)
-  type: P
-  geometry:
-  - lower: SFC
-    upper: 3500 ft
-    boundary:
-    - circle:
-        radius: 3.5 nm
-        centre: 510924N 0003845E
-
 - name: SILVERSTONE (3-5 JUL)
   type: P
   geometry:
