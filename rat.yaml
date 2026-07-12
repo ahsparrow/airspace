@@ -12,7 +12,7 @@
 # YAXIM project on GitLab at https://gitlab.com/ahsparrow/airspace.
 
 rat:
-- name: SNAIZEHOLME (25 JUN - 30 NOV)
+- name: SNAIZEHOLME (25 JUN-30 NOV)
   type: D
   geometry:
   - lower: SFC
@@ -20,7 +20,7 @@ rat:
     boundary:
     - circle:
         radius: 0.5 nm
-        centre: 541558N 0021548
+        centre: 541558N 0021548W
 
 - name: WELLESBORNE MOUNTFORD (18-19 JUL)
   type: P
@@ -222,3 +222,56 @@ rat:
       - 514707N 0020509W
       - 515703N 0021633W
       - 520412N 0020545W
+
+- name: OLD WARDEN
+  type: P
+  geometry:
+  - name: OLD WARDEN A
+    upper: 3500 ft
+    lower: SFC
+    boundary:
+    - line:
+      - 520803N 0002037W
+      - 520709N 0001949W
+    - arc:
+        dir: cw
+        radius: 2 nm
+        centre: 520512N 0001907W
+        to: 520650N 0001715W
+    - line:
+      - 520729N 0001558W
+    - arc:
+        dir: cw
+        radius: 3 nm
+        centre: 520512N 0001907W
+        to: 520347N 0002324W
+    - line:
+      - 520541N 0002557W
+    - arc:
+        dir: cw
+        radius: 1 nm
+        centre: 520625N 0002451W
+        to: 520724N 0002508W
+    - line:
+      - 520803N 0002037W
+
+  - name: OLD WARDEN B
+    upper: 3500 ft
+    lower: 1300 ft
+    boundary:
+    - line:
+      - 520709N 0001949W
+      - 520803N 0002037W
+    - arc:
+        dir: cw
+        radius: 3 nm
+        centre: 520512N 0001907W
+        to: 520729N 0001558W
+    - line:
+      - 520650N 0001715W
+    - arc:
+        dir: ccw
+        radius: 2 nm
+        centre: 520512N 0001907W
+        to: 520709N 0001949W
+
