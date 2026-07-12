@@ -35,6 +35,16 @@ rat:
       - 520759N 0013043W
       - 520905N 0013723W
 
+- name: SYWELL (21-26 JUL)
+  type: P
+  geometry:
+  - lower: SFC
+    upper: 5500 ft
+    boundary:
+    - circle:
+        radius: 2 nm
+        centre: 521817N 0004729W
+
 - name: SALTBY (31 JUL-02 AUG)
   type: P
   geometry:

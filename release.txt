@@ -3,6 +3,7 @@ Non-AIRAC:
   ODIHAM RA(T) - Add
   SALTBY RA(T) - Add
   SNAIZEHOLME TDA - Add
+  SYWELL RA(T) - Add
 
 AIRAC: 2026-07-09
   WATER EATON - Delete microlight site
