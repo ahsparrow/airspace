@@ -45,6 +45,17 @@ rat:
         radius: 2 nm
         centre: 521817N 0004729W
 
+- name: OLD BUCKENHAM (25-16 JUL)
+  type: P
+  geometry:
+  - lower: SFC
+    upper: 10300 ft
+    boundary:
+    - circle:
+        radius: 5 nm
+        centre: 522951N 0010307E
+
+
 - name: SALTBY (31 JUL-02 AUG)
   type: P
   geometry:
