@@ -35,15 +35,15 @@ rat:
       - 520759N 0013043W
       - 520905N 0013723W
 
-- name: DUXFORD
+- name: SALTBY (21-25 JUL)
   type: P
   geometry:
   - lower: SFC
-    upper: 4500 ft
+    upper: 5500 ft
     boundary:
     - circle:
-        radius: 2.2 nm
-        centre: 520528N 0000757E
+        radius: 2 nm
+        centre: 521817N 0004729W
 
 - name: ODIHAM (31 JUL)
   type: P
@@ -54,6 +54,16 @@ rat:
     - circle:
         radius: 3 nm
         centre: 511409N 0005634W
+
+- name: DUXFORD
+  type: P
+  geometry:
+  - lower: SFC
+    upper: 4500 ft
+    boundary:
+    - circle:
+        radius: 2.2 nm
+        centre: 520528N 0000757E
 
 - name:  FAIRFORD TMZ
   id: fairford-tmz
