@@ -15,7 +15,8 @@ rat:
 - name: SNAIZEHOLME (25 JUN-30 NOV)
   type: D
   geometry:
-  - lower: SFC
+  - name: SNAIZEHOLME (25 JUN-30 NOV)
+    lower: SFC
     upper: 7000 ft
     boundary:
     - circle:
@@ -25,7 +26,8 @@ rat:
 - name: WELLESBORNE MOUNTFORD (18-19 JUL)
   type: P
   geometry:
-  - lower: SFC
+  - name: WELLESBORNE MOUNTFORD (18-19 JUL)
+    lower: SFC
     upper: 1500 ft
     boundary:
     - line:
@@ -38,7 +40,8 @@ rat:
 - name: SYWELL (21-26 JUL)
   type: P
   geometry:
-  - lower: SFC
+  - name: SYWELL (21-26 JUL)
+    lower: SFC
     upper: 5500 ft
     boundary:
     - circle:
@@ -48,7 +51,8 @@ rat:
 - name: OLD BUCKENHAM (25-16 JUL)
   type: P
   geometry:
-  - lower: SFC
+  - name: OLD BUCKENHAM (25-16 JUL)
+    lower: SFC
     upper: 10300 ft
     boundary:
     - circle:
@@ -58,7 +62,8 @@ rat:
 - name: SALTBY (31 JUL-02 AUG)
   type: P
   geometry:
-  - lower: SFC
+  - name: SALTBY (31 JUL-02 AUG)
+    lower: SFC
     upper: 5600 ft
     boundary:
     - circle:
@@ -68,7 +73,8 @@ rat:
 - name: ODIHAM (31 JUL)
   type: P
   geometry:
-  - lower: SFC
+  - name: ODIHAM (31 JUL)
+    lower: SFC
     upper: 4000 ft
     boundary:
     - circle:
@@ -78,7 +84,8 @@ rat:
 - name: SYERSTON (20 AUG)
   type: P
   geometry:
-  - lower: SFC
+  - name: SYERSTON (20 AUG)
+    lower: SFC
     upper: 8000 ft
     boundary:
     - circle:
@@ -88,7 +95,8 @@ rat:
 - name: WYTON (27 AUG)
   type: P
   geometry:
-  - lower: SFC
+  - name: WYTON (27 AUG)
+    lower: SFC
     upper: FL75
     boundary:
     - circle:
@@ -98,7 +106,8 @@ rat:
 - name: DUXFORD
   type: P
   geometry:
-  - lower: SFC
+  - name: DUXFORD
+    lower: SFC
     upper: 4500 ft
     boundary:
     - circle:
@@ -112,7 +121,8 @@ rat:
   rules:
     - TMZ
   geometry:
-  - lower: SFC
+  - name:  FAIRFORD TMZ
+    lower: SFC
     upper: FL100
     boundary:
     - line:
