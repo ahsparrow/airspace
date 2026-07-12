@@ -55,7 +55,6 @@ rat:
         radius: 5 nm
         centre: 522951N 0010307E
 
-
 - name: SALTBY (31 JUL-02 AUG)
   type: P
   geometry:
@@ -85,6 +84,16 @@ rat:
     - circle:
         radius: 6 nm
         centre: 530117N 0005457W
+
+- name: WYTON (27 AUG)
+  type: P
+  geometry:
+  - lower: SFC
+    upper: FL75
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 522131N 0000620W
 
 - name: DUXFORD
   type: P

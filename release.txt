@@ -6,6 +6,7 @@ Non-AIRAC:
   SNAIZEHOLME TDA - Add
   SYERSTON RA(T) - Add
   SYWELL RA(T) - Add
+  WYTON RA(T) - Add
 
 AIRAC: 2026-07-09
   WATER EATON - Delete microlight site
