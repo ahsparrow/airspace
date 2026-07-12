@@ -1,5 +1,6 @@
 Non-AIRAC:
   GUSSI BOX LOA - Delete
+  ODIHAM RA(T) - Add
 
 AIRAC: 2026-07-09
   WATER EATON - Delete microlight site

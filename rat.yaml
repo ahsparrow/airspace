@@ -35,6 +35,16 @@ rat:
         radius: 2.2 nm
         centre: 520528N 0000757E
 
+- name: ODIHAM (31 JUL)
+  type: P
+  geometry:
+  - lower: SFC
+    upper: 4000 ft
+    boundary:
+    - circle:
+        radius: 3 nm
+        centre: 511409N 0005634W
+
 - name:  FAIRFORD TMZ
   id: fairford-tmz
   type: OTHER
