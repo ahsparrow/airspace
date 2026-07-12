@@ -35,15 +35,15 @@ rat:
       - 520759N 0013043W
       - 520905N 0013723W
 
-- name: SALTBY (21-25 JUL)
+- name: SALTBY (31 JUL-02 AUG)
   type: P
   geometry:
   - lower: SFC
-    upper: 5500 ft
+    upper: 5600 ft
     boundary:
     - circle:
         radius: 2 nm
-        centre: 521817N 0004729W
+        centre: 524947N 0004245W
 
 - name: ODIHAM (31 JUL)
   type: P
