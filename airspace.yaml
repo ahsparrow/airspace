@@ -11400,17 +11400,6 @@ airspace:
         radius: 0.5 nm
         centre: 502155N 0034235W
 
-- name: HARRINGE COURT FARM
-  type: OTHER
-  localtype: UL
-  geometry:
-  - upper: 2279 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 0.5 nm
-        centre: 510531N 0005918E
-
 - name: HAWKSVIEW
   type: OTHER
   localtype: UL
