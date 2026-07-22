@@ -694,7 +694,7 @@ service:
   controls:
   - prestwick-cta
   - prestwick-ctr
-  frequency: 129.450
+  frequency: 129.455
 
 - callsign: REDHILL INFORMATION
   controls:

@@ -1,3 +1,6 @@
+AIRAC: 2026-08-06
+  PRESTWICK APPROACH - 8.33 kHz channel
+
 Non-AIRAC:
   GUSSI BOX LOA - Delete
   ODIHAM RA(T) - Add
@@ -96,25 +99,3 @@ AIRAC: 2025-09-04
 
 Non-AIRAC:
   KEMBLE CLASS D - Add
-
-AIRAC: 2025-07-10
-  HALTON - 8.33 kHz channel
-
-Non-AIRAC:
-  CONINGSBY RA(T) - Add
-  COSBY RA(T) - Add
-  EAST  KIRBY RA(T) - Add
-  FAIRFORD RA(T) - Add
-  GLASTONBURY RA(T) - Add
-  HONINGTON RA(T) - Add
-  LEEMING RA(T) - Add
-  LONGLEAT RA(T) - Add
-  ODIHAM RA(T) - Add
-  SILVERSTONE RA(T) - Add
-  SYERSTON RA(T) - Add
-  SYWELL RA(T) - Add
-
-AIRAC: 2025-06-12
-  BALADO UL - Change to training aerodrome and add frequency
-  GLASGOW CTA - 8.33kHz channel
-  PETERBOROUGH/CONINGTON - Delete
