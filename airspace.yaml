@@ -13607,7 +13607,7 @@ airspace:
   id: warton-atz
   type: ATZ
   geometry:
-  - upper: 2054 ft
+  - upper: 2055 ft
     lower: SFC
     boundary:
     - circle:

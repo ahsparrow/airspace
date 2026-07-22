@@ -1,6 +1,7 @@
 AIRAC: 2026-08-06
   HARRINGE COURT FARM UL - Delete
   PRESTWICK APPROACH - 8.33 kHz channel
+  WARTON ATZ - Update elevation
   WOODVALE RADIO - 8.33 kHz channel
 
 Non-AIRAC:
