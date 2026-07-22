@@ -915,10 +915,10 @@ service:
   - wittering-matz
   frequency: 119.680
 
-- callsign: WOODVALE APPROACH
+- callsign: WOODVALE RADIO
   controls:
   - woodvale-atz
-  frequency: 121.000
+  frequency: 121.005
 
 - callsign: WYCOMBE TOWER
   controls:

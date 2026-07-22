@@ -1,5 +1,6 @@
 AIRAC: 2026-08-06
   PRESTWICK APPROACH - 8.33 kHz channel
+  WOODVALE RADIO - 8.33 kHz channel
 
 Non-AIRAC:
   GUSSI BOX LOA - Delete
