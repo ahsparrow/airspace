@@ -125,6 +125,17 @@ rat:
         radius: 3.5 nm
         centre: 523314N 0011234W
 
+- name: LONGLEAT (11-13 SEP)
+  type: P
+  geometry:
+  - name: LONGLEAT (11-13 SEP)
+    lower: SFC
+    upper: 6500 ft
+    boundary:
+    - circle:
+        radius: 2 nm
+        centre: 511100N 0021558W
+
 - name: DUXFORD
   type: P
   geometry:
