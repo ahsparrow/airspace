@@ -153,6 +153,22 @@ rat:
         radius: 2 nm
         centre: 511100N 0021558W
 
+- name: SHOBDON (19-20 SEP)
+  type: P
+  geometry:
+  - name: SHOBDON (19-20 SEP)
+    lower: SFC
+    upper: 2000 ft
+    boundary:
+    - line:
+      - 521625N 0025845W
+      - 521751N 0025235W
+      - 521344N 0024718W
+      - 520806N 0025006W
+      - 520635N 0025338W
+      - 521212N 0030003W
+      - 521625N 0025845W
+
 - name: DUXFORD
   type: P
   geometry:
