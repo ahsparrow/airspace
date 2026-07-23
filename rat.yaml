@@ -67,6 +67,17 @@ rat:
         radius: 3 nm
         centre: 511409N 0005634W
 
+- name: EAST KIRKBY (1 AUG)
+  type: P
+  geometry:
+  - name: EAST KIRKBY (1 AUG)
+    lower: SFC
+    upper: 3800 ft
+    boundary:
+    - circle:
+        radius: 2 nm
+        centre: 530811N 0000019E
+
 - name: SYERSTON (20 AUG)
   type: P
   geometry:
