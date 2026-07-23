@@ -114,6 +114,17 @@ rat:
         radius: 6 nm
         centre: 522131N 0000620W
 
+- name: COSBY (4-6 SEP)
+  type: P
+  geometry:
+  - name: COSBY (4-6 SEP)
+    lower: SFC
+    upper: 4000 ft
+    boundary:
+    - circle:
+        radius: 3.5 nm
+        centre: 523314N 0011234W
+
 - name: DUXFORD
   type: P
   geometry:
