@@ -92,7 +92,7 @@ rat:
 - name: EASTBOURNE (13-16 AUG)
   type: P
   geometry:
-  - name: EASTBOURNE (!3-16 AUG)
+  - name: EASTBOURNE (13-16 AUG)
     lower: SFC
     upper: 5500 ft
     boundary:
