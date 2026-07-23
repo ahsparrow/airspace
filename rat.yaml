@@ -103,6 +103,23 @@ rat:
         radius: 6 nm
         centre: 530117N 0005457W
 
+- name: SHERBURN-IN-ELMET (22-23 AUG)
+  type: P
+  geometry:
+  - name: SHERBURN-IN-ELMET (22-23 AUG)
+    lower: SFC
+    upper: 1500 ft
+    boundary:
+    - line:
+      - 534649N 0011632W
+      - 534757N 0011206W
+      - 534746N 0010942W
+      - 534820N 0010715W
+      - 534553N 0010811W
+      - 534358N 0011153W
+      - 534547N 0011653W
+      - 534649N 0011632W
+
 - name: WYTON (27 AUG)
   type: P
   geometry:
