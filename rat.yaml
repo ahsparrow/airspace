@@ -78,6 +78,17 @@ rat:
         radius: 2 nm
         centre: 530811N 0000019E
 
+- name: WOODCHURCH (7-9 AUG)
+  type: P
+  geometry:
+  - name: WOODCHURCH (7-9 AUG)
+    lower: SFC
+    upper: 3500 ft
+    boundary:
+    - circle:
+        radius: 2.5 nm
+        centre: 510558N 0004642E
+
 - name: EASTBOURNE (13-16 AUG)
   type: P
   geometry:
