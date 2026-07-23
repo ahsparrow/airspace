@@ -1630,6 +1630,46 @@ loa:
           - 512400N 0011001W
 
 #----------------------------------------------------------------------
+- name: LASHAM TURBO ZONES
+  areas:
+  - name: LASHAM TURBO ZONES
+    add:
+    - name: LASHAM TURBO START
+      type: CTA
+      class: B
+      geometry:
+      - upper: 2618 ft
+        lower: SFC
+        boundary:
+        - circle:
+            radius: 1.6 nm
+            centre: 511117N 0010200W
+
+    - name: LASHAM TURBO SHUTDOWN A
+      type: CTA
+      class: B
+      geometry:
+      - upper: 2618 ft
+        lower: SFC
+        boundary:
+        - circle:
+            radius: 1.1 nm
+            centre: 511333N 0010527W
+
+    - name: LASHAM TURBO SHUTDOWN B
+      type: CTA
+      class: B
+      geometry:
+      - upper: 2618 ft
+        lower: SFC
+        boundary:
+        - circle:
+            radius: 1.1 nm
+            centre: 510920N 0010657W
+
+    replace: []
+
+#----------------------------------------------------------------------
 - name: NUCLEAR EXEMPTIONS
   areas:
   - name: NUCLEAR EXEMPTIONS
