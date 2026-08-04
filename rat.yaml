@@ -78,6 +78,17 @@ rat:
         radius: 2 nm
         centre: 530811N 0000019E
 
+- name: LEICESTER (HB COMP 7-9 AUG)
+  type: P
+  geometry:
+  - name: LEICESTER (7-9 AUG)
+    lower: SFC
+    upper: 5600 ft
+    boundary:
+    - circle:
+        radius: 2 nm
+        centre: 523620N 0010202W
+
 - name: WOODCHURCH (7-9 AUG)
   type: P
   geometry:

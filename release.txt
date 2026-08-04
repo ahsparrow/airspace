@@ -4,6 +4,7 @@ Non-AIRAC:
   EASTBOURNE RA(T) - Add
   LASHAM TURBO ZONES - Add
   LONGLEAT RA(T) - Add
+  LEICESTER RA(T) - Add for HB comp
   SHERBURN-IN-ELMET RA(T) - Add
   SHOBDON RA(T) - Add
   WOODCHURCH RA(T) - Add
