@@ -7,6 +7,7 @@ Non-AIRAC:
   LONGLEAT RA(T) - Add
   LEICESTER RA(T) - Add for HB comp
   SHERBURN-IN-ELMET RA(T) - Add
+  SIDMOUTH RA(T) - Add
   SHOBDON RA(T) - Add
   WOODCHURCH RA(T) - Add
 

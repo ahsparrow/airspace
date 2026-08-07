@@ -98,6 +98,17 @@ rat:
         radius: 6 nm
         centre: 522131N 0000620W
 
+- name: SIDMOUTH (28-29 AUG)
+  type: P
+  geometry:
+  - name: SIDMOUTH (28-29 AUG)
+    lower: SFC
+    upper: 8000 ft
+    boundary:
+    - circle:
+        radius: 6 nm
+        centre: 504027N 0031413W
+
 - name: COSBY (4-6 SEP)
   type: P
   geometry:
