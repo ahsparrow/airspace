@@ -1675,7 +1675,7 @@ loa:
   - name: NUCLEAR EXEMPTIONS
     add:
     - name: ALDERMASTON FENCE
-      type: R
+      type: P
       geometry:
       - upper: 2400 ft
         lower: SFC
@@ -1691,7 +1691,7 @@ loa:
           - 512138N 0010941W
 
     - name: BURGHFIELD FENCE
-      type: R
+      type: P
       geometry:
       - upper: 2400 ft
         lower: SFC
