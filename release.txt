@@ -1,5 +1,6 @@
 Non-AIRAC:
   COSBY RA(T) - Add
+  D123 & D125 - Split into upper and lower regions
   EAST KIRKBY RA(T) - Add
   EASTBOURNE RA(T) - Add
   LASHAM TURBO ZONES - Add

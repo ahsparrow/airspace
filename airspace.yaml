@@ -6371,13 +6371,33 @@ airspace:
       - 511233N 0013942W
       - 511247N 0013759W
 
-- name: D123 IMBER
+- name: D123 IMBER UPPER
   type: D
   rules:
   - SI
   geometry:
   - id: imber
     upper: 23000 ft
+    lower: 3000 ft
+    boundary:
+    - line:
+      - 511724N 0020107W
+      - 511339N 0015746W
+      - 511348N 0015705W
+      - 511023N 0015325W
+      - 511006N 0015702W
+      - 511106N 0020713W
+      - 511329N 0021149W
+      - 511516N 0020939W
+      - 511705N 0020312W
+
+- name: D123 IMBER
+  type: D
+  rules:
+  - SI
+  geometry:
+  - id: imber
+    upper: 3000 ft
     lower: SFC
     boundary:
     - line:
@@ -6404,12 +6424,29 @@ airspace:
         radius: 1.5 nm
         centre: 511527N 0015812W
 
-- name: D125 LARKHILL
+- name: D125 LARKHILL UPPER
   type: D
   rules:
   - SI
   geometry:
   - upper: 23000 ft
+    lower: 3000 ft
+    boundary:
+    - line:
+      - 511828N 0015004W
+      - 511059N 0014641W
+      - 511023N 0015325W
+      - 511348N 0015705W
+      - 511339N 0015746W
+      - 511724N 0020107W
+      - 511807N 0015635W
+
+- name: D125 LARKHILL
+  type: D
+  rules:
+  - SI
+  geometry:
+  - upper: 3000 ft
     lower: SFC
     boundary:
     - line:
