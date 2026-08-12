@@ -6,6 +6,7 @@ Non-AIRAC:
   LASHAM TURBO ZONES - Add
   LONGLEAT RA(T) - Add
   LEICESTER RA(T) - Add for HB comp
+  MOORFOOTS (HG/PG) LOA - Add
   SHERBURN-IN-ELMET RA(T) - Add
   SIDMOUTH RA(T) - Add
   SHOBDON RA(T) - Add
