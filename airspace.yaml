@@ -6282,18 +6282,6 @@ airspace:
         centre: 514313N 0042144W
         to: 514001N 0042400W
 
-- name: D119 BRIDGEWATER BAY
-  type: D
-  rules:
-  - NOTAM
-  geometry:
-  - upper: 5000 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 4 nm
-        centre: 511224N 0031353W
-
 - name: D120 BOSCOMBE DOWN
   type: D
   rules:
