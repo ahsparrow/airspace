@@ -13179,7 +13179,7 @@ airspace:
   id: newtownards-atz
   type: ATZ
   geometry:
-  - upper: 2009 ft
+  - upper: 2007 ft
     lower: SFC
     boundary:
     - circle:
