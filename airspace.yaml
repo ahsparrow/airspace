@@ -13361,17 +13361,6 @@ airspace:
         radius: 2 nm
         centre: 512107N 0003010E
 
-- name: SANDTOFT
-  id: sandtoft-atz
-  type: ATZ
-  geometry:
-  - upper: 2013 ft
-    lower: SFC
-    boundary:
-    - circle:
-        radius: 2 nm
-        centre: 533335N 0005130W
-
 - name: SHERBURN
   id: sherburn-atz
   type: ATZ

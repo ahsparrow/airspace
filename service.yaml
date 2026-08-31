@@ -716,11 +716,6 @@ service:
   - sandown-noatz
   frequency: 119.280
 
-- callsign: SANDTOFT RADIO
-  controls:
-  - sandtoft-atz
-  frequency: 130.415
-
 - callsign: SEETHING RADIO
   controls:
   - seething-noatz
