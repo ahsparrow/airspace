@@ -1,5 +1,6 @@
 AIRAC: 2026-09-03
   D119 BRIDGWATER BAY - Delete
+  LEUCHARS ATZ/MATZ - Update channel
 
 Non-AIRAC:
   COSBY RA(T) - Add

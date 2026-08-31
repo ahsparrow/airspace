@@ -534,11 +534,11 @@ service:
   - leicester-atz
   frequency: 122.130
 
-- callsign: LEUCHARS RADAR
+- callsign: LEUCHARS TOWER
   controls:
   - leuchars-atz
   - leuchars-matz
-  frequency: 126.505
+  frequency: 119.230
 
 - callsign: LIVERPOOL APPROACH
   controls:
