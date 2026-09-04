@@ -1,3 +1,6 @@
+Non-AIRAC:
+  P600 GLIDING ACCESS LOA - Update extents
+
 AIRAC: 2026-09-03
   D119 BRIDGWATER BAY - Delete
   EYRES FIELD - Delete
