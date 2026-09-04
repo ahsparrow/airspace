@@ -2254,16 +2254,17 @@ loa:
           - 562341N 0031445W
 
 #----------------------------------------------------------------------
-- name: P600/SCOTTISH TMA
+- name: P600 GLIDING AREA
   areas:
-  - name: P600/TMA ACCESS
+  - name: P600 GLIDING AREA
     add:
-    - name: SCOTTISH TMA ACCESS
+    - name: SCOTTISH TMA 3 ACCESS
       type: CTA
       class: D
       geometry:
       - upper: FL190
         lower: 6000 ft
+        class: D
         boundary:
         - line:
           - 561400N 0040926W
@@ -2271,7 +2272,7 @@ loa:
           - 560700N 0032938W
           - 560700N 0040000W
 
-    - name: P600 ACCESS
+    - name: TAY CTA 1 ACCESS
       type: CTA
       class: A
       geometry:
@@ -2285,18 +2286,23 @@ loa:
           - 561400N 0033259W
           - 561400N 0040926W
           - 562000N 0034746W
+
+    - name: TAY CTA 2 ACCESS
+      type: CTA
+      class: A
+      geometry:
       - id: p600-access-area-b
         upper: FL190
         lower: FL85
         boundary:
         - line:
           - 562948N 0032900W
-          - 562633N 0032207W
-          - 562429N 0031648W
-          - 562219N 0031721W
+          - 562756N 0032503W
+          - 561647N 0032746W
           - 561555N 0032923W
           - 562146N 0034425W
-    - name: STRATHALLAN
+
+    - name: STRATHALLAN BUFFER
       type: D
       class: A
       geometry:
@@ -2357,6 +2363,7 @@ loa:
           - 561400N 0033259W
           - 561400N 0040926W
           - 562000N 0034746W
+
     - id: tay-cta-2
       geometry:
       - id: p600-access-tay-2a
@@ -2366,20 +2373,22 @@ loa:
         boundary:
         - line:
           - 562948N 0032900W
-          - 562633N 0032207W
-          - 562341N 0031445W
-          - 562219N 0031721W
+          - 562756N 0032503W
+          - 561647N 0032746W
           - 561555N 0032923W
           - 562146N 0034425W
+
       - id: p600-access-tay-2b
         seq: 2B
         upper: FL195
         lower: FL85
         boundary:
         - line:
-          - 562429N 0031648W
+          - 562756N 0032503W
+          - 562633N 0032207W
           - 562341N 0031445W
           - 562219N 0031721W
+          - 561647N 0032746W
 
 #----------------------------------------------------------------------
 - name: RAYMILL HOUSE
