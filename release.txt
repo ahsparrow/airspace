@@ -1,3 +1,6 @@
+AIRAC: 2026-10-01
+  No changes
+
 Non-AIRAC:
   EDINBORGH STGC CORRIDOR L0A - Delete
   P600 GLIDING ACCESS LOA - Update extents
