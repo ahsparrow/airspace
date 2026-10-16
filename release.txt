@@ -1,3 +1,6 @@
+AIRAC: 2027-10-29
+  CAMPBELLTOWN ATZ - Update elevation
+
 AIRAC: 2026-10-01
   No changes
 

@@ -12159,7 +12159,7 @@ airspace:
   id: campbeltown-atz
   type: ATZ
   geometry:
-  - upper: 2042 ft
+  - upper: 2039 ft
     lower: SFC
     boundary:
     - circle:
