@@ -15,35 +15,6 @@
 
 loa:
 #----------------------------------------------------------------------
-- name: AMPIT TRIANGLE
-  areas:
-  - name: AMPIT TRIANGLE
-    add:
-    - name: AMPIT TRIANGLE
-      type: CTA
-      class: C
-      geometry:
-      - upper: FL185
-        lower: FL145
-        boundary:
-        - line:
-          - 531957N 0033954W
-          - 531855N 0031647W
-          - 530813N 0031736W
-
-    replace:
-    - id: holyhead-cta-1
-      geometry:
-      - seq: 1A
-        upper: FL195
-        lower: FL185
-        boundary:
-        - line:
-          - 531957N 0033954W
-          - 531855N 0031647W
-          - 530813N 0031736W
-
-#----------------------------------------------------------------------
 - name: BATH GAP
   areas:
   - name: BATH GAP
