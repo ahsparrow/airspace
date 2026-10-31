@@ -1,3 +1,6 @@
+AIRAC: 2026-10-26
+  ABERDEEN CTA 3/4 - Modify CTA 3 and add CTA 4
+
 AIRAC: 2027-10-29
   CAMPBELLTOWN ATZ - Update elevation
 
@@ -113,9 +116,3 @@ AIRAC: 2025-12-25
   CHILBOLTON - Add lasers
   OLD BUCKENHAM - Update elevation
   SANDRINGHAM HOUSE - Update coordinates
-
-AIRAC: 2025-11-27
-  DAVENTRY CTA - Minor adjustments to boundary CTA 12 and 13
-
-AIRAC: 2025-10-30
-  D215 NORTH LUFFENHAM - Remove

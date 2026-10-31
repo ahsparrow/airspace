@@ -63,21 +63,31 @@ airspace:
     boundary:
     - line:
       - 572100N 0023356W
-      - 570015N 0025056W
-      - 565433N 0023557W
-      - 565533N 0020635W
     - arc:
-        dir: cw
-        radius: 10 nm
-        centre: 570531N 0020740W
-        to: 570214N 0022458W
-    - line:
-      - 571520N 0023326W
-    - arc:
-        dir: cw
+        dir: ccw
         radius: 10 nm
         centre: 571834N 0021602W
-        to: 572100N 0023356W
+        to: 571519N 0023327W
+    - line:
+      - 570214N 0022458W
+    - arc:
+        dir: ccw
+        radious: 10 nm
+        centre: 570531N 0020740W
+        to: 565533N 0020635W
+    - line:
+      - 565450N 0022800W
+      - 571327N 0024010W
+      - 572100N 0023356W
+  - seq: "4"
+    upper: FL115
+    lower: 4500 ft
+    boundary:
+    - line:
+      - 571327N 0024010W
+      - 565450N 0022800W
+      - 565433N 0023557W
+      - 570015N 0025056W
 
 - name: ARGYLL CTA
   type: CTA
