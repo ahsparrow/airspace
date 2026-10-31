@@ -11929,7 +11929,7 @@ airspace:
         centre: 571207N 0021152W
         to: 570850N 0022913W
     - line:
-      - 571520N 0023326W
+      - 571519N 0023327W
     - arc:
         dir: cw
         radius: 10 nm

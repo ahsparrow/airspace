@@ -1,5 +1,6 @@
 AIRAC: 2026-10-26
   ABERDEEN CTA 3/4 - Modify CTA 3 and add CTA 4
+  ABERDEEN CTR - Tweak lateral limits
 
 AIRAC: 2027-10-29
   CAMPBELLTOWN ATZ - Update elevation
