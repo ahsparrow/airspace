@@ -1,4 +1,4 @@
-AIRAC: 2026-10-26
+AIRAC: 2026-11-26
   ABERDEEN CTA 3/4 - Modify CTA 3 and add CTA 4
   ABERDEEN CTR - Tweak lateral limits
 
