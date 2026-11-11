@@ -72,7 +72,7 @@ airspace:
       - 570214N 0022458W
     - arc:
         dir: ccw
-        radious: 10 nm
+        radius: 10 nm
         centre: 570531N 0020740W
         to: 565533N 0020635W
     - line:
